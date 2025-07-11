@@ -1,7 +1,15 @@
 PODS:
   - Flutter (1.0.0)
+  - flutter_inappwebview_ios (0.0.1):
+    - Flutter
+    - flutter_inappwebview_ios/Core (= 0.0.1)
+    - OrderedSet (~> 6.0.3)
+  - flutter_inappwebview_ios/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 6.0.3)
   - flutter_native_splash (2.4.3):
     - Flutter
+  - OrderedSet (6.0.3)
   - path_provider_foundation (0.0.1):
     - Flutter
     - FlutterMacOS
@@ -16,15 +24,22 @@ PODS:
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
+  - flutter_inappwebview_ios (from `.symlinks/plugins/flutter_inappwebview_ios/ios`)
   - flutter_native_splash (from `.symlinks/plugins/flutter_native_splash/ios`)
   - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
   - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
   - sqflite (from `.symlinks/plugins/sqflite/darwin`)
   - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
 
+SPEC REPOS:
+  trunk:
+    - OrderedSet
+
 EXTERNAL SOURCES:
   Flutter:
     :path: Flutter
+  flutter_inappwebview_ios:
+    :path: ".symlinks/plugins/flutter_inappwebview_ios/ios"
   flutter_native_splash:
     :path: ".symlinks/plugins/flutter_native_splash/ios"
   path_provider_foundation:
@@ -38,7 +53,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
+  flutter_inappwebview_ios: b89ba3482b96fb25e00c967aae065701b66e9b99
   flutter_native_splash: c32d145d68aeda5502d5f543ee38c192065986cf
+  OrderedSet: e539b66b644ff081c73a262d24ad552a69be3a94
   path_provider_foundation: 080d55be775b7414fd5a5ef3ac137b97b097e564
   shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
   sqflite: c35dad70033b8862124f8337cc994a809fcd9fa3

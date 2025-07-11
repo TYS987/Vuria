@@ -1,4 +1,5 @@
 import 'package:flutter/services.dart';
+import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 
@@ -87,6 +88,7 @@ class _MyAppState extends State<MyApp> {
       ),
       themeMode: _themeMode,
       routerConfig: _router,
+        builder: EasyLoading.init(),  
     );
   }
 }
