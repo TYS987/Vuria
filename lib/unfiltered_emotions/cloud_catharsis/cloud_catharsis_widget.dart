@@ -72,7 +72,7 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.network(
+                            image: Image.asset(
                               FFAppState()
                                   .necronomiconHealingComfortU
                                   .where((e) =>

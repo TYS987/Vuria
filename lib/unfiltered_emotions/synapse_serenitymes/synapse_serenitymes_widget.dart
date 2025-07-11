@@ -221,7 +221,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.network(
+                                                image: Image.asset(
                                                   FFAppState()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
@@ -380,7 +380,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.network(
+                                                image: Image.asset(
                                                   FFAppState()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>

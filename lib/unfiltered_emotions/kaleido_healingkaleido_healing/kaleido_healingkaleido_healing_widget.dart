@@ -87,7 +87,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.cover,
-                                image: Image.network(
+                                image: Image.asset(
                                   FFAppState()
                                       .necronomiconHealingComfortU
                                       .where((e) =>
@@ -421,7 +421,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.network(
+                                                          image: Image.asset(
                                                             FFAppState()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
@@ -524,7 +524,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.network(
+                                                          image: Image.asset(
                                                             FFAppState()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
@@ -644,7 +644,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.network(
+                                                image: Image.asset(
                                                   feelingConvergencePointItem
                                                       .brinePoolSolacenSongTearsI
                                                       .firstOrNull!,

@@ -65,7 +65,7 @@ class _IntimateMomentsShareWidgetState
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.network(
+              image: Image.asset(
                 FFAppState()
                     .azothConfessionsathanorSolaceMP
                     .where((e) =>
@@ -117,7 +117,7 @@ class _IntimateMomentsShareWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.network(
+                              image: Image.asset(
                                 FFAppState()
                                     .piedPiperSoulsebeardWhiImgasBP
                                     .where((e) =>
@@ -328,7 +328,7 @@ class _IntimateMomentsShareWidgetState
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
-                                          image: Image.network(
+                                          image: Image.asset(
                                             FFAppState()
                                                 .necronomiconHealingComfortU
                                                 .where((e) =>
@@ -428,7 +428,7 @@ class _IntimateMomentsShareWidgetState
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
-                                    image: Image.network(
+                                    image: Image.asset(
                                       FFAppState()
                                           .necronomiconHealingComfortU
                                           .where((e) =>

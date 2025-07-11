@@ -87,7 +87,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: Image.network(
+                                        image: Image.asset(
                                           FFAppState()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
@@ -609,7 +609,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.network(
+                                                          image: Image.asset(
                                                             FFAppState()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
@@ -708,7 +708,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.network(
+                                                          image: Image.asset(
                                                             FFAppState()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
@@ -763,7 +763,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.network(
+                                                image: Image.asset(
                                                   soulfulDialoguePodItem
                                                       .brinePoolSolacenSongTearsI
                                                       .firstOrNull!,

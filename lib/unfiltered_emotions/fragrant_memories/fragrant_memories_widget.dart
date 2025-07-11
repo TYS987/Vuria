@@ -393,7 +393,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.network(
+                                              image: Image.asset(
                                                 heartfeltBondGeneratorItem
                                                     .dustStormSoulsgasMaskBonim
                                                     .firstOrNull!,
@@ -408,7 +408,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.network(
+                                              image: Image.asset(
                                                 heartfeltBondGeneratorItem
                                                     .dustStormSoulsgasMaskBonim
                                                     .lastOrNull!,

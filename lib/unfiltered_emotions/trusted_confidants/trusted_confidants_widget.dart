@@ -170,7 +170,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.network(
+                                              image: Image.asset(
                                                 feelingExchangePortalemotionItem
                                                     .homunculusHugsImag,
                                               ).image,
@@ -357,7 +357,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.network(
+                                                          image: Image.asset(
                                                             FFAppState()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>

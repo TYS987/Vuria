@@ -283,7 +283,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                     decoration: BoxDecoration(
                                                       image: DecorationImage(
                                                         fit: BoxFit.cover,
-                                                        image: Image.network(
+                                                        image: Image.asset(
                                                           empathyWavelengthMatchItem
                                                               .dustStormSoulsgasMaskBonim
                                                               .firstOrNull!,
@@ -316,7 +316,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.network(
+                                                  image: Image.asset(
                                                     empathyWavelengthMatchItem
                                                         .dustStormSoulsgasMaskBonim
                                                         .lastOrNull!,
