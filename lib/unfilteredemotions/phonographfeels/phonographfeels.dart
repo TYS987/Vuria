@@ -1,3 +1,5 @@
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -14,10 +16,7 @@ class PhonographFeelsWidget extends StatefulWidget {
 }
 
 class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
-
-
-    int? symbioticVulnerable = 0;
-
+  int? symbioticVulnerable;
 
   FocusNode? textFieldFocusNode;
   TextEditingController? textController;
@@ -29,14 +28,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
   void initState() {
     super.initState();
 
-
-  textController ??= TextEditingController();
- textFieldFocusNode ??= FocusNode();
+    textController ??= TextEditingController();
+    textFieldFocusNode ??= FocusNode();
   }
 
   @override
   void dispose() {
-
     textFieldFocusNode?.dispose();
     textController?.dispose();
     super.dispose();
@@ -142,71 +139,77 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             ),
                       ),
                     ),
-                    Container(
-                      height: 60.0,
-                      decoration: BoxDecoration(),
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 0.0, 0.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 16.0, 0.0),
-                              child: Builder(
-                                builder: (context) {
-                                  if (symbioticVulnerable == 0) {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/analogMoonlight.png',
-                                          ).image,
+                    InkWell(
+                      onTap: () async {
+                        symbioticVulnerable = 0;
+                        setState(() {});
+                      },
+                      child: Container(
+                        height: 60.0,
+                        decoration: BoxDecoration(),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 0.0, 0.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 16.0, 0.0),
+                                child: Builder(
+                                  builder: (context) {
+                                    if (symbioticVulnerable == 0) {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/analogMoonlight.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  } else {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/vacuumTubeTrust.png',
-                                          ).image,
+                                      );
+                                    } else {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/vacuumTubeTrust.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  }
-                                },
+                                      );
+                                    }
+                                  },
+                                ),
                               ),
-                            ),
-                            Text(
-                              'Harassment',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
+                              Text(
+                                'Harassment',
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.w500,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xE6000000),
-                                    fontSize: 16.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -214,71 +217,77 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                       thickness: 1.0,
                       color: Color(0xFFF5F5F5),
                     ),
-                    Container(
-                      height: 60.0,
-                      decoration: BoxDecoration(),
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 0.0, 0.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 16.0, 0.0),
-                              child: Builder(
-                                builder: (context) {
-                                  if (symbioticVulnerable == 0) {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/analogMoonlight.png',
-                                          ).image,
+                    InkWell(
+                      onTap: () async {
+                        symbioticVulnerable = 1;
+                        setState(() {});
+                      },
+                      child: Container(
+                        height: 60.0,
+                        decoration: BoxDecoration(),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 0.0, 0.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 16.0, 0.0),
+                                child: Builder(
+                                  builder: (context) {
+                                    if (symbioticVulnerable == 1) {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/analogMoonlight.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  } else {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/vacuumTubeTrust.png',
-                                          ).image,
+                                      );
+                                    } else {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/vacuumTubeTrust.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  }
-                                },
+                                      );
+                                    }
+                                  },
+                                ),
                               ),
-                            ),
-                            Text(
-                              'Malicious fraud',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
+                              Text(
+                                'Malicious fraud',
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.w500,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xE6000000),
-                                    fontSize: 16.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -286,71 +295,77 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                       thickness: 1.0,
                       color: Color(0xFFF5F5F5),
                     ),
-                    Container(
-                      height: 60.0,
-                      decoration: BoxDecoration(),
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 0.0, 0.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 16.0, 0.0),
-                              child: Builder(
-                                builder: (context) {
-                                  if (symbioticVulnerable == 0) {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/analogMoonlight.png',
-                                          ).image,
+                    InkWell(
+                      onTap: () async {
+                        symbioticVulnerable = 2;
+                        setState(() {});
+                      },
+                      child: Container(
+                        height: 60.0,
+                        decoration: BoxDecoration(),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 0.0, 0.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 16.0, 0.0),
+                                child: Builder(
+                                  builder: (context) {
+                                    if (symbioticVulnerable == 2) {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/analogMoonlight.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  } else {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/vacuumTubeTrust.png',
-                                          ).image,
+                                      );
+                                    } else {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/vacuumTubeTrust.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  }
-                                },
+                                      );
+                                    }
+                                  },
+                                ),
                               ),
-                            ),
-                            Text(
-                              'Pornography',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
+                              Text(
+                                'Pornography',
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.w500,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xE6000000),
-                                    fontSize: 16.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -358,71 +373,77 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                       thickness: 1.0,
                       color: Color(0xFFF5F5F5),
                     ),
-                    Container(
-                      height: 60.0,
-                      decoration: BoxDecoration(),
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 0.0, 0.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 16.0, 0.0),
-                              child: Builder(
-                                builder: (context) {
-                                  if (symbioticVulnerable == 0) {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/analogMoonlight.png',
-                                          ).image,
+                    InkWell(
+                      onTap: () async {
+                        symbioticVulnerable = 3;
+                        setState(() {});
+                      },
+                      child: Container(
+                        height: 60.0,
+                        decoration: BoxDecoration(),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 0.0, 0.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 16.0, 0.0),
+                                child: Builder(
+                                  builder: (context) {
+                                    if (symbioticVulnerable == 3) {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/analogMoonlight.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  } else {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/vacuumTubeTrust.png',
-                                          ).image,
+                                      );
+                                    } else {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/vacuumTubeTrust.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  }
-                                },
+                                      );
+                                    }
+                                  },
+                                ),
                               ),
-                            ),
-                            Text(
-                              'Malicious insults',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
+                              Text(
+                                'Malicious insults',
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.w500,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xE6000000),
-                                    fontSize: 16.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -430,71 +451,77 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                       thickness: 1.0,
                       color: Color(0xFFF5F5F5),
                     ),
-                    Container(
-                      height: 60.0,
-                      decoration: BoxDecoration(),
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 0.0, 0.0),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.max,
-                          children: [
-                            Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 0.0, 16.0, 0.0),
-                              child: Builder(
-                                builder: (context) {
-                                  if (symbioticVulnerable == 0) {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/analogMoonlight.png',
-                                          ).image,
+                    InkWell(
+                      onTap: () async {
+                        symbioticVulnerable = 4;
+                        setState(() {});
+                      },
+                      child: Container(
+                        height: 60.0,
+                        decoration: BoxDecoration(),
+                        child: Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              24.0, 0.0, 0.0, 0.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 0.0, 16.0, 0.0),
+                                child: Builder(
+                                  builder: (context) {
+                                    if (symbioticVulnerable == 4) {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/analogMoonlight.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  } else {
-                                    return Container(
-                                      width: 20.0,
-                                      height: 20.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/vacuumTubeTrust.png',
-                                          ).image,
+                                      );
+                                    } else {
+                                      return Container(
+                                        width: 20.0,
+                                        height: 20.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/vacuumTubeTrust.png',
+                                            ).image,
+                                          ),
                                         ),
-                                      ),
-                                    );
-                                  }
-                                },
+                                      );
+                                    }
+                                  },
+                                ),
                               ),
-                            ),
-                            Text(
-                              'False Information',
-                              style: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
+                              Text(
+                                'False Information',
+                                style: FlutterFlowTheme.of(context)
+                                    .bodyMedium
+                                    .override(
+                                      font: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.w500,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xE6000000),
-                                    fontSize: 16.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -619,8 +646,22 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                               maxLines: 10,
                               maxLength: 150,
-                              validator: textControllerValidator
-                                  .asValidator(context),
+                              buildCounter: (
+                                BuildContext context, {
+                                required int currentLength,
+                                required int? maxLength,
+                                required bool isFocused,
+                              }) {
+                                return Text(
+                                  '$currentLength/$maxLength',
+                                  style: TextStyle(
+                                    color: Color(0xFFFF6206),
+                                    fontSize: 12,
+                                  ),
+                                );
+                              },
+                              validator:
+                                  textControllerValidator.asValidator(context),
                             ),
                           ),
                         ),
@@ -629,32 +670,57 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 83.0, 0.0, 0.0),
-                      child: Container(
-                        width: 345.0,
-                        height: 62.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFFF690C),
-                          borderRadius: BorderRadius.circular(44.0),
-                        ),
-                        alignment: AlignmentDirectional(0.0, 0.0),
-                        child: Text(
-                          'Submit',
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Color(0xE6FFFFFF),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
+                      child: InkWell(
+                        onTap: () async {
+                          if (symbioticVulnerable != null ||
+                              textController.text.trim().isNotEmpty) {
+                            await showCustomLoading(
+                              message:
+                                  'The report has been submitted and we will handle it as soon as possible',
+                              icon: Icons.verified_user,
+                              duration: Duration(seconds: 2),
+                            );
+                            textController?.clear();
+                            symbioticVulnerable = null;
+                       setState(() {});
+                       Navigator.pop(context); 
+                          } else {
+                            await showCustomLoading(
+                              message:
+                                  'Please select the content you want to report',
+                              icon: Icons.warning_amber_rounded,
+                              duration: Duration(seconds: 3),
+                            );
+                          }
+                        },
+                        child: Container(
+                          width: 345.0,
+                          height: 62.0,
+                          decoration: BoxDecoration(
+                            color: Color(0xFFFF690C),
+                            borderRadius: BorderRadius.circular(44.0),
+                          ),
+                          alignment: AlignmentDirectional(0.0, 0.0),
+                          child: Text(
+                            'Submit',
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
                                     fontStyle: FlutterFlowTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
+                                  color: Color(0xE6FFFFFF),
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                          ),
                         ),
                       ),
                     ),

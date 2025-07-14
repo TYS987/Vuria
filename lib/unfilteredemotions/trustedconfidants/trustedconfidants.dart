@@ -83,6 +83,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                         ),
                       ),
                     ),
+
                     Container(
                       width: double.infinity,
                       height: 125.0,
@@ -95,6 +96,25 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                         ),
                       ),
                     ),
+
+                        InkWell(
+                        onTap: ()async{
+                          print("dainji ");  
+                           context.pushNamed(
+                                      FragrantMemoriesWidget.routeName);
+                        },
+                          child: Text(
+                                                'Create your mood chat room',
+                                                style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'PingFang',
+                              color: Color(0xFFEC7506),
+                              fontSize: 12,
+                              letterSpacing: 0.0,
+                              decoration: TextDecoration.underline,
+                              lineHeight: 1.2,
+                            ),
+                                              ),
+                        ),
                     Align(
                       alignment: AlignmentDirectional(-1.0, -1.0),
                       child: Padding(
@@ -127,10 +147,11 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                 builder: (context) {
                                   final feelingExchangePortalemotion =
                                       FFAppState()
-                                          .azothConfessionsathanorSolaceMP
+                                          .azothConfessionsathanorSolaceMP.where((e)=> !FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].corporateDroneHugsB.contains(e.philosophersStoneHealingID))
                                           .toList();
 
                                   return MasonryGridView.builder(
+                                      padding: EdgeInsets.zero, 
                                     gridDelegate:
                                         SliverSimpleGridDelegateWithFixedCrossAxisCount(
                                       crossAxisCount: 2,

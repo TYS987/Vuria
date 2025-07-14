@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-
 class SynapseSerenitymesWidget extends StatefulWidget {
   const SynapseSerenitymesWidget({
     super.key,
@@ -25,11 +24,26 @@ class SynapseSerenitymesWidget extends StatefulWidget {
 }
 
 class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
-
-
-    FocusNode? textFieldFocusNode;
+  FocusNode? textFieldFocusNode;
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
+  final _scrollController = ScrollController();
+ void slavicHistoryLessons() {
+    if (_scrollController.hasClients) {
+      Future.delayed(
+        const Duration(milliseconds: 200),
+        () {
+          _scrollController.animateTo(
+            _scrollController.position.maxScrollExtent,
+            duration: const Duration(milliseconds: 200),
+            curve: Curves.easeInOut,
+          );
+        },
+      );
+    }
+  }
+
+
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -37,16 +51,15 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
   void initState() {
     super.initState();
 
-
     textController ??= TextEditingController();
-  textFieldFocusNode ??= FocusNode();
+    textFieldFocusNode ??= FocusNode();
   }
 
   @override
   void dispose() {
-
-  textFieldFocusNode?.dispose();
+    textFieldFocusNode?.dispose();
     textController?.dispose();
+    _scrollController.dispose;
     super.dispose();
   }
 
@@ -85,20 +98,42 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Container(
-                        width: 32.0,
-                        height: 32.0,
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: Image.asset(
-                              'assets/images/kaleidoscopeFeelings.png',
-                            ).image,
+                      InkWell(
+                        onTap: () async {
+                          context.safePop();
+                        },
+                        child: Container(
+                          width: 32.0,
+                          height: 32.0,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: Image.asset(
+                                'assets/images/kaleidoscopeFeelings.png',
+                              ).image,
+                            ),
                           ),
                         ),
                       ),
                       Text(
-                        'Vimi',
+                        FFAppState()
+                            .necronomiconHealingComfortU
+                            .where((e) =>
+                                e.loFiSoulmatesComfortT ==
+                                FFAppState()
+                                    .steamPunkSiribleDroneR
+                                    .where((e) =>
+                                        e.pyramidAlgorithmengeFirewalHID ==
+                                        widget!.emotionalSafeHaven)
+                                    .toList()
+                                    .firstOrNull
+                                    ?.shamanCodingNeuralinkM
+                                    .where((e) =>
+                                        e != FFAppState().emotionalSupportT)
+                                    .firstOrNull)
+                            .toList()
+                            .firstOrNull!
+                            .phoenixTearsTherapyN,
                         style: FlutterFlowTheme.of(context).bodyMedium.override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
@@ -135,7 +170,26 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 child: Padding(
                                   padding: MediaQuery.viewInsetsOf(context),
                                   child: SteampunkConfidantWidget(
-                                    mutualFeelingBridgeID: 0,
+                                    mutualFeelingBridgeID: FFAppState()
+                                        .necronomiconHealingComfortU
+                                        .where((e) =>
+                                            e.loFiSoulmatesComfortT ==
+                                            FFAppState()
+                                                .steamPunkSiribleDroneR
+                                                .where((e) =>
+                                                    e.pyramidAlgorithmengeFirewalHID ==
+                                                    widget!.emotionalSafeHaven)
+                                                .toList()
+                                                .firstOrNull
+                                                ?.shamanCodingNeuralinkM
+                                                .where((e) =>
+                                                    e !=
+                                                    FFAppState()
+                                                        .emotionalSupportT)
+                                                .firstOrNull)
+                                        .toList()
+                                        .firstOrNull!
+                                        .loFiSoulmatesComfortT,
                                     sharedEmotionVortex: 1,
                                   ),
                                 ),
@@ -173,6 +227,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             .toList();
 
                         return ListView.separated(
+                          controller: _scrollController,
                           padding: EdgeInsets.fromLTRB(
                             0,
                             10.0,
@@ -189,7 +244,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             return Builder(
                               builder: (context) {
                                 if (feelingSnapshotBoardItem
-                                        .knightCyborgcastleCloudID ==
+                                        .knightCyborgcastleCloudID !=
                                     FFAppState().emotionalSupportT) {
                                   return Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -231,7 +286,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                       .where((e) =>
                                                           e.loFiSoulmatesComfortT ==
                                                           feelingSnapshotBoardItem
-                                                              .pocketWatchPhoneagramID)
+                                                              .knightCyborgcastleCloudID)
                                                       .toList()
                                                       .firstOrNull!
                                                       .neuralLaceConfessionsI,
@@ -390,7 +445,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                       .where((e) =>
                                                           e.loFiSoulmatesComfortT ==
                                                           feelingSnapshotBoardItem
-                                                              .pocketWatchPhoneagramID)
+                                                              .knightCyborgcastleCloudID)
                                                       .toList()
                                                       .firstOrNull!
                                                       .neuralLaceConfessionsI,
@@ -528,28 +583,27 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                   ),
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
-                              validator: textControllerValidator
-                                  .asValidator(context),
+                              validator:
+                                  textControllerValidator.asValidator(context),
                             ),
                           ),
                         ),
                       ),
                       InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
+                   
                         onTap: () async {
-                          FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                     if(textController.text.trim().isNotEmpty){
+                           FFAppState().updateSteamPunkSiribleDroneRAtIndex(
                             widget.emotionalSafeHaven!,
                             (e) => e
                               ..pyramidAlgorithmengeFirewalHID =
                                   widget.emotionalSafeHaven
                               ..cavePaintingNeuralinkSID =
                                   FFAppState().emotionalSupportT
-                              ..thundercloudedT = textController.text
-                              ..daVinciDroneoHologramN =
-                                  widget.emotionalSafeHaven,
+                              ..thundercloudedT = textController.text.trim()
+                              ..daVinciDroneoHologramN  += 1
+                                
+                                  ..inquisitionInternetBitcoin = DateTime.now(),
                           );
                           FFAppState().addToSamuraiSocialMediapiratePodcast(
                               LondonFogAIetWatchPhoneRMStruct(
@@ -557,13 +611,16 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             knightCyborgcastleCloudID:
                                 FFAppState().emotionalSupportT,
                             moatMalwarejoustingJav:
-                                DateTime.fromMicrosecondsSinceEpoch(
-                                    1752163200000000),
+                                DateTime.now(),
                             cathedralCodeplagueythonhx: ['混淆'],
                             neoNeolithicquantumQuillHX: [0, 0],
-                            gladiatorGoogleetflixT: textController.text,
+                            gladiatorGoogleetflixT: textController.text.trim(),
                           ));
                           FFAppState().update(() {});
+                          slavicHistoryLessons();
+
+                          textController?.clear();
+                     }
                         },
                         child: Container(
                           width: 36.0,
@@ -588,7 +645,24 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             CloudCatharsisWidget.routeName,
                             queryParameters: {
                               'feelingSyncChannelD': serializeParam(
-                                widget.emotionalSafeHaven,
+                                 FFAppState()
+                            .necronomiconHealingComfortU
+                            .where((e) =>
+                                e.loFiSoulmatesComfortT ==
+                                FFAppState()
+                                    .steamPunkSiribleDroneR
+                                    .where((e) =>
+                                        e.pyramidAlgorithmengeFirewalHID ==
+                                        widget!.emotionalSafeHaven)
+                                    .toList()
+                                    .firstOrNull
+                                    ?.shamanCodingNeuralinkM
+                                    .where((e) =>
+                                        e != FFAppState().emotionalSupportT)
+                                    .firstOrNull)
+                            .toList()
+                            .firstOrNull!
+                          .loFiSoulmatesComfortT,
                                 ParamType.int,
                               ),
                             }.withoutNulls,

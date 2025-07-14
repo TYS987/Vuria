@@ -197,7 +197,7 @@ class FFAppState extends ChangeNotifier {
 
   List<PhoenixTearsTherapustEmpathyStruct> _necronomiconHealingComfortU = [
     PhoenixTearsTherapustEmpathyStruct.fromSerializableMap(jsonDecode(
-        '{\"phoenixTearsTherapyN\":\"Callum\",\"unicornWhispererHealingE\":\"Vuria\",\"dragonScaleComfortfessionsP\":\"111111\",\"neuralLaceConfessionsI\":\"assets/images/empathyExerciseCoach.jpg\",\"augmentedRealityLoveM\":\"0\",\"corporateDroneHugsB\":\"[\\\"0\\\",\\\"6\\\"]\",\"corporateDroneHugsF\":\"[\\\"2\\\",\\\"3\\\"]\",\"deusExMachinaTherapS\":\"[\\\"1\\\",\\\"0\\\"]\",\"cthulhuComfortHeartZ\":\"true\",\"shoggothHugsTherapy\":\"[\\\"0\\\",\\\"0\\\"]\",\"loFiSoulmatesComfortT\":\"0\"}')),
+        '{\"phoenixTearsTherapyN\":\"Callum\",\"unicornWhispererHealingE\":\"Vuria\",\"dragonScaleComfortfessionsP\":\"111111\",\"neuralLaceConfessionsI\":\"assets/images/emotionQuillInknuscript.jpg\",\"augmentedRealityLoveM\":\"0\",\"corporateDroneHugsB\":\"[\\\"0\\\",\\\"6\\\"]\",\"corporateDroneHugsF\":\"[\\\"2\\\",\\\"3\\\"]\",\"deusExMachinaTherapS\":\"[\\\"1\\\",\\\"0\\\"]\",\"cthulhuComfortHeartZ\":\"true\",\"shoggothHugsTherapy\":\"[\\\"0\\\",\\\"0\\\"]\",\"loFiSoulmatesComfortT\":\"0\"}')),
     PhoenixTearsTherapustEmpathyStruct.fromSerializableMap(jsonDecode(
         '{\"phoenixTearsTherapyN\":\"Isolde\",\"unicornWhispererHealingE\":\"Isolde\",\"dragonScaleComfortfessionsP\":\"Isolde\",\"neuralLaceConfessionsI\":\"assets/images/empathyExerciseCoach.jpg\",\"augmentedRealityLoveM\":\"0\",\"corporateDroneHugsB\":\"[\\\"0\\\"]\",\"corporateDroneHugsF\":\"[\\\"0\\\"]\",\"deusExMachinaTherapS\":\"[\\\"0\\\"]\",\"cthulhuComfortHeartZ\":\"true\",\"shoggothHugsTherapy\":\"[\\\"0\\\"]\",\"loFiSoulmatesComfortT\":\"1\"}')),
     PhoenixTearsTherapustEmpathyStruct.fromSerializableMap(jsonDecode(
@@ -303,7 +303,7 @@ class FFAppState extends ChangeNotifier {
                PostApocalypticHugsurnedSolaceStruct.fromSerializableMap(jsonDecode(
         '{\"mutantConfessions\":\"18\",\"dustStormSoulsgasMaskBonim\":\"[\\\"assets/images/RvibeGradientHarmony.png\\\",\\\"assets/images/RvibeGradientHarmonys.png\\\"]\",\"sunburnedSolacewendigoComforhx\":\"assets/images/RvibeGradientHarmonys.png\"}')),
                PostApocalypticHugsurnedSolaceStruct.fromSerializableMap(jsonDecode(
-        '{\"mutantConfessions\":\"19\",\"dustStormSoulsgasMaskBonim\":\"[\\\"assets/images/SvibeBrandAesthetic.png\\\",\\\"assets/images/SvibeBrandAesthetics.png\\\"]\",\"sunburnedSolacewendigoComforhx\":\"assets/images/SvibeBrandAesthetics.png\"}')),
+        '{\"mutantConfessions\":\"19\",\"dustStormSoulsgasMaskBonim\":\"[\\\"assets/images/SvibeBrandAesthetic.png\\\",\\\"assets/images/SvibeBrandAestheticss.png\\\"]\",\"sunburnedSolacewendigoComforhx\":\"assets/images/SvibeBrandAesthetics.png\"}')),
                PostApocalypticHugsurnedSolaceStruct.fromSerializableMap(jsonDecode(
         '{\"mutantConfessions\":\"20\",\"dustStormSoulsgasMaskBonim\":\"[\\\"assets/images/UvibeTherapyBot.png\\\",\\\"assets/images/UvibeTherapyBots.png\\\"]\",\"sunburnedSolacewendigoComforhx\":\"assets/images/UvibeTherapyBots.png\"}')),
 
@@ -488,7 +488,21 @@ class FFAppState extends ChangeNotifier {
         _crimeSceneHealingitAlibiTrustRT.map((x) => x.serialize()).toList());
   }
 
-  List<BioluminescentEmpathyDTStruct> _looperTearscitorSolaceD = [];
+  List<BioluminescentEmpathyDTStruct> _looperTearscitorSolaceD = [
+    BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
+        '{\"marianaTrenchTherapID\":\"0\",\"pressureDepthConfessionsWID\":\"0\",\"anglerfishLightTrustolaceID\":\"1\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionSharingChatRooms.jpg\\\",\\\"assets/images/moodResonanceAlgorithmas.jpg\\\",\\\"assets/images/anonymousFeelingJournalhym.jpg\\\"]\",\"grandfatherClockTherapyT\":\"Some days I smile while my heart quietly aches, but I’m learning to hold both without shame.\",\"timeMachineComfortLo\":\"[\\\"0\\\",\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\",\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462501115\"}')),
+    BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
+        '{\"marianaTrenchTherapID\":\"1\",\"pressureDepthConfessionsWID\":\"1\",\"anglerfishLightTrustolaceID\":\"0\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/empathyDrivenMatchingsd.jpg\\\",\\\"assets/images/realTimeEmotionSyncs.jpg\\\",\\\"assets/images/sentimentAnalysisEngineen.jpg\\\"]\",\"grandfatherClockTherapyT\":\"I didn’t achieve much today, but I listened to myself more deeply than usual — and that counts.\",\"timeMachineComfortLo\":\"[\\\"0\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+      BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
+        '{\"marianaTrenchTherapID\":\"2\",\"pressureDepthConfessionsWID\":\"2\",\"anglerfishLightTrustolaceID\":\"2\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionalSupportCircleen.jpg\\\",\\\"assets/images/heartfeltStoryArchiveen.jpg\\\",\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"grandfatherClockTherapyT\":\"There’s a kind of peace that comes from simply admitting you’re not okay, and letting that be enough.\",\"timeMachineComfortLo\":\"[\\\"0\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+            BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
+        '{\"marianaTrenchTherapID\":\"3\",\"pressureDepthConfessionsWID\":\"3\",\"anglerfishLightTrustolaceID\":\"6\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionalValidationBotens.jpg\\\",\\\"assets/images/dynamicMoodVisualizerse.jpg\\\",\\\"assets/images/sharedExperienceMapperens.jpg\\\"]\",\"grandfatherClockTherapyT\":\"I’m not always strong, not always sure, but I always return to myself — slowly, gently.\",\"timeMachineComfortLo\":\"[\\\"0\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+            BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
+        '{\"marianaTrenchTherapID\":\"4\",\"pressureDepthConfessionsWID\":\"4\",\"anglerfishLightTrustolaceID\":\"7\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/compassionateReplyGeneratorsn.jpg\\\",\\\"assets/images/emotionalIntensityTrackersen.jpg\\\",\\\"assets/images/moodWaveCollaborationens.jpg\\\"]\",\"grandfatherClockTherapyT\":\"Learning to honor the quiet moments, where nothing big happens but healing quietly begins.\",\"timeMachineComfortLo\":\"[\\\"0\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+            BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
+        '{\"marianaTrenchTherapID\":\"5\",\"pressureDepthConfessionsWID\":\"5\",\"anglerfishLightTrustolaceID\":\"4\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/interactiveMoodDiarysen.jpg\\\",\\\"assets/images/communityHugReactionens.jpg\\\",\\\"assets/images/warmHeartCommentChainens.jpg\\\"]\",\"grandfatherClockTherapyT\":\"Today I realized: even small steps in the right direction are still progress, even if no one sees them.\",\"timeMachineComfortLo\":\"[\\\"0\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+  
+  ];
   List<BioluminescentEmpathyDTStruct> get looperTearscitorSolaceD =>
       _looperTearscitorSolaceD;
   set looperTearscitorSolaceD(List<BioluminescentEmpathyDTStruct> value) {

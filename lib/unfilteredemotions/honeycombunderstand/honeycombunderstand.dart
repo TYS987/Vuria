@@ -263,7 +263,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .firstOrNull
                                             ?.loveNmbers
                                             .toString(),
-                                        '1111',
+                                        '0',
                                       ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyMedium
@@ -856,13 +856,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      // Container(
-                      //   width: 48.0,
-                      //   height: 30.0,
-                      //   decoration: BoxDecoration(
-                      //     color: Color(0xFF443131),
-                      //   ),
-                      // ),
+                 
                       Container(
                         width: 48,
                         height: 30,

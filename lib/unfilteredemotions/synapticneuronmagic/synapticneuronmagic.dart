@@ -259,8 +259,8 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                           ),
                                         ],
                                       ),
-                                      GestureDetector(
-                                        onPanUpdate: (details) async {
+                                      InkWell(
+                                        onTap: () async {
                                           FFAppState()
                                               .updateNecronomiconHealingComfortUAtIndex(
                                             FFAppState().emotionalSupportT,
@@ -270,7 +270,6 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                     soulfulExpressionLogItem),
                                               ),
                                           );
-                                          FFAppState().update(() {});
                                         },
                                         child: Container(
                                           width: 82.0,
@@ -306,6 +305,17 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                       .toList()
                                       .firstOrNull
                                       ?.deusExMachinaTherapS
+                                      .where((ee) => !(FFAppState()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  FFAppState()
+                                                      .emotionalSupportT)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.corporateDroneHugsB
+                                              .contains(ee) ??
+                                          false))
                                       .toList() ??
                                   [];
 
@@ -400,12 +410,17 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                               .updateNecronomiconHealingComfortUAtIndex(
                                             FFAppState().emotionalSupportT,
                                             (e) => e
-                                              ..updateDeusExMachinaTherapS(
+                                              ..updateCorporateDroneHugsB(
                                                 (e) => e.add(
                                                     emotionalMosaicFeedItem),
                                               ),
                                           );
                                           FFAppState().update(() {});
+
+                                          print(" 当前的粉丝${emotionalMosaicFeed}");
+
+                                          print(
+                                          "查看用户的拉黑${FFAppState().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == FFAppState().emotionalSupportT).toList().firstOrNull?.corporateDroneHugsB.toList()}");
                                         },
                                         child: Container(
                                           width: 82.0,

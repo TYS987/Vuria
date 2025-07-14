@@ -1,5 +1,7 @@
 import 'dart:math';
 
+
+//  生成用户账户密码
 String generateRandomCredential({bool isPassword = false, int? length}) {
   final random = Random();
   final len = length ?? 5 + random.nextInt(5); // 5-9位随机长度

@@ -1,9 +1,10 @@
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 
 class NeuralPathNeuronMagicWidget extends StatefulWidget {
   const NeuralPathNeuronMagicWidget({super.key});
@@ -15,24 +16,18 @@ class NeuralPathNeuronMagicWidget extends StatefulWidget {
 
 class _NeuralPathNeuronMagicWidgetState
     extends State<NeuralPathNeuronMagicWidget> {
-
-
   @override
   void setState(VoidCallback callback) {
     super.setState(callback);
-
   }
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -61,6 +56,15 @@ class _NeuralPathNeuronMagicWidgetState
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
+                await showCustomLoading(
+                  message: "I'm logging out. Please wait a moment...",
+                  icon: Icons.logout,
+                  duration: Duration(seconds: 2),
+                );
+                FFAppState().undergroundBunkerBondingRUT = 0;
+                FFAppState().kindheartedDialogues = 0;
+
+                FFAppState().update(() {});
                 context.pushNamed(EmpathyExchangeWidget.routeName);
               },
               child: Container(

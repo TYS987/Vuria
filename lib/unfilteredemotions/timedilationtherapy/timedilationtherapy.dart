@@ -1,3 +1,8 @@
+import 'dart:io';
+
+import 'package:image_picker/image_picker.dart';
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -16,12 +21,30 @@ class TimeDilationTherapyWidget extends StatefulWidget {
 }
 
 class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
-
-
-    FocusNode? textFieldFocusNode;
+  FocusNode? textFieldFocusNode;
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
 
+  File? _selectedImage; // 变量：存储用户选择的图片
+
+  // 方法：从相册选择图片
+  Future<void> _pickImageFromGallery() async {
+    final pickedFile = await ImagePicker().pickImage(
+      source: ImageSource.gallery, // 调起相册
+      maxWidth: 800, // 可选：限制图片宽度
+      maxHeight: 800, // 可选：限制图片高度
+      imageQuality: 85, // 可选：图片质量（0-100）
+    );
+
+    if (pickedFile != null) {
+      setState(() {
+        _selectedImage = File(pickedFile.path); // 更新选择的图片
+      });
+      print("头像已选择: ${_selectedImage?.path}");
+    } else {
+      print("用户取消了选择");
+    }
+  }
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -29,15 +52,16 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
   void initState() {
     super.initState();
 
-
-   textController ??= TextEditingController();
+    textController ??= TextEditingController();
     textFieldFocusNode ??= FocusNode();
+    textController?.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
   void dispose() {
-
-   textFieldFocusNode?.dispose();
+    textFieldFocusNode?.dispose();
     textController?.dispose();
     super.dispose();
   }
@@ -127,32 +151,57 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                     Container(
                       width: 89.0,
                       height: 89.0,
-                      child: Stack(
-                        children: [
-                          Container(
-                            width: double.infinity,
-                            height: double.infinity,
-                            decoration: BoxDecoration(
-                              color: Color(0xFF2F2C2C),
-                              borderRadius: BorderRadius.circular(50.0),
-                            ),
-                          ),
-                          Align(
-                            alignment: AlignmentDirectional(0.0, 0.0),
-                            child: Container(
-                              width: 36.0,
-                              height: 36.0,
+                      child: InkWell(
+                        onTap: () async {
+                          print("点击吊起相册");
+                          await _pickImageFromGallery();
+                        },
+                        child: Stack(
+                          children: [
+                            Container(
+                              width: double.infinity,
+                              height: double.infinity,
                               decoration: BoxDecoration(
+                                color: Color(0xFF2F2C2C),
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: Image.asset(
-                                    'assets/images/wormholeWisdom.png',
-                                  ).image,
+                                  image: _selectedImage != null
+                                      ? FileImage(_selectedImage!)
+                                      : Image.asset(
+                                          FFAppState()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  FFAppState()
+                                                      .emotionalSupportT)
+                                              .toList()
+                                              .firstOrNull!
+                                              .neuralLaceConfessionsI,
+                                        ).image,
+                                ),
+                                borderRadius: BorderRadius.circular(50),
+                              ),
+                            ),
+                            Visibility(
+                              visible: _selectedImage == null,
+                              child: Align(
+                                alignment: AlignmentDirectional(0.0, 0.0),
+                                child: Container(
+                                  width: 36.0,
+                                  height: 36.0,
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      fit: BoxFit.cover,
+                                      image: Image.asset(
+                                              'assets/images/wormholeWisdom.png')
+                                          .image,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ),
-                          ),
-                        ],
+                          ],
+                        ),
                       ),
                     ),
                     Padding(
@@ -307,20 +356,50 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          FFAppState().updateNecronomiconHealingComfortUAtIndex(
-                            FFAppState().emotionalSupportT,
-                            (e) => e
-                              ..phoenixTearsTherapyN =
-                                  textController.text
-                              ..neuralLaceConfessionsI = '000',
-                          );
-                          FFAppState().update(() {});
+                          if (_selectedImage != null ||
+                              textController.text.trim().isNotEmpty) {
+                            FFAppState()
+                                .updateNecronomiconHealingComfortUAtIndex(
+                              FFAppState().emotionalSupportT,
+                              (e) => e
+                                ..phoenixTearsTherapyN =
+                                    textController.text.trim().isNotEmpty
+                                        ? textController.text.trim()
+                                        : FFAppState()
+                                            .necronomiconHealingComfortU[
+                                                FFAppState().emotionalSupportT]
+                                            .phoenixTearsTherapyN
+                                ..neuralLaceConfessionsI =
+                                    _selectedImage != null
+                                        ? _selectedImage!.path
+                                        : FFAppState()
+                                            .necronomiconHealingComfortU[
+                                                FFAppState().emotionalSupportT]
+                                            .neuralLaceConfessionsI,
+                            );
+                            FFAppState().update(() {});
+                            await showCustomLoading(
+                              message: 'Modification successful!',
+                              icon: Icons.check_circle_rounded,
+                              duration: Duration(seconds: 2),
+                            );
+                          } else {
+                            await showCustomLoading(
+                              message:
+                                  'Please at least modify your avatar or nickname',
+                              icon: Icons.warning_amber_rounded,
+                              duration: Duration(seconds: 3),
+                            );
+                          }
                         },
                         child: Container(
                           width: 304.0,
                           height: 58.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFF690C),
+                            color: (_selectedImage != null ||
+                                    textController.text.trim().isNotEmpty)
+                                ? Color(0xFFFF6206)
+                                : Color(0xFFFFA761),
                             borderRadius: BorderRadius.circular(50.0),
                           ),
                           alignment: AlignmentDirectional(0.0, 0.0),
@@ -335,7 +414,10 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                         .bodyMedium
                                         .fontStyle,
                                   ),
-                                  color: Colors.white,
+                                  color: (_selectedImage != null ||
+                                          textController.text.trim().isNotEmpty)
+                                      ? Color.fromARGB(230, 255, 255, 255)
+                                      : Color(0xE6FFFFFF),
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,

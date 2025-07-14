@@ -1,4 +1,5 @@
 import 'package:vuria/Utiles/generateRedential.dart';
+import 'package:vuria/Utiles/showtost.dart';
 
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -135,6 +136,12 @@ class _DigitalTwinnftEmotionWidgetState
                   hoverColor: Colors.transparent,
                   highlightColor: Colors.transparent,
                   onTap: () async {
+                    await showCustomLoading(
+                      message:
+                          'The account is being deleted. Please wait patiently...',
+                      icon: Icons.delete_forever,
+                      duration: Duration(seconds: 2),
+                    );
                     FFAppState().undergroundBunkerBondingRUT = 0;
                     FFAppState().kindheartedDialogues = 0;
 

@@ -2,8 +2,6 @@ import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
-
-
 /// [context] 上下文
 /// [title] 标题（如"成功！"）
 /// [message] 详细内容
@@ -34,7 +32,7 @@ void showAwesomeSnackBar({
 }
 
 
-// 注销账号
+
 void showAccountDeletionWarning(BuildContext context) {
   showAwesomeSnackBar(
     context: context,
@@ -54,4 +52,66 @@ Future<void> showAutoDismissLoading({required String message}) async {
   );
   await Future.delayed(const Duration(seconds: 2));
   EasyLoading.dismiss();
+}
+
+
+
+// Future<void> showCustomLoading({
+//   required String message,
+//   required IconData icon,
+//   Duration duration = const Duration(seconds: 2),
+// }) async {
+//   EasyLoading.show(
+//     indicator: Icon(
+//       icon,
+//       color: Colors.white,
+//       size: 30,
+//     ),
+//     status: message,
+//     maskType: EasyLoadingMaskType.black,
+//     dismissOnTap: false,
+//   );
+
+//   await Future.delayed(duration);
+//   EasyLoading.dismiss();
+// }
+
+Future<void> showCustomLoading({
+  required String message,
+  required IconData icon,
+  Duration duration = const Duration(seconds: 2),
+}) async {
+  await EasyLoading.show(
+    indicator: Container(
+      padding: EdgeInsets.all(10),
+      decoration: BoxDecoration(
+        color: Colors.black.withOpacity(0.7),
+        borderRadius: BorderRadius.circular(50),
+      ),
+      child: Icon(
+        icon,
+        color: Colors.orange, // 使用更醒目的颜色
+        size: 40, // 增大尺寸
+      ),
+    ),
+    status: message,
+    maskType: EasyLoadingMaskType.black,
+    dismissOnTap: false,
+  );
+
+  await Future.delayed(duration);
+  await EasyLoading.dismiss();
+}
+
+
+
+
+// 初始化配置 flutter_easyloading
+void configLoading() {
+  EasyLoading.instance
+    ..loadingStyle = EasyLoadingStyle.light
+    ..indicatorType = EasyLoadingIndicatorType.fadingCircle
+    ..maskType = EasyLoadingMaskType.black
+    ..userInteractions = false
+    ..dismissOnTap = false;
 }

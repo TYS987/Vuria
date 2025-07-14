@@ -21,7 +21,7 @@ export 'unfilteredemotions/sentimentmosaic/sentimentmosaic.dart'
     show SentimentMosaicWidget;
 export 'unfilteredemotions/synapseserenitymes/synapseserenitymes.dart'
     show SynapseSerenitymesWidget;
-export 'unfilteredemotions/cloudcatharsis/cloud_catharsis_widget.dart'
+export 'unfilteredemotions/cloudcatharsis/cloudcatharsis.dart'
     show CloudCatharsisWidget;
 export 'unfilteredemotions/kaleidohealingkaleidohealing/kaleidohealingkaleidohealing.dart'
     show KaleidoHealingkaleidoHealingWidget;

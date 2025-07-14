@@ -1,3 +1,5 @@
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -250,35 +252,53 @@ class _SyntheticmpathybionicTrustWidgetState
                       ),
                     ),
                     Spacer(),
-                    Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 90.0),
-                      child: Container(
-                        width: 304.0,
-                        height: 58.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFFF690C),
-                          borderRadius: BorderRadius.circular(50.0),
-                        ),
-                        alignment: AlignmentDirectional(0.0, 0.0),
-                        child: Text(
-                          'Submit',
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: GoogleFonts.poppins(
+                     InkWell(
+                      onTap: ()async{
+
+if(textController.text.trim().isNotEmpty){
+await showCustomLoading(
+  message: 'Your feedback has been successful. Thank you for your support!',
+  icon: Icons.check_circle_outline,
+);
+textController?.clear();
+Navigator.of(context).pop();
+}else{
+await showCustomLoading(
+  message: 'Please fill in the feedback content first and then submit',
+  icon: Icons.warning_amber_outlined,
+);  
+}
+                      },
+                      child: Padding(
+                        padding:
+                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 90.0),
+                        child: Container(
+                          width: 304.0,
+                          height: 58.0,
+                          decoration: BoxDecoration(
+                            color: Color(0xFFFF690C),
+                            borderRadius: BorderRadius.circular(50.0),
+                          ),
+                          alignment: AlignmentDirectional(0.0, 0.0),
+                          child: Text(
+                            'Submit',
+                            style:
+                                FlutterFlowTheme.of(context).bodyMedium.override(
+                                      font: GoogleFonts.poppins(
+                                        fontWeight: FontWeight.bold,
+                                        fontStyle: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                      color: Colors.white,
+                                      fontSize: 18.0,
+                                      letterSpacing: 0.0,
                                       fontWeight: FontWeight.bold,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Colors.white,
-                                    fontSize: 18.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                          ),
                         ),
                       ),
                     ),

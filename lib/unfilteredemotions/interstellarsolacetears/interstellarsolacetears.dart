@@ -1,3 +1,7 @@
+import 'dart:ffi';
+
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '../../wholesomeinteraction/digitaltwinnftemotion/digitaltwinnftemotion.dart';
@@ -19,19 +23,16 @@ class InterstellarSolaceTearsWidget extends StatefulWidget {
 
 class _InterstellarSolaceTearsWidgetState
     extends State<InterstellarSolaceTearsWidget> {
-
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
+  String resonanceMatchingSystem = '14.3M';
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
     super.dispose();
   }
 
@@ -291,8 +292,6 @@ class _InterstellarSolaceTearsWidgetState
                                 ),
                               ),
                             ),
-                      
-                          
                             InkWell(
                               splashColor: Colors.transparent,
                               focusColor: Colors.transparent,
@@ -378,7 +377,7 @@ class _InterstellarSolaceTearsWidgetState
                                   SentimentAlignedWidget.routeName,
                                   queryParameters: {
                                     'moodStoryCanvas': serializeParam(
-                                      '',
+                                      '1',
                                       ParamType.int,
                                     ),
                                   }.withoutNulls,
@@ -523,49 +522,72 @@ class _InterstellarSolaceTearsWidgetState
                                   width: 2.0,
                                 ),
                               ),
-                              child: Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    24.0, 0.0, 20.0, 0.0),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  mainAxisAlignment:
-                                      MainAxisAlignment.spaceBetween,
-                                  children: [
-                                    Text(
-                                      'Clear Cache',
-                                      style: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
+                              child: InkWell(
+                                onTap: () async {
+                                  print("清除数据");
+                                  await showCustomLoading(
+                                    message:
+                                        'The cache is being cleared. Please wait a moment...',
+                                    icon: Icons.hourglass_top,
+                                    duration: Duration(seconds: 3),
+                                  );
+                                  resonanceMatchingSystem = '0M';
+                                  setState(() {});
+                                },
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      24.0, 0.0, 20.0, 0.0),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment:
+                                        MainAxisAlignment.spaceBetween,
+                                    children: [
+                                      Text(
+                                        'Clear Cache',
+                                        style: FlutterFlowTheme.of(context)
+                                            .bodyMedium
+                                            .override(
+                                              font: GoogleFonts.poppins(
+                                                fontWeight: FontWeight.w500,
+                                                fontStyle:
+                                                    FlutterFlowTheme.of(context)
+                                                        .bodyMedium
+                                                        .fontStyle,
+                                              ),
+                                              color: Colors.black,
+                                              fontSize: 16.0,
+                                              letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                               fontStyle:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
-                                            color: Colors.black,
-                                            fontSize: 16.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w500,
-                                            fontStyle:
-                                                FlutterFlowTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
-                                          ),
-                                    ),
-                                    Row(
-                                      mainAxisSize: MainAxisSize.max,
-                                      children: [
-                                        Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  0.0, 0.0, 10.0, 0.0),
-                                          child: Text(
-                                            '14.3M',
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  font: GoogleFonts.poppins(
+                                      ),
+                                      Row(
+                                        mainAxisSize: MainAxisSize.max,
+                                        children: [
+                                          Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0.0, 0.0, 10.0, 0.0),
+                                            child: Text(
+                                              resonanceMatchingSystem,
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.poppins(
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      fontStyle:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodyMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    color: Color(0x65000000),
+                                                    letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
                                                         FlutterFlowTheme.of(
@@ -573,32 +595,24 @@ class _InterstellarSolaceTearsWidgetState
                                                             .bodyMedium
                                                             .fontStyle,
                                                   ),
-                                                  color: Color(0x65000000),
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.w500,
-                                                  fontStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
-                                          ),
-                                        ),
-                                        Container(
-                                          width: 16.0,
-                                          height: 16.0,
-                                          decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: Image.asset(
-                                                'assets/images/wormholeForgiveness.png',
-                                              ).image,
                                             ),
                                           ),
-                                        ),
-                                      ],
-                                    ),
-                                  ],
+                                          Container(
+                                            width: 16.0,
+                                            height: 16.0,
+                                            decoration: BoxDecoration(
+                                              image: DecorationImage(
+                                                fit: BoxFit.cover,
+                                                image: Image.asset(
+                                                  'assets/images/wormholeForgiveness.png',
+                                                ).image,
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),

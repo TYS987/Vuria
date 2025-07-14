@@ -7,7 +7,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-
 class PendulumTrustWidget extends StatefulWidget {
   const PendulumTrustWidget({super.key});
 
@@ -19,21 +18,16 @@ class PendulumTrustWidget extends StatefulWidget {
 }
 
 class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
-
-
-    int? fireflyConfessions = 0;
+  int? fireflyConfessions = 0;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -81,7 +75,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                               image: DecorationImage(
                                 fit: BoxFit.cover,
                                 image: Image.asset(
-                                  'assets/images/kintsugiAnguish.png',
+                                  'assets/images/duscoverprovd.png',
                                 ).image,
                               ),
                             ),
@@ -99,7 +93,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
                                     context.pushNamed(
-                                        SentimentMosaicWidget.routeName);
+                                        NeuralEmpathyPulseWidget.routeName);
                                   },
                                   child: Container(
                                     width: 40.0,
@@ -123,6 +117,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                 onTap: () async {
                                   context.pushNamed(
                                       SentimentMosaicWidget.routeName);
+                        
                                 },
                                 child: Container(
                                   width: 40.0,
@@ -131,7 +126,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
                                       image: Image.asset(
-                                        'assets/images/compassComfort.png',
+                                        'assets/images/compassComforttss.png',
                                       ).image,
                                     ),
                                   ),
@@ -148,11 +143,13 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                             12.0, 21.0, 12.0, 0.0),
                         child: Builder(
                           builder: (context) {
+
                             final emotionalAlignmentTool =
-                                FFAppState().looperTearscitorSolaceD.toList();
+                                FFAppState().looperTearscitorSolaceD.where((e)=> !FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].corporateDroneHugsB.contains(e.marianaTrenchTherapID) )
+                                .toList();
 
                             return ListView.separated(
-                              padding: EdgeInsets.zero,
+                              padding: EdgeInsets.only(bottom: 250),
                               shrinkWrap: true,
                               scrollDirection: Axis.vertical,
                               itemCount: emotionalAlignmentTool.length,
@@ -164,6 +161,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                     emotionalAlignmentTool[
                                         emotionalAlignmentToolIndex];
                                 return Align(
+                                  //  key: ValueKey(emotionalAlignmentToolItem.anglerfishLightTrustolaceID),
                                   alignment: AlignmentDirectional(0.0, -1.0),
                                   child: Container(
                                     width: 351.0,
@@ -277,7 +275,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                               valueOrDefault<
                                                                   String>(
                                                                 dateTimeFormat(
-                                                                    "d/M/y",
+                                                                 'y.MM.dd',
                                                                     emotionalAlignmentToolItem
                                                                         .compassionateListenerTiem),
                                                                 '2024.12.02',
@@ -299,6 +297,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                             .w500,
                                                                   ),
                                                             ),
+                                                        
                                                           ],
                                                         ),
                                                       ),
@@ -374,7 +373,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            'assets/images/willowResilience.png',
+                                                          'assets/images/origamiForgiveness.png',
                                                           ).image,
                                                         ),
                                                       ),
@@ -382,14 +381,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   );
                                                 } else {
                                                   return InkWell(
-                                                    splashColor:
-                                                        Colors.transparent,
-                                                    focusColor:
-                                                        Colors.transparent,
-                                                    hoverColor:
-                                                        Colors.transparent,
-                                                    highlightColor:
-                                                        Colors.transparent,
+                                                 
                                                     onTap: () async {
                                                       FFAppState()
                                                           .updateNecronomiconHealingComfortUAtIndex(
@@ -411,7 +403,8 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            'assets/images/origamiForgiveness.png',
+                                                         
+                                                              'assets/images/willowResilience.png',
                                                           ).image,
                                                         ),
                                                       ),
@@ -426,10 +419,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                           alignment:
                                               AlignmentDirectional(0.0, 1.0),
                                           child: InkWell(
-                                            splashColor: Colors.transparent,
-                                            focusColor: Colors.transparent,
-                                            hoverColor: Colors.transparent,
-                                            highlightColor: Colors.transparent,
+                                      
                                             onTap: () async {
                                               context.pushNamed(
                                                 ThunderstormPassionWidget
@@ -497,34 +487,34 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             .grandfatherClockTherapyT,
                                                         'Some days I smile while my heart',
                                                       ),
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                font:
-                                                                    GoogleFonts
-                                                                        .inter(
-                                                                  fontWeight: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontWeight,
-                                                                  fontStyle: FlutterFlowTheme.of(
+                                                      style: FlutterFlowTheme
+                                                              .of(context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            font: GoogleFonts
+                                                                .poppins(
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .w800,
+                                                              fontStyle:
+                                                                  FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontStyle,
-                                                                ),
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                fontWeight: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .bodyMedium
-                                                                    .fontWeight,
-                                                                fontStyle: FlutterFlowTheme.of(
+                                                            ),
+                                                            color: Colors.white,
+                                                            letterSpacing: 0.0,
+                                                            fontWeight:
+                                                                FontWeight.w800,
+                                                            fontStyle:
+                                                                FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontStyle,
-                                                              ),
+                                                          ),
+                                                      maxLines: 1,
+                                                      overflow:
+                                                          TextOverflow.ellipsis,
                                                     ),
                                                   ),
                                                   Padding(
@@ -533,14 +523,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             .fromSTEB(21.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: InkWell(
-                                                      splashColor:
-                                                          Colors.transparent,
-                                                      focusColor:
-                                                          Colors.transparent,
-                                                      hoverColor:
-                                                          Colors.transparent,
-                                                      highlightColor:
-                                                          Colors.transparent,
+                                                 
                                                       onTap: () async {
                                                         await showModalBottomSheet(
                                                           isScrollControlled:
@@ -607,6 +590,8 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                 );
                               },
                             );
+                      
+                      
                           },
                         ),
                       ),
@@ -617,11 +602,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
             ),
             Align(
               alignment: AlignmentDirectional(0.0, 1.0),
-              // child: wrapWithModel(
-              //   model: _model.emotionalHarmonyModel,
-              //   updateCallback: () => safeSetState(() {}),
-                child: EmotionalHarmonyWidget(),
-              // ),
+              child: EmotionalHarmonyWidget(),
             ),
           ],
         ),

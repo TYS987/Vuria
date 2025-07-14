@@ -1,10 +1,15 @@
+import 'dart:io';
+
+import 'package:image_picker/image_picker.dart';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/backend/schema/structs/index.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-
 
 class NeuralEmpathyPulseWidget extends StatefulWidget {
   const NeuralEmpathyPulseWidget({super.key});
@@ -18,10 +23,41 @@ class NeuralEmpathyPulseWidget extends StatefulWidget {
 }
 
 class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
+  int? digitalHugMatrix;
 
+  List<File> selectedImages = [];
 
-    int? digitalHugMatrix = 0;
+  Future<void> pickMultipleImages() async {
+    try {
+      final List<XFile>? pickedFiles = await ImagePicker().pickMultiImage(
+        maxWidth: 2000,
+        maxHeight: 2000,
+        imageQuality: 85,
+      );
 
+      if (pickedFiles == null || pickedFiles.isEmpty) {
+        await showCustomLoading(
+          message: '您没有选择任何图片',
+          icon: Icons.photo_library_outlined,
+          duration: Duration(seconds: 2),
+        );
+        return;
+      }
+
+      selectedImages = pickedFiles.map((xfile) => File(xfile.path)).toList();
+      setState(() {});
+
+      for (var i = 0; i < selectedImages.length; i++) {
+        print('已选择图片 $i 路径: ${selectedImages[i].path}');
+      }
+    } catch (e) {
+      await showCustomLoading(
+        message: '图片选择失败: ${e.toString()}',
+        icon: Icons.error_outline,
+        duration: Duration(seconds: 3),
+      );
+    }
+  }
 
   FocusNode? textFieldFocusNode;
   TextEditingController? textController;
@@ -33,14 +69,15 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
   void initState() {
     super.initState();
 
-
     textController ??= TextEditingController();
-   textFieldFocusNode ??= FocusNode();
+    textFieldFocusNode ??= FocusNode();
+textController?.addListener(() {
+  setState(() {});
+});
   }
 
   @override
   void dispose() {
-
     textFieldFocusNode?.dispose();
     textController?.dispose();
     super.dispose();
@@ -136,53 +173,107 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
-                        child: Container(
-                          width: 158.0,
-                          height: 114.0,
-                          child: Stack(
-                            children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    12.0, 0.0, 0.0, 0.0),
-                                child: Container(
-                                  width: 158.0,
-                                  height: 114.0,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      fit: BoxFit.cover,
-                                      image: Image.asset(
-                                        'assets/images/biofeedbackWhispers.png',
-                                      ).image,
-                                    ),
-                                    borderRadius: BorderRadius.circular(12.0),
-                                    border: Border.all(
-                                      color: Color(0xFFEF5C00),
-                                      width: 2.0,
-                                    ),
-                                  ),
-                                ),
-                              ),
-                              Align(
-                                alignment: AlignmentDirectional(1.0, -1.0),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 10.0, 10.0, 0.0),
-                                  child: Container(
-                                    width: 24.0,
-                                    height: 24.0,
-                                    decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                        image: Image.asset(
-                                          'assets/images/sentimentTaoTeeraAria.png',
-                                        ).image,
+                        child: InkWell(
+                          onTap: () async {
+                            await pickMultipleImages();
+                          },
+                          child: selectedImages.isEmpty
+                              ? Row(
+                                  children: [
+                                    Container(
+                                      width: 158.0,
+                                      height: 114.0,
+                                      child: Stack(
+                                        children: [
+                                          Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    12.0, 0.0, 0.0, 0.0),
+                                            child: Container(
+                                              width: 158.0,
+                                              height: 114.0,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  fit: BoxFit.cover,
+                                                  image: Image.asset(
+                                                    'assets/images/biofeedbackWhispers.png',
+                                                  ).image,
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(12.0),
+                                                border: Border.all(
+                                                  color: Color(0xFFEF5C00),
+                                                  width: 2.0,
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ],
                                       ),
                                     ),
+                                  ],
+                                )
+                              : SingleChildScrollView(
+                                  scrollDirection: Axis.horizontal,
+                                  child: Row(
+                                    children: List.generate(
+                                        selectedImages.length, (index) {
+                                      final file = selectedImages[index];
+                                      return Padding(
+                                        padding: EdgeInsets.only(
+                                          left: index == 0 ? 12.0 : 0.0,
+                                          right: 12.0,
+                                        ),
+                                        child: Stack(
+                                          children: [
+                                            Container(
+                                              width: 158.0,
+                                              height: 114.0,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  fit: BoxFit.cover,
+                                                  image: FileImage(file),
+                                                ),
+                                                borderRadius:
+                                                    BorderRadius.circular(12.0),
+                                                border: Border.all(
+                                                  color: Color(0xFFEF5C00),
+                                                  width: 2.0,
+                                                ),
+                                              ),
+                                            ),
+                                            Positioned(
+                                              top: 6,
+                                              right: 6,
+                                              child: GestureDetector(
+                                                onTap: () {
+                                                  setState(() {
+                                                    selectedImages
+                                                        .removeAt(index);
+                                                  });
+                                                },
+                                                child: Container(
+                                                  width: 24.0,
+                                                  height: 24.0,
+                                                  decoration: BoxDecoration(
+                                                    color: Colors.black
+                                                        .withOpacity(0.5),
+                                                    shape: BoxShape.circle,
+                                                  ),
+                                                  child: Icon(
+                                                    Icons.close,
+                                                    color: Colors.white,
+                                                    size: 18.0,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      );
+                                    }),
                                   ),
                                 ),
-                              ),
-                            ],
-                          ),
                         ),
                       ),
                       Align(
@@ -506,30 +597,55 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            FFAppState().addToLooperTearscitorSolaceD(
-                                BioluminescentEmpathyDTStruct(
-                              marianaTrenchTherapID:
-                                  FFAppState().emotionalSupportT,
-                              pressureDepthConfessionsWID:
-                                  FFAppState().looperTearscitorSolaceD.length,
-                              anglerfishLightTrustolaceID:
-                                  digitalHugMatrix,
-                              brinePoolSolacenSongTearsI: ['111'],
-                              grandfatherClockTherapyT:
-                                  (textFieldFocusNode?.hasFocus ?? false)
-                                      .toString(),
-                              butterflyEffectConfideHX: ['000'],
-                              compassionateListenerTiem:
-                                  DateTime.fromMicrosecondsSinceEpoch(
-                                      1752163200000000),
-                            ));
-                            FFAppState().update(() {});
+                            if (selectedImages.isNotEmpty &&
+                                digitalHugMatrix != null &&
+                                textController.text.trim().isNotEmpty) {
+                              FFAppState().addToLooperTearscitorSolaceD(
+                                  BioluminescentEmpathyDTStruct(
+                                marianaTrenchTherapID:
+                                    FFAppState().emotionalSupportT,
+                                pressureDepthConfessionsWID:
+                                    FFAppState().looperTearscitorSolaceD.length,
+                                anglerfishLightTrustolaceID: digitalHugMatrix,
+                                brinePoolSolacenSongTearsI: selectedImages
+                                    .map((file) => file.path)
+                                    .toList(),
+                                grandfatherClockTherapyT:
+                                    textController.text.trim(),
+                                butterflyEffectConfideHX: ['000'],
+                                compassionateListenerTiem: DateTime.now(),
+                              ));
+                              FFAppState().update(() {});
+                              textController?.clear;
+                              selectedImages = [] ;
+                              setState(() {
+                                
+                              });
+
+                              await showCustomLoading(
+                                message: 'Published successfully. Thank you for sharing!',
+                                icon: Icons.check_circle_outline,
+                                duration: Duration(seconds: 2),
+                              );
+                              Navigator.pop(context);
+                            } else {
+                              await showCustomLoading(
+                                message:
+                                    'Please complete all the required fields before Posting',
+                                icon: Icons.warning_amber_rounded,
+                                duration: Duration(seconds: 2),
+                              );
+                            }
                           },
                           child: Container(
                             width: double.infinity,
                             height: 64.0,
                             decoration: BoxDecoration(
-                              color: Color(0xFFFFA761),
+                        color: (selectedImages.isNotEmpty &&
+        digitalHugMatrix != null &&
+        textController.text.trim().isNotEmpty)
+    ? Color(0xFFFF6206)
+    : Color(0xFFFFA761),
                               borderRadius: BorderRadius.circular(32.0),
                             ),
                             alignment: AlignmentDirectional(0.0, 0.0),
@@ -544,7 +660,9 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color: Color(0xE6FFFFFF),
+                                    color:(selectedImages.isNotEmpty &&
+        digitalHugMatrix != null &&
+        textController.text.trim().isNotEmpty) ? Color.fromARGB(230, 255, 255, 255): Color(0xE6FFFFFF),
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
@@ -556,6 +674,8 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                           ),
                         ),
                       ),
+                   
+                   
                     ],
                   ),
                 ),

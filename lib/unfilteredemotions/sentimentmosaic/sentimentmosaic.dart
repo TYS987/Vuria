@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-
 class SentimentMosaicWidget extends StatefulWidget {
   const SentimentMosaicWidget({super.key});
 
@@ -17,19 +16,15 @@ class SentimentMosaicWidget extends StatefulWidget {
 }
 
 class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -68,10 +63,6 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
                           context.safePop();
                         },
@@ -120,8 +111,21 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       EdgeInsetsDirectional.fromSTEB(12.0, 31.0, 12.0, 0.0),
                   child: Builder(
                     builder: (context) {
-                      final sentimentTapestryBoard =
-                          FFAppState().steamPunkSiribleDroneR.toList();
+                      final sentimentTapestryBoard = FFAppState()
+                          .steamPunkSiribleDroneR
+                          .where((e) =>
+                              e.shamanCodingNeuralinkM
+                                  .contains(FFAppState().emotionalSupportT) &&
+                              !FFAppState()
+                                  .necronomiconHealingComfortU
+                                  .elementAt(FFAppState().emotionalSupportT)
+                                  .corporateDroneHugsB
+                                  .contains(e.shamanCodingNeuralinkM
+                                      .where((e) =>
+                                          e != FFAppState().emotionalSupportT)
+                                      .toList()
+                                      .firstOrNull))
+                          .toList();
 
                       return ListView.builder(
                         padding: EdgeInsets.zero,
@@ -138,6 +142,19 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
+                              FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                                sentimentTapestryBoardItem
+                                    .pyramidAlgorithmengeFirewalHID,
+                                (e) => e
+                                  ..pyramidAlgorithmengeFirewalHID =
+                                      sentimentTapestryBoardItem
+                                          .pyramidAlgorithmengeFirewalHID
+                                  ..cavePaintingNeuralinkSID =
+                                      FFAppState().emotionalSupportT
+                                  ..daVinciDroneoHologramN = 0
+                                  ..inquisitionInternetBitcoin = DateTime.now(),
+                              );
+
                               context.pushNamed(
                                 SynapseSerenitymesWidget.routeName,
                                 queryParameters: {
@@ -233,7 +250,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     .toList()
                                                     .firstOrNull
                                                     ?.phoenixTearsTherapyN,
-                                                '   asda',
+                                                '',
                                               ),
                                               style: FlutterFlowTheme.of(
                                                       context)
@@ -337,61 +354,64 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                 ),
                                               ),
                                             ),
-                                            Padding(
-                                              padding: EdgeInsetsDirectional
-                                                  .fromSTEB(
-                                                      0.0, 0.0, 13.0, 0.0),
-                                              child: Container(
-                                                decoration: BoxDecoration(
-                                                  color: Color(0xFFFF7A19),
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          50.0),
-                                                ),
-                                                child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(
-                                                          10.0, 5.0, 10.0, 5.0),
-                                                  child: Text(
-                                                    valueOrDefault<String>(
-                                                      sentimentTapestryBoardItem
-                                                          .daVinciDroneoHologramN
-                                                          .toString(),
-                                                      '8',
-                                                    ),
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          font:
-                                                              GoogleFonts.inter(
-                                                            fontWeight:
-                                                                FlutterFlowTheme.of(
+                                            if (sentimentTapestryBoardItem
+                                                    .cavePaintingNeuralinkSID !=
+                                                FFAppState().emotionalSupportT)
+                                              Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(
+                                                        0.0, 0.0, 13.0, 0.0),
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0xFFFF7A19),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            50.0),
+                                                  ),
+                                                  child: Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(10.0, 5.0,
+                                                                10.0, 5.0),
+                                                    child: Text(
+                                                      valueOrDefault<String>(
+                                                        sentimentTapestryBoardItem
+                                                            .daVinciDroneoHologramN
+                                                            .toString(),
+                                                        '8',
+                                                      ),
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodyMedium
+                                                              .override(
+                                                                font:
+                                                                    GoogleFonts
+                                                                        .inter(
+                                                                  fontWeight: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .bodyMedium
+                                                                      .fontWeight,
+                                                                  fontStyle: FlutterFlowTheme.of(
+                                                                          context)
+                                                                      .bodyMedium
+                                                                      .fontStyle,
+                                                                ),
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                fontWeight: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontWeight,
-                                                            fontStyle:
-                                                                FlutterFlowTheme.of(
+                                                                fontStyle: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontStyle,
-                                                          ),
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontStyle,
-                                                        ),
+                                                              ),
+                                                    ),
                                                   ),
                                                 ),
                                               ),
-                                            ),
                                           ],
                                         ),
                                         Divider(

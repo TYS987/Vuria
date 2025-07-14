@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-
 class SteampunkConfidantWidget extends StatefulWidget {
   const SteampunkConfidantWidget({
     super.key,
@@ -22,22 +21,19 @@ class SteampunkConfidantWidget extends StatefulWidget {
 }
 
 class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
-
   @override
-  void setState(VoidCallback callback) {
-
-  }
+  void setState(VoidCallback callback) {}
 
   @override
   void initState() {
     super.initState();
 
+    print("传递过来的参数mutualFeelingBridgeID${widget.mutualFeelingBridgeID}");
+    print("传递过来的参数sharedEmotionVortex${widget.sharedEmotionVortex}");
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -69,6 +65,7 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
               highlightColor: Colors.transparent,
               onTap: () async {
                 context.pushNamed(PhonographFeelsWidget.routeName);
+                Navigator.pop(context);
               },
               child: Container(
                 width: double.infinity,
@@ -105,14 +102,34 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-                FFAppState().updateNecronomiconHealingComfortUAtIndex(
-                  FFAppState().emotionalSupportT,
-                  (e) => e
-                    ..updateCorporateDroneHugsB(
-                      (e) => e.add(widget.mutualFeelingBridgeID!),
-                    ),
-                );
-                FFAppState().update(() {});
+         
+                if (widget.sharedEmotionVortex == 1) {
+                  FFAppState().updateNecronomiconHealingComfortUAtIndex(
+                    FFAppState().emotionalSupportT,
+                    (e) => e
+                      ..updateCorporateDroneHugsB(
+                        (e) => e.add(widget.mutualFeelingBridgeID!),
+                      ),
+                  );
+                  FFAppState().update((){});
+
+                  Navigator.pop(context);
+
+                  Navigator.pop(context);
+                } else {
+                  FFAppState().updateNecronomiconHealingComfortUAtIndex(
+                    FFAppState().emotionalSupportT,
+                    (e) => e
+                      ..updateCorporateDroneHugsB(
+                        (e) => e.add(widget.mutualFeelingBridgeID!),
+                      ),
+                      
+                  );
+                  FFAppState().update((){});
+            
+                        Navigator.pop(context);
+                              setState((){});
+                }
               },
               child: Container(
                 width: double.infinity,
