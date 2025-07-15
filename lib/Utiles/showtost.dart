@@ -31,18 +31,38 @@ void showAwesomeSnackBar({
     ..showSnackBar(snackBar);
 }
 
-
-
-void showAccountDeletionWarning(BuildContext context) {
+// 提示登录失败
+void showLoginErrorSnackBar(BuildContext context) {
   showAwesomeSnackBar(
     context: context,
-    title: '⚠️ 确认注销账号',
-    message: '此操作将永久删除您的账号及所有数据，且无法恢复！',
-    contentType: ContentType.warning, // 使用橙色警告样式
-    duration: const Duration(seconds: 4), // 延长显示时间
+    title: 'Login Failed',
+    message: 'Incorrect account or password. Please try again.',
+    contentType: ContentType.failure, 
+    duration: const Duration(seconds: 3),
   );
 }
 
+//  提示账户密码不能为空
+void showLoginFieldsMissingSnackBar(BuildContext context) {
+  showAwesomeSnackBar(
+    context: context,
+    title: 'Missing Required Fields',
+    message: 'Please fill in both account and password before logging in.',
+    contentType: ContentType.warning, 
+    duration: const Duration(seconds: 3),
+  );
+}
+// 提示用户没有同意协议
+
+void showAgreementNotCheckedSnackBar(BuildContext context) {
+  showAwesomeSnackBar(
+    context: context,
+    title: 'The agreement is not agreed upon.',
+    message: 'Please read and agree to the User Agreement and Privacy Policy first',
+    contentType: ContentType.warning, 
+    duration: const Duration(seconds: 3),
+  );
+}
 
 Future<void> showAutoDismissLoading({required String message}) async {
   EasyLoading.show(
@@ -90,8 +110,8 @@ Future<void> showCustomLoading({
       ),
       child: Icon(
         icon,
-        color: Colors.orange, // 使用更醒目的颜色
-        size: 40, // 增大尺寸
+        color: Colors.orange,
+        size: 40, 
       ),
     ),
     status: message,

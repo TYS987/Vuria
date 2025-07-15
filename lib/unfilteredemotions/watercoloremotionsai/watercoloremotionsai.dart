@@ -1,9 +1,11 @@
+import 'package:vuria/Utiles/messageai.dart';
+import 'package:vuria/backend/schema/structs/london_fog_a_iet_watch_phone_r_m_struct.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-
 
 class WatercolorEmotionsAiWidget extends StatefulWidget {
   const WatercolorEmotionsAiWidget({
@@ -23,12 +25,48 @@ class WatercolorEmotionsAiWidget extends StatefulWidget {
 
 class _WatercolorEmotionsAiWidgetState
     extends State<WatercolorEmotionsAiWidget> {
-
-
-    FocusNode? textFieldFocusNode;
+  FocusNode? textFieldFocusNode;
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
 
+  final _scrollController = ScrollController();
+  void slavicHistoryLessons() {
+    if (_scrollController.hasClients) {
+      Future.delayed(
+        const Duration(milliseconds: 200),
+        () {
+          _scrollController.animateTo(
+            _scrollController.position.maxScrollExtent,
+            duration: const Duration(milliseconds: 200),
+            curve: Curves.easeInOut,
+          );
+        },
+      );
+    }
+  }
+
+
+
+  Future<void> voiceDrivenStoryteVoicePostss(String fixedInput) async {
+    try {
+      String warmthThroughVoiceCompanion =
+          await generatePersonalizedResponse(fixedInput);
+      FFAppState()
+          .addToSamuraiSocialMediapiratePodcast(LondonFogAIetWatchPhoneRMStruct(
+        pocketWatchPhoneagramID: widget.sentimentSynchronizer,
+        knightCyborgcastleCloudID:
+            FFAppState().necronomiconHealingComfortU[7].loFiSoulmatesComfortT,
+        moatMalwarejoustingJav: DateTime.now(),
+        cathedralCodeplagueythonhx: ['混淆'],
+        neoNeolithicquantumQuillHX: [0, 0],
+        gladiatorGoogleetflixT: warmthThroughVoiceCompanion,
+      ));
+      FFAppState().update(() {});
+      slavicHistoryLessons();
+    } catch (error) {
+      print('Error fetching AI response: $error');
+    }
+  }
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -36,16 +74,15 @@ class _WatercolorEmotionsAiWidgetState
   void initState() {
     super.initState();
 
-
     textController ??= TextEditingController();
-   textFieldFocusNode ??= FocusNode();
+    textFieldFocusNode ??= FocusNode();
   }
 
   @override
   void dispose() {
-
-   textFieldFocusNode?.dispose();
+    textFieldFocusNode?.dispose();
     textController?.dispose();
+    _scrollController.dispose;
     super.dispose();
   }
 
@@ -62,7 +99,7 @@ class _WatercolorEmotionsAiWidgetState
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: Align(
-          alignment: AlignmentDirectional(0.0, 1.0),
+          alignment: AlignmentDirectional(0, 1),
           child: Container(
             width: double.infinity,
             height: double.infinity,
@@ -78,8 +115,7 @@ class _WatercolorEmotionsAiWidgetState
               mainAxisSize: MainAxisSize.max,
               children: [
                 Padding(
-                  padding:
-                      EdgeInsetsDirectional.fromSTEB(12.0, 54.0, 12.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(12, 54, 12, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -93,8 +129,8 @@ class _WatercolorEmotionsAiWidgetState
                           context.safePop();
                         },
                         child: Container(
-                          width: 32.0,
-                          height: 32.0,
+                          width: 32,
+                          height: 32,
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
@@ -115,7 +151,7 @@ class _WatercolorEmotionsAiWidgetState
                                     .fontStyle,
                               ),
                               color: Colors.black,
-                              fontSize: 20.0,
+                              fontSize: 20,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
                               fontStyle: FlutterFlowTheme.of(context)
@@ -124,8 +160,8 @@ class _WatercolorEmotionsAiWidgetState
                             ),
                       ),
                       Container(
-                        width: 32.0,
-                        height: 32.0,
+                        width: 32,
+                        height: 32,
                         decoration: BoxDecoration(),
                       ),
                     ],
@@ -133,94 +169,227 @@ class _WatercolorEmotionsAiWidgetState
                 ),
                 Expanded(
                   child: Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 12.0, 0.0),
-                    child: ListView(
-                      padding: EdgeInsets.fromLTRB(
-                        0,
-                        10.0,
-                        0,
-                        30.0,
-                      ),
-                      shrinkWrap: true,
-                      scrollDirection: Axis.vertical,
-                      children: [
-                        Builder(
-                          builder: (context) {
-                            return Row(
-                              mainAxisSize: MainAxisSize.max,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Container(
-                                  width: 50.0,
-                                  height: 50.0,
-                                  decoration: BoxDecoration(
-                                    color: Color(0xFF674E4E),
-                                    borderRadius: BorderRadius.circular(50.0),
-                                  ),
-                                ),
-                                Flexible(
-                                  child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        10.0, 0.0, 0.0, 0.0),
-                                    child: Container(
-                                      constraints: BoxConstraints(
-                                        maxWidth: 267.0,
-                                      ),
-                                      decoration: BoxDecoration(
-                                        color: Color(0xE6FFFFFF),
-                                        borderRadius: BorderRadius.only(
-                                          bottomLeft: Radius.circular(16.0),
-                                          bottomRight: Radius.circular(16.0),
-                                          topLeft: Radius.circular(0.0),
-                                          topRight: Radius.circular(16.0),
+                    padding: EdgeInsetsDirectional.fromSTEB(12, 0, 12, 0),
+                    child: Builder(
+                      builder: (context) {
+                        final wildWestWhatsappnseling = FFAppState()
+                            .samuraiSocialMediapiratePodcast
+                            .where((e) =>
+                                e.pocketWatchPhoneagramID ==
+                                widget.sentimentSynchronizer)
+                            .toList();
+
+                        return ListView.separated(
+                          controller: _scrollController,
+                          padding: EdgeInsets.fromLTRB(
+                            0,
+                            10,
+                            0,
+                            30,
+                          ),
+                          shrinkWrap: true,
+                          scrollDirection: Axis.vertical,
+                          itemCount: wildWestWhatsappnseling.length,
+                          separatorBuilder: (_, __) => SizedBox(height: 10),
+                          itemBuilder: (context, wildWestWhatsappnselingIndex) {
+                            final wildWestWhatsappnselingItem =
+                                wildWestWhatsappnseling[
+                                    wildWestWhatsappnselingIndex];
+                            return Builder(
+                              builder: (context) {
+                                if (wildWestWhatsappnselingItem
+                                        .knightCyborgcastleCloudID !=
+                                    FFAppState().emotionalSupportT) {
+                                  return Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      InkWell(
+                                        onTap: (){
+                                          print("打印用户的OD${    wildWestWhatsappnselingItem.knightCyborgcastleCloudID}");
+                                          print("打印头像地址${FFAppState()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        wildWestWhatsappnselingItem.knightCyborgcastleCloudID
+                                                            )
+                                                    .toList()
+                                                    .firstOrNull!
+                                                    .neuralLaceConfessionsI}");
+                                        },
+                                        child: Container(
+                                          width: 50,
+                                          height: 50,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              fit: BoxFit.cover,
+                                              image: Image.asset(
+                                                FFAppState()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        wildWestWhatsappnselingItem.knightCyborgcastleCloudID
+                                                            )
+                                                    .toList()
+                                                    .firstOrNull!
+                                                    .neuralLaceConfessionsI,
+                                              ).image,
+                                            ),
+                                            borderRadius:
+                                                BorderRadius.circular(50.0),
+                                          ),
                                         ),
                                       ),
-                                      child: Padding(
-                                        padding:
-                                            EdgeInsetsDirectional.fromSTEB(
-                                                10.0, 10.0, 10.0, 10.0),
-                                        child: Text(
-                                          'Hey there, I’m Lumi. You don’t have to explain everything—just tell me how your heart feels today. 🌙',
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyMedium
-                                              .override(
-                                                fontFamily: 'AVENIR',
-                                                color: Color(0xFF323232),
-                                                fontSize: 16.0,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.w500,
-                                                lineHeight: 1.3,
+                                      Flexible(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  10, 0, 0, 0),
+                                          child: Container(
+                                            constraints: BoxConstraints(
+                                              maxWidth: 267,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Color(0xE6FFFFFF),
+                                              borderRadius: BorderRadius.only(
+                                                bottomLeft: Radius.circular(16),
+                                                bottomRight:
+                                                    Radius.circular(16),
+                                                topLeft: Radius.circular(0),
+                                                topRight: Radius.circular(16),
                                               ),
+                                            ),
+                                            child: Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(10, 10, 10, 10),
+                                              child: Text(
+                                                valueOrDefault<String>(
+                                                  wildWestWhatsappnselingItem
+                                                      .gladiatorGoogleetflixT,
+                                                  '',
+                                                ),
+                                                style:
+                                                    FlutterFlowTheme.of(context)
+                                                        .bodyMedium
+                                                        .override(
+                                                          fontFamily: 'AVENIR',
+                                                          color:
+                                                              Color(0xFF323232),
+                                                          fontSize: 16,
+                                                          letterSpacing: 0.0,
+                                                          fontWeight:
+                                                              FontWeight.w500,
+                                                          lineHeight: 1.3,
+                                                        ),
+                                              ),
+                                            ),
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                  ),
-                                ),
-                              ],
+                                    ],
+                                  );
+                                } else {
+                                  return Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    mainAxisAlignment: MainAxisAlignment.end,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Flexible(
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 0, 10, 0),
+                                          child: Container(
+                                            constraints: BoxConstraints(
+                                              maxWidth: 267,
+                                            ),
+                                            decoration: BoxDecoration(
+                                              color: Color(0x33FFA500),
+                                              borderRadius: BorderRadius.only(
+                                                bottomLeft: Radius.circular(16),
+                                                bottomRight:
+                                                    Radius.circular(16),
+                                                topLeft: Radius.circular(16),
+                                                topRight: Radius.circular(0),
+                                              ),
+                                            ),
+                                            child: Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(10, 10, 10, 10),
+                                              child: Text(
+                                                valueOrDefault<String>(
+                                                  wildWestWhatsappnselingItem
+                                                      .gladiatorGoogleetflixT,
+                                                  '',
+                                                ),
+                                                style:
+                                                    FlutterFlowTheme.of(context)
+                                                        .bodyMedium
+                                                        .override(
+                                                          fontFamily: 'AVENIR',
+                                                          color:
+                                                              Color(0xFF323232),
+                                                          fontSize: 16,
+                                                          letterSpacing: 0.0,
+                                                          fontWeight:
+                                                              FontWeight.w500,
+                                                          lineHeight: 1.3,
+                                                        ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                      Container(
+                                        width: 50,
+                                        height: 50,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              FFAppState()
+                                                  .necronomiconHealingComfortU
+                                                  .where((e) =>
+                                                      e.loFiSoulmatesComfortT ==
+                                                      wildWestWhatsappnselingItem
+                                                          .knightCyborgcastleCloudID)
+                                                  .toList()
+                                                  .firstOrNull!
+                                                  .neuralLaceConfessionsI,
+                                            ).image,
+                                          ),
+                                          borderRadius:
+                                              BorderRadius.circular(50.0),
+                                        ),
+                                      ),
+                                    ],
+                                  );
+                                }
+                              },
                             );
-                                                    },
-                        ),
-                      ].divide(SizedBox(height: 10.0)),
+                          },
+                        );
+                      },
                     ),
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 19.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(20, 0, 19, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Container(
-                        width: 248.0,
-                        height: 40.0,
+                        width: 248,
+                        height: 40,
                         decoration: BoxDecoration(
                           color: Color(0xE6FFFFFF),
-                          borderRadius: BorderRadius.circular(35.0),
+                          borderRadius: BorderRadius.circular(35),
                         ),
                         child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              17.0, 0.0, 17.0, 0.0),
+                          padding: EdgeInsetsDirectional.fromSTEB(17, 0, 17, 0),
                           child: Container(
                             width: double.infinity,
                             child: TextFormField(
@@ -270,30 +439,30 @@ class _WatercolorEmotionsAiWidgetState
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: Color(0x00000000),
-                                    width: 1.0,
+                                    width: 1,
                                   ),
-                                  borderRadius: BorderRadius.circular(8.0),
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
                                 focusedBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: Color(0x00000000),
-                                    width: 1.0,
+                                    width: 1,
                                   ),
-                                  borderRadius: BorderRadius.circular(8.0),
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: FlutterFlowTheme.of(context).error,
-                                    width: 1.0,
+                                    width: 1,
                                   ),
-                                  borderRadius: BorderRadius.circular(8.0),
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: FlutterFlowTheme.of(context).error,
-                                    width: 1.0,
+                                    width: 1,
                                   ),
-                                  borderRadius: BorderRadius.circular(8.0),
+                                  borderRadius: BorderRadius.circular(8),
                                 ),
                                 filled: true,
                                 fillColor: FlutterFlowTheme.of(context)
@@ -320,21 +489,57 @@ class _WatercolorEmotionsAiWidgetState
                                   ),
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
-                              validator: textControllerValidator
-                                  .asValidator(context),
+                              validator:
+                                  textControllerValidator.asValidator(context),
                             ),
                           ),
                         ),
                       ),
-                      Container(
-                        width: 36.0,
-                        height: 36.0,
-                        decoration: BoxDecoration(
-                          image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: Image.asset(
-                              'assets/images/whisperedFeelingsselect.png',
-                            ).image,
+                      InkWell(
+                        onTap: () async {
+                          if (textController.text.trim().isNotEmpty) {
+                            FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                              widget.sentimentSynchronizer!,
+                              (e) => e
+                                ..pyramidAlgorithmengeFirewalHID =
+                                    widget.sentimentSynchronizer
+                                ..cavePaintingNeuralinkSID =
+                                    FFAppState().emotionalSupportT
+                                ..thundercloudedT = textController.text.trim()
+                                ..daVinciDroneoHologramN += 1
+                                ..inquisitionInternetBitcoin = DateTime.now(),
+                            );
+                            FFAppState().addToSamuraiSocialMediapiratePodcast(
+                                LondonFogAIetWatchPhoneRMStruct(
+                              pocketWatchPhoneagramID:
+                                  widget.sentimentSynchronizer,
+                              knightCyborgcastleCloudID:
+                                  FFAppState().emotionalSupportT,
+                              moatMalwarejoustingJav: DateTime.now(),
+                              cathedralCodeplagueythonhx: ['混淆'],
+                              neoNeolithicquantumQuillHX: [0, 0],
+                              gladiatorGoogleetflixT:
+                                  textController.text.trim(),
+                            ));
+                            FFAppState().update(() {});
+                            voiceDrivenStoryteVoicePostss(
+                                textController.text.trim());
+                            slavicHistoryLessons();
+                            textController?.clear();
+
+                          
+                          }
+                        },
+                        child: Container(
+                          width: 36,
+                          height: 36,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: Image.asset(
+                                'assets/images/whisperedFeelingsselect.png',
+                              ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -343,7 +548,7 @@ class _WatercolorEmotionsAiWidgetState
                 ),
                 Container(
                   width: double.infinity,
-                  height: 34.0,
+                  height: 34,
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       fit: BoxFit.cover,

@@ -295,6 +295,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                               borderRadius:
                                                   BorderRadius.circular(50.0),
                                             ),
+                                         
+                                         
                                           ),
                                           Flexible(
                                             child: Padding(
@@ -329,6 +331,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                           .gladiatorGoogleetflixT,
                                                       'Hey there, I’m Lumi. You don’t have to explain everything—just tell me how your heart feels today. 🌙',
                                                     ),
+                                                 
+                                                 
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -454,6 +458,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                               borderRadius:
                                                   BorderRadius.circular(50.0),
                                             ),
+                                         
                                           ),
                                         ],
                                       ),

@@ -7,7 +7,6 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-
 class TrustedConfidantsWidget extends StatefulWidget {
   const TrustedConfidantsWidget({super.key});
 
@@ -20,20 +19,15 @@ class TrustedConfidantsWidget extends StatefulWidget {
 }
 
 class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
-
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -83,7 +77,6 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                         ),
                       ),
                     ),
-
                     Container(
                       width: double.infinity,
                       height: 125.0,
@@ -96,16 +89,13 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                         ),
                       ),
                     ),
-
-                        InkWell(
-                        onTap: ()async{
-                          print("dainji ");  
-                           context.pushNamed(
-                                      FragrantMemoriesWidget.routeName);
-                        },
-                          child: Text(
-                                                'Create your mood chat room',
-                                                style: FlutterFlowTheme.of(context).bodyMedium.override(
+                    InkWell(
+                      onTap: () async {
+                        context.pushNamed(FragrantMemoriesWidget.routeName);
+                      },
+                      child: Text(
+                        'Create your mood chat room',
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
                               fontFamily: 'PingFang',
                               color: Color(0xFFEC7506),
                               fontSize: 12,
@@ -113,8 +103,8 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                               decoration: TextDecoration.underline,
                               lineHeight: 1.2,
                             ),
-                                              ),
-                        ),
+                      ),
+                    ),
                     Align(
                       alignment: AlignmentDirectional(-1.0, -1.0),
                       child: Padding(
@@ -147,11 +137,23 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                 builder: (context) {
                                   final feelingExchangePortalemotion =
                                       FFAppState()
-                                          .azothConfessionsathanorSolaceMP.where((e)=> !FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].corporateDroneHugsB.contains(e.philosophersStoneHealingID))
+                                          .azothConfessionsathanorSolaceMP
+                                          .where((e) => !FFAppState()
+                                              .necronomiconHealingComfortU[
+                                                  FFAppState()
+                                                      .emotionalSupportT]
+                                              .corporateDroneHugsB
+                                              .contains(
+                                                  e.philosophersStoneHealingID))
                                           .toList();
 
                                   return MasonryGridView.builder(
-                                      padding: EdgeInsets.zero, 
+                                    padding: EdgeInsets.fromLTRB(
+                                      0,
+                                      0,
+                                      0,
+                                      250,
+                                    ),
                                     gridDelegate:
                                         SliverSimpleGridDelegateWithFixedCrossAxisCount(
                                       crossAxisCount: 2,
@@ -160,6 +162,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                     mainAxisSpacing: 10.0,
                                     itemCount:
                                         feelingExchangePortalemotion.length,
+                                    shrinkWrap: true,
                                     itemBuilder: (context,
                                         feelingExchangePortalemotionIndex) {
                                       final feelingExchangePortalemotionItem =
@@ -171,6 +174,17 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
+                                          FFAppState()
+                                              .updateAzothConfessionsathanorSolaceMPAtIndex(
+                                            feelingExchangePortalemotionItem
+                                                .alchemicalWeddingHomeID,
+                                            (e) => e
+                                              ..updateMagnumOpusComfortMorePope(
+                                                (e) => e.add(FFAppState()
+                                                    .emotionalSupportT),
+                                              ),
+                                          );
+                                          FFAppState().update(() {});
                                           context.pushNamed(
                                             IntimateMomentsShareWidget
                                                 .routeName,
@@ -242,97 +256,113 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                 Stack(
                                                   alignment:
                                                       AlignmentDirectional(
-                                                          -1.0, 1.0),
+                                                          -1, 1),
                                                   children: [
                                                     Align(
                                                       alignment:
                                                           AlignmentDirectional(
-                                                              0.0, 1.0),
+                                                              0, 1),
                                                       child: Container(
-                                                        width: 123.0,
-                                                        height: 30.0,
+                                                        width: 150,
+                                                        height: 30,
                                                         decoration:
                                                             BoxDecoration(
                                                           color:
                                                               Color(0x33FFFFFF),
                                                           borderRadius:
                                                               BorderRadius
-                                                                  .circular(
-                                                                      30.0),
+                                                                  .circular(30),
                                                         ),
                                                         child: Padding(
                                                           padding:
                                                               EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      30.0,
-                                                                      0.0,
-                                                                      0.0,
-                                                                      0.0),
+                                                                  .fromSTEB(30,
+                                                                      0, 0, 0),
                                                           child: Row(
                                                             mainAxisSize:
                                                                 MainAxisSize
                                                                     .max,
                                                             children: [
-                                                              Expanded(
-                                                                child: Builder(
-                                                                  builder:
-                                                                      (context) {
-                                                                    final empatheticConnsoulfulConversat = feelingExchangePortalemotionItem
-                                                                        .magnumOpusComfortMorePope
-                                                                        .take(3)
-                                                                        .toList();
-
-                                                                    return Stack(
-                                                                      children: List.generate(
-                                                                          empatheticConnsoulfulConversat
-                                                                              .length,
-                                                                          (empatheticConnsoulfulConversatIndex) {
-                                                                        final empatheticConnsoulfulConversatItem =
-                                                                            empatheticConnsoulfulConversat[empatheticConnsoulfulConversatIndex];
-                                                                        return Container(
-                                                                          width:
-                                                                              20.0,
-                                                                          height:
-                                                                              20.0,
-                                                                          decoration:
-                                                                              BoxDecoration(
-                                                                            borderRadius:
-                                                                                BorderRadius.circular(20.0),
-                                                                          ),
+                                                              Flexible(
+                                                                child: Row(
+                                                                  mainAxisSize:
+                                                                      MainAxisSize
+                                                                          .max,
+                                                                  children: [
+                                                                    Builder(
+                                                                      builder:
+                                                                          (context) {
+                                                                        final empatheticConnsoulfulConversat = feelingExchangePortalemotionItem
+                                                                            .magnumOpusComfortMorePope
+                                                                            .take(3)
+                                                                            .toList();
+                                                                        return Stack(
+                                                                          children: List.generate(
+                                                                              empatheticConnsoulfulConversat.length,
+                                                                              (empatheticConnsoulfulConversatIndex) {
+                                                                            final empatheticConnsoulfulConversatItem =
+                                                                                empatheticConnsoulfulConversat[empatheticConnsoulfulConversatIndex];
+                                                                            return Padding(
+                                                                              padding: EdgeInsetsDirectional.fromSTEB(
+                                                                                  valueOrDefault<double>(
+                                                                                    empatheticConnsoulfulConversatIndex * 15,
+                                                                                    0.0,
+                                                                                  ),
+                                                                                  0.0,
+                                                                                  0.0,
+                                                                                  0.0),
+                                                                              child: Container(
+                                                                                width: 20,
+                                                                                height: 20,
+                                                                                decoration: BoxDecoration(
+                                                                                  image: DecorationImage(
+                                                                                    fit: BoxFit.cover,
+                                                                                    image: Image.asset(
+                                                                                      FFAppState().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                    ).image,
+                                                                                  ),
+                                                                                  borderRadius: BorderRadius.circular(20),
+                                                                                ),
+                                                                              ),
+                                                                            );
+                                                                          }),
                                                                         );
-                                                                      }),
-                                                                    );
-                                                                  },
-                                                                ),
-                                                              ),
-                                                              Padding(
-                                                                padding: EdgeInsetsDirectional
-                                                                    .fromSTEB(
-                                                                        valueOrDefault<
-                                                                            double>(
-                                                                          feelingExchangePortalemotionIndex *
-                                                                              10,
-                                                                          0.0,
-                                                                        ),
-                                                                        0.0,
-                                                                        0.0,
-                                                                        0.0),
-                                                                child:
-                                                                    Container(
-                                                                  width: 9.0,
-                                                                  height: 10.0,
-                                                                  decoration:
-                                                                      BoxDecoration(),
+                                                                      },
+                                                                    ),
+                                                                  ],
                                                                 ),
                                                               ),
                                                               Padding(
                                                                 padding:
                                                                     EdgeInsetsDirectional
                                                                         .fromSTEB(
-                                                                            0.0,
-                                                                            0.0,
-                                                                            12.0,
-                                                                            0.0),
+                                                                            5,
+                                                                            0,
+                                                                            0,
+                                                                            0),
+                                                                child:
+                                                                    Container(
+                                                                  width: 9,
+                                                                  height: 10,
+                                                                  decoration:
+                                                                      BoxDecoration(),
+                                                                  child: Icon(
+                                                                    Icons
+                                                                        .person_outline_sharp,
+                                                                    color: Colors
+                                                                        .white,
+                                                                    size: 10,
+                                                                  ),
+                                                                ),
+                                                              ),
+                                                              Padding(
+                                                                padding:
+                                                                    EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            5,
+                                                                            0,
+                                                                            10,
+                                                                            0),
                                                                 child: Text(
                                                                   valueOrDefault<
                                                                       String>(
@@ -346,23 +376,14 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                           context)
                                                                       .bodyMedium
                                                                       .override(
-                                                                        font: GoogleFonts
-                                                                            .inter(
-                                                                          fontWeight: FlutterFlowTheme.of(context)
-                                                                              .bodyMedium
-                                                                              .fontWeight,
-                                                                          fontStyle: FlutterFlowTheme.of(context)
-                                                                              .bodyMedium
-                                                                              .fontStyle,
-                                                                        ),
+                                                                        fontFamily:
+                                                                            'PingFang',
+                                                                        color: Colors
+                                                                            .white,
+                                                                        fontSize:
+                                                                            10,
                                                                         letterSpacing:
                                                                             0.0,
-                                                                        fontWeight: FlutterFlowTheme.of(context)
-                                                                            .bodyMedium
-                                                                            .fontWeight,
-                                                                        fontStyle: FlutterFlowTheme.of(context)
-                                                                            .bodyMedium
-                                                                            .fontStyle,
                                                                       ),
                                                                 ),
                                                               ),
@@ -372,8 +393,8 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                       ),
                                                     ),
                                                     Container(
-                                                      width: 40.0,
-                                                      height: 40.0,
+                                                      width: 40,
+                                                      height: 40,
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
@@ -436,10 +457,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
             ),
             Align(
               alignment: AlignmentDirectional(0.0, 1.0),
-             
-        
-                child: EmotionalHarmonyWidget(),
-     
+              child: EmotionalHarmonyWidget(),
             ),
             Align(
               alignment: AlignmentDirectional(0.98, 0.65),

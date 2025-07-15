@@ -1,3 +1,6 @@
+import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/backend/schema/structs/phoenix_tears_therapust_empathy_struct.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/index.dart';
@@ -16,6 +19,8 @@ class EmpathyExchangeWidget extends StatefulWidget {
 
 class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   int? sharedVulnerability = 0;
+// 首先在你的State类顶部添加这个变量
+  bool _obscurePassword = false;
 
   FocusNode? textFieldFocusNode1;
   TextEditingController? textController1;
@@ -36,6 +41,10 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
 
     textController2 ??= TextEditingController();
     textFieldFocusNode2 ??= FocusNode();
+    _obscurePassword = false;
+    textController2!.addListener(() {
+      setState(() {}); // 输入变化时刷新UI
+    });
   }
 
   @override
@@ -58,6 +67,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
+          resizeToAvoidBottomInset: false,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
@@ -242,7 +252,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         controller: textController2,
                                         focusNode: textFieldFocusNode2,
                                         autofocus: false,
-                                        obscureText: false,
+                                        obscureText: _obscurePassword,
                                         decoration: InputDecoration(
                                           isDense: true,
                                           labelStyle: FlutterFlowTheme.of(
@@ -369,29 +379,43 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               ),
                               Builder(
                                 builder: (context) {
-                                  if (sharedVulnerability == 0) {
-                                    return Container(
-                                      width: 24.0,
-                                      height: 24.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/tenderMoments.png',
-                                          ).image,
+                                  if (_obscurePassword) {
+                                    return InkWell(
+                                      onTap: () async {
+                                        setState(() {
+                                          _obscurePassword = !_obscurePassword;
+                                        });
+                                      },
+                                      child: Container(
+                                        width: 24.0,
+                                        height: 24.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/kindredSpirits.png',
+                                            ).image,
+                                          ),
                                         ),
                                       ),
                                     );
                                   } else {
-                                    return Container(
-                                      width: 24.0,
-                                      height: 24.0,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/kindredSpirits.png',
-                                          ).image,
+                                    return InkWell(
+                                      onTap: () async {
+                                        setState(() {
+                                          _obscurePassword = !_obscurePassword;
+                                        });
+                                      },
+                                      child: Container(
+                                        width: 24.0,
+                                        height: 24.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/tenderMoments.png',
+                                            ).image,
+                                          ),
                                         ),
                                       ),
                                     );
@@ -416,7 +440,78 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      context.pushNamed(TrustedConfidantsWidget.routeName);
+                      if (FFAppState().likeHeartfeltMoments == true) {
+                        if (textController1.text.trim().isNotEmpty &&
+                            textController2.text.trim().isNotEmpty) {
+                          if (FFAppState()
+                              .necronomiconHealingComfortU
+                              .where((e) =>
+                                  e.unicornWhispererHealingE ==
+                                  textController1.text.trim())
+                              .toList()
+                              .isNotEmpty) {
+                            //判断密码
+                            if (FFAppState()
+                                .necronomiconHealingComfortU
+                                .where((e) =>
+                                    e.dragonScaleComfortfessionsP ==
+                                    textController2.text.trim())
+                                .toList()
+                                .isNotEmpty) {
+                              FFAppState().emotionalSupportT = FFAppState()
+                                  .necronomiconHealingComfortU
+                                  .where((e) =>
+                                      (e.unicornWhispererHealingE ==
+                                          textController1.text.trim()) &&
+                                      (e.unicornWhispererHealingE ==
+                                          textController1.text.trim()))
+                                  .toList()
+                                  .firstOrNull!
+                                  .loFiSoulmatesComfortT;
+                              FFAppState().kindheartedDialogues = 0;
+                              FFAppState().undergroundBunkerBondingRUT = 1;
+                              await showCustomLoading(
+                                message: 'Login successful. Welcome back!',
+                                icon: Icons.verified_user,
+                                duration: Duration(seconds: 2),
+                              );
+                              context
+                                  .pushNamed(TrustedConfidantsWidget.routeName);
+                            } else {
+                              showLoginErrorSnackBar(context);
+                            }
+                          } else {
+                            FFAppState().emotionalSupportT =
+                                FFAppState().necronomiconHealingComfortU.length;
+                            FFAppState().undergroundBunkerBondingRUT = 1;
+                            FFAppState().addToNecronomiconHealingComfortU(
+                                PhoenixTearsTherapustEmpathyStruct(
+                              unicornWhispererHealingE: textController1.text
+                                .trim(),
+                              dragonScaleComfortfessionsP:
+                                  textController2.text.trim(),
+                              neuralLaceConfessionsI:
+                                  "assets/images/vulnerabilitySafeZoneen.jpg",
+                              loFiSoulmatesComfortT: FFAppState()
+                                  .necronomiconHealingComfortU
+                                  .length,
+                              phoenixTearsTherapyN: "Tourist",
+                            ));
+                            await showCustomLoading(
+                              message:
+                                  'Welcome! Your account has been created.',
+                              icon: Icons.emoji_emotions_outlined, 
+                              duration: Duration(seconds: 2),
+                            );
+                            context
+                                .pushNamed(TrustedConfidantsWidget.routeName);
+                          }
+                        } else {
+                          showLoginFieldsMissingSnackBar(context);
+                        }
+                      } else {
+                        showAgreementNotCheckedSnackBar(context);
+                      }
                     },
                     child: Container(
                       width: 335.0,
@@ -483,29 +578,45 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                   children: [
                     Builder(
                       builder: (context) {
-                        if (sharedVulnerability != null) {
-                          return Container(
-                            width: 12.0,
-                            height: 12.0,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                fit: BoxFit.cover,
-                                image: Image.asset(
-                                  'assets/images/analogMoonlight.png',
-                                ).image,
+                        if (FFAppState().likeHeartfeltMoments == true) {
+                          return InkWell(
+                            onTap: () async {
+                              FFAppState().likeHeartfeltMoments = false;
+                              setState(() {});
+                            },
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 5.0, 0.0, 0.0),
+                              child: Container(
+                                width: 12.0,
+                                height: 12.0,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/analogMoonlight.png',
+                                    ).image,
+                                  ),
+                                ),
                               ),
                             ),
                           );
                         } else {
-                          return Padding(
-                            padding: EdgeInsetsDirectional.fromSTEB(
-                                0.0, 5.0, 0.0, 0.0),
-                            child: Container(
-                              width: 12.0,
-                              height: 12.0,
-                              decoration: BoxDecoration(
-                                color: Color(0xFF888888),
-                                borderRadius: BorderRadius.circular(12.0),
+                          return InkWell(
+                            onTap: () async {
+                              FFAppState().likeHeartfeltMoments = true;
+                              setState(() {});
+                            },
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 5.0, 0.0, 0.0),
+                              child: Container(
+                                width: 12.0,
+                                height: 12.0,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFF888888),
+                                  borderRadius: BorderRadius.circular(12.0),
+                                ),
                               ),
                             ),
                           );
@@ -514,8 +625,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     ),
                     Expanded(
                       child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
+                        padding: EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
                         child: RichText(
                           textScaler: MediaQuery.of(context).textScaler,
                           text: TextSpan(
@@ -532,7 +642,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                             .fontStyle,
                                       ),
                                       color: Colors.white,
-                                      fontSize: 12.0,
+                                      fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
@@ -552,7 +662,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                             .fontStyle,
                                       ),
                                       color: Colors.white,
-                                      fontSize: 12.0,
+                                      fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
@@ -572,7 +682,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                             .fontStyle,
                                       ),
                                       color: Colors.white,
-                                      fontSize: 12.0,
+                                      fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
@@ -586,19 +696,15 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .fontWeight,
+                                        fontWeight: FontWeight.w500,
                                         fontStyle: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
                                       color: Colors.white,
-                                      fontSize: 12.0,
+                                      fontSize: 12,
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .fontWeight,
+                                      fontWeight: FontWeight.w500,
                                       fontStyle: FlutterFlowTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
@@ -617,7 +723,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         .fontStyle,
                                   ),
                                   color: Colors.white,
-                                  fontSize: 12.0,
+                                  fontSize: 12,
                                   letterSpacing: 0.0,
                                   fontWeight: FlutterFlowTheme.of(context)
                                       .bodyMedium
@@ -629,7 +735,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           ),
                         ),
                       ),
-                    ),
+                    )
                   ],
                 ),
               ),

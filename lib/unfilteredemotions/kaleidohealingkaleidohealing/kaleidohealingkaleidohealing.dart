@@ -25,20 +25,15 @@ class KaleidoHealingkaleidoHealingWidget extends StatefulWidget {
 
 class _KaleidoHealingkaleidoHealingWidgetState
     extends State<KaleidoHealingkaleidoHealingWidget> {
-
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -585,7 +580,8 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            'assets/images/willowResilience.png',
+                                                   
+                                                                 'assets/images/origamiForgiveness.png',
                                                           ).image,
                                                         ),
                                                       ),
@@ -622,7 +618,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            'assets/images/origamiForgiveness.png',
+                                                                 'assets/images/willowResilience.png',
                                                           ).image,
                                                         ),
                                                       ),
@@ -688,34 +684,20 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                             .grandfatherClockTherapyT,
                                                         'Some days I smile while my heart',
                                                       ),
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                font:
-                                                                    GoogleFonts
-                                                                        .inter(
-                                                                  fontWeight: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontWeight,
-                                                                  fontStyle: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontStyle,
-                                                                ),
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                fontWeight: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .bodyMedium
-                                                                    .fontWeight,
-                                                                fontStyle: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .bodyMedium
-                                                                    .fontStyle,
-                                                              ),
+                                                      overflow:
+                                                          TextOverflow.ellipsis,
+                                                      maxLines: 1,
+                                                      style: FlutterFlowTheme
+                                                              .of(context)
+                                                          .bodyMedium
+                                                          .override(
+                                                            fontFamily:
+                                                                'PingFang',
+                                                            color: Colors.white,
+                                                            letterSpacing: 0.0,
+                                                            fontWeight:
+                                                                FontWeight.w600,
+                                                          ),
                                                     ),
                                                   ),
                                                   Padding(
@@ -892,7 +874,9 @@ class _KaleidoHealingkaleidoHealingWidgetState
                     ),
                   ),
                 ),
-                Align(
+             
+             
+          if(FFAppState().emotionalSupportT != widget.bondingThroughVibesID)      Align(
                   alignment: AlignmentDirectional(0.0, 1.0),
                   child: Padding(
                     padding:
@@ -930,13 +914,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                       .length,
                                   cavePaintingNeuralinkSID:
                                       FFAppState().emotionalSupportT,
-                                  thundercloudedT: '  ',
-                                  shamanCodingNeuralinkM: [0, 1],
-                                  daVinciDroneoHologramN: 000,
+                                  thundercloudedT: '',
+                                  shamanCodingNeuralinkM: [FFAppState().emotionalSupportT, widget.bondingThroughVibesID!],
+                                  daVinciDroneoHologramN: 0,
                                   inquisitionInternetBitcoin:
-                                      DateTime.fromMicrosecondsSinceEpoch(
-                                          1752163200000000),
-                                  baroqueBitcoinPodcastHX: ['混淆'],
+                                      DateTime.now(),
+                                  baroqueBitcoinPodcastHX: ['huanxiao'],
                                 ));
                                 FFAppState().update(() {});
                               }
@@ -949,8 +932,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                         .steamPunkSiribleDroneR
                                         .where((e) =>
                                             e.shamanCodingNeuralinkM.contains(
-                                                widget
-                                                    .bondingThroughVibesID) &&
+                                                widget.bondingThroughVibesID) &&
                                             e.shamanCodingNeuralinkM.contains(
                                                 FFAppState().emotionalSupportT))
                                         .toList()
@@ -985,21 +967,28 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                        ),
-                                        color: Colors.white,
-                                        fontSize: 16.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
+                                    font: GoogleFonts.poppins(
+                                      fontWeight: FontWeight.bold,
+                                      fontStyle: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .fontStyle,
+                                    ),
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.bold,
+                                    fontStyle: FlutterFlowTheme.of(context)
+                                        .bodyMedium
+                                        .fontStyle,
+                                    shadows: [
+                                      Shadow(
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        offset: Offset(2.0, 2.0),
+                                        blurRadius: 2.0,
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
@@ -1052,21 +1041,28 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyMedium
                                       .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                        ),
-                                        color: Colors.white,
-                                        fontSize: 16.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
+                                    font: GoogleFonts.poppins(
+                                      fontWeight: FontWeight.bold,
+                                      fontStyle: FlutterFlowTheme.of(context)
+                                          .bodyMedium
+                                          .fontStyle,
+                                    ),
+                                    color: Colors.white,
+                                    fontSize: 14,
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.bold,
+                                    fontStyle: FlutterFlowTheme.of(context)
+                                        .bodyMedium
+                                        .fontStyle,
+                                    shadows: [
+                                      Shadow(
+                                        color: FlutterFlowTheme.of(context)
+                                            .secondaryText,
+                                        offset: Offset(2.0, 2.0),
+                                        blurRadius: 2.0,
+                                      )
+                                    ],
+                                  ),
                                 ),
                               ],
                             ),
@@ -1076,6 +1072,8 @@ class _KaleidoHealingkaleidoHealingWidgetState
                     ),
                   ),
                 ),
+             
+             
               ],
             ),
           ),

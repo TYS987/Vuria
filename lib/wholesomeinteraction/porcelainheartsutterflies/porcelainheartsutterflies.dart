@@ -96,6 +96,7 @@ class _PorcelainHeartsutterfliesWidgetState
               highlightColor: Colors.transparent,
               onTap: () async {
                 context.pushNamed(DnaEncryptedFeelingsWidget.routeName);
+                  Navigator.pop(context);
               },
               child: Container(
                 width: 148.0,

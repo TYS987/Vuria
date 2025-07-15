@@ -1,3 +1,5 @@
+import 'package:vuria/backend/schema/structs/anachronism_healingflux_r_struct.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
@@ -5,7 +7,6 @@ import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 
 class MendingButterfliesWidget extends StatefulWidget {
   const MendingButterfliesWidget({super.key});
@@ -19,62 +20,15 @@ class MendingButterfliesWidget extends StatefulWidget {
 }
 
 class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-
-
-
-    SchedulerBinding.instance.addPostFrameCallback((_) async {
-      await showDialog(
-        context: context,
-        builder: (dialogContext) {
-          return Dialog(
-            elevation: 0,
-            insetPadding: EdgeInsets.zero,
-            backgroundColor: Colors.transparent,
-            alignment: AlignmentDirectional(0.0, 0.0)
-                .resolve(Directionality.of(context)),
-            child: GestureDetector(
-              onTap: () {
-                FocusScope.of(dialogContext).unfocus();
-                FocusManager.instance.primaryFocus?.unfocus();
-              },
-              child: PorcelainHeartsutterfliesWidget(),
-            ),
-          );
-        },
-      );
-
-      context.pushNamed(
-        WatercolorEmotionsAiWidget.routeName,
-        queryParameters: {
-          'sentimentSynchronizer': serializeParam(
-            11,
-            ParamType.int,
-          ),
-        }.withoutNulls,
-      );
-
-      context.pushNamed(
-        WatercolorEmotionsAiWidget.routeName,
-        queryParameters: {
-          'sentimentSynchronizer': serializeParam(
-            11,
-            ParamType.int,
-          ),
-        }.withoutNulls,
-      );
-    });
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -142,35 +96,117 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                               padding: EdgeInsetsDirectional.fromSTEB(
                                   0.0, 668.0, 0.0, 0.0),
                               child: InkWell(
-                                splashColor: Colors.transparent,
-                                focusColor: Colors.transparent,
-                                hoverColor: Colors.transparent,
-                                highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  await showDialog(
-                                    context: context,
-                                    builder: (dialogContext) {
-                                      return Dialog(
-                                        elevation: 0,
-                                        insetPadding: EdgeInsets.zero,
-                                        backgroundColor: Colors.transparent,
-                                        alignment:
-                                            AlignmentDirectional(0.0, 0.0)
-                                                .resolve(
-                                                    Directionality.of(context)),
-                                        child: GestureDetector(
-                                          onTap: () {
-                                            FocusScope.of(dialogContext)
-                                                .unfocus();
-                                            FocusManager.instance.primaryFocus
-                                                ?.unfocus();
-                                          },
-                                          child:
-                                              PorcelainHeartsutterfliesWidget(),
+                                  if (FFAppState()
+                                          .necronomiconHealingComfortU[
+                                              FFAppState().emotionalSupportT]
+                                          .augmentedRealityLoveM >=
+                                      200) {
+
+                                            FFAppState()
+                                      .updateNecronomiconHealingComfortUAtIndex(
+                                          FFAppState().emotionalSupportT,
+                                          (e) => e
+                                            ..augmentedRealityLoveM = FFAppState()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        FFAppState()
+                                                            .emotionalSupportT)
+                                                    .toList()
+                                                    .firstOrNull!
+                                                    .augmentedRealityLoveM -
+                                                200);
+
+                                  FFAppState().update(() {});
+                                    print(
+                                        "当前余额${FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].augmentedRealityLoveM}");
+
+                                    if (!(FFAppState()
+                                        .steamPunkSiribleDroneR
+                                        .where((e) =>
+                                            e.shamanCodingNeuralinkM.contains(
+                                                FFAppState()
+                                                    .necronomiconHealingComfortU[
+                                                        7]
+                                                    .loFiSoulmatesComfortT) &&
+                                            e.shamanCodingNeuralinkM.contains(
+                                                FFAppState().emotionalSupportT))
+                                        .toList()
+                                        .isNotEmpty)) {
+                                      FFAppState().addToSteamPunkSiribleDroneR(
+                                          AnachronismHealingfluxRStruct(
+                                        pyramidAlgorithmengeFirewalHID:
+                                            FFAppState()
+                                                .steamPunkSiribleDroneR
+                                                .length,
+                                        cavePaintingNeuralinkSID:
+                                            FFAppState().emotionalSupportT,
+                                        thundercloudedT: '',
+                                        shamanCodingNeuralinkM: [
+                                          FFAppState().emotionalSupportT,
+                                          FFAppState()
+                                              .necronomiconHealingComfortU[7]
+                                              .loFiSoulmatesComfortT
+                                        ],
+                                        daVinciDroneoHologramN: 0,
+                                        inquisitionInternetBitcoin:
+                                            DateTime.now(),
+                                        baroqueBitcoinPodcastHX: ['huanxiao'],
+                                      ));
+                                      FFAppState().update(() {});
+                                    }
+
+                               
+                                    context.pushNamed(
+                                      WatercolorEmotionsAiWidget.routeName,
+                                      queryParameters: {
+                                        'sentimentSynchronizer': serializeParam(
+                                          FFAppState()
+                                              .steamPunkSiribleDroneR
+                                              .where((e) =>
+                                                  e.shamanCodingNeuralinkM
+                                                      .contains(FFAppState()
+                                                          .necronomiconHealingComfortU[
+                                                              7]
+                                                          .loFiSoulmatesComfortT) &&
+                                                  e.shamanCodingNeuralinkM
+                                                      .contains(FFAppState()
+                                                          .emotionalSupportT))
+                                              .toList()
+                                              .firstOrNull
+                                              ?.pyramidAlgorithmengeFirewalHID,
+                                          ParamType.int,
                                         ),
-                                      );
-                                    },
-                                  );
+                                      }.withoutNulls,
+                                    );
+                                  } else {
+                                    print("余额不足");
+                                    await showDialog(
+                                      context: context,
+                                      builder: (dialogContext) {
+                                        return Dialog(
+                                          elevation: 0,
+                                          insetPadding: EdgeInsets.zero,
+                                          backgroundColor: Colors.transparent,
+                                          alignment: AlignmentDirectional(
+                                                  0.0, 0.0)
+                                              .resolve(
+                                                  Directionality.of(context)),
+                                          child: GestureDetector(
+                                            onTap: () {
+                                              FocusScope.of(dialogContext)
+                                                  .unfocus();
+                                              FocusManager.instance.primaryFocus
+                                                  ?.unfocus();
+                                            },
+                                            child:
+                                                PorcelainHeartsutterfliesWidget(),
+                                          ),
+                                        );
+                                      },
+                                    );
+                                  }
                                 },
                                 child: Container(
                                   width: 305.0,

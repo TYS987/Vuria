@@ -1,3 +1,5 @@
+import 'package:vuria/unfilteredemotions/kaleidohealingkaleidohealing/kaleidohealingkaleidohealing.dart';
+
 import '/backend/schema/structs/index.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -103,46 +105,77 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     onTap: () async {
                                       context.safePop();
                                     },
-                                    child: Container(
-                                      width: 32,
-                                      height: 32,
-                                      decoration: BoxDecoration(
-                                        image: DecorationImage(
-                                          fit: BoxFit.cover,
-                                          image: Image.asset(
-                                            'assets/images/kaleidoscopeFeelings.png',
-                                          ).image,
+                                    child: Center(
+                                      child: Container(
+                                        width: 32,
+                                        height: 32,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/kaleidoscopeFeelings.png',
+                                            ).image,
+                                          ),
                                         ),
                                       ),
                                     ),
                                   ),
                                 ),
-                                Container(
-                                  width: 40,
-                                  height: 40,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      fit: BoxFit.cover,
-                                      image: Image.asset(
-                                        FFAppState()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                FFAppState()
-                                                    .looperTearscitorSolaceD
-                                                    .where((e) =>
-                                                        e.pressureDepthConfessionsWID ==
-                                                        widget!
-                                                            .soulConnectionMatrix)
-                                                    .toList()
-                                                    .firstOrNull
-                                                    ?.marianaTrenchTherapID)
-                                            .toList()
-                                            .firstOrNull!
-                                            .neuralLaceConfessionsI,
-                                      ).image,
+                                InkWell(
+                                  onTap: () async {
+                                    context.pushNamed(
+                                      KaleidoHealingkaleidoHealingWidget
+                                          .routeName,
+                                      queryParameters: {
+                                        'bondingThroughVibesID': serializeParam(
+                                          FFAppState()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  FFAppState()
+                                                      .looperTearscitorSolaceD
+                                                      .where((e) =>
+                                                          e.pressureDepthConfessionsWID ==
+                                                          widget!
+                                                              .soulConnectionMatrix)
+                                                      .toList()
+                                                      .firstOrNull
+                                                      ?.marianaTrenchTherapID)
+                                              .toList()
+                                              .firstOrNull!
+                                              .loFiSoulmatesComfortT,
+                                          ParamType.int,
+                                        ),
+                                      }.withoutNulls,
+                                    );
+                                  },
+                                  child: Container(
+                                    width: 40,
+                                    height: 40,
+                                    decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        fit: BoxFit.cover,
+                                        image: Image.asset(
+                                          FFAppState()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  FFAppState()
+                                                      .looperTearscitorSolaceD
+                                                      .where((e) =>
+                                                          e.pressureDepthConfessionsWID ==
+                                                          widget!
+                                                              .soulConnectionMatrix)
+                                                      .toList()
+                                                      .firstOrNull
+                                                      ?.marianaTrenchTherapID)
+                                              .toList()
+                                              .firstOrNull!
+                                              .neuralLaceConfessionsI,
+                                        ).image,
+                                      ),
+                                      borderRadius: BorderRadius.circular(40),
                                     ),
-                                    borderRadius: BorderRadius.circular(40),
                                   ),
                                 ),
                                 Padding(
@@ -193,51 +226,68 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             ),
                           ],
                         ),
-                        Builder(
-                          builder: (context) => InkWell(
-                            splashColor: Colors.transparent,
-                            focusColor: Colors.transparent,
-                            hoverColor: Colors.transparent,
-                            highlightColor: Colors.transparent,
-                            onTap: () async {
-                              await showModalBottomSheet(
-                                isScrollControlled: true,
-                                backgroundColor: Colors.transparent,
-                                enableDrag: false,
-                                context: context,
-                                builder: (context) {
-                                  return GestureDetector(
-                                    onTap: () {
-                                      FocusScope.of(context).unfocus();
-                                      FocusManager.instance.primaryFocus
-                                          ?.unfocus();
-                                    },
-                                    child: Padding(
-                                      padding: MediaQuery.viewInsetsOf(context),
-                                      child: SteampunkConfidantWidget(
-                                        mutualFeelingBridgeID:
-                                            widget.soulConnectionMatrix,
-                                        sharedEmotionVortex: 1,
+                        if (FFAppState().emotionalSupportT !=
+                            FFAppState()
+                                .looperTearscitorSolaceD
+                                .where((e) =>
+                                    e.pressureDepthConfessionsWID ==
+                                    widget!.soulConnectionMatrix)
+                                .toList()
+                                .firstOrNull
+                                ?.marianaTrenchTherapID)
+                          Builder(
+                            builder: (context) => InkWell(
+                              splashColor: Colors.transparent,
+                              focusColor: Colors.transparent,
+                              hoverColor: Colors.transparent,
+                              highlightColor: Colors.transparent,
+                              onTap: () async {
+                                await showModalBottomSheet(
+                                  isScrollControlled: true,
+                                  backgroundColor: Colors.transparent,
+                                  enableDrag: false,
+                                  context: context,
+                                  builder: (context) {
+                                    return GestureDetector(
+                                      onTap: () {
+                                        FocusScope.of(context).unfocus();
+                                        FocusManager.instance.primaryFocus
+                                            ?.unfocus();
+                                      },
+                                      child: Padding(
+                                        padding:
+                                            MediaQuery.viewInsetsOf(context),
+                                        child: SteampunkConfidantWidget(
+                                          mutualFeelingBridgeID:
+                                             FFAppState()
+                                .looperTearscitorSolaceD
+                                .where((e) =>
+                                    e.pressureDepthConfessionsWID ==
+                                    widget!.soulConnectionMatrix)
+                                .toList()
+                                .firstOrNull
+                                ?.marianaTrenchTherapID,
+                                          sharedEmotionVortex: 1,
+                                        ),
                                       ),
-                                    ),
-                                  );
-                                },
-                              ).then((value) => safeSetState(() {}));
-                            },
-                            child: Container(
-                              width: 34,
-                              height: 34,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  fit: BoxFit.cover,
-                                  image: Image.asset(
-                                    'assets/images/horizonLongings.png',
-                                  ).image,
+                                    );
+                                  },
+                                ).then((value) => safeSetState(() {}));
+                              },
+                              child: Container(
+                                width: 34,
+                                height: 34,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/horizonLongings.png',
+                                    ).image,
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
                       ],
                     ),
                   ),
@@ -280,7 +330,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                     .toList()
                                                     .firstOrNull
                                                     ?.brinePoolSolacenSongTearsI
-                                                    ?.toList() ??
+                                                    .toList() ??
                                                 [];
 
                                             return Container(
@@ -959,16 +1009,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     widget.soulConnectionMatrix,
                                 moodPatternDetectorUID:
                                     FFAppState().emotionalSupportT,
-                                empathyMatchingProtocolT: textController.text.trim(),
-                                feelingDataStreamTIME:
-                                DateTime.now() ,
-                             
+                                empathyMatchingProtocolT:
+                                    textController.text.trim(),
+                                feelingDataStreamTIME: DateTime.now(),
                                 emotionalInsightDashboardHX: '发布评论',
                               ));
                               FFAppState().update(() {});
                               textController?.clear();
-
-
                             },
                             child: Container(
                               width: 36,

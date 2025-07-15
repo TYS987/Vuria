@@ -111,21 +111,38 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       EdgeInsetsDirectional.fromSTEB(12.0, 31.0, 12.0, 0.0),
                   child: Builder(
                     builder: (context) {
+                      // final sentimentTapestryBoard = FFAppState()
+                      //     .steamPunkSiribleDroneR
+                      //     .where((e) =>
+                      //         e.shamanCodingNeuralinkM
+                      //             .contains(FFAppState().emotionalSupportT) &&  
+                      //         !FFAppState()
+                      //             .necronomiconHealingComfortU
+                      //             .elementAt(FFAppState().emotionalSupportT)
+                      //             .corporateDroneHugsB
+                      //             .contains(e.shamanCodingNeuralinkM
+                      //                 .where((e) =>
+                      //                     e != FFAppState().emotionalSupportT)
+                      //                 .toList()
+                      //                 .firstOrNull))
+                      //     .toList();
+
                       final sentimentTapestryBoard = FFAppState()
-                          .steamPunkSiribleDroneR
-                          .where((e) =>
-                              e.shamanCodingNeuralinkM
-                                  .contains(FFAppState().emotionalSupportT) &&
-                              !FFAppState()
-                                  .necronomiconHealingComfortU
-                                  .elementAt(FFAppState().emotionalSupportT)
-                                  .corporateDroneHugsB
-                                  .contains(e.shamanCodingNeuralinkM
-                                      .where((e) =>
-                                          e != FFAppState().emotionalSupportT)
-                                      .toList()
-                                      .firstOrNull))
-                          .toList();
+    .steamPunkSiribleDroneR
+    .where((e) =>
+        e.shamanCodingNeuralinkM.contains(FFAppState().emotionalSupportT) &&
+        !FFAppState()
+            .necronomiconHealingComfortU
+            .elementAt(FFAppState().emotionalSupportT)
+            .corporateDroneHugsB
+            .contains(
+              e.shamanCodingNeuralinkM
+                  .where((id) => id != FFAppState().emotionalSupportT)
+                  .toList()
+                  .firstOrNull,
+            ) &&
+        !e.shamanCodingNeuralinkM.contains(FFAppState().necronomiconHealingComfortU[7].loFiSoulmatesComfortT)) 
+    .toList();
 
                       return ListView.builder(
                         padding: EdgeInsets.zero,

@@ -13,8 +13,7 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
     DateTime? saltTearsTherapyTiem,
     List<int>? magnumOpusComfortMorePope,
 
-    /// 表情ID
-    ///
+
     int? homunculusHugsfessionsID,
     List<String>? magnumOpusComfort,
     String? homunculusHugsImag,

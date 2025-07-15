@@ -25,10 +25,7 @@ class IntimateMomentsShareWidget extends StatefulWidget {
 
 class _IntimateMomentsShareWidgetState
     extends State<IntimateMomentsShareWidget> {
-
-
-    int? melancholyWhispers = 0;
-
+  int? melancholyWhispers = 0;
 
   FocusNode? textFieldFocusNode;
   TextEditingController? textController;
@@ -36,20 +33,38 @@ class _IntimateMomentsShareWidgetState
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  final _scrollController = ScrollController();
+  void slavicHistoryLessons() {
+    if (_scrollController.hasClients) {
+      Future.delayed(
+        const Duration(milliseconds: 200),
+        () {
+          _scrollController.animateTo(
+            _scrollController.position.maxScrollExtent,
+            duration: const Duration(milliseconds: 200),
+            curve: Curves.easeInOut,
+          );
+        },
+      );
+    }
+  }
+
   @override
   void initState() {
     super.initState();
 
-
-   textController ??= TextEditingController();
- textFieldFocusNode ??= FocusNode();
+    textController ??= TextEditingController();
+    textFieldFocusNode ??= FocusNode();
+    textController!.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
   void dispose() {
-
     textFieldFocusNode?.dispose();
     textController?.dispose();
+    _scrollController.dispose;
     super.dispose();
   }
 
@@ -63,6 +78,7 @@ class _IntimateMomentsShareWidgetState
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: Scaffold(
+         resizeToAvoidBottomInset: false,
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: Container(
@@ -99,7 +115,18 @@ class _IntimateMomentsShareWidgetState
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
+
+                         FFAppState()
+                            .updateAzothConfessionsathanorSolaceMPAtIndex(
+                          widget!.communitySentimentSync!,
+                          (e) => e
+                            ..updateMagnumOpusComfortMorePope(
+                              (e) => e.remove(FFAppState().emotionalSupportT),
+                            ),
+                        );
+                        FFAppState().update(() {});
                         context.safePop();
+
                       },
                       child: Container(
                         width: 32.0,
@@ -160,8 +187,7 @@ class _IntimateMomentsShareWidgetState
                                               .azothConfessionsathanorSolaceMP
                                               .where((e) =>
                                                   e.alchemicalWeddingHomeID ==
-                                                  widget
-                                                      .communitySentimentSync)
+                                                  widget.communitySentimentSync)
                                               .toList()
                                               .firstOrNull
                                               ?.philosophersStoneHealingID)
@@ -351,7 +377,7 @@ class _IntimateMomentsShareWidgetState
                                     ),
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
-                                          0.0, 6.0, 0.0, 0.0),
+                                          0, 6, 0, 0),
                                       child: Text(
                                         FFAppState()
                                             .necronomiconHealingComfortU
@@ -364,28 +390,13 @@ class _IntimateMomentsShareWidgetState
                                         style: FlutterFlowTheme.of(context)
                                             .bodyMedium
                                             .override(
-                                              font: GoogleFonts.inter(
-                                                fontWeight:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontWeight,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
-                                              ),
+                                              fontFamily: 'PingFang',
+                                              color: Color(0x99FFFFFF),
                                               letterSpacing: 0.0,
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontWeight,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontWeight: FontWeight.w500,
                                             ),
                                       ),
-                                    ),
+                                    )
                                   ],
                                 ),
                               ),
@@ -405,7 +416,7 @@ class _IntimateMomentsShareWidgetState
                 height: 300.0,
                 decoration: BoxDecoration(),
                 child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 0.0),
+                  padding: EdgeInsetsDirectional.fromSTEB(20.0, 0.0, 0.0, 20.0),
                   child: Builder(
                     builder: (context) {
                       final interactiveEmpathyFlow = FFAppState()
@@ -416,6 +427,7 @@ class _IntimateMomentsShareWidgetState
                           .toList();
 
                       return ListView.separated(
+                        controller: _scrollController,
                         padding: EdgeInsets.zero,
                         shrinkWrap: true,
                         scrollDirection: Axis.vertical,
@@ -470,7 +482,7 @@ class _IntimateMomentsShareWidgetState
                                         text: TextSpan(
                                           children: [
                                             TextSpan(
-                                              text: valueOrDefault<String>(
+                                              text: '${valueOrDefault<String>(
                                                 FFAppState()
                                                     .necronomiconHealingComfortU
                                                     .where((e) =>
@@ -481,34 +493,17 @@ class _IntimateMomentsShareWidgetState
                                                     .firstOrNull
                                                     ?.phoenixTearsTherapyN,
                                                 'Milo',
-                                              ),
+                                              )}: ',
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontStyle,
-                                                        ),
+                                                        fontFamily: 'PingFang',
+                                                        color: Colors.white,
+                                                        fontSize: 13,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyMedium
-                                                                .fontStyle,
+                                                            FontWeight.w900,
                                                       ),
                                             ),
                                             TextSpan(
@@ -521,56 +516,22 @@ class _IntimateMomentsShareWidgetState
                                                   FlutterFlowTheme.of(context)
                                                       .bodyMedium
                                                       .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              FlutterFlowTheme.of(
-                                                                      context)
-                                                                  .bodyMedium
-                                                                  .fontStyle,
-                                                        ),
+                                                        fontFamily: 'PingFang',
+                                                        color: Colors.white,
+                                                        fontSize: 13,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .bodyMedium
-                                                                .fontStyle,
+                                                            FontWeight.w300,
                                                       ),
                                             )
                                           ],
                                           style: FlutterFlowTheme.of(context)
                                               .bodyMedium
                                               .override(
-                                                font: GoogleFonts.inter(
-                                                  fontWeight:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontWeight,
-                                                  fontStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
+                                                fontFamily: 'PingFang',
+                                                color: Colors.white,
                                                 letterSpacing: 0.0,
-                                                fontWeight:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontWeight,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontWeight: FontWeight.w600,
                                               ),
                                         ),
                                       ),
@@ -668,8 +629,8 @@ class _IntimateMomentsShareWidgetState
                                   ),
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
-                              validator: textControllerValidator
-                                  .asValidator(context),
+                              validator:
+                                  textControllerValidator.asValidator(context),
                             ),
                           ),
                         ),
@@ -677,38 +638,25 @@ class _IntimateMomentsShareWidgetState
                     ),
                     Builder(
                       builder: (context) {
-                        if (melancholyWhispers == 0) {
-                          return Container(
-                            width: 36.0,
-                            height: 36.0,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                fit: BoxFit.cover,
-                                image: Image.asset(
-                                  'assets/images/whisperedFeelings.png',
-                                ).image,
-                              ),
-                            ),
-                          );
-                        } else {
+                        if (textController.text.trim().isNotEmpty) {
                           return InkWell(
-                            splashColor: Colors.transparent,
-                            focusColor: Colors.transparent,
-                            hoverColor: Colors.transparent,
-                            highlightColor: Colors.transparent,
                             onTap: () async {
                               FFAppState().addToCrimeSceneHealingitAlibiTrustRT(
                                   RedStringEmpathymagnifyiMPTStruct(
-                                bloodstainedComfortUID:
-                                    FFAppState().emotionalSupportT,
-                                detectiveNotebookConfideHID:
-                                    widget.communitySentimentSync,
-                                crimeSceSceneHealing:
-                                    (textFieldFocusNode?.hasFocus ??
-                                            false)
-                                        .toString(),
-                              ));
+                                      bloodstainedComfortUID:
+                                          FFAppState().emotionalSupportT,
+                                      detectiveNotebookConfideHID:
+                                          widget.communitySentimentSync,
+                                      crimeSceSceneHealing:
+                                          textController.text.trim(),
+                                      detectiveNotebookConfideHX: [
+                                    'asdasdasdasd',
+                                    'asdasdasdasdasd'
+                                  ]));
                               FFAppState().update(() {});
+
+                              textController?.clear();
+                              slavicHistoryLessons();
                             },
                             child: Container(
                               width: 36.0,
@@ -720,6 +668,19 @@ class _IntimateMomentsShareWidgetState
                                     'assets/images/whisperedFeelingsselect.png',
                                   ).image,
                                 ),
+                              ),
+                            ),
+                          );
+                        } else {
+                          return Container(
+                            width: 36.0,
+                            height: 36.0,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                fit: BoxFit.cover,
+                                image: Image.asset(
+                                  'assets/images/whisperedFeelings.png',
+                                ).image,
                               ),
                             ),
                           );

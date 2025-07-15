@@ -117,7 +117,6 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                 onTap: () async {
                                   context.pushNamed(
                                       SentimentMosaicWidget.routeName);
-                        
                                 },
                                 child: Container(
                                   width: 40.0,
@@ -143,9 +142,13 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                             12.0, 21.0, 12.0, 0.0),
                         child: Builder(
                           builder: (context) {
-
-                            final emotionalAlignmentTool =
-                                FFAppState().looperTearscitorSolaceD.where((e)=> !FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].corporateDroneHugsB.contains(e.marianaTrenchTherapID) )
+                            final emotionalAlignmentTool = FFAppState()
+                                .looperTearscitorSolaceD
+                                .where((e) => !FFAppState()
+                                    .necronomiconHealingComfortU[
+                                        FFAppState().emotionalSupportT]
+                                    .corporateDroneHugsB
+                                    .contains(e.marianaTrenchTherapID))
                                 .toList();
 
                             return ListView.separated(
@@ -161,7 +164,6 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                     emotionalAlignmentTool[
                                         emotionalAlignmentToolIndex];
                                 return Align(
-                                  //  key: ValueKey(emotionalAlignmentToolItem.anglerfishLightTrustolaceID),
                                   alignment: AlignmentDirectional(0.0, -1.0),
                                   child: Container(
                                     width: 351.0,
@@ -198,31 +200,57 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   crossAxisAlignment:
                                                       CrossAxisAlignment.start,
                                                   children: [
-                                                    Container(
-                                                      width: 36.0,
-                                                      height: 36.0,
-                                                      decoration: BoxDecoration(
-                                                        image: DecorationImage(
-                                                          fit: BoxFit.cover,
-                                                          image: Image.asset(
-                                                            FFAppState()
-                                                                .necronomiconHealingComfortU
-                                                                .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
-                                                                    emotionalAlignmentToolItem
-                                                                        .marianaTrenchTherapID)
-                                                                .toList()
-                                                                .firstOrNull!
-                                                                .neuralLaceConfessionsI,
-                                                          ).image,
-                                                        ),
-                                                        borderRadius:
-                                                            BorderRadius
-                                                                .circular(30.0),
-                                                        border: Border.all(
-                                                          color:
-                                                              Color(0xFFFF7A19),
-                                                          width: 1.0,
+                                                    InkWell(
+                                                      onTap: () async {
+                                                        context.pushNamed(
+                                                          KaleidoHealingkaleidoHealingWidget
+                                                              .routeName,
+                                                          queryParameters: {
+                                                            'bondingThroughVibesID':
+                                                                serializeParam(
+                                                              FFAppState()
+                                                                  .necronomiconHealingComfortU
+                                                                  .where((e) =>
+                                                                      e.loFiSoulmatesComfortT ==
+                                                                      emotionalAlignmentToolItem
+                                                                          .marianaTrenchTherapID)
+                                                                  .toList()
+                                                                  .firstOrNull!
+                                                                  .loFiSoulmatesComfortT,
+                                                              ParamType.int,
+                                                            ),
+                                                          }.withoutNulls,
+                                                        );
+                                                      },
+                                                      child: Container(
+                                                        width: 36.0,
+                                                        height: 36.0,
+                                                        decoration:
+                                                            BoxDecoration(
+                                                          image:
+                                                              DecorationImage(
+                                                            fit: BoxFit.cover,
+                                                            image: Image.asset(
+                                                              FFAppState()
+                                                                  .necronomiconHealingComfortU
+                                                                  .where((e) =>
+                                                                      e.loFiSoulmatesComfortT ==
+                                                                      emotionalAlignmentToolItem
+                                                                          .marianaTrenchTherapID)
+                                                                  .toList()
+                                                                  .firstOrNull!
+                                                                  .neuralLaceConfessionsI,
+                                                            ).image,
+                                                          ),
+                                                          borderRadius:
+                                                              BorderRadius
+                                                                  .circular(
+                                                                      30.0),
+                                                          border: Border.all(
+                                                            color: Color(
+                                                                0xFFFF7A19),
+                                                            width: 1.0,
+                                                          ),
                                                         ),
                                                       ),
                                                     ),
@@ -275,7 +303,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                               valueOrDefault<
                                                                   String>(
                                                                 dateTimeFormat(
-                                                                 'y.MM.dd',
+                                                                    'y.MM.dd',
                                                                     emotionalAlignmentToolItem
                                                                         .compassionateListenerTiem),
                                                                 '2024.12.02',
@@ -297,7 +325,6 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                             .w500,
                                                                   ),
                                                             ),
-                                                        
                                                           ],
                                                         ),
                                                       ),
@@ -327,7 +354,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                 ),
                                               ),
                                             ),
-                                            Builder(
+                                          if(FFAppState().emotionalSupportT !=emotionalAlignmentToolItem.marianaTrenchTherapID )  Builder(
                                               builder: (context) {
                                                 if (FFAppState()
                                                         .necronomiconHealingComfortU
@@ -343,14 +370,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                 .marianaTrenchTherapID) ??
                                                     false) {
                                                   return InkWell(
-                                                    splashColor:
-                                                        Colors.transparent,
-                                                    focusColor:
-                                                        Colors.transparent,
-                                                    hoverColor:
-                                                        Colors.transparent,
-                                                    highlightColor:
-                                                        Colors.transparent,
+                                              
                                                     onTap: () async {
                                                       FFAppState()
                                                           .updateNecronomiconHealingComfortUAtIndex(
@@ -373,7 +393,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                          'assets/images/origamiForgiveness.png',
+                                                            'assets/images/origamiForgiveness.png',
                                                           ).image,
                                                         ),
                                                       ),
@@ -381,7 +401,6 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   );
                                                 } else {
                                                   return InkWell(
-                                                 
                                                     onTap: () async {
                                                       FFAppState()
                                                           .updateNecronomiconHealingComfortUAtIndex(
@@ -403,8 +422,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                         
-                                                              'assets/images/willowResilience.png',
+                                                            'assets/images/willowResilience.png',
                                                           ).image,
                                                         ),
                                                       ),
@@ -413,13 +431,13 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                 }
                                               },
                                             ),
+                                      
                                           ],
                                         ),
                                         Align(
                                           alignment:
                                               AlignmentDirectional(0.0, 1.0),
                                           child: InkWell(
-                                      
                                             onTap: () async {
                                               context.pushNamed(
                                                 ThunderstormPassionWidget
@@ -517,13 +535,12 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           TextOverflow.ellipsis,
                                                     ),
                                                   ),
-                                                  Padding(
+                                             if(FFAppState().emotionalSupportT != emotionalAlignmentToolItem.marianaTrenchTherapID)     Padding(
                                                     padding:
                                                         EdgeInsetsDirectional
                                                             .fromSTEB(21.0, 0.0,
                                                                 0.0, 0.0),
                                                     child: InkWell(
-                                                 
                                                       onTap: () async {
                                                         await showModalBottomSheet(
                                                           isScrollControlled:
@@ -579,6 +596,8 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                       ),
                                                     ),
                                                   ),
+                                             
+                                             
                                                 ],
                                               ),
                                             ),
@@ -590,8 +609,6 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                 );
                               },
                             );
-                      
-                      
                           },
                         ),
                       ),

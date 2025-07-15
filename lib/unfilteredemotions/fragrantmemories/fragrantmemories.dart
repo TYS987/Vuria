@@ -1,3 +1,8 @@
+import 'dart:io';
+
+import 'package:image_picker/image_picker.dart';
+import 'package:vuria/Utiles/showtost.dart';
+
 import '/backend/schema/structs/index.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -5,7 +10,6 @@ import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutte
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-
 
 class FragrantMemoriesWidget extends StatefulWidget {
   const FragrantMemoriesWidget({super.key});
@@ -18,9 +22,37 @@ class FragrantMemoriesWidget extends StatefulWidget {
 }
 
 class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
+  int? serotoninDialogue;
 
+  File? _backgroundImage;
 
-  int? serotoninDialogue = 0;
+  Future<void> pickBackgroundImage() async {
+    try {
+      final pickedFile = await ImagePicker().pickImage(
+        source: ImageSource.gallery,
+        imageQuality: 85,
+      );
+
+      if (pickedFile != null) {
+        final file = File(pickedFile.path);
+
+        setState(() {
+          _backgroundImage = file;
+        });
+
+        print('用户选择的背景图路径: ${file.path}');
+      } else {
+        if (!mounted) return;
+        await showCustomLoading(
+          message: "You haven't selected any pictures",
+          icon: Icons.info_outline,
+          duration: Duration(seconds: 2),
+        );
+      }
+    } catch (e) {
+      print(' 图片选择发生错误: $e');
+    }
+  }
 
   FocusNode? textFieldFocusNode;
   TextEditingController? textController;
@@ -32,15 +64,16 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
   void initState() {
     super.initState();
 
-
-   textController ??= TextEditingController();
-textFieldFocusNode ??= FocusNode();
+    textController ??= TextEditingController();
+    textFieldFocusNode ??= FocusNode();
+    textController!.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
   void dispose() {
-  dispose();
-   textFieldFocusNode?.dispose();
+    textFieldFocusNode?.dispose();
     textController?.dispose();
     super.dispose();
   }
@@ -134,48 +167,65 @@ textFieldFocusNode ??= FocusNode();
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
-                        child: Container(
-                          width: 172.0,
-                          height: 180.0,
-                          child: Stack(
-                            children: [
-                              Container(
-                                width: 172.0,
-                                height: 180.0,
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/symphonicEmpathy.png',
-                                    ).image,
-                                  ),
-                                  borderRadius: BorderRadius.circular(32.0),
-                                  border: Border.all(
-                                    color: Color(0xFFEF5C00),
-                                    width: 2.0,
-                                  ),
-                                ),
-                              ),
-                              Align(
-                                alignment: AlignmentDirectional(1.0, -1.0),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0.0, 10.0, 10.0, 0.0),
-                                  child: Container(
-                                    width: 24.0,
-                                    height: 24.0,
-                                    decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                        image: Image.asset(
-                                          'assets/images/sentimentTaoTeeraAria.png',
-                                        ).image,
-                                      ),
+                        child: InkWell(
+                          onTap: () async {
+                            await pickBackgroundImage();
+                          },
+                          child: Container(
+                            width: 172.0,
+                            height: 180.0,
+                            child: Stack(
+                              children: [
+                                Container(
+                                  width: 172.0,
+                                  height: 180.0,
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      fit: BoxFit.cover,
+                                      image: _backgroundImage != null
+                                          ? FileImage(_backgroundImage!)
+                                              as ImageProvider
+                                          : AssetImage(
+                                              'assets/images/symphonicEmpathy.png'),
+                                    ),
+                                    borderRadius: BorderRadius.circular(32.0),
+                                    border: Border.all(
+                                      color: Color(0xFFEF5C00),
+                                      width: 2.0,
                                     ),
                                   ),
                                 ),
-                              ),
-                            ],
+                                if (_backgroundImage != null)
+                                  Align(
+                                    alignment: AlignmentDirectional(1.0, -1.0),
+                                    child: Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          0.0, 10.0, 10.0, 0.0),
+                                      child: GestureDetector(
+                                        onTap: () {
+                                          setState(() {
+                                            _backgroundImage = null;
+                                          });
+                                        },
+                                        child: Container(
+                                          width: 24.0,
+                                          height: 24.0,
+                                          decoration: BoxDecoration(
+                                            shape: BoxShape.circle,
+                                            color:
+                                                Colors.black.withOpacity(0.6),
+                                          ),
+                                          child: Icon(
+                                            Icons.close,
+                                            color: Colors.white,
+                                            size: 18.0,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                              ],
+                            ),
                           ),
                         ),
                       ),
@@ -319,7 +369,7 @@ textFieldFocusNode ??= FocusNode();
                                     ),
                                 cursorColor:
                                     FlutterFlowTheme.of(context).primaryText,
-                                validator:textControllerValidator
+                                validator: textControllerValidator
                                     .asValidator(context),
                               ),
                             ),
@@ -408,17 +458,25 @@ textFieldFocusNode ??= FocusNode();
                                           ),
                                         );
                                       } else {
-                                        return Container(
-                                          width: 40.0,
-                                          height: 40.0,
-                                          decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: Image.asset(
+                                        return InkWell(
+                                          onTap: () async {
+                                            serotoninDialogue =
                                                 heartfeltBondGeneratorItem
-                                                    .dustStormSoulsgasMaskBonim
-                                                    .lastOrNull!,
-                                              ).image,
+                                                    .mutantConfessions;
+                                            setState(() {});
+                                          },
+                                          child: Container(
+                                            width: 40.0,
+                                            height: 40.0,
+                                            decoration: BoxDecoration(
+                                              image: DecorationImage(
+                                                fit: BoxFit.cover,
+                                                image: Image.asset(
+                                                  heartfeltBondGeneratorItem
+                                                      .dustStormSoulsgasMaskBonim
+                                                      .lastOrNull!,
+                                                ).image,
+                                              ),
                                             ),
                                           ),
                                         );
@@ -433,27 +491,63 @@ textFieldFocusNode ??= FocusNode();
                       ),
                       Builder(
                         builder: (context) {
-                          if (serotoninDialogue != null) {
-                            return Container(
-                              width: 305.0,
-                              height: 64.0,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  fit: BoxFit.cover,
-                                  image: Image.asset(
-                                    'assets/images/resonanceZenKoanOperaAria.png',
-                                  ).image,
-                                ),
-                              ),
-                            );
-                          } else {
-                            return Builder(
-                              builder: (context) => InkWell(
-                                splashColor: Colors.transparent,
-                                focusColor: Colors.transparent,
-                                hoverColor: Colors.transparent,
-                                highlightColor: Colors.transparent,
-                                onTap: () async {
+                          if (_backgroundImage != null &&
+                              textController.text.trim().isNotEmpty &&
+                              serotoninDialogue != null) {
+                            return InkWell(
+                              onTap: () async {
+                                if (FFAppState()
+                                        .necronomiconHealingComfortU[
+                                            FFAppState().emotionalSupportT]
+                                        .augmentedRealityLoveM >=
+                                    100) {
+                                  print("金额足够");
+                                  print(
+                                      "当前的金额${FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].augmentedRealityLoveM}");
+
+                                  FFAppState()
+                                      .addToAzothConfessionsathanorSolaceMP(
+                                          ServerFarmMeditationSolaceMoreStruct(
+                                    philosophersStoneHealingID:
+                                        FFAppState().emotionalSupportT,
+                                    alchemicalWeddingHomeID: FFAppState()
+                                        .azothConfessionsathanorSolaceMP
+                                        .length,
+                                    mercurialEmpathyTitle:
+                                        textController.text.trim(),
+                                    saltTearsTherapyTiem: DateTime.now(),
+                                    magnumOpusComfortMorePope: [
+                                      FFAppState().emotionalSupportT
+                                    ],
+                                    homunculusHugsfessionsID: serotoninDialogue,
+                                    magnumOpusComfort: ['0'],
+                                    homunculusHugsImag: _backgroundImage?.path,
+                                  ));
+
+                                  FFAppState()
+                                      .updateNecronomiconHealingComfortUAtIndex(
+                                          FFAppState().emotionalSupportT,
+                                          (e) => e
+                                            ..augmentedRealityLoveM = FFAppState()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        FFAppState()
+                                                            .emotionalSupportT)
+                                                    .toList()
+                                                    .firstOrNull!
+                                                    .augmentedRealityLoveM -
+                                                100);
+
+                                  FFAppState().update(() {});
+
+                                  await showCustomLoading(
+                                    message: 'Chat created successfully!',
+                                    icon: Icons.chat_bubble_outline,
+                                    duration: Duration(seconds: 2),
+                                  );
+                                  Navigator.pop(context);
+                                } else {
                                   await showDialog(
                                     context: context,
                                     builder: (dialogContext) {
@@ -478,38 +572,31 @@ textFieldFocusNode ??= FocusNode();
                                       );
                                     },
                                   );
-
-                                  FFAppState()
-                                      .addToAzothConfessionsathanorSolaceMP(
-                                          ServerFarmMeditationSolaceMoreStruct(
-                                    philosophersStoneHealingID:
-                                        FFAppState().emotionalSupportT,
-                                    alchemicalWeddingHomeID: FFAppState()
-                                        .azothConfessionsathanorSolaceMP
-                                        .length,
-                                    mercurialEmpathyTitle: '111',
-                                    saltTearsTherapyTiem:
-                                        DateTime.fromMicrosecondsSinceEpoch(
-                                            1752163200000000),
-                                    magnumOpusComfortMorePope: [0],
-                                    homunculusHugsfessionsID:
-                                        serotoninDialogue,
-                                    magnumOpusComfort: ['111'],
-                                    homunculusHugsImag: '111',
-                                  ));
-                                  FFAppState().update(() {});
-                                },
-                                child: Container(
-                                  width: 305.0,
-                                  height: 64.0,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      fit: BoxFit.cover,
-                                      image: Image.asset(
-                                        'assets/images/moonlitConfidants.png',
-                                      ).image,
-                                    ),
+                                }
+                              },
+                              child: Container(
+                                width: 305.0,
+                                height: 64.0,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/resonanceZenKoanOperaAria.png',
+                                    ).image,
                                   ),
+                                ),
+                              ),
+                            );
+                          } else {
+                            return Container(
+                              width: 305.0,
+                              height: 64.0,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  fit: BoxFit.cover,
+                                  image: Image.asset(
+                                    'assets/images/moonlitConfidants.png',
+                                  ).image,
                                 ),
                               ),
                             );
