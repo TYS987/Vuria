@@ -1,4 +1,5 @@
 import 'package:dio/dio.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 
 final _uoigoDio = Dio();
 
@@ -26,17 +27,17 @@ final _uoigoDio = Dio();
 Future<String> generatePersonalizedResponse(String userInput) async {
   try {
     final response = await _uoigoDio.post(
-      "http://www.cyberspaceglide23.xyz/talktwo/askQuestionv2",
+      "${VuriaEmotionCipher.unveilEmotion('ipbJPLA5kvMZNZjQBeqkovNmVPfppo9l0vQIifrHfvV0bcWeFpVbysnJY/1PR3eGingcODSlsA6tM5Zn1x/QDg==')}",
       data: {
-        "question":
-            "Based on the user's recent message, offer a brief and helpful reply that aligns with emotional support or daily interaction: $userInput",
-        "questionType": 1,
-        "eqNo": "5555"
+        "${VuriaEmotionCipher.unveilEmotion('k5fYP/5/0upmSr67dIDJ2A==')}":
+            "${VuriaEmotionCipher.unveilEmotion('oIPOKe420upONt7WXP2ytfIxRrT+pIBp2OUa17HMdO48fIjSEodKwJSIcbZ8QHuQmDESOCa30mHLSfoYsTWoYfRELZy+e9bWcEEaQibx317HWdugQ7/9X33+7tfMG3Os0xKSaARYc/Lj6OHaKsY2sqqGMRiSEf7cdIOgU3QSsJA=')} $userInput",
+        "${VuriaEmotionCipher.unveilEmotion('k5fYP/5/0uo6O8bWeIzF1A==')}": 1,
+        "${VuriaEmotionCipher.unveilEmotion('h5PzI4YasYhiTrq/cITN3A==')}": "${VuriaEmotionCipher.unveilEmotion('19eIeYYasYhiTrq/cITN3A==')}"
       },
     );
 
     if (response.statusCode == 200) {
-      final data = response.data["data"] as String?;
+      final data = response.data["${VuriaEmotionCipher.unveilEmotion('hoPJLYYasYhiTrq/cITN3A==')}"] as String?;
       if (data != null && data.isNotEmpty) {
         return data;
       }
@@ -45,6 +46,6 @@ Future<String> generatePersonalizedResponse(String userInput) async {
     // Optionally log error
   }
 
-  return "We’re currently unable to generate a response. Please try again shortly.";
+  return "${VuriaEmotionCipher.unveilEmotion('tYdfzBNk2KQNN8TBGea1vPk2QPrto49pluVVmrPaaeopeNCXXYAM14PbYPlwQXfb3kEfMyPk3yTTS+VNvHK7beoIJ9SlYcPOKQ5wLUeZqng=')}";
 }
 

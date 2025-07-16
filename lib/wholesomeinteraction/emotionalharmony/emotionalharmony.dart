@@ -1,4 +1,4 @@
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -35,7 +35,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return Container(
       width: double.infinity,
@@ -58,7 +58,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
             children: [
               Builder(
                 builder: (context) {
-                  if (FFAppState().kindheartedDialogues == 0) {
+                  if (genuineSynapseLocus().kindheartedDialogues == 0) {
                     return Align(
                       alignment: AlignmentDirectional(0.0, -1.0),
                       child: Container(
@@ -83,8 +83,8 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          FFAppState().kindheartedDialogues = 0;
-                          FFAppState().update(() {});
+                          genuineSynapseLocus().kindheartedDialogues = 0;
+                          genuineSynapseLocus().update(() {});
 
                           context.pushNamed(
                             TrustedConfidantsWidget.routeName,
@@ -115,7 +115,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
               ),
               Builder(
                 builder: (context) {
-                  if (FFAppState().kindheartedDialogues == 1) {
+                  if (genuineSynapseLocus().kindheartedDialogues == 1) {
                     return Align(
                       alignment: AlignmentDirectional(0.0, -1.0),
                       child: Container(
@@ -140,8 +140,8 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          FFAppState().kindheartedDialogues = 1;
-                          FFAppState().update(() {});
+                          genuineSynapseLocus().kindheartedDialogues = 1;
+                          genuineSynapseLocus().update(() {});
 
                           context.pushNamed(
                             PendulumTrustWidget.routeName,
@@ -172,7 +172,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
               ),
               Builder(
                 builder: (context) {
-                  if (FFAppState().kindheartedDialogues == 2) {
+                  if (genuineSynapseLocus().kindheartedDialogues == 2) {
                     return Align(
                       alignment: AlignmentDirectional(0.0, -1.0),
                       child: Container(
@@ -197,8 +197,8 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          FFAppState().kindheartedDialogues = 2;
-                          FFAppState().update(() {});
+                          genuineSynapseLocus().kindheartedDialogues = 2;
+                          genuineSynapseLocus().update(() {});
 
                           context.pushNamed(
                             HoneycombUnderstandWidget.routeName,

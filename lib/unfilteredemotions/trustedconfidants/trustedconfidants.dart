@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
@@ -33,7 +35,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -42,7 +44,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Stack(
           children: [
             Align(
@@ -94,8 +96,8 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                         context.pushNamed(FragrantMemoriesWidget.routeName);
                       },
                       child: Text(
-                        'Create your mood chat room',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('oZDYLf5znf0BN8STEeeutKB1XfX44ZFj2fw8vNK5AYk=')}',
+                        style: heartMindVentralTheme.of(context).bodyMedium.override(
                               fontFamily: 'PingFang',
                               color: Color(0xFFEC7506),
                               fontSize: 12,
@@ -127,7 +129,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                     Expanded(
                       child: Builder(
                         builder: (context) {
-                          if (FFAppState()
+                          if (genuineSynapseLocus()
                               .azothConfessionsathanorSolaceMP
                               .isNotEmpty) {
                             return Padding(
@@ -136,11 +138,11 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                               child: Builder(
                                 builder: (context) {
                                   final feelingExchangePortalemotion =
-                                      FFAppState()
+                                      genuineSynapseLocus()
                                           .azothConfessionsathanorSolaceMP
-                                          .where((e) => !FFAppState()
+                                          .where((e) => !genuineSynapseLocus()
                                               .necronomiconHealingComfortU[
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .emotionalSupportT]
                                               .corporateDroneHugsB
                                               .contains(
@@ -174,18 +176,18 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
-                                          if(FFAppState().emotionalSupportT !=  feelingExchangePortalemotionItem.alchemicalWeddingHomeID)
-                                          FFAppState()
+                                          if(genuineSynapseLocus().emotionalSupportT !=  feelingExchangePortalemotionItem.alchemicalWeddingHomeID)
+                                          genuineSynapseLocus()
                                               .updateAzothConfessionsathanorSolaceMPAtIndex(
                                             feelingExchangePortalemotionItem
                                                 .alchemicalWeddingHomeID,
                                             (e) => e
                                               ..updateMagnumOpusComfortMorePope(
-                                                (e) => e.add(FFAppState()
+                                                (e) => e.add(genuineSynapseLocus()
                                                     .emotionalSupportT),
                                               ),
                                           );
-                                          FFAppState().update(() {});
+                                          genuineSynapseLocus().update(() {});
                                           context.pushNamed(
                                             IntimateMomentsShareWidget
                                                 .routeName,
@@ -229,7 +231,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                   feelingExchangePortalemotionItem
                                                       .mercurialEmpathyTitle,
                                                   textAlign: TextAlign.end,
-                                                  style: FlutterFlowTheme.of(
+                                                  style: heartMindVentralTheme.of(
                                                           context)
                                                       .bodyMedium
                                                       .override(
@@ -237,7 +239,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                           fontWeight:
                                                               FontWeight.w500,
                                                           fontStyle:
-                                                              FlutterFlowTheme.of(
+                                                              heartMindVentralTheme.of(
                                                                       context)
                                                                   .bodyMedium
                                                                   .fontStyle,
@@ -248,7 +250,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                         fontWeight:
                                                             FontWeight.w500,
                                                         fontStyle:
-                                                            FlutterFlowTheme.of(
+                                                            heartMindVentralTheme.of(
                                                                     context)
                                                                 .bodyMedium
                                                                 .fontStyle,
@@ -319,7 +321,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                                   image: DecorationImage(
                                                                                     fit: BoxFit.cover,
                                                                                     image: Image.asset(
-                                                                                      FFAppState().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                      genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI,
                                                                                     ).image,
                                                                                   ),
                                                                                   borderRadius: BorderRadius.circular(20),
@@ -371,9 +373,9 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                         .magnumOpusComfortMorePope
                                                                         .length
                                                                         .toString(),
-                                                                    '8',
+                                                                    '',
                                                                   ),
-                                                                  style: FlutterFlowTheme.of(
+                                                                  style: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .override(
@@ -400,7 +402,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
                                                                     e.mutantConfessions ==

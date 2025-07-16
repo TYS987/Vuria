@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -40,12 +42,12 @@ class _SentimentAlignedWidgetState extends State<SentimentAlignedWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: FlutterFlowTheme.of(context).secondaryBackground,
+            color: heartMindVentralTheme.of(context).secondaryBackground,
             image: DecorationImage(
               fit: BoxFit.cover,
               image: Image.asset(
@@ -87,22 +89,27 @@ class _SentimentAlignedWidgetState extends State<SentimentAlignedWidget> {
                       ),
                     ),
                     Text(
-                      widget.moodStoryCanvas == 0 ?  "Vuria Privacy Policy" : 'Vuria User Agreement',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      widget.moodStoryCanvas == 0
+                          ? "${VuriaEmotionCipher.unveilEmotion('tJfPJes27fYHNNfQBaiRv+x/Vu2Aze8Aup02ttizC4M=')}"
+                          : '${VuriaEmotionCipher.unveilEmotion('tJfPJes26PcLMJbyG/qkte1zW+CAze8Aup02ttizC4M=')}',
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.black,
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ],
                 ),
@@ -185,12 +192,14 @@ Our app is not intended for children under the age of 14. If you are a minor, pl
 7. Updates to This Policy
 We may update this Privacy Policy based on legal or product changes. Any revisions will be posted prominently in the app, and your continued use of the service indicates your acceptance of the updated policy.
         ''',
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -198,7 +207,8 @@ We may update this Privacy Policy based on legal or product changes. Any revisio
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -275,12 +285,14 @@ We are not responsible for service interruptions or data loss caused by system f
 We reserve the right to modify this agreement at any time. Updated terms will be posted on this page. Continued use of the App signifies your acceptance of the updated terms.
 
 You may terminate your use of the App at any time by deleting your account, uninstalling the App, or contacting customer support. ''',
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -288,7 +300,8 @@ You may terminate your use of the App at any time by deleting your account, unin
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),

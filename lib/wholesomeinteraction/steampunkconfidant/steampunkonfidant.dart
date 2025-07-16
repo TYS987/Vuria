@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -27,9 +29,6 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
   @override
   void initState() {
     super.initState();
-
-    print("传递过来的参数mutualFeelingBridgeID${widget.mutualFeelingBridgeID}");
-    print("传递过来的参数sharedEmotionVortex${widget.sharedEmotionVortex}");
   }
 
   @override
@@ -39,13 +38,13 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return Container(
       width: double.infinity,
       height: 222.0,
       decoration: BoxDecoration(
-        color: FlutterFlowTheme.of(context).secondaryBackground,
+        color: heartMindVentralTheme.of(context).secondaryBackground,
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -71,24 +70,28 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
                 width: double.infinity,
                 height: 49.0,
                 decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).secondaryBackground,
+                  color: heartMindVentralTheme.of(context).secondaryBackground,
                   borderRadius: BorderRadius.circular(32.0),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  'Report',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
+                  style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
-                          fontStyle:
-                              FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          fontStyle: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .fontStyle,
                         ),
                         color: Colors.black,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                 ),
               ),
@@ -102,57 +105,61 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-         
                 if (widget.sharedEmotionVortex == 1) {
-                  FFAppState().updateNecronomiconHealingComfortUAtIndex(
-                    FFAppState().emotionalSupportT,
+                  genuineSynapseLocus()
+                      .updateNecronomiconHealingComfortUAtIndex(
+                    genuineSynapseLocus().emotionalSupportT,
                     (e) => e
                       ..updateCorporateDroneHugsB(
                         (e) => e.add(widget.mutualFeelingBridgeID!),
                       ),
                   );
-                  FFAppState().update((){});
+                  genuineSynapseLocus().update(() {});
 
                   Navigator.pop(context);
 
                   Navigator.pop(context);
                 } else {
-                  FFAppState().updateNecronomiconHealingComfortUAtIndex(
-                    FFAppState().emotionalSupportT,
+                  genuineSynapseLocus()
+                      .updateNecronomiconHealingComfortUAtIndex(
+                    genuineSynapseLocus().emotionalSupportT,
                     (e) => e
                       ..updateCorporateDroneHugsB(
                         (e) => e.add(widget.mutualFeelingBridgeID!),
                       ),
-                      
                   );
-                  FFAppState().update((){});
-            
-                        Navigator.pop(context);
-                              setState((){});
+                  genuineSynapseLocus().update(() {});
+
+                  Navigator.pop(context);
+                  setState(() {});
                 }
               },
               child: Container(
                 width: double.infinity,
                 height: 49.0,
                 decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).secondaryBackground,
+                  color: heartMindVentralTheme.of(context).secondaryBackground,
                   borderRadius: BorderRadius.circular(32.0),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  'Shield',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  '${VuriaEmotionCipher.unveilEmotion('sYrUKeZyt45kSLy5doLL2g==')}',
+                  style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
-                          fontStyle:
-                              FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          fontStyle: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .fontStyle,
                         ),
                         color: Colors.black,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                 ),
               ),
@@ -177,19 +184,23 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  'cancel',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
+                  style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
-                          fontStyle:
-                              FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          fontStyle: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .fontStyle,
                         ),
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                 ),
               ),

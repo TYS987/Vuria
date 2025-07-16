@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -37,12 +39,12 @@ class _FifthDimensionalLoveWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: FlutterFlowTheme.of(context).secondaryBackground,
+            color: heartMindVentralTheme.of(context).secondaryBackground,
             image: DecorationImage(
               fit: BoxFit.cover,
               image: Image.asset(
@@ -84,11 +86,11 @@ class _FifthDimensionalLoveWidgetState
                       ),
                     ),
                     Text(
-                      'About us',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('o4DSOf42yPdmSr67dIDJ2A==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -96,7 +98,7 @@ class _FifthDimensionalLoveWidgetState
                             fontSize: 20.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),
@@ -129,22 +131,22 @@ class _FifthDimensionalLoveWidgetState
                         Text(
                           'Vuria',
                           style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
+                              heartMindVentralTheme.of(context).bodyMedium.override(
                                     font: GoogleFonts.cevicheOne(
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                     color: Colors.black,
                                     fontSize: 32.0,
                                     letterSpacing: 0.0,
-                                    fontWeight: FlutterFlowTheme.of(context)
+                                    fontWeight: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -152,7 +154,7 @@ class _FifthDimensionalLoveWidgetState
                         Text(
                           'Version 1.0.0',
                           style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
+                              heartMindVentralTheme.of(context).bodyMedium.override(
                                     fontFamily: 'AVENIR',
                                     color: Color(0xCD000000),
                                     fontSize: 13.0,

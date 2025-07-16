@@ -1,9 +1,12 @@
+import 'dart:convert';
+
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 import 'package:vuria/backend/schema/structs/phoenix_tears_therapust_empathy_struct.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -71,7 +74,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       child: Scaffold(
         key: scaffoldKey,
         resizeToAvoidBottomInset: false,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -153,32 +156,39 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: FlutterFlowTheme.of(context)
+                                labelStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
                                 hintText: 'Enter your email address',
-                                hintStyle: FlutterFlowTheme.of(context)
+                                hintStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.normal,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -186,7 +196,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.normal,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
@@ -206,14 +217,16 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
@@ -221,27 +234,32 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 filled: true,
                                 fillColor: Colors.transparent,
                               ),
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                     letterSpacing: 0.0,
-                                    fontWeight: FlutterFlowTheme.of(context)
+                                    fontWeight: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                               cursorColor:
-                                  FlutterFlowTheme.of(context).primaryText,
+                                  heartMindVentralTheme.of(context).primaryText,
                               validator:
                                   rawEmotionNexusGateway.asValidator(context),
                             ),
@@ -280,43 +298,44 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         obscureText: rawEmotionNexus,
                                         decoration: InputDecoration(
                                           isDense: true,
-                                          labelStyle: FlutterFlowTheme.of(
-                                                  context)
+                                          labelStyle: heartMindVentralTheme
+                                              .of(context)
                                               .labelMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight:
-                                                      FlutterFlowTheme.of(
-                                                              context)
+                                                      heartMindVentralTheme
+                                                          .of(context)
                                                           .labelMedium
                                                           .fontWeight,
                                                   fontStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
+                                                      heartMindVentralTheme
+                                                          .of(context)
                                                           .labelMedium
                                                           .fontStyle,
                                                 ),
                                                 letterSpacing: 0.0,
                                                 fontWeight:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme
+                                                        .of(context)
                                                         .labelMedium
                                                         .fontWeight,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .labelMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .labelMedium
+                                                    .fontStyle,
                                               ),
                                           hintText:
                                               'GatewayPulseNetwork (6-12 characters)',
-                                          hintStyle: FlutterFlowTheme.of(
-                                                  context)
+                                          hintStyle: heartMindVentralTheme
+                                              .of(context)
                                               .labelMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.normal,
                                                   fontStyle:
-                                                      FlutterFlowTheme.of(
-                                                              context)
+                                                      heartMindVentralTheme
+                                                          .of(context)
                                                           .labelMedium
                                                           .fontStyle,
                                                 ),
@@ -324,10 +343,10 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                 fontSize: 16.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.normal,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .labelMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .labelMedium
+                                                    .fontStyle,
                                               ),
                                           enabledBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
@@ -347,9 +366,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           ),
                                           errorBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .error,
+                                              color: heartMindVentralTheme
+                                                  .of(context)
+                                                  .error,
                                               width: 1.0,
                                             ),
                                             borderRadius:
@@ -358,9 +377,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           focusedErrorBorder:
                                               OutlineInputBorder(
                                             borderSide: BorderSide(
-                                              color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .error,
+                                              color: heartMindVentralTheme
+                                                  .of(context)
+                                                  .error,
                                               width: 1.0,
                                             ),
                                             borderRadius:
@@ -369,32 +388,34 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           filled: true,
                                           fillColor: Colors.transparent,
                                         ),
-                                        style: FlutterFlowTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.inter(
                                                 fontWeight:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme
+                                                        .of(context)
                                                         .bodyMedium
                                                         .fontWeight,
-                                                fontStyle:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                               letterSpacing: 0.0,
-                                              fontWeight:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontWeight,
-                                              fontStyle:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontWeight: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontWeight,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
-                                        cursorColor:
-                                            FlutterFlowTheme.of(context)
-                                                .primaryText,
+                                        cursorColor: heartMindVentralTheme
+                                            .of(context)
+                                            .primaryText,
                                         validator: vulnerabilityfeelingWavel
                                             .asValidator(context),
                                       ),
@@ -464,33 +485,43 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     focusColor: Colors.transparent,
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
-                    
                     onTap: () async {
-                      final authenticBondGateway =
-                          FFAppState().likeHeartfeltMoments;
-                      final unspokenBondempath = rawEmotionNexusVibesMatrix.text.trim();
-                      final GatewayPulseNetwork = engthOasisfeelingWavel.text.trim();
+                      // print("字符串加密的：${VuriaEmotionCipher.sealEmotion("I agree")}");
+                      //    print("字符串解密的：${VuriaEmotionCipher.unveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}");
+ 
 
-                          print("账户${unspokenBondempath} , 密码:${GatewayPulseNetwork}");
+
+
+                      final authenticBondGateway =
+                          genuineSynapseLocus().likeHeartfeltMoments;
+                      final unspokenBondempath =
+                          rawEmotionNexusVibesMatrix.text.trim();
+                      final GatewayPulseNetwork =
+                          engthOasisfeelingWavel.text.trim();
+
+                      print(
+                          "账户${unspokenBondempath} , 密码:${GatewayPulseNetwork}");
                       if (!authenticBondGateway) {
                         showAgreementNotCheckedSnackBar(context);
                         return;
                       }
 
-                      if (unspokenBondempath.isEmpty || GatewayPulseNetwork.isEmpty) {
+                      if (unspokenBondempath.isEmpty ||
+                          GatewayPulseNetwork.isEmpty) {
                         showLoginFieldsMissingSnackBar(context);
                         return;
                       }
 
-
-                      final gateempathyInfinity = FFAppState()
+                      final gateempathyInfinity = genuineSynapseLocus()
                           .necronomiconHealingComfortU
-                          .where((e) => e.unicornWhispererHealingE == unspokenBondempath)
+                          .where((e) =>
+                              e.unicornWhispererHealingE == unspokenBondempath)
                           .toList();
-print("查找账户是否存在 ${gateempathyInfinity}");
+                      print("查找账户是否存在 ${gateempathyInfinity}");
                       final emotionalCoempathy = gateempathyInfinity
-                          .where(
-                              (e) => e.dragonScaleComfortfessionsP == GatewayPulseNetwork)
+                          .where((e) =>
+                              e.dragonScaleComfortfessionsP ==
+                              GatewayPulseNetwork)
                           .toList();
                       print("emotionalCoempathy:${emotionalCoempathy}");
 
@@ -498,13 +529,13 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                         if (emotionalCoempathy.isNotEmpty) {
                           final matchedUser = emotionalCoempathy.first;
                           print("matchedUser:${matchedUser}");
-                          FFAppState().emotionalSupportT =
+                          genuineSynapseLocus().emotionalSupportT =
                               matchedUser.loFiSoulmatesComfortT;
-                          FFAppState().kindheartedDialogues = 0;
-                          FFAppState().undergroundBunkerBondingRUT = 1;
+                          genuineSynapseLocus().kindheartedDialogues = 0;
+                          genuineSynapseLocus().undergroundBunkerBondingRUT = 1;
 
                           await showCustomLoading(
-                            message: 'Login successful. Welcome back!',
+                            message: '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
                             icon: Icons.verified_user,
                             duration: Duration(seconds: 2),
                           );
@@ -513,12 +544,13 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                           showLoginErrorSnackBar(context);
                         }
                       } else {
-                        final newIndex =
-                            FFAppState().necronomiconHealingComfortU.length;
-                        FFAppState().emotionalSupportT = newIndex;
-                        FFAppState().undergroundBunkerBondingRUT = 1;
+                        final newIndex = genuineSynapseLocus()
+                            .necronomiconHealingComfortU
+                            .length;
+                        genuineSynapseLocus().emotionalSupportT = newIndex;
+                        genuineSynapseLocus().undergroundBunkerBondingRUT = 1;
 
-                        FFAppState().addToNecronomiconHealingComfortU(
+                        genuineSynapseLocus().addToNecronomiconHealingComfortU(
                           PhoenixTearsTherapustEmpathyStruct(
                             unicornWhispererHealingE: unspokenBondempath,
                             dragonScaleComfortfessionsP: GatewayPulseNetwork,
@@ -530,7 +562,7 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                         );
 
                         await showCustomLoading(
-                          message: 'Welcome! Your account has been created.',
+                          message: '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
                           icon: Icons.emoji_emotions_outlined,
                           duration: Duration(seconds: 2),
                         );
@@ -551,11 +583,15 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                       ),
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        'Login/Sign up',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               font: GoogleFonts.inter(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: FlutterFlowTheme.of(context)
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -563,7 +599,8 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                               fontSize: 18.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -574,21 +611,24 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
                     child: Text(
-                      'If no account, one will be auto-created for you.',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w500,
-                              fontStyle: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.white,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w500,
-                            fontStyle: FlutterFlowTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      '${VuriaEmotionCipher.unveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.w500,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.white,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.w500,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ),
                 ],
@@ -602,10 +642,12 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                   children: [
                     Builder(
                       builder: (context) {
-                        if (FFAppState().likeHeartfeltMoments == true) {
+                        if (genuineSynapseLocus().likeHeartfeltMoments ==
+                            true) {
                           return InkWell(
                             onTap: () async {
-                              FFAppState().likeHeartfeltMoments = false;
+                              genuineSynapseLocus().likeHeartfeltMoments =
+                                  false;
                               setState(() {});
                             },
                             child: Padding(
@@ -628,7 +670,7 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                         } else {
                           return InkWell(
                             onTap: () async {
-                              FFAppState().likeHeartfeltMoments = true;
+                              genuineSynapseLocus().likeHeartfeltMoments = true;
                               setState(() {});
                             },
                             child: Padding(
@@ -655,13 +697,15 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: 'By continuing, you agree to our ',
-                                style: FlutterFlowTheme.of(context)
+                                text: '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -669,19 +713,22 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                                       fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                               ),
                               TextSpan(
-                                text: 'Terms of Service ',
-                                style: FlutterFlowTheme.of(context)
+                                text: '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -689,19 +736,22 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                                       fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                               ),
                               TextSpan(
                                 text: 'and ',
-                                style: FlutterFlowTheme.of(context)
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.inter(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -709,19 +759,22 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                                       fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                               ),
                               TextSpan(
-                                text: 'PrivacyPolicy',
-                                style: FlutterFlowTheme.of(context)
+                                text: '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -729,30 +782,36 @@ print("查找账户是否存在 ${gateempathyInfinity}");
                                       fontSize: 12,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                               )
                             ],
-                            style: FlutterFlowTheme.of(context)
+                            style: heartMindVentralTheme
+                                .of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.average(
-                                    fontWeight: FlutterFlowTheme.of(context)
+                                    fontWeight: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                                   color: Colors.white,
                                   fontSize: 12,
                                   letterSpacing: 0.0,
-                                  fontWeight: FlutterFlowTheme.of(context)
+                                  fontWeight: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontWeight,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

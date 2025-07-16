@@ -1,7 +1,8 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -48,12 +49,12 @@ class _SyntheticmpathybionicTrustWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: FlutterFlowTheme.of(context).secondaryBackground,
+            color: heartMindVentralTheme.of(context).secondaryBackground,
             image: DecorationImage(
               fit: BoxFit.cover,
               image: Image.asset(
@@ -95,11 +96,11 @@ class _SyntheticmpathybionicTrustWidgetState
                       ),
                     ),
                     Text(
-                      'Feedback',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -107,7 +108,7 @@ class _SyntheticmpathybionicTrustWidgetState
                             fontSize: 20.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),
@@ -127,7 +128,7 @@ class _SyntheticmpathybionicTrustWidgetState
                         height: 196.0,
                         decoration: BoxDecoration(
                           color:
-                              FlutterFlowTheme.of(context).secondaryBackground,
+                              heartMindVentralTheme.of(context).secondaryBackground,
                           borderRadius: BorderRadius.circular(15.0),
                           border: Border.all(
                             color: Color(0xFFFF6509),
@@ -146,33 +147,33 @@ class _SyntheticmpathybionicTrustWidgetState
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: FlutterFlowTheme.of(context)
+                                labelStyle: heartMindVentralTheme.of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .labelMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
-                                hintText: 'Looking forward to your feedback...',
-                                hintStyle: FlutterFlowTheme.of(context)
+                                hintText: '${VuriaEmotionCipher.unveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
+                                hintStyle: heartMindVentralTheme.of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -180,7 +181,7 @@ class _SyntheticmpathybionicTrustWidgetState
                                       fontSize: 14.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
@@ -200,44 +201,44 @@ class _SyntheticmpathybionicTrustWidgetState
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color: heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color: heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 filled: true,
-                                fillColor: FlutterFlowTheme.of(context)
+                                fillColor: heartMindVentralTheme.of(context)
                                     .secondaryBackground,
                               ),
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                     fontSize: 14.0,
                                     letterSpacing: 0.0,
-                                    fontWeight: FlutterFlowTheme.of(context)
+                                    fontWeight: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                               cursorColor:
-                                  FlutterFlowTheme.of(context).primaryText,
+                                  heartMindVentralTheme.of(context).primaryText,
                               validator: soulhippocampus.asValidator(context),
                             ),
                           ),
@@ -250,7 +251,7 @@ class _SyntheticmpathybionicTrustWidgetState
                         if (genuineHypothalamus.text.trim().isNotEmpty) {
                           await showCustomLoading(
                             message:
-                                'Your feedback has been successful. Thank you for your support!',
+                                '${VuriaEmotionCipher.unveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',
                             icon: Icons.check_circle_outline,
                           );
                           genuineHypothalamus?.clear();
@@ -258,7 +259,7 @@ class _SyntheticmpathybionicTrustWidgetState
                         } else {
                           await showCustomLoading(
                             message:
-                                'Please fill in the feedback content first and then submit',
+                                '${VuriaEmotionCipher.unveilEmotion('so7YLflzneIHLtqTFebhpOhzFfLppIdu1/JRmrfQafs+d9DSG4he1pKIcfh6Emadm39TJTf1123TPptq2hLdAw==')}',
                             icon: Icons.warning_amber_outlined,
                           );
                         }
@@ -275,13 +276,13 @@ class _SyntheticmpathybionicTrustWidgetState
                           ),
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            'Submit',
-                            style: FlutterFlowTheme.of(context)
+                            '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
+                            style: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -289,7 +290,7 @@ class _SyntheticmpathybionicTrustWidgetState
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

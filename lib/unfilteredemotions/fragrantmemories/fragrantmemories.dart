@@ -1,11 +1,12 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
 import '/backend/schema/structs/index.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -78,7 +79,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -87,7 +88,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -137,10 +138,14 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
                         'Create Room',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: FlutterFlowTheme.of(context)
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -148,7 +153,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               fontSize: 20.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -234,12 +240,14 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
                             'Room Name',
-                            style: FlutterFlowTheme.of(context)
+                            style: heartMindVentralTheme
+                                .of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -247,7 +255,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),
@@ -261,7 +270,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           width: double.infinity,
                           height: 56.0,
                           decoration: BoxDecoration(
-                            color: FlutterFlowTheme.of(context)
+                            color: heartMindVentralTheme
+                                .of(context)
                                 .secondaryBackground,
                             borderRadius: BorderRadius.circular(40.0),
                             border: Border.all(
@@ -282,39 +292,43 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
-                                  labelStyle: FlutterFlowTheme.of(context)
+                                  labelStyle: heartMindVentralTheme
+                                      .of(context)
                                       .labelMedium
                                       .override(
                                         font: GoogleFonts.inter(
                                           fontWeight: FontWeight.w500,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .labelMedium
+                                              .fontStyle,
                                         ),
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                   hintText: 'Please enter',
-                                  hintStyle: FlutterFlowTheme.of(context)
+                                  hintStyle: heartMindVentralTheme
+                                      .of(context)
                                       .labelMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w500,
-                                          fontStyle:
-                                              FlutterFlowTheme.of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .labelMedium
+                                              .fontStyle,
                                         ),
                                         color: Color(0xFF919191),
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -334,14 +348,18 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   ),
                                   errorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context).error,
+                                      color: heartMindVentralTheme
+                                          .of(context)
+                                          .error,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   focusedErrorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context).error,
+                                      color: heartMindVentralTheme
+                                          .of(context)
+                                          .error,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -349,24 +367,28 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   filled: true,
                                   fillColor: Color(0x09FFFFFF),
                                 ),
-                                style: FlutterFlowTheme.of(context)
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                cursorColor:
-                                    FlutterFlowTheme.of(context).primaryText,
+                                cursorColor: heartMindVentralTheme
+                                    .of(context)
+                                    .primaryText,
                                 validator:
                                     authnticPseUniverse.asValidator(context),
                               ),
@@ -381,12 +403,14 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
                             'Emojil',
-                            style: FlutterFlowTheme.of(context)
+                            style: heartMindVentralTheme
+                                .of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -394,7 +418,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),
@@ -417,9 +442,10 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               12.0, 20.0, 12.0, 0.0),
                           child: Builder(
                             builder: (context) {
-                              final heartfeltBondGenerator = FFAppState()
-                                  .piedPiperSoulsebeardWhiImgasBP
-                                  .toList();
+                              final heartfeltBondGenerator =
+                                  genuineSynapseLocus()
+                                      .piedPiperSoulsebeardWhiImgasBP
+                                      .toList();
 
                               return Wrap(
                                 spacing: 12.0,
@@ -495,8 +521,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                             return InkWell(
                               onTap: () async {
                                 final currentIndex =
-                                    FFAppState().emotionalSupportT;
-                                final currentUser = FFAppState()
+                                    genuineSynapseLocus().emotionalSupportT;
+                                final currentUser = genuineSynapseLocus()
                                     .necronomiconHealingComfortU[currentIndex];
                                 final currentLovePoints =
                                     currentUser.augmentedRealityLoveM;
@@ -505,9 +531,10 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   final newConfession =
                                       ServerFarmMeditationSolaceMoreStruct(
                                     philosophersStoneHealingID: currentIndex,
-                                    alchemicalWeddingHomeID: FFAppState()
-                                        .azothConfessionsathanorSolaceMP
-                                        .length,
+                                    alchemicalWeddingHomeID:
+                                        genuineSynapseLocus()
+                                            .azothConfessionsathanorSolaceMP
+                                            .length,
                                     mercurialEmpathyTitle:
                                         moodMosaicsoulfulRippl.text.trim(),
                                     saltTearsTherapyTiem: DateTime.now(),
@@ -517,11 +544,11 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                     homunculusHugsImag: vortexSpectrum?.path,
                                   );
 
-                                  FFAppState()
+                                  genuineSynapseLocus()
                                       .addToAzothConfessionsathanorSolaceMP(
                                           newConfession);
 
-                                  FFAppState()
+                                  genuineSynapseLocus()
                                       .updateNecronomiconHealingComfortUAtIndex(
                                     currentIndex,
                                     (e) => e
@@ -529,10 +556,11 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                           currentLovePoints - 100,
                                   );
 
-                                  FFAppState().update(() {});
+                                  genuineSynapseLocus().update(() {});
 
                                   await showCustomLoading(
-                                    message: 'Chat created successfully!',
+                                    message:
+                                        '${VuriaEmotionCipher.unveilEmotion('oYrcOKp1z+EPNtPXXPu0s+NzRufqtI9gz7A8vNK5AYk=')}',
                                     icon: Icons.chat_bubble_outline,
                                     duration: const Duration(seconds: 2),
                                   );

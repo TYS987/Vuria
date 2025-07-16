@@ -1,7 +1,8 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -48,7 +49,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -94,11 +95,11 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                       ),
                     ),
                     Text(
-                      'Report',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.w600,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -106,7 +107,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             fontSize: 20.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.w600,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),
@@ -124,18 +125,18 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                         Align(
                           alignment: AlignmentDirectional(0.0, -1.0),
                           child: Text(
-                            'Please select the reason for reporting this user:',
-                            style: FlutterFlowTheme.of(context).bodyMedium.override(
+                            '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2R/HtsoxilvdVyPTNYv80a9CbE4YM0Y7BY7ZrQXeHxB58WU2YtQuoNpNi0hrVCw==')}',
+                            style: heartMindVentralTheme.of(context).bodyMedium.override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                                   color: Color(0x99000000),
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w500,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),
@@ -191,13 +192,13 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    'Harassment',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('qoPPLfll0OEANrC1eo7H1g==')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -205,7 +206,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -269,13 +270,13 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    'Malicious fraud',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYtDBHf2l0Q==')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -283,7 +284,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -347,13 +348,13 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    'Pornography',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('so3PIuVxz+UeKs+2eY3E1Q==')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -361,7 +362,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -425,13 +426,13 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    'Malicious insults',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYt/dD/2tpPMZOpuDzuwDuZ41tduwCIA=')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -439,7 +440,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -503,13 +504,13 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     ),
                                   ),
                                   Text(
-                                    'False Information',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('pIPRP+829OoILcTeHfyov+4ZOpuDzuwDuZ41tduwCIA=')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -517,7 +518,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -535,7 +536,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             height: 125.0,
                             decoration: BoxDecoration(
                               color:
-                                  FlutterFlowTheme.of(context).secondaryBackground,
+                                  heartMindVentralTheme.of(context).secondaryBackground,
                               borderRadius: BorderRadius.circular(12.0),
                               border: Border.all(
                                 color: Color(0xFFFF6206),
@@ -554,44 +555,44 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     isDense: true,
-                                    labelStyle: FlutterFlowTheme.of(context)
+                                    labelStyle: heartMindVentralTheme.of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
-                                            fontWeight: FlutterFlowTheme.of(context)
+                                            fontWeight: heartMindVentralTheme.of(context)
                                                 .labelMedium
                                                 .fontWeight,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .labelMedium
                                                 .fontStyle,
                                           ),
                                           letterSpacing: 0.0,
-                                          fontWeight: FlutterFlowTheme.of(context)
+                                          fontWeight: heartMindVentralTheme.of(context)
                                               .labelMedium
                                               .fontWeight,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .labelMedium
                                               .fontStyle,
                                         ),
                                     hintText:
-                                        'Supplementary description (optional)',
-                                    hintStyle: FlutterFlowTheme.of(context)
+                                        '${VuriaEmotionCipher.unveilEmotion('sZfNPOZz0OEANtfBBailtfN1R/38tYpj2LES1aTLbuA1eMjbce0gqeqkHJoSPh75')}',
+                                    hintStyle: heartMindVentralTheme.of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
-                                            fontWeight: FlutterFlowTheme.of(context)
+                                            fontWeight: heartMindVentralTheme.of(context)
                                                 .labelMedium
                                                 .fontWeight,
-                                            fontStyle: FlutterFlowTheme.of(context)
+                                            fontStyle: heartMindVentralTheme.of(context)
                                                 .labelMedium
                                                 .fontStyle,
                                           ),
                                           color: Color(0x66000000),
                                           letterSpacing: 0.0,
-                                          fontWeight: FlutterFlowTheme.of(context)
+                                          fontWeight: heartMindVentralTheme.of(context)
                                               .labelMedium
                                               .fontWeight,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .labelMedium
                                               .fontStyle,
                                         ),
@@ -624,25 +625,25 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
                                     filled: true,
-                                    fillColor: FlutterFlowTheme.of(context)
+                                    fillColor: heartMindVentralTheme.of(context)
                                         .secondaryBackground,
                                   ),
-                                  style: FlutterFlowTheme.of(context)
+                                  style: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .override(
                                         font: GoogleFonts.poppins(
-                                          fontWeight: FlutterFlowTheme.of(context)
+                                          fontWeight: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontWeight,
-                                          fontStyle: FlutterFlowTheme.of(context)
+                                          fontStyle: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
                                         letterSpacing: 0.0,
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -678,7 +679,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   authenticMindMap.text.trim().isNotEmpty) {
                                 await showCustomLoading(
                                   message:
-                                      'The report has been submitted and we will handle it as soon as possible',
+                                      '${VuriaEmotionCipher.unveilEmotion('torYbPhzzescNpbbHfvhsuVzW7T/tIFh3+VO37CfZuE/OdOXXZZFyYqIePdwVn6Q3ngHdiPkmnfIVvJNvGb6dOtbJ9Wof9KrWSl/IkiWpXc=')}',
                                   icon: Icons.verified_user,
                                   duration: Duration(seconds: 2),
                                 );
@@ -689,7 +690,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               } else {
                                 await showCustomLoading(
                                   message:
-                                      'Please select the content you want to report',
+                                      '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2VvvitYZiwrFD1aGfcO41bYSGEsFewJbHYuIaNhbx')}',
                                   icon: Icons.warning_amber_rounded,
                                   duration: Duration(seconds: 3),
                                 );
@@ -704,13 +705,13 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               ),
                               alignment: AlignmentDirectional(0.0, 0.0),
                               child: Text(
-                                'Submit',
-                                style: FlutterFlowTheme.of(context)
+                                '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
+                                style: heartMindVentralTheme.of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.bold,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -718,7 +719,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       fontSize: 20.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),

@@ -1,8 +1,9 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/messageai.dart';
 import 'package:vuria/backend/schema/structs/london_fog_a_iet_watch_phone_r_m_struct.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -49,20 +50,24 @@ class _WatercolorEmotionsAiWidgetState
     try {
       String warmthThroughVoiceCompanion =
           await generatePersonalizedResponse(fixedInput);
-      FFAppState()
+      genuineSynapseLocus()
           .addToSamuraiSocialMediapiratePodcast(LondonFogAIetWatchPhoneRMStruct(
         pocketWatchPhoneagramID: widget.sentimentSynchronizer,
-        knightCyborgcastleCloudID:
-            FFAppState().necronomiconHealingComfortU[7].loFiSoulmatesComfortT,
+        knightCyborgcastleCloudID: genuineSynapseLocus()
+            .necronomiconHealingComfortU[7]
+            .loFiSoulmatesComfortT,
         moatMalwarejoustingJav: DateTime.now(),
-        cathedralCodeplagueythonhx: ['混淆'],
+        cathedralCodeplagueythonhx: [
+          '${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'
+        ],
         neoNeolithicquantumQuillHX: [0, 0],
         gladiatorGoogleetflixT: warmthThroughVoiceCompanion,
       ));
-      FFAppState().update(() {});
+      genuineSynapseLocus().update(() {});
       moodsupramarginal();
     } catch (error) {
-      print('Error fetching AI response: $error');
+      print(
+          '${VuriaEmotionCipher.unveilEmotion('p5DPI/g22+EaId7aEu/hkck2R/H/sYxixfQAv9G6Aoo=')} $error');
     }
   }
 
@@ -86,7 +91,7 @@ class _WatercolorEmotionsAiWidgetState
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -95,7 +100,7 @@ class _WatercolorEmotionsAiWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Align(
           alignment: AlignmentDirectional(0, 1),
           child: Container(
@@ -140,11 +145,15 @@ class _WatercolorEmotionsAiWidgetState
                         ),
                       ),
                       Text(
-                        'Vimi',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: FlutterFlowTheme.of(context)
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -152,7 +161,8 @@ class _WatercolorEmotionsAiWidgetState
                               fontSize: 20,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -170,7 +180,7 @@ class _WatercolorEmotionsAiWidgetState
                     padding: EdgeInsetsDirectional.fromSTEB(12, 0, 12, 0),
                     child: Builder(
                       builder: (context) {
-                        final wildWestWhatsappnseling = FFAppState()
+                        final wildWestWhatsappnseling = genuineSynapseLocus()
                             .samuraiSocialMediapiratePodcast
                             .where((e) =>
                                 e.pocketWatchPhoneagramID ==
@@ -197,19 +207,14 @@ class _WatercolorEmotionsAiWidgetState
                               builder: (context) {
                                 if (wildWestWhatsappnselingItem
                                         .knightCyborgcastleCloudID !=
-                                    FFAppState().emotionalSupportT) {
+                                    genuineSynapseLocus().emotionalSupportT) {
                                   return Row(
                                     mainAxisSize: MainAxisSize.max,
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
                                       InkWell(
-                                        onTap: () {
-                                          print(
-                                              "打印用户的OD${wildWestWhatsappnselingItem.knightCyborgcastleCloudID}");
-                                          print(
-                                              "打印头像地址${FFAppState().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == wildWestWhatsappnselingItem.knightCyborgcastleCloudID).toList().firstOrNull!.neuralLaceConfessionsI}");
-                                        },
+                                        onTap: () {},
                                         child: Container(
                                           width: 50,
                                           height: 50,
@@ -217,7 +222,7 @@ class _WatercolorEmotionsAiWidgetState
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
                                               image: Image.asset(
-                                                FFAppState()
+                                                genuineSynapseLocus()
                                                     .necronomiconHealingComfortU
                                                     .where((e) =>
                                                         e.loFiSoulmatesComfortT ==
@@ -261,19 +266,18 @@ class _WatercolorEmotionsAiWidgetState
                                                       .gladiatorGoogleetflixT,
                                                   '',
                                                 ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'AVENIR',
-                                                          color:
-                                                              Color(0xFF323232),
-                                                          fontSize: 16,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          lineHeight: 1.3,
-                                                        ),
+                                                style: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'AVENIR',
+                                                      color: Color(0xFF323232),
+                                                      fontSize: 16,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      lineHeight: 1.3,
+                                                    ),
                                               ),
                                             ),
                                           ),
@@ -316,19 +320,18 @@ class _WatercolorEmotionsAiWidgetState
                                                       .gladiatorGoogleetflixT,
                                                   '',
                                                 ),
-                                                style:
-                                                    FlutterFlowTheme.of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'AVENIR',
-                                                          color:
-                                                              Color(0xFF323232),
-                                                          fontSize: 16,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          lineHeight: 1.3,
-                                                        ),
+                                                style: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .override(
+                                                      fontFamily: 'AVENIR',
+                                                      color: Color(0xFF323232),
+                                                      fontSize: 16,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      lineHeight: 1.3,
+                                                    ),
                                               ),
                                             ),
                                           ),
@@ -341,7 +344,7 @@ class _WatercolorEmotionsAiWidgetState
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
                                             image: Image.asset(
-                                              FFAppState()
+                                              genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
                                                       e.loFiSoulmatesComfortT ==
@@ -391,32 +394,39 @@ class _WatercolorEmotionsAiWidgetState
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: FlutterFlowTheme.of(context)
+                                labelStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
                                 hintText: 'Say something...',
-                                hintStyle: FlutterFlowTheme.of(context)
+                                hintStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -424,7 +434,8 @@ class _WatercolorEmotionsAiWidgetState
                                       fontSize: 14.7,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
@@ -444,43 +455,51 @@ class _WatercolorEmotionsAiWidgetState
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(8),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(8),
                                 ),
                                 filled: true,
-                                fillColor: FlutterFlowTheme.of(context)
+                                fillColor: heartMindVentralTheme
+                                    .of(context)
                                     .secondaryBackground,
                               ),
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                     letterSpacing: 0.0,
-                                    fontWeight: FlutterFlowTheme.of(context)
+                                    fontWeight: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                               cursorColor:
-                                  FlutterFlowTheme.of(context).primaryText,
+                                  heartMindVentralTheme.of(context).primaryText,
                               validator:
                                   sentimentAuditoryCortex.asValidator(context),
                             ),
@@ -490,31 +509,33 @@ class _WatercolorEmotionsAiWidgetState
                       InkWell(
                         onTap: () async {
                           if (emotionalWernickeArea.text.trim().isNotEmpty) {
-                            FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                            genuineSynapseLocus()
+                                .updateSteamPunkSiribleDroneRAtIndex(
                               widget.sentimentSynchronizer!,
                               (e) => e
                                 ..pyramidAlgorithmengeFirewalHID =
                                     widget.sentimentSynchronizer
                                 ..cavePaintingNeuralinkSID =
-                                    FFAppState().emotionalSupportT
+                                    genuineSynapseLocus().emotionalSupportT
                                 ..thundercloudedT =
                                     emotionalWernickeArea.text.trim()
                                 ..daVinciDroneoHologramN += 1
                                 ..inquisitionInternetBitcoin = DateTime.now(),
                             );
-                            FFAppState().addToSamuraiSocialMediapiratePodcast(
-                                LondonFogAIetWatchPhoneRMStruct(
+                            genuineSynapseLocus()
+                                .addToSamuraiSocialMediapiratePodcast(
+                                    LondonFogAIetWatchPhoneRMStruct(
                               pocketWatchPhoneagramID:
                                   widget.sentimentSynchronizer,
                               knightCyborgcastleCloudID:
-                                  FFAppState().emotionalSupportT,
+                                  genuineSynapseLocus().emotionalSupportT,
                               moatMalwarejoustingJav: DateTime.now(),
-                              cathedralCodeplagueythonhx: ['混淆'],
+                              cathedralCodeplagueythonhx: ['${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'],
                               neoNeolithicquantumQuillHX: [0, 0],
                               gladiatorGoogleetflixT:
                                   emotionalWernickeArea.text.trim(),
                             ));
-                            FFAppState().update(() {});
+                            genuineSynapseLocus().update(() {});
                             voiceDrivenStoryteVoicePostss(
                                 emotionalWernickeArea.text.trim());
                             moodsupramarginal();

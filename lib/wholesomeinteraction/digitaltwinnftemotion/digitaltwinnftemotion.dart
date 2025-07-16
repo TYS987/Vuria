@@ -1,8 +1,9 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/generateRedential.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -38,7 +39,7 @@ class _DigitalTwinnftEmotionWidgetState
       width: 288.0,
       height: 179.0,
       decoration: BoxDecoration(
-        color: FlutterFlowTheme.of(context).secondaryBackground,
+        color: heartMindVentralTheme.of(context).secondaryBackground,
         borderRadius: BorderRadius.circular(16.0),
       ),
       child: Column(
@@ -47,39 +48,39 @@ class _DigitalTwinnftEmotionWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
             child: Text(
-              'Reminder',
-              style: FlutterFlowTheme.of(context).bodyMedium.override(
+              '${VuriaEmotionCipher.unveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
+              style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.bold,
                       fontStyle:
-                          FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 20.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.bold,
                     fontStyle:
-                        FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                   ),
             ),
           ),
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 25.0, 0.0),
             child: Text(
-              'Are you sure you want to delete your account?',
+              '${VuriaEmotionCipher.unveilEmotion('o5DYbPN5yKQdN8TWXPGupaBhVPr44ZdjlvVf1rHLYq8idtGAXYBPxondfuIhMRH2')}',
               textAlign: TextAlign.center,
-              style: FlutterFlowTheme.of(context).bodyMedium.override(
+              style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
                       fontStyle:
-                          FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 16.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.w500,
                     fontStyle:
-                        FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                   ),
             ),
           ),
@@ -111,11 +112,11 @@ class _DigitalTwinnftEmotionWidgetState
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      'Cancel',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('oYPTL+96t45kSLy5doLL2g==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -123,7 +124,7 @@ class _DigitalTwinnftEmotionWidgetState
                             fontSize: 16.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),
@@ -138,21 +139,21 @@ class _DigitalTwinnftEmotionWidgetState
                   onTap: () async {
                     await showCustomLoading(
                       message:
-                          'The account is being deleted. Please wait patiently...',
+                          '${VuriaEmotionCipher.unveilEmotion('torYbOt13usbLMKTFfvhsuV/W/OspYZg0+Vf3vqfV+M+eNeXXZZNzJKIYPdqW3ebin0KeGy5sA6tM5Zn1x/QDg==')}',
                       icon: Icons.delete_forever,
                       duration: Duration(seconds: 2),
                     );
-                    FFAppState().undergroundBunkerBondingRUT = 0;
-                    FFAppState().kindheartedDialogues = 0;
+                    genuineSynapseLocus().undergroundBunkerBondingRUT = 0;
+                    genuineSynapseLocus().kindheartedDialogues = 0;
 
-                    FFAppState().updateNecronomiconHealingComfortUAtIndex(
-                        FFAppState().emotionalSupportT,
+                    genuineSynapseLocus().updateNecronomiconHealingComfortUAtIndex(
+                        genuineSynapseLocus().emotionalSupportT,
                         (e) => e
                           ..unicornWhispererHealingE =
                               generateRandomCredential(isPassword: true)
                           ..dragonScaleComfortfessionsP =
                               generateRandomCredential(length: 7));
-                    FFAppState().update(() {});
+                    genuineSynapseLocus().update(() {});
                     context.pushNamed(EmpathyExchangeWidget.routeName);
                   },
                   child: Container(
@@ -164,11 +165,11 @@ class _DigitalTwinnftEmotionWidgetState
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      'Confirm',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -176,7 +177,7 @@ class _DigitalTwinnftEmotionWidgetState
                             fontSize: 16.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),

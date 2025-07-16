@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -34,7 +36,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
       width: 375.0,
       height: 556.0,
       decoration: BoxDecoration(
-        color: FlutterFlowTheme.of(context).secondaryBackground,
+        color: heartMindVentralTheme.of(context).secondaryBackground,
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -50,8 +52,8 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
               child: Text(
-                'EULA',
-                style: FlutterFlowTheme.of(context).bodyMedium.override(
+                '${VuriaEmotionCipher.unveilEmotion('p7fxDYYasYhiTrq/cITN3A==')}',
+                style: heartMindVentralTheme.of(context).bodyMedium.override(
                       fontFamily: 'AVENIR',
                       color: Colors.black,
                       fontSize: 24.0,
@@ -64,7 +66,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
               child: Text(
                 'Welcome to Potie! To make a better place,the following content is not allowed in the app in particular.\n1.Any content about child harm,pornography related detrimental to children.\n2. Fake and harmful messages about recent or current events.\n3. Any violence,bullying content, publicly promotes pornography and other content.\n\nIf we find any content including and not limited to the above violations your content will be deleted and account will be banned.By clicking the above button,you agreeto the Terms of Use and Privacy Policy',
-                style: FlutterFlowTheme.of(context).bodyMedium.override(
+                style: heartMindVentralTheme.of(context).bodyMedium.override(
                       fontFamily: 'AVENIR',
                       fontSize: 16.0,
                       letterSpacing: 0.0,
@@ -96,11 +98,11 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       );
                     },
                     child: Text(
-                      'Terms of Use',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOF8XWeIzF1A==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.inter(
                               fontWeight: FontWeight.w500,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -108,7 +110,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                             fontSize: 16.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.w500,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                             decoration: TextDecoration.underline,
@@ -132,11 +134,11 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       );
                     },
                     child: Text(
-                      'Privacy Policy',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.inter(
                               fontWeight: FontWeight.w500,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -144,7 +146,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                             fontSize: 16.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.w500,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                             decoration: TextDecoration.underline,
@@ -177,8 +179,8 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       ),
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        'Cancle',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('oYPTL+Zzt45kSLy5doLL2g==')}',
+                        style: heartMindVentralTheme.of(context).bodyMedium.override(
                               fontFamily: 'AVENIR',
                               color: Color(0xFFFF7A19),
                               fontSize: 16.0,
@@ -190,7 +192,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                   ),
                   InkWell(
                     onTap: () {
-                      FFAppState().likeHeartfeltMoments = true;
+                      genuineSynapseLocus().likeHeartfeltMoments = true;
                       Navigator.pop(context);
                     },
                     child: Container(
@@ -202,8 +204,8 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       ),
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        'I agree',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}',
+                        style: heartMindVentralTheme.of(context).bodyMedium.override(
                               fontFamily: 'AVENIR',
                               color: Colors.white,
                               fontSize: 16.0,

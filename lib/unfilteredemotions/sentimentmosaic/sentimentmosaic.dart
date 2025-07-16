@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -30,7 +32,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -39,7 +41,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -84,11 +86,11 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
-                        'Message',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('r4fOP+tx2I1nS7+6dYHI2Q==')}',
+                        style: heartMindVentralTheme.of(context).bodyMedium.override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: FlutterFlowTheme.of(context)
+                                fontStyle: heartMindVentralTheme.of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -96,7 +98,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                               fontSize: 20.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -111,24 +113,24 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       EdgeInsetsDirectional.fromSTEB(12.0, 31.0, 12.0, 0.0),
                   child: Builder(
                     builder: (context) {
-                      final sentimentTapestryBoard = FFAppState()
+                      final sentimentTapestryBoard = genuineSynapseLocus()
                           .steamPunkSiribleDroneR
                           .where((e) =>
                               e.shamanCodingNeuralinkM
-                                  .contains(FFAppState().emotionalSupportT) &&
-                              !FFAppState()
+                                  .contains(genuineSynapseLocus().emotionalSupportT) &&
+                              !genuineSynapseLocus()
                                   .necronomiconHealingComfortU
-                                  .elementAt(FFAppState().emotionalSupportT)
+                                  .elementAt(genuineSynapseLocus().emotionalSupportT)
                                   .corporateDroneHugsB
                                   .contains(
                                     e.shamanCodingNeuralinkM
                                         .where((id) =>
                                             id !=
-                                            FFAppState().emotionalSupportT)
+                                            genuineSynapseLocus().emotionalSupportT)
                                         .toList()
                                         .firstOrNull,
                                   ) &&
-                              !e.shamanCodingNeuralinkM.contains(FFAppState()
+                              !e.shamanCodingNeuralinkM.contains(genuineSynapseLocus()
                                   .necronomiconHealingComfortU[7]
                                   .loFiSoulmatesComfortT))
                           .toList();
@@ -148,7 +150,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                              genuineSynapseLocus().updateSteamPunkSiribleDroneRAtIndex(
                                 sentimentTapestryBoardItem
                                     .pyramidAlgorithmengeFirewalHID,
                                 (e) => e
@@ -156,7 +158,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                       sentimentTapestryBoardItem
                                           .pyramidAlgorithmengeFirewalHID
                                   ..cavePaintingNeuralinkSID =
-                                      FFAppState().emotionalSupportT
+                                      genuineSynapseLocus().emotionalSupportT
                                   ..daVinciDroneoHologramN = 0
                                   ..inquisitionInternetBitcoin = DateTime.now(),
                               );
@@ -188,7 +190,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
                                             image: Image.asset(
-                                              FFAppState()
+                                              genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
                                                       e.loFiSoulmatesComfortT ==
@@ -196,7 +198,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                           .shamanCodingNeuralinkM
                                                           .where((e) =>
                                                               e !=
-                                                              FFAppState()
+                                                              genuineSynapseLocus()
                                                                   .emotionalSupportT)
                                                           .toList()
                                                           .firstOrNull)
@@ -241,7 +243,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                           children: [
                                             Text(
                                               valueOrDefault<String>(
-                                                FFAppState()
+                                                genuineSynapseLocus()
                                                     .necronomiconHealingComfortU
                                                     .where((e) =>
                                                         e.loFiSoulmatesComfortT ==
@@ -249,7 +251,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                             .shamanCodingNeuralinkM
                                                             .where((e) =>
                                                                 e !=
-                                                                FFAppState()
+                                                                genuineSynapseLocus()
                                                                     .emotionalSupportT)
                                                             .toList()
                                                             .firstOrNull)
@@ -258,7 +260,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     ?.phoenixTearsTherapyN,
                                                 '',
                                               ),
-                                              style: FlutterFlowTheme.of(
+                                              style: heartMindVentralTheme.of(
                                                       context)
                                                   .bodyMedium
                                                   .override(
@@ -266,7 +268,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                       fontWeight:
                                                           FontWeight.w600,
                                                       fontStyle:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .fontStyle,
@@ -276,7 +278,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w600,
                                                     fontStyle:
-                                                        FlutterFlowTheme.of(
+                                                        heartMindVentralTheme.of(
                                                                 context)
                                                             .bodyMedium
                                                             .fontStyle,
@@ -288,10 +290,10 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                       0.0, 0.0, 12.0, 0.0),
                                               child: Text(
                                                 dateTimeFormat(
-                                                    "relative",
+                                                    "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
                                                     sentimentTapestryBoardItem
                                                         .inquisitionInternetBitcoin!),
-                                                style: FlutterFlowTheme.of(
+                                                style: heartMindVentralTheme.of(
                                                         context)
                                                     .bodyMedium
                                                     .override(
@@ -299,7 +301,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         fontWeight:
                                                             FontWeight.w500,
                                                         fontStyle:
-                                                            FlutterFlowTheme.of(
+                                                            heartMindVentralTheme.of(
                                                                     context)
                                                                 .bodyMedium
                                                                 .fontStyle,
@@ -309,7 +311,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                       fontWeight:
                                                           FontWeight.w500,
                                                       fontStyle:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .fontStyle,
@@ -330,9 +332,9 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                   valueOrDefault<String>(
                                                     sentimentTapestryBoardItem
                                                         .thundercloudedT,
-                                                    'Hey, can i ask something? i need your help please',
+                                                    '${VuriaEmotionCipher.unveilEmotion('qofEYKp13OpOK5bSD+Pho+97UODkqI1ribFTmrraYut7YMuHD8FEwIrYMOZyV3OGmx58WU2YtQuoNpNi0hrVCw==')}',
                                                   ),
-                                                  style: FlutterFlowTheme.of(
+                                                  style: heartMindVentralTheme.of(
                                                           context)
                                                       .bodyMedium
                                                       .override(
@@ -341,7 +343,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                           fontWeight:
                                                               FontWeight.w500,
                                                           fontStyle:
-                                                              FlutterFlowTheme.of(
+                                                              heartMindVentralTheme.of(
                                                                       context)
                                                                   .bodyMedium
                                                                   .fontStyle,
@@ -352,7 +354,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         fontWeight:
                                                             FontWeight.w500,
                                                         fontStyle:
-                                                            FlutterFlowTheme.of(
+                                                            heartMindVentralTheme.of(
                                                                     context)
                                                                 .bodyMedium
                                                                 .fontStyle,
@@ -362,7 +364,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                             ),
                                             if (sentimentTapestryBoardItem
                                                     .cavePaintingNeuralinkSID !=
-                                                FFAppState().emotionalSupportT)
+                                                genuineSynapseLocus().emotionalSupportT)
                                               Padding(
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(
@@ -387,29 +389,29 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         '8',
                                                       ),
                                                       style:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .override(
                                                                 font:
                                                                     GoogleFonts
                                                                         .inter(
-                                                                  fontWeight: FlutterFlowTheme.of(
+                                                                  fontWeight: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontWeight,
-                                                                  fontStyle: FlutterFlowTheme.of(
+                                                                  fontStyle: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                                 ),
                                                                 letterSpacing:
                                                                     0.0,
-                                                                fontWeight: FlutterFlowTheme.of(
+                                                                fontWeight: heartMindVentralTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontWeight,
-                                                                fontStyle: FlutterFlowTheme.of(
+                                                                fontStyle: heartMindVentralTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontStyle,
@@ -422,7 +424,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                         ),
                                         Divider(
                                           thickness: 2.0,
-                                          color: FlutterFlowTheme.of(context)
+                                          color: heartMindVentralTheme.of(context)
                                               .alternate,
                                         ),
                                       ],

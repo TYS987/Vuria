@@ -1,7 +1,8 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -37,7 +38,7 @@ class _NeuralPathNeuronMagicWidgetState
       width: double.infinity,
       height: 165.0,
       decoration: BoxDecoration(
-        color: FlutterFlowTheme.of(context).secondaryBackground,
+        color: heartMindVentralTheme.of(context).secondaryBackground,
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -57,37 +58,37 @@ class _NeuralPathNeuronMagicWidgetState
               highlightColor: Colors.transparent,
               onTap: () async {
                 await showCustomLoading(
-                  message: "I'm logging out. Please wait a moment...",
+                  message: "${VuriaEmotionCipher.unveilEmotion('q8XQbOZ52uMHLNGTE/21/qBGWfHtsoYswfBTzvTeJ+I0dMGcCc8Ci+6gGJ4WOhr9')}",
                   icon: Icons.logout,
                   duration: Duration(seconds: 2),
                 );
-                FFAppState().undergroundBunkerBondingRUT = 0;
-                FFAppState().kindheartedDialogues = 0;
+                genuineSynapseLocus().undergroundBunkerBondingRUT = 0;
+                genuineSynapseLocus().kindheartedDialogues = 0;
 
-                FFAppState().update(() {});
+                genuineSynapseLocus().update(() {});
                 context.pushNamed(EmpathyExchangeWidget.routeName);
               },
               child: Container(
                 width: double.infinity,
                 height: 49.0,
                 decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).secondaryBackground,
+                  color: heartMindVentralTheme.of(context).secondaryBackground,
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  'Sign out',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
+                  style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
                           fontStyle:
-                              FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                              heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                         ),
                         color: Colors.black,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
                         fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                       ),
                 ),
               ),
@@ -112,19 +113,19 @@ class _NeuralPathNeuronMagicWidgetState
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  'cancel',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
+                  style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
                           fontStyle:
-                              FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                              heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                         ),
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
                         fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                       ),
                 ),
               ),

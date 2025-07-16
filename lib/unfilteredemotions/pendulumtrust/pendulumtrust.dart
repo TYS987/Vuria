@@ -1,5 +1,5 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import '/index.dart';
@@ -33,7 +33,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -42,7 +42,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Stack(
           children: [
             Align(
@@ -142,11 +142,11 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                             12.0, 21.0, 12.0, 0.0),
                         child: Builder(
                           builder: (context) {
-                            final emotionalAlignmentTool = FFAppState()
+                            final emotionalAlignmentTool = genuineSynapseLocus()
                                 .looperTearscitorSolaceD
-                                .where((e) => !FFAppState()
+                                .where((e) => !genuineSynapseLocus()
                                     .necronomiconHealingComfortU[
-                                        FFAppState().emotionalSupportT]
+                                        genuineSynapseLocus().emotionalSupportT]
                                     .corporateDroneHugsB
                                     .contains(e.marianaTrenchTherapID))
                                 .toList();
@@ -208,7 +208,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           queryParameters: {
                                                             'bondingThroughVibesID':
                                                                 serializeParam(
-                                                              FFAppState()
+                                                              genuineSynapseLocus()
                                                                   .necronomiconHealingComfortU
                                                                   .where((e) =>
                                                                       e.loFiSoulmatesComfortT ==
@@ -231,7 +231,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                               DecorationImage(
                                                             fit: BoxFit.cover,
                                                             image: Image.asset(
-                                                              FFAppState()
+                                                              genuineSynapseLocus()
                                                                   .necronomiconHealingComfortU
                                                                   .where((e) =>
                                                                       e.loFiSoulmatesComfortT ==
@@ -273,7 +273,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             Text(
                                                               valueOrDefault<
                                                                   String>(
-                                                                FFAppState()
+                                                                genuineSynapseLocus()
                                                                     .necronomiconHealingComfortU
                                                                     .where((e) =>
                                                                         e.loFiSoulmatesComfortT ==
@@ -284,7 +284,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                     ?.phoenixTearsTherapyN,
                                                                 'Calista',
                                                               ),
-                                                              style: FlutterFlowTheme
+                                                              style: heartMindVentralTheme
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
@@ -308,7 +308,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                         .compassionateListenerTiem),
                                                                 '2024.12.02',
                                                               ),
-                                                              style: FlutterFlowTheme
+                                                              style: heartMindVentralTheme
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
@@ -336,7 +336,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
                                                                     e.mutantConfessions ==
@@ -354,17 +354,17 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                 ),
                                               ),
                                             ),
-                                            if (FFAppState()
+                                            if (genuineSynapseLocus()
                                                     .emotionalSupportT !=
                                                 emotionalAlignmentToolItem
                                                     .marianaTrenchTherapID)
                                               Builder(
                                                 builder: (context) {
-                                                  if (FFAppState()
+                                                  if (genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
                                                               e.loFiSoulmatesComfortT ==
-                                                              FFAppState()
+                                                              genuineSynapseLocus()
                                                                   .emotionalSupportT)
                                                           .toList()
                                                           .firstOrNull
@@ -375,9 +375,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                       false) {
                                                     return InkWell(
                                                       onTap: () async {
-                                                        FFAppState()
+                                                        genuineSynapseLocus()
                                                             .updateNecronomiconHealingComfortUAtIndex(
-                                                          FFAppState()
+                                                          genuineSynapseLocus()
                                                               .emotionalSupportT,
                                                           (e) => e
                                                             ..updateCorporateDroneHugsF(
@@ -386,7 +386,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                       .marianaTrenchTherapID),
                                                             ),
                                                         );
-                                                        FFAppState()
+                                                        genuineSynapseLocus()
                                                             .update(() {});
                                                       },
                                                       child: Container(
@@ -407,9 +407,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   } else {
                                                     return InkWell(
                                                       onTap: () async {
-                                                        FFAppState()
+                                                        genuineSynapseLocus()
                                                             .updateNecronomiconHealingComfortUAtIndex(
-                                                          FFAppState()
+                                                          genuineSynapseLocus()
                                                               .emotionalSupportT,
                                                           (e) => e
                                                             ..updateCorporateDroneHugsF(
@@ -509,9 +509,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                       valueOrDefault<String>(
                                                         emotionalAlignmentToolItem
                                                             .grandfatherClockTherapyT,
-                                                        'Some days I smile while my heart',
+                                                        '',
                                                       ),
-                                                      style: FlutterFlowTheme
+                                                      style: heartMindVentralTheme
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
@@ -521,7 +521,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                   FontWeight
                                                                       .w800,
                                                               fontStyle:
-                                                                  FlutterFlowTheme.of(
+                                                                  heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontStyle,
@@ -531,7 +531,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             fontWeight:
                                                                 FontWeight.w800,
                                                             fontStyle:
-                                                                FlutterFlowTheme.of(
+                                                                heartMindVentralTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontStyle,
@@ -541,7 +541,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           TextOverflow.ellipsis,
                                                     ),
                                                   ),
-                                                  if (FFAppState()
+                                                  if (genuineSynapseLocus()
                                                           .emotionalSupportT !=
                                                       emotionalAlignmentToolItem
                                                           .marianaTrenchTherapID)

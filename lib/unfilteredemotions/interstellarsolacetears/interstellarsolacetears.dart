@@ -1,9 +1,9 @@
-import 'dart:ffi';
 
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/digitaltwinnftemotion/digitaltwinnftemotion.dart';
 import '../../wholesomeinteraction/neuralpathneuronmagic/neuralpathneuronmagic.dart';
 import '/index.dart';
@@ -24,7 +24,7 @@ class InterstellarSolaceTearsWidget extends StatefulWidget {
 class _InterstellarSolaceTearsWidgetState
     extends State<InterstellarSolaceTearsWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  String resonanceMatchingSystem = '14.3M';
+  String resonanceMatchingSystem = '${VuriaEmotionCipher.unveilEmotion('09aTf8cdto9lSb24d4PK2w==')}';
 
   @override
   void initState() {
@@ -45,7 +45,7 @@ class _InterstellarSolaceTearsWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -91,11 +91,11 @@ class _InterstellarSolaceTearsWidgetState
                       ),
                     ),
                     Text(
-                      'Setting',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('sYfJOON42o1nS7+6dYHI2Q==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.w600,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -103,7 +103,7 @@ class _InterstellarSolaceTearsWidgetState
                             fontSize: 20.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.w600,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),
@@ -145,7 +145,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
+                                  color: heartMindVentralTheme.of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -162,14 +162,14 @@ class _InterstellarSolaceTearsWidgetState
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Blacklist',
-                                        style: FlutterFlowTheme.of(context)
+                                        '${VuriaEmotionCipher.unveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
+                                        style: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -178,7 +178,7 @@ class _InterstellarSolaceTearsWidgetState
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -235,7 +235,7 @@ class _InterstellarSolaceTearsWidgetState
                                   width: 335.0,
                                   height: 50.0,
                                   decoration: BoxDecoration(
-                                    color: FlutterFlowTheme.of(context)
+                                    color: heartMindVentralTheme.of(context)
                                         .secondaryBackground,
                                     borderRadius: BorderRadius.circular(50.0),
                                     border: Border.all(
@@ -252,14 +252,14 @@ class _InterstellarSolaceTearsWidgetState
                                           MainAxisAlignment.spaceBetween,
                                       children: [
                                         Text(
-                                          'Delete Account',
-                                          style: FlutterFlowTheme.of(context)
+                                          '${VuriaEmotionCipher.unveilEmotion('pofRKf5zncUNIdnGEvzD0g==')}',
+                                          style: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
-                                                      FlutterFlowTheme.of(
+                                                      heartMindVentralTheme.of(
                                                               context)
                                                           .bodyMedium
                                                           .fontStyle,
@@ -269,7 +269,7 @@ class _InterstellarSolaceTearsWidgetState
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -312,7 +312,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
+                                  color: heartMindVentralTheme.of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -329,14 +329,14 @@ class _InterstellarSolaceTearsWidgetState
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Privacy Policy',
-                                        style: FlutterFlowTheme.of(context)
+                                        '${VuriaEmotionCipher.unveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
+                                        style: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -345,7 +345,7 @@ class _InterstellarSolaceTearsWidgetState
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -387,7 +387,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
+                                  color: heartMindVentralTheme.of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -404,14 +404,14 @@ class _InterstellarSolaceTearsWidgetState
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Terms of Service',
-                                        style: FlutterFlowTheme.of(context)
+                                        '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitZAGJYSc0fMcpoEqqsSvF58=')}',
+                                        style: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -420,7 +420,7 @@ class _InterstellarSolaceTearsWidgetState
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -455,7 +455,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: FlutterFlowTheme.of(context)
+                                  color: heartMindVentralTheme.of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -472,14 +472,14 @@ class _InterstellarSolaceTearsWidgetState
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Feedback',
-                                        style: FlutterFlowTheme.of(context)
+                                        '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
+                                        style: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -488,7 +488,7 @@ class _InterstellarSolaceTearsWidgetState
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -514,7 +514,7 @@ class _InterstellarSolaceTearsWidgetState
                               width: 335.0,
                               height: 50.0,
                               decoration: BoxDecoration(
-                                color: FlutterFlowTheme.of(context)
+                                color: heartMindVentralTheme.of(context)
                                     .secondaryBackground,
                                 borderRadius: BorderRadius.circular(50.0),
                                 border: Border.all(
@@ -524,10 +524,10 @@ class _InterstellarSolaceTearsWidgetState
                               ),
                               child: InkWell(
                                 onTap: () async {
-                                  print("清除数据");
+                             
                                   await showCustomLoading(
                                     message:
-                                        'The cache is being cleared. Please wait a moment...',
+                                        '${VuriaEmotionCipher.unveilEmotion('torYbOl33uwLYt/AXOqkue5xFffgpIJ+0/UUmoTTYu4ofISFHIhYhYeIfflzV3yB0D9dW0+atwmqNJFg0BjXCQ==')}',
                                     icon: Icons.hourglass_top,
                                     duration: Duration(seconds: 3),
                                   );
@@ -543,14 +543,14 @@ class _InterstellarSolaceTearsWidgetState
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text(
-                                        'Clear Cache',
-                                        style: FlutterFlowTheme.of(context)
+                                        '${VuriaEmotionCipher.unveilEmotion('oY7YLfg2/uUNKtO2eY3E1Q==')}',
+                                        style: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -559,7 +559,7 @@ class _InterstellarSolaceTearsWidgetState
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -573,7 +573,7 @@ class _InterstellarSolaceTearsWidgetState
                                                     0.0, 0.0, 10.0, 0.0),
                                             child: Text(
                                               resonanceMatchingSystem,
-                                              style: FlutterFlowTheme.of(
+                                              style: heartMindVentralTheme.of(
                                                       context)
                                                   .bodyMedium
                                                   .override(
@@ -581,7 +581,7 @@ class _InterstellarSolaceTearsWidgetState
                                                       fontWeight:
                                                           FontWeight.w500,
                                                       fontStyle:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .fontStyle,
@@ -590,7 +590,7 @@ class _InterstellarSolaceTearsWidgetState
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
-                                                        FlutterFlowTheme.of(
+                                                        heartMindVentralTheme.of(
                                                                 context)
                                                             .bodyMedium
                                                             .fontStyle,
@@ -654,13 +654,13 @@ class _InterstellarSolaceTearsWidgetState
                           ),
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            'Sign out',
-                            style: FlutterFlowTheme.of(context)
+                            '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
+                            style: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -668,7 +668,7 @@ class _InterstellarSolaceTearsWidgetState
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

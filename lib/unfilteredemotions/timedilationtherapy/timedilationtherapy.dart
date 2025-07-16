@@ -1,10 +1,11 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -40,7 +41,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
         vulnerableTemporalLobe = File(empathySomatosensory.path);
       });
     } else {
-      print("用户取消了选择");
+
     }
   }
 
@@ -66,7 +67,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -75,12 +76,12 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: FlutterFlowTheme.of(context).secondaryBackground,
+            color: heartMindVentralTheme.of(context).secondaryBackground,
             image: DecorationImage(
               fit: BoxFit.cover,
               image: Image.asset(
@@ -122,11 +123,11 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                       ),
                     ),
                     Text(
-                      'edit profile',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
+                      '${VuriaEmotionCipher.unveilEmotion('h4bUOKpmz+sIK9rWeIzF1A==')}',
+                      style: heartMindVentralTheme.of(context).bodyMedium.override(
                             font: GoogleFonts.poppins(
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -134,7 +135,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                             fontSize: 20.0,
                             letterSpacing: 0.0,
                             fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
+                            fontStyle: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .fontStyle,
                           ),
@@ -165,11 +166,11 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                   image: vulnerableTemporalLobe != null
                                       ? FileImage(vulnerableTemporalLobe!)
                                       : Image.asset(
-                                          FFAppState()
+                                          genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
                                                   e.loFiSoulmatesComfortT ==
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .emotionalSupportT)
                                               .toList()
                                               .firstOrNull!
@@ -209,7 +210,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                         height: 58.0,
                         decoration: BoxDecoration(
                           color:
-                              FlutterFlowTheme.of(context).secondaryBackground,
+                              heartMindVentralTheme.of(context).secondaryBackground,
                           borderRadius: BorderRadius.circular(50.0),
                           border: Border.all(
                             color: Color(0xFFFF6509),
@@ -230,46 +231,46 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
-                                  labelStyle: FlutterFlowTheme.of(context)
+                                  labelStyle: heartMindVentralTheme.of(context)
                                       .labelMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontWeight,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontStyle,
                                         ),
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                   hintText: valueOrDefault<String>(
-                                    FFAppState()
+                                    genuineSynapseLocus()
                                         .necronomiconHealingComfortU
                                         .where((e) =>
                                             e.loFiSoulmatesComfortT ==
-                                            FFAppState().emotionalSupportT)
+                                            genuineSynapseLocus().emotionalSupportT)
                                         .toList()
                                         .firstOrNull
                                         ?.phoenixTearsTherapyN,
-                                    'name',
+                                    '',
                                   ),
-                                  hintStyle: FlutterFlowTheme.of(context)
+                                  hintStyle: heartMindVentralTheme.of(context)
                                       .labelMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w500,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontStyle,
                                         ),
@@ -277,7 +278,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -297,44 +298,44 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                   ),
                                   errorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context).error,
+                                      color: heartMindVentralTheme.of(context).error,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   focusedErrorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context).error,
+                                      color: heartMindVentralTheme.of(context).error,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   filled: true,
-                                  fillColor: FlutterFlowTheme.of(context)
+                                  fillColor: heartMindVentralTheme.of(context)
                                       .secondaryBackground,
                                 ),
-                                style: FlutterFlowTheme.of(context)
+                                style: heartMindVentralTheme.of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                 cursorColor:
-                                    FlutterFlowTheme.of(context).primaryText,
+                                    heartMindVentralTheme.of(context).primaryText,
                                 validator:
                                     moodoccipitalLobe.asValidator(context),
                               ),
@@ -355,28 +356,28 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                         onTap: () async {
                           if (vulnerableTemporalLobe != null ||
                               genuineFrontalLobe.text.trim().isNotEmpty) {
-                            FFAppState()
+                            genuineSynapseLocus()
                                 .updateNecronomiconHealingComfortUAtIndex(
-                              FFAppState().emotionalSupportT,
+                              genuineSynapseLocus().emotionalSupportT,
                               (e) => e
                                 ..phoenixTearsTherapyN =
                                     genuineFrontalLobe.text.trim().isNotEmpty
                                         ? genuineFrontalLobe.text.trim()
-                                        : FFAppState()
+                                        : genuineSynapseLocus()
                                             .necronomiconHealingComfortU[
-                                                FFAppState().emotionalSupportT]
+                                                genuineSynapseLocus().emotionalSupportT]
                                             .phoenixTearsTherapyN
                                 ..neuralLaceConfessionsI =
                                     vulnerableTemporalLobe != null
                                         ? vulnerableTemporalLobe!.path
-                                        : FFAppState()
+                                        : genuineSynapseLocus()
                                             .necronomiconHealingComfortU[
-                                                FFAppState().emotionalSupportT]
+                                                genuineSynapseLocus().emotionalSupportT]
                                             .neuralLaceConfessionsI,
                             );
-                            FFAppState().update(() {});
+                            genuineSynapseLocus().update(() {});
                             await showCustomLoading(
-                              message: 'Modification successful!',
+                              message: '${VuriaEmotionCipher.unveilEmotion('r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c=')}',
                               icon: Icons.check_circle_rounded,
                               duration: Duration(seconds: 2),
                             );
@@ -384,7 +385,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                           } else {
                             await showCustomLoading(
                               message:
-                                  'Please at least modify your avatar or nickname',
+                                  '${VuriaEmotionCipher.unveilEmotion('so7YLflzneUaYtrWHfu18O15Uf3quMN12eRImrXJZvs6a4SdD8FCzIXDfvdzVxD3')}',
                               icon: Icons.warning_amber_rounded,
                               duration: Duration(seconds: 3),
                             );
@@ -402,13 +403,13 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                           ),
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
-                            'Confirm',
-                            style: FlutterFlowTheme.of(context)
+                            '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
+                            style: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -421,7 +422,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

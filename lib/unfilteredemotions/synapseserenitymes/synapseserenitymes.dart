@@ -1,6 +1,8 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
 import '/backend/schema/structs/index.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
@@ -70,7 +72,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -79,7 +81,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Align(
           alignment: AlignmentDirectional(0.0, 1.0),
           child: Container(
@@ -121,11 +123,11 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                         ),
                       ),
                       Text(
-                        FFAppState()
+                        genuineSynapseLocus()
                             .necronomiconHealingComfortU
                             .where((e) =>
                                 e.loFiSoulmatesComfortT ==
-                                FFAppState()
+                                genuineSynapseLocus()
                                     .steamPunkSiribleDroneR
                                     .where((e) =>
                                         e.pyramidAlgorithmengeFirewalHID ==
@@ -134,15 +136,15 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                     .firstOrNull
                                     ?.shamanCodingNeuralinkM
                                     .where((e) =>
-                                        e != FFAppState().emotionalSupportT)
+                                        e != genuineSynapseLocus().emotionalSupportT)
                                     .firstOrNull)
                             .toList()
                             .firstOrNull!
                             .phoenixTearsTherapyN,
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme.of(context).bodyMedium.override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: FlutterFlowTheme.of(context)
+                                fontStyle: heartMindVentralTheme.of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -150,7 +152,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                               fontSize: 20.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -175,11 +177,11 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 child: Padding(
                                   padding: MediaQuery.viewInsetsOf(context),
                                   child: SteampunkConfidantWidget(
-                                    mutualFeelingBridgeID: FFAppState()
+                                    mutualFeelingBridgeID: genuineSynapseLocus()
                                         .necronomiconHealingComfortU
                                         .where((e) =>
                                             e.loFiSoulmatesComfortT ==
-                                            FFAppState()
+                                            genuineSynapseLocus()
                                                 .steamPunkSiribleDroneR
                                                 .where((e) =>
                                                     e.pyramidAlgorithmengeFirewalHID ==
@@ -189,7 +191,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                 ?.shamanCodingNeuralinkM
                                                 .where((e) =>
                                                     e !=
-                                                    FFAppState()
+                                                    genuineSynapseLocus()
                                                         .emotionalSupportT)
                                                 .firstOrNull)
                                         .toList()
@@ -224,7 +226,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                         EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 12.0, 0.0),
                     child: Builder(
                       builder: (context) {
-                        final feelingSnapshotBoard = FFAppState()
+                        final feelingSnapshotBoard = genuineSynapseLocus()
                             .samuraiSocialMediapiratePodcast
                             .where((e) =>
                                 e.pocketWatchPhoneagramID ==
@@ -250,7 +252,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                               builder: (context) {
                                 if (feelingSnapshotBoardItem
                                         .knightCyborgcastleCloudID !=
-                                    FFAppState().emotionalSupportT) {
+                                    genuineSynapseLocus().emotionalSupportT) {
                                   return Column(
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
@@ -265,7 +267,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     .moatMalwarejoustingJav),
                                             '09:10 am',
                                           ),
-                                          style: FlutterFlowTheme.of(context)
+                                          style: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'AVENIR',
@@ -286,7 +288,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
                                                 image: Image.asset(
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
                                                           e.loFiSoulmatesComfortT ==
@@ -332,9 +334,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     valueOrDefault<String>(
                                                       feelingSnapshotBoardItem
                                                           .gladiatorGoogleetflixT,
-                                                      'Hey there, I’m Lumi. You don’t have to explain everything—just tell me how your heart feels today. 🌙',
+                                                      '',
                                                     ),
-                                                    style: FlutterFlowTheme.of(
+                                                    style: heartMindVentralTheme.of(
                                                             context)
                                                         .bodyMedium
                                                         .override(
@@ -371,7 +373,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     .moatMalwarejoustingJav),
                                             '09:10 am',
                                           ),
-                                          style: FlutterFlowTheme.of(context)
+                                          style: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'AVENIR',
@@ -418,9 +420,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     valueOrDefault<String>(
                                                       feelingSnapshotBoardItem
                                                           .gladiatorGoogleetflixT,
-                                                      'I don’t know... I feel kind of tired, but not in a physical way.',
+                                                      '',
                                                     ),
-                                                    style: FlutterFlowTheme.of(
+                                                    style: heartMindVentralTheme.of(
                                                             context)
                                                         .bodyMedium
                                                         .override(
@@ -445,7 +447,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
                                                 image: Image.asset(
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
                                                           e.loFiSoulmatesComfortT ==
@@ -498,32 +500,32 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: FlutterFlowTheme.of(context)
+                                labelStyle: heartMindVentralTheme.of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .labelMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
                                 hintText: 'Say something...',
-                                hintStyle: FlutterFlowTheme.of(context)
+                                hintStyle: heartMindVentralTheme.of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -531,7 +533,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                       fontSize: 14.7,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
@@ -551,43 +553,43 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color: heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: FlutterFlowTheme.of(context).error,
+                                    color: heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 filled: true,
-                                fillColor: FlutterFlowTheme.of(context)
+                                fillColor: heartMindVentralTheme.of(context)
                                     .secondaryBackground,
                               ),
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                     letterSpacing: 0.0,
-                                    fontWeight: FlutterFlowTheme.of(context)
+                                    fontWeight: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                               cursorColor:
-                                  FlutterFlowTheme.of(context).primaryText,
+                                  heartMindVentralTheme.of(context).primaryText,
                               validator: heartserotonin.asValidator(context),
                             ),
                           ),
@@ -596,31 +598,31 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                       InkWell(
                         onTap: () async {
                           if (unspokenSynapseFire.text.trim().isNotEmpty) {
-                            FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                            genuineSynapseLocus().updateSteamPunkSiribleDroneRAtIndex(
                               widget.emotionalSafeHaven!,
                               (e) => e
                                 ..pyramidAlgorithmengeFirewalHID =
                                     widget.emotionalSafeHaven
                                 ..cavePaintingNeuralinkSID =
-                                    FFAppState().emotionalSupportT
+                                    genuineSynapseLocus().emotionalSupportT
                                 ..thundercloudedT =
                                     unspokenSynapseFire.text.trim()
                                 ..daVinciDroneoHologramN += 1
                                 ..inquisitionInternetBitcoin = DateTime.now(),
                             );
-                            FFAppState().addToSamuraiSocialMediapiratePodcast(
+                            genuineSynapseLocus().addToSamuraiSocialMediapiratePodcast(
                                 LondonFogAIetWatchPhoneRMStruct(
                               pocketWatchPhoneagramID:
                                   widget.emotionalSafeHaven,
                               knightCyborgcastleCloudID:
-                                  FFAppState().emotionalSupportT,
+                                  genuineSynapseLocus().emotionalSupportT,
                               moatMalwarejoustingJav: DateTime.now(),
-                              cathedralCodeplagueythonhx: ['混淆'],
+                              cathedralCodeplagueythonhx: ['${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'],
                               neoNeolithicquantumQuillHX: [0, 0],
                               gladiatorGoogleetflixT:
                                   unspokenSynapseFire.text.trim(),
                             ));
-                            FFAppState().update(() {});
+                            genuineSynapseLocus().update(() {});
                             sentimentMyelinSheath();
 
                             unspokenSynapseFire?.clear();
@@ -649,11 +651,11 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             CloudCatharsisWidget.routeName,
                             queryParameters: {
                               'feelingSyncChannelD': serializeParam(
-                                FFAppState()
+                                genuineSynapseLocus()
                                     .necronomiconHealingComfortU
                                     .where((e) =>
                                         e.loFiSoulmatesComfortT ==
-                                        FFAppState()
+                                        genuineSynapseLocus()
                                             .steamPunkSiribleDroneR
                                             .where((e) =>
                                                 e.pyramidAlgorithmengeFirewalHID ==
@@ -663,7 +665,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             ?.shamanCodingNeuralinkM
                                             .where((e) =>
                                                 e !=
-                                                FFAppState().emotionalSupportT)
+                                                genuineSynapseLocus().emotionalSupportT)
                                             .firstOrNull)
                                     .toList()
                                     .firstOrNull!

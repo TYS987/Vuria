@@ -1,7 +1,8 @@
-import 'package:vuria/Utiles/pay.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+import 'package:vuria/Utiles/resonanceInkblotTest.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -36,7 +37,7 @@ class _DnaEncryptedFeelingsWidgetState
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -45,12 +46,12 @@ class _DnaEncryptedFeelingsWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: FlutterFlowTheme.of(context).secondaryBackground,
+            color: heartMindVentralTheme.of(context).secondaryBackground,
             image: DecorationImage(
               fit: BoxFit.cover,
               image: Image.asset(
@@ -92,22 +93,25 @@ class _DnaEncryptedFeelingsWidgetState
                       ),
                     ),
                     Text(
-                      'my wallet',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: FlutterFlowTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      '${VuriaEmotionCipher.unveilEmotion('j5udO+t60eEaRbG0e4/G1w==')}',
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.black,
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ],
                 ),
@@ -133,52 +137,60 @@ class _DnaEncryptedFeelingsWidgetState
                         ),
                         Text(
                           valueOrDefault<String>(
-                            FFAppState()
+                            genuineSynapseLocus()
                                 .necronomiconHealingComfortU
                                 .where((e) =>
                                     e.loFiSoulmatesComfortT ==
-                                    FFAppState().emotionalSupportT)
+                                    genuineSynapseLocus().emotionalSupportT)
                                 .toList()
                                 .firstOrNull
                                 ?.augmentedRealityLoveM
                                 .toString(),
                             '0',
                           ),
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Colors.black,
-                                    fontSize: 16.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                          style: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.black,
+                                fontSize: 16.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                         ),
                         Text(
-                          'Available coins',
-                          style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Colors.black,
-                                    fontSize: 12.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: FlutterFlowTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                          '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
+                          style: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.w500,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.black,
+                                fontSize: 12.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.w500,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                         ),
                       ],
                     ),
@@ -188,8 +200,9 @@ class _DnaEncryptedFeelingsWidgetState
                             12.0, 0.0, 12.0, 0.0),
                         child: Builder(
                           builder: (context) {
-                            final empathyDrivenForum =
-                                FFAppState().airshipAngerManagementCO.toList();
+                            final empathyDrivenForum = genuineSynapseLocus()
+                                .airshipAngerManagementCO
+                                .toList();
 
                             return MasonryGridView.builder(
                               gridDelegate:
@@ -221,13 +234,13 @@ class _DnaEncryptedFeelingsWidgetState
                                     await fauxMohawkWigsedgyHairstylesshoulde(
                                         empathyDrivenForumItem
                                             .discoDiscorsGeocitiesPI);
-
                                   },
                                   child: Container(
                                     width: 100.0,
                                     height: 136.0,
                                     decoration: BoxDecoration(
-                                      color: FlutterFlowTheme.of(context)
+                                      color: heartMindVentralTheme
+                                          .of(context)
                                           .secondaryBackground,
                                       borderRadius: BorderRadius.circular(24.0),
                                       border: Border.all(
@@ -264,9 +277,10 @@ class _DnaEncryptedFeelingsWidgetState
                                             empathyDrivenForumItem
                                                 .cavemanClubhousemedievalMatchC
                                                 .toString(),
-                                            '400',
+                                            '',
                                           ),
-                                          style: FlutterFlowTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'AVENIR',
@@ -291,22 +305,21 @@ class _DnaEncryptedFeelingsWidgetState
                                             alignment:
                                                 AlignmentDirectional(0.0, 0.0),
                                             child: Text(
-                                              valueOrDefault<String>(
+                                              '\$${valueOrDefault<String>(
                                                 empathyDrivenForumItem
                                                     .futurePastFacebookbe
                                                     .toString(),
-                                                '0.99',
-                                              ),
-                                              style:
-                                                  FlutterFlowTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'AVENIR',
-                                                        color: Colors.white,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.bold,
-                                                      ),
+                                                '',
+                                              )}',
+                                              style: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'AVENIR',
+                                                    color: Colors.white,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.bold,
+                                                  ),
                                             ),
                                           ),
                                         ),

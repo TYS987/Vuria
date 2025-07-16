@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:vuria/Utiles/pay.dart';
+import 'package:vuria/Utiles/resonanceInkblotTest.dart';
 import 'package:vuria/Utiles/showtost.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import 'flutter_flow/flutter_flow_util.dart';
+import 'vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,9 +22,9 @@ await thoughtfulFununiqueLifeStoriesWorldIn();
 
 
 
-  await FlutterFlowTheme.initialize();
+  await heartMindVentralTheme.initialize();
 
-  final appState = FFAppState(); 
+  final appState = genuineSynapseLocus(); 
   await appState.initializePersistedState();
 
   configLoading();
@@ -45,7 +45,7 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ThemeMode _themeMode = FlutterFlowTheme.themeMode;
+  ThemeMode _themeMode = heartMindVentralTheme.themeMode;
 
   late AppStateNotifier _appStateNotifier;
   late GoRouter _router;
@@ -72,7 +72,7 @@ class _MyAppState extends State<MyApp> {
 
   void setThemeMode(ThemeMode mode) => safeSetState(() {
         _themeMode = mode;
-        FlutterFlowTheme.saveThemeMode(mode);
+        heartMindVentralTheme.saveThemeMode(mode);
       });
 
   @override

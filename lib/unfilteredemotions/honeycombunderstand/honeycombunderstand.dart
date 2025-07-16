@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
@@ -32,7 +34,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -41,7 +43,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Align(
           alignment: AlignmentDirectional(0.0, 1.0),
           child: Container(
@@ -81,11 +83,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
                                         image: Image.asset(
-                                          FFAppState()
+                                          genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
                                                   e.loFiSoulmatesComfortT ==
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .emotionalSupportT)
                                               .toList()
                                               .firstOrNull!
@@ -135,22 +137,22 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 0.0, 12.0, 0.0, 0.0),
                             child: Text(
                               valueOrDefault<String>(
-                                FFAppState()
+                                genuineSynapseLocus()
                                     .necronomiconHealingComfortU
                                     .where((e) =>
                                         e.loFiSoulmatesComfortT ==
-                                        FFAppState().emotionalSupportT)
+                                        genuineSynapseLocus().emotionalSupportT)
                                     .toList()
                                     .firstOrNull
                                     ?.phoenixTearsTherapyN,
                                 'Jacob Jones',
                               ),
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -158,7 +160,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -189,11 +191,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                   children: [
                                     Text(
                                       valueOrDefault<String>(
-                                        FFAppState()
+                                        genuineSynapseLocus()
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
-                                                FFAppState().emotionalSupportT)
+                                                genuineSynapseLocus().emotionalSupportT)
                                             .toList()
                                             .firstOrNull
                                             ?.corporateDroneHugsF
@@ -201,13 +203,13 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toString(),
                                         '1.2k',
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -216,20 +218,20 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
                                     ),
                                     Text(
-                                      'following',
-                                      style: FlutterFlowTheme.of(context)
+                                      '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -238,7 +240,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -254,24 +256,24 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                   children: [
                                     Text(
                                       valueOrDefault<String>(
-                                        FFAppState()
+                                        genuineSynapseLocus()
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
-                                                FFAppState().emotionalSupportT)
+                                                genuineSynapseLocus().emotionalSupportT)
                                             .toList()
                                             .firstOrNull
                                             ?.loveNmbers
                                             .toString(),
                                         '0',
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -280,20 +282,20 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
                                     ),
                                     Text(
-                                      'likes',
-                                      style: FlutterFlowTheme.of(context)
+                                      '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -302,7 +304,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -331,11 +333,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                   children: [
                                     Text(
                                       valueOrDefault<String>(
-                                        FFAppState()
+                                        genuineSynapseLocus()
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
-                                                FFAppState().emotionalSupportT)
+                                                genuineSynapseLocus().emotionalSupportT)
                                             .toList()
                                             .firstOrNull
                                             ?.deusExMachinaTherapS
@@ -343,13 +345,13 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toString(),
                                         '120',
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -358,20 +360,20 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
                                     ),
                                     Text(
-                                      'followers',
-                                      style: FlutterFlowTheme.of(context)
+                                      '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -380,7 +382,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -429,11 +431,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       children: [
                                         Text(
                                           valueOrDefault<String>(
-                                            FFAppState()
+                                            genuineSynapseLocus()
                                                 .necronomiconHealingComfortU
                                                 .where((e) =>
                                                     e.loFiSoulmatesComfortT ==
-                                                    FFAppState()
+                                                    genuineSynapseLocus()
                                                         .emotionalSupportT)
                                                 .toList()
                                                 .firstOrNull
@@ -441,13 +443,13 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 .toString(),
                                             '0',
                                           ),
-                                          style: FlutterFlowTheme.of(context)
+                                          style: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.bold,
                                                   fontStyle:
-                                                      FlutterFlowTheme.of(
+                                                      heartMindVentralTheme.of(
                                                               context)
                                                           .bodyMedium
                                                           .fontStyle,
@@ -457,20 +459,20 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.bold,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
                                         ),
                                         Text(
-                                          'Available coins',
-                                          style: FlutterFlowTheme.of(context)
+                                          '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
+                                          style: heartMindVentralTheme.of(context)
                                               .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
-                                                      FlutterFlowTheme.of(
+                                                      heartMindVentralTheme.of(
                                                               context)
                                                           .bodyMedium
                                                           .fontStyle,
@@ -480,7 +482,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
                                                 fontStyle:
-                                                    FlutterFlowTheme.of(context)
+                                                    heartMindVentralTheme.of(context)
                                                         .bodyMedium
                                                         .fontStyle,
                                               ),
@@ -542,11 +544,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                             12.0, 21.0, 12.0, 0.0),
                         child: Builder(
                           builder: (context) {
-                            final soulfulDialoguePod = FFAppState()
+                            final soulfulDialoguePod = genuineSynapseLocus()
                                 .looperTearscitorSolaceD
                                 .where((e) =>
                                     e.marianaTrenchTherapID ==
-                                    FFAppState().emotionalSupportT)
+                                    genuineSynapseLocus().emotionalSupportT)
                                 .toList();
 
                             return ListView.separated(
@@ -603,7 +605,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
                                                                     e.loFiSoulmatesComfortT ==
@@ -643,7 +645,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                             Text(
                                                               valueOrDefault<
                                                                   String>(
-                                                                FFAppState()
+                                                                genuineSynapseLocus()
                                                                     .necronomiconHealingComfortU
                                                                     .where((e) =>
                                                                         e.loFiSoulmatesComfortT ==
@@ -654,7 +656,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                     ?.phoenixTearsTherapyN,
                                                                 'NAME',
                                                               ),
-                                                              style: FlutterFlowTheme
+                                                              style: heartMindVentralTheme
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
@@ -674,7 +676,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                   "d/M/y",
                                                                   soulfulDialoguePodItem
                                                                       .compassionateListenerTiem!),
-                                                              style: FlutterFlowTheme
+                                                              style: heartMindVentralTheme
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
@@ -702,7 +704,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
                                                                     e.mutantConfessions ==
@@ -727,10 +729,10 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                               highlightColor:
                                                   Colors.transparent,
                                               onTap: () async {
-                                                FFAppState()
+                                                genuineSynapseLocus()
                                                     .removeFromLooperTearscitorSolaceD(
                                                         soulfulDialoguePodItem);
-                                                FFAppState().update(() {});
+                                                genuineSynapseLocus().update(() {});
                                               },
                                               child: Container(
                                                 width: 48.0,
@@ -800,32 +802,32 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                       valueOrDefault<String>(
                                                         soulfulDialoguePodItem
                                                             .grandfatherClockTherapyT,
-                                                        'Some days I smile while my heart',
+                                                        '${VuriaEmotionCipher.unveilEmotion('sY3QKapy3P0dYv+TD+WovOU2QvzlrYYs2+ga0rHedftLCbTibfE8tfa4AIYOIgLl')}',
                                                       ),
                                                       style:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .override(
                                                                 font:
                                                                     GoogleFonts
                                                                         .inter(
-                                                                  fontWeight: FlutterFlowTheme.of(
+                                                                  fontWeight: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontWeight,
-                                                                  fontStyle: FlutterFlowTheme.of(
+                                                                  fontStyle: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                                 ),
                                                                 letterSpacing:
                                                                     0.0,
-                                                                fontWeight: FlutterFlowTheme.of(
+                                                                fontWeight: heartMindVentralTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontWeight,
-                                                                fontStyle: FlutterFlowTheme.of(
+                                                                fontStyle: heartMindVentralTheme.of(
                                                                         context)
                                                                     .bodyMedium
                                                                     .fontStyle,

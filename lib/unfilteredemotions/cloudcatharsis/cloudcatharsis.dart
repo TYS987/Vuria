@@ -1,9 +1,10 @@
 import 'dart:async';
 
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -47,7 +48,7 @@ void moodResonanceech() {
 Future<void> chambersoulfulExpressions() async {
  
   await showCustomLoading(
-    message: 'No  answered ',
+    message: '${VuriaEmotionCipher.unveilEmotion('rI2dbOt4zvMLMNPXXIvC0w==')}',
     icon: Icons.phone_missed_outlined,
   );
   
@@ -76,7 +77,7 @@ void universgenuineEmotional() {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -85,7 +86,7 @@ void universgenuineEmotional() {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Stack(
           children: [
             Container(
@@ -113,7 +114,7 @@ void universgenuineEmotional() {
                           image: DecorationImage(
                             fit: BoxFit.cover,
                             image: Image.asset(
-                              FFAppState()
+                              genuineSynapseLocus()
                                   .necronomiconHealingComfortU
                                   .where((e) =>
                                       e.loFiSoulmatesComfortT ==
@@ -131,7 +132,7 @@ void universgenuineEmotional() {
                             EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
                         child: Text(
                           valueOrDefault<String>(
-                            FFAppState()
+                            genuineSynapseLocus()
                                 .necronomiconHealingComfortU
                                 .where((e) =>
                                     e.loFiSoulmatesComfortT ==
@@ -142,10 +143,10 @@ void universgenuineEmotional() {
                             'ANNE',
                           ),
                           style:
-                              FlutterFlowTheme.of(context).bodyMedium.override(
+                              heartMindVentralTheme.of(context).bodyMedium.override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -153,7 +154,7 @@ void universgenuineEmotional() {
                                     fontSize: 24.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -221,19 +222,19 @@ void universgenuineEmotional() {
             Align(
               alignment: AlignmentDirectional(0, 0),
               child: Text(
-                'Calling...',
-                style: FlutterFlowTheme.of(context).bodyMedium.override(
+                '${VuriaEmotionCipher.unveilEmotion('oYPRION42qpAbLC1eo7H1g==')}',
+                style: heartMindVentralTheme.of(context).bodyMedium.override(
                       font: GoogleFonts.poppins(
                         fontWeight: FontWeight.bold,
                         fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                       ),
                       color: Colors.white,
                       fontSize: 24.0,
                       letterSpacing: 0.0,
                       fontWeight: FontWeight.bold,
                       fontStyle:
-                          FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                     ),
               ),
             )

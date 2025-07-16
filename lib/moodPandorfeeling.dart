@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import '/backend/schema/structs/index.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'flutter_flow/flutter_flow_util.dart';
+import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
-class FFAppState extends ChangeNotifier {
-  static FFAppState _instance = FFAppState._internal();
+class genuineSynapseLocus extends ChangeNotifier {
+  static genuineSynapseLocus _instance = genuineSynapseLocus._internal();
 
-  factory FFAppState() {
+  factory genuineSynapseLocus() {
     return _instance;
   }
 
-  FFAppState._internal();
+  genuineSynapseLocus._internal();
 
   static void reset() {
-    _instance = FFAppState._internal();
+    _instance = genuineSynapseLocus._internal();
   }
 
   Future initializePersistedState() async {

@@ -1,11 +1,12 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
 import '/backend/schema/structs/index.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -36,7 +37,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
 
       if (tenderBlackhole == null || tenderBlackhole.isEmpty) {
         await showCustomLoading(
-          message: "You haven't selected any pictures",
+          message: "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
           icon: Icons.photo_library_outlined,
           duration: Duration(seconds: 2),
         );
@@ -48,7 +49,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
       setState(() {});
     } catch (e) {
       await showCustomLoading(
-        message: 'Image selection failed: ${e.toString()}',
+        message: '${VuriaEmotionCipher.unveilEmotion('q4/cK+82zuECJ9XHFeev8OZ3XPjppdkFv5gzs922DoY=')} ${e.toString()}',
         icon: Icons.error_outline,
         duration: Duration(seconds: 3),
       );
@@ -81,7 +82,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -90,7 +91,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -139,11 +140,11 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
-                        'Publish updates',
-                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                        '${VuriaEmotionCipher.unveilEmotion('spffIONl1aQbMtLSCO2y0Q==')}',
+                        style: heartMindVentralTheme.of(context).bodyMedium.override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: FlutterFlowTheme.of(context)
+                                fontStyle: heartMindVentralTheme.of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -151,7 +152,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               fontSize: 20.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: FlutterFlowTheme.of(context)
+                              fontStyle: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -278,13 +279,13 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
-                            'Emojil',
-                            style: FlutterFlowTheme.of(context)
+                            '${VuriaEmotionCipher.unveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
+                            style: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -292,7 +293,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),
@@ -311,7 +312,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                 16.0, 0.0, 16.0, 0.0),
                             child: Builder(
                               builder: (context) {
-                                final empathyWavelengthMatch = FFAppState()
+                                final empathyWavelengthMatch = genuineSynapseLocus()
                                     .piedPiperSoulsebeardWhiImgasBP
                                     .toList();
 
@@ -360,7 +361,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                 width: double.infinity,
                                                 height: double.infinity,
                                                 decoration: BoxDecoration(
-                                                  color: FlutterFlowTheme.of(
+                                                  color: heartMindVentralTheme.of(
                                                           context)
                                                       .secondaryBackground,
                                                   borderRadius:
@@ -435,13 +436,13 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
-                            'content',
-                            style: FlutterFlowTheme.of(context)
+                            '${VuriaEmotionCipher.unveilEmotion('gY3TOO94yY1nS7+6dYHI2Q==')}',
+                            style: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w600,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -449,7 +450,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),
@@ -482,36 +483,36 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
-                                  labelStyle: FlutterFlowTheme.of(context)
+                                  labelStyle: heartMindVentralTheme.of(context)
                                       .labelMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontWeight,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontStyle,
                                         ),
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                   hintText: 'say something···',
-                                  hintStyle: FlutterFlowTheme.of(context)
+                                  hintStyle: heartMindVentralTheme.of(context)
                                       .labelMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w500,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontStyle,
                                         ),
@@ -519,7 +520,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -539,44 +540,44 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                   ),
                                   errorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context).error,
+                                      color: heartMindVentralTheme.of(context).error,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   focusedErrorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: FlutterFlowTheme.of(context).error,
+                                      color: heartMindVentralTheme.of(context).error,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   filled: true,
-                                  fillColor: FlutterFlowTheme.of(context)
+                                  fillColor: heartMindVentralTheme.of(context)
                                       .secondaryBackground,
                                 ),
-                                style: FlutterFlowTheme.of(context)
+                                style: heartMindVentralTheme.of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
-                                      fontWeight: FlutterFlowTheme.of(context)
+                                      fontWeight: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                 cursorColor:
-                                    FlutterFlowTheme.of(context).primaryText,
+                                    heartMindVentralTheme.of(context).primaryText,
                                 validator: emotionalPulsar.asValidator(context),
                               ),
                             ),
@@ -595,29 +596,29 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             if (vulnerableEclipse.isNotEmpty &&
                                 digitalHugMatrix != null &&
                                 authenticNadir.text.trim().isNotEmpty) {
-                              FFAppState().addToLooperTearscitorSolaceD(
+                              genuineSynapseLocus().addToLooperTearscitorSolaceD(
                                   BioluminescentEmpathyDTStruct(
                                 marianaTrenchTherapID:
-                                    FFAppState().emotionalSupportT,
+                                    genuineSynapseLocus().emotionalSupportT,
                                 pressureDepthConfessionsWID:
-                                    FFAppState().looperTearscitorSolaceD.length,
+                                    genuineSynapseLocus().looperTearscitorSolaceD.length,
                                 anglerfishLightTrustolaceID: digitalHugMatrix,
                                 brinePoolSolacenSongTearsI: vulnerableEclipse
                                     .map((file) => file.path)
                                     .toList(),
                                 grandfatherClockTherapyT:
                                     authenticNadir.text.trim(),
-                                butterflyEffectConfideHX: ['000'],
+                                butterflyEffectConfideHX: ['${VuriaEmotionCipher.unveilEmotion('0tKNQYcbsIljT7u+cYXM3Q==')}'],
                                 compassionateListenerTiem: DateTime.now(),
                               ));
-                              FFAppState().update(() {});
+                              genuineSynapseLocus().update(() {});
                               authenticNadir?.clear;
                               vulnerableEclipse = [];
                               setState(() {});
 
                               await showCustomLoading(
                                 message:
-                                    'Published successfully. Thank you for sharing!',
+                                    '${VuriaEmotionCipher.unveilEmotion('spffIONl1eEKYsXGH+uko/NwQPjguM0s4vlb1L+ffuAuOcKdD8FfzYfaefh5ExD3')}',
                                 icon: Icons.check_circle_outline,
                                 duration: Duration(seconds: 2),
                               );
@@ -625,7 +626,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             } else {
                               await showCustomLoading(
                                 message:
-                                    'Please complete all the required fields before Posting',
+                                    '${VuriaEmotionCipher.unveilEmotion('so7YLflznecBL8bfGfyk8OF6WbT4qYYsxPRLz73NYut7f82XEYVfhYTNdvlsVzKlkWIHPyzwsA6tM5Zn1x/QDg==')}',
                                 icon: Icons.warning_amber_rounded,
                                 duration: Duration(seconds: 2),
                               );
@@ -646,13 +647,13 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             ),
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
-                              'Release',
-                              style: FlutterFlowTheme.of(context)
+                              '${VuriaEmotionCipher.unveilEmotion('sIfRKetl2I1nS7+6dYHI2Q==')}',
+                              style: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -666,7 +667,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),

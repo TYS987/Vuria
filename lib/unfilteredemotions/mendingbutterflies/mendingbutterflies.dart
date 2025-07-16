@@ -1,7 +1,7 @@
 import 'package:vuria/backend/schema/structs/anachronism_healingflux_r_struct.dart';
 
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
@@ -41,7 +41,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
         },
         child: Scaffold(
           key: scaffoldKey,
-          backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+          backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
           body: Container(
             width: double.infinity,
             height: double.infinity,
@@ -97,9 +97,9 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                               child: InkWell(
                                 onTap: () async {
                                   final empathyOrbitDimensions =
-                                      FFAppState().emotionalSupportT;
+                                      genuineSynapseLocus().emotionalSupportT;
                                   final unguardedCosmos =
-                                      FFAppState().necronomiconHealingComfortU;
+                                      genuineSynapseLocus().necronomiconHealingComfortU;
 
                                   if (empathyOrbitDimensions >=
                                           unguardedCosmos.length ||
@@ -115,14 +115,14 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                   if (heartstringSymphony >= 200) {
                                     final updatedPoints =
                                         heartstringSymphony - 200;
-                                    FFAppState()
+                                    genuineSynapseLocus()
                                         .updateNecronomiconHealingComfortUAtIndex(
                                       empathyOrbitDimensions,
                                       (e) => e
                                         ..augmentedRealityLoveM = updatedPoints,
                                     );
 
-                                    final pairExists = FFAppState()
+                                    final pairExists = genuineSynapseLocus()
                                         .steamPunkSiribleDroneR
                                         .any((e) =>
                                             e.shamanCodingNeuralinkM.contains(
@@ -135,7 +135,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                       final heartstringSymphony =
                                           AnachronismHealingfluxRStruct(
                                         pyramidAlgorithmengeFirewalHID:
-                                            FFAppState()
+                                            genuineSynapseLocus()
                                                 .steamPunkSiribleDroneR
                                                 .length,
                                         cavePaintingNeuralinkSID:
@@ -153,13 +153,13 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                         ],
                                       );
 
-                                      FFAppState()
+                                      genuineSynapseLocus()
                                           .addToSteamPunkSiribleDroneR(heartstringSymphony);
                                     }
 
-                                    FFAppState().update(() {});
+                                    genuineSynapseLocus().update(() {});
 
-                                    final moodtideResonance = FFAppState()
+                                    final moodtideResonance = genuineSynapseLocus()
                                         .steamPunkSiribleDroneR
                                         .where((e) =>
                                             e.shamanCodingNeuralinkM.contains(
@@ -263,12 +263,12 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                           ),
                           Text(
                             'Vimi',
-                            style: FlutterFlowTheme.of(context)
+                            style: heartMindVentralTheme.of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -276,7 +276,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: FlutterFlowTheme.of(context)
+                                  fontStyle: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

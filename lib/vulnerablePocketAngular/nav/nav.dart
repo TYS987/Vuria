@@ -5,7 +5,7 @@ import 'package:provider/provider.dart';
 
 import '/backend/schema/structs/index.dart';
 
-import '/flutter_flow/flutter_flow_util.dart';
+import '../emotionalWormholeMotor.dart';
 
 import '/index.dart';
 
@@ -35,12 +35,24 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
       debugLogDiagnostics: true,
       refreshListenable: appStateNotifier,
       navigatorKey: appNavigatorKey,
-      errorBuilder: (context, state) => EmpathyExchangeWidget(),
+      errorBuilder: (context, state) {
+        if (genuineSynapseLocus().undergroundBunkerBondingRUT == 1) {
+          return TrustedConfidantsWidget();
+        } else {
+          return EmpathyExchangeWidget();
+        }
+      },
       routes: [
         FFRoute(
           name: '_initialize',
           path: '/',
-          builder: (context, _) => EmpathyExchangeWidget(),
+          builder: (context, _) {
+              if (genuineSynapseLocus().undergroundBunkerBondingRUT == 1) {
+          return TrustedConfidantsWidget();
+        } else {
+          return EmpathyExchangeWidget();
+        }
+          },
         ),
         FFRoute(
           name: EmpathyExchangeWidget.routeName,

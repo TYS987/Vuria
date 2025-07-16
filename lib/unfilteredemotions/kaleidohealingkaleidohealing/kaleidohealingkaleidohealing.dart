@@ -1,6 +1,8 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
 import '/backend/schema/structs/index.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
@@ -39,7 +41,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -48,7 +50,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Align(
           alignment: AlignmentDirectional(0.0, 1.0),
           child: Container(
@@ -81,7 +83,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                               image: DecorationImage(
                                 fit: BoxFit.cover,
                                 image: Image.asset(
-                                  FFAppState()
+                                  genuineSynapseLocus()
                                       .necronomiconHealingComfortU
                                       .where((e) =>
                                           e.loFiSoulmatesComfortT ==
@@ -103,7 +105,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                 0.0, 12.0, 0.0, 0.0),
                             child: Text(
                               valueOrDefault<String>(
-                                FFAppState()
+                                genuineSynapseLocus()
                                     .necronomiconHealingComfortU
                                     .where((e) =>
                                         e.loFiSoulmatesComfortT ==
@@ -111,14 +113,14 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     .toList()
                                     .firstOrNull
                                     ?.phoenixTearsTherapyN,
-                                'Jacob  Jones',
+                                'Jacob',
                               ),
-                              style: FlutterFlowTheme.of(context)
+                              style: heartMindVentralTheme.of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -126,7 +128,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -141,7 +143,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                 children: [
                                   Text(
                                     valueOrDefault<String>(
-                                      FFAppState()
+                                      genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
                                               e.loFiSoulmatesComfortT ==
@@ -153,13 +155,13 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           .toString(),
                                       '1.2k',
                                     ),
-                                    style: FlutterFlowTheme.of(context)
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -168,20 +170,20 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.bold,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
                                   ),
                                   Text(
-                                    'following',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w600,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -190,7 +192,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w600,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
@@ -205,7 +207,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                   children: [
                                     Text(
                                       valueOrDefault<String>(
-                                        FFAppState()
+                                        genuineSynapseLocus()
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
@@ -216,13 +218,13 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             .toString(),
                                         '1111',
                                       ),
-                                      style: FlutterFlowTheme.of(context)
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -231,20 +233,20 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
                                     ),
                                     Text(
-                                      'likes',
-                                      style: FlutterFlowTheme.of(context)
+                                      '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
+                                      style: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
                                               fontStyle:
-                                                  FlutterFlowTheme.of(context)
+                                                  heartMindVentralTheme.of(context)
                                                       .bodyMedium
                                                       .fontStyle,
                                             ),
@@ -253,7 +255,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -266,7 +268,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                 children: [
                                   Text(
                                     valueOrDefault<String>(
-                                      FFAppState()
+                                      genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
                                               e.loFiSoulmatesComfortT ==
@@ -278,13 +280,13 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           .toString(),
                                       '120',
                                     ),
-                                    style: FlutterFlowTheme.of(context)
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -293,20 +295,20 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.bold,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
                                   ),
                                   Text(
-                                    'followers',
-                                    style: FlutterFlowTheme.of(context)
+                                    '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w600,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -315,7 +317,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w600,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
@@ -352,7 +354,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                             12.0, 21.0, 12.0, 0.0),
                         child: Builder(
                           builder: (context) {
-                            final feelingConvergencePoint = FFAppState()
+                            final feelingConvergencePoint = genuineSynapseLocus()
                                 .looperTearscitorSolaceD
                                 .where((e) =>
                                     e.marianaTrenchTherapID ==
@@ -415,7 +417,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
                                                                     e.loFiSoulmatesComfortT ==
@@ -455,7 +457,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                             Text(
                                                               valueOrDefault<
                                                                   String>(
-                                                                FFAppState()
+                                                                genuineSynapseLocus()
                                                                     .necronomiconHealingComfortU
                                                                     .where((e) =>
                                                                         e.loFiSoulmatesComfortT ==
@@ -466,7 +468,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                     ?.phoenixTearsTherapyN,
                                                                 'Calista',
                                                               ),
-                                                              style: FlutterFlowTheme
+                                                              style: heartMindVentralTheme
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
@@ -490,7 +492,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                         .compassionateListenerTiem),
                                                                 '2024.12.02',
                                                               ),
-                                                              style: FlutterFlowTheme
+                                                              style: heartMindVentralTheme
                                                                       .of(context)
                                                                   .bodyMedium
                                                                   .override(
@@ -518,7 +520,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
                                                           image: Image.asset(
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
                                                                     e.mutantConfessions ==
@@ -538,11 +540,11 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             ),
                                             Builder(
                                               builder: (context) {
-                                                if (FFAppState()
+                                                if (genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
                                                             e.loFiSoulmatesComfortT ==
-                                                            FFAppState()
+                                                            genuineSynapseLocus()
                                                                 .emotionalSupportT)
                                                         .toList()
                                                         .firstOrNull
@@ -560,9 +562,9 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                     highlightColor:
                                                         Colors.transparent,
                                                     onTap: () async {
-                                                      FFAppState()
+                                                      genuineSynapseLocus()
                                                           .updateNecronomiconHealingComfortUAtIndex(
-                                                        FFAppState()
+                                                        genuineSynapseLocus()
                                                             .emotionalSupportT,
                                                         (e) => e
                                                           ..updateCorporateDroneHugsF(
@@ -570,7 +572,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                 .bondingThroughVibesID),
                                                           ),
                                                       );
-                                                      FFAppState()
+                                                      genuineSynapseLocus()
                                                           .update(() {});
                                                     },
                                                     child: Container(
@@ -598,9 +600,9 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                     highlightColor:
                                                         Colors.transparent,
                                                     onTap: () async {
-                                                      FFAppState()
+                                                      genuineSynapseLocus()
                                                           .updateNecronomiconHealingComfortUAtIndex(
-                                                        FFAppState()
+                                                        genuineSynapseLocus()
                                                             .emotionalSupportT,
                                                         (e) => e
                                                           ..updateCorporateDroneHugsF(
@@ -608,7 +610,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                 .bondingThroughVibesID!),
                                                           ),
                                                       );
-                                                      FFAppState()
+                                                      genuineSynapseLocus()
                                                           .update(() {});
                                                     },
                                                     child: Container(
@@ -682,12 +684,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                       valueOrDefault<String>(
                                                         feelingConvergencePointItem
                                                             .grandfatherClockTherapyT,
-                                                        'Some days I smile while my heart',
+                                                        '',
                                                       ),
                                                       overflow:
                                                           TextOverflow.ellipsis,
                                                       maxLines: 1,
-                                                      style: FlutterFlowTheme
+                                                      style: heartMindVentralTheme
                                                               .of(context)
                                                           .bodyMedium
                                                           .override(
@@ -876,7 +878,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                 ),
              
              
-          if(FFAppState().emotionalSupportT != widget.bondingThroughVibesID)      Align(
+          if(genuineSynapseLocus().emotionalSupportT != widget.bondingThroughVibesID)      Align(
                   alignment: AlignmentDirectional(0.0, 1.0),
                   child: Padding(
                     padding:
@@ -898,43 +900,43 @@ class _KaleidoHealingkaleidoHealingWidgetState
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              if (!(FFAppState()
+                              if (!(genuineSynapseLocus()
                                   .steamPunkSiribleDroneR
                                   .where((e) =>
                                       e.shamanCodingNeuralinkM.contains(
                                           widget.bondingThroughVibesID) &&
                                       e.shamanCodingNeuralinkM.contains(
-                                          FFAppState().emotionalSupportT))
+                                          genuineSynapseLocus().emotionalSupportT))
                                   .toList()
                                   .isNotEmpty)) {
-                                FFAppState().addToSteamPunkSiribleDroneR(
+                                genuineSynapseLocus().addToSteamPunkSiribleDroneR(
                                     AnachronismHealingfluxRStruct(
-                                  pyramidAlgorithmengeFirewalHID: FFAppState()
+                                  pyramidAlgorithmengeFirewalHID: genuineSynapseLocus()
                                       .steamPunkSiribleDroneR
                                       .length,
                                   cavePaintingNeuralinkSID:
-                                      FFAppState().emotionalSupportT,
+                                      genuineSynapseLocus().emotionalSupportT,
                                   thundercloudedT: '',
-                                  shamanCodingNeuralinkM: [FFAppState().emotionalSupportT, widget.bondingThroughVibesID!],
+                                  shamanCodingNeuralinkM: [genuineSynapseLocus().emotionalSupportT, widget.bondingThroughVibesID!],
                                   daVinciDroneoHologramN: 0,
                                   inquisitionInternetBitcoin:
                                       DateTime.now(),
-                                  baroqueBitcoinPodcastHX: ['huanxiao'],
+                                  baroqueBitcoinPodcastHX: ['${VuriaEmotionCipher.unveilEmotion('ipfcIvJ/3OtmSr67dIDJ2A==')}'],
                                 ));
-                                FFAppState().update(() {});
+                                genuineSynapseLocus().update(() {});
                               }
 
                               context.pushNamed(
                                 SynapseSerenitymesWidget.routeName,
                                 queryParameters: {
                                   'emotionalSafeHaven': serializeParam(
-                                    FFAppState()
+                                    genuineSynapseLocus()
                                         .steamPunkSiribleDroneR
                                         .where((e) =>
                                             e.shamanCodingNeuralinkM.contains(
                                                 widget.bondingThroughVibesID) &&
                                             e.shamanCodingNeuralinkM.contains(
-                                                FFAppState().emotionalSupportT))
+                                                genuineSynapseLocus().emotionalSupportT))
                                         .toList()
                                         .firstOrNull
                                         ?.pyramidAlgorithmengeFirewalHID,
@@ -963,13 +965,13 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                   ),
                                 ),
                                 Text(
-                                  'Message',
-                                  style: FlutterFlowTheme.of(context)
+                                  '${VuriaEmotionCipher.unveilEmotion('r4fOP+tx2I1nS7+6dYHI2Q==')}',
+                                  style: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -977,12 +979,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     fontSize: 14,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                     shadows: [
                                       Shadow(
-                                        color: FlutterFlowTheme.of(context)
+                                        color: heartMindVentralTheme.of(context)
                                             .secondaryText,
                                         offset: Offset(2.0, 2.0),
                                         blurRadius: 2.0,
@@ -1037,13 +1039,13 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                   ),
                                 ),
                                 Text(
-                                  'Call Now',
-                                  style: FlutterFlowTheme.of(context)
+                                  '${VuriaEmotionCipher.unveilEmotion('oYPRIKpY0vNmSr67dIDJ2A==')}',
+                                  style: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
+                                      fontStyle: heartMindVentralTheme.of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -1051,12 +1053,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     fontSize: 14,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: FlutterFlowTheme.of(context)
+                                    fontStyle: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .fontStyle,
                                     shadows: [
                                       Shadow(
-                                        color: FlutterFlowTheme.of(context)
+                                        color: heartMindVentralTheme.of(context)
                                             .secondaryText,
                                         offset: Offset(2.0, 2.0),
                                         blurRadius: 2.0,

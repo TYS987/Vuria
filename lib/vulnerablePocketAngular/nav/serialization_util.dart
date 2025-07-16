@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 import '/backend/schema/structs/index.dart';
 
-import '../../flutter_flow/lat_lng.dart';
-import '../../flutter_flow/place.dart';
-import '../../flutter_flow/uploaded_file.dart';
+import '../moodSubspaceWernicke.dart';
+import '../place.dart';
+import '../genuineNullBroca.dart';
 
 /// SERIALIZATION HELPERS
 

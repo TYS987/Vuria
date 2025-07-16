@@ -1,5 +1,7 @@
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -42,7 +44,7 @@ class _PorcelainHeartsutterfliesWidgetState
       width: 287.0,
       height: 179.0,
       decoration: BoxDecoration(
-        color: FlutterFlowTheme.of(context).secondaryBackground,
+        color: heartMindVentralTheme.of(context).secondaryBackground,
         borderRadius: BorderRadius.circular(16.0),
       ),
       child: Column(
@@ -51,39 +53,39 @@ class _PorcelainHeartsutterfliesWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
             child: Text(
-              'Reminder',
-              style: FlutterFlowTheme.of(context).bodyMedium.override(
+              '${VuriaEmotionCipher.unveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
+              style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.bold,
                       fontStyle:
-                          FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 20.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.bold,
                     fontStyle:
-                        FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                   ),
             ),
           ),
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 25.0, 0.0),
             child: Text(
-              ' You don\'t have enough coins, please recharge now.',
+              ' ${VuriaEmotionCipher.unveilEmotion('u43IbO5506MaYt7SCu3hte55QPPk4YBj3/9JlvTPa+o6asHSD4RPzYfad/M+XH2C0B58WU2YtQuoNpNi0hrVCw==')}',
               textAlign: TextAlign.center,
-              style: FlutterFlowTheme.of(context).bodyMedium.override(
+              style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
                       fontStyle:
-                          FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 16.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.w500,
                     fontStyle:
-                        FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                   ),
             ),
           ),
@@ -112,19 +114,19 @@ class _PorcelainHeartsutterfliesWidgetState
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  'Recharge',
-                  style: FlutterFlowTheme.of(context).bodyMedium.override(
+                  '${VuriaEmotionCipher.unveilEmotion('sIfeJOtk2uFmSr67dIDJ2A==')}',
+                  style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
                           fontStyle:
-                              FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                              heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                         ),
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
                         fontStyle:
-                            FlutterFlowTheme.of(context).bodyMedium.fontStyle,
+                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
                       ),
                 ),
               ),

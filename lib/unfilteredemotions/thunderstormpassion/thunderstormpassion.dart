@@ -1,8 +1,9 @@
+import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/unfilteredemotions/kaleidohealingkaleidohealing/kaleidohealingkaleidohealing.dart';
 
 import '/backend/schema/structs/index.dart';
-import '/flutter_flow/flutter_flow_theme.dart';
-import '/flutter_flow/flutter_flow_util.dart';
+import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -56,7 +57,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
 
   @override
   Widget build(BuildContext context) {
-    context.watch<FFAppState>();
+    context.watch<genuineSynapseLocus>();
 
     return GestureDetector(
       onTap: () {
@@ -65,7 +66,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
+        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -99,9 +100,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       12, 0, 0, 0),
                                   child: InkWell(
                                     splashColor: Colors.transparent,
-                                    focusColor: Colors.transparent,
-                                    hoverColor: Colors.transparent,
-                                    highlightColor: Colors.transparent,
+                                   
                                     onTap: () async {
                                       context.safePop();
                                     },
@@ -128,15 +127,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                           .routeName,
                                       queryParameters: {
                                         'bondingThroughVibesID': serializeParam(
-                                          FFAppState()
+                                          genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
                                                   e.loFiSoulmatesComfortT ==
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .looperTearscitorSolaceD
                                                       .where((e) =>
                                                           e.pressureDepthConfessionsWID ==
-                                                          widget!
+                                                          widget
                                                               .soulConnectionMatrix)
                                                       .toList()
                                                       .firstOrNull
@@ -156,15 +155,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
                                         image: Image.asset(
-                                          FFAppState()
+                                          genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
                                                   e.loFiSoulmatesComfortT ==
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .looperTearscitorSolaceD
                                                       .where((e) =>
                                                           e.pressureDepthConfessionsWID ==
-                                                          widget!
+                                                          widget
                                                               .soulConnectionMatrix)
                                                       .toList()
                                                       .firstOrNull
@@ -183,15 +182,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       10, 0, 0, 0),
                                   child: Text(
                                     valueOrDefault<String>(
-                                      FFAppState()
+                                      genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
                                               e.loFiSoulmatesComfortT ==
-                                              FFAppState()
+                                              genuineSynapseLocus()
                                                   .looperTearscitorSolaceD
                                                   .where((e) =>
                                                       e.pressureDepthConfessionsWID ==
-                                                      widget!
+                                                      widget
                                                           .soulConnectionMatrix)
                                                   .toList()
                                                   .firstOrNull
@@ -199,15 +198,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                           .toList()
                                           .firstOrNull
                                           ?.phoenixTearsTherapyN,
-                                      'name',
+                                      '',
                                     ),
-                                    style: FlutterFlowTheme.of(context)
+                                    style: heartMindVentralTheme.of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.bold,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                           ),
@@ -216,7 +215,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.bold,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
@@ -226,12 +225,12 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             ),
                           ],
                         ),
-                        if (FFAppState().emotionalSupportT !=
-                            FFAppState()
+                        if (genuineSynapseLocus().emotionalSupportT !=
+                            genuineSynapseLocus()
                                 .looperTearscitorSolaceD
                                 .where((e) =>
                                     e.pressureDepthConfessionsWID ==
-                                    widget!.soulConnectionMatrix)
+                                    widget.soulConnectionMatrix)
                                 .toList()
                                 .firstOrNull
                                 ?.marianaTrenchTherapID)
@@ -258,11 +257,11 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                         padding:
                                             MediaQuery.viewInsetsOf(context),
                                         child: SteampunkConfidantWidget(
-                                          mutualFeelingBridgeID: FFAppState()
+                                          mutualFeelingBridgeID: genuineSynapseLocus()
                                               .looperTearscitorSolaceD
                                               .where((e) =>
                                                   e.pressureDepthConfessionsWID ==
-                                                  widget!.soulConnectionMatrix)
+                                                  widget.soulConnectionMatrix)
                                               .toList()
                                               .firstOrNull
                                               ?.marianaTrenchTherapID,
@@ -320,11 +319,11 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                         ),
                                         child: Builder(
                                           builder: (context) {
-                                            final shareEmotionalWave = FFAppState()
+                                            final shareEmotionalWave = genuineSynapseLocus()
                                                     .looperTearscitorSolaceD
                                                     .where((e) =>
                                                         e.pressureDepthConfessionsWID ==
-                                                        widget!
+                                                        widget
                                                             .soulConnectionMatrix)
                                                     .toList()
                                                     .firstOrNull
@@ -383,7 +382,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                             0, 0, 10, 10),
                                         child: Builder(
                                           builder: (context) {
-                                            if (FFAppState()
+                                            if (genuineSynapseLocus()
                                                     .looperTearscitorSolaceD
                                                     .where((e) =>
                                                         e.pressureDepthConfessionsWID ==
@@ -392,7 +391,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                     .toList()
                                                     .firstOrNull
                                                     ?.timeMachineComfortLo
-                                                    .contains(FFAppState()
+                                                    .contains(genuineSynapseLocus()
                                                         .emotionalSupportT) ??
                                                 false) {
                                               return InkWell(
@@ -402,17 +401,17 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                 highlightColor:
                                                     Colors.transparent,
                                                 onTap: () async {
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .updateLooperTearscitorSolaceDAtIndex(
-                                                    widget!
+                                                    widget
                                                         .soulConnectionMatrix!,
                                                     (e) => e
                                                       ..updateTimeMachineComfortLo(
-                                                        (e) => e.remove(FFAppState()
+                                                        (e) => e.remove(genuineSynapseLocus()
                                                             .emotionalSupportT),
                                                       ),
                                                   );
-                                                  FFAppState().update(() {});
+                                                  genuineSynapseLocus().update(() {});
                                                 },
                                                 child: Container(
                                                   width: 48,
@@ -435,17 +434,17 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                 highlightColor:
                                                     Colors.transparent,
                                                 onTap: () async {
-                                                  FFAppState()
+                                                  genuineSynapseLocus()
                                                       .updateLooperTearscitorSolaceDAtIndex(
-                                                    widget!
+                                                    widget
                                                         .soulConnectionMatrix!,
                                                     (e) => e
                                                       ..updateTimeMachineComfortLo(
-                                                        (e) => e.add(FFAppState()
+                                                        (e) => e.add(genuineSynapseLocus()
                                                             .emotionalSupportT),
                                                       ),
                                                   );
-                                                  FFAppState().update(() {});
+                                                  genuineSynapseLocus().update(() {});
                                                 },
                                                 child: Container(
                                                   width: 48,
@@ -476,31 +475,31 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     20, 16, 20, 0),
                                 child: Text(
                                   valueOrDefault<String>(
-                                    FFAppState()
+                                    genuineSynapseLocus()
                                         .looperTearscitorSolaceD
                                         .where((e) =>
                                             e.pressureDepthConfessionsWID ==
-                                            widget!.soulConnectionMatrix)
+                                            widget.soulConnectionMatrix)
                                         .toList()
                                         .firstOrNull
                                         ?.grandfatherClockTherapyT,
-                                    'This season, oversized decorative glasses are making a huge comeback! The bigger the frame, the more stylish you look. ',
+                                    '',
                                   ),
                                   textAlign: TextAlign.start,
-                                  style: FlutterFlowTheme.of(context)
+                                  style: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w500,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
                                         color: Color(0xCC000000),
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -531,11 +530,11 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   EdgeInsetsDirectional.fromSTEB(20, 16, 20, 0),
                               child: Builder(
                                 builder: (context) {
-                                  final sorrowSharedSanctuary = FFAppState()
+                                  final sorrowSharedSanctuary = genuineSynapseLocus()
                                       .vibeSynthesisModuleWL
                                       .where((e) =>
                                           e.sentimentProcessingCloudWID ==
-                                          widget!.soulConnectionMatrix)
+                                          widget.soulConnectionMatrix)
                                       .toList();
 
                                   return ListView.builder(
@@ -566,7 +565,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
                                                       image: Image.asset(
-                                                        FFAppState()
+                                                        genuineSynapseLocus()
                                                             .necronomiconHealingComfortU
                                                             .where((e) =>
                                                                 e.loFiSoulmatesComfortT ==
@@ -602,7 +601,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                           Text(
                                                             valueOrDefault<
                                                                 String>(
-                                                              FFAppState()
+                                                              genuineSynapseLocus()
                                                                   .necronomiconHealingComfortU
                                                                   .where((e) =>
                                                                       e.loFiSoulmatesComfortT ==
@@ -611,31 +610,31 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   .toList()
                                                                   .firstOrNull
                                                                   ?.phoenixTearsTherapyN,
-                                                              'name',
+                                                              '',
                                                             ),
-                                                            style: FlutterFlowTheme
+                                                            style: heartMindVentralTheme
                                                                     .of(context)
                                                                 .bodyMedium
                                                                 .override(
                                                                   font:
                                                                       GoogleFonts
                                                                           .inter(
-                                                                    fontWeight: FlutterFlowTheme.of(
+                                                                    fontWeight: heartMindVentralTheme.of(
                                                                             context)
                                                                         .bodyMedium
                                                                         .fontWeight,
-                                                                    fontStyle: FlutterFlowTheme.of(
+                                                                    fontStyle: heartMindVentralTheme.of(
                                                                             context)
                                                                         .bodyMedium
                                                                         .fontStyle,
                                                                   ),
                                                                   letterSpacing:
                                                                       0.0,
-                                                                  fontWeight: FlutterFlowTheme.of(
+                                                                  fontWeight: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontWeight,
-                                                                  fontStyle: FlutterFlowTheme.of(
+                                                                  fontStyle: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontStyle,
@@ -643,21 +642,21 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                           ),
                                                           Text(
                                                             dateTimeFormat(
-                                                                "relative",
+                                                                "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
                                                                 sorrowSharedSanctuaryItem
                                                                     .feelingDataStreamTIME!),
-                                                            style: FlutterFlowTheme
+                                                            style: heartMindVentralTheme
                                                                     .of(context)
                                                                 .bodyMedium
                                                                 .override(
                                                                   font:
                                                                       GoogleFonts
                                                                           .inter(
-                                                                    fontWeight: FlutterFlowTheme.of(
+                                                                    fontWeight: heartMindVentralTheme.of(
                                                                             context)
                                                                         .bodyMedium
                                                                         .fontWeight,
-                                                                    fontStyle: FlutterFlowTheme.of(
+                                                                    fontStyle: heartMindVentralTheme.of(
                                                                             context)
                                                                         .bodyMedium
                                                                         .fontStyle,
@@ -665,11 +664,11 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   fontSize: 10,
                                                                   letterSpacing:
                                                                       0.0,
-                                                                  fontWeight: FlutterFlowTheme.of(
+                                                                  fontWeight: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontWeight,
-                                                                  fontStyle: FlutterFlowTheme.of(
+                                                                  fontStyle: heartMindVentralTheme.of(
                                                                           context)
                                                                       .bodyMedium
                                                                       .fontStyle,
@@ -687,15 +686,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                         builder: (context) {
                                                           if (sorrowSharedSanctuaryItem
                                                                   .moodPatternDetectorUID ==
-                                                              FFAppState()
+                                                              genuineSynapseLocus()
                                                                   .emotionalSupportT) {
                                                             return InkWell(
                                                               onTap: () async {
-                                                                print("点击删除");
-                                                                FFAppState()
+                                                       
+                                                                genuineSynapseLocus()
                                                                     .removeFromVibeSynthesisModuleWL(
                                                                         sorrowSharedSanctuaryItem);
-                                                                FFAppState()
+                                                                genuineSynapseLocus()
                                                                     .update(
                                                                         () {});
                                                               },
@@ -804,20 +803,20 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                 valueOrDefault<String>(
                                                   sorrowSharedSanctuaryItem
                                                       .empathyMatchingProtocolT,
-                                                  'I like this kind of life,love love',
+                                                  '',
                                                 ),
-                                                style: FlutterFlowTheme.of(
+                                                style: heartMindVentralTheme.of(
                                                         context)
                                                     .bodyMedium
                                                     .override(
                                                       font: GoogleFonts.poppins(
                                                         fontWeight:
-                                                            FlutterFlowTheme.of(
+                                                            heartMindVentralTheme.of(
                                                                     context)
                                                                 .bodyMedium
                                                                 .fontWeight,
                                                         fontStyle:
-                                                            FlutterFlowTheme.of(
+                                                            heartMindVentralTheme.of(
                                                                     context)
                                                                 .bodyMedium
                                                                 .fontStyle,
@@ -826,12 +825,12 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                       fontSize: 12,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .fontWeight,
                                                       fontStyle:
-                                                          FlutterFlowTheme.of(
+                                                          heartMindVentralTheme.of(
                                                                   context)
                                                               .bodyMedium
                                                               .fontStyle,
@@ -868,7 +867,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             width: 287,
                             height: 40,
                             decoration: BoxDecoration(
-                              color: FlutterFlowTheme.of(context)
+                              color: heartMindVentralTheme.of(context)
                                   .secondaryBackground,
                               borderRadius: BorderRadius.circular(35),
                             ),
@@ -884,40 +883,40 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     isDense: true,
-                                    labelStyle: FlutterFlowTheme.of(context)
+                                    labelStyle: heartMindVentralTheme.of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .labelMedium
                                                     .fontWeight,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .labelMedium
                                                     .fontStyle,
                                           ),
                                           letterSpacing: 0.0,
                                           fontWeight:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontWeight,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontStyle,
                                         ),
                                     hintText: 'Say something...',
-                                    hintStyle: FlutterFlowTheme.of(context)
+                                    hintStyle: heartMindVentralTheme.of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .labelMedium
                                                     .fontWeight,
                                             fontStyle:
-                                                FlutterFlowTheme.of(context)
+                                                heartMindVentralTheme.of(context)
                                                     .labelMedium
                                                     .fontStyle,
                                           ),
@@ -925,11 +924,11 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                           fontSize: 14.75,
                                           letterSpacing: 0.0,
                                           fontWeight:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontWeight,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .labelMedium
                                                   .fontStyle,
                                         ),
@@ -950,7 +949,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     errorBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
                                         color:
-                                            FlutterFlowTheme.of(context).error,
+                                            heartMindVentralTheme.of(context).error,
                                         width: 1,
                                       ),
                                       borderRadius: BorderRadius.circular(8),
@@ -958,38 +957,38 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     focusedErrorBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
                                         color:
-                                            FlutterFlowTheme.of(context).error,
+                                            heartMindVentralTheme.of(context).error,
                                         width: 1,
                                       ),
                                       borderRadius: BorderRadius.circular(8),
                                     ),
                                     filled: true,
-                                    fillColor: FlutterFlowTheme.of(context)
+                                    fillColor: heartMindVentralTheme.of(context)
                                         .secondaryBackground,
                                   ),
-                                  style: FlutterFlowTheme.of(context)
+                                  style: heartMindVentralTheme.of(context)
                                       .bodyMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontWeight,
                                           fontStyle:
-                                              FlutterFlowTheme.of(context)
+                                              heartMindVentralTheme.of(context)
                                                   .bodyMedium
                                                   .fontStyle,
                                         ),
                                         letterSpacing: 0.0,
-                                        fontWeight: FlutterFlowTheme.of(context)
+                                        fontWeight: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: FlutterFlowTheme.of(context)
+                                        fontStyle: heartMindVentralTheme.of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
                                   cursorColor:
-                                      FlutterFlowTheme.of(context).primaryText,
+                                      heartMindVentralTheme.of(context).primaryText,
                                   validator: authenticBrainStem
                                       .asValidator(context),
                                 ),
@@ -1002,18 +1001,18 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              FFAppState().addToVibeSynthesisModuleWL(
+                              genuineSynapseLocus().addToVibeSynthesisModuleWL(
                                   SerenityHarmonySpaceWORDStruct(
                                 sentimentProcessingCloudWID:
                                     widget.soulConnectionMatrix,
                                 moodPatternDetectorUID:
-                                    FFAppState().emotionalSupportT,
+                                    genuineSynapseLocus().emotionalSupportT,
                                 empathyMatchingProtocolT:
                                     empathyCorpusCallosum.text.trim(),
                                 feelingDataStreamTIME: DateTime.now(),
-                                emotionalInsightDashboardHX: '发布评论',
+                                emotionalInsightDashboardHX: '${VuriaEmotionCipher.unveilEmotion('B20sqTKVVSvqqhgJeIzF1A==')}',
                               ));
-                              FFAppState().update(() {});
+                              genuineSynapseLocus().update(() {});
                               empathyCorpusCallosum?.clear();
                             },
                             child: Container(
