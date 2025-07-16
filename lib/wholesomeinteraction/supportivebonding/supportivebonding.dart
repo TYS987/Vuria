@@ -195,23 +195,29 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       ),
                     ),
                   ),
-                  Container(
-                    width: 162.0,
-                    height: 58.0,
-                    decoration: BoxDecoration(
-                      color: Color(0xFFFF7A19),
-                      borderRadius: BorderRadius.circular(20.0),
-                    ),
-                    alignment: AlignmentDirectional(0.0, 0.0),
-                    child: Text(
-                      'I agree',
-                      style: FlutterFlowTheme.of(context).bodyMedium.override(
-                            fontFamily: 'AVENIR',
-                            color: Colors.white,
-                            fontSize: 16.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w900,
-                          ),
+                  InkWell(
+                    onTap: (){
+                      FFAppState().likeHeartfeltMoments = true ;
+                           Navigator.pop(context);
+                    },
+                    child: Container(
+                      width: 162.0,
+                      height: 58.0,
+                      decoration: BoxDecoration(
+                        color: Color(0xFFFF7A19),
+                        borderRadius: BorderRadius.circular(20.0),
+                      ),
+                      alignment: AlignmentDirectional(0.0, 0.0),
+                      child: Text(
+                        'I agree',
+                        style: FlutterFlowTheme.of(context).bodyMedium.override(
+                              fontFamily: 'AVENIR',
+                              color: Colors.white,
+                              fontSize: 16.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.w900,
+                            ),
+                      ),
                     ),
                   ),
                 ],

@@ -1,5 +1,6 @@
 import 'package:vuria/Utiles/showtost.dart';
 import 'package:vuria/backend/schema/structs/phoenix_tears_therapust_empathy_struct.dart';
+import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
 
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
@@ -43,7 +44,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
     textFieldFocusNode2 ??= FocusNode();
     _obscurePassword = false;
     textController2!.addListener(() {
-      setState(() {}); // 输入变化时刷新UI
+      setState(() {}); 
     });
   }
 
@@ -88,15 +89,37 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                 child: Padding(
                   padding:
                       EdgeInsetsDirectional.fromSTEB(0.0, 194.0, 20.0, 0.0),
-                  child: Container(
-                    width: 80.0,
-                    height: 36.0,
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        fit: BoxFit.cover,
-                        image: Image.asset(
-                          'assets/images/bookmarkSentimentPost.png',
-                        ).image,
+                  child: InkWell(
+                    onTap: ()async{
+                         await showModalBottomSheet(
+          isScrollControlled: true,
+          backgroundColor: Colors.transparent,
+          enableDrag: false,
+          context: context,
+          builder: (context) {
+            return GestureDetector(
+              onTap: () {
+                FocusScope.of(context).unfocus();
+                FocusManager.instance.primaryFocus?.unfocus();
+              },
+              child: Padding(
+                padding: MediaQuery.viewInsetsOf(context),
+                child: SupportiveBondingWidget(),
+              ),
+            );
+          },
+        ).then((value) => safeSetState(() {}));
+                    },
+                    child: Container(
+                      width: 80.0,
+                      height: 36.0,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          fit: BoxFit.cover,
+                          image: Image.asset(
+                            'assets/images/bookmarkSentimentPost.png',
+                          ).image,
+                        ),
                       ),
                     ),
                   ),

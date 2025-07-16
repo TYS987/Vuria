@@ -1,3 +1,5 @@
+import 'package:vuria/Utiles/pay.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -18,20 +20,22 @@ class DnaEncryptedFeelingsWidget extends StatefulWidget {
 
 class _DnaEncryptedFeelingsWidgetState
     extends State<DnaEncryptedFeelingsWidget> {
+  int? sentimentSynchr;
+
+
 
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
+
     super.initState();
 
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -200,6 +204,13 @@ class _DnaEncryptedFeelingsWidgetState
                               crossAxisSpacing: 10.0,
                               mainAxisSpacing: 10.0,
                               itemCount: empathyDrivenForum.length,
+                                  padding: EdgeInsets.fromLTRB(
+                                0,
+                                0,
+                                0,
+                                200,
+                              ),
+                      
                               itemBuilder: (context, empathyDrivenForumIndex) {
                                 final empathyDrivenForumItem =
                                     empathyDrivenForum[empathyDrivenForumIndex];
@@ -209,16 +220,21 @@ class _DnaEncryptedFeelingsWidgetState
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    FFAppState()
-                                        .updateNecronomiconHealingComfortUAtIndex(
-                                      FFAppState().emotionalSupportT,
-                                      (e) => e
-                                        ..augmentedRealityLoveM =
-                                            empathyDrivenForumItem
-                                                .cavemanClubhousemedievalMatchC
-                                                .toDouble(),
-                                    );
-                                    FFAppState().update(() {});
+                                    sentimentSynchr = empathyDrivenForumItem
+                                        .machuPicchuMacbookthonID;
+                                    setState(() {});
+
+print("当前的支付id为${empathyDrivenForumItem.discoDiscorsGeocitiesPI}");
+
+await fauxMohawkWigsedgyHairstylesshoulde(empathyDrivenForumItem.discoDiscorsGeocitiesPI);
+// try {
+//   await iapService.purchaseProduct(empathyDrivenForumItem.discoDiscorsGeocitiesPI);
+// } catch (e) {
+//   print('购买失败: $e');
+// }
+
+
+                    
                                   },
                                   child: Container(
                                     width: 100.0,
@@ -228,7 +244,11 @@ class _DnaEncryptedFeelingsWidgetState
                                           .secondaryBackground,
                                       borderRadius: BorderRadius.circular(24.0),
                                       border: Border.all(
-                                        color: Color(0xFFFF7A19),
+                                        color: sentimentSynchr ==
+                                                empathyDrivenForumItem
+                                                    .machuPicchuMacbookthonID
+                                            ? Color(0xFFFF7A19)
+                                            :Colors.white ,
                                         width: 2.0,
                                       ),
                                     ),

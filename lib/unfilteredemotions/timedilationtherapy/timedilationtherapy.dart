@@ -25,20 +25,20 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
   TextEditingController? textController;
   String? Function(BuildContext, String?)? textControllerValidator;
 
-  File? _selectedImage; // 变量：存储用户选择的图片
+  File? _selectedImage; 
 
-  // 方法：从相册选择图片
+
   Future<void> _pickImageFromGallery() async {
     final pickedFile = await ImagePicker().pickImage(
-      source: ImageSource.gallery, // 调起相册
-      maxWidth: 800, // 可选：限制图片宽度
-      maxHeight: 800, // 可选：限制图片高度
-      imageQuality: 85, // 可选：图片质量（0-100）
+      source: ImageSource.gallery, 
+      maxWidth: 800, 
+      maxHeight: 800,
+      imageQuality: 85, 
     );
 
     if (pickedFile != null) {
       setState(() {
-        _selectedImage = File(pickedFile.path); // 更新选择的图片
+        _selectedImage = File(pickedFile.path); 
       });
       print("头像已选择: ${_selectedImage?.path}");
     } else {
@@ -153,7 +153,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                       height: 89.0,
                       child: InkWell(
                         onTap: () async {
-                          print("点击吊起相册");
+                 
                           await _pickImageFromGallery();
                         },
                         child: Stack(
@@ -383,6 +383,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                               icon: Icons.check_circle_rounded,
                               duration: Duration(seconds: 2),
                             );
+                            Navigator.pop(context);
                           } else {
                             await showCustomLoading(
                               message:

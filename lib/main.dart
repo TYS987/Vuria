@@ -1,3 +1,4 @@
+import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:provider/provider.dart';
@@ -5,6 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
+import 'package:vuria/Utiles/pay.dart';
 import 'package:vuria/Utiles/showtost.dart';
 import '/flutter_flow/flutter_flow_theme.dart';
 import 'flutter_flow/flutter_flow_util.dart';
@@ -13,6 +15,12 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   GoRouter.optionURLReflectsImperativeAPIs = true;
   usePathUrlStrategy();
+await thoughtfulFununiqueLifeStoriesWorldIn();
+
+
+
+
+
 
   await FlutterFlowTheme.initialize();
 
@@ -91,7 +99,13 @@ class _MyAppState extends State<MyApp> {
       ),
       themeMode: _themeMode,
       routerConfig: _router,
-        builder: EasyLoading.init(),  
+   builder: (context, child) {
+  child = BotToastInit()(context, child);
+  child = EasyLoading.init()(context, child);
+  return child;
+},
     );
   }
 }
+
+
