@@ -18,9 +18,9 @@ class PhonographFeelsWidget extends StatefulWidget {
 class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
   int? symbioticVulnerable;
 
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? genuineBioFeedback;
+  TextEditingController? authenticMindMap;
+  String? Function(BuildContext, String?)? vulnerablePsycheScan;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -28,14 +28,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
+    authenticMindMap ??= TextEditingController();
+    genuineBioFeedback ??= FocusNode();
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
+    genuineBioFeedback?.dispose();
+    authenticMindMap?.dispose();
     super.dispose();
   }
 
@@ -548,8 +548,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               child: Container(
                                 width: double.infinity,
                                 child: TextFormField(
-                                  controller: textController,
-                                  focusNode: textFieldFocusNode,
+                                  controller: authenticMindMap,
+                                  focusNode: genuineBioFeedback,
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
@@ -663,7 +663,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     );
                                   },
                                   validator:
-                                      textControllerValidator.asValidator(context),
+                                      vulnerablePsycheScan.asValidator(context),
                                 ),
                               ),
                             ),
@@ -675,14 +675,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                           child: InkWell(
                             onTap: () async {
                               if (symbioticVulnerable != null ||
-                                  textController.text.trim().isNotEmpty) {
+                                  authenticMindMap.text.trim().isNotEmpty) {
                                 await showCustomLoading(
                                   message:
                                       'The report has been submitted and we will handle it as soon as possible',
                                   icon: Icons.verified_user,
                                   duration: Duration(seconds: 2),
                                 );
-                                textController?.clear();
+                                authenticMindMap?.clear();
                                 symbioticVulnerable = null;
                            setState(() {});
                            Navigator.pop(context); 

@@ -25,17 +25,17 @@ class ThunderstormPassionWidget extends StatefulWidget {
 }
 
 class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
-  PageController? pageViewController;
+  PageController? tenderPinealGland;
 
-  int get pageViewCurrentIndex => pageViewController != null &&
-          pageViewController!.hasClients &&
-          pageViewController!.page != null
-      ? pageViewController!.page!.round()
+  int get unspokenPituitary => tenderPinealGland != null &&
+          tenderPinealGland!.hasClients &&
+          tenderPinealGland!.page != null
+      ? tenderPinealGland!.page!.round()
       : 0;
 
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? vulnerableCerebellum;
+  TextEditingController? empathyCorpusCallosum;
+  String? Function(BuildContext, String?)? authenticBrainStem;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -43,14 +43,14 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
+    empathyCorpusCallosum ??= TextEditingController();
+    vulnerableCerebellum ??= FocusNode();
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
+    vulnerableCerebellum?.dispose();
+    empathyCorpusCallosum?.dispose();
     super.dispose();
   }
 
@@ -258,15 +258,14 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                         padding:
                                             MediaQuery.viewInsetsOf(context),
                                         child: SteampunkConfidantWidget(
-                                          mutualFeelingBridgeID:
-                                             FFAppState()
-                                .looperTearscitorSolaceD
-                                .where((e) =>
-                                    e.pressureDepthConfessionsWID ==
-                                    widget!.soulConnectionMatrix)
-                                .toList()
-                                .firstOrNull
-                                ?.marianaTrenchTherapID,
+                                          mutualFeelingBridgeID: FFAppState()
+                                              .looperTearscitorSolaceD
+                                              .where((e) =>
+                                                  e.pressureDepthConfessionsWID ==
+                                                  widget!.soulConnectionMatrix)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.marianaTrenchTherapID,
                                           sharedEmotionVortex: 1,
                                         ),
                                       ),
@@ -337,7 +336,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               width: double.infinity,
                                               height: double.infinity,
                                               child: PageView.builder(
-                                                controller: pageViewController ??=
+                                                controller: tenderPinealGland ??=
                                                     PageController(
                                                         initialPage: max(
                                                             0,
@@ -879,8 +878,8 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                               child: Container(
                                 width: 200,
                                 child: TextFormField(
-                                  controller: textController,
-                                  focusNode: textFieldFocusNode,
+                                  controller: empathyCorpusCallosum,
+                                  focusNode: vulnerableCerebellum,
                                   autofocus: false,
                                   obscureText: false,
                                   decoration: InputDecoration(
@@ -991,7 +990,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       ),
                                   cursorColor:
                                       FlutterFlowTheme.of(context).primaryText,
-                                  validator: textControllerValidator
+                                  validator: authenticBrainStem
                                       .asValidator(context),
                                 ),
                               ),
@@ -1010,12 +1009,12 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                 moodPatternDetectorUID:
                                     FFAppState().emotionalSupportT,
                                 empathyMatchingProtocolT:
-                                    textController.text.trim(),
+                                    empathyCorpusCallosum.text.trim(),
                                 feelingDataStreamTIME: DateTime.now(),
                                 emotionalInsightDashboardHX: '发布评论',
                               ));
                               FFAppState().update(() {});
-                              textController?.clear();
+                              empathyCorpusCallosum?.clear();
                             },
                             child: Container(
                               width: 36,

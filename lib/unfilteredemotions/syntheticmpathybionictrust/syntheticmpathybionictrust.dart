@@ -5,7 +5,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class SyntheticmpathybionicTrustWidget extends StatefulWidget {
   const SyntheticmpathybionicTrustWidget({super.key});
 
@@ -19,12 +18,9 @@ class SyntheticmpathybionicTrustWidget extends StatefulWidget {
 
 class _SyntheticmpathybionicTrustWidgetState
     extends State<SyntheticmpathybionicTrustWidget> {
-
-
-    FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
-
+  FocusNode? emotionalPrefrontal;
+  TextEditingController? genuineHypothalamus;
+  String? Function(BuildContext, String?)? soulhippocampus;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -32,16 +28,14 @@ class _SyntheticmpathybionicTrustWidgetState
   void initState() {
     super.initState();
 
-
- textController ??= TextEditingController();
-   textFieldFocusNode ??= FocusNode();
+    genuineHypothalamus ??= TextEditingController();
+    emotionalPrefrontal ??= FocusNode();
   }
 
   @override
   void dispose() {
-
-  textFieldFocusNode?.dispose();
-    textController?.dispose();
+    emotionalPrefrontal?.dispose();
+    genuineHypothalamus?.dispose();
     super.dispose();
   }
 
@@ -146,8 +140,8 @@ class _SyntheticmpathybionicTrustWidgetState
                           child: Container(
                             width: double.infinity,
                             child: TextFormField(
-                              controller: textController,
-                              focusNode: textFieldFocusNode,
+                              controller: genuineHypothalamus,
+                              focusNode: emotionalPrefrontal,
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -244,30 +238,30 @@ class _SyntheticmpathybionicTrustWidgetState
                                   ),
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
-                              validator:textControllerValidator
-                                  .asValidator(context),
+                              validator: soulhippocampus.asValidator(context),
                             ),
                           ),
                         ),
                       ),
                     ),
                     Spacer(),
-                     InkWell(
-                      onTap: ()async{
-
-if(textController.text.trim().isNotEmpty){
-await showCustomLoading(
-  message: 'Your feedback has been successful. Thank you for your support!',
-  icon: Icons.check_circle_outline,
-);
-textController?.clear();
-Navigator.of(context).pop();
-}else{
-await showCustomLoading(
-  message: 'Please fill in the feedback content first and then submit',
-  icon: Icons.warning_amber_outlined,
-);  
-}
+                    InkWell(
+                      onTap: () async {
+                        if (genuineHypothalamus.text.trim().isNotEmpty) {
+                          await showCustomLoading(
+                            message:
+                                'Your feedback has been successful. Thank you for your support!',
+                            icon: Icons.check_circle_outline,
+                          );
+                          genuineHypothalamus?.clear();
+                          Navigator.of(context).pop();
+                        } else {
+                          await showCustomLoading(
+                            message:
+                                'Please fill in the feedback content first and then submit',
+                            icon: Icons.warning_amber_outlined,
+                          );
+                        }
                       },
                       child: Padding(
                         padding:
@@ -282,22 +276,23 @@ await showCustomLoading(
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
                             'Submit',
-                            style:
-                                FlutterFlowTheme.of(context).bodyMedium.override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.bold,
-                                        fontStyle: FlutterFlowTheme.of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Colors.white,
-                                      fontSize: 18.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: FlutterFlowTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
+                            style: FlutterFlowTheme.of(context)
+                                .bodyMedium
+                                .override(
+                                  font: GoogleFonts.poppins(
+                                    fontWeight: FontWeight.bold,
+                                    fontStyle: FlutterFlowTheme.of(context)
+                                        .bodyMedium
+                                        .fontStyle,
+                                  ),
+                                  color: Colors.white,
+                                  fontSize: 18.0,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: FlutterFlowTheme.of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
                           ),
                         ),
                       ),

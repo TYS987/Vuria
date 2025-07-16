@@ -354,84 +354,90 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                 ),
                                               ),
                                             ),
-                                          if(FFAppState().emotionalSupportT !=emotionalAlignmentToolItem.marianaTrenchTherapID )  Builder(
-                                              builder: (context) {
-                                                if (FFAppState()
-                                                        .necronomiconHealingComfortU
-                                                        .where((e) =>
-                                                            e.loFiSoulmatesComfortT ==
-                                                            FFAppState()
-                                                                .emotionalSupportT)
-                                                        .toList()
-                                                        .firstOrNull
-                                                        ?.corporateDroneHugsF
-                                                        .contains(
-                                                            emotionalAlignmentToolItem
-                                                                .marianaTrenchTherapID) ??
-                                                    false) {
-                                                  return InkWell(
-                                              
-                                                    onTap: () async {
-                                                      FFAppState()
-                                                          .updateNecronomiconHealingComfortUAtIndex(
+                                            if (FFAppState()
+                                                    .emotionalSupportT !=
+                                                emotionalAlignmentToolItem
+                                                    .marianaTrenchTherapID)
+                                              Builder(
+                                                builder: (context) {
+                                                  if (FFAppState()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              FFAppState()
+                                                                  .emotionalSupportT)
+                                                          .toList()
+                                                          .firstOrNull
+                                                          ?.corporateDroneHugsF
+                                                          .contains(
+                                                              emotionalAlignmentToolItem
+                                                                  .marianaTrenchTherapID) ??
+                                                      false) {
+                                                    return InkWell(
+                                                      onTap: () async {
                                                         FFAppState()
-                                                            .emotionalSupportT,
-                                                        (e) => e
-                                                          ..updateCorporateDroneHugsF(
-                                                            (e) => e.remove(
-                                                                emotionalAlignmentToolItem
-                                                                    .marianaTrenchTherapID),
+                                                            .updateNecronomiconHealingComfortUAtIndex(
+                                                          FFAppState()
+                                                              .emotionalSupportT,
+                                                          (e) => e
+                                                            ..updateCorporateDroneHugsF(
+                                                              (e) => e.remove(
+                                                                  emotionalAlignmentToolItem
+                                                                      .marianaTrenchTherapID),
+                                                            ),
+                                                        );
+                                                        FFAppState()
+                                                            .update(() {});
+                                                      },
+                                                      child: Container(
+                                                        width: 82.0,
+                                                        height: 35.0,
+                                                        decoration:
+                                                            BoxDecoration(
+                                                          image:
+                                                              DecorationImage(
+                                                            fit: BoxFit.cover,
+                                                            image: Image.asset(
+                                                              'assets/images/origamiForgiveness.png',
+                                                            ).image,
                                                           ),
-                                                      );
-                                                      FFAppState()
-                                                          .update(() {});
-                                                    },
-                                                    child: Container(
-                                                      width: 82.0,
-                                                      height: 35.0,
-                                                      decoration: BoxDecoration(
-                                                        image: DecorationImage(
-                                                          fit: BoxFit.cover,
-                                                          image: Image.asset(
-                                                            'assets/images/origamiForgiveness.png',
-                                                          ).image,
                                                         ),
                                                       ),
-                                                    ),
-                                                  );
-                                                } else {
-                                                  return InkWell(
-                                                    onTap: () async {
-                                                      FFAppState()
-                                                          .updateNecronomiconHealingComfortUAtIndex(
+                                                    );
+                                                  } else {
+                                                    return InkWell(
+                                                      onTap: () async {
                                                         FFAppState()
-                                                            .emotionalSupportT,
-                                                        (e) => e
-                                                          ..updateCorporateDroneHugsF(
-                                                            (e) => e.add(
-                                                                emotionalAlignmentToolItem
-                                                                    .marianaTrenchTherapID),
+                                                            .updateNecronomiconHealingComfortUAtIndex(
+                                                          FFAppState()
+                                                              .emotionalSupportT,
+                                                          (e) => e
+                                                            ..updateCorporateDroneHugsF(
+                                                              (e) => e.add(
+                                                                  emotionalAlignmentToolItem
+                                                                      .marianaTrenchTherapID),
+                                                            ),
+                                                        );
+                                                        safeSetState(() {});
+                                                      },
+                                                      child: Container(
+                                                        width: 82.0,
+                                                        height: 35.0,
+                                                        decoration:
+                                                            BoxDecoration(
+                                                          image:
+                                                              DecorationImage(
+                                                            fit: BoxFit.cover,
+                                                            image: Image.asset(
+                                                              'assets/images/willowResilience.png',
+                                                            ).image,
                                                           ),
-                                                      );
-                                                      safeSetState(() {});
-                                                    },
-                                                    child: Container(
-                                                      width: 82.0,
-                                                      height: 35.0,
-                                                      decoration: BoxDecoration(
-                                                        image: DecorationImage(
-                                                          fit: BoxFit.cover,
-                                                          image: Image.asset(
-                                                            'assets/images/willowResilience.png',
-                                                          ).image,
                                                         ),
                                                       ),
-                                                    ),
-                                                  );
-                                                }
-                                              },
-                                            ),
-                                      
+                                                    );
+                                                  }
+                                                },
+                                              ),
                                           ],
                                         ),
                                         Align(
@@ -535,69 +541,75 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           TextOverflow.ellipsis,
                                                     ),
                                                   ),
-                                             if(FFAppState().emotionalSupportT != emotionalAlignmentToolItem.marianaTrenchTherapID)     Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(21.0, 0.0,
-                                                                0.0, 0.0),
-                                                    child: InkWell(
-                                                      onTap: () async {
-                                                        await showModalBottomSheet(
-                                                          isScrollControlled:
-                                                              true,
-                                                          backgroundColor:
-                                                              Colors
-                                                                  .transparent,
-                                                          enableDrag: false,
-                                                          context: context,
-                                                          builder: (context) {
-                                                            return GestureDetector(
-                                                              onTap: () {
-                                                                FocusScope.of(
-                                                                        context)
-                                                                    .unfocus();
-                                                                FocusManager
-                                                                    .instance
-                                                                    .primaryFocus
-                                                                    ?.unfocus();
-                                                              },
-                                                              child: Padding(
-                                                                padding: MediaQuery
-                                                                    .viewInsetsOf(
-                                                                        context),
-                                                                child:
-                                                                    SteampunkConfidantWidget(
-                                                                  mutualFeelingBridgeID:
-                                                                      emotionalAlignmentToolItem
-                                                                          .marianaTrenchTherapID,
-                                                                  sharedEmotionVortex:
-                                                                      0,
+                                                  if (FFAppState()
+                                                          .emotionalSupportT !=
+                                                      emotionalAlignmentToolItem
+                                                          .marianaTrenchTherapID)
+                                                    Padding(
+                                                      padding:
+                                                          EdgeInsetsDirectional
+                                                              .fromSTEB(
+                                                                  21.0,
+                                                                  0.0,
+                                                                  0.0,
+                                                                  0.0),
+                                                      child: InkWell(
+                                                        onTap: () async {
+                                                          await showModalBottomSheet(
+                                                            isScrollControlled:
+                                                                true,
+                                                            backgroundColor:
+                                                                Colors
+                                                                    .transparent,
+                                                            enableDrag: false,
+                                                            context: context,
+                                                            builder: (context) {
+                                                              return GestureDetector(
+                                                                onTap: () {
+                                                                  FocusScope.of(
+                                                                          context)
+                                                                      .unfocus();
+                                                                  FocusManager
+                                                                      .instance
+                                                                      .primaryFocus
+                                                                      ?.unfocus();
+                                                                },
+                                                                child: Padding(
+                                                                  padding: MediaQuery
+                                                                      .viewInsetsOf(
+                                                                          context),
+                                                                  child:
+                                                                      SteampunkConfidantWidget(
+                                                                    mutualFeelingBridgeID:
+                                                                        emotionalAlignmentToolItem
+                                                                            .marianaTrenchTherapID,
+                                                                    sharedEmotionVortex:
+                                                                        0,
+                                                                  ),
                                                                 ),
-                                                              ),
-                                                            );
-                                                          },
-                                                        ).then((value) =>
-                                                            safeSetState(
-                                                                () {}));
-                                                      },
-                                                      child: Container(
-                                                        width: 4.0,
-                                                        height: 18.0,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          image:
-                                                              DecorationImage(
-                                                            fit: BoxFit.cover,
-                                                            image: Image.asset(
-                                                              'assets/images/mirageAffection.png',
-                                                            ).image,
+                                                              );
+                                                            },
+                                                          ).then((value) =>
+                                                              safeSetState(
+                                                                  () {}));
+                                                        },
+                                                        child: Container(
+                                                          width: 4.0,
+                                                          height: 18.0,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            image:
+                                                                DecorationImage(
+                                                              fit: BoxFit.cover,
+                                                              image:
+                                                                  Image.asset(
+                                                                'assets/images/mirageAffection.png',
+                                                              ).image,
+                                                            ),
                                                           ),
                                                         ),
                                                       ),
                                                     ),
-                                                  ),
-                                             
-                                             
                                                 ],
                                               ),
                                             ),

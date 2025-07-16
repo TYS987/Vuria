@@ -24,23 +24,21 @@ class FragrantMemoriesWidget extends StatefulWidget {
 class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
   int? serotoninDialogue;
 
-  File? _backgroundImage;
+  File? vortexSpectrum;
 
-  Future<void> pickBackgroundImage() async {
+  Future<void> authenticPulseUniverse() async {
     try {
-      final pickedFile = await ImagePicker().pickImage(
+      final moodMosaicDimensions = await ImagePicker().pickImage(
         source: ImageSource.gallery,
         imageQuality: 85,
       );
 
-      if (pickedFile != null) {
-        final file = File(pickedFile.path);
+      if (moodMosaicDimensions != null) {
+        final file = File(moodMosaicDimensions.path);
 
         setState(() {
-          _backgroundImage = file;
+          vortexSpectrum = file;
         });
-
-        print('用户选择的背景图路径: ${file.path}');
       } else {
         if (!mounted) return;
         await showCustomLoading(
@@ -54,9 +52,9 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
     }
   }
 
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? tenderConfsentiment;
+  TextEditingController? moodMosaicsoulfulRippl;
+  String? Function(BuildContext, String?)? authnticPseUniverse;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -64,17 +62,17 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
-    textController!.addListener(() {
+    moodMosaicsoulfulRippl ??= TextEditingController();
+    tenderConfsentiment ??= FocusNode();
+    moodMosaicsoulfulRippl!.addListener(() {
       setState(() {});
     });
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
+    tenderConfsentiment?.dispose();
+    moodMosaicsoulfulRippl?.dispose();
     super.dispose();
   }
 
@@ -169,7 +167,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                         child: InkWell(
                           onTap: () async {
-                            await pickBackgroundImage();
+                            await authenticPulseUniverse();
                           },
                           child: Container(
                             width: 172.0,
@@ -182,8 +180,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
-                                      image: _backgroundImage != null
-                                          ? FileImage(_backgroundImage!)
+                                      image: vortexSpectrum != null
+                                          ? FileImage(vortexSpectrum!)
                                               as ImageProvider
                                           : AssetImage(
                                               'assets/images/symphonicEmpathy.png'),
@@ -195,7 +193,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                     ),
                                   ),
                                 ),
-                                if (_backgroundImage != null)
+                                if (vortexSpectrum != null)
                                   Align(
                                     alignment: AlignmentDirectional(1.0, -1.0),
                                     child: Padding(
@@ -204,7 +202,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                       child: GestureDetector(
                                         onTap: () {
                                           setState(() {
-                                            _backgroundImage = null;
+                                            vortexSpectrum = null;
                                           });
                                         },
                                         child: Container(
@@ -278,8 +276,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                             child: Container(
                               width: double.infinity,
                               child: TextFormField(
-                                controller: textController,
-                                focusNode: textFieldFocusNode,
+                                controller: moodMosaicsoulfulRippl,
+                                focusNode: tenderConfsentiment,
                                 autofocus: false,
                                 obscureText: false,
                                 decoration: InputDecoration(
@@ -369,8 +367,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                     ),
                                 cursorColor:
                                     FlutterFlowTheme.of(context).primaryText,
-                                validator: textControllerValidator
-                                    .asValidator(context),
+                                validator:
+                                    authnticPseUniverse.asValidator(context),
                               ),
                             ),
                           ),
@@ -491,61 +489,54 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                       ),
                       Builder(
                         builder: (context) {
-                          if (_backgroundImage != null &&
-                              textController.text.trim().isNotEmpty &&
+                          if (vortexSpectrum != null &&
+                              moodMosaicsoulfulRippl.text.trim().isNotEmpty &&
                               serotoninDialogue != null) {
                             return InkWell(
                               onTap: () async {
-                                if (FFAppState()
-                                        .necronomiconHealingComfortU[
-                                            FFAppState().emotionalSupportT]
-                                        .augmentedRealityLoveM >=
-                                    100) {
-                                  print("金额足够");
-                                  print(
-                                      "当前的金额${FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].augmentedRealityLoveM}");
+                                final currentIndex =
+                                    FFAppState().emotionalSupportT;
+                                final currentUser = FFAppState()
+                                    .necronomiconHealingComfortU[currentIndex];
+                                final currentLovePoints =
+                                    currentUser.augmentedRealityLoveM;
 
-                                  FFAppState()
-                                      .addToAzothConfessionsathanorSolaceMP(
-                                          ServerFarmMeditationSolaceMoreStruct(
-                                    philosophersStoneHealingID:
-                                        FFAppState().emotionalSupportT,
+                                if (currentLovePoints >= 100) {
+                                  final newConfession =
+                                      ServerFarmMeditationSolaceMoreStruct(
+                                    philosophersStoneHealingID: currentIndex,
                                     alchemicalWeddingHomeID: FFAppState()
                                         .azothConfessionsathanorSolaceMP
                                         .length,
                                     mercurialEmpathyTitle:
-                                        textController.text.trim(),
+                                        moodMosaicsoulfulRippl.text.trim(),
                                     saltTearsTherapyTiem: DateTime.now(),
-                                    magnumOpusComfortMorePope: [
-                                      FFAppState().emotionalSupportT
-                                    ],
+                                    magnumOpusComfortMorePope: [currentIndex],
                                     homunculusHugsfessionsID: serotoninDialogue,
                                     magnumOpusComfort: ['0'],
-                                    homunculusHugsImag: _backgroundImage?.path,
-                                  ));
+                                    homunculusHugsImag: vortexSpectrum?.path,
+                                  );
+
+                                  FFAppState()
+                                      .addToAzothConfessionsathanorSolaceMP(
+                                          newConfession);
 
                                   FFAppState()
                                       .updateNecronomiconHealingComfortUAtIndex(
-                                          FFAppState().emotionalSupportT,
-                                          (e) => e
-                                            ..augmentedRealityLoveM = FFAppState()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        FFAppState()
-                                                            .emotionalSupportT)
-                                                    .toList()
-                                                    .firstOrNull!
-                                                    .augmentedRealityLoveM -
-                                                100);
+                                    currentIndex,
+                                    (e) => e
+                                      ..augmentedRealityLoveM =
+                                          currentLovePoints - 100,
+                                  );
 
                                   FFAppState().update(() {});
 
                                   await showCustomLoading(
                                     message: 'Chat created successfully!',
                                     icon: Icons.chat_bubble_outline,
-                                    duration: Duration(seconds: 2),
+                                    duration: const Duration(seconds: 2),
                                   );
+
                                   Navigator.pop(context);
                                 } else {
                                   await showDialog(

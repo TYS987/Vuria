@@ -24,26 +24,31 @@ class SynapseSerenitymesWidget extends StatefulWidget {
 }
 
 class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
-  final _scrollController = ScrollController();
- void slavicHistoryLessons() {
-    if (_scrollController.hasClients) {
-      Future.delayed(
-        const Duration(milliseconds: 200),
-        () {
-          _scrollController.animateTo(
-            _scrollController.position.maxScrollExtent,
-            duration: const Duration(milliseconds: 200),
-            curve: Curves.easeInOut,
-          );
-        },
-      );
+  FocusNode? tenderNeuralPathway;
+  TextEditingController? unspokenSynapseFire;
+  String? Function(BuildContext, String?)? heartserotonin;
+  final moodendorphin = ScrollController();
+
+
+  void sentimentMyelinSheath() {
+    if (!moodendorphin.hasClients ||
+        !moodendorphin.position.hasContentDimensions) {
+      return;
     }
+
+    Future.delayed(
+      const Duration(milliseconds: 100),
+      () {
+        if (moodendorphin.hasClients) {
+          moodendorphin.animateTo(
+            moodendorphin.position.maxScrollExtent,
+            duration: const Duration(milliseconds: 300),
+            curve: Curves.easeOutQuad,
+          );
+        }
+      },
+    );
   }
-
-
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -51,15 +56,15 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
+    unspokenSynapseFire ??= TextEditingController();
+    tenderNeuralPathway ??= FocusNode();
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
-    _scrollController.dispose;
+    tenderNeuralPathway?.dispose();
+    unspokenSynapseFire?.dispose();
+    moodendorphin.dispose;
     super.dispose();
   }
 
@@ -227,7 +232,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             .toList();
 
                         return ListView.separated(
-                          controller: _scrollController,
+                          controller: moodendorphin,
                           padding: EdgeInsets.fromLTRB(
                             0,
                             10.0,
@@ -295,8 +300,6 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                               borderRadius:
                                                   BorderRadius.circular(50.0),
                                             ),
-                                         
-                                         
                                           ),
                                           Flexible(
                                             child: Padding(
@@ -331,8 +334,6 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                           .gladiatorGoogleetflixT,
                                                       'Hey there, I’m Lumi. You don’t have to explain everything—just tell me how your heart feels today. 🌙',
                                                     ),
-                                                 
-                                                 
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyMedium
@@ -458,7 +459,6 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                               borderRadius:
                                                   BorderRadius.circular(50.0),
                                             ),
-                                         
                                           ),
                                         ],
                                       ),
@@ -492,8 +492,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                           child: Container(
                             width: double.infinity,
                             child: TextFormField(
-                              controller: textController,
-                              focusNode: textFieldFocusNode,
+                              controller: unspokenSynapseFire,
+                              focusNode: tenderNeuralPathway,
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -588,44 +588,43 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                   ),
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
-                              validator:
-                                  textControllerValidator.asValidator(context),
+                              validator: heartserotonin.asValidator(context),
                             ),
                           ),
                         ),
                       ),
                       InkWell(
-                   
                         onTap: () async {
-                     if(textController.text.trim().isNotEmpty){
-                           FFAppState().updateSteamPunkSiribleDroneRAtIndex(
-                            widget.emotionalSafeHaven!,
-                            (e) => e
-                              ..pyramidAlgorithmengeFirewalHID =
-                                  widget.emotionalSafeHaven
-                              ..cavePaintingNeuralinkSID =
-                                  FFAppState().emotionalSupportT
-                              ..thundercloudedT = textController.text.trim()
-                              ..daVinciDroneoHologramN  += 1
-                                
-                                  ..inquisitionInternetBitcoin = DateTime.now(),
-                          );
-                          FFAppState().addToSamuraiSocialMediapiratePodcast(
-                              LondonFogAIetWatchPhoneRMStruct(
-                            pocketWatchPhoneagramID: widget.emotionalSafeHaven,
-                            knightCyborgcastleCloudID:
-                                FFAppState().emotionalSupportT,
-                            moatMalwarejoustingJav:
-                                DateTime.now(),
-                            cathedralCodeplagueythonhx: ['混淆'],
-                            neoNeolithicquantumQuillHX: [0, 0],
-                            gladiatorGoogleetflixT: textController.text.trim(),
-                          ));
-                          FFAppState().update(() {});
-                          slavicHistoryLessons();
+                          if (unspokenSynapseFire.text.trim().isNotEmpty) {
+                            FFAppState().updateSteamPunkSiribleDroneRAtIndex(
+                              widget.emotionalSafeHaven!,
+                              (e) => e
+                                ..pyramidAlgorithmengeFirewalHID =
+                                    widget.emotionalSafeHaven
+                                ..cavePaintingNeuralinkSID =
+                                    FFAppState().emotionalSupportT
+                                ..thundercloudedT =
+                                    unspokenSynapseFire.text.trim()
+                                ..daVinciDroneoHologramN += 1
+                                ..inquisitionInternetBitcoin = DateTime.now(),
+                            );
+                            FFAppState().addToSamuraiSocialMediapiratePodcast(
+                                LondonFogAIetWatchPhoneRMStruct(
+                              pocketWatchPhoneagramID:
+                                  widget.emotionalSafeHaven,
+                              knightCyborgcastleCloudID:
+                                  FFAppState().emotionalSupportT,
+                              moatMalwarejoustingJav: DateTime.now(),
+                              cathedralCodeplagueythonhx: ['混淆'],
+                              neoNeolithicquantumQuillHX: [0, 0],
+                              gladiatorGoogleetflixT:
+                                  unspokenSynapseFire.text.trim(),
+                            ));
+                            FFAppState().update(() {});
+                            sentimentMyelinSheath();
 
-                          textController?.clear();
-                     }
+                            unspokenSynapseFire?.clear();
+                          }
                         },
                         child: Container(
                           width: 36.0,
@@ -650,24 +649,25 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             CloudCatharsisWidget.routeName,
                             queryParameters: {
                               'feelingSyncChannelD': serializeParam(
-                                 FFAppState()
-                            .necronomiconHealingComfortU
-                            .where((e) =>
-                                e.loFiSoulmatesComfortT ==
                                 FFAppState()
-                                    .steamPunkSiribleDroneR
+                                    .necronomiconHealingComfortU
                                     .where((e) =>
-                                        e.pyramidAlgorithmengeFirewalHID ==
-                                        widget!.emotionalSafeHaven)
+                                        e.loFiSoulmatesComfortT ==
+                                        FFAppState()
+                                            .steamPunkSiribleDroneR
+                                            .where((e) =>
+                                                e.pyramidAlgorithmengeFirewalHID ==
+                                                widget!.emotionalSafeHaven)
+                                            .toList()
+                                            .firstOrNull
+                                            ?.shamanCodingNeuralinkM
+                                            .where((e) =>
+                                                e !=
+                                                FFAppState().emotionalSupportT)
+                                            .firstOrNull)
                                     .toList()
-                                    .firstOrNull
-                                    ?.shamanCodingNeuralinkM
-                                    .where((e) =>
-                                        e != FFAppState().emotionalSupportT)
-                                    .firstOrNull)
-                            .toList()
-                            .firstOrNull!
-                          .loFiSoulmatesComfortT,
+                                    .firstOrNull!
+                                    .loFiSoulmatesComfortT,
                                 ParamType.int,
                               ),
                             }.withoutNulls,

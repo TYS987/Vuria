@@ -22,16 +22,11 @@ class _DnaEncryptedFeelingsWidgetState
     extends State<DnaEncryptedFeelingsWidget> {
   int? sentimentSynchr;
 
-
-
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
-
     super.initState();
-
   }
 
   @override
@@ -204,13 +199,12 @@ class _DnaEncryptedFeelingsWidgetState
                               crossAxisSpacing: 10.0,
                               mainAxisSpacing: 10.0,
                               itemCount: empathyDrivenForum.length,
-                                  padding: EdgeInsets.fromLTRB(
+                              padding: EdgeInsets.fromLTRB(
                                 0,
                                 0,
                                 0,
                                 200,
                               ),
-                      
                               itemBuilder: (context, empathyDrivenForumIndex) {
                                 final empathyDrivenForumItem =
                                     empathyDrivenForum[empathyDrivenForumIndex];
@@ -224,17 +218,10 @@ class _DnaEncryptedFeelingsWidgetState
                                         .machuPicchuMacbookthonID;
                                     setState(() {});
 
-print("当前的支付id为${empathyDrivenForumItem.discoDiscorsGeocitiesPI}");
+                                    await fauxMohawkWigsedgyHairstylesshoulde(
+                                        empathyDrivenForumItem
+                                            .discoDiscorsGeocitiesPI);
 
-await fauxMohawkWigsedgyHairstylesshoulde(empathyDrivenForumItem.discoDiscorsGeocitiesPI);
-// try {
-//   await iapService.purchaseProduct(empathyDrivenForumItem.discoDiscorsGeocitiesPI);
-// } catch (e) {
-//   print('购买失败: $e');
-// }
-
-
-                    
                                   },
                                   child: Container(
                                     width: 100.0,
@@ -248,7 +235,7 @@ await fauxMohawkWigsedgyHairstylesshoulde(empathyDrivenForumItem.discoDiscorsGeo
                                                 empathyDrivenForumItem
                                                     .machuPicchuMacbookthonID
                                             ? Color(0xFFFF7A19)
-                                            :Colors.white ,
+                                            : Colors.white,
                                         width: 2.0,
                                       ),
                                     ),

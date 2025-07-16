@@ -3,7 +3,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class FifthDimensionalLoveWidget extends StatefulWidget {
   const FifthDimensionalLoveWidget({super.key});
 
@@ -17,20 +16,15 @@ class FifthDimensionalLoveWidget extends StatefulWidget {
 
 class _FifthDimensionalLoveWidgetState
     extends State<FifthDimensionalLoveWidget> {
-
-
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 

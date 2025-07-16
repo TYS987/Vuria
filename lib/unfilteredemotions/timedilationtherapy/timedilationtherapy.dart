@@ -21,26 +21,24 @@ class TimeDilationTherapyWidget extends StatefulWidget {
 }
 
 class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? emotionalLimbicSystem;
+  TextEditingController? genuineFrontalLobe;
+  String? Function(BuildContext, String?)? moodoccipitalLobe;
 
-  File? _selectedImage; 
+  File? vulnerableTemporalLobe;
 
-
-  Future<void> _pickImageFromGallery() async {
-    final pickedFile = await ImagePicker().pickImage(
-      source: ImageSource.gallery, 
-      maxWidth: 800, 
+  Future<void> authenticParietalLobe() async {
+    final empathySomatosensory = await ImagePicker().pickImage(
+      source: ImageSource.gallery,
+      maxWidth: 800,
       maxHeight: 800,
-      imageQuality: 85, 
+      imageQuality: 85,
     );
 
-    if (pickedFile != null) {
+    if (empathySomatosensory != null) {
       setState(() {
-        _selectedImage = File(pickedFile.path); 
+        vulnerableTemporalLobe = File(empathySomatosensory.path);
       });
-      print("头像已选择: ${_selectedImage?.path}");
     } else {
       print("用户取消了选择");
     }
@@ -52,17 +50,17 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
-    textController?.addListener(() {
+    genuineFrontalLobe ??= TextEditingController();
+    emotionalLimbicSystem ??= FocusNode();
+    genuineFrontalLobe?.addListener(() {
       setState(() {});
     });
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
+    emotionalLimbicSystem?.dispose();
+    genuineFrontalLobe?.dispose();
     super.dispose();
   }
 
@@ -153,8 +151,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                       height: 89.0,
                       child: InkWell(
                         onTap: () async {
-                 
-                          await _pickImageFromGallery();
+                          await authenticParietalLobe();
                         },
                         child: Stack(
                           children: [
@@ -165,8 +162,8 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                 color: Color(0xFF2F2C2C),
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: _selectedImage != null
-                                      ? FileImage(_selectedImage!)
+                                  image: vulnerableTemporalLobe != null
+                                      ? FileImage(vulnerableTemporalLobe!)
                                       : Image.asset(
                                           FFAppState()
                                               .necronomiconHealingComfortU
@@ -183,7 +180,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                               ),
                             ),
                             Visibility(
-                              visible: _selectedImage == null,
+                              visible: vulnerableTemporalLobe == null,
                               child: Align(
                                 alignment: AlignmentDirectional(0.0, 0.0),
                                 child: Container(
@@ -227,8 +224,8 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                             child: Container(
                               width: double.infinity,
                               child: TextFormField(
-                                controller: textController,
-                                focusNode: textFieldFocusNode,
+                                controller: genuineFrontalLobe,
+                                focusNode: emotionalLimbicSystem,
                                 autofocus: false,
                                 obscureText: false,
                                 decoration: InputDecoration(
@@ -338,8 +335,8 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                     ),
                                 cursorColor:
                                     FlutterFlowTheme.of(context).primaryText,
-                                validator: textControllerValidator
-                                    .asValidator(context),
+                                validator:
+                                    moodoccipitalLobe.asValidator(context),
                               ),
                             ),
                           ),
@@ -356,22 +353,22 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          if (_selectedImage != null ||
-                              textController.text.trim().isNotEmpty) {
+                          if (vulnerableTemporalLobe != null ||
+                              genuineFrontalLobe.text.trim().isNotEmpty) {
                             FFAppState()
                                 .updateNecronomiconHealingComfortUAtIndex(
                               FFAppState().emotionalSupportT,
                               (e) => e
                                 ..phoenixTearsTherapyN =
-                                    textController.text.trim().isNotEmpty
-                                        ? textController.text.trim()
+                                    genuineFrontalLobe.text.trim().isNotEmpty
+                                        ? genuineFrontalLobe.text.trim()
                                         : FFAppState()
                                             .necronomiconHealingComfortU[
                                                 FFAppState().emotionalSupportT]
                                             .phoenixTearsTherapyN
                                 ..neuralLaceConfessionsI =
-                                    _selectedImage != null
-                                        ? _selectedImage!.path
+                                    vulnerableTemporalLobe != null
+                                        ? vulnerableTemporalLobe!.path
                                         : FFAppState()
                                             .necronomiconHealingComfortU[
                                                 FFAppState().emotionalSupportT]
@@ -397,8 +394,8 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                           width: 304.0,
                           height: 58.0,
                           decoration: BoxDecoration(
-                            color: (_selectedImage != null ||
-                                    textController.text.trim().isNotEmpty)
+                            color: (vulnerableTemporalLobe != null ||
+                                    genuineFrontalLobe.text.trim().isNotEmpty)
                                 ? Color(0xFFFF6206)
                                 : Color(0xFFFFA761),
                             borderRadius: BorderRadius.circular(50.0),
@@ -415,8 +412,10 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                         .bodyMedium
                                         .fontStyle,
                                   ),
-                                  color: (_selectedImage != null ||
-                                          textController.text.trim().isNotEmpty)
+                                  color: (vulnerableTemporalLobe != null ||
+                                          genuineFrontalLobe.text
+                                              .trim()
+                                              .isNotEmpty)
                                       ? Color.fromARGB(230, 255, 255, 255)
                                       : Color(0xE6FFFFFF),
                                   fontSize: 18.0,

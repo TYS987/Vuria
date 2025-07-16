@@ -20,16 +20,15 @@ class EmpathyExchangeWidget extends StatefulWidget {
 
 class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   int? sharedVulnerability = 0;
-// 首先在你的State类顶部添加这个变量
-  bool _obscurePassword = false;
+  bool rawEmotionNexus = false;
 
-  FocusNode? textFieldFocusNode1;
-  TextEditingController? textController1;
-  String? Function(BuildContext, String?)? textController1Validator;
+  FocusNode? vulnerableShaotionVortex;
+  TextEditingController? rawEmotionNexusVibesMatrix;
+  String? Function(BuildContext, String?)? rawEmotionNexusGateway;
 
-  FocusNode? textFieldFocusNode2;
-  TextEditingController? textController2;
-  String? Function(BuildContext, String?)? textController2Validator;
+  FocusNode? soulBondingUstryRealm;
+  TextEditingController? engthOasisfeelingWavel;
+  String? Function(BuildContext, String?)? vulnerabilityfeelingWavel;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -37,24 +36,27 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   void initState() {
     super.initState();
 
-    textController1 ??= TextEditingController();
-    textFieldFocusNode1 ??= FocusNode();
+    rawEmotionNexusVibesMatrix ??= TextEditingController();
+    vulnerableShaotionVortex ??= FocusNode();
 
-    textController2 ??= TextEditingController();
-    textFieldFocusNode2 ??= FocusNode();
-    _obscurePassword = false;
-    textController2!.addListener(() {
-      setState(() {}); 
+    engthOasisfeelingWavel ??= TextEditingController();
+    soulBondingUstryRealm ??= FocusNode();
+    rawEmotionNexus = false;
+    engthOasisfeelingWavel!.addListener(() {
+      setState(() {});
+    });
+    rawEmotionNexusVibesMatrix!.addListener(() {
+      setState(() {});
     });
   }
 
   @override
   void dispose() {
-    textFieldFocusNode1?.dispose();
-    textController1?.dispose();
+    vulnerableShaotionVortex?.dispose();
+    rawEmotionNexusVibesMatrix?.dispose();
 
-    textFieldFocusNode2?.dispose();
-    textController2?.dispose();
+    soulBondingUstryRealm?.dispose();
+    engthOasisfeelingWavel?.dispose();
 
     super.dispose();
   }
@@ -68,7 +70,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-          resizeToAvoidBottomInset: false,
+        resizeToAvoidBottomInset: false,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: Container(
           width: double.infinity,
@@ -90,25 +92,25 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                   padding:
                       EdgeInsetsDirectional.fromSTEB(0.0, 194.0, 20.0, 0.0),
                   child: InkWell(
-                    onTap: ()async{
-                         await showModalBottomSheet(
-          isScrollControlled: true,
-          backgroundColor: Colors.transparent,
-          enableDrag: false,
-          context: context,
-          builder: (context) {
-            return GestureDetector(
-              onTap: () {
-                FocusScope.of(context).unfocus();
-                FocusManager.instance.primaryFocus?.unfocus();
-              },
-              child: Padding(
-                padding: MediaQuery.viewInsetsOf(context),
-                child: SupportiveBondingWidget(),
-              ),
-            );
-          },
-        ).then((value) => safeSetState(() {}));
+                    onTap: () async {
+                      await showModalBottomSheet(
+                        isScrollControlled: true,
+                        backgroundColor: Colors.transparent,
+                        enableDrag: false,
+                        context: context,
+                        builder: (context) {
+                          return GestureDetector(
+                            onTap: () {
+                              FocusScope.of(context).unfocus();
+                              FocusManager.instance.primaryFocus?.unfocus();
+                            },
+                            child: Padding(
+                              padding: MediaQuery.viewInsetsOf(context),
+                              child: SupportiveBondingWidget(),
+                            ),
+                          );
+                        },
+                      ).then((value) => safeSetState(() {}));
                     },
                     child: Container(
                       width: 80.0,
@@ -145,8 +147,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           child: Container(
                             width: double.infinity,
                             child: TextFormField(
-                              controller: textController1,
-                              focusNode: textFieldFocusNode1,
+                              controller: rawEmotionNexusVibesMatrix,
+                              focusNode: vulnerableShaotionVortex,
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -241,7 +243,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
                               validator:
-                                  textController1Validator.asValidator(context),
+                                  rawEmotionNexusGateway.asValidator(context),
                             ),
                           ),
                         ),
@@ -272,10 +274,10 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     child: Container(
                                       width: double.infinity,
                                       child: TextFormField(
-                                        controller: textController2,
-                                        focusNode: textFieldFocusNode2,
+                                        controller: engthOasisfeelingWavel,
+                                        focusNode: soulBondingUstryRealm,
                                         autofocus: false,
-                                        obscureText: _obscurePassword,
+                                        obscureText: rawEmotionNexus,
                                         decoration: InputDecoration(
                                           isDense: true,
                                           labelStyle: FlutterFlowTheme.of(
@@ -305,7 +307,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                         .fontStyle,
                                               ),
                                           hintText:
-                                              'Password (6-12 characters)',
+                                              'GatewayPulseNetwork (6-12 characters)',
                                           hintStyle: FlutterFlowTheme.of(
                                                   context)
                                               .labelMedium
@@ -393,7 +395,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         cursorColor:
                                             FlutterFlowTheme.of(context)
                                                 .primaryText,
-                                        validator: textController2Validator
+                                        validator: vulnerabilityfeelingWavel
                                             .asValidator(context),
                                       ),
                                     ),
@@ -402,11 +404,11 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               ),
                               Builder(
                                 builder: (context) {
-                                  if (_obscurePassword) {
+                                  if (rawEmotionNexus) {
                                     return InkWell(
                                       onTap: () async {
                                         setState(() {
-                                          _obscurePassword = !_obscurePassword;
+                                          rawEmotionNexus = !rawEmotionNexus;
                                         });
                                       },
                                       child: Container(
@@ -426,7 +428,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     return InkWell(
                                       onTap: () async {
                                         setState(() {
-                                          _obscurePassword = !_obscurePassword;
+                                          rawEmotionNexus = !rawEmotionNexus;
                                         });
                                       },
                                       child: Container(
@@ -462,78 +464,77 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     focusColor: Colors.transparent,
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
+                    
                     onTap: () async {
-                      if (FFAppState().likeHeartfeltMoments == true) {
-                        if (textController1.text.trim().isNotEmpty &&
-                            textController2.text.trim().isNotEmpty) {
-                          if (FFAppState()
-                              .necronomiconHealingComfortU
-                              .where((e) =>
-                                  e.unicornWhispererHealingE ==
-                                  textController1.text.trim())
-                              .toList()
-                              .isNotEmpty) {
-                            //判断密码
-                            if (FFAppState()
-                                .necronomiconHealingComfortU
-                                .where((e) =>
-                                    e.dragonScaleComfortfessionsP ==
-                                    textController2.text.trim())
-                                .toList()
-                                .isNotEmpty) {
-                              FFAppState().emotionalSupportT = FFAppState()
-                                  .necronomiconHealingComfortU
-                                  .where((e) =>
-                                      (e.unicornWhispererHealingE ==
-                                          textController1.text.trim()) &&
-                                      (e.unicornWhispererHealingE ==
-                                          textController1.text.trim()))
-                                  .toList()
-                                  .firstOrNull!
-                                  .loFiSoulmatesComfortT;
-                              FFAppState().kindheartedDialogues = 0;
-                              FFAppState().undergroundBunkerBondingRUT = 1;
-                              await showCustomLoading(
-                                message: 'Login successful. Welcome back!',
-                                icon: Icons.verified_user,
-                                duration: Duration(seconds: 2),
-                              );
-                              context
-                                  .pushNamed(TrustedConfidantsWidget.routeName);
-                            } else {
-                              showLoginErrorSnackBar(context);
-                            }
-                          } else {
-                            FFAppState().emotionalSupportT =
-                                FFAppState().necronomiconHealingComfortU.length;
-                            FFAppState().undergroundBunkerBondingRUT = 1;
-                            FFAppState().addToNecronomiconHealingComfortU(
-                                PhoenixTearsTherapustEmpathyStruct(
-                              unicornWhispererHealingE: textController1.text
-                                .trim(),
-                              dragonScaleComfortfessionsP:
-                                  textController2.text.trim(),
-                              neuralLaceConfessionsI:
-                                  "assets/images/vulnerabilitySafeZoneen.jpg",
-                              loFiSoulmatesComfortT: FFAppState()
-                                  .necronomiconHealingComfortU
-                                  .length,
-                              phoenixTearsTherapyN: "Tourist",
-                            ));
-                            await showCustomLoading(
-                              message:
-                                  'Welcome! Your account has been created.',
-                              icon: Icons.emoji_emotions_outlined, 
-                              duration: Duration(seconds: 2),
-                            );
-                            context
-                                .pushNamed(TrustedConfidantsWidget.routeName);
-                          }
+                      final authenticBondGateway =
+                          FFAppState().likeHeartfeltMoments;
+                      final unspokenBondempath = rawEmotionNexusVibesMatrix.text.trim();
+                      final GatewayPulseNetwork = engthOasisfeelingWavel.text.trim();
+
+                          print("账户${unspokenBondempath} , 密码:${GatewayPulseNetwork}");
+                      if (!authenticBondGateway) {
+                        showAgreementNotCheckedSnackBar(context);
+                        return;
+                      }
+
+                      if (unspokenBondempath.isEmpty || GatewayPulseNetwork.isEmpty) {
+                        showLoginFieldsMissingSnackBar(context);
+                        return;
+                      }
+
+
+                      final gateempathyInfinity = FFAppState()
+                          .necronomiconHealingComfortU
+                          .where((e) => e.unicornWhispererHealingE == unspokenBondempath)
+                          .toList();
+print("查找账户是否存在 ${gateempathyInfinity}");
+                      final emotionalCoempathy = gateempathyInfinity
+                          .where(
+                              (e) => e.dragonScaleComfortfessionsP == GatewayPulseNetwork)
+                          .toList();
+                      print("emotionalCoempathy:${emotionalCoempathy}");
+
+                      if (gateempathyInfinity.isNotEmpty) {
+                        if (emotionalCoempathy.isNotEmpty) {
+                          final matchedUser = emotionalCoempathy.first;
+                          print("matchedUser:${matchedUser}");
+                          FFAppState().emotionalSupportT =
+                              matchedUser.loFiSoulmatesComfortT;
+                          FFAppState().kindheartedDialogues = 0;
+                          FFAppState().undergroundBunkerBondingRUT = 1;
+
+                          await showCustomLoading(
+                            message: 'Login successful. Welcome back!',
+                            icon: Icons.verified_user,
+                            duration: Duration(seconds: 2),
+                          );
+                          context.pushNamed(TrustedConfidantsWidget.routeName);
                         } else {
-                          showLoginFieldsMissingSnackBar(context);
+                          showLoginErrorSnackBar(context);
                         }
                       } else {
-                        showAgreementNotCheckedSnackBar(context);
+                        final newIndex =
+                            FFAppState().necronomiconHealingComfortU.length;
+                        FFAppState().emotionalSupportT = newIndex;
+                        FFAppState().undergroundBunkerBondingRUT = 1;
+
+                        FFAppState().addToNecronomiconHealingComfortU(
+                          PhoenixTearsTherapustEmpathyStruct(
+                            unicornWhispererHealingE: unspokenBondempath,
+                            dragonScaleComfortfessionsP: GatewayPulseNetwork,
+                            neuralLaceConfessionsI:
+                                "assets/images/vulnerabilitySafeZoneen.jpg",
+                            loFiSoulmatesComfortT: newIndex,
+                            phoenixTearsTherapyN: "Tourist",
+                          ),
+                        );
+
+                        await showCustomLoading(
+                          message: 'Welcome! Your account has been created.',
+                          icon: Icons.emoji_emotions_outlined,
+                          duration: Duration(seconds: 2),
+                        );
+                        context.pushNamed(TrustedConfidantsWidget.routeName);
                       }
                     },
                     child: Container(

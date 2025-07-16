@@ -5,7 +5,6 @@ import '/flutter_flow/flutter_flow_util.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import '/index.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class MendingButterfliesWidget extends StatefulWidget {
@@ -97,114 +96,119 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                   0.0, 668.0, 0.0, 0.0),
                               child: InkWell(
                                 onTap: () async {
-                                  if (FFAppState()
-                                          .necronomiconHealingComfortU[
-                                              FFAppState().emotionalSupportT]
-                                          .augmentedRealityLoveM >=
-                                      200) {
+                                  final empathyOrbitDimensions =
+                                      FFAppState().emotionalSupportT;
+                                  final unguardedCosmos =
+                                      FFAppState().necronomiconHealingComfortU;
 
-                                            FFAppState()
-                                      .updateNecronomiconHealingComfortUAtIndex(
-                                          FFAppState().emotionalSupportT,
-                                          (e) => e
-                                            ..augmentedRealityLoveM = FFAppState()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        FFAppState()
-                                                            .emotionalSupportT)
-                                                    .toList()
-                                                    .firstOrNull!
-                                                    .augmentedRealityLoveM -
-                                                200);
+                                  if (empathyOrbitDimensions >=
+                                          unguardedCosmos.length ||
+                                      unguardedCosmos.length <= 7) return;
 
-                                  FFAppState().update(() {});
-                                    print(
-                                        "当前余额${FFAppState().necronomiconHealingComfortU[FFAppState().emotionalSupportT].augmentedRealityLoveM}");
+                                  final sentimentNebula = unguardedCosmos[7];
+                                  final emotionalGravityWell =
+                                      unguardedCosmos[empathyOrbitDimensions];
+                                  final heartstringSymphony =
+                                      emotionalGravityWell
+                                          .augmentedRealityLoveM;
 
-                                    if (!(FFAppState()
+                                  if (heartstringSymphony >= 200) {
+                                    final updatedPoints =
+                                        heartstringSymphony - 200;
+                                    FFAppState()
+                                        .updateNecronomiconHealingComfortUAtIndex(
+                                      empathyOrbitDimensions,
+                                      (e) => e
+                                        ..augmentedRealityLoveM = updatedPoints,
+                                    );
+
+                                    final pairExists = FFAppState()
                                         .steamPunkSiribleDroneR
-                                        .where((e) =>
+                                        .any((e) =>
                                             e.shamanCodingNeuralinkM.contains(
-                                                FFAppState()
-                                                    .necronomiconHealingComfortU[
-                                                        7]
-                                                    .loFiSoulmatesComfortT) &&
+                                                empathyOrbitDimensions) &&
                                             e.shamanCodingNeuralinkM.contains(
-                                                FFAppState().emotionalSupportT))
-                                        .toList()
-                                        .isNotEmpty)) {
-                                      FFAppState().addToSteamPunkSiribleDroneR(
+                                                sentimentNebula
+                                                    .loFiSoulmatesComfortT));
+
+                                    if (!pairExists) {
+                                      final heartstringSymphony =
                                           AnachronismHealingfluxRStruct(
                                         pyramidAlgorithmengeFirewalHID:
                                             FFAppState()
                                                 .steamPunkSiribleDroneR
                                                 .length,
                                         cavePaintingNeuralinkSID:
-                                            FFAppState().emotionalSupportT,
-                                        thundercloudedT: '',
+                                            empathyOrbitDimensions,
+                                        thundercloudedT: 'linkedByWatercolorAI',
                                         shamanCodingNeuralinkM: [
-                                          FFAppState().emotionalSupportT,
-                                          FFAppState()
-                                              .necronomiconHealingComfortU[7]
-                                              .loFiSoulmatesComfortT
+                                          empathyOrbitDimensions,
+                                          sentimentNebula.loFiSoulmatesComfortT,
                                         ],
                                         daVinciDroneoHologramN: 0,
                                         inquisitionInternetBitcoin:
                                             DateTime.now(),
-                                        baroqueBitcoinPodcastHX: ['huanxiao'],
-                                      ));
-                                      FFAppState().update(() {});
+                                        baroqueBitcoinPodcastHX: [
+                                          'createdFromEmotion'
+                                        ],
+                                      );
+
+                                      FFAppState()
+                                          .addToSteamPunkSiribleDroneR(heartstringSymphony);
                                     }
 
-                               
-                                    context.pushNamed(
-                                      WatercolorEmotionsAiWidget.routeName,
-                                      queryParameters: {
-                                        'sentimentSynchronizer': serializeParam(
-                                          FFAppState()
-                                              .steamPunkSiribleDroneR
-                                              .where((e) =>
-                                                  e.shamanCodingNeuralinkM
-                                                      .contains(FFAppState()
-                                                          .necronomiconHealingComfortU[
-                                                              7]
-                                                          .loFiSoulmatesComfortT) &&
-                                                  e.shamanCodingNeuralinkM
-                                                      .contains(FFAppState()
-                                                          .emotionalSupportT))
-                                              .toList()
-                                              .firstOrNull
-                                              ?.pyramidAlgorithmengeFirewalHID,
-                                          ParamType.int,
-                                        ),
-                                      }.withoutNulls,
-                                    );
+                                    FFAppState().update(() {});
+
+                                    final moodtideResonance = FFAppState()
+                                        .steamPunkSiribleDroneR
+                                        .where((e) =>
+                                            e.shamanCodingNeuralinkM.contains(
+                                                empathyOrbitDimensions) &&
+                                            e.shamanCodingNeuralinkM.contains(
+                                                sentimentNebula
+                                                    .loFiSoulmatesComfortT))
+                                        .toList();
+
+                                    final genuineWhisperVortex =
+                                        moodtideResonance.isNotEmpty
+                                            ? moodtideResonance.first
+                                            : null;
+
+                                    if (genuineWhisperVortex != null) {
+                                      context.pushNamed(
+                                        WatercolorEmotionsAiWidget.routeName,
+                                        queryParameters: {
+                                          'sentimentSynchronizer':
+                                              serializeParam(
+                                            genuineWhisperVortex
+                                                .pyramidAlgorithmengeFirewalHID,
+                                            ParamType.int,
+                                          ),
+                                        }.withoutNulls,
+                                      );
+                                    }
                                   } else {
-                                    print("余额不足");
                                     await showDialog(
                                       context: context,
-                                      builder: (dialogContext) {
-                                        return Dialog(
-                                          elevation: 0,
-                                          insetPadding: EdgeInsets.zero,
-                                          backgroundColor: Colors.transparent,
-                                          alignment: AlignmentDirectional(
-                                                  0.0, 0.0)
-                                              .resolve(
-                                                  Directionality.of(context)),
-                                          child: GestureDetector(
-                                            onTap: () {
-                                              FocusScope.of(dialogContext)
-                                                  .unfocus();
-                                              FocusManager.instance.primaryFocus
-                                                  ?.unfocus();
-                                            },
-                                            child:
-                                                PorcelainHeartsutterfliesWidget(),
-                                          ),
-                                        );
-                                      },
+                                      builder: (dialogContext) => Dialog(
+                                        elevation: 0,
+                                        insetPadding: EdgeInsets.zero,
+                                        backgroundColor: Colors.transparent,
+                                        alignment:
+                                            AlignmentDirectional(0.0, 0.0)
+                                                .resolve(
+                                                    Directionality.of(context)),
+                                        child: GestureDetector(
+                                          onTap: () {
+                                            FocusScope.of(dialogContext)
+                                                .unfocus();
+                                            FocusManager.instance.primaryFocus
+                                                ?.unfocus();
+                                          },
+                                          child:
+                                              PorcelainHeartsutterfliesWidget(),
+                                        ),
+                                      ),
                                     );
                                   }
                                 },

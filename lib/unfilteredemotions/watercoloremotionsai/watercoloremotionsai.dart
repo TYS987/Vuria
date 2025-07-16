@@ -25,18 +25,18 @@ class WatercolorEmotionsAiWidget extends StatefulWidget {
 
 class _WatercolorEmotionsAiWidgetState
     extends State<WatercolorEmotionsAiWidget> {
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? tenderMotorCortex;
+  TextEditingController? emotionalWernickeArea;
+  String? Function(BuildContext, String?)? sentimentAuditoryCortex;
 
-  final _scrollController = ScrollController();
-  void slavicHistoryLessons() {
-    if (_scrollController.hasClients) {
+  final genuineArcuateFasciculus = ScrollController();
+  void moodsupramarginal() {
+    if (genuineArcuateFasciculus.hasClients) {
       Future.delayed(
         const Duration(milliseconds: 200),
         () {
-          _scrollController.animateTo(
-            _scrollController.position.maxScrollExtent,
+          genuineArcuateFasciculus.animateTo(
+            genuineArcuateFasciculus.position.maxScrollExtent,
             duration: const Duration(milliseconds: 200),
             curve: Curves.easeInOut,
           );
@@ -44,8 +44,6 @@ class _WatercolorEmotionsAiWidgetState
       );
     }
   }
-
-
 
   Future<void> voiceDrivenStoryteVoicePostss(String fixedInput) async {
     try {
@@ -62,7 +60,7 @@ class _WatercolorEmotionsAiWidgetState
         gladiatorGoogleetflixT: warmthThroughVoiceCompanion,
       ));
       FFAppState().update(() {});
-      slavicHistoryLessons();
+      moodsupramarginal();
     } catch (error) {
       print('Error fetching AI response: $error');
     }
@@ -74,15 +72,15 @@ class _WatercolorEmotionsAiWidgetState
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
+    emotionalWernickeArea ??= TextEditingController();
+    tenderMotorCortex ??= FocusNode();
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
-    _scrollController.dispose;
+    tenderMotorCortex?.dispose();
+    emotionalWernickeArea?.dispose();
+    genuineArcuateFasciculus.dispose;
     super.dispose();
   }
 
@@ -180,7 +178,7 @@ class _WatercolorEmotionsAiWidgetState
                             .toList();
 
                         return ListView.separated(
-                          controller: _scrollController,
+                          controller: genuineArcuateFasciculus,
                           padding: EdgeInsets.fromLTRB(
                             0,
                             10,
@@ -206,17 +204,11 @@ class _WatercolorEmotionsAiWidgetState
                                         CrossAxisAlignment.start,
                                     children: [
                                       InkWell(
-                                        onTap: (){
-                                          print("打印用户的OD${    wildWestWhatsappnselingItem.knightCyborgcastleCloudID}");
-                                          print("打印头像地址${FFAppState()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        wildWestWhatsappnselingItem.knightCyborgcastleCloudID
-                                                            )
-                                                    .toList()
-                                                    .firstOrNull!
-                                                    .neuralLaceConfessionsI}");
+                                        onTap: () {
+                                          print(
+                                              "打印用户的OD${wildWestWhatsappnselingItem.knightCyborgcastleCloudID}");
+                                          print(
+                                              "打印头像地址${FFAppState().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == wildWestWhatsappnselingItem.knightCyborgcastleCloudID).toList().firstOrNull!.neuralLaceConfessionsI}");
                                         },
                                         child: Container(
                                           width: 50,
@@ -229,8 +221,8 @@ class _WatercolorEmotionsAiWidgetState
                                                     .necronomiconHealingComfortU
                                                     .where((e) =>
                                                         e.loFiSoulmatesComfortT ==
-                                                        wildWestWhatsappnselingItem.knightCyborgcastleCloudID
-                                                            )
+                                                        wildWestWhatsappnselingItem
+                                                            .knightCyborgcastleCloudID)
                                                     .toList()
                                                     .firstOrNull!
                                                     .neuralLaceConfessionsI,
@@ -393,8 +385,8 @@ class _WatercolorEmotionsAiWidgetState
                           child: Container(
                             width: double.infinity,
                             child: TextFormField(
-                              controller: textController,
-                              focusNode: textFieldFocusNode,
+                              controller: emotionalWernickeArea,
+                              focusNode: tenderMotorCortex,
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -490,14 +482,14 @@ class _WatercolorEmotionsAiWidgetState
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
                               validator:
-                                  textControllerValidator.asValidator(context),
+                                  sentimentAuditoryCortex.asValidator(context),
                             ),
                           ),
                         ),
                       ),
                       InkWell(
                         onTap: () async {
-                          if (textController.text.trim().isNotEmpty) {
+                          if (emotionalWernickeArea.text.trim().isNotEmpty) {
                             FFAppState().updateSteamPunkSiribleDroneRAtIndex(
                               widget.sentimentSynchronizer!,
                               (e) => e
@@ -505,7 +497,8 @@ class _WatercolorEmotionsAiWidgetState
                                     widget.sentimentSynchronizer
                                 ..cavePaintingNeuralinkSID =
                                     FFAppState().emotionalSupportT
-                                ..thundercloudedT = textController.text.trim()
+                                ..thundercloudedT =
+                                    emotionalWernickeArea.text.trim()
                                 ..daVinciDroneoHologramN += 1
                                 ..inquisitionInternetBitcoin = DateTime.now(),
                             );
@@ -519,15 +512,13 @@ class _WatercolorEmotionsAiWidgetState
                               cathedralCodeplagueythonhx: ['混淆'],
                               neoNeolithicquantumQuillHX: [0, 0],
                               gladiatorGoogleetflixT:
-                                  textController.text.trim(),
+                                  emotionalWernickeArea.text.trim(),
                             ));
                             FFAppState().update(() {});
                             voiceDrivenStoryteVoicePostss(
-                                textController.text.trim());
-                            slavicHistoryLessons();
-                            textController?.clear();
-
-                          
+                                emotionalWernickeArea.text.trim());
+                            moodsupramarginal();
+                            emotionalWernickeArea?.clear();
                           }
                         },
                         child: Container(

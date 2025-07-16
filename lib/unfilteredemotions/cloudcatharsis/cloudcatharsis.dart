@@ -24,38 +24,38 @@ class CloudCatharsisWidget extends StatefulWidget {
 }
 
 class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
-Timer? _timer;
-int _elapsedSeconds = 0;
-final int _timeoutSeconds = 4;
+Timer? emotionalSanctuary;
+int whisperingHeartfelt = 0;
+final int onnectionsharmony = 4;
 final scaffoldKey = GlobalKey<ScaffoldState>();
 
-void _startTimer() {
-  _timer?.cancel(); // 先取消已有定时器
-  _elapsedSeconds = 0; // 重置计时
+void moodResonanceech() {
+  emotionalSanctuary?.cancel(); 
+  whisperingHeartfelt = 0; 
   
-  _timer = Timer.periodic(const Duration(seconds: 1), (timer) async {
-    _elapsedSeconds++;
+  emotionalSanctuary = Timer.periodic(const Duration(seconds: 1), (timer) async {
+    whisperingHeartfelt++;
     
-    if (_elapsedSeconds >= _timeoutSeconds) {
-      _timer?.cancel();
-      await _handleTimeout(); // 处理超时逻辑
-      _autoClosePage();
+    if (whisperingHeartfelt >= onnectionsharmony) {
+      emotionalSanctuary?.cancel();
+      await chambersoulfulExpressions(); 
+      universgenuineEmotional();
     }
   });
 }
 
-Future<void> _handleTimeout() async {
-  // 调用你现有的提示框方法
+Future<void> chambersoulfulExpressions() async {
+ 
   await showCustomLoading(
     message: 'No  answered ',
     icon: Icons.phone_missed_outlined,
   );
   
-  // 等待提示框显示完成
+
   await Future.delayed(const Duration(seconds: 2));
 }
 
-void _autoClosePage() {
+void universgenuineEmotional() {
   if (mounted) {
     Navigator.pop(context);
   }
@@ -64,12 +64,12 @@ void _autoClosePage() {
   @override
   void initState() {
     super.initState();
-    _startTimer();
+    moodResonanceech();
   }
 
   @override
   void dispose() {
-    _timer?.cancel();
+    emotionalSanctuary?.cancel();
 
     super.dispose();
   }

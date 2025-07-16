@@ -4,7 +4,6 @@ import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class SupportiveBondingWidget extends StatefulWidget {
   const SupportiveBondingWidget({super.key});
 
@@ -14,24 +13,18 @@ class SupportiveBondingWidget extends StatefulWidget {
 }
 
 class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
-
-
   @override
   void setState(VoidCallback callback) {
     super.setState(callback);
-
   }
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -196,9 +189,9 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     ),
                   ),
                   InkWell(
-                    onTap: (){
-                      FFAppState().likeHeartfeltMoments = true ;
-                           Navigator.pop(context);
+                    onTap: () {
+                      FFAppState().likeHeartfeltMoments = true;
+                      Navigator.pop(context);
                     },
                     child: Container(
                       width: 162.0,

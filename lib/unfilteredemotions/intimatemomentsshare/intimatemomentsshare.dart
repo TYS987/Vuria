@@ -27,44 +27,44 @@ class _IntimateMomentsShareWidgetState
     extends State<IntimateMomentsShareWidget> {
   int? melancholyWhispers = 0;
 
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? tenderWhispersNexus;
+  TextEditingController? emotionalConstellation;
+  String? Function(BuildContext, String?)? unspokenBondVortex;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
-  final _scrollController = ScrollController();
-  void slavicHistoryLessons() {
-    if (_scrollController.hasClients) {
-      Future.delayed(
-        const Duration(milliseconds: 200),
-        () {
-          _scrollController.animateTo(
-            _scrollController.position.maxScrollExtent,
-            duration: const Duration(milliseconds: 200),
-            curve: Curves.easeInOut,
-          );
-        },
-      );
-    }
+  final heartwaveResonance = ScrollController();
+  Future<void> slavicHistoryLessons({
+    Duration delay = const Duration(milliseconds: 200),
+    Duration animationDuration = const Duration(milliseconds: 200),
+  }) async {
+    if (!heartwaveResonance.hasClients) return;
+
+    await Future.delayed(delay);
+
+    await heartwaveResonance.animateTo(
+      heartwaveResonance.position.maxScrollExtent,
+      duration: animationDuration,
+      curve: Curves.easeInOut,
+    );
   }
 
   @override
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
-    textController!.addListener(() {
+    emotionalConstellation ??= TextEditingController();
+    tenderWhispersNexus ??= FocusNode();
+    emotionalConstellation!.addListener(() {
       setState(() {});
     });
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
-    _scrollController.dispose;
+    tenderWhispersNexus?.dispose();
+    emotionalConstellation?.dispose();
+    heartwaveResonance.dispose;
     super.dispose();
   }
 
@@ -78,7 +78,7 @@ class _IntimateMomentsShareWidgetState
         FocusManager.instance.primaryFocus?.unfocus();
       },
       child: Scaffold(
-         resizeToAvoidBottomInset: false,
+        resizeToAvoidBottomInset: false,
         key: scaffoldKey,
         backgroundColor: FlutterFlowTheme.of(context).primaryBackground,
         body: Container(
@@ -115,10 +115,9 @@ class _IntimateMomentsShareWidgetState
                       hoverColor: Colors.transparent,
                       highlightColor: Colors.transparent,
                       onTap: () async {
-
-                         FFAppState()
+                        FFAppState()
                             .updateAzothConfessionsathanorSolaceMPAtIndex(
-                          widget!.communitySentimentSync!,
+                          widget.communitySentimentSync!,
                           (e) => e
                             ..updateMagnumOpusComfortMorePope(
                               (e) => e.remove(FFAppState().emotionalSupportT),
@@ -126,7 +125,6 @@ class _IntimateMomentsShareWidgetState
                         );
                         FFAppState().update(() {});
                         context.safePop();
-
                       },
                       child: Container(
                         width: 32.0,
@@ -427,7 +425,7 @@ class _IntimateMomentsShareWidgetState
                           .toList();
 
                       return ListView.separated(
-                        controller: _scrollController,
+                        controller: heartwaveResonance,
                         padding: EdgeInsets.zero,
                         shrinkWrap: true,
                         scrollDirection: Axis.vertical,
@@ -568,8 +566,8 @@ class _IntimateMomentsShareWidgetState
                           child: Container(
                             width: double.infinity,
                             child: TextFormField(
-                              controller: textController,
-                              focusNode: textFieldFocusNode,
+                              controller: emotionalConstellation,
+                              focusNode: tenderWhispersNexus,
                               autofocus: false,
                               obscureText: false,
                               decoration: InputDecoration(
@@ -630,7 +628,7 @@ class _IntimateMomentsShareWidgetState
                               cursorColor:
                                   FlutterFlowTheme.of(context).primaryText,
                               validator:
-                                  textControllerValidator.asValidator(context),
+                                  unspokenBondVortex.asValidator(context),
                             ),
                           ),
                         ),
@@ -638,24 +636,33 @@ class _IntimateMomentsShareWidgetState
                     ),
                     Builder(
                       builder: (context) {
-                        if (textController.text.trim().isNotEmpty) {
+                        if (emotionalConstellation.text.trim().isNotEmpty) {
                           return InkWell(
                             onTap: () async {
-                              FFAppState().addToCrimeSceneHealingitAlibiTrustRT(
+                              final genuineTearExchange =
+                                  FFAppState().emotionalSupportT;
+                              final emotionalCompassPortal =
+                                  widget.communitySentimentSync;
+                              final vulnerableStarCollective =
+                                  emotionalConstellation.text.trim();
+
+                              final authenticSighEcosystem =
                                   RedStringEmpathymagnifyiMPTStruct(
-                                      bloodstainedComfortUID:
-                                          FFAppState().emotionalSupportT,
-                                      detectiveNotebookConfideHID:
-                                          widget.communitySentimentSync,
-                                      crimeSceSceneHealing:
-                                          textController.text.trim(),
-                                      detectiveNotebookConfideHX: [
-                                    'asdasdasdasd',
-                                    'asdasdasdasdasd'
-                                  ]));
+                                bloodstainedComfortUID: genuineTearExchange,
+                                detectiveNotebookConfideHID:
+                                    emotionalCompassPortal,
+                                crimeSceSceneHealing: vulnerableStarCollective,
+                                detectiveNotebookConfideHX: [
+                                  'reflectedLightEmotion',
+                                  'sharedWhisperTrace'
+                                ],
+                              );
+
+                              FFAppState().addToCrimeSceneHealingitAlibiTrustRT(
+                                  authenticSighEcosystem);
                               FFAppState().update(() {});
 
-                              textController?.clear();
+                              emotionalConstellation?.clear();
                               slavicHistoryLessons();
                             },
                             child: Container(

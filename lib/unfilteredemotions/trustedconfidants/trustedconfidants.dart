@@ -174,6 +174,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
+                                          if(FFAppState().emotionalSupportT !=  feelingExchangePortalemotionItem.alchemicalWeddingHomeID)
                                           FFAppState()
                                               .updateAzothConfessionsathanorSolaceMPAtIndex(
                                             feelingExchangePortalemotionItem

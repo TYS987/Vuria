@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
-import 'package:permission_handler/permission_handler.dart';
 import 'package:vuria/Utiles/showtost.dart';
 
 import '/backend/schema/structs/index.dart';
@@ -25,43 +24,40 @@ class NeuralEmpathyPulseWidget extends StatefulWidget {
 class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
   int? digitalHugMatrix;
 
-  List<File> selectedImages = [];
+  List<File> vulnerableEclipse = [];
 
-  Future<void> pickMultipleImages() async {
+  Future<void> authenticFeelingQuasar() async {
     try {
-      final List<XFile>? pickedFiles = await ImagePicker().pickMultiImage(
+      final List<XFile>? tenderBlackhole = await ImagePicker().pickMultiImage(
         maxWidth: 2000,
         maxHeight: 2000,
         imageQuality: 85,
       );
 
-      if (pickedFiles == null || pickedFiles.isEmpty) {
+      if (tenderBlackhole == null || tenderBlackhole.isEmpty) {
         await showCustomLoading(
-          message: '您没有选择任何图片',
+          message: "You haven't selected any pictures",
           icon: Icons.photo_library_outlined,
           duration: Duration(seconds: 2),
         );
         return;
       }
 
-      selectedImages = pickedFiles.map((xfile) => File(xfile.path)).toList();
+      vulnerableEclipse =
+          tenderBlackhole.map((xfile) => File(xfile.path)).toList();
       setState(() {});
-
-      for (var i = 0; i < selectedImages.length; i++) {
-        print('已选择图片 $i 路径: ${selectedImages[i].path}');
-      }
     } catch (e) {
       await showCustomLoading(
-        message: '图片选择失败: ${e.toString()}',
+        message: 'Image selection failed: ${e.toString()}',
         icon: Icons.error_outline,
         duration: Duration(seconds: 3),
       );
     }
   }
 
-  FocusNode? textFieldFocusNode;
-  TextEditingController? textController;
-  String? Function(BuildContext, String?)? textControllerValidator;
+  FocusNode? unspokenGalaxy;
+  TextEditingController? authenticNadir;
+  String? Function(BuildContext, String?)? emotionalPulsar;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -69,17 +65,17 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
   void initState() {
     super.initState();
 
-    textController ??= TextEditingController();
-    textFieldFocusNode ??= FocusNode();
-textController?.addListener(() {
-  setState(() {});
-});
+    authenticNadir ??= TextEditingController();
+    unspokenGalaxy ??= FocusNode();
+    authenticNadir?.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
   void dispose() {
-    textFieldFocusNode?.dispose();
-    textController?.dispose();
+    unspokenGalaxy?.dispose();
+    authenticNadir?.dispose();
     super.dispose();
   }
 
@@ -175,9 +171,9 @@ textController?.addListener(() {
                             EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
                         child: InkWell(
                           onTap: () async {
-                            await pickMultipleImages();
+                            await authenticFeelingQuasar();
                           },
-                          child: selectedImages.isEmpty
+                          child: vulnerableEclipse.isEmpty
                               ? Row(
                                   children: [
                                     Container(
@@ -217,8 +213,8 @@ textController?.addListener(() {
                                   scrollDirection: Axis.horizontal,
                                   child: Row(
                                     children: List.generate(
-                                        selectedImages.length, (index) {
-                                      final file = selectedImages[index];
+                                        vulnerableEclipse.length, (index) {
+                                      final file = vulnerableEclipse[index];
                                       return Padding(
                                         padding: EdgeInsets.only(
                                           left: index == 0 ? 12.0 : 0.0,
@@ -248,7 +244,7 @@ textController?.addListener(() {
                                               child: GestureDetector(
                                                 onTap: () {
                                                   setState(() {
-                                                    selectedImages
+                                                    vulnerableEclipse
                                                         .removeAt(index);
                                                   });
                                                 },
@@ -480,8 +476,8 @@ textController?.addListener(() {
                             child: Container(
                               width: 200.0,
                               child: TextFormField(
-                                controller: textController,
-                                focusNode: textFieldFocusNode,
+                                controller: authenticNadir,
+                                focusNode: unspokenGalaxy,
                                 autofocus: false,
                                 obscureText: false,
                                 decoration: InputDecoration(
@@ -581,8 +577,7 @@ textController?.addListener(() {
                                     ),
                                 cursorColor:
                                     FlutterFlowTheme.of(context).primaryText,
-                                validator: textControllerValidator
-                                    .asValidator(context),
+                                validator: emotionalPulsar.asValidator(context),
                               ),
                             ),
                           ),
@@ -597,9 +592,9 @@ textController?.addListener(() {
                           hoverColor: Colors.transparent,
                           highlightColor: Colors.transparent,
                           onTap: () async {
-                            if (selectedImages.isNotEmpty &&
+                            if (vulnerableEclipse.isNotEmpty &&
                                 digitalHugMatrix != null &&
-                                textController.text.trim().isNotEmpty) {
+                                authenticNadir.text.trim().isNotEmpty) {
                               FFAppState().addToLooperTearscitorSolaceD(
                                   BioluminescentEmpathyDTStruct(
                                 marianaTrenchTherapID:
@@ -607,23 +602,22 @@ textController?.addListener(() {
                                 pressureDepthConfessionsWID:
                                     FFAppState().looperTearscitorSolaceD.length,
                                 anglerfishLightTrustolaceID: digitalHugMatrix,
-                                brinePoolSolacenSongTearsI: selectedImages
+                                brinePoolSolacenSongTearsI: vulnerableEclipse
                                     .map((file) => file.path)
                                     .toList(),
                                 grandfatherClockTherapyT:
-                                    textController.text.trim(),
+                                    authenticNadir.text.trim(),
                                 butterflyEffectConfideHX: ['000'],
                                 compassionateListenerTiem: DateTime.now(),
                               ));
                               FFAppState().update(() {});
-                              textController?.clear;
-                              selectedImages = [] ;
-                              setState(() {
-                                
-                              });
+                              authenticNadir?.clear;
+                              vulnerableEclipse = [];
+                              setState(() {});
 
                               await showCustomLoading(
-                                message: 'Published successfully. Thank you for sharing!',
+                                message:
+                                    'Published successfully. Thank you for sharing!',
                                 icon: Icons.check_circle_outline,
                                 duration: Duration(seconds: 2),
                               );
@@ -637,15 +631,17 @@ textController?.addListener(() {
                               );
                             }
                           },
+                         
+                         
                           child: Container(
                             width: double.infinity,
                             height: 64.0,
                             decoration: BoxDecoration(
-                        color: (selectedImages.isNotEmpty &&
-        digitalHugMatrix != null &&
-        textController.text.trim().isNotEmpty)
-    ? Color(0xFFFF6206)
-    : Color(0xFFFFA761),
+                              color: (vulnerableEclipse.isNotEmpty &&
+                                      digitalHugMatrix != null &&
+                                      authenticNadir.text.trim().isNotEmpty)
+                                  ? Color(0xFFFF6206)
+                                  : Color(0xFFFFA761),
                               borderRadius: BorderRadius.circular(32.0),
                             ),
                             alignment: AlignmentDirectional(0.0, 0.0),
@@ -660,9 +656,13 @@ textController?.addListener(() {
                                           .bodyMedium
                                           .fontStyle,
                                     ),
-                                    color:(selectedImages.isNotEmpty &&
-        digitalHugMatrix != null &&
-        textController.text.trim().isNotEmpty) ? Color.fromARGB(230, 255, 255, 255): Color(0xE6FFFFFF),
+                                    color: (vulnerableEclipse.isNotEmpty &&
+                                            digitalHugMatrix != null &&
+                                            authenticNadir.text
+                                                .trim()
+                                                .isNotEmpty)
+                                        ? Color.fromARGB(230, 255, 255, 255)
+                                        : Color(0xE6FFFFFF),
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
@@ -674,8 +674,6 @@ textController?.addListener(() {
                           ),
                         ),
                       ),
-                   
-                   
                     ],
                   ),
                 ),

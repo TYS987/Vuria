@@ -856,7 +856,6 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                     mainAxisSize: MainAxisSize.max,
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                 
                       Container(
                         width: 48,
                         height: 30,
