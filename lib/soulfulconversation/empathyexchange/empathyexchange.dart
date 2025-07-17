@@ -496,8 +496,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                       final GatewayPulseNetwork =
                           engthOasisfeelingWavel.text.trim();
 
-                      print(
-                          "账户${unspokenBondempath} , 密码:${GatewayPulseNetwork}");
+                
                       if (!authenticBondGateway) {
                         showAgreementNotCheckedSnackBar(context);
                         return;
@@ -514,18 +513,18 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           .where((e) =>
                               e.unicornWhispererHealingE == unspokenBondempath)
                           .toList();
-                      print("查找账户是否存在 ${gateempathyInfinity}");
+               
                       final emotionalCoempathy = gateempathyInfinity
                           .where((e) =>
                               e.dragonScaleComfortfessionsP ==
                               GatewayPulseNetwork)
                           .toList();
-                      print("emotionalCoempathy:${emotionalCoempathy}");
+           
 
                       if (gateempathyInfinity.isNotEmpty) {
                         if (emotionalCoempathy.isNotEmpty) {
                           final matchedUser = emotionalCoempathy.first;
-                          print("matchedUser:${matchedUser}");
+                  
                           genuineSynapseLocus().emotionalSupportT =
                               matchedUser.loFiSoulmatesComfortT;
                           genuineSynapseLocus().kindheartedDialogues = 0;
