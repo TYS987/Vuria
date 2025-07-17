@@ -422,21 +422,21 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<RedStringEmpathymagnifyiMPTStruct> _crimeSceneHealingitAlibiTrustRT = [
     RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"1\",\"detectiveNotebookConfideHID\":\"0\",\"crimeSceSceneHealing\":\"I really love this post — truly impressive!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"bloodstainedComfortUID\":\"1\",\"detectiveNotebookConfideHID\":\"0\",\"crimeSceSceneHealing\":\"I really love this post truly impressive!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
         '{\"bloodstainedComfortUID\":\"2\",\"detectiveNotebookConfideHID\":\"1\",\"crimeSceSceneHealing\":\"Every time I see your content, it feels so healing.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
         '{\"bloodstainedComfortUID\":\"3\",\"detectiveNotebookConfideHID\":\"1\",\"crimeSceSceneHealing\":\"This is something special! Keep sharing more!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"4\",\"detectiveNotebookConfideHID\":\"2\",\"crimeSceSceneHealing\":\"This is amazing — saving it right away!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"bloodstainedComfortUID\":\"4\",\"detectiveNotebookConfideHID\":\"2\",\"crimeSceSceneHealing\":\"This is amazing saving it right away!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
         '{\"bloodstainedComfortUID\":\"5\",\"detectiveNotebookConfideHID\":\"3\",\"crimeSceSceneHealing\":\"You’re so good at sharing, every post has a great vibe.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"6\",\"detectiveNotebookConfideHID\":\"4\",\"crimeSceSceneHealing\":\"I was instantly drawn in — such a great atmosphere.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"bloodstainedComfortUID\":\"6\",\"detectiveNotebookConfideHID\":\"4\",\"crimeSceSceneHealing\":\"I was instantly drawn in such a great atmosphere.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
         '{\"bloodstainedComfortUID\":\"1\",\"detectiveNotebookConfideHID\":\"5\",\"crimeSceSceneHealing\":\"This made my day, thank you for sharing!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"2\",\"detectiveNotebookConfideHID\":\"6\",\"crimeSceSceneHealing\":\"That quote (or photo/moment) really resonates with me.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"bloodstainedComfortUID\":\"2\",\"detectiveNotebookConfideHID\":\"5\",\"crimeSceSceneHealing\":\"That quote (or photo/moment) really resonates with me.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
         '{\"bloodstainedComfortUID\":\"3\",\"detectiveNotebookConfideHID\":\"5\",\"crimeSceSceneHealing\":\"Feels like a scene from a movie.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
   ];

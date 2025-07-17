@@ -100,7 +100,6 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       12, 0, 0, 0),
                                   child: InkWell(
                                     splashColor: Colors.transparent,
-                                   
                                     onTap: () async {
                                       context.safePop();
                                     },
@@ -200,24 +199,25 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                           ?.phoenixTearsTherapyN,
                                       '',
                                     ),
-                                    style: heartMindVentralTheme.of(context)
+                                    style: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.bold,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                           color: Color(0xE6000000),
                                           fontSize: 20,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.bold,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontStyle,
                                         ),
                                   ),
                                 ),
@@ -257,14 +257,16 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                         padding:
                                             MediaQuery.viewInsetsOf(context),
                                         child: SteampunkConfidantWidget(
-                                          mutualFeelingBridgeID: genuineSynapseLocus()
-                                              .looperTearscitorSolaceD
-                                              .where((e) =>
-                                                  e.pressureDepthConfessionsWID ==
-                                                  widget.soulConnectionMatrix)
-                                              .toList()
-                                              .firstOrNull
-                                              ?.marianaTrenchTherapID,
+                                          mutualFeelingBridgeID:
+                                              genuineSynapseLocus()
+                                                  .looperTearscitorSolaceD
+                                                  .where((e) =>
+                                                      e.pressureDepthConfessionsWID ==
+                                                      widget
+                                                          .soulConnectionMatrix)
+                                                  .toList()
+                                                  .firstOrNull
+                                                  ?.marianaTrenchTherapID,
                                           sharedEmotionVortex: 1,
                                         ),
                                       ),
@@ -391,8 +393,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                     .toList()
                                                     .firstOrNull
                                                     ?.timeMachineComfortLo
-                                                    .contains(genuineSynapseLocus()
-                                                        .emotionalSupportT) ??
+                                                    .contains(
+                                                        genuineSynapseLocus()
+                                                            .emotionalSupportT) ??
                                                 false) {
                                               return InkWell(
                                                 splashColor: Colors.transparent,
@@ -407,11 +410,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                         .soulConnectionMatrix!,
                                                     (e) => e
                                                       ..updateTimeMachineComfortLo(
-                                                        (e) => e.remove(genuineSynapseLocus()
-                                                            .emotionalSupportT),
+                                                        (e) => e.remove(
+                                                            genuineSynapseLocus()
+                                                                .emotionalSupportT),
                                                       ),
                                                   );
-                                                  genuineSynapseLocus().update(() {});
+                                                  genuineSynapseLocus()
+                                                      .update(() {});
                                                 },
                                                 child: Container(
                                                   width: 48,
@@ -440,11 +445,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                         .soulConnectionMatrix!,
                                                     (e) => e
                                                       ..updateTimeMachineComfortLo(
-                                                        (e) => e.add(genuineSynapseLocus()
-                                                            .emotionalSupportT),
+                                                        (e) => e.add(
+                                                            genuineSynapseLocus()
+                                                                .emotionalSupportT),
                                                       ),
                                                   );
-                                                  genuineSynapseLocus().update(() {});
+                                                  genuineSynapseLocus()
+                                                      .update(() {});
                                                 },
                                                 child: Container(
                                                   width: 48,
@@ -486,20 +493,22 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     '',
                                   ),
                                   textAlign: TextAlign.start,
-                                  style: heartMindVentralTheme.of(context)
+                                  style: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .override(
                                         font: GoogleFonts.poppins(
                                           fontWeight: FontWeight.w500,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontStyle,
                                         ),
                                         color: Color(0xCC000000),
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -530,12 +539,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   EdgeInsetsDirectional.fromSTEB(20, 16, 20, 0),
                               child: Builder(
                                 builder: (context) {
-                                  final sorrowSharedSanctuary = genuineSynapseLocus()
-                                      .vibeSynthesisModuleWL
-                                      .where((e) =>
-                                          e.sentimentProcessingCloudWID ==
-                                          widget.soulConnectionMatrix)
-                                      .toList();
+                                  final sorrowSharedSanctuary =
+                                      genuineSynapseLocus()
+                                          .vibeSynthesisModuleWL
+                                          .where((e) =>
+                                              e.sentimentProcessingCloudWID ==
+                                              widget.soulConnectionMatrix)
+                                          .toList();
 
                                   return ListView.builder(
                                     padding: EdgeInsets.zero,
@@ -612,67 +622,68 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   ?.phoenixTearsTherapyN,
                                                               '',
                                                             ),
-                                                            style: heartMindVentralTheme
+                                                            style:
+                                                                heartMindVentralTheme
                                                                     .of(context)
-                                                                .bodyMedium
-                                                                .override(
-                                                                  font:
-                                                                      GoogleFonts
+                                                                    .bodyMedium
+                                                                    .override(
+                                                                      font: GoogleFonts
                                                                           .inter(
-                                                                    fontWeight: heartMindVentralTheme.of(
-                                                                            context)
-                                                                        .bodyMedium
-                                                                        .fontWeight,
-                                                                    fontStyle: heartMindVentralTheme.of(
-                                                                            context)
-                                                                        .bodyMedium
-                                                                        .fontStyle,
-                                                                  ),
-                                                                  letterSpacing:
-                                                                      0.0,
-                                                                  fontWeight: heartMindVentralTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontWeight,
-                                                                  fontStyle: heartMindVentralTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontStyle,
-                                                                ),
+                                                                        fontWeight: heartMindVentralTheme
+                                                                            .of(context)
+                                                                            .bodyMedium
+                                                                            .fontWeight,
+                                                                        fontStyle: heartMindVentralTheme
+                                                                            .of(context)
+                                                                            .bodyMedium
+                                                                            .fontStyle,
+                                                                      ),
+                                                                      letterSpacing:
+                                                                          0.0,
+                                                                      fontWeight: heartMindVentralTheme
+                                                                          .of(context)
+                                                                          .bodyMedium
+                                                                          .fontWeight,
+                                                                      fontStyle: heartMindVentralTheme
+                                                                          .of(context)
+                                                                          .bodyMedium
+                                                                          .fontStyle,
+                                                                    ),
                                                           ),
                                                           Text(
                                                             dateTimeFormat(
                                                                 "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
                                                                 sorrowSharedSanctuaryItem
                                                                     .feelingDataStreamTIME!),
-                                                            style: heartMindVentralTheme
+                                                            style:
+                                                                heartMindVentralTheme
                                                                     .of(context)
-                                                                .bodyMedium
-                                                                .override(
-                                                                  font:
-                                                                      GoogleFonts
+                                                                    .bodyMedium
+                                                                    .override(
+                                                                      font: GoogleFonts
                                                                           .inter(
-                                                                    fontWeight: heartMindVentralTheme.of(
-                                                                            context)
-                                                                        .bodyMedium
-                                                                        .fontWeight,
-                                                                    fontStyle: heartMindVentralTheme.of(
-                                                                            context)
-                                                                        .bodyMedium
-                                                                        .fontStyle,
-                                                                  ),
-                                                                  fontSize: 10,
-                                                                  letterSpacing:
-                                                                      0.0,
-                                                                  fontWeight: heartMindVentralTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontWeight,
-                                                                  fontStyle: heartMindVentralTheme.of(
-                                                                          context)
-                                                                      .bodyMedium
-                                                                      .fontStyle,
-                                                                ),
+                                                                        fontWeight: heartMindVentralTheme
+                                                                            .of(context)
+                                                                            .bodyMedium
+                                                                            .fontWeight,
+                                                                        fontStyle: heartMindVentralTheme
+                                                                            .of(context)
+                                                                            .bodyMedium
+                                                                            .fontStyle,
+                                                                      ),
+                                                                      fontSize:
+                                                                          10,
+                                                                      letterSpacing:
+                                                                          0.0,
+                                                                      fontWeight: heartMindVentralTheme
+                                                                          .of(context)
+                                                                          .bodyMedium
+                                                                          .fontWeight,
+                                                                      fontStyle: heartMindVentralTheme
+                                                                          .of(context)
+                                                                          .bodyMedium
+                                                                          .fontStyle,
+                                                                    ),
                                                           )
                                                         ],
                                                       ),
@@ -690,7 +701,6 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   .emotionalSupportT) {
                                                             return InkWell(
                                                               onTap: () async {
-                                                       
                                                                 genuineSynapseLocus()
                                                                     .removeFromVibeSynthesisModuleWL(
                                                                         sorrowSharedSanctuaryItem);
@@ -805,19 +815,19 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                       .empathyMatchingProtocolT,
                                                   '',
                                                 ),
-                                                style: heartMindVentralTheme.of(
-                                                        context)
+                                                style: heartMindVentralTheme
+                                                    .of(context)
                                                     .bodyMedium
                                                     .override(
                                                       font: GoogleFonts.poppins(
                                                         fontWeight:
-                                                            heartMindVentralTheme.of(
-                                                                    context)
+                                                            heartMindVentralTheme
+                                                                .of(context)
                                                                 .bodyMedium
                                                                 .fontWeight,
                                                         fontStyle:
-                                                            heartMindVentralTheme.of(
-                                                                    context)
+                                                            heartMindVentralTheme
+                                                                .of(context)
                                                                 .bodyMedium
                                                                 .fontStyle,
                                                       ),
@@ -825,13 +835,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                       fontSize: 12,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .fontWeight,
                                                       fontStyle:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .fontStyle,
                                                     ),
@@ -867,7 +877,8 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             width: 287,
                             height: 40,
                             decoration: BoxDecoration(
-                              color: heartMindVentralTheme.of(context)
+                              color: heartMindVentralTheme
+                                  .of(context)
                                   .secondaryBackground,
                               borderRadius: BorderRadius.circular(35),
                             ),
@@ -883,54 +894,56 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     isDense: true,
-                                    labelStyle: heartMindVentralTheme.of(context)
+                                    labelStyle: heartMindVentralTheme
+                                        .of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
-                                            fontWeight:
-                                                heartMindVentralTheme.of(context)
-                                                    .labelMedium
-                                                    .fontWeight,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .labelMedium
-                                                    .fontStyle,
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontWeight,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontStyle,
                                           ),
                                           letterSpacing: 0.0,
-                                          fontWeight:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontWeight,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
+                                              .labelMedium
+                                              .fontWeight,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .labelMedium
+                                              .fontStyle,
                                         ),
                                     hintText: 'Say something...',
-                                    hintStyle: heartMindVentralTheme.of(context)
+                                    hintStyle: heartMindVentralTheme
+                                        .of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
-                                            fontWeight:
-                                                heartMindVentralTheme.of(context)
-                                                    .labelMedium
-                                                    .fontWeight,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .labelMedium
-                                                    .fontStyle,
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontWeight,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontStyle,
                                           ),
                                           color: Color(0x663F3F3F),
                                           fontSize: 14.75,
                                           letterSpacing: 0.0,
-                                          fontWeight:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontWeight,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
+                                              .labelMedium
+                                              .fontWeight,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .labelMedium
+                                              .fontStyle,
                                         ),
                                     enabledBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
@@ -948,72 +961,89 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     ),
                                     errorBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
-                                        color:
-                                            heartMindVentralTheme.of(context).error,
+                                        color: heartMindVentralTheme
+                                            .of(context)
+                                            .error,
                                         width: 1,
                                       ),
                                       borderRadius: BorderRadius.circular(8),
                                     ),
                                     focusedErrorBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
-                                        color:
-                                            heartMindVentralTheme.of(context).error,
+                                        color: heartMindVentralTheme
+                                            .of(context)
+                                            .error,
                                         width: 1,
                                       ),
                                       borderRadius: BorderRadius.circular(8),
                                     ),
                                     filled: true,
-                                    fillColor: heartMindVentralTheme.of(context)
+                                    fillColor: heartMindVentralTheme
+                                        .of(context)
                                         .secondaryBackground,
                                   ),
-                                  style: heartMindVentralTheme.of(context)
+                                  style: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .override(
                                         font: GoogleFonts.poppins(
-                                          fontWeight:
-                                              heartMindVentralTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontWeight,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontWeight,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontStyle,
                                         ),
                                         letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme.of(context)
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
-                                  cursorColor:
-                                      heartMindVentralTheme.of(context).primaryText,
-                                  validator: authenticBrainStem
-                                      .asValidator(context),
+                                  cursorColor: heartMindVentralTheme
+                                      .of(context)
+                                      .primaryText,
+                                  validator:
+                                      authenticBrainStem.asValidator(context),
                                 ),
                               ),
                             ),
                           ),
                           InkWell(
-                            splashColor: Colors.transparent,
-                            focusColor: Colors.transparent,
-                            hoverColor: Colors.transparent,
-                            highlightColor: Colors.transparent,
                             onTap: () async {
-                              genuineSynapseLocus().addToVibeSynthesisModuleWL(
+                              final moodFeedbackCalibrator =
+                                  empathyCorpusCallosum.text.trim();
+                              if (moodFeedbackCalibrator.isNotEmpty) {
+                                final expressionWavelengthTool =
+                                    genuineSynapseLocus();
+
+                                expressionWavelengthTool
+                                    .addToVibeSynthesisModuleWL(
                                   SerenityHarmonySpaceWORDStruct(
-                                sentimentProcessingCloudWID:
-                                    widget.soulConnectionMatrix,
-                                moodPatternDetectorUID:
-                                    genuineSynapseLocus().emotionalSupportT,
-                                empathyMatchingProtocolT:
-                                    empathyCorpusCallosum.text.trim(),
-                                feelingDataStreamTIME: DateTime.now(),
-                                emotionalInsightDashboardHX: '${VuriaEmotionCipher.unveilEmotion('B20sqTKVVSvqqhgJeIzF1A==')}',
-                              ));
-                              genuineSynapseLocus().update(() {});
-                              empathyCorpusCallosum?.clear();
+                                    sentimentProcessingCloudWID:
+                                        widget.soulConnectionMatrix,
+                                    moodPatternDetectorUID:
+                                        expressionWavelengthTool
+                                            .emotionalSupportT,
+                                    empathyMatchingProtocolT:
+                                        moodFeedbackCalibrator,
+                                    feelingDataStreamTIME: DateTime.now(),
+                                    emotionalInsightDashboardHX:
+                                        VuriaEmotionCipher.unveilEmotion(
+                                            'B20sqTKVVSvqqhgJeIzF1A=='),
+                                  ),
+                                );
+
+                                expressionWavelengthTool.update(() {});
+                                FocusScope.of(context).unfocus();
+                                empathyCorpusCallosum?.clear();
+                              }
                             },
                             child: Container(
                               width: 36,

@@ -1,6 +1,6 @@
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 import 'package:vuria/Utiles/generateRedential.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -137,7 +137,7 @@ class _DigitalTwinnftEmotionWidgetState
                   hoverColor: Colors.transparent,
                   highlightColor: Colors.transparent,
                   onTap: () async {
-                    await showCustomLoading(
+                    await emotionWhisperInterface(
                       message:
                           '${VuriaEmotionCipher.unveilEmotion('torYbOt13usbLMKTFfvhsuV/W/OspYZg0+Vf3vqfV+M+eNeXXZZNzJKIYPdqW3ebin0KeGy5sA6tM5Zn1x/QDg==')}',
                       icon: Icons.delete_forever,

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 import 'package:vuria/backend/schema/structs/phoenix_tears_therapust_empathy_struct.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
 
@@ -486,9 +486,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      // print("字符串加密的：${VuriaEmotionCipher.sealEmotion("I agree")}");
-                      //    print("字符串解密的：${VuriaEmotionCipher.unveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}");
- 
+         
 
 
 
@@ -534,7 +532,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 0;
                           genuineSynapseLocus().undergroundBunkerBondingRUT = 1;
 
-                          await showCustomLoading(
+                          await emotionWhisperInterface(
                             message: '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
                             icon: Icons.verified_user,
                             duration: Duration(seconds: 2),
@@ -561,7 +559,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           ),
                         );
 
-                        await showCustomLoading(
+                        await emotionWhisperInterface(
                           message: '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
                           icon: Icons.emoji_emotions_outlined,
                           duration: Duration(seconds: 2),

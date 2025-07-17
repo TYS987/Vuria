@@ -1,5 +1,5 @@
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -57,7 +57,7 @@ class _NeuralPathNeuronMagicWidgetState
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-                await showCustomLoading(
+                await emotionWhisperInterface(
                   message: "${VuriaEmotionCipher.unveilEmotion('q8XQbOZ52uMHLNGTE/21/qBGWfHtsoYswfBTzvTeJ+I0dMGcCc8Ci+6gGJ4WOhr9')}",
                   icon: Icons.logout,
                   duration: Duration(seconds: 2),

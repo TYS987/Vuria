@@ -8,7 +8,7 @@ import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
 /// [message] 详细内容
 /// [contentType] 类型（success/failure/warning/info）
 /// [duration] 显示时长（默认2秒）
-void showAwesomeSnackBar({
+void resonanceNarrativeScope({
   required BuildContext context,
   required String title,
   required String message,
@@ -34,7 +34,7 @@ void showAwesomeSnackBar({
 
 // 提示登录失败
 void showLoginErrorSnackBar(BuildContext context) {
-  showAwesomeSnackBar(
+  resonanceNarrativeScope(
     context: context,
     title: '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2++UHLtPXeIzF1A==')}',
     message: '${VuriaEmotionCipher.unveilEmotion('q4zeI/hk2OcaYtfQH+e0vvQ2WuassYJ/xeZVyLCRJ983fMWBGMFY15+IcfF/W3zb7gFjRlKHqhS3KYx9zQXKFA==')}',
@@ -45,7 +45,7 @@ void showLoginErrorSnackBar(BuildContext context) {
 
 //  提示账户密码不能为空
 void showLoginFieldsMissingSnackBar(BuildContext context) {
-  showAwesomeSnackBar(
+  resonanceNarrativeScope(
     context: context,
     title: '${VuriaEmotionCipher.unveilEmotion('r4vOP+N42qQ8J8fGFfqktKBQXPHgpZAFv5gzs922DoY=')}',
     message: '${VuriaEmotionCipher.unveilEmotion('so7YLflzneIHLtqTFebhsu9iXbTtooBjw/9OmrXRY68reNeBCo5ewcbKdfBxQHfVkn4UMSv53STOV7Jo2BDfAQ==')}',
@@ -56,7 +56,7 @@ void showLoginFieldsMissingSnackBar(BuildContext context) {
 // 提示用户没有同意协议
 
 void showAgreementNotCheckedSnackBar(BuildContext context) {
-  showAwesomeSnackBar(
+  resonanceNarrativeScope(
     context: context,
     title: '${VuriaEmotionCipher.unveilEmotion('torYbOtxz+ELL9PdCKioo6B4WuCsoIR+0/RemqHPaOF1Fqv9cu4jqumnH5kRPR36')}',
     message: '${VuriaEmotionCipher.unveilEmotion('so7YLflznfYLI9KTHeal8OFxR/Hp4ZdjluVS3/TqdOopOeWVD4RJyIPGZLZ/XHbVrmMaICP0wyT3VvAEvmz6Yu1aJ8jGH7uuXCx6J02ToHI=')}',
@@ -78,7 +78,7 @@ Future<void> showAutoDismissLoading({required String message}) async {
 
 
 
-Future<void> showCustomLoading({
+Future<void> emotionWhisperInterface({
   required String message,
   required IconData icon,
   Duration duration = const Duration(seconds: 2),

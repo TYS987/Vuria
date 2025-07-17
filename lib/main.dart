@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:vuria/Utiles/resonanceInkblotTest.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 import 'vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
@@ -15,7 +15,7 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   GoRouter.optionURLReflectsImperativeAPIs = true;
   usePathUrlStrategy();
-await thoughtfulFununiqueLifeStoriesWorldIn();
+await heartStateInterpreterDriver();
 
 
 

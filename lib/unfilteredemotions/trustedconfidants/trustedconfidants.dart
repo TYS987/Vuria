@@ -176,7 +176,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
-                                          if(genuineSynapseLocus().emotionalSupportT !=  feelingExchangePortalemotionItem.alchemicalWeddingHomeID)
+                                          if(genuineSynapseLocus().emotionalSupportT !=  feelingExchangePortalemotionItem.philosophersStoneHealingID)
                                           genuineSynapseLocus()
                                               .updateAzothConfessionsathanorSolaceMPAtIndex(
                                             feelingExchangePortalemotionItem

@@ -1,5 +1,5 @@
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -677,7 +677,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             onTap: () async {
                               if (symbioticVulnerable != null ||
                                   authenticMindMap.text.trim().isNotEmpty) {
-                                await showCustomLoading(
+                                await emotionWhisperInterface(
                                   message:
                                       '${VuriaEmotionCipher.unveilEmotion('torYbPhzzescNpbbHfvhsuVzW7T/tIFh3+VO37CfZuE/OdOXXZZFyYqIePdwVn6Q3ngHdiPkmnfIVvJNvGb6dOtbJ9Wof9KrWSl/IkiWpXc=')}',
                                   icon: Icons.verified_user,
@@ -688,7 +688,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                            setState(() {});
                            Navigator.pop(context); 
                               } else {
-                                await showCustomLoading(
+                                await emotionWhisperInterface(
                                   message:
                                       '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2VvvitYZiwrFD1aGfcO41bYSGEsFewJbHYuIaNhbx')}',
                                   icon: Icons.warning_amber_rounded,

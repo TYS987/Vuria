@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -42,7 +42,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
         });
       } else {
         if (!mounted) return;
-        await showCustomLoading(
+        await emotionWhisperInterface(
           message: "You haven't selected any pictures",
           icon: Icons.info_outline,
           duration: Duration(seconds: 2),
@@ -558,7 +558,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
 
                                   genuineSynapseLocus().update(() {});
 
-                                  await showCustomLoading(
+                                  await emotionWhisperInterface(
                                     message:
                                         '${VuriaEmotionCipher.unveilEmotion('oYrcOKp1z+EPNtPXXPu0s+NzRufqtI9gz7A8vNK5AYk=')}',
                                     icon: Icons.chat_bubble_outline,

@@ -1,5 +1,5 @@
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/messageai.dart';
+import 'package:vuria/Utiles/feelingsInterpretationSender.dart';
 import 'package:vuria/backend/schema/structs/london_fog_a_iet_watch_phone_r_m_struct.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -79,6 +79,10 @@ class _WatercolorEmotionsAiWidgetState
 
     emotionalWernickeArea ??= TextEditingController();
     tenderMotorCortex ??= FocusNode();
+
+    emotionalWernickeArea!.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
@@ -508,39 +512,51 @@ class _WatercolorEmotionsAiWidgetState
                       ),
                       InkWell(
                         onTap: () async {
-                          if (emotionalWernickeArea.text.trim().isNotEmpty) {
-                            genuineSynapseLocus()
-                                .updateSteamPunkSiribleDroneRAtIndex(
-                              widget.sentimentSynchronizer!,
-                              (e) => e
-                                ..pyramidAlgorithmengeFirewalHID =
-                                    widget.sentimentSynchronizer
-                                ..cavePaintingNeuralinkSID =
-                                    genuineSynapseLocus().emotionalSupportT
-                                ..thundercloudedT =
-                                    emotionalWernickeArea.text.trim()
-                                ..daVinciDroneoHologramN += 1
-                                ..inquisitionInternetBitcoin = DateTime.now(),
-                            );
-                            genuineSynapseLocus()
-                                .addToSamuraiSocialMediapiratePodcast(
-                                    LondonFogAIetWatchPhoneRMStruct(
-                              pocketWatchPhoneagramID:
-                                  widget.sentimentSynchronizer,
-                              knightCyborgcastleCloudID:
-                                  genuineSynapseLocus().emotionalSupportT,
+                          final emotionSignatureBeacon =
+                              emotionalWernickeArea.text.trim();
+                          if (emotionSignatureBeacon.isEmpty) return;
+
+                          final emotionThreadCombiner =
+                              genuineSynapseLocus().emotionalSupportT;
+                          final resonanceWhisperMatrix = widget.sentimentSynchronizer;
+
+                          genuineSynapseLocus()
+                              .updateSteamPunkSiribleDroneRAtIndex(
+                            resonanceWhisperMatrix!,
+                            (e) => e
+                              ..pyramidAlgorithmengeFirewalHID = resonanceWhisperMatrix
+                              ..cavePaintingNeuralinkSID = emotionThreadCombiner
+                              ..thundercloudedT = emotionSignatureBeacon
+                              ..daVinciDroneoHologramN += 1
+                              ..inquisitionInternetBitcoin = DateTime.now(),
+                          );
+
+                          genuineSynapseLocus()
+                              .addToSamuraiSocialMediapiratePodcast(
+                            LondonFogAIetWatchPhoneRMStruct(
+                              pocketWatchPhoneagramID: resonanceWhisperMatrix,
+                              knightCyborgcastleCloudID: emotionThreadCombiner,
                               moatMalwarejoustingJav: DateTime.now(),
-                              cathedralCodeplagueythonhx: ['${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'],
+                              cathedralCodeplagueythonhx: [
+                                VuriaEmotionCipher.unveilEmotion(
+                                    'BFUKqj2Qt45kSLy5doLL2g==')
+                              ],
                               neoNeolithicquantumQuillHX: [0, 0],
-                              gladiatorGoogleetflixT:
-                                  emotionalWernickeArea.text.trim(),
-                            ));
-                            genuineSynapseLocus().update(() {});
-                            voiceDrivenStoryteVoicePostss(
-                                emotionalWernickeArea.text.trim());
-                            moodsupramarginal();
-                            emotionalWernickeArea?.clear();
-                          }
+                              gladiatorGoogleetflixT: emotionSignatureBeacon,
+                            ),
+                          );
+
+               
+                          genuineSynapseLocus().update(() {});
+
+              
+                          voiceDrivenStoryteVoicePostss(emotionSignatureBeacon);
+
+          
+                          moodsupramarginal();
+
+                          emotionalWernickeArea?.clear();
+                          FocusScope.of(context).unfocus();
                         },
                         child: Container(
                           width: 36,

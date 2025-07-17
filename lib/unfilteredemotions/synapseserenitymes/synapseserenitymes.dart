@@ -31,7 +31,6 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
   String? Function(BuildContext, String?)? heartserotonin;
   final moodendorphin = ScrollController();
 
-
   void sentimentMyelinSheath() {
     if (!moodendorphin.hasClients ||
         !moodendorphin.position.hasContentDimensions) {
@@ -60,6 +59,10 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
 
     unspokenSynapseFire ??= TextEditingController();
     tenderNeuralPathway ??= FocusNode();
+
+    unspokenSynapseFire!.addListener(() {
+      setState(() {});
+    });
   }
 
   @override
@@ -131,20 +134,25 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                     .steamPunkSiribleDroneR
                                     .where((e) =>
                                         e.pyramidAlgorithmengeFirewalHID ==
-                                        widget!.emotionalSafeHaven)
+                                        widget.emotionalSafeHaven)
                                     .toList()
                                     .firstOrNull
                                     ?.shamanCodingNeuralinkM
                                     .where((e) =>
-                                        e != genuineSynapseLocus().emotionalSupportT)
+                                        e !=
+                                        genuineSynapseLocus().emotionalSupportT)
                                     .firstOrNull)
                             .toList()
                             .firstOrNull!
                             .phoenixTearsTherapyN,
-                        style: heartMindVentralTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme.of(context)
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -152,7 +160,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                               fontSize: 20.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
+                              fontStyle: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -185,7 +194,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                 .steamPunkSiribleDroneR
                                                 .where((e) =>
                                                     e.pyramidAlgorithmengeFirewalHID ==
-                                                    widget!.emotionalSafeHaven)
+                                                    widget.emotionalSafeHaven)
                                                 .toList()
                                                 .firstOrNull
                                                 ?.shamanCodingNeuralinkM
@@ -267,7 +276,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     .moatMalwarejoustingJav),
                                             '09:10 am',
                                           ),
-                                          style: heartMindVentralTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'AVENIR',
@@ -336,8 +346,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                           .gladiatorGoogleetflixT,
                                                       '',
                                                     ),
-                                                    style: heartMindVentralTheme.of(
-                                                            context)
+                                                    style: heartMindVentralTheme
+                                                        .of(context)
                                                         .bodyMedium
                                                         .override(
                                                           fontFamily: 'AVENIR',
@@ -373,7 +383,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     .moatMalwarejoustingJav),
                                             '09:10 am',
                                           ),
-                                          style: heartMindVentralTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'AVENIR',
@@ -422,8 +433,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                           .gladiatorGoogleetflixT,
                                                       '',
                                                     ),
-                                                    style: heartMindVentralTheme.of(
-                                                            context)
+                                                    style: heartMindVentralTheme
+                                                        .of(context)
                                                         .bodyMedium
                                                         .override(
                                                           fontFamily: 'AVENIR',
@@ -500,32 +511,39 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: heartMindVentralTheme.of(context)
+                                labelStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme.of(context)
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
                                       letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
                                 hintText: 'Say something...',
-                                hintStyle: heartMindVentralTheme.of(context)
+                                hintStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .labelMedium
                                             .fontStyle,
                                       ),
@@ -533,7 +551,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                       fontSize: 14.7,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .labelMedium
                                           .fontStyle,
                                     ),
@@ -553,38 +572,46 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: heartMindVentralTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: heartMindVentralTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 filled: true,
-                                fillColor: heartMindVentralTheme.of(context)
+                                fillColor: heartMindVentralTheme
+                                    .of(context)
                                     .secondaryBackground,
                               ),
-                              style: heartMindVentralTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
-                                      fontWeight: heartMindVentralTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
                                     letterSpacing: 0.0,
-                                    fontWeight: heartMindVentralTheme.of(context)
+                                    fontWeight: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontWeight,
-                                    fontStyle: heartMindVentralTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -597,34 +624,47 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                       ),
                       InkWell(
                         onTap: () async {
-                          if (unspokenSynapseFire.text.trim().isNotEmpty) {
-                            genuineSynapseLocus().updateSteamPunkSiribleDroneRAtIndex(
-                              widget.emotionalSafeHaven!,
+                          final sentimentDeliveryUnit =
+                              unspokenSynapseFire.text.trim();
+
+                          if (sentimentDeliveryUnit.isNotEmpty) {
+                            final emotionCurveSynchronizer =
+                                genuineSynapseLocus();
+                            final moodConnectGraph =
+                                emotionCurveSynchronizer.emotionalSupportT;
+                            final emotionIndexCalculator =
+                                widget.emotionalSafeHaven;
+
+                            emotionCurveSynchronizer
+                                .updateSteamPunkSiribleDroneRAtIndex(
+                              emotionIndexCalculator!,
                               (e) => e
                                 ..pyramidAlgorithmengeFirewalHID =
-                                    widget.emotionalSafeHaven
-                                ..cavePaintingNeuralinkSID =
-                                    genuineSynapseLocus().emotionalSupportT
-                                ..thundercloudedT =
-                                    unspokenSynapseFire.text.trim()
+                                    emotionIndexCalculator
+                                ..cavePaintingNeuralinkSID = moodConnectGraph
+                                ..thundercloudedT = sentimentDeliveryUnit
                                 ..daVinciDroneoHologramN += 1
                                 ..inquisitionInternetBitcoin = DateTime.now(),
                             );
-                            genuineSynapseLocus().addToSamuraiSocialMediapiratePodcast(
-                                LondonFogAIetWatchPhoneRMStruct(
-                              pocketWatchPhoneagramID:
-                                  widget.emotionalSafeHaven,
-                              knightCyborgcastleCloudID:
-                                  genuineSynapseLocus().emotionalSupportT,
-                              moatMalwarejoustingJav: DateTime.now(),
-                              cathedralCodeplagueythonhx: ['${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'],
-                              neoNeolithicquantumQuillHX: [0, 0],
-                              gladiatorGoogleetflixT:
-                                  unspokenSynapseFire.text.trim(),
-                            ));
-                            genuineSynapseLocus().update(() {});
-                            sentimentMyelinSheath();
 
+                            emotionCurveSynchronizer
+                                .addToSamuraiSocialMediapiratePodcast(
+                              LondonFogAIetWatchPhoneRMStruct(
+                                pocketWatchPhoneagramID: emotionIndexCalculator,
+                                knightCyborgcastleCloudID: moodConnectGraph,
+                                moatMalwarejoustingJav: DateTime.now(),
+                                cathedralCodeplagueythonhx: [
+                                  VuriaEmotionCipher.unveilEmotion(
+                                      'BFUKqj2Qt45kSLy5doLL2g=='),
+                                ],
+                                neoNeolithicquantumQuillHX: [0, 0],
+                                gladiatorGoogleetflixT: sentimentDeliveryUnit,
+                              ),
+                            );
+
+                            emotionCurveSynchronizer.update(() {});
+                            sentimentMyelinSheath();
+                            FocusScope.of(context).unfocus();
                             unspokenSynapseFire?.clear();
                           }
                         },
@@ -665,7 +705,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             ?.shamanCodingNeuralinkM
                                             .where((e) =>
                                                 e !=
-                                                genuineSynapseLocus().emotionalSupportT)
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT)
                                             .firstOrNull)
                                     .toList()
                                     .firstOrNull!

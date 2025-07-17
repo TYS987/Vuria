@@ -1,5 +1,5 @@
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -249,7 +249,7 @@ class _SyntheticmpathybionicTrustWidgetState
                     InkWell(
                       onTap: () async {
                         if (genuineHypothalamus.text.trim().isNotEmpty) {
-                          await showCustomLoading(
+                          await emotionWhisperInterface(
                             message:
                                 '${VuriaEmotionCipher.unveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',
                             icon: Icons.check_circle_outline,
@@ -257,7 +257,7 @@ class _SyntheticmpathybionicTrustWidgetState
                           genuineHypothalamus?.clear();
                           Navigator.of(context).pop();
                         } else {
-                          await showCustomLoading(
+                          await emotionWhisperInterface(
                             message:
                                 '${VuriaEmotionCipher.unveilEmotion('so7YLflzneIHLtqTFebhpOhzFfLppIdu1/JRmrfQafs+d9DSG4he1pKIcfh6Emadm39TJTf1123TPptq2hLdAw==')}',
                             icon: Icons.warning_amber_outlined,

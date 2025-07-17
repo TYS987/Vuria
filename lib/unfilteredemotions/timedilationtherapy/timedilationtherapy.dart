@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -376,14 +376,14 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                             .neuralLaceConfessionsI,
                             );
                             genuineSynapseLocus().update(() {});
-                            await showCustomLoading(
+                            await emotionWhisperInterface(
                               message: '${VuriaEmotionCipher.unveilEmotion('r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c=')}',
                               icon: Icons.check_circle_rounded,
                               duration: Duration(seconds: 2),
                             );
                             Navigator.pop(context);
                           } else {
-                            await showCustomLoading(
+                            await emotionWhisperInterface(
                               message:
                                   '${VuriaEmotionCipher.unveilEmotion('so7YLflzneUaYtrWHfu18O15Uf3quMN12eRImrXJZvs6a4SdD8FCzIXDfvdzVxD3')}',
                               icon: Icons.warning_amber_rounded,

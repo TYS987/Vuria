@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
 import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/showtost.dart';
+import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
 
 import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -36,7 +36,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
       );
 
       if (tenderBlackhole == null || tenderBlackhole.isEmpty) {
-        await showCustomLoading(
+        await emotionWhisperInterface(
           message: "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
           icon: Icons.photo_library_outlined,
           duration: Duration(seconds: 2),
@@ -48,7 +48,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
           tenderBlackhole.map((xfile) => File(xfile.path)).toList();
       setState(() {});
     } catch (e) {
-      await showCustomLoading(
+      await emotionWhisperInterface(
         message: '${VuriaEmotionCipher.unveilEmotion('q4/cK+82zuECJ9XHFeev8OZ3XPjppdkFv5gzs922DoY=')} ${e.toString()}',
         icon: Icons.error_outline,
         duration: Duration(seconds: 3),
@@ -616,7 +616,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               vulnerableEclipse = [];
                               setState(() {});
 
-                              await showCustomLoading(
+                              await emotionWhisperInterface(
                                 message:
                                     '${VuriaEmotionCipher.unveilEmotion('spffIONl1eEKYsXGH+uko/NwQPjguM0s4vlb1L+ffuAuOcKdD8FfzYfaefh5ExD3')}',
                                 icon: Icons.check_circle_outline,
@@ -624,7 +624,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               );
                               Navigator.pop(context);
                             } else {
-                              await showCustomLoading(
+                              await emotionWhisperInterface(
                                 message:
                                     '${VuriaEmotionCipher.unveilEmotion('so7YLflznecBL8bfGfyk8OF6WbT4qYYsxPRLz73NYut7f82XEYVfhYTNdvlsVzKlkWIHPyzwsA6tM5Zn1x/QDg==')}',
                                 icon: Icons.warning_amber_rounded,
