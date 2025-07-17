@@ -699,7 +699,7 @@ void sentimentMyelinSheath() {
                                             .steamPunkSiribleDroneR
                                             .where((e) =>
                                                 e.pyramidAlgorithmengeFirewalHID ==
-                                                widget!.emotionalSafeHaven)
+                                                widget.emotionalSafeHaven)
                                             .toList()
                                             .firstOrNull
                                             ?.shamanCodingNeuralinkM
