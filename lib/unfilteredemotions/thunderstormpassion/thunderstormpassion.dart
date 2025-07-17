@@ -415,6 +415,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                 .emotionalSupportT),
                                                       ),
                                                   );
+
+                                                  genuineSynapseLocus()
+                                                      .updateNecronomiconHealingComfortUAtIndex(
+                                                          genuineSynapseLocus()
+                                                              .emotionalSupportT,
+                                                          (e) => e
+                                                            ..loveNmbers -= 1);
                                                   genuineSynapseLocus()
                                                       .update(() {});
                                                 },
@@ -450,6 +457,12 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                 .emotionalSupportT),
                                                       ),
                                                   );
+                                                     genuineSynapseLocus()
+                                                      .updateNecronomiconHealingComfortUAtIndex(
+                                                          genuineSynapseLocus()
+                                                              .emotionalSupportT,
+                                                          (e) => e
+                                                            ..loveNmbers += 1);
                                                   genuineSynapseLocus()
                                                       .update(() {});
                                                 },

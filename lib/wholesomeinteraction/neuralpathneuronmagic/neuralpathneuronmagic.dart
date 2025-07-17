@@ -66,7 +66,7 @@ class _NeuralPathNeuronMagicWidgetState
                 genuineSynapseLocus().kindheartedDialogues = 0;
 
                 genuineSynapseLocus().update(() {});
-                context.pushNamed(EmpathyExchangeWidget.routeName);
+                context.goNamed(EmpathyExchangeWidget.routeName);
               },
               child: Container(
                 width: double.infinity,

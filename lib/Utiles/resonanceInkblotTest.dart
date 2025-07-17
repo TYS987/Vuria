@@ -31,13 +31,16 @@ final _obfuscationToken =
 
 //
 const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
-  'zww_1',
-  'zww_2',
-  'zww_3',
-  'zww_4',
-  'zww_5',
-  'zww_6',
-  'zww_7',
+  'mqrvovazpdbiwutc',
+  'dvgfvgahtngmhybc',
+  'tran quilizehopew',
+  'rikcjwuzhnqvasab',
+  'luminescentwaycb',
+  'iqzujbrzbarqjeec',
+  'perceptionspinaa',
+  'nqlwyitfwhgggbuv',
+  'kdhzgncaeugepagc',
+  'rxljwvdknmebldob',
 ];
 
 //

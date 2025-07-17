@@ -154,7 +154,7 @@ class _DigitalTwinnftEmotionWidgetState
                           ..dragonScaleComfortfessionsP =
                               generateRandomCredential(length: 7));
                     genuineSynapseLocus().update(() {});
-                    context.pushNamed(EmpathyExchangeWidget.routeName);
+                    context.goNamed(EmpathyExchangeWidget.routeName);
                   },
                   child: Container(
                     width: 113.0,

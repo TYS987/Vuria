@@ -31,25 +31,25 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
   String? Function(BuildContext, String?)? heartserotonin;
   final moodendorphin = ScrollController();
 
-  void sentimentMyelinSheath() {
-    if (!moodendorphin.hasClients ||
-        !moodendorphin.position.hasContentDimensions) {
-      return;
-    }
+static const empathyEmulationRoutine = Duration(milliseconds: 100);
+static const feelingSignature = Duration(milliseconds: 300);
 
-    Future.delayed(
-      const Duration(milliseconds: 100),
-      () {
-        if (moodendorphin.hasClients) {
-          moodendorphin.animateTo(
-            moodendorphin.position.maxScrollExtent,
-            duration: const Duration(milliseconds: 300),
-            curve: Curves.easeOutQuad,
-          );
-        }
-      },
-    );
+void sentimentMyelinSheath() {
+  if (!moodendorphin.hasClients || !moodendorphin.position.hasContentDimensions) {
+    return;
   }
+
+  Future.delayed(empathyEmulationRoutine, () {
+
+    if (moodendorphin.hasClients) {
+      moodendorphin.animateTo(
+        moodendorphin.position.maxScrollExtent,
+        duration: feelingSignature,
+        curve: Curves.easeOutQuad,
+      );
+    }
+  });
+}
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 

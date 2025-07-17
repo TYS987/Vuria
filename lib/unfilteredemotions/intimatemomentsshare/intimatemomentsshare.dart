@@ -37,12 +37,12 @@ class _IntimateMomentsShareWidgetState
 
   final heartwaveResonance = ScrollController();
   Future<void> slavicHistoryLessons({
-    Duration delay = const Duration(milliseconds: 200),
+    Duration empathyCondition = const Duration(milliseconds: 200),
     Duration animationDuration = const Duration(milliseconds: 200),
   }) async {
     if (!heartwaveResonance.hasClients) return;
 
-    await Future.delayed(delay);
+    await Future.delayed(empathyCondition);
 
     await heartwaveResonance.animateTo(
       heartwaveResonance.position.maxScrollExtent,

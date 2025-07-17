@@ -31,20 +31,22 @@ class _WatercolorEmotionsAiWidgetState
   String? Function(BuildContext, String?)? sentimentAuditoryCortex;
 
   final genuineArcuateFasciculus = ScrollController();
-  void moodsupramarginal() {
-    if (genuineArcuateFasciculus.hasClients) {
-      Future.delayed(
-        const Duration(milliseconds: 200),
-        () {
-          genuineArcuateFasciculus.animateTo(
-            genuineArcuateFasciculus.position.maxScrollExtent,
-            duration: const Duration(milliseconds: 200),
-            curve: Curves.easeInOut,
-          );
-        },
+
+
+  static const resonancePathway = Duration(milliseconds: 200);
+static const emotionWaveObserver = Duration(milliseconds: 200);
+
+void moodsupramarginal() {
+  if (genuineArcuateFasciculus.hasClients) {
+    Future.delayed(resonancePathway, () {
+      genuineArcuateFasciculus.animateTo(
+        genuineArcuateFasciculus.position.maxScrollExtent,
+        duration: emotionWaveObserver,
+        curve: Curves.easeInOut,
       );
-    }
+    });
   }
+}
 
   Future<void> voiceDrivenStoryteVoicePostss(String fixedInput) async {
     try {
