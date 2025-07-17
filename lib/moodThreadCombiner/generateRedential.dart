@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 
 

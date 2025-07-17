@@ -1,6 +1,6 @@
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/generateRedential.dart';
-import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/generateRedential.dart';
+import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';

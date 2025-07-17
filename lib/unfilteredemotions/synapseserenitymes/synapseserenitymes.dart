@@ -1,4 +1,4 @@
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';

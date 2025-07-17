@@ -1,5 +1,5 @@
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/feelingsInterpretationSender.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/feelingsInterpretationSender.dart';
 import 'package:vuria/backend/schema/structs/london_fog_a_iet_watch_phone_r_m_struct.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';

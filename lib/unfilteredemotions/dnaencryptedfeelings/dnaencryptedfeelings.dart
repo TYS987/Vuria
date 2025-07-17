@@ -1,5 +1,5 @@
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/resonanceInkblotTest.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';

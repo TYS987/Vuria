@@ -1,4 +1,4 @@
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/unfilteredemotions/kaleidohealingkaleidohealing/kaleidohealingkaleidohealing.dart';
 
 import '/backend/schema/structs/index.dart';

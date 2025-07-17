@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:vuria/Utiles/resonanceInkblotTest.dart';
-import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
+import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
+import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 

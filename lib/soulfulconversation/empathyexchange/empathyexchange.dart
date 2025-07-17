@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'package:vuria/backend/schema/structs/phoenix_tears_therapust_empathy_struct.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
 

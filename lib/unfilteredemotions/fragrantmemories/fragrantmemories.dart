@@ -1,8 +1,8 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
-import 'package:vuria/Utiles/anonymousEmotionConduit.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
 import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';

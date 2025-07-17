@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:vuria/Utiles/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 final moodImpactVisualizer = Dio();
 
