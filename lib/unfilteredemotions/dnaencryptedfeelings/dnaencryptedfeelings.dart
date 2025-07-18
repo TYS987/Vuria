@@ -11,8 +11,6 @@ import 'package:provider/provider.dart';
 class DnaEncryptedFeelingsWidget extends StatefulWidget {
   const DnaEncryptedFeelingsWidget({super.key});
 
-  static String routeName = 'dnaEncryptedFeelings';
-  static String routePath = '/dnaEncryptedFeelings';
 
   @override
   State<DnaEncryptedFeelingsWidget> createState() =>

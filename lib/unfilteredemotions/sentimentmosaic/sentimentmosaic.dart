@@ -9,8 +9,7 @@ import 'package:provider/provider.dart';
 class SentimentMosaicWidget extends StatefulWidget {
   const SentimentMosaicWidget({super.key});
 
-  static String routeName = 'sentimentMosaic';
-  static String routePath = '/sentimentMosaic';
+
 
   @override
   State<SentimentMosaicWidget> createState() => _SentimentMosaicWidgetState();

@@ -9,8 +9,6 @@ import 'package:google_fonts/google_fonts.dart';
 class PhonographFeelsWidget extends StatefulWidget {
   const PhonographFeelsWidget({super.key});
 
-  static String routeName = 'phonographFeels';
-  static String routePath = '/phonographFeels';
 
   @override
   State<PhonographFeelsWidget> createState() => _PhonographFeelsWidgetState();

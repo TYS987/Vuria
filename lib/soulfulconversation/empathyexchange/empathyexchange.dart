@@ -1,7 +1,6 @@
-
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-import 'package:vuria/backend/schema/structs/phoenix_tears_therapust_empathy_struct.dart';
+import 'package:vuria/backend/schema/structs/truthBridgewaySignalFieldboard.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -12,9 +11,6 @@ import 'package:google_fonts/google_fonts.dart';
 
 class EmpathyExchangeWidget extends StatefulWidget {
   const EmpathyExchangeWidget({super.key});
-
-  static String routeName = 'empathyExchange';
-  static String routePath = '/empathyExchange';
 
   @override
   State<EmpathyExchangeWidget> createState() => _EmpathyExchangeWidgetState();
@@ -485,10 +481,6 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-         
-
-
-
                       final authenticBondGateway =
                           genuineSynapseLocus().likeHeartfeltMoments;
                       final unspokenBondempath =
@@ -496,7 +488,6 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                       final GatewayPulseNetwork =
                           engthOasisfeelingWavel.text.trim();
 
-                
                       if (!authenticBondGateway) {
                         showAgreementNotCheckedSnackBar(context);
                         return;
@@ -513,31 +504,31 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           .where((e) =>
                               e.unicornWhispererHealingE == unspokenBondempath)
                           .toList();
-               
+
                       final emotionalCoempathy = gateempathyInfinity
                           .where((e) =>
                               e.dragonScaleComfortfessionsP ==
                               GatewayPulseNetwork)
                           .toList();
-           
 
                       if (gateempathyInfinity.isNotEmpty) {
                         if (emotionalCoempathy.isNotEmpty) {
                           final matchedUser = emotionalCoempathy.first;
-                  
+
                           genuineSynapseLocus().emotionalSupportT =
                               matchedUser.loFiSoulmatesComfortT;
                           genuineSynapseLocus().kindheartedDialogues = 0;
                           genuineSynapseLocus().undergroundBunkerBondingRUT = 1;
 
                           await emotionWhisperInterface(
-                            message: '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
+                            message:
+                                '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
                             icon: Icons.verified_user,
                             duration: Duration(seconds: 2),
                           );
-                
-                    
-                                Navigator.pushReplacementNamed(context, '/trustedConfidants');
+
+                          Navigator.pushReplacementNamed(
+                              context, '/trustedConfidants');
                         } else {
                           showLoginErrorSnackBar(context);
                         }
@@ -560,11 +551,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                         );
 
                         await emotionWhisperInterface(
-                          message: '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
+                          message:
+                              '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
                           icon: Icons.emoji_emotions_outlined,
                           duration: Duration(seconds: 2),
                         );
-                      Navigator.pushReplacementNamed(context, '/trustedConfidants');
+                        Navigator.pushReplacementNamed(
+                            context, '/trustedConfidants');
                       }
                     },
                     child: Container(
@@ -695,7 +688,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           text: TextSpan(
                             children: [
                               TextSpan(
-                                text: '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
+                                text:
+                                    '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
                                 style: heartMindVentralTheme
                                     .of(context)
                                     .bodyMedium
@@ -718,7 +712,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     ),
                               ),
                               TextSpan(
-                                text: '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
+                                text:
+                                    '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
                                 style: heartMindVentralTheme
                                     .of(context)
                                     .bodyMedium
@@ -764,7 +759,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     ),
                               ),
                               TextSpan(
-                                text: '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
+                                text:
+                                    '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
                                 style: heartMindVentralTheme
                                     .of(context)
                                     .bodyMedium

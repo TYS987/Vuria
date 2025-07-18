@@ -12,8 +12,7 @@ import 'package:google_fonts/google_fonts.dart';
 class InterstellarSolaceTearsWidget extends StatefulWidget {
   const InterstellarSolaceTearsWidget({super.key});
 
-  static String routeName = 'interstellarSolaceTears';
-  static String routePath = '/interstellarSolaceTears';
+
 
   @override
   State<InterstellarSolaceTearsWidget> createState() =>

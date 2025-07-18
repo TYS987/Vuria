@@ -1,15 +1,13 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class FifthDimensionalLoveWidget extends StatefulWidget {
   const FifthDimensionalLoveWidget({super.key});
 
-  static String routeName = 'fifthDimensionalLove';
-  static String routePath = '/fifthDimensionalLove';
+
 
   @override
   State<FifthDimensionalLoveWidget> createState() =>

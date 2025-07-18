@@ -14,8 +14,7 @@ class SynapticNeuronMagicWidget extends StatefulWidget {
 
   final int? vibeDedicatedSpace;
 
-  static String routeName = 'synapticNeuronMagic';
-  static String routePath = '/synapticNeuronMagic';
+
 
   @override
   State<SynapticNeuronMagicWidget> createState() =>

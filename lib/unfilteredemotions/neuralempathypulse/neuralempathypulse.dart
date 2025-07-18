@@ -14,8 +14,7 @@ import 'package:provider/provider.dart';
 class NeuralEmpathyPulseWidget extends StatefulWidget {
   const NeuralEmpathyPulseWidget({super.key});
 
-  static String routeName = 'neuralEmpathyPulse';
-  static String routePath = '/neuralEmpathyPulse';
+
 
   @override
   State<NeuralEmpathyPulseWidget> createState() =>

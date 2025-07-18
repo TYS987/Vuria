@@ -16,8 +16,6 @@ class KaleidoHealingkaleidoHealingWidget extends StatefulWidget {
 
   final int? bondingThroughVibesID;
 
-  static String routeName = 'kaleidoHealingkaleidoHealing';
-  static String routePath = '/kaleidoHealingkaleidoHealing';
 
   @override
   State<KaleidoHealingkaleidoHealingWidget> createState() =>

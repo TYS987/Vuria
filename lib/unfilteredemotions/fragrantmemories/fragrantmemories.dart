@@ -15,8 +15,7 @@ import 'package:provider/provider.dart';
 class FragrantMemoriesWidget extends StatefulWidget {
   const FragrantMemoriesWidget({super.key});
 
-  static String routeName = 'fragrantMemories';
-  static String routePath = '/fragrantMemories';
+
 
   @override
   State<FragrantMemoriesWidget> createState() => _FragrantMemoriesWidgetState();

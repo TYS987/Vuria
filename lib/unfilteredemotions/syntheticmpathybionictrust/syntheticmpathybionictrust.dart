@@ -9,8 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 class SyntheticmpathybionicTrustWidget extends StatefulWidget {
   const SyntheticmpathybionicTrustWidget({super.key});
 
-  static String routeName = 'syntheticmpathybionicTrust';
-  static String routePath = '/syntheticmpathybionicTrust';
+
 
   @override
   State<SyntheticmpathybionicTrustWidget> createState() =>

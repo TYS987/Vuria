@@ -1,6 +1,6 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/feelingsInterpretationSender.dart';
-import 'package:vuria/backend/schema/structs/london_fog_a_iet_watch_phone_r_m_struct.dart';
+import 'package:vuria/backend/schema/structs/storyBubbleEngineCreator.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -16,8 +16,7 @@ class WatercolorEmotionsAiWidget extends StatefulWidget {
 
   final int? sentimentSynchronizer;
 
-  static String routeName = 'watercolorEmotionsAi';
-  static String routePath = '/watercolorEmotionsAi';
+
 
   @override
   State<WatercolorEmotionsAiWidget> createState() =>

@@ -86,15 +86,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 0;
                           genuineSynapseLocus().update(() {});
 
-                          // context.pushNamed(
-                          //   TrustedConfidantsWidget.routeName,
-                          //   extra: <String, dynamic>{
-                          //     kTransitionInfoKey: TransitionInfo(
-                          //       hasTransition: true,
-                          //       transitionType: PageTransitionType.fade,
-                          //     ),
-                          //   },
-                          // );
+                  
 
         Navigator.of(context).pushNamed(
                                 '/trustedConfidants');
@@ -146,15 +138,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 1;
                           genuineSynapseLocus().update(() {});
 
-                          // context.pushNamed(
-                          //   PendulumTrustWidget.routeName,
-                          //   extra: <String, dynamic>{
-                          //     kTransitionInfoKey: TransitionInfo(
-                          //       hasTransition: true,
-                          //       transitionType: PageTransitionType.fade,
-                          //     ),
-                          //   },
-                          // );
+                      
 
                              Navigator.of(context).pushNamed(
                                 '/pendulumTrust');
@@ -206,15 +190,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 2;
                           genuineSynapseLocus().update(() {});
 
-                          // context.pushNamed(
-                          //   HoneycombUnderstandWidget.routeName,
-                          //   extra: <String, dynamic>{
-                          //     kTransitionInfoKey: TransitionInfo(
-                          //       hasTransition: true,
-                          //       transitionType: PageTransitionType.fade,
-                          //     ),
-                          //   },
-                          // );
+                
 
                               Navigator.of(context).pushNamed(
                                 '/honeycombUnderstand');

@@ -11,8 +11,7 @@ import 'package:provider/provider.dart';
 class HoneycombUnderstandWidget extends StatefulWidget {
   const HoneycombUnderstandWidget({super.key});
 
-  static String routeName = 'honeycombUnderstand';
-  static String routePath = '/honeycombUnderstand';
+
 
   @override
   State<HoneycombUnderstandWidget> createState() =>

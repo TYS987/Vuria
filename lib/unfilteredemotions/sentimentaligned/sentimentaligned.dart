@@ -12,8 +12,7 @@ class SentimentAlignedWidget extends StatefulWidget {
 
   final int? moodStoryCanvas;
 
-  static String routeName = 'sentimentAligned';
-  static String routePath = '/sentimentAligned';
+
 
   @override
   State<SentimentAlignedWidget> createState() => _SentimentAlignedWidgetState();
@@ -203,7 +202,7 @@ We may update this Privacy Policy based on legal or product changes. Any revisio
                                           .fontStyle,
                                     ),
                                     color: Colors.black,
-                                    fontSize: 20.0,
+                                    fontSize: 14.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
                                     fontStyle: heartMindVentralTheme
@@ -296,7 +295,7 @@ You may terminate your use of the App at any time by deleting your account, unin
                                           .fontStyle,
                                     ),
                                     color: Colors.black,
-                                    fontSize: 20.0,
+                                    fontSize: 14.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
                                     fontStyle: heartMindVentralTheme

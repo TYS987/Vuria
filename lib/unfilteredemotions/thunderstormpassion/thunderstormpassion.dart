@@ -16,8 +16,7 @@ class ThunderstormPassionWidget extends StatefulWidget {
 
   final int? soulConnectionMatrix;
 
-  static String routeName = 'thunderstormPassion';
-  static String routePath = '/thunderstormPassion';
+
 
   @override
   State<ThunderstormPassionWidget> createState() =>

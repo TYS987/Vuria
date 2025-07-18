@@ -11,8 +11,7 @@ import 'package:provider/provider.dart';
 class TrustedConfidantsWidget extends StatefulWidget {
   const TrustedConfidantsWidget({super.key});
 
-  static String routeName = 'trustedConfidants';
-  static String routePath = '/trustedConfidants';
+
 
   @override
   State<TrustedConfidantsWidget> createState() =>

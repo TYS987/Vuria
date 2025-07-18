@@ -9,8 +9,7 @@ import 'package:provider/provider.dart';
 class PendulumTrustWidget extends StatefulWidget {
   const PendulumTrustWidget({super.key});
 
-  static String routeName = 'pendulumTrust';
-  static String routePath = '/pendulumTrust';
+
 
   @override
   State<PendulumTrustWidget> createState() => _PendulumTrustWidgetState();

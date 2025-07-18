@@ -17,8 +17,7 @@ class SynapseSerenitymesWidget extends StatefulWidget {
 
   final int? emotionalSafeHaven;
 
-  static String routeName = 'synapseSerenitymes';
-  static String routePath = '/synapseSerenitymes';
+
 
   @override
   State<SynapseSerenitymesWidget> createState() =>

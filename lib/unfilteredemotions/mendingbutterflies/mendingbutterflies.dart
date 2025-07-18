@@ -1,4 +1,4 @@
-import 'package:vuria/backend/schema/structs/anachronism_healingflux_r_struct.dart';
+import 'package:vuria/backend/schema/structs/caringThoughtPodbonding.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -9,8 +9,7 @@ import 'package:google_fonts/google_fonts.dart';
 class MendingButterfliesWidget extends StatefulWidget {
   const MendingButterfliesWidget({super.key});
 
-  static String routeName = 'mendingButterflies';
-  static String routePath = '/mendingButterflies';
+ 
 
   @override
   State<MendingButterfliesWidget> createState() =>

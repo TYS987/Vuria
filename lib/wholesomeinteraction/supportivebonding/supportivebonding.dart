@@ -86,15 +86,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      // context.pushNamed(
-                      //   SentimentAlignedWidget.routeName,
-                      //   queryParameters: {
-                      //     'moodStoryCanvas': serializeParam(
-                      //       1,
-                      //       ParamType.int,
-                      //     ),
-                      //   }.withoutNulls,
-                      // );
+                    
 
                       Navigator.pushNamed(
                         context,
@@ -131,16 +123,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      // context.pushNamed(
-                      //   SentimentAlignedWidget.routeName,
-                      //   queryParameters: {
-                      //     'moodStoryCanvas': serializeParam(
-                      //       0,
-                      //       ParamType.int,
-                      //     ),
-                      //   }.withoutNulls,
-                      // );
-
+             
                       Navigator.pushNamed(
                         context,
                         '/sentimentAligned',

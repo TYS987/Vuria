@@ -16,8 +16,7 @@ class IntimateMomentsShareWidget extends StatefulWidget {
 
   final int? communitySentimentSync;
 
-  static String routeName = 'intimateMomentsShare';
-  static String routePath = '/intimateMomentsShare';
+
 
   @override
   State<IntimateMomentsShareWidget> createState() =>

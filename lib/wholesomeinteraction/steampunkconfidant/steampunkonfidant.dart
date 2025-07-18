@@ -63,7 +63,6 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
               highlightColor: Colors.transparent,
               onTap: () async {
                 Navigator.pop(context);
-          
 
                 Navigator.of(context).pushNamed('/phonographFeels');
               },

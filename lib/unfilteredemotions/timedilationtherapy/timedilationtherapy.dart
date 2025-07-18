@@ -13,8 +13,8 @@ import 'package:provider/provider.dart';
 class TimeDilationTherapyWidget extends StatefulWidget {
   const TimeDilationTherapyWidget({super.key});
 
-  static String routeName = 'timeDilationTherapy';
-  static String routePath = '/timeDilationTherapy';
+
+
 
   @override
   State<TimeDilationTherapyWidget> createState() =>

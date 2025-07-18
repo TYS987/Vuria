@@ -17,9 +17,6 @@ class CloudCatharsisWidget extends StatefulWidget {
 
   final int? feelingSyncChannelD;
 
-  static String routeName = 'cloudCatharsis';
-  static String routePath = '/cloudCatharsis';
-
   @override
   State<CloudCatharsisWidget> createState() => _CloudCatharsisWidgetState();
 }
