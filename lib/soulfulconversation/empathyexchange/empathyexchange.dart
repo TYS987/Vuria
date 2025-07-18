@@ -6,7 +6,7 @@ import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.d
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -535,7 +535,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             icon: Icons.verified_user,
                             duration: Duration(seconds: 2),
                           );
-                          context.pushNamed(TrustedConfidantsWidget.routeName);
+                
+                    
+                                Navigator.pushReplacementNamed(context, '/trustedConfidants');
                         } else {
                           showLoginErrorSnackBar(context);
                         }
@@ -562,7 +564,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           icon: Icons.emoji_emotions_outlined,
                           duration: Duration(seconds: 2),
                         );
-                        context.pushNamed(TrustedConfidantsWidget.routeName);
+                      Navigator.pushReplacementNamed(context, '/trustedConfidants');
                       }
                     },
                     child: Container(

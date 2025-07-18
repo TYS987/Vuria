@@ -1,5 +1,7 @@
 // ignore_for_file: unnecessary_getters_setters
 
+import 'package:vuria/vulnerablePocketAngular/nav/serialization_util.dart';
+
 import '/backend/schema/util/schema_util.dart';
 
 import 'index.dart';

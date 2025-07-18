@@ -2,7 +2,6 @@ import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -87,34 +86,43 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      context.pushNamed(
-                        SentimentAlignedWidget.routeName,
-                        queryParameters: {
-                          'moodStoryCanvas': serializeParam(
-                            1,
-                            ParamType.int,
-                          ),
-                        }.withoutNulls,
+                      // context.pushNamed(
+                      //   SentimentAlignedWidget.routeName,
+                      //   queryParameters: {
+                      //     'moodStoryCanvas': serializeParam(
+                      //       1,
+                      //       ParamType.int,
+                      //     ),
+                      //   }.withoutNulls,
+                      // );
+
+                      Navigator.pushNamed(
+                        context,
+                        '/sentimentAligned',
+                        arguments: {'moodStoryCanvas': 1},
                       );
                     },
                     child: Text(
                       '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOF8XWeIzF1A==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.inter(
-                              fontWeight: FontWeight.w500,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Color(0xFFFA6217),
-                            fontSize: 16.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w500,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                            decoration: TextDecoration.underline,
-                          ),
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.inter(
+                                  fontWeight: FontWeight.w500,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Color(0xFFFA6217),
+                                fontSize: 16.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.w500,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                                decoration: TextDecoration.underline,
+                              ),
                     ),
                   ),
                   InkWell(
@@ -123,34 +131,43 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                      context.pushNamed(
-                        SentimentAlignedWidget.routeName,
-                        queryParameters: {
-                          'moodStoryCanvas': serializeParam(
-                            0,
-                            ParamType.int,
-                          ),
-                        }.withoutNulls,
+                      // context.pushNamed(
+                      //   SentimentAlignedWidget.routeName,
+                      //   queryParameters: {
+                      //     'moodStoryCanvas': serializeParam(
+                      //       0,
+                      //       ParamType.int,
+                      //     ),
+                      //   }.withoutNulls,
+                      // );
+
+                      Navigator.pushNamed(
+                        context,
+                        '/sentimentAligned',
+                        arguments: {'moodStoryCanvas': 0},
                       );
                     },
                     child: Text(
                       '${VuriaEmotionCipher.unveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.inter(
-                              fontWeight: FontWeight.w500,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Color(0xFFFA6217),
-                            fontSize: 16.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w500,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                            decoration: TextDecoration.underline,
-                          ),
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.inter(
+                                  fontWeight: FontWeight.w500,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Color(0xFFFA6217),
+                                fontSize: 16.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.w500,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                                decoration: TextDecoration.underline,
+                              ),
                     ),
                   ),
                 ],
@@ -180,7 +197,10 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('oYPTL+Zzt45kSLy5doLL2g==')}',
-                        style: heartMindVentralTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               fontFamily: 'AVENIR',
                               color: Color(0xFFFF7A19),
                               fontSize: 16.0,
@@ -205,7 +225,10 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}',
-                        style: heartMindVentralTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               fontFamily: 'AVENIR',
                               color: Colors.white,
                               fontSize: 16.0,

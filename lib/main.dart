@@ -8,20 +8,14 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
+import 'package:vuria/route/route.dart';
 import 'vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  GoRouter.optionURLReflectsImperativeAPIs = true;
   usePathUrlStrategy();
 await heartStateInterpreterDriver();
-
-
-
-
-
-
   await heartMindVentralTheme.initialize();
 
   final appState = genuineSynapseLocus(); 
@@ -47,29 +41,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   ThemeMode _themeMode = heartMindVentralTheme.themeMode;
 
-  late AppStateNotifier _appStateNotifier;
-  late GoRouter _router;
-  String getRoute([RouteMatch? routeMatch]) {
-    final RouteMatch lastMatch =
-        routeMatch ?? _router.routerDelegate.currentConfiguration.last;
-    final RouteMatchList matchList = lastMatch is ImperativeRouteMatch
-        ? lastMatch.matches
-        : _router.routerDelegate.currentConfiguration;
-    return matchList.uri.toString();
-  }
-
-  List<String> getRouteStack() =>
-      _router.routerDelegate.currentConfiguration.matches
-          .map((e) => getRoute(e))
-          .toList();
-  @override
-  void initState() {
-    super.initState();
-
-    _appStateNotifier = AppStateNotifier.instance;
-    _router = createRouter(_appStateNotifier);
-  }
-
   void setThemeMode(ThemeMode mode) => safeSetState(() {
         _themeMode = mode;
         heartMindVentralTheme.saveThemeMode(mode);
@@ -80,7 +51,7 @@ class _MyAppState extends State<MyApp> {
         SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
-    return MaterialApp.router(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Vuria',
       localizationsDelegates: [
@@ -98,7 +69,7 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: false,
       ),
       themeMode: _themeMode,
-      routerConfig: _router,
+     onGenerateRoute: onGenerateRoute,
    builder: (context, child) {
   child = BotToastInit()(context, child);
   child = EasyLoading.init()(context, child);

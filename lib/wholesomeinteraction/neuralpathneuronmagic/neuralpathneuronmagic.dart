@@ -3,7 +3,7 @@ import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -58,7 +58,8 @@ class _NeuralPathNeuronMagicWidgetState
               highlightColor: Colors.transparent,
               onTap: () async {
                 await emotionWhisperInterface(
-                  message: "${VuriaEmotionCipher.unveilEmotion('q8XQbOZ52uMHLNGTE/21/qBGWfHtsoYswfBTzvTeJ+I0dMGcCc8Ci+6gGJ4WOhr9')}",
+                  message:
+                      "${VuriaEmotionCipher.unveilEmotion('q8XQbOZ52uMHLNGTE/21/qBGWfHtsoYswfBTzvTeJ+I0dMGcCc8Ci+6gGJ4WOhr9')}",
                   icon: Icons.logout,
                   duration: Duration(seconds: 2),
                 );
@@ -66,7 +67,12 @@ class _NeuralPathNeuronMagicWidgetState
                 genuineSynapseLocus().kindheartedDialogues = 0;
 
                 genuineSynapseLocus().update(() {});
-                context.goNamed(EmpathyExchangeWidget.routeName);
+
+                Navigator.pushNamedAndRemoveUntil(
+                  context,
+                  '/empathyExchange',
+                  (route) => false,
+                );
               },
               child: Container(
                 width: double.infinity,
@@ -80,15 +86,19 @@ class _NeuralPathNeuronMagicWidgetState
                   style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
-                          fontStyle:
-                              heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                          fontStyle: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .fontStyle,
                         ),
                         color: Colors.black,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                 ),
               ),
@@ -117,15 +127,19 @@ class _NeuralPathNeuronMagicWidgetState
                   style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
-                          fontStyle:
-                              heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                          fontStyle: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .fontStyle,
                         ),
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                 ),
               ),

@@ -1,9 +1,8 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -93,11 +92,14 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                     ),
                     InkWell(
                       onTap: () async {
-                        context.pushNamed(FragrantMemoriesWidget.routeName);
+                        Navigator.of(context).pushNamed('/fragrantMemories');
                       },
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('oZDYLf5znf0BN8STEeeutKB1XfX44ZFj2fw8vNK5AYk=')}',
-                        style: heartMindVentralTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               fontFamily: 'PingFang',
                               color: Color(0xFFEC7506),
                               fontSize: 12,
@@ -176,29 +178,31 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                         hoverColor: Colors.transparent,
                                         highlightColor: Colors.transparent,
                                         onTap: () async {
-                                          if(genuineSynapseLocus().emotionalSupportT !=  feelingExchangePortalemotionItem.philosophersStoneHealingID)
-                                          genuineSynapseLocus()
-                                              .updateAzothConfessionsathanorSolaceMPAtIndex(
-                                            feelingExchangePortalemotionItem
-                                                .alchemicalWeddingHomeID,
-                                            (e) => e
-                                              ..updateMagnumOpusComfortMorePope(
-                                                (e) => e.add(genuineSynapseLocus()
-                                                    .emotionalSupportT),
-                                              ),
-                                          );
+                                          if (genuineSynapseLocus()
+                                                  .emotionalSupportT !=
+                                              feelingExchangePortalemotionItem
+                                                  .philosophersStoneHealingID)
+                                            genuineSynapseLocus()
+                                                .updateAzothConfessionsathanorSolaceMPAtIndex(
+                                              feelingExchangePortalemotionItem
+                                                  .alchemicalWeddingHomeID,
+                                              (e) => e
+                                                ..updateMagnumOpusComfortMorePope(
+                                                  (e) => e.add(
+                                                      genuineSynapseLocus()
+                                                          .emotionalSupportT),
+                                                ),
+                                            );
                                           genuineSynapseLocus().update(() {});
-                                          context.pushNamed(
-                                            IntimateMomentsShareWidget
-                                                .routeName,
-                                            queryParameters: {
+
+                                          Navigator.pushNamed(
+                                            context,
+                                            '/intimateMomentsShare',
+                                            arguments: {
                                               'communitySentimentSync':
-                                                  serializeParam(
-                                                feelingExchangePortalemotionItem
-                                                    .alchemicalWeddingHomeID,
-                                                ParamType.int,
-                                              ),
-                                            }.withoutNulls,
+                                                  feelingExchangePortalemotionItem
+                                                      .alchemicalWeddingHomeID,
+                                            },
                                           );
                                         },
                                         child: Container(
@@ -231,16 +235,16 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                   feelingExchangePortalemotionItem
                                                       .mercurialEmpathyTitle,
                                                   textAlign: TextAlign.end,
-                                                  style: heartMindVentralTheme.of(
-                                                          context)
+                                                  style: heartMindVentralTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
                                                         font: GoogleFonts.inter(
                                                           fontWeight:
                                                               FontWeight.w500,
                                                           fontStyle:
-                                                              heartMindVentralTheme.of(
-                                                                      context)
+                                                              heartMindVentralTheme
+                                                                  .of(context)
                                                                   .bodyMedium
                                                                   .fontStyle,
                                                         ),
@@ -250,8 +254,8 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                         fontWeight:
                                                             FontWeight.w500,
                                                         fontStyle:
-                                                            heartMindVentralTheme.of(
-                                                                    context)
+                                                            heartMindVentralTheme
+                                                                .of(context)
                                                                 .bodyMedium
                                                                 .fontStyle,
                                                       ),
@@ -375,8 +379,8 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                         .toString(),
                                                                     '',
                                                                   ),
-                                                                  style: heartMindVentralTheme.of(
-                                                                          context)
+                                                                  style: heartMindVentralTheme
+                                                                      .of(context)
                                                                       .bodyMedium
                                                                       .override(
                                                                         fontFamily:
@@ -470,7 +474,8 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                 hoverColor: Colors.transparent,
                 highlightColor: Colors.transparent,
                 onTap: () async {
-                  context.pushNamed(MendingButterfliesWidget.routeName);
+   
+                  Navigator.of(context).pushNamed('/mendingButterflies');
                 },
                 child: Container(
                   width: 120.0,

@@ -2,7 +2,6 @@ import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -18,7 +17,6 @@ class PendulumTrustWidget extends StatefulWidget {
 }
 
 class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
-  int? fireflyConfessions = 0;
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
@@ -92,8 +90,8 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                   hoverColor: Colors.transparent,
                                   highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    context.pushNamed(
-                                        NeuralEmpathyPulseWidget.routeName);
+                                    Navigator.of(context)
+                                        .pushNamed('/neuralEmpathyPulse');
                                   },
                                   child: Container(
                                     width: 40.0,
@@ -115,8 +113,8 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed(
-                                      SentimentMosaicWidget.routeName);
+                                  Navigator.of(context)
+                                      .pushNamed('/sentimentMosaic');
                                 },
                                 child: Container(
                                   width: 40.0,
@@ -202,24 +200,20 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   children: [
                                                     InkWell(
                                                       onTap: () async {
-                                                        context.pushNamed(
-                                                          KaleidoHealingkaleidoHealingWidget
-                                                              .routeName,
-                                                          queryParameters: {
-                                                            'bondingThroughVibesID':
-                                                                serializeParam(
-                                                              genuineSynapseLocus()
-                                                                  .necronomiconHealingComfortU
-                                                                  .where((e) =>
-                                                                      e.loFiSoulmatesComfortT ==
-                                                                      emotionalAlignmentToolItem
-                                                                          .marianaTrenchTherapID)
-                                                                  .toList()
-                                                                  .firstOrNull!
-                                                                  .loFiSoulmatesComfortT,
-                                                              ParamType.int,
-                                                            ),
-                                                          }.withoutNulls,
+                                                        Navigator.pushNamed(
+                                                          context,
+                                                          '/kaleidoHealingkaleidoHealing',
+                                                          arguments: {
+                                                            'bondingThroughVibesID': genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    emotionalAlignmentToolItem
+                                                                        .marianaTrenchTherapID)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .loFiSoulmatesComfortT
+                                                          },
                                                         );
                                                       },
                                                       child: Container(
@@ -284,20 +278,20 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                     ?.phoenixTearsTherapyN,
                                                                 'Calista',
                                                               ),
-                                                              style: heartMindVentralTheme
+                                                              style:
+                                                                  heartMindVentralTheme
                                                                       .of(context)
-                                                                  .bodyMedium
-                                                                  .override(
-                                                                    fontFamily:
-                                                                        'PingFang',
-                                                                    color: Color(
-                                                                        0xE6000000),
-                                                                    letterSpacing:
-                                                                        0.0,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .bold,
-                                                                  ),
+                                                                      .bodyMedium
+                                                                      .override(
+                                                                        fontFamily:
+                                                                            'PingFang',
+                                                                        color: Color(
+                                                                            0xE6000000),
+                                                                        letterSpacing:
+                                                                            0.0,
+                                                                        fontWeight:
+                                                                            FontWeight.bold,
+                                                                      ),
                                                             ),
                                                             Text(
                                                               valueOrDefault<
@@ -308,22 +302,22 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                         .compassionateListenerTiem),
                                                                 '2024.12.02',
                                                               ),
-                                                              style: heartMindVentralTheme
+                                                              style:
+                                                                  heartMindVentralTheme
                                                                       .of(context)
-                                                                  .bodyMedium
-                                                                  .override(
-                                                                    fontFamily:
-                                                                        'PingFang',
-                                                                    color: Color(
-                                                                        0xB3000000),
-                                                                    fontSize:
-                                                                        10.0,
-                                                                    letterSpacing:
-                                                                        0.0,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .w500,
-                                                                  ),
+                                                                      .bodyMedium
+                                                                      .override(
+                                                                        fontFamily:
+                                                                            'PingFang',
+                                                                        color: Color(
+                                                                            0xB3000000),
+                                                                        fontSize:
+                                                                            10.0,
+                                                                        letterSpacing:
+                                                                            0.0,
+                                                                        fontWeight:
+                                                                            FontWeight.w500,
+                                                                      ),
                                                             ),
                                                           ],
                                                         ),
@@ -445,17 +439,14 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                               AlignmentDirectional(0.0, 1.0),
                                           child: InkWell(
                                             onTap: () async {
-                                              context.pushNamed(
-                                                ThunderstormPassionWidget
-                                                    .routeName,
-                                                queryParameters: {
+                                              Navigator.pushNamed(
+                                                context,
+                                                '/thunderstormPassion',
+                                                arguments: {
                                                   'soulConnectionMatrix':
-                                                      serializeParam(
-                                                    emotionalAlignmentToolItem
-                                                        .pressureDepthConfessionsWID,
-                                                    ParamType.int,
-                                                  ),
-                                                }.withoutNulls,
+                                                      emotionalAlignmentToolItem
+                                                          .pressureDepthConfessionsWID
+                                                },
                                               );
                                             },
                                             child: Container(
@@ -511,31 +502,33 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             .grandfatherClockTherapyT,
                                                         '',
                                                       ),
-                                                      style: heartMindVentralTheme
+                                                      style:
+                                                          heartMindVentralTheme
                                                               .of(context)
-                                                          .bodyMedium
-                                                          .override(
-                                                            font: GoogleFonts
-                                                                .poppins(
-                                                              fontWeight:
-                                                                  FontWeight
-                                                                      .w800,
-                                                              fontStyle:
-                                                                  heartMindVentralTheme.of(
-                                                                          context)
+                                                              .bodyMedium
+                                                              .override(
+                                                                font: GoogleFonts
+                                                                    .poppins(
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .w800,
+                                                                  fontStyle: heartMindVentralTheme
+                                                                      .of(context)
                                                                       .bodyMedium
                                                                       .fontStyle,
-                                                            ),
-                                                            color: Colors.white,
-                                                            letterSpacing: 0.0,
-                                                            fontWeight:
-                                                                FontWeight.w800,
-                                                            fontStyle:
-                                                                heartMindVentralTheme.of(
-                                                                        context)
+                                                                ),
+                                                                color: Colors
+                                                                    .white,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w800,
+                                                                fontStyle: heartMindVentralTheme
+                                                                    .of(context)
                                                                     .bodyMedium
                                                                     .fontStyle,
-                                                          ),
+                                                              ),
                                                       maxLines: 1,
                                                       overflow:
                                                           TextOverflow.ellipsis,

@@ -4,7 +4,6 @@ import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -122,11 +121,12 @@ class _IntimateMomentsShareWidgetState
                           widget.communitySentimentSync!,
                           (e) => e
                             ..updateMagnumOpusComfortMorePope(
-                              (e) => e.remove(genuineSynapseLocus().emotionalSupportT),
+                              (e) => e.remove(
+                                  genuineSynapseLocus().emotionalSupportT),
                             ),
                         );
                         genuineSynapseLocus().update(() {});
-                        context.safePop();
+                        Navigator.pop(context);
                       },
                       child: Container(
                         width: 32.0,
@@ -196,7 +196,8 @@ class _IntimateMomentsShareWidgetState
                                       ?.phoenixTearsTherapyN,
                                   'Soft Talks',
                                 ),
-                                style: heartMindVentralTheme.of(context)
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       fontFamily: 'PingFang',
@@ -217,24 +218,29 @@ class _IntimateMomentsShareWidgetState
                                         .toList()
                                         .firstOrNull!
                                         .saltTearsTherapyTiem!),
-                                style: heartMindVentralTheme.of(context)
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.inter(
-                                        fontWeight: heartMindVentralTheme.of(context)
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
                                       color: Color(0xE6FFFFFF),
                                       fontSize: 12.0,
                                       letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme.of(context)
+                                      fontWeight: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -333,22 +339,20 @@ class _IntimateMomentsShareWidgetState
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed(
-                                    KaleidoHealingkaleidoHealingWidget
-                                        .routeName,
-                                    queryParameters: {
-                                      'bondingThroughVibesID': serializeParam(
-                                        genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                collectiveMoodCanvasItem)
-                                            .toList()
-                                            .firstOrNull
-                                            ?.loFiSoulmatesComfortT,
-                                        ParamType.int,
-                                      ),
-                                    }.withoutNulls,
+                                  Navigator.pushNamed(
+                                    context,
+                                    '/kaleidoHealingkaleidoHealing',
+                                    arguments: {
+                                      'bondingThroughVibesID':
+                                          genuineSynapseLocus()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  collectiveMoodCanvasItem)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.loFiSoulmatesComfortT,
+                                    },
                                   );
                                 },
                                 child: Column(
@@ -387,7 +391,8 @@ class _IntimateMomentsShareWidgetState
                                             .toList()
                                             .firstOrNull!
                                             .phoenixTearsTherapyN,
-                                        style: heartMindVentralTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               fontFamily: 'PingFang',
@@ -494,17 +499,16 @@ class _IntimateMomentsShareWidgetState
                                                     ?.phoenixTearsTherapyN,
                                                 'Milo',
                                               )}: ',
-                                              style:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'PingFang',
-                                                        color: Colors.white,
-                                                        fontSize: 13,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w900,
-                                                      ),
+                                              style: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'PingFang',
+                                                    color: Colors.white,
+                                                    fontSize: 13,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w900,
+                                                  ),
                                             ),
                                             TextSpan(
                                               text: valueOrDefault<String>(
@@ -512,20 +516,20 @@ class _IntimateMomentsShareWidgetState
                                                     .crimeSceSceneHealing,
                                                 'Hello everyone!',
                                               ),
-                                              style:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        fontFamily: 'PingFang',
-                                                        color: Colors.white,
-                                                        fontSize: 13,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w300,
-                                                      ),
+                                              style: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    fontFamily: 'PingFang',
+                                                    color: Colors.white,
+                                                    fontSize: 13,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w300,
+                                                  ),
                                             )
                                           ],
-                                          style: heartMindVentralTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 fontFamily: 'PingFang',
@@ -574,7 +578,8 @@ class _IntimateMomentsShareWidgetState
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: heartMindVentralTheme.of(context)
+                                labelStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       fontFamily: 'PingFang',
@@ -582,7 +587,8 @@ class _IntimateMomentsShareWidgetState
                                       fontWeight: FontWeight.w500,
                                     ),
                                 hintText: 'Say something',
-                                hintStyle: heartMindVentralTheme.of(context)
+                                hintStyle: heartMindVentralTheme
+                                    .of(context)
                                     .labelMedium
                                     .override(
                                       fontFamily: 'PingFang',
@@ -605,14 +611,16 @@ class _IntimateMomentsShareWidgetState
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: heartMindVentralTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: heartMindVentralTheme.of(context).error,
+                                    color:
+                                        heartMindVentralTheme.of(context).error,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
@@ -620,7 +628,8 @@ class _IntimateMomentsShareWidgetState
                                 filled: true,
                                 fillColor: Colors.transparent,
                               ),
-                              style: heartMindVentralTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     fontFamily: 'PingFang',
@@ -660,8 +669,9 @@ class _IntimateMomentsShareWidgetState
                                 ],
                               );
 
-                              genuineSynapseLocus().addToCrimeSceneHealingitAlibiTrustRT(
-                                  authenticSighEcosystem);
+                              genuineSynapseLocus()
+                                  .addToCrimeSceneHealingitAlibiTrustRT(
+                                      authenticSighEcosystem);
                               genuineSynapseLocus().update(() {});
 
                               emotionalConstellation?.clear();

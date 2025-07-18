@@ -4,7 +4,7 @@ import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
-import '/index.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -31,25 +31,25 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
   String? Function(BuildContext, String?)? heartserotonin;
   final moodendorphin = ScrollController();
 
-static const empathyEmulationRoutine = Duration(milliseconds: 100);
-static const feelingSignature = Duration(milliseconds: 300);
+  static const empathyEmulationRoutine = Duration(milliseconds: 100);
+  static const feelingSignature = Duration(milliseconds: 300);
 
-void sentimentMyelinSheath() {
-  if (!moodendorphin.hasClients || !moodendorphin.position.hasContentDimensions) {
-    return;
-  }
-
-  Future.delayed(empathyEmulationRoutine, () {
-
-    if (moodendorphin.hasClients) {
-      moodendorphin.animateTo(
-        moodendorphin.position.maxScrollExtent,
-        duration: feelingSignature,
-        curve: Curves.easeOutQuad,
-      );
+  void sentimentMyelinSheath() {
+    if (!moodendorphin.hasClients ||
+        !moodendorphin.position.hasContentDimensions) {
+      return;
     }
-  });
-}
+
+    Future.delayed(empathyEmulationRoutine, () {
+      if (moodendorphin.hasClients) {
+        moodendorphin.animateTo(
+          moodendorphin.position.maxScrollExtent,
+          duration: feelingSignature,
+          curve: Curves.easeOutQuad,
+        );
+      }
+    });
+  }
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
@@ -110,7 +110,7 @@ void sentimentMyelinSheath() {
                     children: [
                       InkWell(
                         onTap: () async {
-                          context.safePop();
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -687,33 +687,32 @@ void sentimentMyelinSheath() {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed(
-                            CloudCatharsisWidget.routeName,
-                            queryParameters: {
-                              'feelingSyncChannelD': serializeParam(
-                                genuineSynapseLocus()
-                                    .necronomiconHealingComfortU
-                                    .where((e) =>
-                                        e.loFiSoulmatesComfortT ==
-                                        genuineSynapseLocus()
-                                            .steamPunkSiribleDroneR
-                                            .where((e) =>
-                                                e.pyramidAlgorithmengeFirewalHID ==
-                                                widget.emotionalSafeHaven)
-                                            .toList()
-                                            .firstOrNull
-                                            ?.shamanCodingNeuralinkM
-                                            .where((e) =>
-                                                e !=
-                                                genuineSynapseLocus()
-                                                    .emotionalSupportT)
-                                            .firstOrNull)
-                                    .toList()
-                                    .firstOrNull!
-                                    .loFiSoulmatesComfortT,
-                                ParamType.int,
-                              ),
-                            }.withoutNulls,
+                     
+                          Navigator.pushNamed(
+                            context,
+                            '/cloudCatharsis',
+                            arguments: {
+                              'feelingSyncChannelD': genuineSynapseLocus()
+                                  .necronomiconHealingComfortU
+                                  .where((e) =>
+                                      e.loFiSoulmatesComfortT ==
+                                      genuineSynapseLocus()
+                                          .steamPunkSiribleDroneR
+                                          .where((e) =>
+                                              e.pyramidAlgorithmengeFirewalHID ==
+                                              widget.emotionalSafeHaven)
+                                          .toList()
+                                          .firstOrNull
+                                          ?.shamanCodingNeuralinkM
+                                          .where((e) =>
+                                              e !=
+                                              genuineSynapseLocus()
+                                                  .emotionalSupportT)
+                                          .firstOrNull)
+                                  .toList()
+                                  .firstOrNull!
+                                  .loFiSoulmatesComfortT,
+                            },
                           );
                         },
                         child: Container(

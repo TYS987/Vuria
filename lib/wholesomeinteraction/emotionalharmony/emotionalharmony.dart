@@ -1,5 +1,5 @@
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -86,15 +86,18 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 0;
                           genuineSynapseLocus().update(() {});
 
-                          context.pushNamed(
-                            TrustedConfidantsWidget.routeName,
-                            extra: <String, dynamic>{
-                              kTransitionInfoKey: TransitionInfo(
-                                hasTransition: true,
-                                transitionType: PageTransitionType.fade,
-                              ),
-                            },
-                          );
+                          // context.pushNamed(
+                          //   TrustedConfidantsWidget.routeName,
+                          //   extra: <String, dynamic>{
+                          //     kTransitionInfoKey: TransitionInfo(
+                          //       hasTransition: true,
+                          //       transitionType: PageTransitionType.fade,
+                          //     ),
+                          //   },
+                          // );
+
+        Navigator.of(context).pushNamed(
+                                '/trustedConfidants');
                         },
                         child: Container(
                           width: 74.0,
@@ -143,15 +146,18 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 1;
                           genuineSynapseLocus().update(() {});
 
-                          context.pushNamed(
-                            PendulumTrustWidget.routeName,
-                            extra: <String, dynamic>{
-                              kTransitionInfoKey: TransitionInfo(
-                                hasTransition: true,
-                                transitionType: PageTransitionType.fade,
-                              ),
-                            },
-                          );
+                          // context.pushNamed(
+                          //   PendulumTrustWidget.routeName,
+                          //   extra: <String, dynamic>{
+                          //     kTransitionInfoKey: TransitionInfo(
+                          //       hasTransition: true,
+                          //       transitionType: PageTransitionType.fade,
+                          //     ),
+                          //   },
+                          // );
+
+                             Navigator.of(context).pushNamed(
+                                '/pendulumTrust');
                         },
                         child: Container(
                           width: 74.0,
@@ -200,15 +206,18 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 2;
                           genuineSynapseLocus().update(() {});
 
-                          context.pushNamed(
-                            HoneycombUnderstandWidget.routeName,
-                            extra: <String, dynamic>{
-                              kTransitionInfoKey: TransitionInfo(
-                                hasTransition: true,
-                                transitionType: PageTransitionType.fade,
-                              ),
-                            },
-                          );
+                          // context.pushNamed(
+                          //   HoneycombUnderstandWidget.routeName,
+                          //   extra: <String, dynamic>{
+                          //     kTransitionInfoKey: TransitionInfo(
+                          //       hasTransition: true,
+                          //       transitionType: PageTransitionType.fade,
+                          //     ),
+                          //   },
+                          // );
+
+                              Navigator.of(context).pushNamed(
+                                '/honeycombUnderstand');
                         },
                         child: Container(
                           width: 74.0,

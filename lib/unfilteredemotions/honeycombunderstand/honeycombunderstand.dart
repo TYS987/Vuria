@@ -3,7 +3,7 @@ import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
-import '/index.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -110,8 +110,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.pushNamed(
-                                          TimeDilationTherapyWidget.routeName);
+                                      Navigator.of(context)
+                                          .pushNamed('/timeDilationTherapy');
                                     },
                                     child: Container(
                                       width: 104.0,
@@ -147,12 +147,14 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     ?.phoenixTearsTherapyN,
                                 'Jacob Jones',
                               ),
-                              style: heartMindVentralTheme.of(context)
+                              style: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .override(
                                     font: GoogleFonts.poppins(
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -160,7 +162,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     fontSize: 20.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -176,14 +179,12 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed(
-                                    SynapticNeuronMagicWidget.routeName,
-                                    queryParameters: {
-                                      'vibeDedicatedSpace': serializeParam(
-                                        0,
-                                        ParamType.int,
-                                      ),
-                                    }.withoutNulls,
+                                  Navigator.pushNamed(
+                                    context,
+                                    '/synapticNeuronMagic',
+                                    arguments: {
+                                      'vibeDedicatedSpace': 0,
+                                    },
                                   );
                                 },
                                 child: Column(
@@ -195,7 +196,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus().emotionalSupportT)
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT)
                                             .toList()
                                             .firstOrNull
                                             ?.corporateDroneHugsF
@@ -203,46 +205,48 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toString(),
                                         '1.2k',
                                       ),
-                                      style: heartMindVentralTheme.of(context)
+                                      style: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                             color: Color(0xFF020202),
                                             fontSize: 18.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                     ),
                                     Text(
                                       '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
-                                      style: heartMindVentralTheme.of(context)
+                                      style: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                             color: Color(0x80020202),
                                             fontSize: 13.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                     ),
                                   ],
@@ -260,53 +264,56 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus().emotionalSupportT)
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT)
                                             .toList()
                                             .firstOrNull
                                             ?.loveNmbers
                                             .toString(),
                                         '0',
                                       ),
-                                      style: heartMindVentralTheme.of(context)
+                                      style: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                             color: Color(0xFF020202),
                                             fontSize: 18.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                     ),
                                     Text(
                                       '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
-                                      style: heartMindVentralTheme.of(context)
+                                      style: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                             color: Color(0x80020202),
                                             fontSize: 13.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                     ),
                                   ],
@@ -318,14 +325,12 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  context.pushNamed(
-                                    SynapticNeuronMagicWidget.routeName,
-                                    queryParameters: {
-                                      'vibeDedicatedSpace': serializeParam(
-                                        1,
-                                        ParamType.int,
-                                      ),
-                                    }.withoutNulls,
+                                  Navigator.pushNamed(
+                                    context,
+                                    '/synapticNeuronMagic',
+                                    arguments: {
+                                      'vibeDedicatedSpace': 1,
+                                    },
                                   );
                                 },
                                 child: Column(
@@ -337,7 +342,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .necronomiconHealingComfortU
                                             .where((e) =>
                                                 e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus().emotionalSupportT)
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT)
                                             .toList()
                                             .firstOrNull
                                             ?.deusExMachinaTherapS
@@ -345,46 +351,48 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toString(),
                                         '120',
                                       ),
-                                      style: heartMindVentralTheme.of(context)
+                                      style: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.bold,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                             color: Color(0xFF020202),
                                             fontSize: 18.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.bold,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                     ),
                                     Text(
                                       '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
-                                      style: heartMindVentralTheme.of(context)
+                                      style: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .override(
                                             font: GoogleFonts.poppins(
                                               fontWeight: FontWeight.w600,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                             color: Color(0x80020202),
                                             fontSize: 13.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w600,
-                                            fontStyle:
-                                                heartMindVentralTheme.of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
                                           ),
                                     ),
                                   ],
@@ -443,14 +451,15 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 .toString(),
                                             '0',
                                           ),
-                                          style: heartMindVentralTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.bold,
                                                   fontStyle:
-                                                      heartMindVentralTheme.of(
-                                                              context)
+                                                      heartMindVentralTheme
+                                                          .of(context)
                                                           .bodyMedium
                                                           .fontStyle,
                                                 ),
@@ -458,22 +467,23 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 fontSize: 16.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.bold,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                         ),
                                         Text(
                                           '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
-                                          style: heartMindVentralTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
-                                                      heartMindVentralTheme.of(
-                                                              context)
+                                                      heartMindVentralTheme
+                                                          .of(context)
                                                           .bodyMedium
                                                           .fontStyle,
                                                 ),
@@ -481,10 +491,10 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 fontSize: 12.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                         ),
                                       ],
@@ -496,8 +506,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     hoverColor: Colors.transparent,
                                     highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      context.pushNamed(
-                                          DnaEncryptedFeelingsWidget.routeName);
+                                      Navigator.of(context)
+                                          .pushNamed('/dnaEncryptedFeelings');
                                     },
                                     child: Container(
                                       width: 103.0,
@@ -656,42 +666,42 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                     ?.phoenixTearsTherapyN,
                                                                 'NAME',
                                                               ),
-                                                              style: heartMindVentralTheme
+                                                              style:
+                                                                  heartMindVentralTheme
                                                                       .of(context)
-                                                                  .bodyMedium
-                                                                  .override(
-                                                                    fontFamily:
-                                                                        'PingFang',
-                                                                    color: Color(
-                                                                        0xE6000000),
-                                                                    letterSpacing:
-                                                                        0.0,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .bold,
-                                                                  ),
+                                                                      .bodyMedium
+                                                                      .override(
+                                                                        fontFamily:
+                                                                            'PingFang',
+                                                                        color: Color(
+                                                                            0xE6000000),
+                                                                        letterSpacing:
+                                                                            0.0,
+                                                                        fontWeight:
+                                                                            FontWeight.bold,
+                                                                      ),
                                                             ),
                                                             Text(
                                                               dateTimeFormat(
                                                                   "d/M/y",
                                                                   soulfulDialoguePodItem
                                                                       .compassionateListenerTiem!),
-                                                              style: heartMindVentralTheme
+                                                              style:
+                                                                  heartMindVentralTheme
                                                                       .of(context)
-                                                                  .bodyMedium
-                                                                  .override(
-                                                                    fontFamily:
-                                                                        'PingFang',
-                                                                    color: Color(
-                                                                        0xB3000000),
-                                                                    fontSize:
-                                                                        10.0,
-                                                                    letterSpacing:
-                                                                        0.0,
-                                                                    fontWeight:
-                                                                        FontWeight
-                                                                            .w500,
-                                                                  ),
+                                                                      .bodyMedium
+                                                                      .override(
+                                                                        fontFamily:
+                                                                            'PingFang',
+                                                                        color: Color(
+                                                                            0xB3000000),
+                                                                        fontSize:
+                                                                            10.0,
+                                                                        letterSpacing:
+                                                                            0.0,
+                                                                        fontWeight:
+                                                                            FontWeight.w500,
+                                                                      ),
                                                             ),
                                                           ],
                                                         ),
@@ -732,7 +742,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 genuineSynapseLocus()
                                                     .removeFromLooperTearscitorSolaceD(
                                                         soulfulDialoguePodItem);
-                                                genuineSynapseLocus().update(() {});
+                                                genuineSynapseLocus()
+                                                    .update(() {});
                                               },
                                               child: Container(
                                                 width: 48.0,
@@ -805,30 +816,30 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                         '${VuriaEmotionCipher.unveilEmotion('sY3QKapy3P0dYv+TD+WovOU2QvzlrYYs2+ga0rHedftLCbTibfE8tfa4AIYOIgLl')}',
                                                       ),
                                                       style:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .override(
                                                                 font:
                                                                     GoogleFonts
                                                                         .inter(
-                                                                  fontWeight: heartMindVentralTheme.of(
-                                                                          context)
+                                                                  fontWeight: heartMindVentralTheme
+                                                                      .of(context)
                                                                       .bodyMedium
                                                                       .fontWeight,
-                                                                  fontStyle: heartMindVentralTheme.of(
-                                                                          context)
+                                                                  fontStyle: heartMindVentralTheme
+                                                                      .of(context)
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                                 ),
                                                                 letterSpacing:
                                                                     0.0,
-                                                                fontWeight: heartMindVentralTheme.of(
-                                                                        context)
+                                                                fontWeight: heartMindVentralTheme
+                                                                    .of(context)
                                                                     .bodyMedium
                                                                     .fontWeight,
-                                                                fontStyle: heartMindVentralTheme.of(
-                                                                        context)
+                                                                fontStyle: heartMindVentralTheme
+                                                                    .of(context)
                                                                     .bodyMedium
                                                                     .fontStyle,
                                                               ),
@@ -876,8 +887,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.pushNamed(
-                              InterstellarSolaceTearsWidget.routeName);
+                          Navigator.of(context)
+                              .pushNamed('/interstellarSolaceTears');
                         },
                         child: Container(
                           width: 40.0,

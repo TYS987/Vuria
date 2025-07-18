@@ -1,5 +1,4 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-import 'package:vuria/unfilteredemotions/kaleidohealingkaleidohealing/kaleidohealingkaleidohealing.dart';
 
 import '/backend/schema/structs/index.dart';
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -101,7 +100,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   child: InkWell(
                                     splashColor: Colors.transparent,
                                     onTap: () async {
-                                      context.safePop();
+                                     Navigator.pop(context);        
                                     },
                                     child: Center(
                                       child: Container(
@@ -120,31 +119,28 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   ),
                                 ),
                                 InkWell(
-                                  onTap: () async {
-                                    context.pushNamed(
-                                      KaleidoHealingkaleidoHealingWidget
-                                          .routeName,
-                                      queryParameters: {
-                                        'bondingThroughVibesID': serializeParam(
-                                          genuineSynapseLocus()
-                                              .necronomiconHealingComfortU
-                                              .where((e) =>
-                                                  e.loFiSoulmatesComfortT ==
-                                                  genuineSynapseLocus()
-                                                      .looperTearscitorSolaceD
-                                                      .where((e) =>
-                                                          e.pressureDepthConfessionsWID ==
-                                                          widget
-                                                              .soulConnectionMatrix)
-                                                      .toList()
-                                                      .firstOrNull
-                                                      ?.marianaTrenchTherapID)
-                                              .toList()
-                                              .firstOrNull!
-                                              .loFiSoulmatesComfortT,
-                                          ParamType.int,
-                                        ),
-                                      }.withoutNulls,
+                                  onTap: () async {                         
+                                    Navigator.pushNamed(
+                                      context,
+                                      '/kaleidoHealingkaleidoHealing',
+                                      arguments: {
+                                        'bondingThroughVibesID': genuineSynapseLocus()
+                                            .necronomiconHealingComfortU
+                                            .where((e) =>
+                                                e.loFiSoulmatesComfortT ==
+                                                genuineSynapseLocus()
+                                                    .looperTearscitorSolaceD
+                                                    .where((e) =>
+                                                        e.pressureDepthConfessionsWID ==
+                                                        widget
+                                                            .soulConnectionMatrix)
+                                                    .toList()
+                                                    .firstOrNull
+                                                    ?.marianaTrenchTherapID)
+                                            .toList()
+                                            .firstOrNull!
+                                            .loFiSoulmatesComfortT,
+                                      },
                                     );
                                   },
                                   child: Container(
@@ -457,7 +453,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                 .emotionalSupportT),
                                                       ),
                                                   );
-                                                     genuineSynapseLocus()
+                                                  genuineSynapseLocus()
                                                       .updateNecronomiconHealingComfortUAtIndex(
                                                           genuineSynapseLocus()
                                                               .emotionalSupportT,

@@ -2,7 +2,6 @@ import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -66,7 +65,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                           EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                       child: InkWell(
                         onTap: () async {
-                          context.safePop();
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -87,10 +86,14 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('r4fOP+tx2I1nS7+6dYHI2Q==')}',
-                        style: heartMindVentralTheme.of(context).bodyMedium.override(
+                        style: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .override(
                               font: GoogleFonts.poppins(
                                 fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme.of(context)
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .fontStyle,
                               ),
@@ -98,7 +101,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                               fontSize: 20.0,
                               letterSpacing: 0.0,
                               fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
+                              fontStyle: heartMindVentralTheme
+                                  .of(context)
                                   .bodyMedium
                                   .fontStyle,
                             ),
@@ -116,23 +120,26 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       final sentimentTapestryBoard = genuineSynapseLocus()
                           .steamPunkSiribleDroneR
                           .where((e) =>
-                              e.shamanCodingNeuralinkM
-                                  .contains(genuineSynapseLocus().emotionalSupportT) &&
+                              e.shamanCodingNeuralinkM.contains(
+                                  genuineSynapseLocus().emotionalSupportT) &&
                               !genuineSynapseLocus()
                                   .necronomiconHealingComfortU
-                                  .elementAt(genuineSynapseLocus().emotionalSupportT)
+                                  .elementAt(
+                                      genuineSynapseLocus().emotionalSupportT)
                                   .corporateDroneHugsB
                                   .contains(
                                     e.shamanCodingNeuralinkM
                                         .where((id) =>
                                             id !=
-                                            genuineSynapseLocus().emotionalSupportT)
+                                            genuineSynapseLocus()
+                                                .emotionalSupportT)
                                         .toList()
                                         .firstOrNull,
                                   ) &&
-                              !e.shamanCodingNeuralinkM.contains(genuineSynapseLocus()
-                                  .necronomiconHealingComfortU[7]
-                                  .loFiSoulmatesComfortT))
+                              !e.shamanCodingNeuralinkM.contains(
+                                  genuineSynapseLocus()
+                                      .necronomiconHealingComfortU[7]
+                                      .loFiSoulmatesComfortT))
                           .toList();
 
                       return ListView.builder(
@@ -150,7 +157,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                             hoverColor: Colors.transparent,
                             highlightColor: Colors.transparent,
                             onTap: () async {
-                              genuineSynapseLocus().updateSteamPunkSiribleDroneRAtIndex(
+                              genuineSynapseLocus()
+                                  .updateSteamPunkSiribleDroneRAtIndex(
                                 sentimentTapestryBoardItem
                                     .pyramidAlgorithmengeFirewalHID,
                                 (e) => e
@@ -163,15 +171,14 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                   ..inquisitionInternetBitcoin = DateTime.now(),
                               );
 
-                              context.pushNamed(
-                                SynapseSerenitymesWidget.routeName,
-                                queryParameters: {
-                                  'emotionalSafeHaven': serializeParam(
-                                    sentimentTapestryBoardItem
-                                        .pyramidAlgorithmengeFirewalHID,
-                                    ParamType.int,
-                                  ),
-                                }.withoutNulls,
+                              Navigator.pushNamed(
+                                context,
+                                '/synapseSerenitymes',
+                                arguments: {
+                                  'emotionalSafeHaven':
+                                      sentimentTapestryBoardItem
+                                          .pyramidAlgorithmengeFirewalHID,
+                                },
                               );
                             },
                             child: Row(
@@ -260,16 +267,16 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     ?.phoenixTearsTherapyN,
                                                 '',
                                               ),
-                                              style: heartMindVentralTheme.of(
-                                                      context)
+                                              style: heartMindVentralTheme
+                                                  .of(context)
                                                   .bodyMedium
                                                   .override(
                                                     font: GoogleFonts.poppins(
                                                       fontWeight:
                                                           FontWeight.w600,
                                                       fontStyle:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .fontStyle,
                                                     ),
@@ -278,8 +285,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w600,
                                                     fontStyle:
-                                                        heartMindVentralTheme.of(
-                                                                context)
+                                                        heartMindVentralTheme
+                                                            .of(context)
                                                             .bodyMedium
                                                             .fontStyle,
                                                   ),
@@ -293,16 +300,16 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
                                                     sentimentTapestryBoardItem
                                                         .inquisitionInternetBitcoin!),
-                                                style: heartMindVentralTheme.of(
-                                                        context)
+                                                style: heartMindVentralTheme
+                                                    .of(context)
                                                     .bodyMedium
                                                     .override(
                                                       font: GoogleFonts.poppins(
                                                         fontWeight:
                                                             FontWeight.w500,
                                                         fontStyle:
-                                                            heartMindVentralTheme.of(
-                                                                    context)
+                                                            heartMindVentralTheme
+                                                                .of(context)
                                                                 .bodyMedium
                                                                 .fontStyle,
                                                       ),
@@ -311,8 +318,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                       fontWeight:
                                                           FontWeight.w500,
                                                       fontStyle:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .fontStyle,
                                                     ),
@@ -334,8 +341,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         .thundercloudedT,
                                                     '${VuriaEmotionCipher.unveilEmotion('qofEYKp13OpOK5bSD+Pho+97UODkqI1ribFTmrraYut7YMuHD8FEwIrYMOZyV3OGmx58WU2YtQuoNpNi0hrVCw==')}',
                                                   ),
-                                                  style: heartMindVentralTheme.of(
-                                                          context)
+                                                  style: heartMindVentralTheme
+                                                      .of(context)
                                                       .bodyMedium
                                                       .override(
                                                         font:
@@ -343,8 +350,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                           fontWeight:
                                                               FontWeight.w500,
                                                           fontStyle:
-                                                              heartMindVentralTheme.of(
-                                                                      context)
+                                                              heartMindVentralTheme
+                                                                  .of(context)
                                                                   .bodyMedium
                                                                   .fontStyle,
                                                         ),
@@ -354,8 +361,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         fontWeight:
                                                             FontWeight.w500,
                                                         fontStyle:
-                                                            heartMindVentralTheme.of(
-                                                                    context)
+                                                            heartMindVentralTheme
+                                                                .of(context)
                                                                 .bodyMedium
                                                                 .fontStyle,
                                                       ),
@@ -364,7 +371,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                             ),
                                             if (sentimentTapestryBoardItem
                                                     .cavePaintingNeuralinkSID !=
-                                                genuineSynapseLocus().emotionalSupportT)
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT)
                                               Padding(
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(
@@ -389,30 +397,30 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         '8',
                                                       ),
                                                       style:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .override(
                                                                 font:
                                                                     GoogleFonts
                                                                         .inter(
-                                                                  fontWeight: heartMindVentralTheme.of(
-                                                                          context)
+                                                                  fontWeight: heartMindVentralTheme
+                                                                      .of(context)
                                                                       .bodyMedium
                                                                       .fontWeight,
-                                                                  fontStyle: heartMindVentralTheme.of(
-                                                                          context)
+                                                                  fontStyle: heartMindVentralTheme
+                                                                      .of(context)
                                                                       .bodyMedium
                                                                       .fontStyle,
                                                                 ),
                                                                 letterSpacing:
                                                                     0.0,
-                                                                fontWeight: heartMindVentralTheme.of(
-                                                                        context)
+                                                                fontWeight: heartMindVentralTheme
+                                                                    .of(context)
                                                                     .bodyMedium
                                                                     .fontWeight,
-                                                                fontStyle: heartMindVentralTheme.of(
-                                                                        context)
+                                                                fontStyle: heartMindVentralTheme
+                                                                    .of(context)
                                                                     .bodyMedium
                                                                     .fontStyle,
                                                               ),
@@ -424,7 +432,8 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                         ),
                                         Divider(
                                           thickness: 2.0,
-                                          color: heartMindVentralTheme.of(context)
+                                          color: heartMindVentralTheme
+                                              .of(context)
                                               .alternate,
                                         ),
                                       ],

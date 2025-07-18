@@ -1,4 +1,3 @@
-
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
@@ -6,7 +5,7 @@ import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/digitaltwinnftemotion/digitaltwinnftemotion.dart';
 import '../../wholesomeinteraction/neuralpathneuronmagic/neuralpathneuronmagic.dart';
-import '/index.dart';
+
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -24,7 +23,8 @@ class InterstellarSolaceTearsWidget extends StatefulWidget {
 class _InterstellarSolaceTearsWidgetState
     extends State<InterstellarSolaceTearsWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
-  String resonanceMatchingSystem = '${VuriaEmotionCipher.unveilEmotion('09aTf8cdto9lSb24d4PK2w==')}';
+  String resonanceMatchingSystem =
+      '${VuriaEmotionCipher.unveilEmotion('09aTf8cdto9lSb24d4PK2w==')}';
 
   @override
   void initState() {
@@ -74,7 +74,7 @@ class _InterstellarSolaceTearsWidgetState
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.safePop();
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -92,21 +92,24 @@ class _InterstellarSolaceTearsWidgetState
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('sYfJOON42o1nS7+6dYHI2Q==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w600,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w600,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.w600,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.black,
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.w600,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ],
                 ),
@@ -131,21 +134,18 @@ class _InterstellarSolaceTearsWidgetState
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.pushNamed(
-                                  SynapticNeuronMagicWidget.routeName,
-                                  queryParameters: {
-                                    'vibeDedicatedSpace': serializeParam(
-                                      3,
-                                      ParamType.int,
-                                    ),
-                                  }.withoutNulls,
+                                Navigator.pushNamed(
+                                  context,
+                                  '/synapticNeuronMagic',
+                                  arguments: {'vibeDedicatedSpace': 3},
                                 );
                               },
                               child: Container(
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme.of(context)
+                                  color: heartMindVentralTheme
+                                      .of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -163,24 +163,25 @@ class _InterstellarSolaceTearsWidgetState
                                     children: [
                                       Text(
                                         '${VuriaEmotionCipher.unveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
-                                        style: heartMindVentralTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                               color: Colors.black,
                                               fontSize: 16.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                       ),
                                       Container(
@@ -235,7 +236,8 @@ class _InterstellarSolaceTearsWidgetState
                                   width: 335.0,
                                   height: 50.0,
                                   decoration: BoxDecoration(
-                                    color: heartMindVentralTheme.of(context)
+                                    color: heartMindVentralTheme
+                                        .of(context)
                                         .secondaryBackground,
                                     borderRadius: BorderRadius.circular(50.0),
                                     border: Border.all(
@@ -253,14 +255,15 @@ class _InterstellarSolaceTearsWidgetState
                                       children: [
                                         Text(
                                           '${VuriaEmotionCipher.unveilEmotion('pofRKf5zncUNIdnGEvzD0g==')}',
-                                          style: heartMindVentralTheme.of(context)
+                                          style: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
                                                   fontWeight: FontWeight.w500,
                                                   fontStyle:
-                                                      heartMindVentralTheme.of(
-                                                              context)
+                                                      heartMindVentralTheme
+                                                          .of(context)
                                                           .bodyMedium
                                                           .fontStyle,
                                                 ),
@@ -268,10 +271,10 @@ class _InterstellarSolaceTearsWidgetState
                                                 fontSize: 16.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                         ),
                                         Container(
@@ -298,21 +301,18 @@ class _InterstellarSolaceTearsWidgetState
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.pushNamed(
-                                  SentimentAlignedWidget.routeName,
-                                  queryParameters: {
-                                    'moodStoryCanvas': serializeParam(
-                                      0,
-                                      ParamType.int,
-                                    ),
-                                  }.withoutNulls,
+                                Navigator.pushNamed(
+                                  context,
+                                  '/sentimentAligned',
+                                  arguments: {'moodStoryCanvas': 0},
                                 );
                               },
                               child: Container(
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme.of(context)
+                                  color: heartMindVentralTheme
+                                      .of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -330,24 +330,25 @@ class _InterstellarSolaceTearsWidgetState
                                     children: [
                                       Text(
                                         '${VuriaEmotionCipher.unveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
-                                        style: heartMindVentralTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                               color: Colors.black,
                                               fontSize: 16.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                       ),
                                       Container(
@@ -373,21 +374,18 @@ class _InterstellarSolaceTearsWidgetState
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.pushNamed(
-                                  SentimentAlignedWidget.routeName,
-                                  queryParameters: {
-                                    'moodStoryCanvas': serializeParam(
-                                      '1',
-                                      ParamType.int,
-                                    ),
-                                  }.withoutNulls,
+                                Navigator.pushNamed(
+                                  context,
+                                  '/sentimentAligned',
+                                  arguments: {'moodStoryCanvas': 1},
                                 );
                               },
                               child: Container(
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme.of(context)
+                                  color: heartMindVentralTheme
+                                      .of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -405,24 +403,25 @@ class _InterstellarSolaceTearsWidgetState
                                     children: [
                                       Text(
                                         '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitZAGJYSc0fMcpoEqqsSvF58=')}',
-                                        style: heartMindVentralTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                               color: Colors.black,
                                               fontSize: 16.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                       ),
                                       Container(
@@ -448,14 +447,15 @@ class _InterstellarSolaceTearsWidgetState
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.pushNamed(
-                                    SyntheticmpathybionicTrustWidget.routeName);
+                                Navigator.of(context)
+                                    .pushNamed('/syntheticmpathybionicTrust');
                               },
                               child: Container(
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme.of(context)
+                                  color: heartMindVentralTheme
+                                      .of(context)
                                       .secondaryBackground,
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
@@ -473,24 +473,25 @@ class _InterstellarSolaceTearsWidgetState
                                     children: [
                                       Text(
                                         '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
-                                        style: heartMindVentralTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                               color: Colors.black,
                                               fontSize: 16.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                       ),
                                       Container(
@@ -514,7 +515,8 @@ class _InterstellarSolaceTearsWidgetState
                               width: 335.0,
                               height: 50.0,
                               decoration: BoxDecoration(
-                                color: heartMindVentralTheme.of(context)
+                                color: heartMindVentralTheme
+                                    .of(context)
                                     .secondaryBackground,
                                 borderRadius: BorderRadius.circular(50.0),
                                 border: Border.all(
@@ -524,7 +526,6 @@ class _InterstellarSolaceTearsWidgetState
                               ),
                               child: InkWell(
                                 onTap: () async {
-                             
                                   await emotionWhisperInterface(
                                     message:
                                         '${VuriaEmotionCipher.unveilEmotion('torYbOl33uwLYt/AXOqkue5xFffgpIJ+0/UUmoTTYu4ofISFHIhYhYeIfflzV3yB0D9dW0+atwmqNJFg0BjXCQ==')}',
@@ -544,24 +545,25 @@ class _InterstellarSolaceTearsWidgetState
                                     children: [
                                       Text(
                                         '${VuriaEmotionCipher.unveilEmotion('oY7YLfg2/uUNKtO2eY3E1Q==')}',
-                                        style: heartMindVentralTheme.of(context)
+                                        style: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .override(
                                               font: GoogleFonts.poppins(
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle:
-                                                    heartMindVentralTheme.of(context)
-                                                        .bodyMedium
-                                                        .fontStyle,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
                                               ),
                                               color: Colors.black,
                                               fontSize: 16.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
-                                              fontStyle:
-                                                  heartMindVentralTheme.of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
                                             ),
                                       ),
                                       Row(
@@ -573,16 +575,16 @@ class _InterstellarSolaceTearsWidgetState
                                                     0.0, 0.0, 10.0, 0.0),
                                             child: Text(
                                               resonanceMatchingSystem,
-                                              style: heartMindVentralTheme.of(
-                                                      context)
+                                              style: heartMindVentralTheme
+                                                  .of(context)
                                                   .bodyMedium
                                                   .override(
                                                     font: GoogleFonts.poppins(
                                                       fontWeight:
                                                           FontWeight.w500,
                                                       fontStyle:
-                                                          heartMindVentralTheme.of(
-                                                                  context)
+                                                          heartMindVentralTheme
+                                                              .of(context)
                                                               .bodyMedium
                                                               .fontStyle,
                                                     ),
@@ -590,8 +592,8 @@ class _InterstellarSolaceTearsWidgetState
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
                                                     fontStyle:
-                                                        heartMindVentralTheme.of(
-                                                                context)
+                                                        heartMindVentralTheme
+                                                            .of(context)
                                                             .bodyMedium
                                                             .fontStyle,
                                                   ),
@@ -655,12 +657,14 @@ class _InterstellarSolaceTearsWidgetState
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
-                            style: heartMindVentralTheme.of(context)
+                            style: heartMindVentralTheme
+                                .of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -668,7 +672,8 @@ class _InterstellarSolaceTearsWidgetState
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

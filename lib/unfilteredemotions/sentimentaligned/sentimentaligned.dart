@@ -1,7 +1,6 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -72,7 +71,7 @@ class _SentimentAlignedWidgetState extends State<SentimentAlignedWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.safePop();
+                          Navigator.pop(context);          
                         },
                         child: Container(
                           width: 32.0,

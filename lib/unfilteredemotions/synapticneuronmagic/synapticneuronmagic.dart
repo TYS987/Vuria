@@ -71,7 +71,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
                         onTap: () async {
-                          context.safePop();
+                          Navigator.pop(context);             
                         },
                         child: Container(
                           width: 32.0,

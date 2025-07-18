@@ -2,7 +2,6 @@ import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -63,8 +62,10 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-                context.pushNamed(PhonographFeelsWidget.routeName);
                 Navigator.pop(context);
+          
+
+                Navigator.of(context).pushNamed('/phonographFeels');
               },
               child: Container(
                 width: double.infinity,

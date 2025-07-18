@@ -1,11 +1,8 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 
 class PorcelainHeartsutterfliesWidget extends StatefulWidget {
   const PorcelainHeartsutterfliesWidget({super.key});
@@ -17,24 +14,18 @@ class PorcelainHeartsutterfliesWidget extends StatefulWidget {
 
 class _PorcelainHeartsutterfliesWidgetState
     extends State<PorcelainHeartsutterfliesWidget> {
-
-
   @override
   void setState(VoidCallback callback) {
     super.setState(callback);
-
   }
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -57,8 +48,10 @@ class _PorcelainHeartsutterfliesWidgetState
               style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.bold,
-                      fontStyle:
-                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                      fontStyle: heartMindVentralTheme
+                          .of(context)
+                          .bodyMedium
+                          .fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 20.0,
@@ -77,8 +70,10 @@ class _PorcelainHeartsutterfliesWidgetState
               style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
-                      fontStyle:
-                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                      fontStyle: heartMindVentralTheme
+                          .of(context)
+                          .bodyMedium
+                          .fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 16.0,
@@ -97,8 +92,9 @@ class _PorcelainHeartsutterfliesWidgetState
               hoverColor: Colors.transparent,
               highlightColor: Colors.transparent,
               onTap: () async {
-                context.pushNamed(DnaEncryptedFeelingsWidget.routeName);
-                  Navigator.pop(context);
+                   Navigator.pop(context);
+                Navigator.of(context).pushNamed('/dnaEncryptedFeelings');
+             
               },
               child: Container(
                 width: 148.0,
@@ -118,15 +114,19 @@ class _PorcelainHeartsutterfliesWidgetState
                   style: heartMindVentralTheme.of(context).bodyMedium.override(
                         font: GoogleFonts.poppins(
                           fontWeight: FontWeight.bold,
-                          fontStyle:
-                              heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                          fontStyle: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .fontStyle,
                         ),
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                 ),
               ),

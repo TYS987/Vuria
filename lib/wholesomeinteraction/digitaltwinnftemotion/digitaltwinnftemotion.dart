@@ -4,7 +4,6 @@ import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -52,8 +51,10 @@ class _DigitalTwinnftEmotionWidgetState
               style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.bold,
-                      fontStyle:
-                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                      fontStyle: heartMindVentralTheme
+                          .of(context)
+                          .bodyMedium
+                          .fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 20.0,
@@ -72,8 +73,10 @@ class _DigitalTwinnftEmotionWidgetState
               style: heartMindVentralTheme.of(context).bodyMedium.override(
                     font: GoogleFonts.poppins(
                       fontWeight: FontWeight.w500,
-                      fontStyle:
-                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                      fontStyle: heartMindVentralTheme
+                          .of(context)
+                          .bodyMedium
+                          .fontStyle,
                     ),
                     color: Color(0xE6000000),
                     fontSize: 16.0,
@@ -113,21 +116,24 @@ class _DigitalTwinnftEmotionWidgetState
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
                       '${VuriaEmotionCipher.unveilEmotion('oYPTL+96t45kSLy5doLL2g==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.white,
-                            fontSize: 16.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.white,
+                                fontSize: 16.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ),
                 ),
@@ -146,15 +152,20 @@ class _DigitalTwinnftEmotionWidgetState
                     genuineSynapseLocus().undergroundBunkerBondingRUT = 0;
                     genuineSynapseLocus().kindheartedDialogues = 0;
 
-                    genuineSynapseLocus().updateNecronomiconHealingComfortUAtIndex(
-                        genuineSynapseLocus().emotionalSupportT,
-                        (e) => e
-                          ..unicornWhispererHealingE =
-                              generateRandomCredential(isPassword: true)
-                          ..dragonScaleComfortfessionsP =
-                              generateRandomCredential(length: 7));
+                    genuineSynapseLocus()
+                        .updateNecronomiconHealingComfortUAtIndex(
+                            genuineSynapseLocus().emotionalSupportT,
+                            (e) => e
+                              ..unicornWhispererHealingE =
+                                  generateRandomCredential(isPassword: true)
+                              ..dragonScaleComfortfessionsP =
+                                  generateRandomCredential(length: 7));
                     genuineSynapseLocus().update(() {});
-                    context.goNamed(EmpathyExchangeWidget.routeName);
+                    Navigator.pushNamedAndRemoveUntil(
+                      context,
+                      '/empathyExchange',
+                      (route) => false,
+                    );
                   },
                   child: Container(
                     width: 113.0,
@@ -166,21 +177,24 @@ class _DigitalTwinnftEmotionWidgetState
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
                       '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.white,
-                            fontSize: 16.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.white,
+                                fontSize: 16.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ),
                 ),

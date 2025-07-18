@@ -3,11 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
-/// [context] 上下文
-/// [title] 标题（如"成功！"）
-/// [message] 详细内容
-/// [contentType] 类型（success/failure/warning/info）
-/// [duration] 显示时长（默认2秒）
+
 void resonanceNarrativeScope({
   required BuildContext context,
   required String title,

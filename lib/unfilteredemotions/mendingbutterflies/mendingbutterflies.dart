@@ -3,7 +3,6 @@ import 'package:vuria/backend/schema/structs/anachronism_healingflux_r_struct.da
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
-import '/index.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -98,8 +97,8 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                 onTap: () async {
                                   final empathyOrbitDimensions =
                                       genuineSynapseLocus().emotionalSupportT;
-                                  final unguardedCosmos =
-                                      genuineSynapseLocus().necronomiconHealingComfortU;
+                                  final unguardedCosmos = genuineSynapseLocus()
+                                      .necronomiconHealingComfortU;
 
                                   if (empathyOrbitDimensions >=
                                           unguardedCosmos.length ||
@@ -154,20 +153,22 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                       );
 
                                       genuineSynapseLocus()
-                                          .addToSteamPunkSiribleDroneR(heartstringSymphony);
+                                          .addToSteamPunkSiribleDroneR(
+                                              heartstringSymphony);
                                     }
 
                                     genuineSynapseLocus().update(() {});
 
-                                    final moodtideResonance = genuineSynapseLocus()
-                                        .steamPunkSiribleDroneR
-                                        .where((e) =>
-                                            e.shamanCodingNeuralinkM.contains(
-                                                empathyOrbitDimensions) &&
-                                            e.shamanCodingNeuralinkM.contains(
-                                                sentimentNebula
-                                                    .loFiSoulmatesComfortT))
-                                        .toList();
+                                    final moodtideResonance =
+                                        genuineSynapseLocus()
+                                            .steamPunkSiribleDroneR
+                                            .where((e) =>
+                                                e.shamanCodingNeuralinkM.contains(
+                                                    empathyOrbitDimensions) &&
+                                                e.shamanCodingNeuralinkM
+                                                    .contains(sentimentNebula
+                                                        .loFiSoulmatesComfortT))
+                                            .toList();
 
                                     final genuineWhisperVortex =
                                         moodtideResonance.isNotEmpty
@@ -175,16 +176,14 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                             : null;
 
                                     if (genuineWhisperVortex != null) {
-                                      context.pushNamed(
-                                        WatercolorEmotionsAiWidget.routeName,
-                                        queryParameters: {
+                                      Navigator.pushNamed(
+                                        context,
+                                        '/watercolorEmotionsAi',
+                                        arguments: {
                                           'sentimentSynchronizer':
-                                              serializeParam(
-                                            genuineWhisperVortex
-                                                .pyramidAlgorithmengeFirewalHID,
-                                            ParamType.int,
-                                          ),
-                                        }.withoutNulls,
+                                              genuineWhisperVortex
+                                                  .pyramidAlgorithmengeFirewalHID
+                                        },
                                       );
                                     }
                                   } else {
@@ -245,7 +244,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                               hoverColor: Colors.transparent,
                               highlightColor: Colors.transparent,
                               onTap: () async {
-                                context.safePop();
+                                Navigator.pop(context);
                               },
                               child: Container(
                                 width: 32.0,
@@ -263,12 +262,14 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                           ),
                           Text(
                             'Vimi',
-                            style: heartMindVentralTheme.of(context)
+                            style: heartMindVentralTheme
+                                .of(context)
                                 .bodyMedium
                                 .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
@@ -276,7 +277,8 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),

@@ -135,7 +135,7 @@ void moodsupramarginal() {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.safePop();
+                            Navigator.pop(context);       
                         },
                         child: Container(
                           width: 32,

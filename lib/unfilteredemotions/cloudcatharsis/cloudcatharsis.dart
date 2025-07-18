@@ -25,42 +25,42 @@ class CloudCatharsisWidget extends StatefulWidget {
 }
 
 class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
-Timer? emotionalSanctuary;
-int whisperingHeartfelt = 0;
-final int onnectionsharmony = 4;
-final scaffoldKey = GlobalKey<ScaffoldState>();
+  Timer? emotionalSanctuary;
+  int whisperingHeartfelt = 0;
+  final int onnectionsharmony = 4;
+  final scaffoldKey = GlobalKey<ScaffoldState>();
 
-void moodResonanceech() {
-  emotionalSanctuary?.cancel(); 
-  whisperingHeartfelt = 0; 
-  
-  emotionalSanctuary = Timer.periodic(const Duration(seconds: 1), (timer) async {
-    whisperingHeartfelt++;
-    
-    if (whisperingHeartfelt >= onnectionsharmony) {
-      emotionalSanctuary?.cancel();
-      await chambersoulfulExpressions(); 
-      universgenuineEmotional();
-    }
-  });
-}
+  void moodResonanceech() {
+    emotionalSanctuary?.cancel();
+    whisperingHeartfelt = 0;
 
-Future<void> chambersoulfulExpressions() async {
- 
-  await emotionWhisperInterface(
-    message: '${VuriaEmotionCipher.unveilEmotion('rI2dbOt4zvMLMNPXXIvC0w==')}',
-    icon: Icons.phone_missed_outlined,
-  );
-  
+    emotionalSanctuary =
+        Timer.periodic(const Duration(seconds: 1), (timer) async {
+      whisperingHeartfelt++;
 
-  await Future.delayed(const Duration(seconds: 2));
-}
-
-void universgenuineEmotional() {
-  if (mounted) {
-    Navigator.pop(context);
+      if (whisperingHeartfelt >= onnectionsharmony) {
+        emotionalSanctuary?.cancel();
+        await chambersoulfulExpressions();
+        universgenuineEmotional();
+      }
+    });
   }
-}
+
+  Future<void> chambersoulfulExpressions() async {
+    await emotionWhisperInterface(
+      message:
+          '${VuriaEmotionCipher.unveilEmotion('rI2dbOt4zvMLMNPXXIvC0w==')}',
+      icon: Icons.phone_missed_outlined,
+    );
+
+    await Future.delayed(const Duration(seconds: 2));
+  }
+
+  void universgenuineEmotional() {
+    if (mounted) {
+      Navigator.pop(context);
+    }
+  }
 
   @override
   void initState() {
@@ -92,14 +92,14 @@ void universgenuineEmotional() {
             Container(
               width: double.infinity,
               height: double.infinity,
-                decoration: BoxDecoration(
-            image: DecorationImage(
-              fit: BoxFit.cover,
-              image: Image.asset(
-                'assets/images/comfortableListening.png',
-              ).image,
-            ),
-          ),
+              decoration: BoxDecoration(
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: Image.asset(
+                    'assets/images/comfortableListening.png',
+                  ).image,
+                ),
+              ),
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -142,22 +142,26 @@ void universgenuineEmotional() {
                                 ?.phoenixTearsTherapyN,
                             'ANNE',
                           ),
-                          style:
-                              heartMindVentralTheme.of(context).bodyMedium.override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Colors.white,
-                                    fontSize: 24.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                          style: heartMindVentralTheme
+                              .of(context)
+                              .bodyMedium
+                              .override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.bold,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.white,
+                                fontSize: 24.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                         ),
                       ),
                     ],
@@ -172,7 +176,7 @@ void universgenuineEmotional() {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          context.safePop();
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 78.0,
@@ -226,15 +230,19 @@ void universgenuineEmotional() {
                 style: heartMindVentralTheme.of(context).bodyMedium.override(
                       font: GoogleFonts.poppins(
                         fontWeight: FontWeight.bold,
-                        fontStyle:
-                            heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                        fontStyle: heartMindVentralTheme
+                            .of(context)
+                            .bodyMedium
+                            .fontStyle,
                       ),
                       color: Colors.white,
                       fontSize: 24.0,
                       letterSpacing: 0.0,
                       fontWeight: FontWeight.bold,
-                      fontStyle:
-                          heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                      fontStyle: heartMindVentralTheme
+                          .of(context)
+                          .bodyMedium
+                          .fontStyle,
                     ),
               ),
             )
