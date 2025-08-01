@@ -33,7 +33,7 @@ final _obfuscationToken =
 const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
   'mqrvovazpdbiwutc',
   'dvgfvgahtngmhybc',
-  'tran quilizehopew',
+  'tranquilizehopew',
   'rikcjwuzhnqvasab',
   'luminescentwaycb',
   'iqzujbrzbarqjeec',
