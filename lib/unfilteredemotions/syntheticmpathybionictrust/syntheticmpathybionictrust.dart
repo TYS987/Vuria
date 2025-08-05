@@ -213,8 +213,7 @@ class _SyntheticmpathybionicTrustWidgetState
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 filled: true,
-                                fillColor: heartMindVentralTheme.of(context)
-                                    .secondaryBackground,
+                                    fillColor: Colors.transparent,
                               ),
                               style: heartMindVentralTheme.of(context)
                                   .bodyMedium
@@ -300,6 +299,7 @@ class _SyntheticmpathybionicTrustWidgetState
                   ],
                 ),
               ),
+            
             ],
           ),
         ),

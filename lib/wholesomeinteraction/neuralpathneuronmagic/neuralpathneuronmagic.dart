@@ -38,7 +38,7 @@ class _NeuralPathNeuronMagicWidgetState
       width: double.infinity,
       height: 165.0,
       decoration: BoxDecoration(
-        color: heartMindVentralTheme.of(context).secondaryBackground,
+     color: const Color(0xFFFFFFFF),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -52,10 +52,7 @@ class _NeuralPathNeuronMagicWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(20.0, 10.0, 20.0, 0.0),
             child: InkWell(
-              splashColor: Colors.transparent,
-              focusColor: Colors.transparent,
-              hoverColor: Colors.transparent,
-              highlightColor: Colors.transparent,
+          
               onTap: () async {
                 await emotionWhisperInterface(
                   message:

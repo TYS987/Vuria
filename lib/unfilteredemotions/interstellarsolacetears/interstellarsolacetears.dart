@@ -12,8 +12,6 @@ import 'package:google_fonts/google_fonts.dart';
 class InterstellarSolaceTearsWidget extends StatefulWidget {
   const InterstellarSolaceTearsWidget({super.key});
 
-
-
   @override
   State<InterstellarSolaceTearsWidget> createState() =>
       _InterstellarSolaceTearsWidgetState();
@@ -128,10 +126,6 @@ class _InterstellarSolaceTearsWidgetState
                           scrollDirection: Axis.vertical,
                           children: [
                             InkWell(
-                              splashColor: Colors.transparent,
-                              focusColor: Colors.transparent,
-                              hoverColor: Colors.transparent,
-                              highlightColor: Colors.transparent,
                               onTap: () async {
                                 Navigator.pushNamed(
                                   context,
@@ -143,9 +137,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme
-                                      .of(context)
-                                      .secondaryBackground,
+                                  color: Color(0xFFFFFFFF),
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
                                     color: Color(0xFFFF6206),
@@ -202,10 +194,6 @@ class _InterstellarSolaceTearsWidgetState
                             ),
                             Builder(
                               builder: (context) => InkWell(
-                                splashColor: Colors.transparent,
-                                focusColor: Colors.transparent,
-                                hoverColor: Colors.transparent,
-                                highlightColor: Colors.transparent,
                                 onTap: () async {
                                   await showDialog(
                                     context: context,
@@ -235,9 +223,7 @@ class _InterstellarSolaceTearsWidgetState
                                   width: 335.0,
                                   height: 50.0,
                                   decoration: BoxDecoration(
-                                    color: heartMindVentralTheme
-                                        .of(context)
-                                        .secondaryBackground,
+                                    color: Color(0xFFFFFFFF),
                                     borderRadius: BorderRadius.circular(50.0),
                                     border: Border.all(
                                       color: Color(0xFFFF6206),
@@ -295,10 +281,6 @@ class _InterstellarSolaceTearsWidgetState
                               ),
                             ),
                             InkWell(
-                              splashColor: Colors.transparent,
-                              focusColor: Colors.transparent,
-                              hoverColor: Colors.transparent,
-                              highlightColor: Colors.transparent,
                               onTap: () async {
                                 Navigator.pushNamed(
                                   context,
@@ -310,9 +292,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme
-                                      .of(context)
-                                      .secondaryBackground,
+                                  color: Color(0xFFFFFFFF),
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
                                     color: Color(0xFFFF6206),
@@ -368,10 +348,6 @@ class _InterstellarSolaceTearsWidgetState
                               ),
                             ),
                             InkWell(
-                              splashColor: Colors.transparent,
-                              focusColor: Colors.transparent,
-                              hoverColor: Colors.transparent,
-                              highlightColor: Colors.transparent,
                               onTap: () async {
                                 Navigator.pushNamed(
                                   context,
@@ -383,9 +359,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme
-                                      .of(context)
-                                      .secondaryBackground,
+                                  color: Color(0xFFFFFFFF),
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
                                     color: Color(0xFFFF6206),
@@ -441,10 +415,6 @@ class _InterstellarSolaceTearsWidgetState
                               ),
                             ),
                             InkWell(
-                              splashColor: Colors.transparent,
-                              focusColor: Colors.transparent,
-                              hoverColor: Colors.transparent,
-                              highlightColor: Colors.transparent,
                               onTap: () async {
                                 Navigator.of(context)
                                     .pushNamed('/syntheticmpathybionicTrust');
@@ -453,9 +423,7 @@ class _InterstellarSolaceTearsWidgetState
                                 width: 335.0,
                                 height: 50.0,
                                 decoration: BoxDecoration(
-                                  color: heartMindVentralTheme
-                                      .of(context)
-                                      .secondaryBackground,
+                                  color: Color(0xFFFFFFFF),
                                   borderRadius: BorderRadius.circular(50.0),
                                   border: Border.all(
                                     color: Color(0xFFFF6206),
@@ -514,9 +482,7 @@ class _InterstellarSolaceTearsWidgetState
                               width: 335.0,
                               height: 50.0,
                               decoration: BoxDecoration(
-                                color: heartMindVentralTheme
-                                    .of(context)
-                                    .secondaryBackground,
+                                color: Color(0xFFFFFFFF),
                                 borderRadius: BorderRadius.circular(50.0),
                                 border: Border.all(
                                   color: Color(0xFFFF6206),

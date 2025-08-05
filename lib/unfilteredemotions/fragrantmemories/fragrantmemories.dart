@@ -269,9 +269,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           width: double.infinity,
                           height: 56.0,
                           decoration: BoxDecoration(
-                            color: heartMindVentralTheme
-                                .of(context)
-                                .secondaryBackground,
+                            color: Color(0xFFFFFFFF), 
                             borderRadius: BorderRadius.circular(40.0),
                             border: Border.all(
                               color: Color(0xFFFF7A19),
@@ -377,6 +375,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                             .bodyMedium
                                             .fontStyle,
                                       ),
+                                       color: Color(0xFF000000), 
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
@@ -391,10 +390,12 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 validator:
                                     authnticPseUniverse.asValidator(context),
                               ),
+                         
                             ),
                           ),
                         ),
                       ),
+                    
                       Align(
                         alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(

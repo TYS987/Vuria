@@ -35,7 +35,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
       width: 375.0,
       height: 556.0,
       decoration: BoxDecoration(
-        color: heartMindVentralTheme.of(context).secondaryBackground,
+        color: Color(0xFFFFFFFF),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -71,6 +71,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       letterSpacing: 0.0,
                       fontWeight: FontWeight.w500,
                       lineHeight: 1.4,
+                        color: Color(0xB3000000),
                     ),
               ),
             ),
@@ -86,8 +87,6 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-                    
-
                       Navigator.pushNamed(
                         context,
                         '/sentimentAligned',
@@ -123,7 +122,6 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     hoverColor: Colors.transparent,
                     highlightColor: Colors.transparent,
                     onTap: () async {
-             
                       Navigator.pushNamed(
                         context,
                         '/sentimentAligned',

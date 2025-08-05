@@ -9,7 +9,6 @@ import 'package:google_fonts/google_fonts.dart';
 class PhonographFeelsWidget extends StatefulWidget {
   const PhonographFeelsWidget({super.key});
 
-
   @override
   State<PhonographFeelsWidget> createState() => _PhonographFeelsWidgetState();
 }
@@ -76,7 +75,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                       Navigator.pop(context);          
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -94,21 +93,24 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.w600,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.w600,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style:
+                          heartMindVentralTheme.of(context).bodyMedium.override(
+                                font: GoogleFonts.poppins(
+                                  fontWeight: FontWeight.w600,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                                color: Colors.black,
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.w600,
+                                fontStyle: heartMindVentralTheme
+                                    .of(context)
+                                    .bodyMedium
+                                    .fontStyle,
+                              ),
                     ),
                   ],
                 ),
@@ -124,17 +126,22 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                           alignment: AlignmentDirectional(0.0, -1.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2R/HtsoxilvdVyPTNYv80a9CbE4YM0Y7BY7ZrQXeHxB58WU2YtQuoNpNi0hrVCw==')}',
-                            style: heartMindVentralTheme.of(context).bodyMedium.override(
+                            style: heartMindVentralTheme
+                                .of(context)
+                                .bodyMedium
+                                .override(
                                   font: GoogleFonts.poppins(
                                     fontWeight: FontWeight.w500,
-                                    fontStyle: heartMindVentralTheme.of(context)
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .fontStyle,
                                   ),
                                   color: Color(0x99000000),
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w500,
-                                  fontStyle: heartMindVentralTheme.of(context)
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .fontStyle,
                                 ),
@@ -191,12 +198,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('qoPPLfll0OEANrC1eo7H1g==')}',
-                                    style: heartMindVentralTheme.of(context)
+                                    style: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -204,7 +213,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -269,12 +279,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYtDBHf2l0Q==')}',
-                                    style: heartMindVentralTheme.of(context)
+                                    style: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -282,7 +294,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -347,12 +360,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('so3PIuVxz+UeKs+2eY3E1Q==')}',
-                                    style: heartMindVentralTheme.of(context)
+                                    style: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -360,7 +375,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -425,12 +441,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYt/dD/2tpPMZOpuDzuwDuZ41tduwCIA=')}',
-                                    style: heartMindVentralTheme.of(context)
+                                    style: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -438,7 +456,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -503,12 +522,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('pIPRP+829OoILcTeHfyov+4ZOpuDzuwDuZ41tduwCIA=')}',
-                                    style: heartMindVentralTheme.of(context)
+                                    style: heartMindVentralTheme
+                                        .of(context)
                                         .bodyMedium
                                         .override(
                                           font: GoogleFonts.poppins(
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .bodyMedium
                                                 .fontStyle,
                                           ),
@@ -516,7 +537,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
@@ -527,14 +549,15 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                           ),
                         ),
                         Padding(
-                          padding:
-                              EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 16.0, 0.0, 0.0),
                           child: Container(
                             width: 327.0,
                             height: 125.0,
                             decoration: BoxDecoration(
-                              color:
-                                  heartMindVentralTheme.of(context).secondaryBackground,
+                              color: heartMindVentralTheme
+                                  .of(context)
+                                  .secondaryBackground,
                               borderRadius: BorderRadius.circular(12.0),
                               border: Border.all(
                                 color: Color(0xFFFF6206),
@@ -553,44 +576,54 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     isDense: true,
-                                    labelStyle: heartMindVentralTheme.of(context)
+                                    labelStyle: heartMindVentralTheme
+                                        .of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme.of(context)
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
                                                 .labelMedium
                                                 .fontWeight,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .labelMedium
                                                 .fontStyle,
                                           ),
                                           letterSpacing: 0.0,
-                                          fontWeight: heartMindVentralTheme.of(context)
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
                                               .labelMedium
                                               .fontWeight,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .labelMedium
                                               .fontStyle,
                                         ),
                                     hintText:
                                         '${VuriaEmotionCipher.unveilEmotion('sZfNPOZz0OEANtfBBailtfN1R/38tYpj2LES1aTLbuA1eMjbce0gqeqkHJoSPh75')}',
-                                    hintStyle: heartMindVentralTheme.of(context)
+                                    hintStyle: heartMindVentralTheme
+                                        .of(context)
                                         .labelMedium
                                         .override(
                                           font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme.of(context)
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
                                                 .labelMedium
                                                 .fontWeight,
-                                            fontStyle: heartMindVentralTheme.of(context)
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
                                                 .labelMedium
                                                 .fontStyle,
                                           ),
                                           color: Color(0x66000000),
                                           letterSpacing: 0.0,
-                                          fontWeight: heartMindVentralTheme.of(context)
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
                                               .labelMedium
                                               .fontWeight,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .labelMedium
                                               .fontStyle,
                                         ),
@@ -623,25 +656,30 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
                                     filled: true,
-                                    fillColor: heartMindVentralTheme.of(context)
-                                        .secondaryBackground,
+                                  fillColor: Colors.transparent,
                                   ),
-                                  style: heartMindVentralTheme.of(context)
+                                  style: heartMindVentralTheme
+                                      .of(context)
                                       .bodyMedium
                                       .override(
                                         font: GoogleFonts.poppins(
-                                          fontWeight: heartMindVentralTheme.of(context)
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontWeight,
-                                          fontStyle: heartMindVentralTheme.of(context)
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
                                               .bodyMedium
                                               .fontStyle,
                                         ),
+                                         color: Color(0xFF000000), 
                                         letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme.of(context)
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -669,8 +707,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                           ),
                         ),
                         Padding(
-                          padding:
-                              EdgeInsetsDirectional.fromSTEB(0.0, 83.0, 0.0, 0.0),
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 83.0, 0.0, 0.0),
                           child: InkWell(
                             onTap: () async {
                               if (symbioticVulnerable != null ||
@@ -683,8 +721,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                 );
                                 authenticMindMap?.clear();
                                 symbioticVulnerable = null;
-                           setState(() {});
-                           Navigator.pop(context); 
+                                setState(() {});
+                                Navigator.pop(context);
                               } else {
                                 await emotionWhisperInterface(
                                   message:
@@ -704,12 +742,14 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               alignment: AlignmentDirectional(0.0, 0.0),
                               child: Text(
                                 '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
-                                style: heartMindVentralTheme.of(context)
+                                style: heartMindVentralTheme
+                                    .of(context)
                                     .bodyMedium
                                     .override(
                                       font: GoogleFonts.poppins(
                                         fontWeight: FontWeight.bold,
-                                        fontStyle: heartMindVentralTheme.of(context)
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
                                             .bodyMedium
                                             .fontStyle,
                                       ),
@@ -717,7 +757,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       fontSize: 20.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme.of(context)
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
                                           .bodyMedium
                                           .fontStyle,
                                     ),
@@ -725,8 +766,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             ),
                           ),
                         ),
-                      ]
-                    .addToEnd(SizedBox(height: 100)),
+                      ].addToEnd(SizedBox(height: 100)),
                     ),
                   ),
                 ),

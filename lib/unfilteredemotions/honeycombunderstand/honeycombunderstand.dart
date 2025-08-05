@@ -11,8 +11,6 @@ import 'package:provider/provider.dart';
 class HoneycombUnderstandWidget extends StatefulWidget {
   const HoneycombUnderstandWidget({super.key});
 
-
-
   @override
   State<HoneycombUnderstandWidget> createState() =>
       _HoneycombUnderstandWidgetState();
@@ -399,129 +397,133 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                               ),
                             ],
                           ),
-                          Container(
-                            width: 351.0,
-                            height: 67.0,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                fit: BoxFit.cover,
-                                image: Image.asset(
-                                  'assets/images/cosmicRayComfort.png',
-                                ).image,
+                          Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                                    0.0, 10.0, 0.0, 0.0),
+                            child: Container(
+                              width: 351.0,
+                              height: 67.0,
+                              decoration: BoxDecoration(
+                                image: DecorationImage(
+                                  fit: BoxFit.cover,
+                                  image: Image.asset(
+                                    'assets/images/cosmicRayComfort.png',
+                                  ).image,
+                                ),
                               ),
-                            ),
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  20.0, 0.0, 20.0, 0.0),
-                              child: Row(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Container(
-                                    width: 67.0,
-                                    height: 67.0,
-                                    decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                        image: Image.asset(
-                                          'assets/images/supernovaConfession.png',
-                                        ).image,
-                                      ),
-                                    ),
-                                  ),
-                                  Expanded(
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.max,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      children: [
-                                        Text(
-                                          valueOrDefault<String>(
-                                            genuineSynapseLocus()
-                                                .necronomiconHealingComfortU
-                                                .where((e) =>
-                                                    e.loFiSoulmatesComfortT ==
-                                                    genuineSynapseLocus()
-                                                        .emotionalSupportT)
-                                                .toList()
-                                                .firstOrNull
-                                                ?.augmentedRealityLoveM
-                                                .toString(),
-                                            '0',
-                                          ),
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                font: GoogleFonts.poppins(
-                                                  fontWeight: FontWeight.bold,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
-                                                color: Colors.white,
-                                                fontSize: 16.0,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.bold,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
-                                              ),
-                                        ),
-                                        Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                font: GoogleFonts.poppins(
-                                                  fontWeight: FontWeight.w500,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
-                                                color: Colors.white,
-                                                fontSize: 12.0,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.w500,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
-                                              ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  InkWell(
-                                    splashColor: Colors.transparent,
-                                    focusColor: Colors.transparent,
-                                    hoverColor: Colors.transparent,
-                                    highlightColor: Colors.transparent,
-                                    onTap: () async {
-                                      Navigator.of(context)
-                                          .pushNamed('/dnaEncryptedFeelings');
-                                    },
-                                    child: Container(
-                                      width: 103.0,
-                                      height: 45.0,
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    20.0, 0.0, 20.0, 0.0),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Container(
+                                      width: 67.0,
+                                      height: 67.0,
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
                                           image: Image.asset(
-                                            'assets/images/neutronStarTrust.png',
+                                            'assets/images/supernovaConfession.png',
                                           ).image,
                                         ),
                                       ),
                                     ),
-                                  ),
-                                ],
+                                    Expanded(
+                                      child: Column(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
+                                        crossAxisAlignment:
+                                            CrossAxisAlignment.start,
+                                        children: [
+                                          Text(
+                                            valueOrDefault<String>(
+                                              genuineSynapseLocus()
+                                                  .necronomiconHealingComfortU
+                                                  .where((e) =>
+                                                      e.loFiSoulmatesComfortT ==
+                                                      genuineSynapseLocus()
+                                                          .emotionalSupportT)
+                                                  .toList()
+                                                  .firstOrNull
+                                                  ?.augmentedRealityLoveM
+                                                  .toString(),
+                                              '0',
+                                            ),
+                                            style: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .override(
+                                                  font: GoogleFonts.poppins(
+                                                    fontWeight: FontWeight.bold,
+                                                    fontStyle:
+                                                        heartMindVentralTheme
+                                                            .of(context)
+                                                            .bodyMedium
+                                                            .fontStyle,
+                                                  ),
+                                                  color: Colors.white,
+                                                  fontSize: 16.0,
+                                                  letterSpacing: 0.0,
+                                                  fontWeight: FontWeight.bold,
+                                                  fontStyle: heartMindVentralTheme
+                                                      .of(context)
+                                                      .bodyMedium
+                                                      .fontStyle,
+                                                ),
+                                          ),
+                                          Text(
+                                            '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
+                                            style: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .override(
+                                                  font: GoogleFonts.poppins(
+                                                    fontWeight: FontWeight.w500,
+                                                    fontStyle:
+                                                        heartMindVentralTheme
+                                                            .of(context)
+                                                            .bodyMedium
+                                                            .fontStyle,
+                                                  ),
+                                                  color: Colors.white,
+                                                  fontSize: 12.0,
+                                                  letterSpacing: 0.0,
+                                                  fontWeight: FontWeight.w500,
+                                                  fontStyle: heartMindVentralTheme
+                                                      .of(context)
+                                                      .bodyMedium
+                                                      .fontStyle,
+                                                ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                    InkWell(
+                                      splashColor: Colors.transparent,
+                                      focusColor: Colors.transparent,
+                                      hoverColor: Colors.transparent,
+                                      highlightColor: Colors.transparent,
+                                      onTap: () async {
+                                        Navigator.of(context)
+                                            .pushNamed('/dnaEncryptedFeelings');
+                                      },
+                                      child: Container(
+                                        width: 103.0,
+                                        height: 45.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: Image.asset(
+                                              'assets/images/neutronStarTrust.png',
+                                            ).image,
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ],
+                                ),
                               ),
                             ),
                           ),
@@ -842,6 +844,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                     .bodyMedium
                                                                     .fontStyle,
                                                               ),
+                                                      maxLines: 1,
+                                                      overflow:
+                                                          TextOverflow.ellipsis,
                                                     ),
                                                   ),
                                                 ],

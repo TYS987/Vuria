@@ -43,7 +43,7 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
       width: double.infinity,
       height: 222.0,
       decoration: BoxDecoration(
-        color: heartMindVentralTheme.of(context).secondaryBackground,
+color: const Color(0xFFFFFFFF),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -70,7 +70,7 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
                 width: double.infinity,
                 height: 49.0,
                 decoration: BoxDecoration(
-                  color: heartMindVentralTheme.of(context).secondaryBackground,
+               color: const Color(0xFFFFFFFF),
                   borderRadius: BorderRadius.circular(32.0),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
@@ -138,7 +138,7 @@ class _SteampunkConfidantWidgetState extends State<SteampunkConfidantWidget> {
                 width: double.infinity,
                 height: 49.0,
                 decoration: BoxDecoration(
-                  color: heartMindVentralTheme.of(context).secondaryBackground,
+                color: const Color(0xFFFFFFFF),
                   borderRadius: BorderRadius.circular(32.0),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),

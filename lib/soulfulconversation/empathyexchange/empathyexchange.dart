@@ -244,6 +244,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           .fontStyle,
                                     ),
                                     letterSpacing: 0.0,
+                                    color: Color(0xFF000000),
                                     fontWeight: heartMindVentralTheme
                                         .of(context)
                                         .bodyMedium
@@ -262,6 +263,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                         ),
                       ),
                     ),
+                   
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
@@ -398,6 +400,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                     .bodyMedium
                                                     .fontStyle,
                                               ),
+                                              color: Color(0xFF000000), //
                                               letterSpacing: 0.0,
                                               fontWeight: heartMindVentralTheme
                                                   .of(context)
@@ -468,6 +471,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                         ),
                       ),
                     ),
+                
                   ],
                 ),
               ),

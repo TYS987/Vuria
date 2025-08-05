@@ -270,7 +270,10 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 (e) => e.remove(
                                                     soulfulExpressionLogItem),
                                               ),
+
+                                      
                                           );
+                                                 genuineSynapseLocus() .update((){});
                                         },
                                         child: Container(
                                           width: 82.0,

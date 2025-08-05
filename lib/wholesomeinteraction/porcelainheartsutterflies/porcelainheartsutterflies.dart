@@ -35,7 +35,7 @@ class _PorcelainHeartsutterfliesWidgetState
       width: 287.0,
       height: 179.0,
       decoration: BoxDecoration(
-        color: heartMindVentralTheme.of(context).secondaryBackground,
+   color: Color(0xFFFFFFFF),
         borderRadius: BorderRadius.circular(16.0),
       ),
       child: Column(

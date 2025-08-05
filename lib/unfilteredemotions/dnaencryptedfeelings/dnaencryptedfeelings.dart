@@ -237,9 +237,7 @@ class _DnaEncryptedFeelingsWidgetState
                                     width: 100.0,
                                     height: 136.0,
                                     decoration: BoxDecoration(
-                                      color: heartMindVentralTheme
-                                          .of(context)
-                                          .secondaryBackground,
+                                 color: Color(0xE6FFFFFF),
                                       borderRadius: BorderRadius.circular(24.0),
                                       border: Border.all(
                                         color: sentimentSynchr ==

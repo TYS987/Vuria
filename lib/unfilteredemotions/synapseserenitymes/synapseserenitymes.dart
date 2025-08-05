@@ -17,8 +17,6 @@ class SynapseSerenitymesWidget extends StatefulWidget {
 
   final int? emotionalSafeHaven;
 
-
-
   @override
   State<SynapseSerenitymesWidget> createState() =>
       _SynapseSerenitymesWidgetState();
@@ -586,9 +584,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 filled: true,
-                                fillColor: heartMindVentralTheme
-                                    .of(context)
-                                    .secondaryBackground,
+                                fillColor: Colors.transparent,
                               ),
                               style: heartMindVentralTheme
                                   .of(context)
@@ -604,6 +600,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                           .bodyMedium
                                           .fontStyle,
                                     ),
+                                    color: Color(0xFF323232),
                                     letterSpacing: 0.0,
                                     fontWeight: heartMindVentralTheme
                                         .of(context)
@@ -686,7 +683,6 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                     
                           Navigator.pushNamed(
                             context,
                             '/cloudCatharsis',

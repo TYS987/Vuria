@@ -555,11 +555,14 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               widget.soulConnectionMatrix)
                                           .toList();
 
+                               
                                   return ListView.builder(
                                     padding: EdgeInsets.zero,
+                                       primary: false,
                                     shrinkWrap: true,
                                     scrollDirection: Axis.vertical,
                                     itemCount: sorrowSharedSanctuary.length,
+                             
                                     itemBuilder:
                                         (context, sorrowSharedSanctuaryIndex) {
                                       final sorrowSharedSanctuaryItem =
@@ -646,6 +649,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                             .bodyMedium
                                                                             .fontStyle,
                                                                       ),
+                                                                        color: const Color(0xFF000000),
                                                                       letterSpacing:
                                                                           0.0,
                                                                       fontWeight: heartMindVentralTheme
@@ -658,7 +662,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                           .fontStyle,
                                                                     ),
                                                           ),
-                                                          Text(
+                                                        
+                                                        
+                                                         Text(
                                                             dateTimeFormat(
                                                                 "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
                                                                 sorrowSharedSanctuaryItem
@@ -679,6 +685,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                             .bodyMedium
                                                                             .fontStyle,
                                                                       ),
+                                                                        color: Color(0xFF767676),
                                                                       fontSize:
                                                                           10,
                                                                       letterSpacing:
@@ -693,6 +700,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                           .fontStyle,
                                                                     ),
                                                           )
+                                                     
                                                         ],
                                                       ),
                                                     ),
@@ -809,6 +817,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                   ],
                                                 ),
                                               ),
+                                           
                                             ],
                                           ),
                                           Align(
@@ -856,10 +865,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               ),
                                             ),
                                           ),
+                                           const SizedBox(height: 10),
                                         ],
                                       );
                                     },
                                   );
+                              
+                              
                                 },
                               ),
                             ),
@@ -870,7 +882,8 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                   ),
                 ],
               ),
-              Align(
+            
+             Align(
                 alignment: AlignmentDirectional(0, 1),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -885,9 +898,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             width: 287,
                             height: 40,
                             decoration: BoxDecoration(
-                              color: heartMindVentralTheme
-                                  .of(context)
-                                  .secondaryBackground,
+                         color: const Color(0xE6FFFFFF), 
                               borderRadius: BorderRadius.circular(35),
                             ),
                             child: Padding(
@@ -986,9 +997,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       borderRadius: BorderRadius.circular(8),
                                     ),
                                     filled: true,
-                                    fillColor: heartMindVentralTheme
-                                        .of(context)
-                                        .secondaryBackground,
+                                  fillColor: Colors.transparent,
                                   ),
                                   style: heartMindVentralTheme
                                       .of(context)
@@ -1004,6 +1013,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               .bodyMedium
                                               .fontStyle,
                                         ),
+                                        color: Color(0xFF000000),
                                         letterSpacing: 0.0,
                                         fontWeight: heartMindVentralTheme
                                             .of(context)
@@ -1020,6 +1030,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   validator:
                                       authenticBrainStem.asValidator(context),
                                 ),
+                             
                               ),
                             ),
                           ),
