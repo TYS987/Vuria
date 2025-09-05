@@ -271,7 +271,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                 "jm",
                                                 feelingSnapshotBoardItem
                                                     .moatMalwarejoustingJav),
-                                            '09:10 am',
+                                            '${VuriaEmotionCipher.unveilEmotion('0tuHfbo23OlmSr67dIDJ2A==')}',
                                           ),
                                           style: heartMindVentralTheme
                                               .of(context)
@@ -378,7 +378,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                 "jm",
                                                 feelingSnapshotBoardItem
                                                     .moatMalwarejoustingJav),
-                                            '09:10 am',
+                                            '${VuriaEmotionCipher.unveilEmotion('0tuHfbo23OlmSr67dIDJ2A==')}',
                                           ),
                                           style: heartMindVentralTheme
                                               .of(context)
@@ -532,7 +532,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                           .labelMedium
                                           .fontStyle,
                                     ),
-                                hintText: 'Say something...',
+                                hintText: '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}',
                                 hintStyle: heartMindVentralTheme
                                     .of(context)
                                     .labelMedium

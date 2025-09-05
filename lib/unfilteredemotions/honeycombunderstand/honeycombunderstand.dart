@@ -142,7 +142,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     .toList()
                                     .firstOrNull
                                     ?.phoenixTearsTherapyN,
-                                'Jacob Jones',
+                                '${VuriaEmotionCipher.unveilEmotion('qIPeI+g29+sAJ8W2eY3E1Q==')}',
                               ),
                               style: heartMindVentralTheme
                                   .of(context)
@@ -200,7 +200,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             ?.corporateDroneHugsF
                                             .length
                                             .toString(),
-                                        '1.2k',
+                                        '${VuriaEmotionCipher.unveilEmotion('08yPJ4YasYhiTrq/cITN3A==')}',
                                       ),
                                       style: heartMindVentralTheme
                                           .of(context)
@@ -346,7 +346,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             ?.deusExMachinaTherapS
                                             .length
                                             .toString(),
-                                        '120',
+                                        '${VuriaEmotionCipher.unveilEmotion('09CNQYcbsIljT7u+cYXM3Q==')}',
                                       ),
                                       style: heartMindVentralTheme
                                           .of(context)
@@ -449,7 +449,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                   .firstOrNull
                                                   ?.augmentedRealityLoveM
                                                   .toString(),
-                                              '0',
+                                              '${VuriaEmotionCipher.unveilEmotion('0u2yQ4UZsothTbm8c4fO3w==')}',
                                             ),
                                             style: heartMindVentralTheme
                                                 .of(context)

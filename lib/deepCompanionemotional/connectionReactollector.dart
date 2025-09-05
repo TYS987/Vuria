@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/soulfulconversation/empathyexchange/empathyexchange.dart';
@@ -14,6 +13,7 @@ import 'package:vuria/unfilteredemotions/mendingbutterflies/mendingbutterflies.d
 import 'package:vuria/unfilteredemotions/neuralempathypulse/neuralempathypulse.dart';
 import 'package:vuria/unfilteredemotions/pendulumtrust/pendulumtrust.dart';
 import 'package:vuria/unfilteredemotions/phonographfeels/phonographfeels.dart';
+import 'package:vuria/unfilteredemotions/sentimentExchangePlatform/sentimentExchangePlatform.dart';
 import 'package:vuria/unfilteredemotions/sentimentaligned/sentimentaligned.dart';
 import 'package:vuria/unfilteredemotions/sentimentmosaic/sentimentmosaic.dart';
 import 'package:vuria/unfilteredemotions/synapseserenitymes/synapseserenitymes.dart';
@@ -30,7 +30,7 @@ final Map<String, WidgetBuilder> appRoutes = {
         ? TrustedConfidantsWidget()
         : EmpathyExchangeWidget();
   },
-  '/empathyExchange': (context) => EmpathyExchangeWidget(),  //登录页面
+  '/empathyExchange': (context) => EmpathyExchangeWidget(), //登录页面
 
   '/trustedConfidants': (context) => TrustedConfidantsWidget(), // 首页
   '/pendulumTrust': (context) => PendulumTrustWidget(), // 动态
@@ -120,6 +120,16 @@ final Map<String, WidgetBuilder> appRoutes = {
       soulConnectionMatrix: args?['soulConnectionMatrix'] ?? '',
     );
   },
+
+// 展示H5页面
+  '/sentimentExchangePlatform': (context) {
+    final args =
+        ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>?;
+    return SentimentExchangePlatformWidget(
+      empathyBasedSocialNetwork: args?['empathyBasedSocialNetwork'] ?? '',
+    );
+  },
+
 };
 
 class FadeRoute<T> extends PageRouteBuilder<T> {

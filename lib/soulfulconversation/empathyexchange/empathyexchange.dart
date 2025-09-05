@@ -1,6 +1,17 @@
+import 'dart:async';
+
+import 'package:bot_toast/bot_toast.dart';
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:flutter_spinkit/flutter_spinkit.dart';
+import 'package:screen_protector/screen_protector.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'package:vuria/backend/schema/structs/truthBridgewaySignalFieldboard.dart';
+import 'package:vuria/feelingKaleidoscopeCore/authenticExpressionEcosystem.dart';
+import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart';
+import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -30,10 +41,108 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
+  int tranquilPolitenessHonorableCourtesy = 0;
+
+  Map<String, dynamic>? synchronismatrixCoadaptive;
+
+  Map<String, dynamic>? degwsfsaffsafeabvejkaf;
+
+  bool chatroomAIConnection = false;
+
+  Future pivotsequenceCascadefootwork(BuildContext context) async {
+    await recoveryCommunityFormation();
+    do {
+      if (tranquilPolitenessHonorableCourtesy < 50) {
+        tranquilPolitenessHonorableCourtesy++;
+        await Future.delayed(const Duration(milliseconds: 1000));
+        synchronismatrixCoadaptive = await InterpersonalBalanceMatrix
+            .interpersonalHarmonyNexus
+            .allPost();
+
+        print(
+            '$tranquilPolitenessHonorableCourtesy + $synchronismatrixCoadaptive');
+      } else {
+        break;
+      }
+    } while (synchronismatrixCoadaptive == null);
+    if (synchronismatrixCoadaptive?['result'] != null) {
+      print('获得的返回值：' +
+          (synchronismatrixCoadaptive?['result'] as String)
+              .sincereConversationMatrix());
+      // 解密之后返回的值
+      degwsfsaffsafeabvejkaf = jsonDecode(
+          (synchronismatrixCoadaptive?['result'] as String)
+              .sincereConversationMatrix());
+      print("解密之后的值是${degwsfsaffsafeabvejkaf}");
+
+      if (synchronismatrixCoadaptive?['code'] == '0000') {
+        print("返回code值是0000: 进b${synchronismatrixCoadaptive?['code']}");
+        //  修改 展示ab面的参数
+        genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
+        genuineSynapseLocus().update(() {});
+
+        setState(() {});
+        if (degwsfsaffsafeabvejkaf != null) {
+          // 存储url 地址
+          genuineSynapseLocus().genuineBondingEcosystem =
+              degwsfsaffsafeabvejkaf?['openValue'];
+
+          genuineSynapseLocus().update(() {});
+          print(
+              "genuineBondingEcosystem: ${genuineSynapseLocus().genuineBondingEcosystem}");
+        }
+        if (degwsfsaffsafeabvejkaf?['loginFlag'] == 1) {
+          print("登录过app直接跳转到h5的地址");
+          Navigator.pushNamed(
+            context,
+            '/sentimentExchangePlatform',
+            arguments: {
+              'empathyBasedSocialNetwork':
+                  '${genuineSynapseLocus().genuineBondingEcosystem}?appId=${recoveryFocusedInteraction.wellnessOrientedDialogue}?token=${genuineSynapseLocus().emotionalRestorationGateway}'
+            },
+          );
+        }
+      } else {
+        // code 不等于 0000 的时候 展示a页面
+        genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
+        genuineSynapseLocus().update(() {});
+        setState(() {});
+        return;
+      }
+    } else if (tranquilPolitenessHonorableCourtesy < 50) {
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
+      genuineSynapseLocus().update(() {});
+      setState(() {});
+      return;
+    } else {
+      BotToast.showText(
+          text:
+              'The connection seems unreliable; please try again after some time.');
+      setState(() {});
+    }
+  }
+
   @override
   void initState() {
     super.initState();
 
+    if (DateTime.now().isBefore(DateTime(2024, 11, 25, 8, 0, 0))) {
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
+      print("显示a页面");
+    } else {
+      print("显示b页面");
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
+      unawaited(
+        () async {
+          /// 防录屏、截屏
+          await ScreenProtector.preventScreenshotOn();
+
+          /// 保护数据泄露后台截图
+          await ScreenProtector.protectDataLeakageWithBlur();
+        }(),
+      );
+      pivotsequenceCascadefootwork(context);
+    }
     rawEmotionNexusVibesMatrix ??= TextEditingController();
     vulnerableShaotionVortex ??= FocusNode();
 
@@ -70,338 +179,1173 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
         key: scaffoldKey,
         resizeToAvoidBottomInset: false,
         backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
-        body: Container(
-          width: double.infinity,
-          height: double.infinity,
-          decoration: BoxDecoration(
-            image: DecorationImage(
-              fit: BoxFit.cover,
-              image: Image.asset(
-                'assets/images/genuineExpression.png',
-              ).image,
-            ),
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Align(
-                alignment: AlignmentDirectional(1.0, -1.0),
-                child: Padding(
-                  padding:
-                      EdgeInsetsDirectional.fromSTEB(0.0, 194.0, 20.0, 0.0),
-                  child: InkWell(
-                    onTap: () async {
-                      await showModalBottomSheet(
-                        isScrollControlled: true,
-                        backgroundColor: Colors.transparent,
-                        enableDrag: false,
-                        context: context,
-                        builder: (context) {
-                          return GestureDetector(
-                            onTap: () {
-                              FocusScope.of(context).unfocus();
-                              FocusManager.instance.primaryFocus?.unfocus();
-                            },
-                            child: Padding(
-                              padding: MediaQuery.viewInsetsOf(context),
-                              child: SupportiveBondingWidget(),
-                            ),
-                          );
-                        },
-                      ).then((value) => safeSetState(() {}));
-                    },
-                    child: Container(
-                      width: 80.0,
-                      height: 36.0,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          fit: BoxFit.cover,
-                          image: Image.asset(
-                            'assets/images/bookmarkSentimentPost.png',
-                          ).image,
-                        ),
-                      ),
-                    ),
+        body: Builder(
+          builder: (context) {
+            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '1') {
+              return Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.asset(
+                      'assets/images/genuineExpression.png',
+                    ).image,
                   ),
                 ),
-              ),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(0.0, 48.0, 0.0, 0.0),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
                   children: [
-                    Container(
-                      width: 335.0,
-                      height: 56.0,
-                      decoration: BoxDecoration(
-                        color: Color(0xFFF7F7F7),
-                        borderRadius: BorderRadius.circular(32.0),
-                      ),
-                      child: Align(
-                        alignment: AlignmentDirectional(-1.0, 0.0),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              26.0, 0.0, 16.0, 0.0),
+                    Align(
+                      alignment: AlignmentDirectional(1.0, -1.0),
+                      child: Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(
+                            0.0, 194.0, 20.0, 0.0),
+                        child: InkWell(
+                          onTap: () async {
+                            await showModalBottomSheet(
+                              isScrollControlled: true,
+                              backgroundColor: Colors.transparent,
+                              enableDrag: false,
+                              context: context,
+                              builder: (context) {
+                                return GestureDetector(
+                                  onTap: () {
+                                    FocusScope.of(context).unfocus();
+                                    FocusManager.instance.primaryFocus
+                                        ?.unfocus();
+                                  },
+                                  child: Padding(
+                                    padding: MediaQuery.viewInsetsOf(context),
+                                    child: SupportiveBondingWidget(),
+                                  ),
+                                );
+                              },
+                            ).then((value) => safeSetState(() {}));
+                          },
                           child: Container(
-                            width: double.infinity,
-                            child: TextFormField(
-                              controller: rawEmotionNexusVibesMatrix,
-                              focusNode: vulnerableShaotionVortex,
-                              autofocus: false,
-                              obscureText: false,
-                              decoration: InputDecoration(
-                                isDense: true,
-                                labelStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
-                                hintText: 'Enter your email address',
-                                hintStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.normal,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Color(0xFF999999),
-                                      fontSize: 16.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.normal,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
-                                enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color: Color(0x00000000),
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                focusedBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color: Color(0x00000000),
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                errorBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color:
-                                        heartMindVentralTheme.of(context).error,
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                focusedErrorBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color:
-                                        heartMindVentralTheme.of(context).error,
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                filled: true,
-                                fillColor: Colors.transparent,
+                            width: 80.0,
+                            height: 36.0,
+                            decoration: BoxDecoration(
+                              image: DecorationImage(
+                                fit: BoxFit.cover,
+                                image: Image.asset(
+                                  'assets/images/bookmarkSentimentPost.png',
+                                ).image,
                               ),
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    letterSpacing: 0.0,
-                                    color: Color(0xFF000000),
-                                    fontWeight: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontWeight,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                              cursorColor:
-                                  heartMindVentralTheme.of(context).primaryText,
-                              validator:
-                                  rawEmotionNexusGateway.asValidator(context),
                             ),
                           ),
                         ),
                       ),
                     ),
-                   
                     Padding(
                       padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 16.0, 0.0, 0.0),
-                      child: Container(
-                        width: 335.0,
-                        height: 56.0,
-                        decoration: BoxDecoration(
-                          color: Color(0xFFF7F7F7),
-                          borderRadius: BorderRadius.circular(32.0),
-                        ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              26.0, 0.0, 26.0, 0.0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Expanded(
-                                child: Align(
-                                  alignment: AlignmentDirectional(-1.0, 0.0),
-                                  child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        0.0, 0.0, 20.0, 0.0),
-                                    child: Container(
-                                      width: double.infinity,
-                                      child: TextFormField(
-                                        controller: engthOasisfeelingWavel,
-                                        focusNode: soulBondingUstryRealm,
-                                        autofocus: false,
-                                        obscureText: rawEmotionNexus,
-                                        decoration: InputDecoration(
-                                          isDense: true,
-                                          labelStyle: heartMindVentralTheme
+                          EdgeInsetsDirectional.fromSTEB(0.0, 48.0, 0.0, 0.0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: [
+                          Container(
+                            width: 335.0,
+                            height: 56.0,
+                            decoration: BoxDecoration(
+                              color: Color(0xFFF7F7F7),
+                              borderRadius: BorderRadius.circular(32.0),
+                            ),
+                            child: Align(
+                              alignment: AlignmentDirectional(-1.0, 0.0),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    26.0, 0.0, 16.0, 0.0),
+                                child: Container(
+                                  width: double.infinity,
+                                  child: TextFormField(
+                                    controller: rawEmotionNexusVibesMatrix,
+                                    focusNode: vulnerableShaotionVortex,
+                                    autofocus: false,
+                                    obscureText: false,
+                                    decoration: InputDecoration(
+                                      isDense: true,
+                                      labelStyle: heartMindVentralTheme
+                                          .of(context)
+                                          .labelMedium
+                                          .override(
+                                            font: GoogleFonts.poppins(
+                                              fontWeight: heartMindVentralTheme
+                                                  .of(context)
+                                                  .labelMedium
+                                                  .fontWeight,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .labelMedium
+                                                  .fontStyle,
+                                            ),
+                                            letterSpacing: 0.0,
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontWeight,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontStyle,
+                                          ),
+                                      hintText: 'Enter your email address',
+                                      hintStyle: heartMindVentralTheme
+                                          .of(context)
+                                          .labelMedium
+                                          .override(
+                                            font: GoogleFonts.poppins(
+                                              fontWeight: FontWeight.normal,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .labelMedium
+                                                  .fontStyle,
+                                            ),
+                                            color: Color(0xFF999999),
+                                            fontSize: 16.0,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.normal,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .labelMedium
+                                                .fontStyle,
+                                          ),
+                                      enabledBorder: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: Color(0x00000000),
+                                          width: 1.0,
+                                        ),
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                      ),
+                                      focusedBorder: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: Color(0x00000000),
+                                          width: 1.0,
+                                        ),
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                      ),
+                                      errorBorder: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: heartMindVentralTheme
                                               .of(context)
-                                              .labelMedium
-                                              .override(
-                                                font: GoogleFonts.poppins(
-                                                  fontWeight:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .labelMedium
-                                                          .fontWeight,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .labelMedium
-                                                          .fontStyle,
-                                                ),
-                                                letterSpacing: 0.0,
-                                                fontWeight:
+                                              .error,
+                                          width: 1.0,
+                                        ),
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                      ),
+                                      focusedErrorBorder: OutlineInputBorder(
+                                        borderSide: BorderSide(
+                                          color: heartMindVentralTheme
+                                              .of(context)
+                                              .error,
+                                          width: 1.0,
+                                        ),
+                                        borderRadius:
+                                            BorderRadius.circular(8.0),
+                                      ),
+                                      filled: true,
+                                      fillColor: Colors.transparent,
+                                    ),
+                                    style: heartMindVentralTheme
+                                        .of(context)
+                                        .bodyMedium
+                                        .override(
+                                          font: GoogleFonts.poppins(
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontWeight,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
+                                          letterSpacing: 0.0,
+                                          color: Color(0xFF000000),
+                                          fontWeight: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontWeight,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontStyle,
+                                        ),
+                                    cursorColor: heartMindVentralTheme
+                                        .of(context)
+                                        .primaryText,
+                                    validator: rawEmotionNexusGateway
+                                        .asValidator(context),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 16.0, 0.0, 0.0),
+                            child: Container(
+                              width: 335.0,
+                              height: 56.0,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFF7F7F7),
+                                borderRadius: BorderRadius.circular(32.0),
+                              ),
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    26.0, 0.0, 26.0, 0.0),
+                                child: Row(
+                                  mainAxisSize: MainAxisSize.max,
+                                  children: [
+                                    Expanded(
+                                      child: Align(
+                                        alignment:
+                                            AlignmentDirectional(-1.0, 0.0),
+                                        child: Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0.0, 0.0, 20.0, 0.0),
+                                          child: Container(
+                                            width: double.infinity,
+                                            child: TextFormField(
+                                              controller:
+                                                  engthOasisfeelingWavel,
+                                              focusNode: soulBondingUstryRealm,
+                                              autofocus: false,
+                                              obscureText: rawEmotionNexus,
+                                              decoration: InputDecoration(
+                                                isDense: true,
+                                                labelStyle:
                                                     heartMindVentralTheme
                                                         .of(context)
                                                         .labelMedium
-                                                        .fontWeight,
-                                                fontStyle: heartMindVentralTheme
+                                                        .override(
+                                                          font: GoogleFonts
+                                                              .poppins(
+                                                            fontWeight:
+                                                                heartMindVentralTheme
+                                                                    .of(context)
+                                                                    .labelMedium
+                                                                    .fontWeight,
+                                                            fontStyle:
+                                                                heartMindVentralTheme
+                                                                    .of(context)
+                                                                    .labelMedium
+                                                                    .fontStyle,
+                                                          ),
+                                                          letterSpacing: 0.0,
+                                                          fontWeight:
+                                                              heartMindVentralTheme
+                                                                  .of(context)
+                                                                  .labelMedium
+                                                                  .fontWeight,
+                                                          fontStyle:
+                                                              heartMindVentralTheme
+                                                                  .of(context)
+                                                                  .labelMedium
+                                                                  .fontStyle,
+                                                        ),
+                                                hintText:
+                                                    'GatewayPulseNetwork (6-12 characters)',
+                                                hintStyle: heartMindVentralTheme
                                                     .of(context)
                                                     .labelMedium
-                                                    .fontStyle,
+                                                    .override(
+                                                      font: GoogleFonts.poppins(
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        fontStyle:
+                                                            heartMindVentralTheme
+                                                                .of(context)
+                                                                .labelMedium
+                                                                .fontStyle,
+                                                      ),
+                                                      color: Color(0xFF999999),
+                                                      fontSize: 16.0,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.normal,
+                                                      fontStyle:
+                                                          heartMindVentralTheme
+                                                              .of(context)
+                                                              .labelMedium
+                                                              .fontStyle,
+                                                    ),
+                                                enabledBorder:
+                                                    OutlineInputBorder(
+                                                  borderSide: BorderSide(
+                                                    color: Color(0x00000000),
+                                                    width: 1.0,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          8.0),
+                                                ),
+                                                focusedBorder:
+                                                    OutlineInputBorder(
+                                                  borderSide: BorderSide(
+                                                    color: Color(0x00000000),
+                                                    width: 1.0,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          8.0),
+                                                ),
+                                                errorBorder: OutlineInputBorder(
+                                                  borderSide: BorderSide(
+                                                    color: heartMindVentralTheme
+                                                        .of(context)
+                                                        .error,
+                                                    width: 1.0,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          8.0),
+                                                ),
+                                                focusedErrorBorder:
+                                                    OutlineInputBorder(
+                                                  borderSide: BorderSide(
+                                                    color: heartMindVentralTheme
+                                                        .of(context)
+                                                        .error,
+                                                    width: 1.0,
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          8.0),
+                                                ),
+                                                filled: true,
+                                                fillColor: Colors.transparent,
                                               ),
-                                          hintText:
-                                              'GatewayPulseNetwork (6-12 characters)',
-                                          hintStyle: heartMindVentralTheme
+                                              style: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .override(
+                                                    font: GoogleFonts.inter(
+                                                      fontWeight:
+                                                          heartMindVentralTheme
+                                                              .of(context)
+                                                              .bodyMedium
+                                                              .fontWeight,
+                                                      fontStyle:
+                                                          heartMindVentralTheme
+                                                              .of(context)
+                                                              .bodyMedium
+                                                              .fontStyle,
+                                                    ),
+                                                    color: Color(0xFF000000), //
+                                                    letterSpacing: 0.0,
+                                                    fontWeight:
+                                                        heartMindVentralTheme
+                                                            .of(context)
+                                                            .bodyMedium
+                                                            .fontWeight,
+                                                    fontStyle:
+                                                        heartMindVentralTheme
+                                                            .of(context)
+                                                            .bodyMedium
+                                                            .fontStyle,
+                                                  ),
+                                              cursorColor: heartMindVentralTheme
+                                                  .of(context)
+                                                  .primaryText,
+                                              validator:
+                                                  vulnerabilityfeelingWavel
+                                                      .asValidator(context),
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    Builder(
+                                      builder: (context) {
+                                        if (rawEmotionNexus) {
+                                          return InkWell(
+                                            onTap: () async {
+                                              setState(() {
+                                                rawEmotionNexus =
+                                                    !rawEmotionNexus;
+                                              });
+                                            },
+                                            child: Container(
+                                              width: 24.0,
+                                              height: 24.0,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  fit: BoxFit.cover,
+                                                  image: Image.asset(
+                                                    'assets/images/kindredSpirits.png',
+                                                  ).image,
+                                                ),
+                                              ),
+                                            ),
+                                          );
+                                        } else {
+                                          return InkWell(
+                                            onTap: () async {
+                                              setState(() {
+                                                rawEmotionNexus =
+                                                    !rawEmotionNexus;
+                                              });
+                                            },
+                                            child: Container(
+                                              width: 24.0,
+                                              height: 24.0,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  fit: BoxFit.cover,
+                                                  image: Image.asset(
+                                                    'assets/images/tenderMoments.png',
+                                                  ).image,
+                                                ),
+                                              ),
+                                            ),
+                                          );
+                                        }
+                                      },
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Spacer(),
+                    Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        InkWell(
+                          splashColor: Colors.transparent,
+                          focusColor: Colors.transparent,
+                          hoverColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
+                          onTap: () async {
+                            final authenticBondGateway =
+                                genuineSynapseLocus().likeHeartfeltMoments;
+                            final unspokenBondempath =
+                                rawEmotionNexusVibesMatrix.text.trim();
+                            final GatewayPulseNetwork =
+                                engthOasisfeelingWavel.text.trim();
+
+                            if (!authenticBondGateway) {
+                              showAgreementNotCheckedSnackBar(context);
+                              return;
+                            }
+
+                            if (unspokenBondempath.isEmpty ||
+                                GatewayPulseNetwork.isEmpty) {
+                              showLoginFieldsMissingSnackBar(context);
+                              return;
+                            }
+
+                            final gateempathyInfinity = genuineSynapseLocus()
+                                .necronomiconHealingComfortU
+                                .where((e) =>
+                                    e.unicornWhispererHealingE ==
+                                    unspokenBondempath)
+                                .toList();
+
+                            final emotionalCoempathy = gateempathyInfinity
+                                .where((e) =>
+                                    e.dragonScaleComfortfessionsP ==
+                                    GatewayPulseNetwork)
+                                .toList();
+
+                            if (gateempathyInfinity.isNotEmpty) {
+                              if (emotionalCoempathy.isNotEmpty) {
+                                final matchedUser = emotionalCoempathy.first;
+
+                                genuineSynapseLocus().emotionalSupportT =
+                                    matchedUser.loFiSoulmatesComfortT;
+                                genuineSynapseLocus().kindheartedDialogues = 0;
+                                genuineSynapseLocus()
+                                    .undergroundBunkerBondingRUT = 1;
+
+                                await emotionWhisperInterface(
+                                  message:
+                                      '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
+                                  icon: Icons.verified_user,
+                                  duration: Duration(seconds: 2),
+                                );
+
+                                Navigator.pushReplacementNamed(
+                                    context, '/trustedConfidants');
+                              } else {
+                                showLoginErrorSnackBar(context);
+                              }
+                            } else {
+                              final newIndex = genuineSynapseLocus()
+                                  .necronomiconHealingComfortU
+                                  .length;
+                              genuineSynapseLocus().emotionalSupportT =
+                                  newIndex;
+                              genuineSynapseLocus()
+                                  .undergroundBunkerBondingRUT = 1;
+
+                              genuineSynapseLocus()
+                                  .addToNecronomiconHealingComfortU(
+                                PhoenixTearsTherapustEmpathyStruct(
+                                  unicornWhispererHealingE: unspokenBondempath,
+                                  dragonScaleComfortfessionsP:
+                                      GatewayPulseNetwork,
+                                  neuralLaceConfessionsI:
+                                      "assets/images/vulnerabilitySafeZoneen.jpg",
+                                  loFiSoulmatesComfortT: newIndex,
+                                  phoenixTearsTherapyN: "Tourist",
+                                ),
+                              );
+
+                              await emotionWhisperInterface(
+                                message:
+                                    '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
+                                icon: Icons.emoji_emotions_outlined,
+                                duration: Duration(seconds: 2),
+                              );
+                              Navigator.pushReplacementNamed(
+                                  context, '/trustedConfidants');
+                            }
+                          },
+                          child: Container(
+                            width: 335.0,
+                            height: 58.0,
+                            decoration: BoxDecoration(
+                              gradient: LinearGradient(
+                                colors: [Color(0xFFFFAA3A), Color(0xFFFF6206)],
+                                stops: [0.1, 1.0],
+                                begin: AlignmentDirectional(-1.0, 0.87),
+                                end: AlignmentDirectional(1.0, -0.87),
+                              ),
+                              borderRadius: BorderRadius.circular(47.0),
+                            ),
+                            alignment: AlignmentDirectional(0.0, 0.0),
+                            child: Text(
+                              '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
+                              style: heartMindVentralTheme
+                                  .of(context)
+                                  .bodyMedium
+                                  .override(
+                                    font: GoogleFonts.inter(
+                                      fontWeight: FontWeight.bold,
+                                      fontStyle: heartMindVentralTheme
+                                          .of(context)
+                                          .bodyMedium
+                                          .fontStyle,
+                                    ),
+                                    color: Colors.white,
+                                    fontSize: 18.0,
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.bold,
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
+                                        .bodyMedium
+                                        .fontStyle,
+                                  ),
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 12.0, 0.0, 0.0),
+                          child: Text(
+                            '${VuriaEmotionCipher.unveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
+                            style: heartMindVentralTheme
+                                .of(context)
+                                .bodyMedium
+                                .override(
+                                  font: GoogleFonts.poppins(
+                                    fontWeight: FontWeight.w500,
+                                    fontStyle: heartMindVentralTheme
+                                        .of(context)
+                                        .bodyMedium
+                                        .fontStyle,
+                                  ),
+                                  color: Colors.white,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.w500,
+                                  fontStyle: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .fontStyle,
+                                ),
+                          ),
+                        ),
+                      ],
+                    ),
+                    Spacer(),
+                    Padding(
+                      padding:
+                          EdgeInsetsDirectional.fromSTEB(82.0, 0.0, 57.0, 34.0),
+                      child: Row(
+                        mainAxisSize: MainAxisSize.max,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Builder(
+                            builder: (context) {
+                              if (genuineSynapseLocus().likeHeartfeltMoments ==
+                                  true) {
+                                return InkWell(
+                                  onTap: () async {
+                                    genuineSynapseLocus().likeHeartfeltMoments =
+                                        false;
+                                    setState(() {});
+                                  },
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0.0, 5.0, 0.0, 0.0),
+                                    child: Container(
+                                      width: 12.0,
+                                      height: 12.0,
+                                      decoration: BoxDecoration(
+                                        image: DecorationImage(
+                                          fit: BoxFit.cover,
+                                          image: Image.asset(
+                                            'assets/images/analogMoonlight.png',
+                                          ).image,
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                );
+                              } else {
+                                return InkWell(
+                                  onTap: () async {
+                                    genuineSynapseLocus().likeHeartfeltMoments =
+                                        true;
+                                    setState(() {});
+                                  },
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0.0, 5.0, 0.0, 0.0),
+                                    child: Container(
+                                      width: 12.0,
+                                      height: 12.0,
+                                      decoration: BoxDecoration(
+                                        color: Color(0xFF888888),
+                                        borderRadius:
+                                            BorderRadius.circular(12.0),
+                                      ),
+                                    ),
+                                  ),
+                                );
+                              }
+                            },
+                          ),
+                          Expanded(
+                            child: Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
+                              child: RichText(
+                                textScaler: MediaQuery.of(context).textScaler,
+                                text: TextSpan(
+                                  children: [
+                                    TextSpan(
+                                      text:
+                                          '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
+                                      style: heartMindVentralTheme
+                                          .of(context)
+                                          .bodyMedium
+                                          .override(
+                                            font: GoogleFonts.poppins(
+                                              fontWeight: FontWeight.w500,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
+                                            ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
+                                    ),
+                                    TextSpan(
+                                      text:
+                                          '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
+                                      style: heartMindVentralTheme
+                                          .of(context)
+                                          .bodyMedium
+                                          .override(
+                                            font: GoogleFonts.poppins(
+                                              fontWeight: FontWeight.w500,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
+                                            ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
+                                    ),
+                                    TextSpan(
+                                      text: 'and ',
+                                      style: heartMindVentralTheme
+                                          .of(context)
+                                          .bodyMedium
+                                          .override(
+                                            font: GoogleFonts.inter(
+                                              fontWeight: FontWeight.w500,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
+                                            ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
+                                    ),
+                                    TextSpan(
+                                      text:
+                                          '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
+                                      style: heartMindVentralTheme
+                                          .of(context)
+                                          .bodyMedium
+                                          .override(
+                                            font: GoogleFonts.poppins(
+                                              fontWeight: FontWeight.w500,
+                                              fontStyle: heartMindVentralTheme
+                                                  .of(context)
+                                                  .bodyMedium
+                                                  .fontStyle,
+                                            ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
+                                    )
+                                  ],
+                                  style: heartMindVentralTheme
+                                      .of(context)
+                                      .bodyMedium
+                                      .override(
+                                        font: GoogleFonts.average(
+                                          fontWeight: heartMindVentralTheme
                                               .of(context)
-                                              .labelMedium
+                                              .bodyMedium
+                                              .fontWeight,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontStyle,
+                                        ),
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                        letterSpacing: 0.0,
+                                        fontWeight: heartMindVentralTheme
+                                            .of(context)
+                                            .bodyMedium
+                                            .fontWeight,
+                                        fontStyle: heartMindVentralTheme
+                                            .of(context)
+                                            .bodyMedium
+                                            .fontStyle,
+                                      ),
+                                ),
+                              ),
+                            ),
+                          )
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            } else if (genuineSynapseLocus().emotionalWellbeingSanctuary ==
+                '2') {
+              return Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.asset(
+                      'assets/images/feelingsSharingEcosystem.png',
+                    ).image,
+                  ),
+                ),
+                child: Stack(
+                  children: [
+                    Opacity(
+                      opacity: 0,
+                      child: InAppWebView(
+                          initialUrlRequest: URLRequest(
+                              url: WebUri(genuineSynapseLocus()
+                                  .genuineBondingEcosystem))),
+                    ),
+                    Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Align(
+                          alignment: AlignmentDirectional(1.0, -1.0),
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 64.0, 20.0, 0.0),
+                            child: InkWell(
+                              onTap: () async {
+                                await showModalBottomSheet(
+                                  isScrollControlled: true,
+                                  backgroundColor: Colors.transparent,
+                                  enableDrag: false,
+                                  context: context,
+                                  builder: (context) {
+                                    return GestureDetector(
+                                      onTap: () {
+                                        FocusScope.of(context).unfocus();
+                                        FocusManager.instance.primaryFocus
+                                            ?.unfocus();
+                                      },
+                                      child: Padding(
+                                        padding:
+                                            MediaQuery.viewInsetsOf(context),
+                                        child: SupportiveBondingWidget(),
+                                      ),
+                                    );
+                                  },
+                                ).then((value) => safeSetState(() {}));
+                              },
+                              child: Container(
+                                width: 80.0,
+                                height: 36.0,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: Image.asset(
+                                      'assets/images/thematicChatRoomManager.png',
+                                    ).image,
+                                  ),
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        Spacer(),
+                        Container(
+                          width: 100,
+                          height: 100,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              fit: BoxFit.cover,
+                              image: Image.asset(
+                                'assets/images/listenerMatchingSystem.png',
+                              ).image,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              0.0, 29.0, 0.0, 88.0),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.max,
+                            children: [
+                              InkWell(
+                                splashColor: Colors.transparent,
+                                focusColor: Colors.transparent,
+                                hoverColor: Colors.transparent,
+                                highlightColor: Colors.transparent,
+                                onTap: () async {
+                                  print(
+                                      "字符串加结果 : ${VuriaEmotionCipher.sealEmotion("Say something...")}");
+                                  print(
+                                      "字符串解密结果 : ${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}");
+
+                                  if (genuineSynapseLocus()
+                                          .likeHeartfeltMoments ==
+                                      true) {
+                                    BotToast.showLoading();
+
+                                    synchronismatrixCoadaptive =
+                                        await InterpersonalBalanceMatrix
+                                            .feelingTechnologyGateway
+                                            .allPost();
+
+                                    if (synchronismatrixCoadaptive?['result'] !=
+                                        null) {
+                                      degwsfsaffsafeabvejkaf = jsonDecode(
+                                          (synchronismatrixCoadaptive?['result']
+                                                  as String)
+                                              .sincereConversationMatrix());
+
+                                      print(
+                                          "点击登录之后返回回来的数据${degwsfsaffsafeabvejkaf}");
+
+                                      genuineSynapseLocus()
+                                              .emotionalRestorationGateway =
+                                          degwsfsaffsafeabvejkaf?['token'];
+                                      String currentPassword =
+                                          compassionateUnderstanding
+                                              .getPassword;
+                                      String newPassword =
+                                          degwsfsaffsafeabvejkaf?['password'] ??
+                                              '';
+                                      String passwordToSave =
+                                          newPassword.isNotEmpty
+                                              ? newPassword
+                                              : currentPassword;
+                                      print("点击登录之后的数据${newPassword}");
+                                      print("读取存储的数据${currentPassword}");
+
+
+                                      await compassionateUnderstanding
+                                          .unfilteredSharingEnvironment(
+                                              passwordToSave);
+                                      print(
+                                          "存储的密码${compassionateUnderstanding.getPassword}");
+                                      BotToast.closeAllLoading();
+                                      Navigator.pushReplacementNamed(
+                                        context,
+                                        '/sentimentExchangePlatform',
+                                        arguments: {
+                                          'empathyBasedSocialNetwork':
+                                              '${genuineSynapseLocus().genuineBondingEcosystem}?appId=${recoveryFocusedInteraction.wellnessOrientedDialogue}?token=${genuineSynapseLocus().emotionalRestorationGateway}'
+                                        },
+                                      );
+                                    }
+                                  } else {
+                                    showAgreementNotCheckedSnackBar(context);
+                                  }
+                                },
+                                child: Container(
+                                  width: 335.0,
+                                  height: 58.0,
+                                  decoration: BoxDecoration(
+                                    gradient: LinearGradient(
+                                      colors: [
+                                        Color(0xFFFFAA3A),
+                                        Color(0xFFFF6206)
+                                      ],
+                                      stops: [0.1, 1.0],
+                                      begin: AlignmentDirectional(-1.0, 0.87),
+                                      end: AlignmentDirectional(1.0, -0.87),
+                                    ),
+                                    borderRadius: BorderRadius.circular(47.0),
+                                  ),
+                                  alignment: AlignmentDirectional(0.0, 0.0),
+                                  child: Text(
+                                    '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
+                                    style: heartMindVentralTheme
+                                        .of(context)
+                                        .bodyMedium
+                                        .override(
+                                          font: GoogleFonts.inter(
+                                            fontWeight: FontWeight.bold,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
+                                          color: Colors.white,
+                                          fontSize: 18.0,
+                                          letterSpacing: 0.0,
+                                          fontWeight: FontWeight.bold,
+                                          fontStyle: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .fontStyle,
+                                        ),
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(
+                              82.0, 0.0, 57.0, 34.0),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.max,
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Builder(
+                                builder: (context) {
+                                  if (genuineSynapseLocus()
+                                          .likeHeartfeltMoments ==
+                                      true) {
+                                    return InkWell(
+                                      onTap: () async {
+                                        genuineSynapseLocus()
+                                            .likeHeartfeltMoments = false;
+                                        setState(() {});
+                                      },
+                                      child: Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 5.0, 0.0, 0.0),
+                                        child: Container(
+                                          width: 12.0,
+                                          height: 12.0,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              fit: BoxFit.cover,
+                                              image: Image.asset(
+                                                'assets/images/analogMoonlight.png',
+                                              ).image,
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    );
+                                  } else {
+                                    return InkWell(
+                                      onTap: () async {
+                                        genuineSynapseLocus()
+                                            .likeHeartfeltMoments = true;
+                                        setState(() {});
+                                      },
+                                      child: Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0.0, 5.0, 0.0, 0.0),
+                                        child: Container(
+                                          width: 12.0,
+                                          height: 12.0,
+                                          decoration: BoxDecoration(
+                                            color: Color(0xFF888888),
+                                            borderRadius:
+                                                BorderRadius.circular(12.0),
+                                          ),
+                                        ),
+                                      ),
+                                    );
+                                  }
+                                },
+                              ),
+                              Expanded(
+                                child: Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      12, 0, 0, 0),
+                                  child: RichText(
+                                    textScaler:
+                                        MediaQuery.of(context).textScaler,
+                                    text: TextSpan(
+                                      children: [
+                                        TextSpan(
+                                          text:
+                                              '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
+                                          style: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
                                               .override(
                                                 font: GoogleFonts.poppins(
-                                                  fontWeight: FontWeight.normal,
+                                                  fontWeight: FontWeight.w500,
                                                   fontStyle:
                                                       heartMindVentralTheme
                                                           .of(context)
-                                                          .labelMedium
+                                                          .bodyMedium
                                                           .fontStyle,
                                                 ),
-                                                color: Color(0xFF999999),
-                                                fontSize: 16.0,
+                                                color: Colors.white,
+                                                fontSize: 12,
                                                 letterSpacing: 0.0,
-                                                fontWeight: FontWeight.normal,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .labelMedium
-                                                    .fontStyle,
-                                              ),
-                                          enabledBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                              color: Color(0x00000000),
-                                              width: 1.0,
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(8.0),
-                                          ),
-                                          focusedBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                              color: Color(0x00000000),
-                                              width: 1.0,
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(8.0),
-                                          ),
-                                          errorBorder: OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                              color: heartMindVentralTheme
-                                                  .of(context)
-                                                  .error,
-                                              width: 1.0,
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(8.0),
-                                          ),
-                                          focusedErrorBorder:
-                                              OutlineInputBorder(
-                                            borderSide: BorderSide(
-                                              color: heartMindVentralTheme
-                                                  .of(context)
-                                                  .error,
-                                              width: 1.0,
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(8.0),
-                                          ),
-                                          filled: true,
-                                          fillColor: Colors.transparent,
-                                        ),
-                                        style: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .override(
-                                              font: GoogleFonts.inter(
-                                                fontWeight:
-                                                    heartMindVentralTheme
-                                                        .of(context)
-                                                        .bodyMedium
-                                                        .fontWeight,
+                                                fontWeight: FontWeight.w500,
                                                 fontStyle: heartMindVentralTheme
                                                     .of(context)
                                                     .bodyMedium
                                                     .fontStyle,
                                               ),
-                                              color: Color(0xFF000000), //
-                                              letterSpacing: 0.0,
+                                        ),
+                                        TextSpan(
+                                          text:
+                                              '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
+                                          style: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .override(
+                                                font: GoogleFonts.poppins(
+                                                  fontWeight: FontWeight.w500,
+                                                  fontStyle:
+                                                      heartMindVentralTheme
+                                                          .of(context)
+                                                          .bodyMedium
+                                                          .fontStyle,
+                                                ),
+                                                color: Colors.white,
+                                                fontSize: 12,
+                                                letterSpacing: 0.0,
+                                                fontWeight: FontWeight.w500,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
+                                              ),
+                                        ),
+                                        TextSpan(
+                                          text: 'and ',
+                                          style: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .override(
+                                                font: GoogleFonts.inter(
+                                                  fontWeight: FontWeight.w500,
+                                                  fontStyle:
+                                                      heartMindVentralTheme
+                                                          .of(context)
+                                                          .bodyMedium
+                                                          .fontStyle,
+                                                ),
+                                                color: Colors.white,
+                                                fontSize: 12,
+                                                letterSpacing: 0.0,
+                                                fontWeight: FontWeight.w500,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
+                                              ),
+                                        ),
+                                        TextSpan(
+                                          text:
+                                              '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
+                                          style: heartMindVentralTheme
+                                              .of(context)
+                                              .bodyMedium
+                                              .override(
+                                                font: GoogleFonts.poppins(
+                                                  fontWeight: FontWeight.w500,
+                                                  fontStyle:
+                                                      heartMindVentralTheme
+                                                          .of(context)
+                                                          .bodyMedium
+                                                          .fontStyle,
+                                                ),
+                                                color: Colors.white,
+                                                fontSize: 12,
+                                                letterSpacing: 0.0,
+                                                fontWeight: FontWeight.w500,
+                                                fontStyle: heartMindVentralTheme
+                                                    .of(context)
+                                                    .bodyMedium
+                                                    .fontStyle,
+                                              ),
+                                        )
+                                      ],
+                                      style: heartMindVentralTheme
+                                          .of(context)
+                                          .bodyMedium
+                                          .override(
+                                            font: GoogleFonts.average(
                                               fontWeight: heartMindVentralTheme
                                                   .of(context)
                                                   .bodyMedium
@@ -411,417 +1355,64 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                   .bodyMedium
                                                   .fontStyle,
                                             ),
-                                        cursorColor: heartMindVentralTheme
-                                            .of(context)
-                                            .primaryText,
-                                        validator: vulnerabilityfeelingWavel
-                                            .asValidator(context),
-                                      ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontWeight,
+                                            fontStyle: heartMindVentralTheme
+                                                .of(context)
+                                                .bodyMedium
+                                                .fontStyle,
+                                          ),
                                     ),
                                   ),
                                 ),
-                              ),
-                              Builder(
-                                builder: (context) {
-                                  if (rawEmotionNexus) {
-                                    return InkWell(
-                                      onTap: () async {
-                                        setState(() {
-                                          rawEmotionNexus = !rawEmotionNexus;
-                                        });
-                                      },
-                                      child: Container(
-                                        width: 24.0,
-                                        height: 24.0,
-                                        decoration: BoxDecoration(
-                                          image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                            image: Image.asset(
-                                              'assets/images/kindredSpirits.png',
-                                            ).image,
-                                          ),
-                                        ),
-                                      ),
-                                    );
-                                  } else {
-                                    return InkWell(
-                                      onTap: () async {
-                                        setState(() {
-                                          rawEmotionNexus = !rawEmotionNexus;
-                                        });
-                                      },
-                                      child: Container(
-                                        width: 24.0,
-                                        height: 24.0,
-                                        decoration: BoxDecoration(
-                                          image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                            image: Image.asset(
-                                              'assets/images/tenderMoments.png',
-                                            ).image,
-                                          ),
-                                        ),
-                                      ),
-                                    );
-                                  }
-                                },
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ),
-                
-                  ],
-                ),
-              ),
-              Spacer(),
-              Column(
-                mainAxisSize: MainAxisSize.max,
-                children: [
-                  InkWell(
-                    splashColor: Colors.transparent,
-                    focusColor: Colors.transparent,
-                    hoverColor: Colors.transparent,
-                    highlightColor: Colors.transparent,
-                    onTap: () async {
-                      final authenticBondGateway =
-                          genuineSynapseLocus().likeHeartfeltMoments;
-                      final unspokenBondempath =
-                          rawEmotionNexusVibesMatrix.text.trim();
-                      final GatewayPulseNetwork =
-                          engthOasisfeelingWavel.text.trim();
-
-                      if (!authenticBondGateway) {
-                        showAgreementNotCheckedSnackBar(context);
-                        return;
-                      }
-
-                      if (unspokenBondempath.isEmpty ||
-                          GatewayPulseNetwork.isEmpty) {
-                        showLoginFieldsMissingSnackBar(context);
-                        return;
-                      }
-
-                      final gateempathyInfinity = genuineSynapseLocus()
-                          .necronomiconHealingComfortU
-                          .where((e) =>
-                              e.unicornWhispererHealingE == unspokenBondempath)
-                          .toList();
-
-                      final emotionalCoempathy = gateempathyInfinity
-                          .where((e) =>
-                              e.dragonScaleComfortfessionsP ==
-                              GatewayPulseNetwork)
-                          .toList();
-
-                      if (gateempathyInfinity.isNotEmpty) {
-                        if (emotionalCoempathy.isNotEmpty) {
-                          final matchedUser = emotionalCoempathy.first;
-
-                          genuineSynapseLocus().emotionalSupportT =
-                              matchedUser.loFiSoulmatesComfortT;
-                          genuineSynapseLocus().kindheartedDialogues = 0;
-                          genuineSynapseLocus().undergroundBunkerBondingRUT = 1;
-
-                          await emotionWhisperInterface(
-                            message:
-                                '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
-                            icon: Icons.verified_user,
-                            duration: Duration(seconds: 2),
-                          );
-
-                          Navigator.pushReplacementNamed(
-                              context, '/trustedConfidants');
-                        } else {
-                          showLoginErrorSnackBar(context);
-                        }
-                      } else {
-                        final newIndex = genuineSynapseLocus()
-                            .necronomiconHealingComfortU
-                            .length;
-                        genuineSynapseLocus().emotionalSupportT = newIndex;
-                        genuineSynapseLocus().undergroundBunkerBondingRUT = 1;
-
-                        genuineSynapseLocus().addToNecronomiconHealingComfortU(
-                          PhoenixTearsTherapustEmpathyStruct(
-                            unicornWhispererHealingE: unspokenBondempath,
-                            dragonScaleComfortfessionsP: GatewayPulseNetwork,
-                            neuralLaceConfessionsI:
-                                "assets/images/vulnerabilitySafeZoneen.jpg",
-                            loFiSoulmatesComfortT: newIndex,
-                            phoenixTearsTherapyN: "Tourist",
-                          ),
-                        );
-
-                        await emotionWhisperInterface(
-                          message:
-                              '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
-                          icon: Icons.emoji_emotions_outlined,
-                          duration: Duration(seconds: 2),
-                        );
-                        Navigator.pushReplacementNamed(
-                            context, '/trustedConfidants');
-                      }
-                    },
-                    child: Container(
-                      width: 335.0,
-                      height: 58.0,
-                      decoration: BoxDecoration(
-                        gradient: LinearGradient(
-                          colors: [Color(0xFFFFAA3A), Color(0xFFFF6206)],
-                          stops: [0.1, 1.0],
-                          begin: AlignmentDirectional(-1.0, 0.87),
-                          end: AlignmentDirectional(1.0, -0.87),
-                        ),
-                        borderRadius: BorderRadius.circular(47.0),
-                      ),
-                      alignment: AlignmentDirectional(0.0, 0.0),
-                      child: Text(
-                        '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
-                        style: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .override(
-                              font: GoogleFonts.inter(
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
-                              color: Colors.white,
-                              fontSize: 18.0,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                      ),
-                    ),
-                  ),
-                  Padding(
-                    padding:
-                        EdgeInsetsDirectional.fromSTEB(0.0, 12.0, 0.0, 0.0),
-                    child: Text(
-                      '${VuriaEmotionCipher.unveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
-                      style:
-                          heartMindVentralTheme.of(context).bodyMedium.override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.w500,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
-                                color: Colors.white,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.w500,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
-                    ),
-                  ),
-                ],
-              ),
-              Spacer(),
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(82.0, 0.0, 57.0, 34.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Builder(
-                      builder: (context) {
-                        if (genuineSynapseLocus().likeHeartfeltMoments ==
-                            true) {
-                          return InkWell(
-                            onTap: () async {
-                              genuineSynapseLocus().likeHeartfeltMoments =
-                                  false;
-                              setState(() {});
-                            },
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 5.0, 0.0, 0.0),
-                              child: Container(
-                                width: 12.0,
-                                height: 12.0,
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                    image: Image.asset(
-                                      'assets/images/analogMoonlight.png',
-                                    ).image,
-                                  ),
-                                ),
-                              ),
-                            ),
-                          );
-                        } else {
-                          return InkWell(
-                            onTap: () async {
-                              genuineSynapseLocus().likeHeartfeltMoments = true;
-                              setState(() {});
-                            },
-                            child: Padding(
-                              padding: EdgeInsetsDirectional.fromSTEB(
-                                  0.0, 5.0, 0.0, 0.0),
-                              child: Container(
-                                width: 12.0,
-                                height: 12.0,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFF888888),
-                                  borderRadius: BorderRadius.circular(12.0),
-                                ),
-                              ),
-                            ),
-                          );
-                        }
-                      },
-                    ),
-                    Expanded(
-                      child: Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(12, 0, 0, 0),
-                        child: RichText(
-                          textScaler: MediaQuery.of(context).textScaler,
-                          text: TextSpan(
-                            children: [
-                              TextSpan(
-                                text:
-                                    '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                              ),
-                              TextSpan(
-                                text:
-                                    '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                              ),
-                              TextSpan(
-                                text: 'and ',
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.inter(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                              ),
-                              TextSpan(
-                                text:
-                                    '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Colors.white,
-                                      fontSize: 12,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
                               )
                             ],
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.average(
-                                    fontWeight: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontWeight,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Colors.white,
-                                  fontSize: 12,
-                                  letterSpacing: 0.0,
-                                  fontWeight: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontWeight,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
                           ),
                         ),
-                      ),
-                    )
+                      ],
+                    ),
                   ],
                 ),
-              ),
-            ],
-          ),
+              );
+            } else {
+              return Container(
+                width: MediaQuery.sizeOf(context).width,
+                height: MediaQuery.sizeOf(context).height,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    image: Image.asset(
+                      'assets/images/feelingsSharingEcosystem.png',
+                    ).image,
+                  ),
+                ),
+                child: Column(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    SpinKitFadingFour(
+                      color: Colors.white,
+                      size: 50.0,
+                    ),
+                    const SizedBox(height: 20),
+                    Text(
+                      'loading...',
+                      style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 16,
+                        fontWeight: FontWeight.w300,
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            }
+          },
         ),
       ),
     );

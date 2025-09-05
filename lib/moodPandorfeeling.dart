@@ -179,6 +179,39 @@ class genuineSynapseLocus extends ChangeNotifier {
       _likeHeartfeltMoments =
           prefs.getBool('ff_likeHeartfeltMoments') ?? _likeHeartfeltMoments;
     });
+
+ // token 
+    await _safeInitAsync(() async {
+      _emotionalRestorationGateway =
+          await prefs.getString('ff_emotionalRestorationGateway') ??
+              _emotionalRestorationGateway;
+    });
+//pushToken 
+    await _safeInitAsync(() async {
+      _sincereAttachmentPortal =
+          await prefs.getString('ff_sincereAttachmentPortal') ??
+              _sincereAttachmentPortal;
+    });
+// 判断ab包 
+    await _safeInitAsync(() async {
+      _emotionalWellbeingSanctuary = await prefs.getString('ff_emotionalWellbeingSanctuary') ??
+          _emotionalWellbeingSanctuary;
+    });
+
+
+    
+ // 接口返回的id 
+    await _safeInitAsync(() async {
+      _genuineBondingEcosystem = await prefs.getString('ff_genuineBondingEcosystem') ??
+          _genuineBondingEcosystem;
+    });
+        //订单编号
+    await _safeInitAsync(() async {
+      _psychologicalHealingGateway =
+          await prefs.getString('ff_psychologicalHealingGateway') ??
+              _psychologicalHealingGateway;
+    });
+
   }
 
   void update(VoidCallback callback) {
@@ -187,6 +220,46 @@ class genuineSynapseLocus extends ChangeNotifier {
   }
 
   late SharedPreferences prefs;
+
+ /// bool（判断A/B包）
+  String _emotionalWellbeingSanctuary = '';
+  String get emotionalWellbeingSanctuary => _emotionalWellbeingSanctuary;
+  set emotionalWellbeingSanctuary(String value) {
+    _emotionalWellbeingSanctuary = value;
+    prefs.setString('ff_emotionalWellbeingSanctuary', value);
+  }
+
+// 订单编号
+  String _psychologicalHealingGateway = '';
+  String get psychologicalHealingGateway => _psychologicalHealingGateway;
+  set psychologicalHealingGateway(String value) {
+    _psychologicalHealingGateway = value;
+    prefs.setString('ff_psychologicalHealingGateway', value);
+  }
+
+  /// token
+  String _emotionalRestorationGateway = '';
+  String get emotionalRestorationGateway => _emotionalRestorationGateway;
+  set emotionalRestorationGateway(String value) {
+    _emotionalRestorationGateway = value;
+    prefs.setString('ff_emotionalRestorationGateway', value);
+  }
+  /// pushtoken
+  String _sincereAttachmentPortal = '';
+  String get sincereAttachmentPortal => _sincereAttachmentPortal;
+  set sincereAttachmentPortal(String value) {
+    _sincereAttachmentPortal = value;
+    prefs.setString('ff_sincereAttachmentPortal', value);
+  }
+
+  //存接口返回信息（h5地址）
+  String _genuineBondingEcosystem = '';
+  String get genuineBondingEcosystem => _genuineBondingEcosystem;
+  set genuineBondingEcosystem(String value) {
+    _genuineBondingEcosystem = value;
+    prefs.setString('ff_genuineBondingEcosystem',value);
+  }
+
 
   int _kindheartedDialogues = 0;
   int get kindheartedDialogues => _kindheartedDialogues;
@@ -652,28 +725,52 @@ class genuineSynapseLocus extends ChangeNotifier {
         _samuraiSocialMediapiratePodcast.map((x) => x.serialize()).toList());
   }
 
-  List<StonehengeSnapchatLearningMStruct> _airshipAngerManagementCO = [
+  // List<StonehengeSnapchatLearningMStruct> _airshipAngerManagementCO = [
+  //   StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"0\",\"cavemanClubhousemedievalMatchC\":\"400\",\"discoDiscorsGeocitiesPI\":\"mqrvovazpdbiwutc\",\"futurePastFacebookbe\":\"0.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"1\",\"cavemanClubhousemedievalMatchC\":\"800\",\"discoDiscorsGeocitiesPI\":\"dvgfvgahtngmhybc\",\"futurePastFacebookbe\":\"1.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"2\",\"cavemanClubhousemedievalMatchC\":\"1900\",\"discoDiscorsGeocitiesPI\":\"tranquilizehopew\",\"futurePastFacebookbe\":\"3.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"3\",\"cavemanClubhousemedievalMatchC\":\"2450\",\"discoDiscorsGeocitiesPI\":\"rikcjwuzhnqvasab\",\"futurePastFacebookbe\":\"4.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"4\",\"cavemanClubhousemedievalMatchC\":\"3950\",\"discoDiscorsGeocitiesPI\":\"luminescentwaycb\",\"futurePastFacebookbe\":\"6.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"5\",\"cavemanClubhousemedievalMatchC\":\"4900\",\"discoDiscorsGeocitiesPI\":\"iqzujbrzbarqjeec\",\"futurePastFacebookbe\":\"9.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"6\",\"cavemanClubhousemedievalMatchC\":\"8400\",\"discoDiscorsGeocitiesPI\":\"perceptionspinaa\",\"futurePastFacebookbe\":\"17.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"7\",\"cavemanClubhousemedievalMatchC\":\"8900\",\"discoDiscorsGeocitiesPI\":\"nqlwyitfwhgggbuv\",\"futurePastFacebookbe\":\"19.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"8\",\"cavemanClubhousemedievalMatchC\":\"24500\",\"discoDiscorsGeocitiesPI\":\"kdhzgncaeugepagc\",\"futurePastFacebookbe\":\"49.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  //        StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
+  //       '{\"machuPicchuMacbookthonID\":\"9\",\"cavemanClubhousemedievalMatchC\":\"49000\",\"discoDiscorsGeocitiesPI\":\"rxljwvdknmebldob\",\"futurePastFacebookbe\":\"99.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+  // ];
+
+    List<StonehengeSnapchatLearningMStruct> _airshipAngerManagementCO = [
     StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"0\",\"cavemanClubhousemedievalMatchC\":\"400\",\"discoDiscorsGeocitiesPI\":\"mqrvovazpdbiwutc\",\"futurePastFacebookbe\":\"0.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"0\",\"cavemanClubhousemedievalMatchC\":\"400\",\"discoDiscorsGeocitiesPI\":\"zww_1\",\"futurePastFacebookbe\":\"0.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"1\",\"cavemanClubhousemedievalMatchC\":\"800\",\"discoDiscorsGeocitiesPI\":\"dvgfvgahtngmhybc\",\"futurePastFacebookbe\":\"1.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"1\",\"cavemanClubhousemedievalMatchC\":\"800\",\"discoDiscorsGeocitiesPI\":\"zww_2\",\"futurePastFacebookbe\":\"1.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"2\",\"cavemanClubhousemedievalMatchC\":\"1900\",\"discoDiscorsGeocitiesPI\":\"tranquilizehopew\",\"futurePastFacebookbe\":\"3.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"2\",\"cavemanClubhousemedievalMatchC\":\"1900\",\"discoDiscorsGeocitiesPI\":\"zww_3\",\"futurePastFacebookbe\":\"3.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"3\",\"cavemanClubhousemedievalMatchC\":\"2450\",\"discoDiscorsGeocitiesPI\":\"rikcjwuzhnqvasab\",\"futurePastFacebookbe\":\"4.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"3\",\"cavemanClubhousemedievalMatchC\":\"2450\",\"discoDiscorsGeocitiesPI\":\"zww_4\",\"futurePastFacebookbe\":\"4.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"4\",\"cavemanClubhousemedievalMatchC\":\"3950\",\"discoDiscorsGeocitiesPI\":\"luminescentwaycb\",\"futurePastFacebookbe\":\"6.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"4\",\"cavemanClubhousemedievalMatchC\":\"3950\",\"discoDiscorsGeocitiesPI\":\"zww_5\",\"futurePastFacebookbe\":\"6.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"5\",\"cavemanClubhousemedievalMatchC\":\"4900\",\"discoDiscorsGeocitiesPI\":\"iqzujbrzbarqjeec\",\"futurePastFacebookbe\":\"9.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"5\",\"cavemanClubhousemedievalMatchC\":\"4900\",\"discoDiscorsGeocitiesPI\":\"zww_6\",\"futurePastFacebookbe\":\"9.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"6\",\"cavemanClubhousemedievalMatchC\":\"8400\",\"discoDiscorsGeocitiesPI\":\"perceptionspinaa\",\"futurePastFacebookbe\":\"17.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"6\",\"cavemanClubhousemedievalMatchC\":\"8400\",\"discoDiscorsGeocitiesPI\":\"zww_7\",\"futurePastFacebookbe\":\"17.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"7\",\"cavemanClubhousemedievalMatchC\":\"8900\",\"discoDiscorsGeocitiesPI\":\"nqlwyitfwhgggbuv\",\"futurePastFacebookbe\":\"19.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"7\",\"cavemanClubhousemedievalMatchC\":\"8900\",\"discoDiscorsGeocitiesPI\":\"zww_7\",\"futurePastFacebookbe\":\"19.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"8\",\"cavemanClubhousemedievalMatchC\":\"24500\",\"discoDiscorsGeocitiesPI\":\"kdhzgncaeugepagc\",\"futurePastFacebookbe\":\"49.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"8\",\"cavemanClubhousemedievalMatchC\":\"24500\",\"discoDiscorsGeocitiesPI\":\"zww_7\",\"futurePastFacebookbe\":\"49.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"9\",\"cavemanClubhousemedievalMatchC\":\"49000\",\"discoDiscorsGeocitiesPI\":\"rxljwvdknmebldob\",\"futurePastFacebookbe\":\"99.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"machuPicchuMacbookthonID\":\"9\",\"cavemanClubhousemedievalMatchC\":\"49000\",\"discoDiscorsGeocitiesPI\":\"zww_7\",\"futurePastFacebookbe\":\"99.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
   ];
+
 
   List<StonehengeSnapchatLearningMStruct> get airshipAngerManagementCO =>
       _airshipAngerManagementCO;

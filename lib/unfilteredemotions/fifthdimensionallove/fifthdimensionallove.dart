@@ -127,7 +127,7 @@ class _FifthDimensionalLoveWidgetState
                           ),
                         ),
                         Text(
-                          'Vuria',
+                          '${VuriaEmotionCipher.unveilEmotion('tJfPJesdto9lSb24d4PK2w==')}',
                           style:
                               heartMindVentralTheme.of(context).bodyMedium.override(
                                     font: GoogleFonts.cevicheOne(

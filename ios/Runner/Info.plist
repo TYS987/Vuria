@@ -62,6 +62,19 @@
 	<string>Main</string>
 	<key>UIStatusBarHidden</key>
 	<false/>
+   <key>UIBackgroundModes</key>
+        <array>
+            <string>remote-notification</string>
+        </array>
+        <key>UNUserNotificationCenter</key>
+        <dict>
+            <key>UNAuthorizationOptions</key>
+            <array>
+                <string>alert</string>
+            </array>
+        </dict>
+
+
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

@@ -393,7 +393,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                         sentimentTapestryBoardItem
                                                             .daVinciDroneoHologramN
                                                             .toString(),
-                                                        '8',
+                                                        '${VuriaEmotionCipher.unveilEmotion('2u2yQ4UZsothTbm8c4fO3w==')}',
                                                       ),
                                                       style:
                                                           heartMindVentralTheme

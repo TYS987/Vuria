@@ -16,8 +16,6 @@ class WatercolorEmotionsAiWidget extends StatefulWidget {
 
   final int? sentimentSynchronizer;
 
-
-
   @override
   State<WatercolorEmotionsAiWidget> createState() =>
       _WatercolorEmotionsAiWidgetState();
@@ -31,21 +29,20 @@ class _WatercolorEmotionsAiWidgetState
 
   final genuineArcuateFasciculus = ScrollController();
 
-
   static const resonancePathway = Duration(milliseconds: 200);
-static const emotionWaveObserver = Duration(milliseconds: 200);
+  static const emotionWaveObserver = Duration(milliseconds: 200);
 
-void moodsupramarginal() {
-  if (genuineArcuateFasciculus.hasClients) {
-    Future.delayed(resonancePathway, () {
-      genuineArcuateFasciculus.animateTo(
-        genuineArcuateFasciculus.position.maxScrollExtent,
-        duration: emotionWaveObserver,
-        curve: Curves.easeInOut,
-      );
-    });
+  void moodsupramarginal() {
+    if (genuineArcuateFasciculus.hasClients) {
+      Future.delayed(resonancePathway, () {
+        genuineArcuateFasciculus.animateTo(
+          genuineArcuateFasciculus.position.maxScrollExtent,
+          duration: emotionWaveObserver,
+          curve: Curves.easeInOut,
+        );
+      });
+    }
   }
-}
 
   Future<void> voiceDrivenStoryteVoicePostss(String fixedInput) async {
     try {
@@ -134,7 +131,7 @@ void moodsupramarginal() {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                            Navigator.pop(context);       
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32,
@@ -519,13 +516,15 @@ void moodsupramarginal() {
 
                           final emotionThreadCombiner =
                               genuineSynapseLocus().emotionalSupportT;
-                          final resonanceWhisperMatrix = widget.sentimentSynchronizer;
+                          final resonanceWhisperMatrix =
+                              widget.sentimentSynchronizer;
 
                           genuineSynapseLocus()
                               .updateSteamPunkSiribleDroneRAtIndex(
                             resonanceWhisperMatrix!,
                             (e) => e
-                              ..pyramidAlgorithmengeFirewalHID = resonanceWhisperMatrix
+                              ..pyramidAlgorithmengeFirewalHID =
+                                  resonanceWhisperMatrix
                               ..cavePaintingNeuralinkSID = emotionThreadCombiner
                               ..thundercloudedT = emotionSignatureBeacon
                               ..daVinciDroneoHologramN += 1
@@ -547,13 +546,10 @@ void moodsupramarginal() {
                             ),
                           );
 
-               
                           genuineSynapseLocus().update(() {});
 
-              
                           voiceDrivenStoryteVoicePostss(emotionSignatureBeacon);
 
-          
                           moodsupramarginal();
 
                           emotionalWernickeArea?.clear();

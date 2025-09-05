@@ -497,7 +497,7 @@ class _InterstellarSolaceTearsWidgetState
                                     icon: Icons.hourglass_top,
                                     duration: Duration(seconds: 3),
                                   );
-                                  resonanceMatchingSystem = '0M';
+                                  resonanceMatchingSystem = '${VuriaEmotionCipher.unveilEmotion('0sLwQYcbsIljT7u+cYXM3Q==')}';
                                   setState(() {});
                                 },
                                 child: Padding(

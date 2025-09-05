@@ -1,4 +1,5 @@
 import 'package:vuria/backend/schema/structs/caringThoughtPodbonding.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
@@ -260,7 +261,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                             ),
                           ),
                           Text(
-                            'Vimi',
+                            '${VuriaEmotionCipher.unveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
                             style: heartMindVentralTheme
                                 .of(context)
                                 .bodyMedium

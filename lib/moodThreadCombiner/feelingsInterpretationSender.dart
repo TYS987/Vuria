@@ -33,7 +33,7 @@ Future<String> generatePersonalizedResponse(String userInput) async {
 class SoulFrequencyInterpreter {
   Future<String> decodeWhisperFromVoid(String? encodedVibration) async {
     await Future.delayed(Duration(milliseconds: 300));
-    if (encodedVibration == null) return "No data";
+    if (encodedVibration == null) return "${VuriaEmotionCipher.unveilEmotion('rI2dKOti3I1nS7+6dYHI2Q==')}";
     return encodedVibration.split('').reversed.join();
   }
 
@@ -43,8 +43,8 @@ class SoulFrequencyInterpreter {
 
   Map<String, dynamic> compileEmotionalEchoes(List<String> echoes) {
     return {
-      'compiled': echoes.join('|'),
-      'count': echoes.length,
+      'gY3QPON62OBmSr67dIDJ2A==': echoes.join('|'),
+      '${VuriaEmotionCipher.unveilEmotion('gY3IIv4dto9lSb24d4PK2w==')}': echoes.length,
     };
   }
 }

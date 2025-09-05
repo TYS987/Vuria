@@ -110,7 +110,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     .toList()
                                     .firstOrNull
                                     ?.phoenixTearsTherapyN,
-                                'Jacob',
+                                '${VuriaEmotionCipher.unveilEmotion('qIPeI+gdto9lSb24d4PK2w==')}',
                               ),
                               style: heartMindVentralTheme
                                   .of(context)
@@ -153,7 +153,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           ?.corporateDroneHugsF
                                           .length
                                           .toString(),
-                                      '1.2k',
+                                      '${VuriaEmotionCipher.unveilEmotion('08yPJ4YasYhiTrq/cITN3A==')}',
                                     ),
                                     style: heartMindVentralTheme
                                         .of(context)
@@ -218,7 +218,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             .firstOrNull
                                             ?.loveNmbers
                                             .toString(),
-                                        '1111',
+                                        '${VuriaEmotionCipher.unveilEmotion('09OMfYYasYhiTrq/cITN3A==')}',
                                       ),
                                       style: heartMindVentralTheme
                                           .of(context)
@@ -282,7 +282,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           ?.deusExMachinaTherapS
                                           .length
                                           .toString(),
-                                      '120',
+                                      '${VuriaEmotionCipher.unveilEmotion('09CNQYcbsIljT7u+cYXM3Q==')}',
                                     ),
                                     style: heartMindVentralTheme
                                         .of(context)
@@ -473,7 +473,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                     .toList()
                                                                     .firstOrNull
                                                                     ?.phoenixTearsTherapyN,
-                                                                'Calista',
+                                                                '${VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q==')}',
                                                               ),
                                                               style:
                                                                   heartMindVentralTheme

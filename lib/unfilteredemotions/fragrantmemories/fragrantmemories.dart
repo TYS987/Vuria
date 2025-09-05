@@ -42,13 +42,13 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
       } else {
         if (!mounted) return;
         await emotionWhisperInterface(
-          message: "You haven't selected any pictures",
+          message: "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
           icon: Icons.info_outline,
           duration: Duration(seconds: 2),
         );
       }
     } catch (e) {
-      print(' 图片选择发生错误: $e');
+      print(' ${VuriaEmotionCipher.unveilEmotion('o4ydKfhk0vZOLdXQCfqzteQ2XPqstYtpluJf1rHcc+Y0d4SdG8FYzYOIeft/VXfP7gFjRlKHqhS3KYx9zQXKFA==')} $e');
     }
   }
 
@@ -136,7 +136,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
-                        'Create Room',
+                        '${VuriaEmotionCipher.unveilEmotion('oZDYLf5zndYBLdu2eY3E1Q==')}',
                         style: heartMindVentralTheme
                             .of(context)
                             .bodyMedium
@@ -238,7 +238,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
-                            'Room Name',
+                            '${VuriaEmotionCipher.unveilEmotion('sI3SIapY3OkLRbG0e4/G1w==')}',
                             style: heartMindVentralTheme
                                 .of(context)
                                 .bodyMedium
@@ -308,7 +308,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                             .labelMedium
                                             .fontStyle,
                                       ),
-                                  hintText: 'Please enter',
+                                  hintText: '${VuriaEmotionCipher.unveilEmotion('so7YLflzneEANtPBeIzF1A==')}',
                                   hintStyle: heartMindVentralTheme
                                       .of(context)
                                       .labelMedium
@@ -402,7 +402,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
-                            'Emojil',
+                            '${VuriaEmotionCipher.unveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
                             style: heartMindVentralTheme
                                 .of(context)
                                 .bodyMedium

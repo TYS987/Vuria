@@ -12,8 +12,6 @@ class SentimentAlignedWidget extends StatefulWidget {
 
   final int? moodStoryCanvas;
 
-
-
   @override
   State<SentimentAlignedWidget> createState() => _SentimentAlignedWidgetState();
 }
@@ -70,7 +68,7 @@ class _SentimentAlignedWidgetState extends State<SentimentAlignedWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          Navigator.pop(context);          
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,

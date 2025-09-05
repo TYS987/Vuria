@@ -1,3 +1,5 @@
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
@@ -275,7 +277,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                     .toList()
                                                                     .firstOrNull
                                                                     ?.phoenixTearsTherapyN,
-                                                                'Calista',
+                                                                '${VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q==')}',
                                                               ),
                                                               style:
                                                                   heartMindVentralTheme
@@ -299,7 +301,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                     'y.MM.dd',
                                                                     emotionalAlignmentToolItem
                                                                         .compassionateListenerTiem),
-                                                                '2024.12.02',
+                                                                '${VuriaEmotionCipher.unveilEmotion('0NKPeKQnj6pecLC1eo7H1g==')}',
                                                               ),
                                                               style:
                                                                   heartMindVentralTheme

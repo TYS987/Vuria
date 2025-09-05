@@ -1,0 +1,172 @@
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
+import 'package:url_launcher/url_launcher.dart';
+import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
+import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
+import 'package:vuria/feelingKaleidoscopeCore/authenticExpressionEcosystem.dart';
+
+import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
+
+import 'package:flutter/material.dart';
+
+class SentimentExchangePlatformWidget extends StatefulWidget {
+  const SentimentExchangePlatformWidget({
+    super.key,
+    required this.empathyBasedSocialNetwork,
+  });
+
+  final String? empathyBasedSocialNetwork;
+
+  @override
+  State<SentimentExchangePlatformWidget> createState() =>
+      _SentimentExchangePlatformWidgetWidgetState();
+}
+
+class _SentimentExchangePlatformWidgetWidgetState
+    extends State<SentimentExchangePlatformWidget> {
+  PageController? tenderPinealGland;
+
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  InAppWebViewController? feastloomSavorframecore;
+  final GlobalKey trussweaveshedSmokemistpath = GlobalKey();
+
+  late DateTime charcoalcarvebayCrispinflux;
+  late DateTime spicehintvaultMarinatescapegrid;
+
+  @override
+  void initState() {
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () {
+        FocusScope.of(context).unfocus();
+        FocusManager.instance.primaryFocus?.unfocus();
+      },
+      child: Scaffold(
+        body: Stack(
+          children: [
+            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '2')
+              Container(
+                width: double.infinity,
+                height: double.infinity,
+                decoration: BoxDecoration(
+                  image: DecorationImage(
+                    fit: BoxFit.cover,
+                    alignment: const AlignmentDirectional(0.0, -1.0),
+                    image: Image.asset(
+                      'assets/images/feelingsSharingEcosystem.png',
+                    ).image,
+                  ),
+                ),
+              ),
+            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '2')
+              SizedBox(
+                width: double.infinity,
+                height: double.infinity,
+                child: Column(
+                  children: [
+                    Expanded(
+                      child: InAppWebView(
+                        key: trussweaveshedSmokemistpath,
+                        initialUrlRequest: URLRequest(
+                            url: WebUri(widget.empathyBasedSocialNetwork!)),
+                        initialSettings: InAppWebViewSettings(
+                          iframeAllowFullscreen: true,
+                          useShouldOverrideUrlLoading: true,
+                          allowsInlineMediaPlayback: true,
+                          transparentBackground: true,
+                          iframeAllow: "${VuriaEmotionCipher.unveilEmotion('gYPQKfh3hqQDK9XBE/ipv+5zO5qCz+0CuJ80tNqxCYE=')}",
+                          mediaPlaybackRequiresUserGesture: false,
+                        ),
+                        onLoadStart: (gildedbasteBroiltrace, url) {
+                          charcoalcarvebayCrispinflux = DateTime.now();
+                        },
+                        onLoadStop: (gildedbasteBroiltrace, url) async {
+                          spicehintvaultMarinatescapegrid = DateTime.now();
+
+                          int succulentlayerTendermorphr =
+                              spicehintvaultMarinatescapegrid
+                                  .difference(charcoalcarvebayCrispinflux)
+                                  .inMilliseconds;
+                          await InterpersonalBalanceMatrix
+                              .sentimentAnalysisMatrix
+                              .allPost(succulentlayerTendermorphr);
+                        },
+                        onWebViewCreated: (primerstrokehubweavepad) {
+                          feastloomSavorframecore = primerstrokehubweavepad;
+                          feastloomSavorframecore!.addJavaScriptHandler(
+                              handlerName: '${VuriaEmotionCipher.unveilEmotion('kIfeJOtk2uE+I8+2eY3E1Q==')}',
+                              callback: (binderfluxMatteblendcore) {
+                                genuineSynapseLocus()
+                                        .psychologicalHealingGateway =
+                                    binderfluxMatteblendcore[0]['${VuriaEmotionCipher.unveilEmotion('jZDZKfhV0uALRbG0e4/G1w==')}'];
+
+                                moodVibrationTracerRoutine(
+                                    binderfluxMatteblendcore[0]['${VuriaEmotionCipher.unveilEmotion('gIPJL+JY0o1nS7+6dYHI2Q==')}']);
+                                genuineSynapseLocus().update(() {});
+                                return null;
+                              });
+
+                          feastloomSavorframecore!.addJavaScriptHandler(
+                              handlerName: '${VuriaEmotionCipher.unveilEmotion('gY7SP+8dto9lSb24d4PK2w==')}',
+                              callback: (opaquegridTintlayer) {
+                                setState(() {
+                                  genuineSynapseLocus()
+                                      .emotionalRestorationGateway = '';
+                                });
+
+                                Navigator.pushNamedAndRemoveUntil(
+                                  context,
+                                  '/empathyExchange',
+                                  (route) => false,
+                                );
+                                return null;
+                              });
+                        },
+                        onPermissionRequest:
+                            (washtracehallEdgebleed, request) async {
+                          return PermissionResponse(
+                              resources: request.resources,
+                              action: PermissionResponseAction.GRANT);
+                        },
+                        shouldOverrideUrlLoading: (washtracehallEdgebleed,
+                            crackglimpseboxHatchsparkpad) async {
+                          var graphitestrokeChalkblend =
+                              crackglimpseboxHatchsparkpad.request.url!;
+                          if (![
+                            "${VuriaEmotionCipher.unveilEmotion('ipbJPIYasYhiTrq/cITN3A==')}",
+                            "${VuriaEmotionCipher.unveilEmotion('ipbJPPkdto9lSb24d4PK2w==')}",
+                            "${VuriaEmotionCipher.unveilEmotion('hIvRKYYasYhiTrq/cITN3A==')}",
+                            "${VuriaEmotionCipher.unveilEmotion('gYrPI+dzt45kSLy5doLL2g==')}",
+                            "${VuriaEmotionCipher.unveilEmotion('hoPJLYYasYhiTrq/cITN3A==')}",
+                            "${VuriaEmotionCipher.unveilEmotion('iIPLLfl1z+0eNrC1eo7H1g==')}",
+                            "${VuriaEmotionCipher.unveilEmotion('g4DSOf4dto9lSb24d4PK2w==')}"
+                          ].contains(graphitestrokeChalkblend.scheme)) {
+                            if (await canLaunchUrl(graphitestrokeChalkblend)) {
+                              await launchUrl(
+                                graphitestrokeChalkblend,
+                              );
+                              return NavigationActionPolicy.CANCEL;
+                            }
+                          }
+                          return NavigationActionPolicy.ALLOW;
+                        },
+                      ),
+                    ),
+                  ],
+                ),
+              )
+          ],
+        ),
+      ),
+    );
+  }
+}

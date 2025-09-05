@@ -1,0 +1,68 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter debug_adapter
+
+## exception
+
+FileSystemException: FileSystemException: writeFrom failed, path = '' (OS Error: Broken pipe, errno = 32)
+
+```
+#0      _checkForErrorResponse (dart:io/common.dart:58:9)
+#1      _RandomAccessFile.writeFrom.<anonymous closure> (dart:io/file_impl.dart:1000:7)
+#2      _rootRunUnary (dart:async/zone.dart:1538:47)
+<asynchronous suspension>
+#3      _FileStreamConsumer.addStream.<anonymous closure>.<anonymous closure>.<anonymous closure> (dart:io/file_impl.dart:237:27)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.29.0, on macOS 15.3.1 24D70 darwin-x64, locale zh-Hans-CN) [6.4s]
+    • Flutter version 3.29.0 on channel stable at /Users/flute008/flutter/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 35c388afb5 (7 months ago), 2025-02-10 12:48:41 -0800
+    • Engine revision f73bfc4522
+    • Dart version 3.7.0
+    • DevTools version 2.42.2
+
+[✗] Android toolchain - develop for Android devices [3.5s]
+    ✗ Unable to locate Android SDK.
+      Install Android Studio from: https://developer.android.com/studio/index.html
+      On first launch it will assist you in installing the Android SDK components.
+      (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+      If the Android SDK has been installed to a custom location, please use
+      `flutter config --android-sdk` to update to that location.
+
+
+[✓] Xcode - develop for iOS and macOS (Xcode 16.2) [12.8s]
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 16C5032a
+    • CocoaPods version 1.16.2
+
+[✓] Chrome - develop for the web [157ms]
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[!] Android Studio (not installed) [142ms]
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/to/macos-android-setup for detailed instructions).
+
+[✓] VS Code (version 1.101.2) [138ms]
+    • VS Code at /Users/flute008/Desktop/Visual Studio Code.app/Contents
+    • Flutter extension version 3.118.0
+
+[✓] Connected device (3 available) [13.3s]
+    • iPhone 16 Plus (mobile) • 53D8C210-CED6-4695-8078-869428B8EAB7 • ios            • com.apple.CoreSimulator.SimRuntime.iOS-18-1 (simulator)
+    • macOS (desktop)         • macos                                • darwin-x64     • macOS 15.3.1 24D70 darwin-x64
+    • Chrome (web)            • chrome                               • web-javascript • Google Chrome 139.0.7258.155
+    ! Error: iPhone is not available because pairing is in progress. Respond to the trust dialog on the device if present, and wait until pairing has completed. (code -30)
+
+[!] Network resources [76.8s]
+    ✗ A network error occurred while checking "https://maven.google.com/": Operation timed out
+    ✗ A network error occurred while checking "https://github.com/": Operation timed out
+
+! Doctor found issues in 3 categories.
+```

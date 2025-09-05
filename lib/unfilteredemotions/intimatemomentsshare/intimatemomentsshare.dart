@@ -193,7 +193,7 @@ class _IntimateMomentsShareWidgetState
                                       .toList()
                                       .firstOrNull
                                       ?.phoenixTearsTherapyN,
-                                  'Soft Talks',
+                                  '${VuriaEmotionCipher.unveilEmotion('sY3bOKpC3OgFMbC1eo7H1g==')}',
                                 ),
                                 style: heartMindVentralTheme
                                     .of(context)
@@ -496,7 +496,7 @@ class _IntimateMomentsShareWidgetState
                                                     .toList()
                                                     .firstOrNull
                                                     ?.phoenixTearsTherapyN,
-                                                'Milo',
+                                                '${VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}',
                                               )}: ',
                                               style: heartMindVentralTheme
                                                   .of(context)
@@ -513,7 +513,7 @@ class _IntimateMomentsShareWidgetState
                                               text: valueOrDefault<String>(
                                                 interactiveEmpathyFlowItem
                                                     .crimeSceSceneHealing,
-                                                'Hello everyone!',
+                                                '${VuriaEmotionCipher.unveilEmotion('qofRIOU22PILMM/cEu3g0Q==')}',
                                               ),
                                               style: heartMindVentralTheme
                                                   .of(context)
@@ -585,7 +585,7 @@ class _IntimateMomentsShareWidgetState
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
-                                hintText: 'Say something',
+                                hintText: '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG4vC0w==')}',
                                 hintStyle: heartMindVentralTheme
                                     .of(context)
                                     .labelMedium

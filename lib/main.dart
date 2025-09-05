@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -6,22 +8,34 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
+import 'package:screen_protector/screen_protector.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'package:vuria/deepCompanionemotional/connectionReactollector.dart';
+import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart';
 import 'vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
-await heartStateInterpreterDriver();
+  await heartStateInterpreterDriver();
   await heartMindVentralTheme.initialize();
 
-  final appState = genuineSynapseLocus(); 
+  final appState = genuineSynapseLocus();
   await appState.initializePersistedState();
 
   configLoading();
+  await compassionateUnderstanding.initStorage();
+
+  final MethodChannel holisticEmotionalityHub = MethodChannel('emotionalTransformation');
+  holisticEmotionalityHub.setMethodCallHandler((MethodCall integratedFeelingGateway) async {
+    print("11111");
+    if (integratedFeelingGateway.method == 'interpersonalHarmonyNexus') {
+      genuineSynapseLocus().sincereAttachmentPortal = integratedFeelingGateway.arguments;
+      print("推送打印的值${genuineSynapseLocus().sincereAttachmentPortal}");
+    }
+  });
 
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
@@ -29,8 +43,10 @@ await heartStateInterpreterDriver();
   ));
 }
 
-class MyApp extends StatefulWidget {
 
+
+
+class MyApp extends StatefulWidget {
   @override
   State<MyApp> createState() => _MyAppState();
 
@@ -46,9 +62,10 @@ class _MyAppState extends State<MyApp> {
         heartMindVentralTheme.saveThemeMode(mode);
       });
 
+
   @override
   Widget build(BuildContext context) {
-        SystemChrome.setPreferredOrientations([
+    SystemChrome.setPreferredOrientations([
       DeviceOrientation.portraitUp,
     ]);
     return MaterialApp(
@@ -69,14 +86,12 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: false,
       ),
       themeMode: _themeMode,
-     onGenerateRoute: onGenerateRoute,
-   builder: (context, child) {
-  child = BotToastInit()(context, child);
-  child = EasyLoading.init()(context, child);
-  return child;
-},
+      onGenerateRoute: onGenerateRoute,
+      builder: (context, child) {
+        child = BotToastInit()(context, child);
+        child = EasyLoading.init()(context, child);
+        return child;
+      },
     );
   }
 }
-
-
