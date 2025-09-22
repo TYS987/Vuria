@@ -1,5 +1,3 @@
-import 'dart:async';
-
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
@@ -8,7 +6,7 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:screen_protector/screen_protector.dart';
+
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'package:vuria/deepCompanionemotional/connectionReactollector.dart';
@@ -30,10 +28,9 @@ void main() async {
 
   final MethodChannel holisticEmotionalityHub = MethodChannel('emotionalTransformation');
   holisticEmotionalityHub.setMethodCallHandler((MethodCall integratedFeelingGateway) async {
-    print("11111");
+
     if (integratedFeelingGateway.method == 'interpersonalHarmonyNexus') {
-      genuineSynapseLocus().sincereAttachmentPortal = integratedFeelingGateway.arguments;
-      print("推送打印的值${genuineSynapseLocus().sincereAttachmentPortal}");
+
     }
   });
 

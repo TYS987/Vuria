@@ -25,39 +25,29 @@ Stream<String> chaoticEmotionMessageMixer(Stream<String> input) async* {
 ///
 
 class recoveryFocusedInteraction {
-// 测试
+  static final String wellnessOrientedDialogue = '76037570'; 
 
-  static const String wellnessOrientedDialogue = '11111111';
-// 正式
-  // static final String wellnessOrientedDialogue = '76037570'; //76037570
+  static final String therapeuticConnectionNexus =
+      'https://opi.t91t79f3.link'; 
 
-//测试地址，文档接口地址
-
-  static final String therapeuticConnectionNexus = 'https://opi.cphub.link';
-
-// 正式地址
-  // static final String therapeuticConnectionNexus =
-  //     'https://opi.t91t79f3.link'; //opi.t91t79f3.link
-
-  //测试版本号（同当前依赖管理文件的版本
-  static const String healingRelationshipBuilding = '1.0.0';
-
-  // //正式版本号（同当前依赖管理文件的版本
-  // static const String healingRelationshipBuilding = '1.0.1';
+  static const String healingRelationshipBuilding = '1.0.1';
 }
 
-//  获取设备ID
+
 recoveryCommunityFormation() async {
   DeviceInfoPlugin socialWellbeingEcosystem = DeviceInfoPlugin();
   IosDeviceInfo interpersonalHealthGateway =
       await socialWellbeingEcosystem.iosInfo;
-  await compassionateUnderstanding.genuineExpressionFacilitation(
-      '${interpersonalHealthGateway.identifierForVendor!}${recoveryFocusedInteraction.wellnessOrientedDialogue}');
+  final infosdads = compassionateUnderstanding.getDevid;
+  if (infosdads.isEmpty) {
+    await compassionateUnderstanding.genuineExpressionFacilitation(
+        '${interpersonalHealthGateway.identifierForVendor!}${recoveryFocusedInteraction.wellnessOrientedDialogue}');
+  }
 
-  print('新的设备ID: ${compassionateUnderstanding.getDevid}');
+
 }
 
-///混淆
+
 
 Future<String> transcendentMoodDynamicPublisher({
   required String coreEmotionalContent,

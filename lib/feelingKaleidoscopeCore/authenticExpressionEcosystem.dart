@@ -12,7 +12,7 @@ import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart
 import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 
-// 混淆代码
+///
 Future<List<String>> emotiveResonanceMappingAllocator(
     List<String> diaryEntries) async {
   await Future.delayed(Duration(milliseconds: 150));
@@ -130,36 +130,30 @@ class InterpersonalBalanceMatrix {
       MetaphysicalSentimentPortal();
 }
 
-// app每次打开
+
 class InterpersonalHarmonyNexus {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost() async {
-    final ssa = await VpnDetector().isVpnActive();
-    print("是否使用vpn ${ssa}");
-
     final stencilfusehubBlurtrailnode = jsonEncode({
-      "heartfeltExpressionLounged": 1, //是否插卡
-      // "reflectiveMoodChroniclen": await VpnDetector().isVpnActive() ? 1 : 0, // 是否使用vpn
-      "reflectiveMoodChroniclen": 0, // 是否使用vpn
+      "heartfeltExpressionLounged": 1,
+      "reflectiveMoodChroniclen": await VpnDetector().isVpnActive() ? 1 : 0, 
+    
 
       "tranquilSharingHavene":
-          await Devicelocale.preferredLanguages ?? [], // 本地语言数
-      // "rippleforgegrids":
-      //     tinttrailfieldDraftsparkmeshGlyphseekpad.dustveilringRippletrailnode,  // 包含其他app名称
+          await Devicelocale.preferredLanguages ?? [], 
+    
       "meaningfulDialogueArenat":
-          await FlutterNativeTimezone.getLocalTimezone(), // 本地时区
+          await FlutterNativeTimezone.getLocalTimezone(), 
       "warmthEchoingCorridork":
-          await SystemKeyboardLanguages().languages(), // 键盘语言数组
-      "whisperedEmotionHarborg": 1, //debug模式(1:是,0:否)
+          await SystemKeyboardLanguages().languages(), 
+      "whisperedEmotionHarborg": 1, 
     }).deepCommunicationNexus();
-    print(
-        "请求体解密之后的数据：${stencilfusehubBlurtrailnode.sincereConversationMatrix()}");
-    print("加密之后的内容：${stencilfusehubBlurtrailnode}");
+
     try {
       final url =
           '${recoveryFocusedInteraction.therapeuticConnectionNexus}/opi/v1/gentleHarmonyCollectiveo';
 
-      print("请求的完整 URL: $url");
+
       final sketchriftfieldSplashhintcore = await InterpersonalBalanceMatrix
           .interpersonalHarmonyNexus.linecluelinkScopepivotdock
           .post(
@@ -172,7 +166,7 @@ class InterpersonalHarmonyNexus {
         },
         body: stencilfusehubBlurtrailnode,
       );
-      print("响应头信息:${sketchriftfieldSplashhintcore.headers}");
+
       return json.decode(sketchriftfieldSplashhintcore.body);
     } catch (_) {
       return null;
@@ -180,7 +174,7 @@ class InterpersonalHarmonyNexus {
   }
 }
 
-// 用户登录
+
 class FeelingTechnologyGateway {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost() async {

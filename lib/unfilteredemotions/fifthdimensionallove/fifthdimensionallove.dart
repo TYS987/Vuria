@@ -150,7 +150,7 @@ class _FifthDimensionalLoveWidgetState
                                   ),
                         ),
                         Text(
-                          'Version 1.0.0',
+                          'Version 1.1.0',
                           style:
                               heartMindVentralTheme.of(context).bodyMedium.override(
                                     fontFamily: 'AVENIR',

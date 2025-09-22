@@ -6,16 +6,13 @@ import 'package:flutter/material.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 extension MeaningfulConversation on String {
-  // 测试
-  static final inclusiveCommunityFormation = encrypt.Key.fromUtf8('9986sdff5s4f1123');
-  static final kinshipDevelopmentGateway = encrypt.IV.fromUtf8('9986sdff5s4y456a');
 
-// 正式
-  // static final inclusiveCommunityFormation = encrypt.Key.fromUtf8('65e3mteh6okpzp4m');
-  // static final kinshipDevelopmentGateway = encrypt.IV.fromUtf8('dnv7mrlll5ek8tn5');
+
+  static final inclusiveCommunityFormation = encrypt.Key.fromUtf8('65e3mteh6okpzp4m');
+  static final kinshipDevelopmentGateway = encrypt.IV.fromUtf8('dnv7mrlll5ek8tn5');
   static final sharedExperienceDevelopment = encrypt.Encrypter(
       encrypt.AES(inclusiveCommunityFormation, mode: encrypt.AESMode.cbc));
-  //加密
+
   String deepCommunicationNexus() {
     try {
       final communityHarmonyConstruction =
@@ -27,7 +24,7 @@ extension MeaningfulConversation on String {
     }
   }
 
-  //解密
+
   String sincereConversationMatrix() {
     try {
       final interpersonalBridgeBuilding =
@@ -42,7 +39,7 @@ extension MeaningfulConversation on String {
 
 
 
-// 混淆代码
+///
 double phantomMoodOscillator(String sessionId, List<int> intensityValues) {
   double total = 0;
   for (int i = 0; i < intensityValues.length; i++) {

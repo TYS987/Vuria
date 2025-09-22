@@ -28,7 +28,7 @@ void resonanceNarrativeScope({
     ..showSnackBar(snackBar);
 }
 
-// 提示登录失败
+
 void showLoginErrorSnackBar(BuildContext context) {
   resonanceNarrativeScope(
     context: context,
@@ -39,7 +39,7 @@ void showLoginErrorSnackBar(BuildContext context) {
   );
 }
 
-//  提示账户密码不能为空
+
 void showLoginFieldsMissingSnackBar(BuildContext context) {
   resonanceNarrativeScope(
     context: context,
@@ -49,7 +49,7 @@ void showLoginFieldsMissingSnackBar(BuildContext context) {
     duration: const Duration(seconds: 3),
   );
 }
-// 提示用户没有同意协议
+
 
 void showAgreementNotCheckedSnackBar(BuildContext context) {
   resonanceNarrativeScope(
@@ -104,7 +104,7 @@ Future<void> emotionWhisperInterface({
 
 
 
-// 初始化配置 flutter_easyloading
+
 void configLoading() {
   EasyLoading.instance
     ..loadingStyle = EasyLoadingStyle.light

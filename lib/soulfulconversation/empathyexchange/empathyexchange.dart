@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
-import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:screen_protector/screen_protector.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
@@ -66,33 +65,22 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       }
     } while (synchronismatrixCoadaptive == null);
     if (synchronismatrixCoadaptive?['result'] != null) {
-      print('获得的返回值：' +
-          (synchronismatrixCoadaptive?['result'] as String)
-              .sincereConversationMatrix());
-      // 解密之后返回的值
       degwsfsaffsafeabvejkaf = jsonDecode(
           (synchronismatrixCoadaptive?['result'] as String)
               .sincereConversationMatrix());
-      print("解密之后的值是${degwsfsaffsafeabvejkaf}");
 
       if (synchronismatrixCoadaptive?['code'] == '0000') {
-        print("返回code值是0000: 进b${synchronismatrixCoadaptive?['code']}");
-        //  修改 展示ab面的参数
         genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
         genuineSynapseLocus().update(() {});
 
         setState(() {});
         if (degwsfsaffsafeabvejkaf != null) {
-          // 存储url 地址
           genuineSynapseLocus().genuineBondingEcosystem =
               degwsfsaffsafeabvejkaf?['openValue'];
 
           genuineSynapseLocus().update(() {});
-          print(
-              "genuineBondingEcosystem: ${genuineSynapseLocus().genuineBondingEcosystem}");
         }
         if (degwsfsaffsafeabvejkaf?['loginFlag'] == 1) {
-          print("登录过app直接跳转到h5的地址");
           Navigator.pushNamed(
             context,
             '/sentimentExchangePlatform',
@@ -103,7 +91,6 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
           );
         }
       } else {
-        // code 不等于 0000 的时候 展示a页面
         genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
         genuineSynapseLocus().update(() {});
         setState(() {});
@@ -126,18 +113,14 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   void initState() {
     super.initState();
 
-    if (DateTime.now().isBefore(DateTime(2024, 11, 25, 8, 0, 0))) {
+    if (DateTime.now().isBefore(DateTime(2025, 9, 30, 8, 0, 0))) {
       genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
-      print("显示a页面");
     } else {
-      print("显示b页面");
       genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
       unawaited(
         () async {
-          /// 防录屏、截屏
           await ScreenProtector.preventScreenshotOn();
 
-          /// 保护数据泄露后台截图
           await ScreenProtector.protectDataLeakageWithBlur();
         }(),
       );
@@ -1108,7 +1091,6 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               : currentPassword;
                                       print("点击登录之后的数据${newPassword}");
                                       print("读取存储的数据${currentPassword}");
-
 
                                       await compassionateUnderstanding
                                           .unfilteredSharingEnvironment(
