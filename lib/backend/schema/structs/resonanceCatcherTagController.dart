@@ -1,11 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class BioluminescentEmpathyDTStruct extends BaseStruct {
   BioluminescentEmpathyDTStruct({
@@ -110,20 +107,58 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasheartfeltInteractionCorner() => _heartfeltInteractionCorner != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static DateTime? _castToDateTime(dynamic value) {
+    if (value == null) return null;
+    if (value is DateTime) return value;
+    if (value is String) return DateTime.tryParse(value);
+    if (value is int) return DateTime.fromMillisecondsSinceEpoch(value);
+    return null;
+  }
+
+  static List<T>? _castToList<T>(dynamic value) {
+    if (value == null) return null;
+    if (value is List<T>) return value;
+    if (value is List) {
+      try {
+        return value.cast<T>();
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static BioluminescentEmpathyDTStruct fromMap(Map<String, dynamic> data) =>
       BioluminescentEmpathyDTStruct(
-        empatheticVoiceCorner: castToType<int>(data['empatheticVoiceCorner']),
-        friendshipResonanceSpot:
-            castToType<int>(data['friendshipResonanceSpot']),
-        genuineSharingCorner:
-            castToType<int>(data['genuineSharingCorner']),
-        brinePoolSolacenSongTearsI:
-            getDataList(data['brinePoolSolacenSongTearsI']),
-        expressiveFriendshipSpace: data['expressiveFriendshipSpace'] as String?,
-        timeMachineComfortLo: getDataList(data['timeMachineComfortLo']),
-        butterflyEffectConfideHX: getDataList(data['butterflyEffectConfideHX']),
-        heartfeltInteractionCorner:
-            data['heartfeltInteractionCorner'] as DateTime?,
+        empatheticVoiceCorner: _castToInt(data['empatheticVoiceCorner']),
+        friendshipResonanceSpot: _castToInt(data['friendshipResonanceSpot']),
+        genuineSharingCorner: _castToInt(data['genuineSharingCorner']),
+        brinePoolSolacenSongTearsI: _castToList<String>(data['brinePoolSolacenSongTearsI']),
+        expressiveFriendshipSpace: _castToString(data['expressiveFriendshipSpace']),
+        timeMachineComfortLo: _castToList<int>(data['timeMachineComfortLo']),
+        butterflyEffectConfideHX: _castToList<String>(data['butterflyEffectConfideHX']),
+        heartfeltInteractionCorner: _castToDateTime(data['heartfeltInteractionCorner']),
       );
 
   static BioluminescentEmpathyDTStruct? maybeFromMap(dynamic data) =>
@@ -131,55 +166,59 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           ? BioluminescentEmpathyDTStruct.fromMap(data.cast<String, dynamic>())
           : null;
 
-  Map<String, dynamic> toMap() => {
-        'empatheticVoiceCorner': _empatheticVoiceCorner,
-        'friendshipResonanceSpot': _friendshipResonanceSpot,
-        'genuineSharingCorner': _genuineSharingCorner,
-        'brinePoolSolacenSongTearsI': _brinePoolSolacenSongTearsI,
-        'expressiveFriendshipSpace': _expressiveFriendshipSpace,
-        'timeMachineComfortLo': _timeMachineComfortLo,
-        'butterflyEffectConfideHX': _butterflyEffectConfideHX,
-        'heartfeltInteractionCorner': _heartfeltInteractionCorner,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'empatheticVoiceCorner': _empatheticVoiceCorner,
+      'friendshipResonanceSpot': _friendshipResonanceSpot,
+      'genuineSharingCorner': _genuineSharingCorner,
+      'brinePoolSolacenSongTearsI': _brinePoolSolacenSongTearsI,
+      'expressiveFriendshipSpace': _expressiveFriendshipSpace,
+      'timeMachineComfortLo': _timeMachineComfortLo,
+      'butterflyEffectConfideHX': _butterflyEffectConfideHX,
+      'heartfeltInteractionCorner': _heartfeltInteractionCorner,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'empatheticVoiceCorner': serializeParam(
-          _empatheticVoiceCorner,
-          ParamType.int,
-        ),
-        'friendshipResonanceSpot': serializeParam(
-          _friendshipResonanceSpot,
-          ParamType.int,
-        ),
-        'genuineSharingCorner': serializeParam(
-          _genuineSharingCorner,
-          ParamType.int,
-        ),
-        'brinePoolSolacenSongTearsI': serializeParam(
-          _brinePoolSolacenSongTearsI,
-          ParamType.String,
-          isList: true,
-        ),
-        'expressiveFriendshipSpace': serializeParam(
-          _expressiveFriendshipSpace,
-          ParamType.String,
-        ),
-        'timeMachineComfortLo': serializeParam(
-          _timeMachineComfortLo,
-          ParamType.int,
-          isList: true,
-        ),
-        'butterflyEffectConfideHX': serializeParam(
-          _butterflyEffectConfideHX,
-          ParamType.String,
-          isList: true,
-        ),
-        'heartfeltInteractionCorner': serializeParam(
-          _heartfeltInteractionCorner,
-          ParamType.DateTime,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'empatheticVoiceCorner': serializeParam(
+        _empatheticVoiceCorner,
+        ParamType.int,
+      ),
+      'friendshipResonanceSpot': serializeParam(
+        _friendshipResonanceSpot,
+        ParamType.int,
+      ),
+      'genuineSharingCorner': serializeParam(
+        _genuineSharingCorner,
+        ParamType.int,
+      ),
+      'brinePoolSolacenSongTearsI': serializeParam(
+        _brinePoolSolacenSongTearsI,
+        ParamType.String,
+        isList: true,
+      ),
+      'expressiveFriendshipSpace': serializeParam(
+        _expressiveFriendshipSpace,
+        ParamType.String,
+      ),
+      'timeMachineComfortLo': serializeParam(
+        _timeMachineComfortLo,
+        ParamType.int,
+        isList: true,
+      ),
+      'butterflyEffectConfideHX': serializeParam(
+        _butterflyEffectConfideHX,
+        ParamType.String,
+        isList: true,
+      ),
+      'heartfeltInteractionCorner': serializeParam(
+        _heartfeltInteractionCorner,
+        ParamType.DateTime,
+      ),
+    });
+  }
 
   static BioluminescentEmpathyDTStruct fromSerializableMap(
           Map<String, dynamic> data) =>

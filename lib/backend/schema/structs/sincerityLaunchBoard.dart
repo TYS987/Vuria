@@ -1,11 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
   PostApocalypticHugsurnedSolaceStruct({
@@ -15,7 +12,6 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
   })  : _mutantConfessions = mutantConfessions,
         _dustStormSoulsgasMaskBonim = dustStormSoulsgasMaskBonim,
         _sunburnedSolacewendigoComforhx = sunburnedSolacewendigoComforhx;
-
 
   int? _mutantConfessions;
   int get mutantConfessions => _mutantConfessions ?? 0;
@@ -49,14 +45,46 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
   bool hasSunburnedSolacewendigoComforhx() =>
       _sunburnedSolacewendigoComforhx != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static List<T>? _castToList<T>(dynamic value) {
+    if (value == null) return null;
+    if (value is List<T>) return value;
+    if (value is List) {
+      try {
+        return value.cast<T>();
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static PostApocalypticHugsurnedSolaceStruct fromMap(
           Map<String, dynamic> data) =>
       PostApocalypticHugsurnedSolaceStruct(
-        mutantConfessions: castToType<int>(data['mutantConfessions']),
-        dustStormSoulsgasMaskBonim:
-            getDataList(data['dustStormSoulsgasMaskBonim']),
-        sunburnedSolacewendigoComforhx:
-            data['sunburnedSolacewendigoComforhx'] as String?,
+        mutantConfessions: _castToInt(data['mutantConfessions']),
+        dustStormSoulsgasMaskBonim: _castToList<String>(data['dustStormSoulsgasMaskBonim']),
+        sunburnedSolacewendigoComforhx: _castToString(data['sunburnedSolacewendigoComforhx']),
       );
 
   static PostApocalypticHugsurnedSolaceStruct? maybeFromMap(dynamic data) =>
@@ -65,28 +93,32 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
               data.cast<String, dynamic>())
           : null;
 
-  Map<String, dynamic> toMap() => {
-        'mutantConfessions': _mutantConfessions,
-        'dustStormSoulsgasMaskBonim': _dustStormSoulsgasMaskBonim,
-        'sunburnedSolacewendigoComforhx': _sunburnedSolacewendigoComforhx,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'mutantConfessions': _mutantConfessions,
+      'dustStormSoulsgasMaskBonim': _dustStormSoulsgasMaskBonim,
+      'sunburnedSolacewendigoComforhx': _sunburnedSolacewendigoComforhx,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'mutantConfessions': serializeParam(
-          _mutantConfessions,
-          ParamType.int,
-        ),
-        'dustStormSoulsgasMaskBonim': serializeParam(
-          _dustStormSoulsgasMaskBonim,
-          ParamType.String,
-          isList: true,
-        ),
-        'sunburnedSolacewendigoComforhx': serializeParam(
-          _sunburnedSolacewendigoComforhx,
-          ParamType.String,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'mutantConfessions': serializeParam(
+        _mutantConfessions,
+        ParamType.int,
+      ),
+      'dustStormSoulsgasMaskBonim': serializeParam(
+        _dustStormSoulsgasMaskBonim,
+        ParamType.String,
+        isList: true,
+      ),
+      'sunburnedSolacewendigoComforhx': serializeParam(
+        _sunburnedSolacewendigoComforhx,
+        ParamType.String,
+      ),
+    });
+  }
 
   static PostApocalypticHugsurnedSolaceStruct fromSerializableMap(
           Map<String, dynamic> data) =>

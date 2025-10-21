@@ -1,12 +1,10 @@
+import 'package:intl/intl.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class KaleidoHealingkaleidoHealingWidget extends StatefulWidget {
@@ -47,7 +45,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Align(
           alignment: AlignmentDirectional(0.0, 1.0),
           child: Container(
@@ -100,25 +98,22 @@ class _KaleidoHealingkaleidoHealingWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 12.0, 0.0, 0.0),
-                            child: Text(
-                              valueOrDefault<String>(
-                                genuineSynapseLocus()
-                                    .necronomiconHealingComfortU
-                                    .where((e) =>
-                                        e.loFiSoulmatesComfortT ==
-                                        widget.empatheticStoryPortal)
-                                    .toList()
-                                    .firstOrNull
-                                    ?.phoenixTearsTherapyN,
-                                '${VuriaEmotionCipher.unveilEmotion('qIPeI+gdto9lSb24d4PK2w==')}',
-                              ),
-                              style: TextStyle(
-                                color: Color(0xFF020202),
-                                fontSize: 20.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
+                
+child: Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == widget.empatheticStoryPortal)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? VuriaEmotionCipher.unveilEmotion('qIPeI+gdto9lSb24d4PK2w=='),
+  style: TextStyle(
+    color: Color(0xFF020202),
+    fontSize: 20.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
                           ),
                           Row(
                             mainAxisSize: MainAxisSize.max,
@@ -127,27 +122,24 @@ class _KaleidoHealingkaleidoHealingWidgetState
                               Column(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
-                                  Text(
-                                    valueOrDefault<String>(
-                                      genuineSynapseLocus()
-                                          .necronomiconHealingComfortU
-                                          .where((e) =>
-                                              e.loFiSoulmatesComfortT ==
-                                              widget.empatheticStoryPortal)
-                                          .toList()
-                                          .firstOrNull
-                                          ?.corporateDroneHugsF
-                                          .length
-                                          .toString(),
-                                      '${VuriaEmotionCipher.unveilEmotion('08yPJ4YasYhiTrq/cITN3A==')}',
-                                    ),
-                                    style: TextStyle(
-                                      color: Color(0xFF020202),
-                                      fontSize: 18.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
+                     Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == widget.empatheticStoryPortal)
+      .toList()
+      .firstOrNull
+      ?.corporateDroneHugsF
+      .length
+      .toString() ?? VuriaEmotionCipher.unveilEmotion('08yPJ4YasYhiTrq/cITN3A=='),
+  style: TextStyle(
+    color: Color(0xFF020202),
+    fontSize: 18.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
+                                
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
                                     style: TextStyle(
@@ -165,26 +157,23 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                 child: Column(
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
-                                    Text(
-                                      valueOrDefault<String>(
-                                        genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                widget.empatheticStoryPortal)
-                                            .toList()
-                                            .firstOrNull
-                                            ?.loveNmbers
-                                            .toString(),
-                                        '${VuriaEmotionCipher.unveilEmotion('09OMfYYasYhiTrq/cITN3A==')}',
-                                      ),
-                                      style: TextStyle(
-                                        color: Color(0xFF020202),
-                                        fontSize: 18.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: FontWeight.bold,
-                                      ),
-                                    ),
+               Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == widget.empatheticStoryPortal)
+      .toList()
+      .firstOrNull
+      ?.loveNmbers
+      .toString() ?? VuriaEmotionCipher.unveilEmotion('09OMfYYasYhiTrq/cITN3A=='),
+  style: TextStyle(
+    color: Color(0xFF020202),
+    fontSize: 18.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
+                                 
                                     Text(
                                       '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
                                       style: TextStyle(
@@ -200,27 +189,24 @@ class _KaleidoHealingkaleidoHealingWidgetState
                               Column(
                                 mainAxisSize: MainAxisSize.max,
                                 children: [
-                                  Text(
-                                    valueOrDefault<String>(
-                                      genuineSynapseLocus()
-                                          .necronomiconHealingComfortU
-                                          .where((e) =>
-                                              e.loFiSoulmatesComfortT ==
-                                              widget.empatheticStoryPortal)
-                                          .toList()
-                                          .firstOrNull
-                                          ?.deusExMachinaTherapS
-                                          .length
-                                          .toString(),
-                                      '${VuriaEmotionCipher.unveilEmotion('09CNQYcbsIljT7u+cYXM3Q==')}',
-                                    ),
-                                    style: TextStyle(
-                                      color: Color(0xFF020202),
-                                      fontSize: 18.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
+              Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == widget.empatheticStoryPortal)
+      .toList()
+      .firstOrNull
+      ?.deusExMachinaTherapS
+      .length
+      .toString() ?? VuriaEmotionCipher.unveilEmotion('09CNQYcbsIljT7u+cYXM3Q=='),
+  style: TextStyle(
+    color: Color(0xFF020202),
+    fontSize: 18.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
+                               
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
                                     style: TextStyle(
@@ -363,54 +349,37 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                               CrossAxisAlignment
                                                                   .start,
                                                           children: [
-                                                            Text(
-                                                              valueOrDefault<
-                                                                  String>(
-                                                                genuineSynapseLocus()
-                                                                    .necronomiconHealingComfortU
-                                                                    .where((e) =>
-                                                                        e.loFiSoulmatesComfortT ==
-                                                                        feelingConvergencePointItem
-                                                                            .empatheticVoiceCorner)
-                                                                    .toList()
-                                                                    .firstOrNull
-                                                                    ?.phoenixTearsTherapyN,
-                                                                '${VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q==')}',
-                                                              ),
-                                                              style: TextStyle(
-                                                                fontFamily:
-                                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                color: Color(
-                                                                    0xE6000000),
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .bold,
-                                                              ),
-                                                            ),
-                                                            Text(
-                                                              valueOrDefault<
-                                                                  String>(
-                                                                dateTimeFormat(
-                                                                    "${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}",
-                                                                    feelingConvergencePointItem
-                                                                        .heartfeltInteractionCorner),
-                                                                '${'26af1e680a06ae30333dee6fd06f6992'.fromPetalWhisper()}',
-                                                              ),
-                                                              style: TextStyle(
-                                                                fontFamily:
-                                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                color: Color(
-                                                                    0xB3000000),
-                                                                fontSize: 10.0,
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w500,
-                                                              ),
-                                                            ),
+                                  Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q=='),
+  style: TextStyle(
+    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+    color: Color(0xE6000000),
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
+                                                          
+                                                          
+                                        Text(
+  feelingConvergencePointItem.heartfeltInteractionCorner != null
+      ? DateFormat('${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}')
+          .format(feelingConvergencePointItem.heartfeltInteractionCorner!)
+      : '${'26af1e680a06ae30333dee6fd06f6992'.fromPetalWhisper()}',
+  style: TextStyle(
+    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+    color: Color(0xB3000000),
+    fontSize: 10.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w500,
+  ),
+),
+                                                    
                                                           ],
                                                         ),
                                                       ),
@@ -565,24 +534,17 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                 mainAxisSize: MainAxisSize.max,
                                                 children: [
                                                   Expanded(
-                                                    child: Text(
-                                                      valueOrDefault<String>(
-                                                        feelingConvergencePointItem
-                                                            .expressiveFriendshipSpace,
-                                                        '',
-                                                      ),
-                                                      overflow:
-                                                          TextOverflow.ellipsis,
-                                                      maxLines: 1,
-                                                      style: TextStyle(
-                                                        fontFamily:
-                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                        color: Colors.white,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w600,
-                                                      ),
-                                                    ),
+                                 child: Text(
+  feelingConvergencePointItem.expressiveFriendshipSpace ,
+  overflow: TextOverflow.ellipsis,
+  maxLines: 1,
+  style: TextStyle(
+    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+    color: Colors.white,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w600,
+  ),
+),
                                                   ),
                                                   Padding(
                                                     padding:
@@ -625,9 +587,11 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                               ),
                                                             );
                                                           },
-                                                        ).then((value) =>
-                                                            safeSetState(
-                                                                () {}));
+                                                        );
+                                                        if(mounted)
+                                                        {setState(() {
+                                                          
+                                                        });}
                                                       },
                                                       child: Container(
                                                         width: 4.0,
@@ -711,7 +675,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                 ),
                               );
                             },
-                          ).then((value) => safeSetState(() {}));
+                          );
+                          if(mounted){
+                            setState(() {
+                              
+                            });
+                          }
                         },
                         child: Container(
                           width: 32.0,
@@ -838,10 +807,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     '${VuriaEmotionCipher.unveilEmotion('r4fOP+tx2I1nS7+6dYHI2Q==')}',
                                     style: TextStyle(
                                         fontWeight: FontWeight.bold,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
+                                     
                              
                                       color: Colors.white,
                                       fontSize: 14,
@@ -850,9 +816,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                         
                                       shadows: [
                                         Shadow(
-                                          color: heartMindVentralTheme
-                                              .of(context)
-                                              .secondaryText,
+                                          color: Colors.black,
                                           offset: Offset(2.0, 2.0),
                                           blurRadius: 2.0,
                                         )
@@ -912,9 +876,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                   
                                       shadows: [
                                         Shadow(
-                                          color: heartMindVentralTheme
-                                              .of(context)
-                                              .secondaryText,
+                                          color:Colors.black,
                                           offset: Offset(2.0, 2.0),
                                           blurRadius: 2.0,
                                         )

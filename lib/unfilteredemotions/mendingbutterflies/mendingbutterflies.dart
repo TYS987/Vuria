@@ -1,7 +1,7 @@
 import 'package:vuria/backend/schema/structs/caringThoughtPodbonding.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import 'package:flutter/material.dart';
 

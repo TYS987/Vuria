@@ -1,12 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-
 class StonehengeSnapchatLearningMStruct extends BaseStruct {
   StonehengeSnapchatLearningMStruct({
     int? expressiveDialogueSpace,
@@ -67,15 +63,42 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   bool hasDinosaurTherapyselingHX() => _dinosaurTherapyselingHX != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static double? _castToDouble(dynamic value) {
+    if (value == null) return null;
+    if (value is double) return value;
+    if (value is int) return value.toDouble();
+    if (value is String) return double.tryParse(value);
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static StonehengeSnapchatLearningMStruct fromMap(Map<String, dynamic> data) =>
       StonehengeSnapchatLearningMStruct(
-        expressiveDialogueSpace:
-            castToType<int>(data['expressiveDialogueSpace']),
-        cavemanClubhousemedievalMatch:
-            castToType<int>(data['cavemanClubhousemedievalMatch']),
-        discoDiscorsGeocitiesPI: data['discoDiscorsGeocitiesPI'] as String?,
-        futurePastFacebookbe: castToType<double>(data['futurePastFacebookbe']),
-        dinosaurTherapyselingHX: data['dinosaurTherapyselingHX'] as String?,
+        expressiveDialogueSpace: _castToInt(data['expressiveDialogueSpace']),
+        cavemanClubhousemedievalMatch: _castToInt(data['cavemanClubhousemedievalMatch']),
+        discoDiscorsGeocitiesPI: _castToString(data['discoDiscorsGeocitiesPI']),
+        futurePastFacebookbe: _castToDouble(data['futurePastFacebookbe']),
+        dinosaurTherapyselingHX: _castToString(data['dinosaurTherapyselingHX']),
       );
 
   static StonehengeSnapchatLearningMStruct? maybeFromMap(dynamic data) => data
@@ -83,37 +106,41 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
       ? StonehengeSnapchatLearningMStruct.fromMap(data.cast<String, dynamic>())
       : null;
 
-  Map<String, dynamic> toMap() => {
-        'expressiveDialogueSpace': _expressiveDialogueSpace,
-        'cavemanClubhousemedievalMatch': _cavemanClubhousemedievalMatch,
-        'discoDiscorsGeocitiesPI': _discoDiscorsGeocitiesPI,
-        'futurePastFacebookbe': _futurePastFacebookbe,
-        'dinosaurTherapyselingHX': _dinosaurTherapyselingHX,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'expressiveDialogueSpace': _expressiveDialogueSpace,
+      'cavemanClubhousemedievalMatch': _cavemanClubhousemedievalMatch,
+      'discoDiscorsGeocitiesPI': _discoDiscorsGeocitiesPI,
+      'futurePastFacebookbe': _futurePastFacebookbe,
+      'dinosaurTherapyselingHX': _dinosaurTherapyselingHX,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'expressiveDialogueSpace': serializeParam(
-          _expressiveDialogueSpace,
-          ParamType.int,
-        ),
-        'cavemanClubhousemedievalMatch': serializeParam(
-          _cavemanClubhousemedievalMatch,
-          ParamType.int,
-        ),
-        'discoDiscorsGeocitiesPI': serializeParam(
-          _discoDiscorsGeocitiesPI,
-          ParamType.String,
-        ),
-        'futurePastFacebookbe': serializeParam(
-          _futurePastFacebookbe,
-          ParamType.double,
-        ),
-        'dinosaurTherapyselingHX': serializeParam(
-          _dinosaurTherapyselingHX,
-          ParamType.String,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'expressiveDialogueSpace': serializeParam(
+        _expressiveDialogueSpace,
+        ParamType.int,
+      ),
+      'cavemanClubhousemedievalMatch': serializeParam(
+        _cavemanClubhousemedievalMatch,
+        ParamType.int,
+      ),
+      'discoDiscorsGeocitiesPI': serializeParam(
+        _discoDiscorsGeocitiesPI,
+        ParamType.String,
+      ),
+      'futurePastFacebookbe': serializeParam(
+        _futurePastFacebookbe,
+        ParamType.double,
+      ),
+      'dinosaurTherapyselingHX': serializeParam(
+        _dinosaurTherapyselingHX,
+        ParamType.String,
+      ),
+    });
+  }
 
   static StonehengeSnapchatLearningMStruct fromSerializableMap(
           Map<String, dynamic> data) =>

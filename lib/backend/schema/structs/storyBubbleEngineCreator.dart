@@ -1,11 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
   LondonFogAIetWatchPhoneRMStruct({
@@ -22,7 +19,6 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
         _neoNeolithicquantumQuill = neoNeolithicquantumQuill,
         _vuriaFriendshipSpace = vuriaFriendshipSpace;
 
-
   int? _emotionalConnectionPortal;
   int get emotionalConnectionPortal => _emotionalConnectionPortal ?? 0;
   set emotionalConnectionPortal(int? val) => _emotionalConnectionPortal = val;
@@ -32,7 +28,6 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
 
   bool hasemotionalConnectionPortal() => _emotionalConnectionPortal != null;
 
- 
   int? _authenticInteractionLounge;
   int get authenticInteractionLounge => _authenticInteractionLounge ?? 0;
   set authenticInteractionLounge(int? val) => _authenticInteractionLounge = val;
@@ -48,7 +43,6 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
 
   bool hasMoatMalwarejoustingJav() => _moatMalwarejoustingJav != null;
 
-
   List<String>? _emotionalExpressionSpot;
   List<String> get emotionalExpressionSpot =>
       _emotionalExpressionSpot ?? const [];
@@ -60,7 +54,6 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
   }
 
   bool hasemotionalExpressionSpot() => _emotionalExpressionSpot != null;
-
 
   List<int>? _neoNeolithicquantumQuill;
   List<int> get neoNeolithicquantumQuill =>
@@ -74,25 +67,62 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
 
   bool hasneoNeolithicquantumQuill() => _neoNeolithicquantumQuill != null;
 
-
   String? _vuriaFriendshipSpace;
   String get vuriaFriendshipSpace => _vuriaFriendshipSpace ?? '';
   set vuriaFriendshipSpace(String? val) => _vuriaFriendshipSpace = val;
 
   bool hasvuriaFriendshipSpace() => _vuriaFriendshipSpace != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static DateTime? _castToDateTime(dynamic value) {
+    if (value == null) return null;
+    if (value is DateTime) return value;
+    if (value is String) return DateTime.tryParse(value);
+    if (value is int) return DateTime.fromMillisecondsSinceEpoch(value);
+    return null;
+  }
+
+  static List<T>? _castToList<T>(dynamic value) {
+    if (value == null) return null;
+    if (value is List<T>) return value;
+    if (value is List) {
+      try {
+        return value.cast<T>();
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static LondonFogAIetWatchPhoneRMStruct fromMap(Map<String, dynamic> data) =>
       LondonFogAIetWatchPhoneRMStruct(
-        emotionalConnectionPortal:
-            castToType<int>(data['emotionalConnectionPortal']),
-        authenticInteractionLounge:
-            castToType<int>(data['authenticInteractionLounge']),
-        moatMalwarejoustingJav: data['moatMalwarejoustingJav'] as DateTime?,
-        emotionalExpressionSpot:
-            getDataList(data['emotionalExpressionSpot']),
-        neoNeolithicquantumQuill:
-            getDataList(data['neoNeolithicquantumQuill']),
-        vuriaFriendshipSpace: data['vuriaFriendshipSpace'] as String?,
+        emotionalConnectionPortal: _castToInt(data['emotionalConnectionPortal']),
+        authenticInteractionLounge: _castToInt(data['authenticInteractionLounge']),
+        moatMalwarejoustingJav: _castToDateTime(data['moatMalwarejoustingJav']),
+        emotionalExpressionSpot: _castToList<String>(data['emotionalExpressionSpot']),
+        neoNeolithicquantumQuill: _castToList<int>(data['neoNeolithicquantumQuill']),
+        vuriaFriendshipSpace: _castToString(data['vuriaFriendshipSpace']),
       );
 
   static LondonFogAIetWatchPhoneRMStruct? maybeFromMap(dynamic data) => data
@@ -100,44 +130,48 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
       ? LondonFogAIetWatchPhoneRMStruct.fromMap(data.cast<String, dynamic>())
       : null;
 
-  Map<String, dynamic> toMap() => {
-        'emotionalConnectionPortal': _emotionalConnectionPortal,
-        'authenticInteractionLounge': _authenticInteractionLounge,
-        'moatMalwarejoustingJav': _moatMalwarejoustingJav,
-        'emotionalExpressionSpot': _emotionalExpressionSpot,
-        'neoNeolithicquantumQuill': _neoNeolithicquantumQuill,
-        'vuriaFriendshipSpace': _vuriaFriendshipSpace,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'emotionalConnectionPortal': _emotionalConnectionPortal,
+      'authenticInteractionLounge': _authenticInteractionLounge,
+      'moatMalwarejoustingJav': _moatMalwarejoustingJav,
+      'emotionalExpressionSpot': _emotionalExpressionSpot,
+      'neoNeolithicquantumQuill': _neoNeolithicquantumQuill,
+      'vuriaFriendshipSpace': _vuriaFriendshipSpace,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'emotionalConnectionPortal': serializeParam(
-          _emotionalConnectionPortal,
-          ParamType.int,
-        ),
-        'authenticInteractionLounge': serializeParam(
-          _authenticInteractionLounge,
-          ParamType.int,
-        ),
-        'moatMalwarejoustingJav': serializeParam(
-          _moatMalwarejoustingJav,
-          ParamType.DateTime,
-        ),
-        'emotionalExpressionSpot': serializeParam(
-          _emotionalExpressionSpot,
-          ParamType.String,
-          isList: true,
-        ),
-        'neoNeolithicquantumQuill': serializeParam(
-          _neoNeolithicquantumQuill,
-          ParamType.int,
-          isList: true,
-        ),
-        'vuriaFriendshipSpace': serializeParam(
-          _vuriaFriendshipSpace,
-          ParamType.String,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'emotionalConnectionPortal': serializeParam(
+        _emotionalConnectionPortal,
+        ParamType.int,
+      ),
+      'authenticInteractionLounge': serializeParam(
+        _authenticInteractionLounge,
+        ParamType.int,
+      ),
+      'moatMalwarejoustingJav': serializeParam(
+        _moatMalwarejoustingJav,
+        ParamType.DateTime,
+      ),
+      'emotionalExpressionSpot': serializeParam(
+        _emotionalExpressionSpot,
+        ParamType.String,
+        isList: true,
+      ),
+      'neoNeolithicquantumQuill': serializeParam(
+        _neoNeolithicquantumQuill,
+        ParamType.int,
+        isList: true,
+      ),
+      'vuriaFriendshipSpace': serializeParam(
+        _vuriaFriendshipSpace,
+        ParamType.String,
+      ),
+    });
+  }
 
   static LondonFogAIetWatchPhoneRMStruct fromSerializableMap(
           Map<String, dynamic> data) =>

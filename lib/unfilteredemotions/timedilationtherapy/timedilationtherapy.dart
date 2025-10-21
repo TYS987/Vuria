@@ -1,11 +1,9 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
-
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -214,18 +212,14 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                     fontSize: 16.0,
                                     letterSpacing: 0.0,
                                   ),
-                                  hintText: valueOrDefault<String>(
-                                    genuineSynapseLocus()
-                                        .necronomiconHealingComfortU
-                                        .where((e) =>
-                                            e.loFiSoulmatesComfortT ==
-                                            genuineSynapseLocus()
-                                                .emotionalSupportT)
-                                        .toList()
-                                        .firstOrNull
-                                        ?.phoenixTearsTherapyN,
-                                    '',
-                                  ),
+                             hintText: genuineSynapseLocus()
+    .necronomiconHealingComfortU
+    .where((e) =>
+        e.loFiSoulmatesComfortT ==
+        genuineSynapseLocus().emotionalSupportT)
+    .toList()
+    .firstOrNull
+    ?.phoenixTearsTherapyN ?? '',
                                   hintStyle: TextStyle(
                                     color: Colors.black,
                                     fontSize: 16.0,
@@ -280,55 +274,51 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 58.0),
                       child: InkWell(
-                        onTap: () async {
-                          if (vulnerableTemporalLobe != null ||
-                              genuineFrontalLobe.text.trim().isNotEmpty) {
-                            genuineSynapseLocus()
-                                .updateNecronomiconHealingComfortUAtIndex(
-                              genuineSynapseLocus().emotionalSupportT,
-                              (e) => e
-                                ..phoenixTearsTherapyN =
-                                    genuineFrontalLobe.text.trim().isNotEmpty
-                                        ? genuineFrontalLobe.text.trim()
-                                        : genuineSynapseLocus()
-                                            .necronomiconHealingComfortU[
-                                                genuineSynapseLocus()
-                                                    .emotionalSupportT]
-                                            .phoenixTearsTherapyN
-                                ..neuralLaceConfessionsI =
-                                    vulnerableTemporalLobe != null
-                                        ? vulnerableTemporalLobe!.path
-                                        : genuineSynapseLocus()
-                                            .necronomiconHealingComfortU[
-                                                genuineSynapseLocus()
-                                                    .emotionalSupportT]
-                                            .neuralLaceConfessionsI,
-                            );
-                            genuineSynapseLocus().update(() {});
-                            await emotionWhisperInterface(
-                              message:
-                                  '${VuriaEmotionCipher.unveilEmotion('r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c=')}',
-                              icon: Icons.check_circle_rounded,
-                              duration: Duration(seconds: 2),
-                            );
-                            Navigator.pop(context);
-                          } else {
-                            await emotionWhisperInterface(
-                              message:
-                                  '${VuriaEmotionCipher.unveilEmotion('so7YLflzneUaYtrWHfu18O15Uf3quMN12eRImrXJZvs6a4SdD8FCzIXDfvdzVxD3')}',
-                              icon: Icons.warning_amber_rounded,
-                              duration: Duration(seconds: 3),
-                            );
-                          }
-                        },
+         onTap: () async {
+  if (vulnerableTemporalLobe != null ||
+      (genuineFrontalLobe?.text.trim().isNotEmpty ?? false)) {
+    genuineSynapseLocus()
+        .updateNecronomiconHealingComfortUAtIndex(
+      genuineSynapseLocus().emotionalSupportT,
+      (e) => e
+        ..phoenixTearsTherapyN =
+            (genuineFrontalLobe?.text.trim().isNotEmpty ?? false)
+                ? genuineFrontalLobe!.text.trim()
+                : genuineSynapseLocus()
+                    .necronomiconHealingComfortU[
+                        genuineSynapseLocus().emotionalSupportT]
+                    .phoenixTearsTherapyN
+        ..neuralLaceConfessionsI =
+            vulnerableTemporalLobe != null
+                ? vulnerableTemporalLobe!.path
+                : genuineSynapseLocus()
+                    .necronomiconHealingComfortU[
+                        genuineSynapseLocus().emotionalSupportT]
+                    .neuralLaceConfessionsI,
+    );
+    genuineSynapseLocus().update(() {});
+    await emotionWhisperInterface(
+      message: VuriaEmotionCipher.unveilEmotion('r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c='),
+      icon: Icons.check_circle_rounded,
+      duration: Duration(seconds: 2),
+    );
+    Navigator.pop(context);
+  } else {
+    await emotionWhisperInterface(
+      message: VuriaEmotionCipher.unveilEmotion('so7YLflzneUaYtrWHfu18O15Uf3quMN12eRImrXJZvs6a4SD8FCzIXDfvdzVxD3'),
+      icon: Icons.warning_amber_rounded,
+      duration: Duration(seconds: 3),
+    );
+  }
+},
                         child: Container(
                           width: 304.0,
                           height: 58.0,
                           decoration: BoxDecoration(
-                            color: (vulnerableTemporalLobe != null ||
-                                    genuineFrontalLobe.text.trim().isNotEmpty)
-                                ? Color(0xFFFF6206)
-                                : Color(0xFFFFA761),
+                      color: (vulnerableTemporalLobe != null ||
+        (genuineFrontalLobe?.text.trim().isNotEmpty ?? false))
+    ? Color(0xFFFF6206)
+    : Color(0xFFFFA761),
                             borderRadius: BorderRadius.circular(50.0),
                           ),
                           alignment: AlignmentDirectional(0.0, 0.0),
@@ -336,7 +326,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                             '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
                             style: TextStyle(
                               color: (vulnerableTemporalLobe != null ||
-                                      genuineFrontalLobe.text.trim().isNotEmpty)
+                                   (genuineFrontalLobe?.text.trim().isNotEmpty ?? false))
                                   ? Color.fromARGB(230, 255, 255, 255)
                                   : Color(0xE6FFFFFF),
                               fontSize: 18.0,

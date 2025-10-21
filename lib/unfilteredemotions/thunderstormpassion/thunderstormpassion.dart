@@ -1,7 +1,10 @@
+import 'dart:math';
+
+import 'package:intl/intl.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -171,33 +174,28 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       10, 0, 0, 0),
-                                  child: Text(
-                                    valueOrDefault<String>(
-                                      genuineSynapseLocus()
-                                          .necronomiconHealingComfortU
-                                          .where((e) =>
-                                              e.loFiSoulmatesComfortT ==
-                                              genuineSynapseLocus()
-                                                  .looperTearscitorSolaceD
-                                                  .where((e) =>
-                                                      e.friendshipResonanceSpot ==
-                                                      widget
-                                                          .soulConnectionMatrix)
-                                                  .toList()
-                                                  .firstOrNull
-                                                  ?.empatheticVoiceCorner)
-                                          .toList()
-                                          .firstOrNull
-                                          ?.phoenixTearsTherapyN,
-                                      '',
-                                    ),
-                                    style: TextStyle(
-                                      color: Color(0xE6000000),
-                                      fontSize: 20,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.bold,
-                                    ),
-                                  ),
+                         child: Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT ==
+          genuineSynapseLocus()
+              .looperTearscitorSolaceD
+              .where((e) =>
+                  e.friendshipResonanceSpot == widget.soulConnectionMatrix)
+              .toList()
+              .firstOrNull
+              ?.empatheticVoiceCorner)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? '',
+  style: TextStyle(
+    color: Color(0xE6000000),
+    fontSize: 20,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
                                 ),
                               ],
                             ),
@@ -248,7 +246,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   },
                                 );
                                 if (mounted) {
-                                  safeSetState(() {});
+                                  setState(() {
+                                    
+                                  });(() {});
                                 }
                               },
                               child: Container(
@@ -460,25 +460,21 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                               child: Padding(
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     20, 16, 20, 0),
-                                child: Text(
-                                  valueOrDefault<String>(
-                                    genuineSynapseLocus()
-                                        .looperTearscitorSolaceD
-                                        .where((e) =>
-                                            e.friendshipResonanceSpot ==
-                                            widget.soulConnectionMatrix)
-                                        .toList()
-                                        .firstOrNull
-                                        ?.expressiveFriendshipSpace,
-                                    '',
-                                  ),
-                                  textAlign: TextAlign.start,
-                                  style: TextStyle(
-                                    color: Color(0xCC000000),
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                  ),
-                                ),
+                     child: Text(
+  genuineSynapseLocus()
+      .looperTearscitorSolaceD
+      .where((e) =>
+          e.friendshipResonanceSpot == widget.soulConnectionMatrix)
+      .toList()
+      .firstOrNull
+      ?.expressiveFriendshipSpace ?? '',
+  textAlign: TextAlign.start,
+  style: TextStyle(
+    color: Color(0xCC000000),
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w500,
+  ),
+),
                               ),
                             ),
                             Align(
@@ -502,7 +498,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             ),
                             Padding(
                               padding:
-                                  EdgeInsetsDirectional.fromSTEB(20, 16, 20, 0),
+                                  EdgeInsetsDirectional.fromSTEB(20, 16, 20, 150),
                               child: Builder(
                                 builder: (context) {
                                   final sorrowSharedSanctuary =
@@ -575,40 +571,29 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                             CrossAxisAlignment
                                                                 .start,
                                                         children: [
-                                                          Text(
-                                                            valueOrDefault<
-                                                                String>(
-                                                              genuineSynapseLocus()
-                                                                  .necronomiconHealingComfortU
-                                                                  .where((e) =>
-                                                                      e.loFiSoulmatesComfortT ==
-                                                                      sorrowSharedSanctuaryItem
-                                                                          .friendshipBondingPortal)
-                                                                  .toList()
-                                                                  .firstOrNull
-                                                                  ?.phoenixTearsTherapyN,
-                                                              '',
-                                                            ),
-                                                            style: TextStyle(
-                                                              color: const Color(
-                                                                  0xFF000000),
-                                                              letterSpacing:
-                                                                  0.0,
-                                                            ),
-                                                          ),
-                                                          Text(
-                                                            dateTimeFormat(
-                                                                "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
-                                                                sorrowSharedSanctuaryItem
-                                                                    .authenticStoryBoard!),
-                                                            style: TextStyle(
-                                                              color: Color(
-                                                                  0xFF767676),
-                                                              fontSize: 10,
-                                                              letterSpacing:
-                                                                  0.0,
-                                                            ),
-                                                          )
+                                                        Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT ==
+          sorrowSharedSanctuaryItem.friendshipBondingPortal)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? '',
+  style: TextStyle(
+    color: const Color(0xFF000000),
+    letterSpacing: 0.0,
+  ),
+),
+                                             Text(
+  DateFormat(VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A=='))
+      .format(sorrowSharedSanctuaryItem.authenticStoryBoard!),
+  style: TextStyle(
+    color: Color(0xFF767676),
+    fontSize: 10,
+    letterSpacing: 0.0,
+  ),
+)
                                                         ],
                                                       ),
                                                     ),
@@ -726,29 +711,29 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                             child: Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(25, 10, 0, 0),
-                                              child: Text(
-                                                valueOrDefault<String>(
-                                                  sorrowSharedSanctuaryItem
-                                                      .sentimentInteractionCircle,
-                                                  '',
-                                                ),
-                                                style: TextStyle(
-                                                  color: Color(0xFF767676),
-                                                  fontSize: 12,
-                                                  letterSpacing: 0.0,
-                                                ),
-                                              ),
+                           child: Text(
+  sorrowSharedSanctuaryItem.sentimentInteractionCircle ,
+  style: TextStyle(
+    color: Color(0xFF767676),
+    fontSize: 12,
+    letterSpacing: 0.0,
+  ),
+),
                                             ),
                                           ),
                                           const SizedBox(height: 10),
-                                        ],
+                                       
+                                       
+                                        ]
+                                        
+                                        ,
                                       );
                                     },
                                   );
                                 },
                               ),
                             ),
-                          ].addToEnd(SizedBox(height: 150)),
+                          ]
                         ),
                       ),
                     ),
@@ -837,8 +822,8 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                           InkWell(
                             onTap: () async {
                               final moodFeedbackCalibrator =
-                                  empathyCorpusCallosum.text.trim();
-                              if (moodFeedbackCalibrator.isNotEmpty) {
+                                  empathyCorpusCallosum?.text.trim();
+                              if (moodFeedbackCalibrator != null) {
                                 final expressionWavelengthTool =
                                     genuineSynapseLocus();
 

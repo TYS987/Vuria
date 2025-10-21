@@ -1,10 +1,10 @@
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
 import 'package:vuria/feelingKaleidoscopeCore/authenticExpressionEcosystem.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 
 class SentimentExchangePlatformWidget extends StatefulWidget {

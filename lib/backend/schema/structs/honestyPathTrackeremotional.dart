@@ -1,11 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class SerenityHarmonySpaceWORDStruct extends BaseStruct {
   SerenityHarmonySpaceWORDStruct({
@@ -63,15 +60,42 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
 
   bool hasEmotionalInsightDashboardHX() => _emotionalInsightDashboardHX != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static DateTime? _castToDateTime(dynamic value) {
+    if (value == null) return null;
+    if (value is DateTime) return value;
+    if (value is String) return DateTime.tryParse(value);
+    if (value is int) return DateTime.fromMillisecondsSinceEpoch(value);
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static SerenityHarmonySpaceWORDStruct fromMap(Map<String, dynamic> data) =>
       SerenityHarmonySpaceWORDStruct(
-        heartfulFriendshipLounge:
-            castToType<int>(data['heartfulFriendshipLounge']),
-        friendshipBondingPortal: castToType<int>(data['friendshipBondingPortal']),
-        sentimentInteractionCircle: data['sentimentInteractionCircle'] as String?,
-        authenticStoryBoard: data['authenticStoryBoard'] as DateTime?,
-        emotionalInsightDashboardHX:
-            data['emotionalInsightDashboardHX'] as String?,
+        heartfulFriendshipLounge: _castToInt(data['heartfulFriendshipLounge']),
+        friendshipBondingPortal: _castToInt(data['friendshipBondingPortal']),
+        sentimentInteractionCircle: _castToString(data['sentimentInteractionCircle']),
+        authenticStoryBoard: _castToDateTime(data['authenticStoryBoard']),
+        emotionalInsightDashboardHX: _castToString(data['emotionalInsightDashboardHX']),
       );
 
   static SerenityHarmonySpaceWORDStruct? maybeFromMap(dynamic data) =>
@@ -79,37 +103,41 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
           ? SerenityHarmonySpaceWORDStruct.fromMap(data.cast<String, dynamic>())
           : null;
 
-  Map<String, dynamic> toMap() => {
-        'heartfulFriendshipLounge': _heartfulFriendshipLounge,
-        'friendshipBondingPortal': _friendshipBondingPortal,
-        'sentimentInteractionCircle': _sentimentInteractionCircle,
-        'authenticStoryBoard': _authenticStoryBoard,
-        'emotionalInsightDashboardHX': _emotionalInsightDashboardHX,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'heartfulFriendshipLounge': _heartfulFriendshipLounge,
+      'friendshipBondingPortal': _friendshipBondingPortal,
+      'sentimentInteractionCircle': _sentimentInteractionCircle,
+      'authenticStoryBoard': _authenticStoryBoard,
+      'emotionalInsightDashboardHX': _emotionalInsightDashboardHX,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'heartfulFriendshipLounge': serializeParam(
-          _heartfulFriendshipLounge,
-          ParamType.int,
-        ),
-        'friendshipBondingPortal': serializeParam(
-          _friendshipBondingPortal,
-          ParamType.int,
-        ),
-        'sentimentInteractionCircle': serializeParam(
-          _sentimentInteractionCircle,
-          ParamType.String,
-        ),
-        'authenticStoryBoard': serializeParam(
-          _authenticStoryBoard,
-          ParamType.DateTime,
-        ),
-        'emotionalInsightDashboardHX': serializeParam(
-          _emotionalInsightDashboardHX,
-          ParamType.String,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'heartfulFriendshipLounge': serializeParam(
+        _heartfulFriendshipLounge,
+        ParamType.int,
+      ),
+      'friendshipBondingPortal': serializeParam(
+        _friendshipBondingPortal,
+        ParamType.int,
+      ),
+      'sentimentInteractionCircle': serializeParam(
+        _sentimentInteractionCircle,
+        ParamType.String,
+      ),
+      'authenticStoryBoard': serializeParam(
+        _authenticStoryBoard,
+        ParamType.DateTime,
+      ),
+      'emotionalInsightDashboardHX': serializeParam(
+        _emotionalInsightDashboardHX,
+        ParamType.String,
+      ),
+    });
+  }
 
   static SerenityHarmonySpaceWORDStruct fromSerializableMap(
           Map<String, dynamic> data) =>

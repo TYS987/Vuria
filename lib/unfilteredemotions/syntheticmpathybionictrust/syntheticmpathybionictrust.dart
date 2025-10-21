@@ -1,6 +1,5 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 
 
@@ -185,7 +184,7 @@ class _SyntheticmpathybionicTrustWidgetState
                     Spacer(),
                     InkWell(
                       onTap: () async {
-                        if (genuineHypothalamus.text.trim().isNotEmpty) {
+                    if (genuineHypothalamus?.text.trim().isNotEmpty ?? false) {
                           await emotionWhisperInterface(
                             message:
                                 '${VuriaEmotionCipher.unveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',

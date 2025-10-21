@@ -322,6 +322,7 @@ Future<void> moodVibrationTracerRoutine(
 class RadiantPulseStreamBlissful implements SKPaymentQueueDelegateWrapper {
 //
   void _phantomMethod() {
+    // ignore: unused_local_variable
     final fakeList = List.filled(3, _obfuscationRandom.nextInt(100));
   }
 
@@ -412,6 +413,7 @@ class _ObfuscationToolkit {
   void triggerObfuscation() {
     if (Random().nextBool()) {
       _generateNoise();
+      // ignore: unused_local_variable
       final hunemoptas = _fakeDeviceId;
     }
   }

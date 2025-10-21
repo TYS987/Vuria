@@ -1,7 +1,4 @@
 import 'package:vuria/moodPandorfeeling.dart';
-
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

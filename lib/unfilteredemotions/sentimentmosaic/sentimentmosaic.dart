@@ -1,8 +1,6 @@
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -231,24 +229,22 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                               MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
-                                              valueOrDefault<String>(
-                                                genuineSynapseLocus()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        sentimentTapestryBoardItem
-                                                            .shamanCodingNeuralinkM
-                                                            .where((e) =>
-                                                                e !=
-                                                                genuineSynapseLocus()
-                                                                    .emotionalSupportT)
-                                                            .toList()
-                                                            .firstOrNull)
-                                                    .toList()
-                                                    .firstOrNull
-                                                    ?.phoenixTearsTherapyN,
-                                                '',
-                                              ),
+                                              genuineSynapseLocus()
+                                                      .necronomiconHealingComfortU
+                                                      .where((e) =>
+                                                          e.loFiSoulmatesComfortT ==
+                                                          sentimentTapestryBoardItem
+                                                              .shamanCodingNeuralinkM
+                                                              .where((e) =>
+                                                                  e !=
+                                                                  genuineSynapseLocus()
+                                                                      .emotionalSupportT)
+                                                              .toList()
+                                                              .firstOrNull)
+                                                      .toList()
+                                                      .firstOrNull
+                                                      ?.phoenixTearsTherapyN ??
+                                                  '',
                                               style: TextStyle(
                                                 color: Colors.black,
                                                 fontSize: 16.0,
@@ -261,14 +257,27 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                   .fromSTEB(
                                                       0.0, 0.0, 12.0, 0.0),
                                               child: Text(
-                                                dateTimeFormat(
-                                                    "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
-                                                    sentimentTapestryBoardItem
-                                                        .inquisitionInternetBitcoin!),
+                                                genuineSynapseLocus()
+                                                        .necronomiconHealingComfortU
+                                                        .where((e) =>
+                                                            e.loFiSoulmatesComfortT ==
+                                                            sentimentTapestryBoardItem
+                                                                .shamanCodingNeuralinkM
+                                                                .where((e) =>
+                                                                    e !=
+                                                                    genuineSynapseLocus()
+                                                                        .emotionalSupportT)
+                                                                .toList()
+                                                                .firstOrNull)
+                                                        .toList()
+                                                        .firstOrNull
+                                                        ?.phoenixTearsTherapyN ??
+                                                    '',
                                                 style: TextStyle(
-                                                  color: Color(0xFF575757),
+                                                  color: Colors.black,
+                                                  fontSize: 16.0,
                                                   letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.w500,
+                                                  fontWeight: FontWeight.w600,
                                                 ),
                                               ),
                                             ),
@@ -279,26 +288,19 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                           children: [
                                             Expanded(
                                               child: Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        0.0, 0.0, 20.0, 0.0),
-                                                child: Text(
-                                                  valueOrDefault<String>(
+                                                  padding: EdgeInsetsDirectional
+                                                      .fromSTEB(
+                                                          0.0, 0.0, 20.0, 0.0),
+                                                  child: Text(
                                                     sentimentTapestryBoardItem
                                                         .feelingFlowCommunications,
-                                                    '${VuriaEmotionCipher.unveilEmotion('qofEYKp13OpOK5bSD+Pho+97UODkqI1ribFTmrraYut7YMuHD8FEwIrYMOZyV3OGmx58WU2YtQuoNpNi0hrVCw==')}',
-                                                  ),
-                                                  style:TextStyle(
-                                                      
-                                                        color:
-                                                            Color(0xFF707070),
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                       
-                                                      ),
-                                                ),
-                                              ),
+                                                    style: TextStyle(
+                                                      color: Color(0xFF707070),
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                    ),
+                                                  )),
                                             ),
                                             if (sentimentTapestryBoardItem
                                                     .resonanceFriendshipNetwork !=
@@ -321,20 +323,12 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                             .fromSTEB(10.0, 5.0,
                                                                 10.0, 5.0),
                                                     child: Text(
-                                                      valueOrDefault<String>(
-                                                        sentimentTapestryBoardItem
-                                                            .daVinciDroneoHologramN
-                                                            .toString(),
-                                                        '${VuriaEmotionCipher.unveilEmotion('2u2yQ4UZsothTbm8c4fO3w==')}',
+                                                      sentimentTapestryBoardItem
+                                                              .daVinciDroneoHologramN
+                                                              .toString(),
+                                                      style: TextStyle(
+                                                        letterSpacing: 0.0,
                                                       ),
-                                                      style:
-                                                         TextStyle(
-                                                              
-                                                                letterSpacing:
-                                                                    0.0,
-                                                             
-                                                               
-                                                              ),
                                                     ),
                                                   ),
                                                 ),
@@ -343,9 +337,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                         ),
                                         Divider(
                                           thickness: 2.0,
-                                          color: heartMindVentralTheme
-                                              .of(context)
-                                              .alternate,
+                                          color: Colors.black,
                                         ),
                                       ],
                                     ),

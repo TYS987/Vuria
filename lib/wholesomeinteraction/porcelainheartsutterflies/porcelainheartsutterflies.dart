@@ -1,9 +1,7 @@
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 class PorcelainHeartsutterfliesWidget extends StatefulWidget {
   const PorcelainHeartsutterfliesWidget({super.key});

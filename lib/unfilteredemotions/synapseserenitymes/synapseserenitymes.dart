@@ -1,7 +1,8 @@
+import 'package:intl/intl.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -189,7 +190,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             },
                           );
                           if (mounted) {
-                            safeSetState(() {});
+                            setState(() {});
+                            (() {});
                           }
                         },
                         child: Container(
@@ -248,13 +250,15 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0.0, 0.0, 0.0, 18.0),
                                         child: Text(
-                                          valueOrDefault<String>(
-                                            dateTimeFormat(
-                                                "${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}",
-                                                feelingSnapshotBoardItem
-                                                    .moatMalwarejoustingJav),
-                                            '${VuriaEmotionCipher.unveilEmotion('0tuHfbo23OlmSr67dIDJ2A==')}',
-                                          ),
+                                          feelingSnapshotBoardItem
+                                                      .moatMalwarejoustingJav !=
+                                                  null
+                                              ? DateFormat(
+                                                      '${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}')
+                                                  .format(feelingSnapshotBoardItem
+                                                      .moatMalwarejoustingJav!)
+                                              : VuriaEmotionCipher.unveilEmotion(
+                                                  '0tuHfbo23OlmSr67dIDJ2A=='),
                                           style: TextStyle(
                                             fontFamily:
                                                 '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
@@ -318,11 +322,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                       .fromSTEB(10.0, 10.0,
                                                           10.0, 10.0),
                                                   child: Text(
-                                                    valueOrDefault<String>(
-                                                      feelingSnapshotBoardItem
-                                                          .vuriaFriendshipSpace,
-                                                      '',
-                                                    ),
+                                                    feelingSnapshotBoardItem
+                                                        .vuriaFriendshipSpace,
                                                     style: TextStyle(
                                                       fontFamily:
                                                           '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
@@ -347,24 +348,26 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                     mainAxisSize: MainAxisSize.max,
                                     children: [
                                       Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            0.0, 0.0, 0.0, 18.0),
-                                        child: Text(
-                                          valueOrDefault<String>(
-                                            dateTimeFormat(
-                                                "${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}",
-                                                feelingSnapshotBoardItem
-                                                    .moatMalwarejoustingJav),
-                                            '${VuriaEmotionCipher.unveilEmotion('0tuHfbo23OlmSr67dIDJ2A==')}',
-                                          ),
-                                          style: TextStyle(
-                                            fontFamily:
-                                                '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
-                                            color: Color(0xFF979797),
-                                            letterSpacing: 0.0,
-                                          ),
-                                        ),
-                                      ),
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0.0, 0.0, 0.0, 18.0),
+                                          child: Text(
+                                            feelingSnapshotBoardItem
+                                                        .moatMalwarejoustingJav !=
+                                                    null
+                                                ? DateFormat(
+                                                        '${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}')
+                                                    .format(feelingSnapshotBoardItem
+                                                        .moatMalwarejoustingJav!)
+                                                : VuriaEmotionCipher.unveilEmotion(
+                                                    '0tuHfbo23OlmSr67dIDJ2A=='),
+                                            style: TextStyle(
+                                              fontFamily:
+                                                  '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                              color: Color(0xFF979797),
+                                              letterSpacing: 0.0,
+                                            ),
+                                          )),
                                       Row(
                                         mainAxisSize: MainAxisSize.max,
                                         mainAxisAlignment:
@@ -400,11 +403,8 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                       .fromSTEB(10.0, 10.0,
                                                           10.0, 10.0),
                                                   child: Text(
-                                                    valueOrDefault<String>(
-                                                      feelingSnapshotBoardItem
-                                                          .vuriaFriendshipSpace,
-                                                      '',
-                                                    ),
+                                                    feelingSnapshotBoardItem
+                                                        .vuriaFriendshipSpace,
                                                     style: TextStyle(
                                                       fontFamily:
                                                           '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
@@ -534,9 +534,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                       InkWell(
                         onTap: () async {
                           final sentimentDeliveryUnit =
-                              unspokenSynapseFire.text.trim();
+                              unspokenSynapseFire?.text.trim();
 
-                          if (sentimentDeliveryUnit.isNotEmpty) {
+                          if (sentimentDeliveryUnit != null) {
                             final emotionCurveSynchronizer =
                                 genuineSynapseLocus();
                             final moodConnectGraph =

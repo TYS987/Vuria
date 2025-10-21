@@ -1,12 +1,10 @@
+import 'package:intl/intl.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class IntimateMomentsShareWidget extends StatefulWidget {
@@ -81,7 +79,7 @@ class _IntimateMomentsShareWidgetState
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
@@ -177,53 +175,46 @@ class _IntimateMomentsShareWidgetState
                           child: Column(
                             mainAxisSize: MainAxisSize.max,
                             children: [
-                              Text(
-                                valueOrDefault<String>(
-                                  genuineSynapseLocus()
-                                      .necronomiconHealingComfortU
-                                      .where((e) =>
-                                          e.loFiSoulmatesComfortT ==
-                                          genuineSynapseLocus()
-                                              .azothConfessionsathanorSolaceMP
-                                              .where((e) =>
-                                                  e.resonanceChatLounge ==
-                                                  widget.communitySentimentSync)
-                                              .toList()
-                                              .firstOrNull
-                                              ?.emotionalExchangePlatform)
-                                      .toList()
-                                      .firstOrNull
-                                      ?.phoenixTearsTherapyN,
-                                  '${VuriaEmotionCipher.unveilEmotion('sY3bOKpC3OgFMbC1eo7H1g==')}',
-                                ),
-                                style: TextStyle(
-                                      fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                      color: Colors.white,
-                                      fontSize: 16.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w600,
-                                    ),
-                              ),
-                              Text(
-                                dateTimeFormat(
-                                    "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
-                                    genuineSynapseLocus()
-                                        .azothConfessionsathanorSolaceMP
-                                        .where((e) =>
-                                            e.resonanceChatLounge ==
-                                            widget.communitySentimentSync)
-                                        .toList()
-                                        .firstOrNull!
-                                        .intimateSharingCorner!),
-                                style:
-                                TextStyle(
-                                  
-                                      color: Color(0xE6FFFFFF),
-                                      fontSize: 12.0,
-                                      letterSpacing: 0.0,
-                                
-                                    ),
-                              ),
+                 Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT ==
+          genuineSynapseLocus()
+              .azothConfessionsathanorSolaceMP
+              .where((e) =>
+                  e.resonanceChatLounge == widget.communitySentimentSync)
+              .toList()
+              .firstOrNull
+              ?.emotionalExchangePlatform)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? VuriaEmotionCipher.unveilEmotion('sY3bOKpC3OgFMbC1eo7H1g=='),
+  style: TextStyle(
+    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+    color: Colors.white,
+    fontSize: 16.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w600,
+  ),
+),
+                          
+    Text(
+  DateFormat(VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A=='))
+      .format(genuineSynapseLocus()
+          .azothConfessionsathanorSolaceMP
+          .where((e) =>
+              e.resonanceChatLounge == widget.communitySentimentSync)
+          .toList()
+          .firstOrNull!
+          .intimateSharingCorner!),
+  style: TextStyle(
+    color: Color(0xE6FFFFFF),
+    fontSize: 12.0,
+    letterSpacing: 0.0,
+  ),
+)   
+                        
                             ],
                           ),
                         ),
@@ -259,7 +250,13 @@ class _IntimateMomentsShareWidgetState
                               ),
                             );
                           },
-                        ).then((value) => safeSetState(() {}));
+                        )
+                        ;
+                        if(mounted){
+                          setState(() {
+                            
+                          });
+                        }
                       },
                       child: Container(
                         width: 32.0,
@@ -367,10 +364,7 @@ class _IntimateMomentsShareWidgetState
                                             .toList()
                                             .firstOrNull!
                                             .phoenixTearsTherapyN,
-                                        style: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .override(
+                                        style: TextStyle(
                                               fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                               color: Color(0x99FFFFFF),
                                               letterSpacing: 0.0,
@@ -383,8 +377,8 @@ class _IntimateMomentsShareWidgetState
                               ),
                             );
                           })
-                              .divide(SizedBox(width: 16.0))
-                              .addToStart(SizedBox(width: 20.0)),
+                              // .divide(SizedBox(width: 16.0))
+                              // .addToStart(SizedBox(width: 20.0)),
                         ),
                       );
                     },
@@ -462,41 +456,34 @@ class _IntimateMomentsShareWidgetState
                                             MediaQuery.of(context).textScaler,
                                         text: TextSpan(
                                           children: [
-                                            TextSpan(
-                                              text: '${valueOrDefault<String>(
-                                                genuineSynapseLocus()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        interactiveEmpathyFlowItem
-                                                            .friendshipConnectionCorner)
-                                                    .toList()
-                                                    .firstOrNull
-                                                    ?.phoenixTearsTherapyN,
-                                                '${VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}',
-                                              )}: ',
-                                              style: TextStyle(
-                                                    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                    color: Colors.white,
-                                                    fontSize: 13,
-                                                    letterSpacing: 0.0,
-                                                    fontWeight: FontWeight.w900,
-                                                  ),
-                                            ),
-                                            TextSpan(
-                                              text: valueOrDefault<String>(
-                                                interactiveEmpathyFlowItem
-                                                    .crimeSceSceneHealing,
-                                                '${VuriaEmotionCipher.unveilEmotion('qofRIOU22PILMM/cEu3g0Q==')}',
-                                              ),
-                                              style:TextStyle(
-                                                    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                    color: Colors.white,
-                                                    fontSize: 13,
-                                                    letterSpacing: 0.0,
-                                                    fontWeight: FontWeight.w300,
-                                                  ),
-                                            )
+                        TextSpan(
+  text: '${genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == interactiveEmpathyFlowItem.friendshipConnectionCorner)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}: ',
+  style: TextStyle(
+    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+    color: Colors.white,
+    fontSize: 13,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w900,
+  ),
+),
+                                       
+                  TextSpan(
+  text: interactiveEmpathyFlowItem.crimeSceSceneHealing 
+       ,
+  style: TextStyle(
+    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+    color: Colors.white,
+    fontSize: 13,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w300,
+  ),
+)
                                           ],
                                           style: TextStyle(
                                                 fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
@@ -603,7 +590,7 @@ class _IntimateMomentsShareWidgetState
                     ),
                     Builder(
                       builder: (context) {
-                        if (emotionalConstellation.text.trim().isNotEmpty) {
+                       if (emotionalConstellation?.text.trim().isNotEmpty ?? false) {
                           return InkWell(
                             onTap: () async {
                               final genuineTearExchange =
@@ -611,7 +598,7 @@ class _IntimateMomentsShareWidgetState
                               final emotionalCompassPortal =
                                   widget.communitySentimentSync;
                               final vulnerableStarCollective =
-                                  emotionalConstellation.text.trim();
+                                  emotionalConstellation?.text.trim();
 
                               final authenticSighEcosystem =
                                   RedStringEmpathymagnifyiMPTStruct(

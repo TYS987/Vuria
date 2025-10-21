@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:image_picker/image_picker.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -497,9 +497,9 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             12.0, 36.0, 12.0, 0.0),
                         child: InkWell(
                           onTap: () async {
-                            if (vulnerableEclipse.isNotEmpty &&
-                                digitalHugMatrix != null &&
-                                authenticNadir.text.trim().isNotEmpty) {
+                           if (vulnerableEclipse.isNotEmpty &&
+    digitalHugMatrix != null &&
+    (authenticNadir?.text.trim().isNotEmpty ?? false)) {
                               genuineSynapseLocus()
                                   .addToLooperTearscitorSolaceD(
                                       BioluminescentEmpathyDTStruct(
@@ -513,7 +513,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                     .map((file) => file.path)
                                     .toList(),
                                 expressiveFriendshipSpace:
-                                    authenticNadir.text.trim(),
+                                    authenticNadir?.text.trim(),
                                 butterflyEffectConfideHX: [
                                   '${VuriaEmotionCipher.unveilEmotion('0tKNQYcbsIljT7u+cYXM3Q==')}'
                                 ],
@@ -544,11 +544,11 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             width: double.infinity,
                             height: 64.0,
                             decoration: BoxDecoration(
-                              color: (vulnerableEclipse.isNotEmpty &&
-                                      digitalHugMatrix != null &&
-                                      authenticNadir.text.trim().isNotEmpty)
-                                  ? Color(0xFFFF6206)
-                                  : Color(0xFFFFA761),
+                          color: (vulnerableEclipse.isNotEmpty &&
+        digitalHugMatrix != null &&
+        (authenticNadir?.text.trim().isNotEmpty ?? false))
+    ? Color(0xFFFF6206)
+    : Color(0xFFFFA761),
                               borderRadius: BorderRadius.circular(32.0),
                             ),
                             alignment: AlignmentDirectional(0.0, 0.0),
@@ -556,11 +556,11 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               '${VuriaEmotionCipher.unveilEmotion('sIfRKetl2I1nS7+6dYHI2Q==')}',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
-                                color: (vulnerableEclipse.isNotEmpty &&
-                                        digitalHugMatrix != null &&
-                                        authenticNadir.text.trim().isNotEmpty)
-                                    ? Color.fromARGB(230, 255, 255, 255)
-                                    : Color(0xE6FFFFFF),
+                             color: (vulnerableEclipse.isNotEmpty &&
+        digitalHugMatrix != null &&
+        (authenticNadir?.text.trim().isNotEmpty ?? false))
+    ? Color.fromARGB(230, 255, 255, 255)
+    : Color(0xE6FFFFFF),
                                 fontSize: 20.0,
                                 letterSpacing: 0.0,
                               ),

@@ -14,10 +14,8 @@ import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart
 import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class EmpathyExchangeWidget extends StatefulWidget {
   const EmpathyExchangeWidget({super.key});
@@ -161,7 +159,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       child: Scaffold(
         key: scaffoldKey,
         resizeToAvoidBottomInset: false,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Builder(
           builder: (context) {
             if (genuineSynapseLocus().emotionalWellbeingSanctuary == '1') {
@@ -253,50 +251,20 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     obscureText: false,
                                     decoration: InputDecoration(
                                       isDense: true,
-                                      labelStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: heartMindVentralTheme
-                                                  .of(context)
-                                                  .labelMedium
-                                                  .fontWeight,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
-                                            ),
+                                      labelStyle:TextStyle(
+                                         
                                             letterSpacing: 0.0,
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontStyle,
+                                          
+                                           
                                           ),
                                       hintText: 'Enter your email address',
-                                      hintStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.normal,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
-                                            ),
+                                      hintStyle: TextStyle(
+                                           
                                             color: Color(0xFF999999),
                                             fontSize: 16.0,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.normal,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontStyle,
+                                        
                                           ),
                                       enabledBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
@@ -316,9 +284,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       ),
                                       errorBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
-                                          color: heartMindVentralTheme
-                                              .of(context)
-                                              .error,
+                                          color:Colors.red,
                                           width: 1.0,
                                         ),
                                         borderRadius:
@@ -326,45 +292,24 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       ),
                                       focusedErrorBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
-                                          color: heartMindVentralTheme
-                                              .of(context)
-                                              .error,
+                                          color:Colors.red,
                                           width: 1.0,
                                         ),
+                                      
+                                      
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                       ),
                                       filled: true,
                                       fillColor: Colors.transparent,
                                     ),
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
+                                    style: TextStyle(
+                                        
                                           letterSpacing: 0.0,
                                           color: Color(0xFF000000),
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
+                                       
                                         ),
-                                    cursorColor: heartMindVentralTheme
-                                        .of(context)
-                                        .primaryText,
+                                    cursorColor: Colors.black,
                               
                                   ),
                                 ),
@@ -406,60 +351,22 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               decoration: InputDecoration(
                                                 isDense: true,
                                                 labelStyle:
-                                                    heartMindVentralTheme
-                                                        .of(context)
-                                                        .labelMedium
-                                                        .override(
-                                                          font: GoogleFonts
-                                                              .poppins(
-                                                            fontWeight:
-                                                                heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .labelMedium
-                                                                    .fontWeight,
-                                                            fontStyle:
-                                                                heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .labelMedium
-                                                                    .fontStyle,
-                                                          ),
+                                                  TextStyle(
+                                                         
+                                                       
                                                           letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              heartMindVentralTheme
-                                                                  .of(context)
-                                                                  .labelMedium
-                                                                  .fontWeight,
-                                                          fontStyle:
-                                                              heartMindVentralTheme
-                                                                  .of(context)
-                                                                  .labelMedium
-                                                                  .fontStyle,
+                                                   
                                                         ),
                                                 hintText:
                                                     'GatewayPulseNetwork (6-12 characters)',
-                                                hintStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .labelMedium
-                                                    .override(
-                                                      font: GoogleFonts.poppins(
-                                                        fontWeight:
-                                                            FontWeight.normal,
-                                                        fontStyle:
-                                                            heartMindVentralTheme
-                                                                .of(context)
-                                                                .labelMedium
-                                                                .fontStyle,
-                                                      ),
+                                                hintStyle: TextStyle(
+                                                    
                                                       color: Color(0xFF999999),
                                                       fontSize: 16.0,
                                                       letterSpacing: 0.0,
                                                       fontWeight:
                                                           FontWeight.normal,
-                                                      fontStyle:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .labelMedium
-                                                              .fontStyle,
+                                                    
                                                     ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
@@ -483,9 +390,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                 ),
                                                 errorBorder: OutlineInputBorder(
                                                   borderSide: BorderSide(
-                                                    color: heartMindVentralTheme
-                                                        .of(context)
-                                                        .error,
+                                                    color: Colors.red,
                                                     width: 1.0,
                                                   ),
                                                   borderRadius:
@@ -495,9 +400,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                 focusedErrorBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
-                                                    color: heartMindVentralTheme
-                                                        .of(context)
-                                                        .error,
+                                                    color: Colors.red,
                                                     width: 1.0,
                                                   ),
                                                   borderRadius:
@@ -507,38 +410,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                 filled: true,
                                                 fillColor: Colors.transparent,
                                               ),
-                                              style: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .override(
-                                                    font: GoogleFonts.inter(
-                                                      fontWeight:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .bodyMedium
-                                                              .fontWeight,
-                                                      fontStyle:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .bodyMedium
-                                                              .fontStyle,
-                                                    ),
+                                              style:TextStyle(
+                                                
                                                     color: Color(0xFF000000), //
                                                     letterSpacing: 0.0,
-                                                    fontWeight:
-                                                        heartMindVentralTheme
-                                                            .of(context)
-                                                            .bodyMedium
-                                                            .fontWeight,
-                                                    fontStyle:
-                                                        heartMindVentralTheme
-                                                            .of(context)
-                                                            .bodyMedium
-                                                            .fontStyle,
+                                                
                                                   ),
-                                              cursorColor: heartMindVentralTheme
-                                                  .of(context)
-                                                  .primaryText,
+                                              cursorColor: Colors.black,
                                              
                                             ),
                                           ),
@@ -710,25 +588,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
                               '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.inter(
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
+                              style: TextStyle(
+                                 
                                     color: Colors.white,
                                     fontSize: 18.0,
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
+                                
                                   ),
                             ),
                           ),
@@ -738,24 +604,12 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               0.0, 12.0, 0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                            style: TextStyle(
+                              
                                   color: Colors.white,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w500,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
+                             
                                 ),
                           ),
                         ),
@@ -831,124 +685,58 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     TextSpan(
                                       text:
                                           '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.w500,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
+                                      style:TextStyle(
+                                       
                                             color: Colors.white,
                                             fontSize: 12,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
+                                        
                                           ),
                                     ),
                                     TextSpan(
                                       text:
                                           '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.w500,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
+                                      style: TextStyle(
+                                          
                                             color: Colors.white,
                                             fontSize: 12,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
+                                          
                                           ),
                                     ),
                                     TextSpan(
                                       text: 'and ',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.inter(
-                                              fontWeight: FontWeight.w500,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
+                                      style: TextStyle(
+                                        
                                             color: Colors.white,
                                             fontSize: 12,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
+                                      
                                           ),
                                     ),
                                     TextSpan(
                                       text:
                                           '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.w500,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
+                                      style: TextStyle(
+                                       
                                             color: Colors.white,
                                             fontSize: 12,
                                             letterSpacing: 0.0,
                                             fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
+                                           
                                           ),
                                     )
                                   ],
-                                  style: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .override(
-                                        font: GoogleFonts.average(
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                  style: TextStyle(
+                                    
+                                 
                                         color: Colors.white,
                                         fontSize: 12,
                                         letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
+                                   
                                       ),
                                 ),
                               ),
@@ -1136,25 +924,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   alignment: AlignmentDirectional(0.0, 0.0),
                                   child: Text(
                                     '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.inter(
-                                            fontWeight: FontWeight.bold,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
+                                    style:TextStyle(
+                                      
                                           color: Colors.white,
                                           fontSize: 18.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.bold,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
+                              
                                         ),
                                   ),
                                 ),
@@ -1233,128 +1009,60 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         TextSpan(
                                           text:
                                               '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                font: GoogleFonts.poppins(
-                                                  fontWeight: FontWeight.w500,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
+                                          style: TextStyle(
+                                            
+                                         
                                                 color: Colors.white,
                                                 fontSize: 12,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                      
                                               ),
                                         ),
                                         TextSpan(
                                           text:
                                               '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                font: GoogleFonts.poppins(
-                                                  fontWeight: FontWeight.w500,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
+                                          style:TextStyle(
+                                          
+                                             
                                                 color: Colors.white,
                                                 fontSize: 12,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                           
                                               ),
                                         ),
                                         TextSpan(
                                           text: 'and ',
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                font: GoogleFonts.inter(
-                                                  fontWeight: FontWeight.w500,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
+                                          style: TextStyle(
+                                              
                                                 color: Colors.white,
                                                 fontSize: 12,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                              
                                               ),
                                         ),
                                         TextSpan(
                                           text:
                                               '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                font: GoogleFonts.poppins(
-                                                  fontWeight: FontWeight.w500,
-                                                  fontStyle:
-                                                      heartMindVentralTheme
-                                                          .of(context)
-                                                          .bodyMedium
-                                                          .fontStyle,
-                                                ),
+                                          style: TextStyle(
+                                            
                                                 color: Colors.white,
                                                 fontSize: 12,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w500,
-                                                fontStyle: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .fontStyle,
+                                               
                                               ),
                                         )
                                       ],
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.average(
-                                              fontWeight: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontWeight,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
+                                      style: TextStyle(
+                                           
+                                         
                                             color: Colors.white,
                                             fontSize: 12,
                                             letterSpacing: 0.0,
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
+                                         
                                           ),
                                     ),
                                   ),

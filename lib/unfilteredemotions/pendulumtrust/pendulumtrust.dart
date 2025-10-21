@@ -1,12 +1,10 @@
+import 'package:intl/intl.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class PendulumTrustWidget extends StatefulWidget {
@@ -256,19 +254,18 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              valueOrDefault<
-                                                                  String>(
-                                                                genuineSynapseLocus()
-                                                                    .necronomiconHealingComfortU
-                                                                    .where((e) =>
-                                                                        e.loFiSoulmatesComfortT ==
-                                                                        emotionalAlignmentToolItem
-                                                                            .empatheticVoiceCorner)
-                                                                    .toList()
-                                                                    .firstOrNull
-                                                                    ?.phoenixTearsTherapyN,
-                                                                '${VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q==')}',
-                                                              ),
+                                                              genuineSynapseLocus()
+                                                                      .necronomiconHealingComfortU
+                                                                      .where((e) =>
+                                                                          e.loFiSoulmatesComfortT ==
+                                                                          emotionalAlignmentToolItem
+                                                                              .empatheticVoiceCorner)
+                                                                      .toList()
+                                                                      .firstOrNull
+                                                                      ?.phoenixTearsTherapyN ??
+                                                                  VuriaEmotionCipher
+                                                                      .unveilEmotion(
+                                                                          'oYPRJfli3I1nS7+6dYHI2Q=='),
                                                               style: TextStyle(
                                                                 fontFamily:
                                                                     '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
@@ -282,30 +279,28 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                               ),
                                                             ),
                                                             Text(
-                                                              valueOrDefault<
-                                                                  String>(
-                                                                dateTimeFormat(
-                                                                    '${'b9f86b9b04e4cf5b076e69284fd17102'.fromPetalWhisper()}',
-                                                                    emotionalAlignmentToolItem
-                                                                        .heartfeltInteractionCorner),
-                                                                '${VuriaEmotionCipher.unveilEmotion('0NKPeKQnj6pecLC1eo7H1g==')}',
+                                                              emotionalAlignmentToolItem
+                                                                          .heartfeltInteractionCorner !=
+                                                                      null
+                                                                  ? DateFormat(
+                                                                          '${'b9f86b9b04e4cf5b076e69284fd17102'.fromPetalWhisper()}')
+                                                                      .format(emotionalAlignmentToolItem
+                                                                          .heartfeltInteractionCorner!)
+                                                                  : VuriaEmotionCipher
+                                                                      .unveilEmotion(
+                                                                          '0NKPeKQnj6pecLC1eo7H1g=='),
+                                                              style: TextStyle(
+                                                                fontFamily:
+                                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                color: Color(
+                                                                    0xB3000000),
+                                                                fontSize: 10.0,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w500,
                                                               ),
-                                                              style:
-                                                                  heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .override(
-                                                                        fontFamily:
-                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                        color: Color(
-                                                                            0xB3000000),
-                                                                        fontSize:
-                                                                            10.0,
-                                                                        letterSpacing:
-                                                                            0.0,
-                                                                        fontWeight:
-                                                                            FontWeight.w500,
-                                                                      ),
                                                             ),
                                                           ],
                                                         ),
@@ -400,7 +395,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                       .empatheticVoiceCorner),
                                                             ),
                                                         );
-                                                        safeSetState(() {});
+                                                        setState(() {});
                                                       },
                                                       child: Container(
                                                         width: 82.0,
@@ -485,38 +480,14 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                 children: [
                                                   Expanded(
                                                     child: Text(
-                                                      valueOrDefault<String>(
-                                                        emotionalAlignmentToolItem
-                                                            .expressiveFriendshipSpace,
-                                                        '',
+                                                      emotionalAlignmentToolItem
+                                                          .expressiveFriendshipSpace,
+                                                      style: TextStyle(
+                                                        color: Colors.white,
+                                                        letterSpacing: 0.0,
+                                                        fontWeight:
+                                                            FontWeight.w800,
                                                       ),
-                                                      style:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                font: GoogleFonts
-                                                                    .poppins(
-                                                                  fontWeight:
-                                                                      FontWeight
-                                                                          .w800,
-                                                                  fontStyle: heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .fontStyle,
-                                                                ),
-                                                                color: Colors
-                                                                    .white,
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                fontWeight:
-                                                                    FontWeight
-                                                                        .w800,
-                                                                fontStyle: heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .bodyMedium
-                                                                    .fontStyle,
-                                                              ),
                                                       maxLines: 1,
                                                       overflow:
                                                           TextOverflow.ellipsis,
@@ -571,8 +542,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                               );
                                                             },
                                                           ).then((value) =>
-                                                              safeSetState(
-                                                                  () {}));
+                                                              setState(() {}));
                                                         },
                                                         child: Container(
                                                           width: 4.0,

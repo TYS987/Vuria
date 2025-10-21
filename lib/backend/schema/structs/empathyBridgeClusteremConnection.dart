@@ -1,12 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-
 class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
   RedStringEmpathymagnifyiMPTStruct({
     int? friendshipConnectionCorner,
@@ -23,19 +19,20 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
   int get friendshipConnectionCorner => _friendshipConnectionCorner ?? 0;
   set friendshipConnectionCorner(int? val) => _friendshipConnectionCorner = val;
 
-  void incrementfriendshipConnectionCorner(int amount) =>
-      friendshipConnectionCorner = friendshipConnectionCorner + amount;
+  void incrementfriendshipConnectionCorner(int amount) {
+    _friendshipConnectionCorner = (_friendshipConnectionCorner ?? 0) + amount;
+  }
 
   bool hasfriendshipConnectionCorner() => _friendshipConnectionCorner != null;
 
   // "emotionalBondingSpot" field.
   int? _emotionalBondingSpot;
   int get emotionalBondingSpot => _emotionalBondingSpot ?? 0;
-  set emotionalBondingSpot(int? val) =>
-      _emotionalBondingSpot = val;
+  set emotionalBondingSpot(int? val) => _emotionalBondingSpot = val;
 
-  void incrementemotionalBondingSpot(int amount) =>
-      emotionalBondingSpot = emotionalBondingSpot + amount;
+  void incrementemotionalBondingSpot(int amount) {
+    _emotionalBondingSpot = (_emotionalBondingSpot ?? 0) + amount;
+  }
 
   bool hasemotionalBondingSpot() => _emotionalBondingSpot != null;
 
@@ -59,48 +56,84 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
 
   bool hasDetectiveNotebookConfideHX() => _detectiveNotebookConfideHX != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static List<T>? _castToList<T>(dynamic value) {
+    if (value == null) return null;
+    if (value is List<T>) return value;
+    if (value is List) {
+      try {
+        return value.cast<T>();
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static RedStringEmpathymagnifyiMPTStruct fromMap(Map<String, dynamic> data) =>
       RedStringEmpathymagnifyiMPTStruct(
-        friendshipConnectionCorner: castToType<int>(data['friendshipConnectionCorner']),
-        emotionalBondingSpot:
-            castToType<int>(data['emotionalBondingSpot']),
-        crimeSceSceneHealing: data['crimeSceSceneHealing'] as String?,
-        detectiveNotebookConfideHX:
-            getDataList(data['detectiveNotebookConfideHX']),
+        friendshipConnectionCorner: _castToInt(data['friendshipConnectionCorner']),
+        emotionalBondingSpot: _castToInt(data['emotionalBondingSpot']),
+        crimeSceSceneHealing: _castToString(data['crimeSceSceneHealing']),
+        detectiveNotebookConfideHX: _castToList<String>(data['detectiveNotebookConfideHX']),
       );
 
-  static RedStringEmpathymagnifyiMPTStruct? maybeFromMap(dynamic data) => data
-          is Map
-      ? RedStringEmpathymagnifyiMPTStruct.fromMap(data.cast<String, dynamic>())
-      : null;
+  static RedStringEmpathymagnifyiMPTStruct? maybeFromMap(dynamic data) =>
+      data is Map
+          ? RedStringEmpathymagnifyiMPTStruct.fromMap(data.cast<String, dynamic>())
+          : null;
 
-  Map<String, dynamic> toMap() => {
-        'friendshipConnectionCorner': _friendshipConnectionCorner,
-        'emotionalBondingSpot': _emotionalBondingSpot,
-        'crimeSceSceneHealing': _crimeSceSceneHealing,
-        'detectiveNotebookConfideHX': _detectiveNotebookConfideHX,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'friendshipConnectionCorner': _friendshipConnectionCorner,
+      'emotionalBondingSpot': _emotionalBondingSpot,
+      'crimeSceSceneHealing': _crimeSceSceneHealing,
+      'detectiveNotebookConfideHX': _detectiveNotebookConfideHX,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'friendshipConnectionCorner': serializeParam(
-          _friendshipConnectionCorner,
-          ParamType.int,
-        ),
-        'emotionalBondingSpot': serializeParam(
-          _emotionalBondingSpot,
-          ParamType.int,
-        ),
-        'crimeSceSceneHealing': serializeParam(
-          _crimeSceSceneHealing,
-          ParamType.String,
-        ),
-        'detectiveNotebookConfideHX': serializeParam(
-          _detectiveNotebookConfideHX,
-          ParamType.String,
-          isList: true,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'friendshipConnectionCorner': serializeParam(
+        _friendshipConnectionCorner,
+        ParamType.int,
+      ),
+      'emotionalBondingSpot': serializeParam(
+        _emotionalBondingSpot,
+        ParamType.int,
+      ),
+      'crimeSceSceneHealing': serializeParam(
+        _crimeSceSceneHealing,
+        ParamType.String,
+      ),
+      'detectiveNotebookConfideHX': serializeParam(
+        _detectiveNotebookConfideHX,
+        ParamType.String,
+        isList: true,
+      ),
+    });
+  }
 
   static RedStringEmpathymagnifyiMPTStruct fromSerializableMap(
           Map<String, dynamic> data) =>
@@ -154,9 +187,11 @@ RedStringEmpathymagnifyiMPTStruct createRedStringEmpathymagnifyiMPTStruct({
   int? friendshipConnectionCorner,
   int? emotionalBondingSpot,
   String? crimeSceSceneHealing,
+  List<String>? detectiveNotebookConfideHX,
 }) =>
     RedStringEmpathymagnifyiMPTStruct(
       friendshipConnectionCorner: friendshipConnectionCorner,
       emotionalBondingSpot: emotionalBondingSpot,
       crimeSceSceneHealing: crimeSceSceneHealing,
+      detectiveNotebookConfideHX: detectiveNotebookConfideHX,
     );

@@ -1,8 +1,6 @@
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class SynapticNeuronMagicWidget extends StatefulWidget {
@@ -12,8 +10,6 @@ class SynapticNeuronMagicWidget extends StatefulWidget {
   });
 
   final int? vibeDedicatedSpace;
-
-
 
   @override
   State<SynapticNeuronMagicWidget> createState() =>
@@ -69,7 +65,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
                         onTap: () async {
-                          Navigator.pop(context);             
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -90,38 +86,32 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                         if (widget.vibeDedicatedSpace == 0) {
                           return Text(
                             '${VuriaEmotionCipher.unveilEmotion('pI3RIOVht45kSLy5doLL2g==')}',
-                            style:TextStyle(
-                               
-                                  color: Colors.black,
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.bold,
-                             
-                                ),
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                           );
                         } else if (widget.vibeDedicatedSpace == 1) {
                           return Text(
                             '${VuriaEmotionCipher.unveilEmotion('pIPTP4YasYhiTrq/cITN3A==')}',
-                            style:TextStyle(
-                              
-                                  color: Colors.black,
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.bold,
-                                 
-                                ),
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                           );
                         } else {
                           return Text(
                             '${VuriaEmotionCipher.unveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
-                            style:TextStyle(
-                         
-                                  color: Colors.black,
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.bold,
-                                
-                                ),
+                            style: TextStyle(
+                              color: Colors.black,
+                              fontSize: 20.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                           );
                         }
                       },
@@ -144,7 +134,8 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                       .necronomiconHealingComfortU
                                       .where((e) =>
                                           e.loFiSoulmatesComfortT ==
-                                          genuineSynapseLocus().emotionalSupportT)
+                                          genuineSynapseLocus()
+                                              .emotionalSupportT)
                                       .toList()
                                       .firstOrNull
                                       ?.corporateDroneHugsF
@@ -198,24 +189,20 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                             ),
                                           ),
                                           Text(
-                                            valueOrDefault<String>(
-                                              genuineSynapseLocus()
-                                                  .necronomiconHealingComfortU
-                                                  .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
-                                                      soulfulExpressionLogItem)
-                                                  .toList()
-                                                  .firstOrNull
-                                                  ?.phoenixTearsTherapyN,
-                                              '',
-                                            ),
+                                            genuineSynapseLocus()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        soulfulExpressionLogItem)
+                                                    .toList()
+                                                    .firstOrNull
+                                                    ?.phoenixTearsTherapyN ??
+                                                '',
                                             style: TextStyle(
-                                               
-                                                  fontSize: 16.0,
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.bold,
-                                                
-                                                ),
+                                              fontSize: 16.0,
+                                              letterSpacing: 0.0,
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
                                         ],
                                       ),
@@ -223,16 +210,15 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                         onTap: () async {
                                           genuineSynapseLocus()
                                               .updateNecronomiconHealingComfortUAtIndex(
-                                            genuineSynapseLocus().emotionalSupportT,
+                                            genuineSynapseLocus()
+                                                .emotionalSupportT,
                                             (e) => e
                                               ..updateCorporateDroneHugsF(
                                                 (e) => e.remove(
                                                     soulfulExpressionLogItem),
                                               ),
-
-                                      
                                           );
-                                                 genuineSynapseLocus() .update((){});
+                                          genuineSynapseLocus().update(() {});
                                         },
                                         child: Container(
                                           width: 82.0,
@@ -264,7 +250,8 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                       .necronomiconHealingComfortU
                                       .where((e) =>
                                           e.loFiSoulmatesComfortT ==
-                                          genuineSynapseLocus().emotionalSupportT)
+                                          genuineSynapseLocus()
+                                              .emotionalSupportT)
                                       .toList()
                                       .firstOrNull
                                       ?.deusExMachinaTherapS
@@ -329,33 +316,29 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                             ),
                                           ),
                                           Text(
-                                            valueOrDefault<String>(
-                                              genuineSynapseLocus()
-                                                  .necronomiconHealingComfortU
-                                                  .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
-                                                      emotionalMosaicFeedItem)
-                                                  .toList()
-                                                  .firstOrNull
-                                                  ?.phoenixTearsTherapyN,
-                                              '',
-                                            ),
+                                            genuineSynapseLocus()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        emotionalMosaicFeedItem)
+                                                    .toList()
+                                                    .firstOrNull
+                                                    ?.phoenixTearsTherapyN ??
+                                                '',
                                             style: TextStyle(
-                                               
-                                                  fontSize: 16.0,
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.bold,
-                                              
-                                                ),
+                                              fontSize: 16.0,
+                                              letterSpacing: 0.0,
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
                                         ],
                                       ),
                                       InkWell(
-                                  
                                         onTap: () async {
                                           genuineSynapseLocus()
                                               .updateNecronomiconHealingComfortUAtIndex(
-                                            genuineSynapseLocus().emotionalSupportT,
+                                            genuineSynapseLocus()
+                                                .emotionalSupportT,
                                             (e) => e
                                               ..updateCorporateDroneHugsB(
                                                 (e) => e.add(
@@ -363,7 +346,6 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                               ),
                                           );
                                           genuineSynapseLocus().update(() {});
-                                       
                                         },
                                         child: Container(
                                           width: 82.0,
@@ -391,16 +373,18 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                               0.0, 30.0, 0.0, 0.0),
                           child: Builder(
                             builder: (context) {
-                              final heartfeltChroniclepace = genuineSynapseLocus()
-                                      .necronomiconHealingComfortU
-                                      .where((e) =>
-                                          e.loFiSoulmatesComfortT ==
-                                          genuineSynapseLocus().emotionalSupportT)
-                                      .toList()
-                                      .firstOrNull
-                                      ?.corporateDroneHugsB
-                                      .toList() ??
-                                  [];
+                              final heartfeltChroniclepace =
+                                  genuineSynapseLocus()
+                                          .necronomiconHealingComfortU
+                                          .where((e) =>
+                                              e.loFiSoulmatesComfortT ==
+                                              genuineSynapseLocus()
+                                                  .emotionalSupportT)
+                                          .toList()
+                                          .firstOrNull
+                                          ?.corporateDroneHugsB
+                                          .toList() ??
+                                      [];
 
                               return ListView.separated(
                                 padding: EdgeInsets.zero,
@@ -449,33 +433,29 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                             ),
                                           ),
                                           Text(
-                                            valueOrDefault<String>(
-                                              genuineSynapseLocus()
-                                                  .necronomiconHealingComfortU
-                                                  .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
-                                                      heartfeltChroniclepaceItem)
-                                                  .toList()
-                                                  .firstOrNull
-                                                  ?.phoenixTearsTherapyN,
-                                              '',
-                                            ),
+                                            genuineSynapseLocus()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        heartfeltChroniclepaceItem)
+                                                    .toList()
+                                                    .firstOrNull
+                                                    ?.phoenixTearsTherapyN ??
+                                                '',
                                             style: TextStyle(
-                                           
-                                                  fontSize: 16.0,
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.bold,
-                                             
-                                                ),
+                                              fontSize: 16.0,
+                                              letterSpacing: 0.0,
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
                                         ],
                                       ),
                                       InkWell(
-                                   
                                         onTap: () async {
                                           genuineSynapseLocus()
                                               .updateNecronomiconHealingComfortUAtIndex(
-                                            genuineSynapseLocus().emotionalSupportT,
+                                            genuineSynapseLocus()
+                                                .emotionalSupportT,
                                             (e) => e
                                               ..updateCorporateDroneHugsB(
                                                 (e) => e.remove(

@@ -1,11 +1,8 @@
 // ignore_for_file: unnecessary_getters_setters
 
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
   PhoenixTearsTherapustEmpathyStruct({
@@ -34,13 +31,11 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
         _loFiSoulmatesComfortT = loFiSoulmatesComfortT,
         _loveNmbers = loveNmbers;
 
-
   String? _phoenixTearsTherapyN;
   String get phoenixTearsTherapyN => _phoenixTearsTherapyN ?? '';
   set phoenixTearsTherapyN(String? val) => _phoenixTearsTherapyN = val;
 
   bool hasPhoenixTearsTherapyN() => _phoenixTearsTherapyN != null;
-
 
   String? _unicornWhispererHealingE;
   String get unicornWhispererHealingE => _unicornWhispererHealingE ?? '';
@@ -48,14 +43,12 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasUnicornWhispererHealingE() => _unicornWhispererHealingE != null;
 
-
   String? _dragonScaleComfortfessionsP;
   String get dragonScaleComfortfessionsP => _dragonScaleComfortfessionsP ?? '';
   set dragonScaleComfortfessionsP(String? val) =>
       _dragonScaleComfortfessionsP = val;
 
   bool hasDragonScaleComfortfessionsP() => _dragonScaleComfortfessionsP != null;
-
 
   String? _neuralLaceConfessionsI;
   String get neuralLaceConfessionsI => _neuralLaceConfessionsI ?? '';
@@ -72,7 +65,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasAugmentedRealityLoveM() => _augmentedRealityLoveM != null;
 
-
   List<int>? _corporateDroneHugsB;
   List<int> get corporateDroneHugsB => _corporateDroneHugsB ?? const [];
   set corporateDroneHugsB(List<int>? val) => _corporateDroneHugsB = val;
@@ -82,7 +74,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
   }
 
   bool hasCorporateDroneHugsB() => _corporateDroneHugsB != null;
-
 
   List<int>? _corporateDroneHugsF;
   List<int> get corporateDroneHugsF => _corporateDroneHugsF ?? const [];
@@ -94,7 +85,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasCorporateDroneHugsF() => _corporateDroneHugsF != null;
 
-
   List<int>? _deusExMachinaTherapS;
   List<int> get deusExMachinaTherapS => _deusExMachinaTherapS ?? const [];
   set deusExMachinaTherapS(List<int>? val) => _deusExMachinaTherapS = val;
@@ -105,13 +95,11 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasDeusExMachinaTherapS() => _deusExMachinaTherapS != null;
 
-
   bool? _cthulhuComfortHeartZ;
   bool get cthulhuComfortHeartZ => _cthulhuComfortHeartZ ?? false;
   set cthulhuComfortHeartZ(bool? val) => _cthulhuComfortHeartZ = val;
 
   bool hasCthulhuComfortHeartZ() => _cthulhuComfortHeartZ != null;
-
 
   List<int>? _shoggothHugsTherapy;
   List<int> get shoggothHugsTherapy => _shoggothHugsTherapy ?? const [];
@@ -122,7 +110,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
   }
 
   bool hasShoggothHugsTherapy() => _shoggothHugsTherapy != null;
-
 
   int? _loFiSoulmatesComfortT;
   int get loFiSoulmatesComfortT => _loFiSoulmatesComfortT ?? 0;
@@ -141,23 +128,73 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasLoveNmbers() => _loveNmbers != null;
 
+  // 类型转换辅助方法
+  static double? _castToDouble(dynamic value) {
+    if (value == null) return null;
+    if (value is double) return value;
+    if (value is int) return value.toDouble();
+    if (value is String) return double.tryParse(value);
+    return null;
+  }
+
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static bool? _castToBool(dynamic value) {
+    if (value == null) return null;
+    if (value is bool) return value;
+    if (value is String) {
+      return value.toLowerCase() == 'true';
+    }
+    if (value is int) return value != 0;
+    return null;
+  }
+
+  static List<T>? _castToList<T>(dynamic value) {
+    if (value == null) return null;
+    if (value is List<T>) return value;
+    if (value is List) {
+      try {
+        return value.cast<T>();
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static PhoenixTearsTherapustEmpathyStruct fromMap(
           Map<String, dynamic> data) =>
       PhoenixTearsTherapustEmpathyStruct(
-        phoenixTearsTherapyN: data['phoenixTearsTherapyN'] as String?,
-        unicornWhispererHealingE: data['unicornWhispererHealingE'] as String?,
-        dragonScaleComfortfessionsP:
-            data['dragonScaleComfortfessionsP'] as String?,
-        neuralLaceConfessionsI: data['neuralLaceConfessionsI'] as String?,
-        augmentedRealityLoveM:
-            castToType<double>(data['augmentedRealityLoveM']),
-        corporateDroneHugsB: getDataList(data['corporateDroneHugsB']),
-        corporateDroneHugsF: getDataList(data['corporateDroneHugsF']),
-        deusExMachinaTherapS: getDataList(data['deusExMachinaTherapS']),
-        cthulhuComfortHeartZ: data['cthulhuComfortHeartZ'] as bool?,
-        shoggothHugsTherapy: getDataList(data['shoggothHugsTherapy']),
-        loFiSoulmatesComfortT: castToType<int>(data['loFiSoulmatesComfortT']),
-        loveNmbers: castToType<int>(data['loveNmbers']),
+        phoenixTearsTherapyN: _castToString(data['phoenixTearsTherapyN']),
+        unicornWhispererHealingE: _castToString(data['unicornWhispererHealingE']),
+        dragonScaleComfortfessionsP: _castToString(data['dragonScaleComfortfessionsP']),
+        neuralLaceConfessionsI: _castToString(data['neuralLaceConfessionsI']),
+        augmentedRealityLoveM: _castToDouble(data['augmentedRealityLoveM']),
+        corporateDroneHugsB: _castToList<int>(data['corporateDroneHugsB']),
+        corporateDroneHugsF: _castToList<int>(data['corporateDroneHugsF']),
+        deusExMachinaTherapS: _castToList<int>(data['deusExMachinaTherapS']),
+        cthulhuComfortHeartZ: _castToBool(data['cthulhuComfortHeartZ']),
+        shoggothHugsTherapy: _castToList<int>(data['shoggothHugsTherapy']),
+        loFiSoulmatesComfortT: _castToInt(data['loFiSoulmatesComfortT']),
+        loveNmbers: _castToInt(data['loveNmbers']),
       );
 
   static PhoenixTearsTherapustEmpathyStruct? maybeFromMap(dynamic data) => data
@@ -165,76 +202,80 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
       ? PhoenixTearsTherapustEmpathyStruct.fromMap(data.cast<String, dynamic>())
       : null;
 
-  Map<String, dynamic> toMap() => {
-        'phoenixTearsTherapyN': _phoenixTearsTherapyN,
-        'unicornWhispererHealingE': _unicornWhispererHealingE,
-        'dragonScaleComfortfessionsP': _dragonScaleComfortfessionsP,
-        'neuralLaceConfessionsI': _neuralLaceConfessionsI,
-        'augmentedRealityLoveM': _augmentedRealityLoveM,
-        'corporateDroneHugsB': _corporateDroneHugsB,
-        'corporateDroneHugsF': _corporateDroneHugsF,
-        'deusExMachinaTherapS': _deusExMachinaTherapS,
-        'cthulhuComfortHeartZ': _cthulhuComfortHeartZ,
-        'shoggothHugsTherapy': _shoggothHugsTherapy,
-        'loFiSoulmatesComfortT': _loFiSoulmatesComfortT,
-        'loveNmbers': _loveNmbers,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'phoenixTearsTherapyN': _phoenixTearsTherapyN,
+      'unicornWhispererHealingE': _unicornWhispererHealingE,
+      'dragonScaleComfortfessionsP': _dragonScaleComfortfessionsP,
+      'neuralLaceConfessionsI': _neuralLaceConfessionsI,
+      'augmentedRealityLoveM': _augmentedRealityLoveM,
+      'corporateDroneHugsB': _corporateDroneHugsB,
+      'corporateDroneHugsF': _corporateDroneHugsF,
+      'deusExMachinaTherapS': _deusExMachinaTherapS,
+      'cthulhuComfortHeartZ': _cthulhuComfortHeartZ,
+      'shoggothHugsTherapy': _shoggothHugsTherapy,
+      'loFiSoulmatesComfortT': _loFiSoulmatesComfortT,
+      'loveNmbers': _loveNmbers,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'phoenixTearsTherapyN': serializeParam(
-          _phoenixTearsTherapyN,
-          ParamType.String,
-        ),
-        'unicornWhispererHealingE': serializeParam(
-          _unicornWhispererHealingE,
-          ParamType.String,
-        ),
-        'dragonScaleComfortfessionsP': serializeParam(
-          _dragonScaleComfortfessionsP,
-          ParamType.String,
-        ),
-        'neuralLaceConfessionsI': serializeParam(
-          _neuralLaceConfessionsI,
-          ParamType.String,
-        ),
-        'augmentedRealityLoveM': serializeParam(
-          _augmentedRealityLoveM,
-          ParamType.double,
-        ),
-        'corporateDroneHugsB': serializeParam(
-          _corporateDroneHugsB,
-          ParamType.int,
-          isList: true,
-        ),
-        'corporateDroneHugsF': serializeParam(
-          _corporateDroneHugsF,
-          ParamType.int,
-          isList: true,
-        ),
-        'deusExMachinaTherapS': serializeParam(
-          _deusExMachinaTherapS,
-          ParamType.int,
-          isList: true,
-        ),
-        'cthulhuComfortHeartZ': serializeParam(
-          _cthulhuComfortHeartZ,
-          ParamType.bool,
-        ),
-        'shoggothHugsTherapy': serializeParam(
-          _shoggothHugsTherapy,
-          ParamType.int,
-          isList: true,
-        ),
-        'loFiSoulmatesComfortT': serializeParam(
-          _loFiSoulmatesComfortT,
-          ParamType.int,
-        ),
-        'loveNmbers': serializeParam(
-          _loveNmbers,
-          ParamType.int,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'phoenixTearsTherapyN': serializeParam(
+        _phoenixTearsTherapyN,
+        ParamType.String,
+      ),
+      'unicornWhispererHealingE': serializeParam(
+        _unicornWhispererHealingE,
+        ParamType.String,
+      ),
+      'dragonScaleComfortfessionsP': serializeParam(
+        _dragonScaleComfortfessionsP,
+        ParamType.String,
+      ),
+      'neuralLaceConfessionsI': serializeParam(
+        _neuralLaceConfessionsI,
+        ParamType.String,
+      ),
+      'augmentedRealityLoveM': serializeParam(
+        _augmentedRealityLoveM,
+        ParamType.double,
+      ),
+      'corporateDroneHugsB': serializeParam(
+        _corporateDroneHugsB,
+        ParamType.int,
+        isList: true,
+      ),
+      'corporateDroneHugsF': serializeParam(
+        _corporateDroneHugsF,
+        ParamType.int,
+        isList: true,
+      ),
+      'deusExMachinaTherapS': serializeParam(
+        _deusExMachinaTherapS,
+        ParamType.int,
+        isList: true,
+      ),
+      'cthulhuComfortHeartZ': serializeParam(
+        _cthulhuComfortHeartZ,
+        ParamType.bool,
+      ),
+      'shoggothHugsTherapy': serializeParam(
+        _shoggothHugsTherapy,
+        ParamType.int,
+        isList: true,
+      ),
+      'loFiSoulmatesComfortT': serializeParam(
+        _loFiSoulmatesComfortT,
+        ParamType.int,
+      ),
+      'loveNmbers': serializeParam(
+        _loveNmbers,
+        ParamType.int,
+      ),
+    });
+  }
 
   static PhoenixTearsTherapustEmpathyStruct fromSerializableMap(
           Map<String, dynamic> data) =>

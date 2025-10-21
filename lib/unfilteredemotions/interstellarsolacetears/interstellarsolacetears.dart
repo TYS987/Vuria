@@ -1,7 +1,6 @@
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/digitaltwinnftemotion/digitaltwinnftemotion.dart';
 import '../../wholesomeinteraction/neuralpathneuronmagic/neuralpathneuronmagic.dart';
 import 'package:flutter/material.dart';
@@ -459,8 +458,10 @@ class _InterstellarSolaceTearsWidgetState
                                 ),
                               ),
                             ),
-                          ].divide(SizedBox(height: 12.0)),
+                          ]
                         ),
+                
+                
                       ),
                       Spacer(),
                       InkWell(
@@ -476,7 +477,9 @@ class _InterstellarSolaceTearsWidgetState
                           );
 
                           if (mounted) {
-                            safeSetState(() {});
+                            setState(() {
+                              
+                            });(() {});
                           }
                         },
                         child: Container(

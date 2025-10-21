@@ -412,7 +412,7 @@ class _WatercolorEmotionsAiWidgetState
                                   ),
                               cursorColor:
                                   Colors.black,
-             
+                     
                             ),
                           ),
                         ),

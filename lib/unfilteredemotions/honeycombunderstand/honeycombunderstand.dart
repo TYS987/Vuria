@@ -1,8 +1,8 @@
+import 'package:intl/intl.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
-
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -127,17 +127,17 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 12.0, 0.0, 0.0),
                             child: Text(
-                              valueOrDefault<String>(
-                                genuineSynapseLocus()
-                                    .necronomiconHealingComfortU
-                                    .where((e) =>
-                                        e.loFiSoulmatesComfortT ==
-                                        genuineSynapseLocus().emotionalSupportT)
-                                    .toList()
-                                    .firstOrNull
-                                    ?.phoenixTearsTherapyN,
-                                '${VuriaEmotionCipher.unveilEmotion('qIPeI+g29+sAJ8W2eY3E1Q==')}',
-                              ),
+                              genuineSynapseLocus()
+                                      .necronomiconHealingComfortU
+                                      .where((e) =>
+                                          e.loFiSoulmatesComfortT ==
+                                          genuineSynapseLocus()
+                                              .emotionalSupportT)
+                                      .toList()
+                                      .firstOrNull
+                                      ?.phoenixTearsTherapyN ??
+                                  VuriaEmotionCipher.unveilEmotion(
+                                      'qIPeI+g29+sAJ8W2eY3E1Q=='),
                               style: TextStyle(
                                 color: Color(0xFF020202),
                                 fontSize: 20.0,
@@ -169,20 +169,19 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      valueOrDefault<String>(
-                                        genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus()
-                                                    .emotionalSupportT)
-                                            .toList()
-                                            .firstOrNull
-                                            ?.corporateDroneHugsF
-                                            .length
-                                            .toString(),
-                                        '${VuriaEmotionCipher.unveilEmotion('08yPJ4YasYhiTrq/cITN3A==')}',
-                                      ),
+                                      genuineSynapseLocus()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  genuineSynapseLocus()
+                                                      .emotionalSupportT)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.corporateDroneHugsF
+                                              .length
+                                              .toString() ??
+                                          VuriaEmotionCipher.unveilEmotion(
+                                              '08yPJ4YasYhiTrq/cITN3A=='),
                                       style: TextStyle(
                                         color: Color(0xFF020202),
                                         fontSize: 18.0,
@@ -194,7 +193,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
                                       style: TextStyle(
                                         color: Color(0x80020202),
-                                        fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                        fontFamily:
+                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                         fontSize: 13.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w600,
@@ -210,19 +210,17 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      valueOrDefault<String>(
-                                        genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus()
-                                                    .emotionalSupportT)
-                                            .toList()
-                                            .firstOrNull
-                                            ?.loveNmbers
-                                            .toString(),
-                                        '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
-                                      ),
+                                      genuineSynapseLocus()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  genuineSynapseLocus()
+                                                      .emotionalSupportT)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.loveNmbers
+                                              .toString() ??
+                                          '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
                                       style: TextStyle(
                                         color: Color(0xFF020202),
                                         fontSize: 18.0,
@@ -234,7 +232,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                         '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
                                         style: TextStyle(
                                           color: Color(0x80020202),
-                                          fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                          fontFamily:
+                                              '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                           fontSize: 13.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w600,
@@ -252,7 +251,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     context,
                                     '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.fromPetalWhisper()}',
                                     arguments: {
-                                      '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}': 1,
+                                      '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}':
+                                          1,
                                     },
                                   );
                                 },
@@ -260,20 +260,19 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Text(
-                                      valueOrDefault<String>(
-                                        genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus()
-                                                    .emotionalSupportT)
-                                            .toList()
-                                            .firstOrNull
-                                            ?.deusExMachinaTherapS
-                                            .length
-                                            .toString(),
-                                        '${VuriaEmotionCipher.unveilEmotion('09CNQYcbsIljT7u+cYXM3Q==')}',
-                                      ),
+                                      genuineSynapseLocus()
+                                              .necronomiconHealingComfortU
+                                              .where((e) =>
+                                                  e.loFiSoulmatesComfortT ==
+                                                  genuineSynapseLocus()
+                                                      .emotionalSupportT)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.deusExMachinaTherapS
+                                              .length
+                                              .toString() ??
+                                          VuriaEmotionCipher.unveilEmotion(
+                                              '09CNQYcbsIljT7u+cYXM3Q=='),
                                       style: TextStyle(
                                         color: Color(0xFF020202),
                                         fontSize: 18.0,
@@ -285,7 +284,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                         '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
                                         style: TextStyle(
                                           color: Color(0x80020202),
-                                          fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                          fontFamily:
+                                              '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                           fontSize: 13.0,
                                           letterSpacing: 0.0,
                                           fontWeight: FontWeight.w600,
@@ -336,46 +336,40 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            valueOrDefault<String>(
-                                              genuineSynapseLocus()
-                                                  .necronomiconHealingComfortU
-                                                  .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
-                                                      genuineSynapseLocus()
-                                                          .emotionalSupportT)
-                                                  .toList()
-                                                  .firstOrNull
-                                                  ?.augmentedRealityLoveM
-                                                  .toString(),
-                                              '${VuriaEmotionCipher.unveilEmotion('0u2yQ4UZsothTbm8c4fO3w==')}',
-                                            ),
+                                            genuineSynapseLocus()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        genuineSynapseLocus()
+                                                            .emotionalSupportT)
+                                                    .toList()
+                                                    .firstOrNull
+                                                    ?.augmentedRealityLoveM
+                                                    .toString() ??
+                                                VuriaEmotionCipher.unveilEmotion(
+                                                    '0u2yQ4UZsothTbm8c4fO3w=='),
                                             style: TextStyle(
-                                                
-                                                  color: Colors.white,
-                                                  fontSize: 16.0,
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.bold,
-                                              
-                                                ),
+                                              color: Colors.white,
+                                              fontSize: 16.0,
+                                              letterSpacing: 0.0,
+                                              fontWeight: FontWeight.bold,
+                                            ),
                                           ),
                                           Text(
-                                            '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
-                                            style: TextStyle(
-                                                  
-                                                  color: Colors.white,
-                                                  fontSize: 12.0,
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.w500,
-                                            )   
-                                          ),
+                                              '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 12.0,
+                                                letterSpacing: 0.0,
+                                                fontWeight: FontWeight.w500,
+                                              )),
                                         ],
                                       ),
                                     ),
                                     InkWell(
-                      
                                       onTap: () async {
-                                        Navigator.of(context)
-                                            .pushNamed('${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.fromPetalWhisper()}');
+                                        Navigator.of(context).pushNamed(
+                                            '${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.fromPetalWhisper()}');
                                       },
                                       child: Container(
                                         width: 103.0,
@@ -522,49 +516,45 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              valueOrDefault<
-                                                                  String>(
-                                                                genuineSynapseLocus()
-                                                                    .necronomiconHealingComfortU
-                                                                    .where((e) =>
-                                                                        e.loFiSoulmatesComfortT ==
-                                                                        soulfulDialoguePodItem
-                                                                            .empatheticVoiceCorner)
-                                                                    .toList()
-                                                                    .firstOrNull
-                                                                    ?.phoenixTearsTherapyN,
-                                                                '${'5c5494e05df10953d459abecdd3b66a1'.fromPetalWhisper()}',
+                                                              genuineSynapseLocus()
+                                                                      .necronomiconHealingComfortU
+                                                                      .where((e) =>
+                                                                          e.loFiSoulmatesComfortT ==
+                                                                          soulfulDialoguePodItem
+                                                                              .empatheticVoiceCorner)
+                                                                      .toList()
+                                                                      .firstOrNull
+                                                                      ?.phoenixTearsTherapyN ??
+                                                                  '${'5c5494e05df10953d459abecdd3b66a1'.fromPetalWhisper()}',
+                                                              style: TextStyle(
+                                                                fontFamily:
+                                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                color: Color(
+                                                                    0xE6000000),
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .bold,
                                                               ),
-                                                              style:
-                                                                  TextStyle(
-                                                                        fontFamily:
-                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                        color: Color(
-                                                                            0xE6000000),
-                                                                        letterSpacing:
-                                                                            0.0,
-                                                                        fontWeight:
-                                                                            FontWeight.bold,
-                                                                      ),
                                                             ),
                                                             Text(
-                                                              dateTimeFormat(
-                                                                  "${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}",
-                                                                  soulfulDialoguePodItem
+                                                              DateFormat(
+                                                                      '${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}')
+                                                                  .format(soulfulDialoguePodItem
                                                                       .heartfeltInteractionCorner!),
-                                                              style:
-                                                                 TextStyle(
-                                                                        fontFamily:
-                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                        color: Color(
-                                                                            0xB3000000),
-                                                                        fontSize:
-                                                                            10.0,
-                                                                        letterSpacing:
-                                                                            0.0,
-                                                                        fontWeight:
-                                                                            FontWeight.w500,
-                                                                      ),
+                                                              style: TextStyle(
+                                                                fontFamily:
+                                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                color: Color(
+                                                                    0xB3000000),
+                                                                fontSize: 10.0,
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w500,
+                                                              ),
                                                             ),
                                                           ],
                                                         ),
@@ -673,19 +663,14 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 children: [
                                                   Expanded(
                                                     child: Text(
-                                                      valueOrDefault<String>(
-                                                        soulfulDialoguePodItem
-                                                            .expressiveFriendshipSpace,
-                                                        '${VuriaEmotionCipher.unveilEmotion('sY3QKapy3P0dYv+TD+WovOU2QvzlrYYs2+ga0rHedftLCbTibfE8tfa4AIYOIgLl')}',
+                                                      soulfulDialoguePodItem
+                                                          .expressiveFriendshipSpace,
+                                                      style: TextStyle(
+                                                        letterSpacing: 0.0,
+                                                        fontWeight:
+                                                            FontWeight.bold,
+                                                        fontSize: 14,
                                                       ),
-                                                      style:
-                                                         TextStyle(
-                                                               
-                                                                letterSpacing:
-                                                                    0.0,
-                                                                fontWeight:FontWeight.bold,
-                                                                fontSize: 14,
-                                                              ),
                                                       maxLines: 1,
                                                       overflow:
                                                           TextOverflow.ellipsis,
@@ -733,8 +718,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                         hoverColor: Colors.transparent,
                         highlightColor: Colors.transparent,
                         onTap: () async {
-                          Navigator.of(context)
-                              .pushNamed('${'d0831261d414a358de3d17fbeaefcdf3903cf95a8020faabd828a96557775b66'.fromPetalWhisper()}');
+                          Navigator.of(context).pushNamed(
+                              '${'d0831261d414a358de3d17fbeaefcdf3903cf95a8020faabd828a96557775b66'.fromPetalWhisper()}');
                         },
                         child: Container(
                           width: 40.0,

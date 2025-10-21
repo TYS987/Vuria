@@ -1,7 +1,8 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import '/backend/schema/structs/index.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class genuineSynapseLocus extends ChangeNotifier {
   static genuineSynapseLocus _instance = genuineSynapseLocus._internal();
@@ -16,203 +17,208 @@ class genuineSynapseLocus extends ChangeNotifier {
     _instance = genuineSynapseLocus._internal();
   }
 
-  Future initializePersistedState() async {
-    prefs = await SharedPreferences.getInstance();
-    _safeInit(() {
-      _kindheartedDialogues =
-          prefs.getInt('ff_kindheartedDialogues') ?? _kindheartedDialogues;
-    });
-    _safeInit(() {
-      _necronomiconHealingComfortU = prefs
-              .getStringList('ff_necronomiconHealingComfortU')
-              ?.map((x) {
-                try {
-                  return PhoenixTearsTherapustEmpathyStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _necronomiconHealingComfortU;
-    });
-    _safeInit(() {
-      _piedPiperSoulsebeardWhiImgasBP = prefs
-              .getStringList('ff_piedPiperSoulsebeardWhiImgasBP')
-              ?.map((x) {
-                try {
-                  return PostApocalypticHugsurnedSolaceStruct
-                      .fromSerializableMap(jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _piedPiperSoulsebeardWhiImgasBP;
-    });
-    _safeInit(() {
-      _azothConfessionsathanorSolaceMP = prefs
-              .getStringList('ff_azothConfessionsathanorSolaceMP')
-              ?.map((x) {
-                try {
-                  return ServerFarmMeditationSolaceMoreStruct
-                      .fromSerializableMap(jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _azothConfessionsathanorSolaceMP;
-    });
-    _safeInit(() {
-      _crimeSceneHealingitAlibiTrustRT = prefs
-              .getStringList('ff_crimeSceneHealingitAlibiTrustRT')
-              ?.map((x) {
-                try {
-                  return RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _crimeSceneHealingitAlibiTrustRT;
-    });
-    _safeInit(() {
-      _looperTearscitorSolaceD = prefs
-              .getStringList('ff_looperTearscitorSolaceD')
-              ?.map((x) {
-                try {
-                  return BioluminescentEmpathyDTStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _looperTearscitorSolaceD;
-    });
-    _safeInit(() {
-      _steamPunkSiribleDroneR = prefs
-              .getStringList('ff_steamPunkSiribleDroneR')
-              ?.map((x) {
-                try {
-                  return AnachronismHealingfluxRStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _steamPunkSiribleDroneR;
-    });
-    _safeInit(() {
-      _samuraiSocialMediapiratePodcast = prefs
-              .getStringList('ff_samuraiSocialMediapiratePodcast')
-              ?.map((x) {
-                try {
-                  return LondonFogAIetWatchPhoneRMStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _samuraiSocialMediapiratePodcast;
-    });
-    _safeInit(() {
-      _airshipAngerManagementCO = prefs
-              .getStringList('ff_airshipAngerManagementCO')
-              ?.map((x) {
-                try {
-                  return StonehengeSnapchatLearningMStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _airshipAngerManagementCO;
-    });
-    _safeInit(() {
-      _undergroundBunkerBondingRUT =
-          prefs.getInt('ff_undergroundBunkerBondingRUT') ??
-              _undergroundBunkerBondingRUT;
-    });
-    _safeInit(() {
-      _emotionalSupportT =
-          prefs.getInt('ff_emotionalSupportT') ?? _emotionalSupportT;
-    });
-    _safeInit(() {
-      _vibeSynthesisModuleWL = prefs
-              .getStringList('ff_vibeSynthesisModuleWL')
-              ?.map((x) {
-                try {
-                  return SerenityHarmonySpaceWORDStruct.fromSerializableMap(
-                      jsonDecode(x));
-                } catch (e) {
-                  print("Can't decode persisted data type. Error: $e.");
-                  return null;
-                }
-              })
-              .withoutNulls
-              .toList() ??
-          _vibeSynthesisModuleWL;
-    });
-    _safeInit(() {
-      _likeHeartfeltMoments =
-          prefs.getBool('ff_likeHeartfeltMoments') ?? _likeHeartfeltMoments;
-    });
+Future initializePersistedState() async {
+  prefs = await SharedPreferences.getInstance();
+  _safeInit(() {
+    _kindheartedDialogues =
+        prefs.getInt('ff_kindheartedDialogues') ?? _kindheartedDialogues;
+  });
+  _safeInit(() {
+    _necronomiconHealingComfortU = prefs
+            .getStringList('ff_necronomiconHealingComfortU')
+            ?.map((x) {
+              try {
+                return PhoenixTearsTherapustEmpathyStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<PhoenixTearsTherapustEmpathyStruct>()
+            .toList() ??
+        _necronomiconHealingComfortU;
+  });
+  _safeInit(() {
+    _piedPiperSoulsebeardWhiImgasBP = prefs
+            .getStringList('ff_piedPiperSoulsebeardWhiImgasBP')
+            ?.map((x) {
+              try {
+                return PostApocalypticHugsurnedSolaceStruct
+                    .fromSerializableMap(jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<PostApocalypticHugsurnedSolaceStruct>()
+            .toList() ??
+        _piedPiperSoulsebeardWhiImgasBP;
+  });
+  _safeInit(() {
+    _azothConfessionsathanorSolaceMP = prefs
+            .getStringList('ff_azothConfessionsathanorSolaceMP')
+            ?.map((x) {
+              try {
+                return ServerFarmMeditationSolaceMoreStruct
+                    .fromSerializableMap(jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<ServerFarmMeditationSolaceMoreStruct>()
+            .toList() ??
+        _azothConfessionsathanorSolaceMP;
+  });
+  _safeInit(() {
+    _crimeSceneHealingitAlibiTrustRT = prefs
+            .getStringList('ff_crimeSceneHealingitAlibiTrustRT')
+            ?.map((x) {
+              try {
+                return RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<RedStringEmpathymagnifyiMPTStruct>()
+            .toList() ??
+        _crimeSceneHealingitAlibiTrustRT;
+  });
+  _safeInit(() {
+    _looperTearscitorSolaceD = prefs
+            .getStringList('ff_looperTearscitorSolaceD')
+            ?.map((x) {
+              try {
+                return BioluminescentEmpathyDTStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<BioluminescentEmpathyDTStruct>()
+            .toList() ??
+        _looperTearscitorSolaceD;
+  });
+  _safeInit(() {
+    _steamPunkSiribleDroneR = prefs
+            .getStringList('ff_steamPunkSiribleDroneR')
+            ?.map((x) {
+              try {
+                return AnachronismHealingfluxRStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<AnachronismHealingfluxRStruct>()
+            .toList() ??
+        _steamPunkSiribleDroneR;
+  });
+  _safeInit(() {
+    _samuraiSocialMediapiratePodcast = prefs
+            .getStringList('ff_samuraiSocialMediapiratePodcast')
+            ?.map((x) {
+              try {
+                return LondonFogAIetWatchPhoneRMStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<LondonFogAIetWatchPhoneRMStruct>()
+            .toList() ??
+        _samuraiSocialMediapiratePodcast;
+  });
+  _safeInit(() {
+    _airshipAngerManagementCO = prefs
+            .getStringList('ff_airshipAngerManagementCO')
+            ?.map((x) {
+              try {
+                return StonehengeSnapchatLearningMStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<StonehengeSnapchatLearningMStruct>()
+            .toList() ??
+        _airshipAngerManagementCO;
+  });
+  _safeInit(() {
+    _undergroundBunkerBondingRUT =
+        prefs.getInt('ff_undergroundBunkerBondingRUT') ??
+            _undergroundBunkerBondingRUT;
+  });
+  _safeInit(() {
+    _emotionalSupportT =
+        prefs.getInt('ff_emotionalSupportT') ?? _emotionalSupportT;
+  });
+  _safeInit(() {
+    _vibeSynthesisModuleWL = prefs
+            .getStringList('ff_vibeSynthesisModuleWL')
+            ?.map((x) {
+              try {
+                return SerenityHarmonySpaceWORDStruct.fromSerializableMap(
+                    jsonDecode(x));
+              } catch (e) {
+                print("Can't decode persisted data type. Error: $e.");
+                return null;
+              }
+            })
+            .where((item) => item != null)
+            .cast<SerenityHarmonySpaceWORDStruct>()
+            .toList() ??
+        _vibeSynthesisModuleWL;
+  });
+  _safeInit(() {
+    _likeHeartfeltMoments =
+        prefs.getBool('ff_likeHeartfeltMoments') ?? _likeHeartfeltMoments;
+  });
 
+  await _safeInitAsync(() async {
+    _emotionalRestorationGateway =
+        await prefs.getString('ff_emotionalRestorationGateway') ??
+            _emotionalRestorationGateway;
+  });
 
-    await _safeInitAsync(() async {
-      _emotionalRestorationGateway =
-          await prefs.getString('ff_emotionalRestorationGateway') ??
-              _emotionalRestorationGateway;
-    });
+  await _safeInitAsync(() async {
+    _sincereAttachmentPortal =
+        await prefs.getString('ff_sincereAttachmentPortal') ??
+            _sincereAttachmentPortal;
+  });
 
-    await _safeInitAsync(() async {
-      _sincereAttachmentPortal =
-          await prefs.getString('ff_sincereAttachmentPortal') ??
-              _sincereAttachmentPortal;
-    });
+  await _safeInitAsync(() async {
+    _emotionalWellbeingSanctuary = await prefs.getString('ff_emotionalWellbeingSanctuary') ??
+        _emotionalWellbeingSanctuary;
+  });
 
-    await _safeInitAsync(() async {
-      _emotionalWellbeingSanctuary = await prefs.getString('ff_emotionalWellbeingSanctuary') ??
-          _emotionalWellbeingSanctuary;
-    });
+  await _safeInitAsync(() async {
+    _genuineBondingEcosystem = await prefs.getString('ff_genuineBondingEcosystem') ??
+        _genuineBondingEcosystem;
+  });
 
+  await _safeInitAsync(() async {
+    _psychologicalHealingGateway =
+        await prefs.getString('ff_psychologicalHealingGateway') ??
+            _psychologicalHealingGateway;
+  });
+}
 
-    
-
-    await _safeInitAsync(() async {
-      _genuineBondingEcosystem = await prefs.getString('ff_genuineBondingEcosystem') ??
-          _genuineBondingEcosystem;
-    });
-
-    await _safeInitAsync(() async {
-      _psychologicalHealingGateway =
-          await prefs.getString('ff_psychologicalHealingGateway') ??
-              _psychologicalHealingGateway;
-    });
-
-  }
 
   void update(VoidCallback callback) {
     callback();

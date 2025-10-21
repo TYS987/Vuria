@@ -1,10 +1,6 @@
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
-
 import '../util/connectionRippletrueEmot.dart';
-
 import 'index.dart';
-import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-
 class AnachronismHealingfluxRStruct extends BaseStruct {
   AnachronismHealingfluxRStruct({
     int? emotionSharingCircle,
@@ -22,36 +18,31 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
         _inquisitionInternetBitcoin = inquisitionInternetBitcoin,
         _baroqueBitcoinPodcastHX = baroqueBitcoinPodcastHX;
 
-  
   int? _emotionSharingCircle;
-  int get emotionSharingCircle =>
-      _emotionSharingCircle ?? 0;
-  set emotionSharingCircle(int? val) =>
-      _emotionSharingCircle = val;
+  int get emotionSharingCircle => _emotionSharingCircle ?? 0;
+  set emotionSharingCircle(int? val) => _emotionSharingCircle = val;
 
-  void incrementemotionSharingCircle(int amount) =>
-      emotionSharingCircle = emotionSharingCircle + amount;
+  void incrementemotionSharingCircle(int amount) {
+    _emotionSharingCircle = (_emotionSharingCircle ?? 0) + amount;
+  }
 
-  bool hasemotionSharingCircle() =>
-      _emotionSharingCircle != null;
-
+  bool hasemotionSharingCircle() => _emotionSharingCircle != null;
 
   int? _resonanceFriendshipNetwork;
   int get resonanceFriendshipNetwork => _resonanceFriendshipNetwork ?? 0;
   set resonanceFriendshipNetwork(int? val) => _resonanceFriendshipNetwork = val;
 
-  void incrementresonanceFriendshipNetwork(int amount) =>
-      resonanceFriendshipNetwork = resonanceFriendshipNetwork + amount;
+  void incrementresonanceFriendshipNetwork(int amount) {
+    _resonanceFriendshipNetwork = (_resonanceFriendshipNetwork ?? 0) + amount;
+  }
 
   bool hasresonanceFriendshipNetwork() => _resonanceFriendshipNetwork != null;
-
 
   String? _feelingFlowCommunications;
   String get feelingFlowCommunications => _feelingFlowCommunications ?? '';
   set feelingFlowCommunications(String? val) => _feelingFlowCommunications = val;
 
   bool hasfeelingFlowCommunications() => _feelingFlowCommunications != null;
-
 
   List<int>? _shamanCodingNeuralinkM;
   List<int> get shamanCodingNeuralinkM => _shamanCodingNeuralinkM ?? const [];
@@ -63,16 +54,15 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   bool hasShamanCodingNeuralinkM() => _shamanCodingNeuralinkM != null;
 
-
   int? _daVinciDroneoHologramN;
   int get daVinciDroneoHologramN => _daVinciDroneoHologramN ?? 0;
   set daVinciDroneoHologramN(int? val) => _daVinciDroneoHologramN = val;
 
-  void incrementDaVinciDroneoHologramN(int amount) =>
-      daVinciDroneoHologramN = daVinciDroneoHologramN + amount;
+  void incrementDaVinciDroneoHologramN(int amount) {
+    _daVinciDroneoHologramN = (_daVinciDroneoHologramN ?? 0) + amount;
+  }
 
   bool hasDaVinciDroneoHologramN() => _daVinciDroneoHologramN != null;
-
 
   DateTime? _inquisitionInternetBitcoin;
   DateTime? get inquisitionInternetBitcoin => _inquisitionInternetBitcoin;
@@ -80,7 +70,6 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
       _inquisitionInternetBitcoin = val;
 
   bool hasInquisitionInternetBitcoin() => _inquisitionInternetBitcoin != null;
-
 
   List<String>? _baroqueBitcoinPodcastHX;
   List<String> get baroqueBitcoinPodcastHX =>
@@ -94,18 +83,57 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   bool hasBaroqueBitcoinPodcastHX() => _baroqueBitcoinPodcastHX != null;
 
+  // 类型转换辅助方法
+  static int? _castToInt(dynamic value) {
+    if (value == null) return null;
+    if (value is int) return value;
+    if (value is String) return int.tryParse(value);
+    if (value is double) return value.toInt();
+    return null;
+  }
+
+  static String? _castToString(dynamic value) {
+    if (value == null) return null;
+    if (value is String) return value;
+    return value.toString();
+  }
+
+  static DateTime? _castToDateTime(dynamic value) {
+    if (value == null) return null;
+    if (value is DateTime) return value;
+    if (value is String) return DateTime.tryParse(value);
+    if (value is int) return DateTime.fromMillisecondsSinceEpoch(value);
+    return null;
+  }
+
+  static List<T>? _castToList<T>(dynamic value) {
+    if (value == null) return null;
+    if (value is List<T>) return value;
+    if (value is List) {
+      try {
+        return value.cast<T>();
+      } catch (e) {
+        return null;
+      }
+    }
+    return null;
+  }
+
+  // 移除 null 值的辅助方法
+  Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
+    map.removeWhere((key, value) => value == null);
+    return map;
+  }
+
   static AnachronismHealingfluxRStruct fromMap(Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
-        emotionSharingCircle:
-            castToType<int>(data['emotionSharingCircle']),
-        resonanceFriendshipNetwork:
-            castToType<int>(data['resonanceFriendshipNetwork']),
-        feelingFlowCommunications: data['feelingFlowCommunications'] as String?,
-        shamanCodingNeuralinkM: getDataList(data['shamanCodingNeuralinkM']),
-        daVinciDroneoHologramN: castToType<int>(data['daVinciDroneoHologramN']),
-        inquisitionInternetBitcoin:
-            data['inquisitionInternetBitcoin'] as DateTime?,
-        baroqueBitcoinPodcastHX: getDataList(data['baroqueBitcoinPodcastHX']),
+        emotionSharingCircle: _castToInt(data['emotionSharingCircle']),
+        resonanceFriendshipNetwork: _castToInt(data['resonanceFriendshipNetwork']),
+        feelingFlowCommunications: _castToString(data['feelingFlowCommunications']),
+        shamanCodingNeuralinkM: _castToList<int>(data['shamanCodingNeuralinkM']),
+        daVinciDroneoHologramN: _castToInt(data['daVinciDroneoHologramN']),
+        inquisitionInternetBitcoin: _castToDateTime(data['inquisitionInternetBitcoin']),
+        baroqueBitcoinPodcastHX: _castToList<String>(data['baroqueBitcoinPodcastHX']),
       );
 
   static AnachronismHealingfluxRStruct? maybeFromMap(dynamic data) =>
@@ -113,49 +141,53 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
           ? AnachronismHealingfluxRStruct.fromMap(data.cast<String, dynamic>())
           : null;
 
-  Map<String, dynamic> toMap() => {
-        'emotionSharingCircle': _emotionSharingCircle,
-        'resonanceFriendshipNetwork': _resonanceFriendshipNetwork,
-        'feelingFlowCommunications': _feelingFlowCommunications,
-        'shamanCodingNeuralinkM': _shamanCodingNeuralinkM,
-        'daVinciDroneoHologramN': _daVinciDroneoHologramN,
-        'inquisitionInternetBitcoin': _inquisitionInternetBitcoin,
-        'baroqueBitcoinPodcastHX': _baroqueBitcoinPodcastHX,
-      }.withoutNulls;
+  Map<String, dynamic> toMap() {
+    return _removeNulls({
+      'emotionSharingCircle': _emotionSharingCircle,
+      'resonanceFriendshipNetwork': _resonanceFriendshipNetwork,
+      'feelingFlowCommunications': _feelingFlowCommunications,
+      'shamanCodingNeuralinkM': _shamanCodingNeuralinkM,
+      'daVinciDroneoHologramN': _daVinciDroneoHologramN,
+      'inquisitionInternetBitcoin': _inquisitionInternetBitcoin,
+      'baroqueBitcoinPodcastHX': _baroqueBitcoinPodcastHX,
+    });
+  }
 
   @override
-  Map<String, dynamic> toSerializableMap() => {
-        'emotionSharingCircle': serializeParam(
-          _emotionSharingCircle,
-          ParamType.int,
-        ),
-        'resonanceFriendshipNetwork': serializeParam(
-          _resonanceFriendshipNetwork,
-          ParamType.int,
-        ),
-        'feelingFlowCommunications': serializeParam(
-          _feelingFlowCommunications,
-          ParamType.String,
-        ),
-        'shamanCodingNeuralinkM': serializeParam(
-          _shamanCodingNeuralinkM,
-          ParamType.int,
-          isList: true,
-        ),
-        'daVinciDroneoHologramN': serializeParam(
-          _daVinciDroneoHologramN,
-          ParamType.int,
-        ),
-        'inquisitionInternetBitcoin': serializeParam(
-          _inquisitionInternetBitcoin,
-          ParamType.DateTime,
-        ),
-        'baroqueBitcoinPodcastHX': serializeParam(
-          _baroqueBitcoinPodcastHX,
-          ParamType.String,
-          isList: true,
-        ),
-      }.withoutNulls;
+  Map<String, dynamic> toSerializableMap() {
+    return _removeNulls({
+      'emotionSharingCircle': serializeParam(
+        _emotionSharingCircle,
+        ParamType.int,
+      ),
+      'resonanceFriendshipNetwork': serializeParam(
+        _resonanceFriendshipNetwork,
+        ParamType.int,
+      ),
+      'feelingFlowCommunications': serializeParam(
+        _feelingFlowCommunications,
+        ParamType.String,
+      ),
+      'shamanCodingNeuralinkM': serializeParam(
+        _shamanCodingNeuralinkM,
+        ParamType.int,
+        isList: true,
+      ),
+      'daVinciDroneoHologramN': serializeParam(
+        _daVinciDroneoHologramN,
+        ParamType.int,
+      ),
+      'inquisitionInternetBitcoin': serializeParam(
+        _inquisitionInternetBitcoin,
+        ParamType.DateTime,
+      ),
+      'baroqueBitcoinPodcastHX': serializeParam(
+        _baroqueBitcoinPodcastHX,
+        ParamType.String,
+        isList: true,
+      ),
+    });
+  }
 
   static AnachronismHealingfluxRStruct fromSerializableMap(
           Map<String, dynamic> data) =>
@@ -204,8 +236,7 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
   bool operator ==(Object other) {
     const listEquality = ListEquality();
     return other is AnachronismHealingfluxRStruct &&
-        emotionSharingCircle ==
-            other.emotionSharingCircle &&
+        emotionSharingCircle == other.emotionSharingCircle &&
         resonanceFriendshipNetwork == other.resonanceFriendshipNetwork &&
         feelingFlowCommunications == other.feelingFlowCommunications &&
         listEquality.equals(
@@ -232,13 +263,17 @@ AnachronismHealingfluxRStruct createAnachronismHealingfluxRStruct({
   int? emotionSharingCircle,
   int? resonanceFriendshipNetwork,
   String? feelingFlowCommunications,
+  List<int>? shamanCodingNeuralinkM,
   int? daVinciDroneoHologramN,
   DateTime? inquisitionInternetBitcoin,
+  List<String>? baroqueBitcoinPodcastHX,
 }) =>
     AnachronismHealingfluxRStruct(
       emotionSharingCircle: emotionSharingCircle,
       resonanceFriendshipNetwork: resonanceFriendshipNetwork,
       feelingFlowCommunications: feelingFlowCommunications,
+      shamanCodingNeuralinkM: shamanCodingNeuralinkM,
       daVinciDroneoHologramN: daVinciDroneoHologramN,
       inquisitionInternetBitcoin: inquisitionInternetBitcoin,
+      baroqueBitcoinPodcastHX: baroqueBitcoinPodcastHX,
     );

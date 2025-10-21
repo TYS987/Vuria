@@ -2,12 +2,7 @@ import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.da
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class NeuralPathNeuronMagicWidget extends StatefulWidget {
   const NeuralPathNeuronMagicWidget({super.key});

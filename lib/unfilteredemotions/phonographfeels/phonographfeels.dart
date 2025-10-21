@@ -1,6 +1,5 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 
 class PhonographFeelsWidget extends StatefulWidget {
@@ -543,8 +542,8 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               0.0, 83.0, 0.0, 0.0),
                           child: InkWell(
                             onTap: () async {
-                              if (symbioticVulnerable != null ||
-                                  authenticMindMap.text.trim().isNotEmpty) {
+                           if (symbioticVulnerable != null ||
+    (authenticMindMap?.text.trim().isNotEmpty ?? false)) {
                                 await emotionWhisperInterface(
                                   message:
                                       '${VuriaEmotionCipher.unveilEmotion('torYbPhzzescNpbbHfvhsuVzW7T/tIFh3+VO37CfZuE/OdOXXZZFyYqIePdwVn6Q3ngHdiPkmnfIVvJNvGb6dOtbJ9Wof9KrWSl/IkiWpXc=')}',
@@ -584,7 +583,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             ),
                           ),
                         ),
-                      ].addToEnd(SizedBox(height: 100)),
+                     
+                     const SizedBox(height: 100,)
+                      ],
                     ),
                   ),
                 ),

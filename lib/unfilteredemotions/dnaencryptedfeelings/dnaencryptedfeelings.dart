@@ -1,7 +1,7 @@
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:provider/provider.dart';
@@ -66,7 +66,6 @@ class _DnaEncryptedFeelingsWidgetState
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
-                 
                         onTap: () async {
                           Navigator.pop(context);
                         },
@@ -87,7 +86,8 @@ class _DnaEncryptedFeelingsWidgetState
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('j5udO+t60eEaRbG0e4/G1w==')}',
                       style: TextStyle(
-                        fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                        fontFamily:
+                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                         color: Colors.black,
                         fontSize: 20.0,
                         letterSpacing: 0.0,
@@ -117,37 +117,35 @@ class _DnaEncryptedFeelingsWidgetState
                           ),
                         ),
                         Text(
-                          valueOrDefault<String>(
-                            genuineSynapseLocus()
-                                .necronomiconHealingComfortU
-                                .where((e) =>
-                                    e.loFiSoulmatesComfortT ==
-                                    genuineSynapseLocus().emotionalSupportT)
-                                .toList()
-                                .firstOrNull
-                                ?.augmentedRealityLoveM
-                                .toString(),
-                            '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
-                          ),
+                          genuineSynapseLocus()
+                                  .necronomiconHealingComfortU
+                                  .where((e) =>
+                                      e.loFiSoulmatesComfortT ==
+                                      genuineSynapseLocus().emotionalSupportT)
+                                  .toList()
+                                  .firstOrNull
+                                  ?.augmentedRealityLoveM
+                                  .toString() ??
+                              '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
                           style: TextStyle(
-                               fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                color: Colors.black,
-                                fontSize: 16.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.bold,
-                            
-                              ),
+                            fontFamily:
+                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                            color: Colors.black,
+                            fontSize: 16.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                         Text(
                           '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
-                          style:TextStyle(
-                                fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                color: Colors.black,
-                                fontSize: 12.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.w500,
-                              
-                              ),
+                          style: TextStyle(
+                            fontFamily:
+                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                            color: Colors.black,
+                            fontSize: 12.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
                       ],
                     ),
@@ -179,7 +177,6 @@ class _DnaEncryptedFeelingsWidgetState
                                 final empathyDrivenForumItem =
                                     empathyDrivenForum[empathyDrivenForumIndex];
                                 return InkWell(
-                              
                                   onTap: () async {
                                     sentimentSynchr = empathyDrivenForumItem
                                         .expressiveDialogueSpace;
@@ -225,19 +222,17 @@ class _DnaEncryptedFeelingsWidgetState
                                           ),
                                         ),
                                         Text(
-                                          valueOrDefault<String>(
-                                            empathyDrivenForumItem
-                                                .cavemanClubhousemedievalMatch
-                                                .toString(),
-                                            '',
-                                          ),
+                                          empathyDrivenForumItem
+                                              .cavemanClubhousemedievalMatch
+                                              .toString(),
                                           style: TextStyle(
-                                                fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
-                                                color: Colors.black,
-                                                fontSize: 16.0,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.bold,
-                                              ),
+                                            fontFamily:
+                                                '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                            color: Colors.black,
+                                            fontSize: 16.0,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.bold,
+                                          ),
                                         ),
                                         Padding(
                                           padding:
@@ -254,18 +249,14 @@ class _DnaEncryptedFeelingsWidgetState
                                             alignment:
                                                 AlignmentDirectional(0.0, 0.0),
                                             child: Text(
-                                              '\$${valueOrDefault<String>(
-                                                empathyDrivenForumItem
-                                                    .futurePastFacebookbe
-                                                    .toString(),
-                                                '',
-                                              )}',
+                                              '\$${empathyDrivenForumItem.futurePastFacebookbe.toString()}',
                                               style: TextStyle(
-                                                    fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
-                                                    color: Colors.white,
-                                                    letterSpacing: 0.0,
-                                                    fontWeight: FontWeight.bold,
-                                                  ),
+                                                fontFamily:
+                                                    '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                color: Colors.white,
+                                                letterSpacing: 0.0,
+                                                fontWeight: FontWeight.bold,
+                                              ),
                                             ),
                                           ),
                                         ),

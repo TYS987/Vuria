@@ -2,12 +2,10 @@ import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -313,9 +311,8 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                       fontWeight: FontWeight.w500,
                                     
                                     ),
-                                cursorColor: heartMindVentralTheme
-                                    .of(context)
-                                    .primaryText,
+                                cursorColor: Colors.black
+                                    ,
                           
                               ),
                             ),
@@ -430,9 +427,11 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                       ),
                       Builder(
                         builder: (context) {
-                          if (vortexSpectrum != null &&
-                              moodMosaicsoulfulRippl.text.trim().isNotEmpty &&
-                              serotoninDialogue != null) {
+         if (vortexSpectrum != null &&
+    (moodMosaicsoulfulRippl?.text.trim().isNotEmpty ?? false) &&
+    serotoninDialogue != null)
+                              
+                               {
                             return InkWell(
                               onTap: () async {
                                 final currentIndex =
@@ -450,7 +449,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                         .azothConfessionsathanorSolaceMP
                                         .length,
                                     friendshipResonanceHub:
-                                        moodMosaicsoulfulRippl.text.trim(),
+                                        moodMosaicsoulfulRippl?.text.trim(),
                                     intimateSharingCorner: DateTime.now(),
                                     genuineFeelingNetwork: [currentIndex],
                                     emotionalBondingSpot: serotoninDialogue,

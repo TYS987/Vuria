@@ -2,11 +2,7 @@ import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/generateRedential.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class DigitalTwinnftEmotionWidget extends StatefulWidget {
   const DigitalTwinnftEmotionWidget({super.key});
@@ -49,20 +45,13 @@ class _DigitalTwinnftEmotionWidgetState
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
             child: Text(
               '${VuriaEmotionCipher.unveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
-              style: heartMindVentralTheme.of(context).bodyMedium.override(
-                    font: GoogleFonts.poppins(
-                      fontWeight: FontWeight.bold,
-                      fontStyle: heartMindVentralTheme
-                          .of(context)
-                          .bodyMedium
-                          .fontStyle,
-                    ),
+              style: TextStyle(
+              
                     color: Color(0xE6000000),
                     fontSize: 20.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.bold,
-                    fontStyle:
-                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+             
                   ),
             ),
           ),
@@ -71,20 +60,13 @@ class _DigitalTwinnftEmotionWidgetState
             child: Text(
               '${VuriaEmotionCipher.unveilEmotion('o5DYbPN5yKQdN8TWXPGupaBhVPr44ZdjlvVf1rHLYq8idtGAXYBPxondfuIhMRH2')}',
               textAlign: TextAlign.center,
-              style: heartMindVentralTheme.of(context).bodyMedium.override(
-                    font: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w500,
-                      fontStyle: heartMindVentralTheme
-                          .of(context)
-                          .bodyMedium
-                          .fontStyle,
-                    ),
+              style: TextStyle(
+             
                     color: Color(0xE6000000),
                     fontSize: 16.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.w500,
-                    fontStyle:
-                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+              
                   ),
             ),
           ),
@@ -118,22 +100,13 @@ class _DigitalTwinnftEmotionWidgetState
                     child: Text(
                       '${VuriaEmotionCipher.unveilEmotion('oYPTL+96t45kSLy5doLL2g==')}',
                       style:
-                          heartMindVentralTheme.of(context).bodyMedium.override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                          TextStyle(
+                         
                                 color: Colors.white,
                                 fontSize: 16.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
+                            
                               ),
                     ),
                   ),
@@ -179,22 +152,13 @@ class _DigitalTwinnftEmotionWidgetState
                     child: Text(
                       '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
                       style:
-                          heartMindVentralTheme.of(context).bodyMedium.override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                          TextStyle(
+                          
                                 color: Colors.white,
                                 fontSize: 16.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
+                             
                               ),
                     ),
                   ),

@@ -7,7 +7,6 @@ import '/backend/schema/structs/index.dart';
 
 import '../moodSubspaceWernicke.dart';
 import '../place.dart';
-import '../genuineNullBroca.dart';
 String dateTimeRangeToString(DateTimeRange dateTimeRange) {
   final startStr = dateTimeRange.start.millisecondsSinceEpoch.toString();
   final endStr = dateTimeRange.end.millisecondsSinceEpoch.toString();
@@ -23,9 +22,6 @@ String placeToString(FFPlace place) => jsonEncode({
       '${'253fd86b3706362c01ffc328797bd7de'.fromPetalWhisper()}': place.country,
       '${'156126b3221dbdf766aaca13664fb5b5'.fromPetalWhisper()}': place.zipCode,
     });
-
-String uploadedFileToString(FFUploadedFile uploadedFile) =>
-    uploadedFile.serialize();
 
 String? serializeParam(
   dynamic param,
@@ -64,8 +60,7 @@ String? serializeParam(
         data = (param as Color).toCssString();
       case ParamType.FFPlace:
         data = placeToString(param as FFPlace);
-      case ParamType.FFUploadedFile:
-        data = uploadedFileToString(param as FFUploadedFile);
+
       case ParamType.JSON:
         data = json.encode(param);
 
@@ -129,8 +124,6 @@ FFPlace placeFromString(String placeStr) {
   );
 }
 
-FFUploadedFile uploadedFileFromString(String uploadedFileStr) =>
-    FFUploadedFile.deserialize(uploadedFileStr);
 
 enum ParamType {
   int,
@@ -198,8 +191,7 @@ dynamic deserializeParam<T>(
         return fromCssColor(param);
       case ParamType.FFPlace:
         return placeFromString(param);
-      case ParamType.FFUploadedFile:
-        return uploadedFileFromString(param);
+
       case ParamType.JSON:
         return json.decode(param);
 

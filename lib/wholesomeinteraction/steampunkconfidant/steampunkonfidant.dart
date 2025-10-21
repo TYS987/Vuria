@@ -1,10 +1,7 @@
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 import 'package:provider/provider.dart';
 
 class SteampunkConfidantWidget extends StatefulWidget {
@@ -77,22 +74,14 @@ color: const Color(0xFFFFFFFF),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
                   '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
-                  style: heartMindVentralTheme.of(context).bodyMedium.override(
-                        font: GoogleFonts.poppins(
-                          fontWeight: FontWeight.bold,
-                          fontStyle: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .fontStyle,
-                        ),
+                  style: TextStyle(
+                  
+                    
                         color: Colors.black,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
+                    
                       ),
                 ),
               ),
@@ -145,22 +134,13 @@ color: const Color(0xFFFFFFFF),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
                   '${VuriaEmotionCipher.unveilEmotion('sYrUKeZyt45kSLy5doLL2g==')}',
-                  style: heartMindVentralTheme.of(context).bodyMedium.override(
-                        font: GoogleFonts.poppins(
-                          fontWeight: FontWeight.bold,
-                          fontStyle: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .fontStyle,
-                        ),
+                  style:TextStyle(
+                
                         color: Colors.black,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
+           
                       ),
                 ),
               ),
@@ -186,22 +166,13 @@ color: const Color(0xFFFFFFFF),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
                   '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
-                  style: heartMindVentralTheme.of(context).bodyMedium.override(
-                        font: GoogleFonts.poppins(
-                          fontWeight: FontWeight.bold,
-                          fontStyle: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .fontStyle,
-                        ),
+                  style: TextStyle(
+                   
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
+                 
                       ),
                 ),
               ),

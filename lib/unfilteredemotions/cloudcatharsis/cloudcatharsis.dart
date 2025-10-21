@@ -1,11 +1,8 @@
 import 'dart:async';
-
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -83,7 +80,7 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Stack(
           children: [
             Container(
@@ -127,25 +124,21 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                       Padding(
                         padding:
                             EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
-                        child: Text(
-                          valueOrDefault<String>(
-                            genuineSynapseLocus()
-                                .necronomiconHealingComfortU
-                                .where((e) =>
-                                    e.loFiSoulmatesComfortT ==
-                                    widget.feelingSyncChanneoulConnec)
-                                .toList()
-                                .firstOrNull
-                                ?.phoenixTearsTherapyN,
-                            '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
-                          ),
-                          style: TextStyle(
-                            color: Colors.white,
-                            fontSize: 24.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
+             child: Text(
+  genuineSynapseLocus()
+      .necronomiconHealingComfortU
+      .where((e) =>
+          e.loFiSoulmatesComfortT == widget.feelingSyncChanneoulConnec)
+      .toList()
+      .firstOrNull
+      ?.phoenixTearsTherapyN ?? '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
+  style: TextStyle(
+    color: Colors.white,
+    fontSize: 24.0,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.bold,
+  ),
+),
                       ),
                     ],
                   ),
