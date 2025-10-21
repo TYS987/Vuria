@@ -1,17 +1,13 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class TrustedConfidantsWidget extends StatefulWidget {
   const TrustedConfidantsWidget({super.key});
-
-
 
   @override
   State<TrustedConfidantsWidget> createState() =>
@@ -42,7 +38,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Stack(
           children: [
             Align(
@@ -52,11 +48,10 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                 height: double.infinity,
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    fit: BoxFit.cover,
-                    image: Image.asset(
-                      'assets/images/comfortableListening.png',
-                    ).image,
-                  ),
+                      fit: BoxFit.cover,
+                      image: AssetImage(
+                        'assets/images/comfortableListening.png',
+                      )),
                 ),
                 child: Column(
                   mainAxisSize: MainAxisSize.max,
@@ -69,11 +64,10 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                         height: 49.0,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                            fit: BoxFit.cover,
-                            image: Image.asset(
-                              'assets/images/heartfeltConfessions.png',
-                            ).image,
-                          ),
+                              fit: BoxFit.cover,
+                              image: AssetImage(
+                                'assets/images/heartfeltConfessions.png',
+                              )),
                         ),
                       ),
                     ),
@@ -82,30 +76,29 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                       height: 125.0,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          fit: BoxFit.cover,
-                          image: Image.asset(
-                            'assets/images/unspokenFeelings.png',
-                          ).image,
-                        ),
+                            fit: BoxFit.cover,
+                            image: AssetImage(
+                              'assets/images/unspokenFeelings.png',
+                            )),
                       ),
                     ),
                     InkWell(
                       onTap: () async {
-                        Navigator.of(context).pushNamed('/fragrantMemories');
+                        Navigator.of(context).pushNamed(
+                            '${'7411174b39d64bd8c67dae6232bb7c08bff6f6b4fd7baf8e774969a380a8a8e5'.fromPetalWhisper()}');
                       },
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('oZDYLf5znf0BN8STEeeutKB1XfX44ZFj2fw8vNK5AYk=')}',
-                        style: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .override(
-                              fontFamily: 'PingFang',
-                              color: Color(0xFFEC7506),
-                              fontSize: 12,
-                              letterSpacing: 0.0,
-                              decoration: TextDecoration.underline,
-                              lineHeight: 1.2,
-                            ),
+                        style:  TextStyle(
+                          fontFamily: '${'d096cf8619d879588796af412945d812'.fromPetalWhisper()}',
+                          color: Color(0xFFEC7506),
+                          fontSize: 13,
+                          letterSpacing: 0.2,
+                          height: 1.3,
+                          decoration: TextDecoration.underline,
+                          decorationColor: Color(0xFFEC7506),
+                          decorationThickness: 1.1,
+                        ),
                       ),
                     ),
                     Align(
@@ -118,11 +111,10 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                           height: 14.0,
                           decoration: BoxDecoration(
                             image: DecorationImage(
-                              fit: BoxFit.contain,
-                              image: Image.asset(
-                                'assets/images/gentleUnderstanding.png',
-                              ).image,
-                            ),
+                                fit: BoxFit.contain,
+                                image: ExactAssetImage(
+                                  'assets/images/gentleUnderstanding.png',
+                                )),
                           ),
                         ),
                       ),
@@ -147,7 +139,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                       .emotionalSupportT]
                                               .corporateDroneHugsB
                                               .contains(
-                                                  e.philosophersStoneHealingID))
+                                                  e.emotionalExchangePlatform))
                                           .toList();
 
                                   return MasonryGridView.builder(
@@ -172,21 +164,18 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                           feelingExchangePortalemotion[
                                               feelingExchangePortalemotionIndex];
                                       return InkWell(
-                                        splashColor: Colors.transparent,
-                                        focusColor: Colors.transparent,
-                                        hoverColor: Colors.transparent,
-                                        highlightColor: Colors.transparent,
+                                   
                                         onTap: () async {
                                           if (genuineSynapseLocus()
                                                   .emotionalSupportT !=
                                               feelingExchangePortalemotionItem
-                                                  .philosophersStoneHealingID)
+                                                  .emotionalExchangePlatform)
                                             genuineSynapseLocus()
                                                 .updateAzothConfessionsathanorSolaceMPAtIndex(
                                               feelingExchangePortalemotionItem
-                                                  .alchemicalWeddingHomeID,
+                                                  .resonanceChatLounge,
                                               (e) => e
-                                                ..updateMagnumOpusComfortMorePope(
+                                                ..updategenuineFeelingNetwork(
                                                   (e) => e.add(
                                                       genuineSynapseLocus()
                                                           .emotionalSupportT),
@@ -196,11 +185,11 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
 
                                           Navigator.pushNamed(
                                             context,
-                                            '/intimateMomentsShare',
+                                            '${'abca4747c63328b1c09ad9b9e85e9775a97a22bcfb1965aab816b8f467405f49'.fromPetalWhisper()}',
                                             arguments: {
-                                              'communitySentimentSync':
+                                              '${'295f145dd91a8de74f0928d74eb931839c76730e890e2e2ce634bfb080e72bf6'.fromPetalWhisper()}':
                                                   feelingExchangePortalemotionItem
-                                                      .alchemicalWeddingHomeID,
+                                                      .resonanceChatLounge,
                                             },
                                           );
                                         },
@@ -209,12 +198,11 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                           height: 180.0,
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: Image.asset(
-                                                feelingExchangePortalemotionItem
-                                                    .homunculusHugsImag,
-                                              ).image,
-                                            ),
+                                                fit: BoxFit.cover,
+                                                image: AssetImage(
+                                                  feelingExchangePortalemotionItem
+                                                      .genuineEmotionBoard,
+                                                )),
                                             borderRadius:
                                                 BorderRadius.circular(20.0),
                                           ),
@@ -232,32 +220,15 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                               children: [
                                                 Text(
                                                   feelingExchangePortalemotionItem
-                                                      .mercurialEmpathyTitle,
+                                                      .friendshipResonanceHub,
                                                   textAlign: TextAlign.end,
-                                                  style: heartMindVentralTheme
-                                                      .of(context)
-                                                      .bodyMedium
-                                                      .override(
-                                                        font: GoogleFonts.inter(
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          fontStyle:
-                                                              heartMindVentralTheme
-                                                                  .of(context)
-                                                                  .bodyMedium
-                                                                  .fontStyle,
-                                                        ),
-                                                        color: Colors.white,
-                                                        fontSize: 15.0,
-                                                        letterSpacing: 0.0,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                        fontStyle:
-                                                            heartMindVentralTheme
-                                                                .of(context)
-                                                                .bodyMedium
-                                                                .fontStyle,
-                                                      ),
+                                                  style: TextStyle(
+                                                    fontFamily: '${'d096cf8619d879588796af412945d812'.fromPetalWhisper()}',
+                                                    color: Colors.white,
+                                                    fontSize: 15.0,
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  ),
                                                 ),
                                                 Stack(
                                                   alignment:
@@ -299,7 +270,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                       builder:
                                                                           (context) {
                                                                         final empatheticConnsoulfulConversat = feelingExchangePortalemotionItem
-                                                                            .magnumOpusComfortMorePope
+                                                                            .genuineFeelingNetwork
                                                                             .take(3)
                                                                             .toList();
                                                                         return Stack(
@@ -309,24 +280,18 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                             final empatheticConnsoulfulConversatItem =
                                                                                 empatheticConnsoulfulConversat[empatheticConnsoulfulConversatIndex];
                                                                             return Padding(
-                                                                              padding: EdgeInsetsDirectional.fromSTEB(
-                                                                                  valueOrDefault<double>(
-                                                                                    empatheticConnsoulfulConversatIndex * 15,
-                                                                                    0.0,
-                                                                                  ),
-                                                                                  0.0,
-                                                                                  0.0,
-                                                                                  0.0),
+                                                                              padding: EdgeInsetsDirectional.only(
+                                                                                start: (empatheticConnsoulfulConversatIndex) * 15.0,
+                                                                              ),
                                                                               child: Container(
                                                                                 width: 20,
                                                                                 height: 20,
                                                                                 decoration: BoxDecoration(
                                                                                   image: DecorationImage(
-                                                                                    fit: BoxFit.cover,
-                                                                                    image: Image.asset(
-                                                                                      genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI,
-                                                                                    ).image,
-                                                                                  ),
+                                                                                      fit: BoxFit.cover,
+                                                                                      image: AssetImage(
+                                                                                        genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                      )),
                                                                                   borderRadius: BorderRadius.circular(20),
                                                                                 ),
                                                                               ),
@@ -370,20 +335,13 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                             10,
                                                                             0),
                                                                 child: Text(
-                                                                  valueOrDefault<
-                                                                      String>(
-                                                                    feelingExchangePortalemotionItem
-                                                                        .magnumOpusComfortMorePope
-                                                                        .length
-                                                                        .toString(),
-                                                                    '',
-                                                                  ),
-                                                                  style: heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .override(
+                                                                  feelingExchangePortalemotionItem
+                                                                      .genuineFeelingNetwork
+                                                                      .length
+                                                                      .toString(),
+                                                                  style:TextStyle(
                                                                         fontFamily:
-                                                                            'PingFang',
+                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                                         color: Colors
                                                                             .white,
                                                                         fontSize:
@@ -403,20 +361,19 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                       height: 40,
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
-                                                          fit: BoxFit.cover,
-                                                          image: Image.asset(
-                                                            genuineSynapseLocus()
-                                                                .piedPiperSoulsebeardWhiImgasBP
-                                                                .where((e) =>
-                                                                    e.mutantConfessions ==
-                                                                    feelingExchangePortalemotionItem
-                                                                        .homunculusHugsfessionsID)
-                                                                .toList()
-                                                                .firstOrNull!
-                                                                .dustStormSoulsgasMaskBonim
-                                                                .firstOrNull!,
-                                                          ).image,
-                                                        ),
+                                                            fit: BoxFit.cover,
+                                                            image: AssetImage(
+                                                              genuineSynapseLocus()
+                                                                  .piedPiperSoulsebeardWhiImgasBP
+                                                                  .where((e) =>
+                                                                      e.mutantConfessions ==
+                                                                      feelingExchangePortalemotionItem
+                                                                          .emotionalBondingSpot)
+                                                                  .toList()
+                                                                  .firstOrNull!
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .firstOrNull!,
+                                                            )),
                                                       ),
                                                     ),
                                                   ],
@@ -443,11 +400,10 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                     height: 169.0,
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                        image: Image.asset(
-                                          'assets/images/embracedSilences.png',
-                                        ).image,
-                                      ),
+                                          fit: BoxFit.cover,
+                                          image: AssetImage(
+                                            'assets/images/embracedSilences.png',
+                                          )),
                                     ),
                                   ),
                                 ),
@@ -468,24 +424,18 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
             Align(
               alignment: AlignmentDirectional(0.98, 0.65),
               child: InkWell(
-                splashColor: Colors.transparent,
-                focusColor: Colors.transparent,
-                hoverColor: Colors.transparent,
-                highlightColor: Colors.transparent,
                 onTap: () async {
-   
-                  Navigator.of(context).pushNamed('/mendingButterflies');
+                  Navigator.of(context).pushNamed('${'4bde32a8c6b074d06f7efa3fe66905406691a18f64994d047e292a68e777933f'.fromPetalWhisper()}');
                 },
                 child: Container(
                   width: 120.0,
                   height: 116.0,
                   decoration: BoxDecoration(
                     image: DecorationImage(
-                      fit: BoxFit.cover,
-                      image: Image.asset(
-                        'assets/images/whisperToSoulmates.png',
-                      ).image,
-                    ),
+                        fit: BoxFit.cover,
+                        image: AssetImage(
+                          'assets/images/whisperToSoulmates.png',
+                        )),
                   ),
                 ),
               ),

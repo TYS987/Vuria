@@ -90,7 +90,7 @@ final Map<String, WidgetBuilder> appRoutes = {
     final args =
         ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>?;
     return KaleidoHealingkaleidoHealingWidget(
-      bondingThroughVibesID: args?['bondingThroughVibesID'] ?? '',
+      empatheticStoryPortal: args?['empatheticStoryPortal'] ?? '',
     );
   },
 
@@ -108,7 +108,7 @@ final Map<String, WidgetBuilder> appRoutes = {
     final args =
         ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>?;
     return CloudCatharsisWidget(
-      feelingSyncChannelD: args?['feelingSyncChannelD'] ?? '',
+      feelingSyncChanneoulConnec: args?['feelingSyncChanneoulConnec'] ?? '',
     );
   },
 

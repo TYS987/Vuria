@@ -1,14 +1,11 @@
 import 'dart:io';
-
 import 'package:image_picker/image_picker.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class NeuralEmpathyPulseWidget extends StatefulWidget {
@@ -90,16 +87,16 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -114,10 +111,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
+                   
                         onTap: () async {
                           Navigator.pop(context);
                         },
@@ -127,9 +121,9 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -140,26 +134,12 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('spffIONl1aQbMtLSCO2y0Q==')}',
-                        style: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .override(
-                              font: GoogleFonts.poppins(
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
-                              color: Color(0xE6000000),
-                              fontSize: 20.0,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
+                        style: TextStyle(
+                          color: Color(0xE6000000),
+                          fontSize: 20.0,
+                          letterSpacing: 0.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ],
@@ -196,9 +176,9 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     'assets/images/biofeedbackWhispers.png',
-                                                  ).image,
+                                                  ),
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(12.0),
@@ -258,7 +238,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                   height: 24.0,
                                                   decoration: BoxDecoration(
                                                     color: Colors.black
-                                                        .withOpacity(0.5),
+                                                        .withValues(alpha: 0.5),
                                                     shape: BoxShape.circle,
                                                   ),
                                                   child: Icon(
@@ -284,26 +264,12 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w600,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Color(0xE6000000),
-                                  fontSize: 18.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.w600,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                            style: TextStyle(
+                              color: Color(0xE6000000),
+                              fontSize: 18.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
                         ),
                       ),
@@ -369,7 +335,8 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                 width: double.infinity,
                                                 height: double.infinity,
                                                 decoration: BoxDecoration(
-                                                 color: const Color(0xFFFFFFFF),
+                                                  color:
+                                                      const Color(0xFFFFFFFF),
                                                   borderRadius:
                                                       BorderRadius.circular(
                                                           40.0),
@@ -384,11 +351,11 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                     decoration: BoxDecoration(
                                                       image: DecorationImage(
                                                         fit: BoxFit.cover,
-                                                        image: Image.asset(
+                                                        image: AssetImage(
                                                           empathyWavelengthMatchItem
                                                               .dustStormSoulsgasMaskBonim
                                                               .firstOrNull!,
-                                                        ).image,
+                                                        ),
                                                       ),
                                                       borderRadius:
                                                           BorderRadius.circular(
@@ -396,7 +363,6 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                     ),
                                                   ),
                                                 ),
-                                            
                                               ),
                                             ),
                                           );
@@ -406,7 +372,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                               digitalHugMatrix =
                                                   empathyWavelengthMatchItem
                                                       .mutantConfessions;
-                                              safeSetState(() {});
+                                              setState(() {});
                                             },
                                             child: Container(
                                               width: 40.0,
@@ -414,11 +380,11 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     empathyWavelengthMatchItem
                                                         .dustStormSoulsgasMaskBonim
                                                         .lastOrNull!,
-                                                  ).image,
+                                                  ),
                                                 ),
                                               ),
                                             ),
@@ -440,32 +406,18 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('gY3TOO94yY1nS7+6dYHI2Q==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w600,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Color(0xE6000000),
-                                  fontSize: 18.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.w600,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                            style: TextStyle(
+                              color: Color(0xE6000000),
+                              fontSize: 18.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.w600,
+                            ),
                           ),
                         ),
                       ),
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(
-                            12.0, 0.0, 12.0, 0.0),
+                            12.0, 8.0, 12.0, 0.0),
                         child: Container(
                           width: double.infinity,
                           height: 104.0,
@@ -489,52 +441,13 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
-                                  labelStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .labelMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
-                                        fontSize: 16.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                  hintText: 'say something···',
-                                  hintStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .labelMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
-                                        color: Color(0xFF919191),
-                                        fontSize: 16.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
+                                  hintText: '${'b7834ff58995678d895e51ba7f9120b1917379eda63a55528a3289ab5299f88e'.fromPetalWhisper()}',
+                                  hintStyle: TextStyle(
+                                    color: Color(0xFF919191),
+                                    fontSize: 16.0,
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                                   enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: Color(0x00000000),
@@ -551,18 +464,14 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                   ),
                                   errorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: heartMindVentralTheme
-                                          .of(context)
-                                          .error,
+                                      color: Colors.red,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   focusedErrorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: heartMindVentralTheme
-                                          .of(context)
-                                          .error,
+                                      color: Colors.red,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -570,36 +479,13 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                   filled: true,
                                   fillColor: Colors.transparent,
                                 ),
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Color(0xFF000000),
-                                      fontSize: 16.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                cursorColor: heartMindVentralTheme
-                                    .of(context)
-                                    .primaryText,
-                                validator: emotionalPulsar.asValidator(context),
+                                style: TextStyle(
+                                  color: Color(0xFF000000),
+                                  fontSize: 16.0,
+                                  letterSpacing: 0.0,
+                                ),
+                                cursorColor: Colors.white,
+             
                                 maxLines: null,
                               ),
                             ),
@@ -610,10 +496,6 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                         padding: EdgeInsetsDirectional.fromSTEB(
                             12.0, 36.0, 12.0, 0.0),
                         child: InkWell(
-                          splashColor: Colors.transparent,
-                          focusColor: Colors.transparent,
-                          hoverColor: Colors.transparent,
-                          highlightColor: Colors.transparent,
                           onTap: () async {
                             if (vulnerableEclipse.isNotEmpty &&
                                 digitalHugMatrix != null &&
@@ -621,22 +503,21 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                               genuineSynapseLocus()
                                   .addToLooperTearscitorSolaceD(
                                       BioluminescentEmpathyDTStruct(
-                                marianaTrenchTherapID:
+                                empatheticVoiceCorner:
                                     genuineSynapseLocus().emotionalSupportT,
-                                pressureDepthConfessionsWID:
-                                    genuineSynapseLocus()
-                                        .looperTearscitorSolaceD
-                                        .length,
-                                anglerfishLightTrustolaceID: digitalHugMatrix,
+                                friendshipResonanceSpot: genuineSynapseLocus()
+                                    .looperTearscitorSolaceD
+                                    .length,
+                                genuineSharingCorner: digitalHugMatrix,
                                 brinePoolSolacenSongTearsI: vulnerableEclipse
                                     .map((file) => file.path)
                                     .toList(),
-                                grandfatherClockTherapyT:
+                                expressiveFriendshipSpace:
                                     authenticNadir.text.trim(),
                                 butterflyEffectConfideHX: [
                                   '${VuriaEmotionCipher.unveilEmotion('0tKNQYcbsIljT7u+cYXM3Q==')}'
                                 ],
-                                compassionateListenerTiem: DateTime.now(),
+                                heartfeltInteractionCorner: DateTime.now(),
                               ));
                               genuineSynapseLocus().update(() {});
                               authenticNadir?.clear;
@@ -673,32 +554,16 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
                               '${VuriaEmotionCipher.unveilEmotion('sIfRKetl2I1nS7+6dYHI2Q==')}',
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: (vulnerableEclipse.isNotEmpty &&
-                                            digitalHugMatrix != null &&
-                                            authenticNadir.text
-                                                .trim()
-                                                .isNotEmpty)
-                                        ? Color.fromARGB(230, 255, 255, 255)
-                                        : Color(0xE6FFFFFF),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                              style: TextStyle(
+                                fontWeight: FontWeight.bold,
+                                color: (vulnerableEclipse.isNotEmpty &&
+                                        digitalHugMatrix != null &&
+                                        authenticNadir.text.trim().isNotEmpty)
+                                    ? Color.fromARGB(230, 255, 255, 255)
+                                    : Color(0xE6FFFFFF),
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                              ),
                             ),
                           ),
                         ),

@@ -16,7 +16,7 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
         _dustStormSoulsgasMaskBonim = dustStormSoulsgasMaskBonim,
         _sunburnedSolacewendigoComforhx = sunburnedSolacewendigoComforhx;
 
-  // "mutantConfessions" field.
+
   int? _mutantConfessions;
   int get mutantConfessions => _mutantConfessions ?? 0;
   set mutantConfessions(int? val) => _mutantConfessions = val;

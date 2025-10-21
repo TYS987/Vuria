@@ -1,3 +1,4 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -10,9 +11,6 @@ import 'package:provider/provider.dart';
 
 class PendulumTrustWidget extends StatefulWidget {
   const PendulumTrustWidget({super.key});
-
-
-
   @override
   State<PendulumTrustWidget> createState() => _PendulumTrustWidgetState();
 }
@@ -41,7 +39,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Stack(
           children: [
             Align(
@@ -52,9 +50,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: Image.asset(
+                    image: AssetImage(
                       'assets/images/comfortableListening.png',
-                    ).image,
+                    ),
                   ),
                 ),
                 child: Column(
@@ -73,9 +71,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.cover,
-                                image: Image.asset(
+                                image: AssetImage(
                                   'assets/images/duscoverprovd.png',
-                                ).image,
+                                ),
                               ),
                             ),
                           ),
@@ -86,13 +84,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     0.0, 0.0, 10.0, 0.0),
                                 child: InkWell(
-                                  splashColor: Colors.transparent,
-                                  focusColor: Colors.transparent,
-                                  hoverColor: Colors.transparent,
-                                  highlightColor: Colors.transparent,
                                   onTap: () async {
-                                    Navigator.of(context)
-                                        .pushNamed('/neuralEmpathyPulse');
+                                    Navigator.of(context).pushNamed(
+                                        '${'e1dc5011756527bd3cd8fbb6a5d06382deafce64fbbc398eb2fd98cd63e5c5fc'.fromPetalWhisper()}');
                                   },
                                   child: Container(
                                     width: 40.0,
@@ -100,22 +94,18 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                         fit: BoxFit.contain,
-                                        image: Image.asset(
+                                        image: AssetImage(
                                           'assets/images/tagEmotionalThemes.png',
-                                        ).image,
+                                        ),
                                       ),
                                     ),
                                   ),
                                 ),
                               ),
                               InkWell(
-                                splashColor: Colors.transparent,
-                                focusColor: Colors.transparent,
-                                hoverColor: Colors.transparent,
-                                highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  Navigator.of(context)
-                                      .pushNamed('/sentimentMosaic');
+                                  Navigator.of(context).pushNamed(
+                                      '${'dd3d72be965d0b39af73fc0fc0c42e147405765ce07c2ef627ef2ea3d60a71ea'.fromPetalWhisper()}');
                                 },
                                 child: Container(
                                   width: 40.0,
@@ -123,9 +113,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
-                                      image: Image.asset(
+                                      image: AssetImage(
                                         'assets/images/compassComforttss.png',
-                                      ).image,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -147,7 +137,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                     .necronomiconHealingComfortU[
                                         genuineSynapseLocus().emotionalSupportT]
                                     .corporateDroneHugsB
-                                    .contains(e.marianaTrenchTherapID))
+                                    .contains(e.empatheticVoiceCorner))
                                 .toList();
 
                             return ListView.separated(
@@ -182,9 +172,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.contain,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     'assets/images/prismLoneliness.png',
-                                                  ).image,
+                                                  ),
                                                 ),
                                               ),
                                               child: Padding(
@@ -203,14 +193,14 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                       onTap: () async {
                                                         Navigator.pushNamed(
                                                           context,
-                                                          '/kaleidoHealingkaleidoHealing',
+                                                          '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.fromPetalWhisper()}',
                                                           arguments: {
-                                                            'bondingThroughVibesID': genuineSynapseLocus()
+                                                            '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}': genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
                                                                     e.loFiSoulmatesComfortT ==
                                                                     emotionalAlignmentToolItem
-                                                                        .marianaTrenchTherapID)
+                                                                        .empatheticVoiceCorner)
                                                                 .toList()
                                                                 .firstOrNull!
                                                                 .loFiSoulmatesComfortT
@@ -225,17 +215,17 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           image:
                                                               DecorationImage(
                                                             fit: BoxFit.cover,
-                                                            image: Image.asset(
+                                                            image: AssetImage(
                                                               genuineSynapseLocus()
                                                                   .necronomiconHealingComfortU
                                                                   .where((e) =>
                                                                       e.loFiSoulmatesComfortT ==
                                                                       emotionalAlignmentToolItem
-                                                                          .marianaTrenchTherapID)
+                                                                          .empatheticVoiceCorner)
                                                                   .toList()
                                                                   .firstOrNull!
                                                                   .neuralLaceConfessionsI,
-                                                            ).image,
+                                                            ),
                                                           ),
                                                           borderRadius:
                                                               BorderRadius
@@ -273,34 +263,31 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                     .where((e) =>
                                                                         e.loFiSoulmatesComfortT ==
                                                                         emotionalAlignmentToolItem
-                                                                            .marianaTrenchTherapID)
+                                                                            .empatheticVoiceCorner)
                                                                     .toList()
                                                                     .firstOrNull
                                                                     ?.phoenixTearsTherapyN,
                                                                 '${VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q==')}',
                                                               ),
-                                                              style:
-                                                                  heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .override(
-                                                                        fontFamily:
-                                                                            'PingFang',
-                                                                        color: Color(
-                                                                            0xE6000000),
-                                                                        letterSpacing:
-                                                                            0.0,
-                                                                        fontWeight:
-                                                                            FontWeight.bold,
-                                                                      ),
+                                                              style: TextStyle(
+                                                                fontFamily:
+                                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                color: Color(
+                                                                    0xE6000000),
+                                                                letterSpacing:
+                                                                    0.0,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .bold,
+                                                              ),
                                                             ),
                                                             Text(
                                                               valueOrDefault<
                                                                   String>(
                                                                 dateTimeFormat(
-                                                                    'y.MM.dd',
+                                                                    '${'b9f86b9b04e4cf5b076e69284fd17102'.fromPetalWhisper()}',
                                                                     emotionalAlignmentToolItem
-                                                                        .compassionateListenerTiem),
+                                                                        .heartfeltInteractionCorner),
                                                                 '${VuriaEmotionCipher.unveilEmotion('0NKPeKQnj6pecLC1eo7H1g==')}',
                                                               ),
                                                               style:
@@ -309,7 +296,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                       .bodyMedium
                                                                       .override(
                                                                         fontFamily:
-                                                                            'PingFang',
+                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                                         color: Color(
                                                                             0xB3000000),
                                                                         fontSize:
@@ -330,18 +317,18 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.asset(
+                                                          image: AssetImage(
                                                             genuineSynapseLocus()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
                                                                     e.mutantConfessions ==
                                                                     emotionalAlignmentToolItem
-                                                                        .anglerfishLightTrustolaceID)
+                                                                        .genuineSharingCorner)
                                                                 .toList()
                                                                 .firstOrNull!
                                                                 .dustStormSoulsgasMaskBonim
                                                                 .firstOrNull!,
-                                                          ).image,
+                                                          ),
                                                         ),
                                                       ),
                                                     ),
@@ -352,7 +339,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                             if (genuineSynapseLocus()
                                                     .emotionalSupportT !=
                                                 emotionalAlignmentToolItem
-                                                    .marianaTrenchTherapID)
+                                                    .empatheticVoiceCorner)
                                               Builder(
                                                 builder: (context) {
                                                   if (genuineSynapseLocus()
@@ -366,7 +353,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           ?.corporateDroneHugsF
                                                           .contains(
                                                               emotionalAlignmentToolItem
-                                                                  .marianaTrenchTherapID) ??
+                                                                  .empatheticVoiceCorner) ??
                                                       false) {
                                                     return InkWell(
                                                       onTap: () async {
@@ -378,7 +365,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             ..updateCorporateDroneHugsF(
                                                               (e) => e.remove(
                                                                   emotionalAlignmentToolItem
-                                                                      .marianaTrenchTherapID),
+                                                                      .empatheticVoiceCorner),
                                                             ),
                                                         );
                                                         genuineSynapseLocus()
@@ -392,9 +379,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           image:
                                                               DecorationImage(
                                                             fit: BoxFit.cover,
-                                                            image: Image.asset(
+                                                            image: AssetImage(
                                                               'assets/images/origamiForgiveness.png',
-                                                            ).image,
+                                                            ),
                                                           ),
                                                         ),
                                                       ),
@@ -410,7 +397,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             ..updateCorporateDroneHugsF(
                                                               (e) => e.add(
                                                                   emotionalAlignmentToolItem
-                                                                      .marianaTrenchTherapID),
+                                                                      .empatheticVoiceCorner),
                                                             ),
                                                         );
                                                         safeSetState(() {});
@@ -423,9 +410,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                           image:
                                                               DecorationImage(
                                                             fit: BoxFit.cover,
-                                                            image: Image.asset(
+                                                            image: AssetImage(
                                                               'assets/images/willowResilience.png',
-                                                            ).image,
+                                                            ),
                                                           ),
                                                         ),
                                                       ),
@@ -442,11 +429,11 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                             onTap: () async {
                                               Navigator.pushNamed(
                                                 context,
-                                                '/thunderstormPassion',
+                                                '${'b71e5a4bc28a410497bbedc15c1fbdf22c0a7a8f82f16647f7a41e07cb8a25a0'.fromPetalWhisper()}',
                                                 arguments: {
-                                                  'soulConnectionMatrix':
+                                                  '${'2b3cd660daf164f9d7336075af994721835d89fd90949b1d35dda7c65229eff6'.fromPetalWhisper()}':
                                                       emotionalAlignmentToolItem
-                                                          .pressureDepthConfessionsWID
+                                                          .friendshipResonanceSpot
                                                 },
                                               );
                                             },
@@ -456,11 +443,11 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     emotionalAlignmentToolItem
                                                         .brinePoolSolacenSongTearsI
                                                         .firstOrNull!,
-                                                  ).image,
+                                                  ),
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(16.0),
@@ -500,7 +487,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                     child: Text(
                                                       valueOrDefault<String>(
                                                         emotionalAlignmentToolItem
-                                                            .grandfatherClockTherapyT,
+                                                            .expressiveFriendshipSpace,
                                                         '',
                                                       ),
                                                       style:
@@ -538,7 +525,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   if (genuineSynapseLocus()
                                                           .emotionalSupportT !=
                                                       emotionalAlignmentToolItem
-                                                          .marianaTrenchTherapID)
+                                                          .empatheticVoiceCorner)
                                                     Padding(
                                                       padding:
                                                           EdgeInsetsDirectional
@@ -576,7 +563,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                       SteampunkConfidantWidget(
                                                                     mutualFeelingBridgeID:
                                                                         emotionalAlignmentToolItem
-                                                                            .marianaTrenchTherapID,
+                                                                            .empatheticVoiceCorner,
                                                                     sharedEmotionVortex:
                                                                         0,
                                                                   ),
@@ -595,10 +582,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                             image:
                                                                 DecorationImage(
                                                               fit: BoxFit.cover,
-                                                              image:
-                                                                  Image.asset(
+                                                              image: AssetImage(
                                                                 'assets/images/mirageAffection.png',
-                                                              ).image,
+                                                              ),
                                                             ),
                                                           ),
                                                         ),

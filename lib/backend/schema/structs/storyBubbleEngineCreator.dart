@@ -9,91 +9,90 @@ import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
   LondonFogAIetWatchPhoneRMStruct({
-    int? pocketWatchPhoneagramID,
-    int? knightCyborgcastleCloudID,
+    int? emotionalConnectionPortal,
+    int? authenticInteractionLounge,
     DateTime? moatMalwarejoustingJav,
-    List<String>? cathedralCodeplagueythonhx,
-    List<int>? neoNeolithicquantumQuillHX,
-    String? gladiatorGoogleetflixT,
-  })  : _pocketWatchPhoneagramID = pocketWatchPhoneagramID,
-        _knightCyborgcastleCloudID = knightCyborgcastleCloudID,
+    List<String>? emotionalExpressionSpot,
+    List<int>? neoNeolithicquantumQuill,
+    String? vuriaFriendshipSpace,
+  })  : _emotionalConnectionPortal = emotionalConnectionPortal,
+        _authenticInteractionLounge = authenticInteractionLounge,
         _moatMalwarejoustingJav = moatMalwarejoustingJav,
-        _cathedralCodeplagueythonhx = cathedralCodeplagueythonhx,
-        _neoNeolithicquantumQuillHX = neoNeolithicquantumQuillHX,
-        _gladiatorGoogleetflixT = gladiatorGoogleetflixT;
+        _emotionalExpressionSpot = emotionalExpressionSpot,
+        _neoNeolithicquantumQuill = neoNeolithicquantumQuill,
+        _vuriaFriendshipSpace = vuriaFriendshipSpace;
 
-  // "pocketWatchPhoneagramID" field.
-  int? _pocketWatchPhoneagramID;
-  int get pocketWatchPhoneagramID => _pocketWatchPhoneagramID ?? 0;
-  set pocketWatchPhoneagramID(int? val) => _pocketWatchPhoneagramID = val;
 
-  void incrementPocketWatchPhoneagramID(int amount) =>
-      pocketWatchPhoneagramID = pocketWatchPhoneagramID + amount;
+  int? _emotionalConnectionPortal;
+  int get emotionalConnectionPortal => _emotionalConnectionPortal ?? 0;
+  set emotionalConnectionPortal(int? val) => _emotionalConnectionPortal = val;
 
-  bool hasPocketWatchPhoneagramID() => _pocketWatchPhoneagramID != null;
+  void incrementemotionalConnectionPortal(int amount) =>
+      emotionalConnectionPortal = emotionalConnectionPortal + amount;
 
-  // "knightCyborgcastleCloudID" field.
-  int? _knightCyborgcastleCloudID;
-  int get knightCyborgcastleCloudID => _knightCyborgcastleCloudID ?? 0;
-  set knightCyborgcastleCloudID(int? val) => _knightCyborgcastleCloudID = val;
+  bool hasemotionalConnectionPortal() => _emotionalConnectionPortal != null;
 
-  void incrementKnightCyborgcastleCloudID(int amount) =>
-      knightCyborgcastleCloudID = knightCyborgcastleCloudID + amount;
+ 
+  int? _authenticInteractionLounge;
+  int get authenticInteractionLounge => _authenticInteractionLounge ?? 0;
+  set authenticInteractionLounge(int? val) => _authenticInteractionLounge = val;
 
-  bool hasKnightCyborgcastleCloudID() => _knightCyborgcastleCloudID != null;
+  void incrementauthenticInteractionLounge(int amount) =>
+      authenticInteractionLounge = authenticInteractionLounge + amount;
 
-  // "moatMalwarejoustingJav" field.
+  bool hasauthenticInteractionLounge() => _authenticInteractionLounge != null;
+
   DateTime? _moatMalwarejoustingJav;
   DateTime? get moatMalwarejoustingJav => _moatMalwarejoustingJav;
   set moatMalwarejoustingJav(DateTime? val) => _moatMalwarejoustingJav = val;
 
   bool hasMoatMalwarejoustingJav() => _moatMalwarejoustingJav != null;
 
-  // "cathedralCodeplagueythonhx" field.
-  List<String>? _cathedralCodeplagueythonhx;
-  List<String> get cathedralCodeplagueythonhx =>
-      _cathedralCodeplagueythonhx ?? const [];
-  set cathedralCodeplagueythonhx(List<String>? val) =>
-      _cathedralCodeplagueythonhx = val;
 
-  void updateCathedralCodeplagueythonhx(Function(List<String>) updateFn) {
-    updateFn(_cathedralCodeplagueythonhx ??= []);
+  List<String>? _emotionalExpressionSpot;
+  List<String> get emotionalExpressionSpot =>
+      _emotionalExpressionSpot ?? const [];
+  set emotionalExpressionSpot(List<String>? val) =>
+      _emotionalExpressionSpot = val;
+
+  void updateemotionalExpressionSpot(Function(List<String>) updateFn) {
+    updateFn(_emotionalExpressionSpot ??= []);
   }
 
-  bool hasCathedralCodeplagueythonhx() => _cathedralCodeplagueythonhx != null;
+  bool hasemotionalExpressionSpot() => _emotionalExpressionSpot != null;
 
-  // "neoNeolithicquantumQuillHX" field.
-  List<int>? _neoNeolithicquantumQuillHX;
-  List<int> get neoNeolithicquantumQuillHX =>
-      _neoNeolithicquantumQuillHX ?? const [];
-  set neoNeolithicquantumQuillHX(List<int>? val) =>
-      _neoNeolithicquantumQuillHX = val;
 
-  void updateNeoNeolithicquantumQuillHX(Function(List<int>) updateFn) {
-    updateFn(_neoNeolithicquantumQuillHX ??= []);
+  List<int>? _neoNeolithicquantumQuill;
+  List<int> get neoNeolithicquantumQuill =>
+      _neoNeolithicquantumQuill ?? const [];
+  set neoNeolithicquantumQuill(List<int>? val) =>
+      _neoNeolithicquantumQuill = val;
+
+  void updateneoNeolithicquantumQuill(Function(List<int>) updateFn) {
+    updateFn(_neoNeolithicquantumQuill ??= []);
   }
 
-  bool hasNeoNeolithicquantumQuillHX() => _neoNeolithicquantumQuillHX != null;
+  bool hasneoNeolithicquantumQuill() => _neoNeolithicquantumQuill != null;
 
-  // "gladiatorGoogleetflixT" field.
-  String? _gladiatorGoogleetflixT;
-  String get gladiatorGoogleetflixT => _gladiatorGoogleetflixT ?? '';
-  set gladiatorGoogleetflixT(String? val) => _gladiatorGoogleetflixT = val;
 
-  bool hasGladiatorGoogleetflixT() => _gladiatorGoogleetflixT != null;
+  String? _vuriaFriendshipSpace;
+  String get vuriaFriendshipSpace => _vuriaFriendshipSpace ?? '';
+  set vuriaFriendshipSpace(String? val) => _vuriaFriendshipSpace = val;
+
+  bool hasvuriaFriendshipSpace() => _vuriaFriendshipSpace != null;
 
   static LondonFogAIetWatchPhoneRMStruct fromMap(Map<String, dynamic> data) =>
       LondonFogAIetWatchPhoneRMStruct(
-        pocketWatchPhoneagramID:
-            castToType<int>(data['pocketWatchPhoneagramID']),
-        knightCyborgcastleCloudID:
-            castToType<int>(data['knightCyborgcastleCloudID']),
+        emotionalConnectionPortal:
+            castToType<int>(data['emotionalConnectionPortal']),
+        authenticInteractionLounge:
+            castToType<int>(data['authenticInteractionLounge']),
         moatMalwarejoustingJav: data['moatMalwarejoustingJav'] as DateTime?,
-        cathedralCodeplagueythonhx:
-            getDataList(data['cathedralCodeplagueythonhx']),
-        neoNeolithicquantumQuillHX:
-            getDataList(data['neoNeolithicquantumQuillHX']),
-        gladiatorGoogleetflixT: data['gladiatorGoogleetflixT'] as String?,
+        emotionalExpressionSpot:
+            getDataList(data['emotionalExpressionSpot']),
+        neoNeolithicquantumQuill:
+            getDataList(data['neoNeolithicquantumQuill']),
+        vuriaFriendshipSpace: data['vuriaFriendshipSpace'] as String?,
       );
 
   static LondonFogAIetWatchPhoneRMStruct? maybeFromMap(dynamic data) => data
@@ -102,40 +101,40 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
       : null;
 
   Map<String, dynamic> toMap() => {
-        'pocketWatchPhoneagramID': _pocketWatchPhoneagramID,
-        'knightCyborgcastleCloudID': _knightCyborgcastleCloudID,
+        'emotionalConnectionPortal': _emotionalConnectionPortal,
+        'authenticInteractionLounge': _authenticInteractionLounge,
         'moatMalwarejoustingJav': _moatMalwarejoustingJav,
-        'cathedralCodeplagueythonhx': _cathedralCodeplagueythonhx,
-        'neoNeolithicquantumQuillHX': _neoNeolithicquantumQuillHX,
-        'gladiatorGoogleetflixT': _gladiatorGoogleetflixT,
+        'emotionalExpressionSpot': _emotionalExpressionSpot,
+        'neoNeolithicquantumQuill': _neoNeolithicquantumQuill,
+        'vuriaFriendshipSpace': _vuriaFriendshipSpace,
       }.withoutNulls;
 
   @override
   Map<String, dynamic> toSerializableMap() => {
-        'pocketWatchPhoneagramID': serializeParam(
-          _pocketWatchPhoneagramID,
+        'emotionalConnectionPortal': serializeParam(
+          _emotionalConnectionPortal,
           ParamType.int,
         ),
-        'knightCyborgcastleCloudID': serializeParam(
-          _knightCyborgcastleCloudID,
+        'authenticInteractionLounge': serializeParam(
+          _authenticInteractionLounge,
           ParamType.int,
         ),
         'moatMalwarejoustingJav': serializeParam(
           _moatMalwarejoustingJav,
           ParamType.DateTime,
         ),
-        'cathedralCodeplagueythonhx': serializeParam(
-          _cathedralCodeplagueythonhx,
+        'emotionalExpressionSpot': serializeParam(
+          _emotionalExpressionSpot,
           ParamType.String,
           isList: true,
         ),
-        'neoNeolithicquantumQuillHX': serializeParam(
-          _neoNeolithicquantumQuillHX,
+        'neoNeolithicquantumQuill': serializeParam(
+          _neoNeolithicquantumQuill,
           ParamType.int,
           isList: true,
         ),
-        'gladiatorGoogleetflixT': serializeParam(
-          _gladiatorGoogleetflixT,
+        'vuriaFriendshipSpace': serializeParam(
+          _vuriaFriendshipSpace,
           ParamType.String,
         ),
       }.withoutNulls;
@@ -143,13 +142,13 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
   static LondonFogAIetWatchPhoneRMStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       LondonFogAIetWatchPhoneRMStruct(
-        pocketWatchPhoneagramID: deserializeParam(
-          data['pocketWatchPhoneagramID'],
+        emotionalConnectionPortal: deserializeParam(
+          data['emotionalConnectionPortal'],
           ParamType.int,
           false,
         ),
-        knightCyborgcastleCloudID: deserializeParam(
-          data['knightCyborgcastleCloudID'],
+        authenticInteractionLounge: deserializeParam(
+          data['authenticInteractionLounge'],
           ParamType.int,
           false,
         ),
@@ -158,18 +157,18 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
           ParamType.DateTime,
           false,
         ),
-        cathedralCodeplagueythonhx: deserializeParam<String>(
-          data['cathedralCodeplagueythonhx'],
+        emotionalExpressionSpot: deserializeParam<String>(
+          data['emotionalExpressionSpot'],
           ParamType.String,
           true,
         ),
-        neoNeolithicquantumQuillHX: deserializeParam<int>(
-          data['neoNeolithicquantumQuillHX'],
+        neoNeolithicquantumQuill: deserializeParam<int>(
+          data['neoNeolithicquantumQuill'],
           ParamType.int,
           true,
         ),
-        gladiatorGoogleetflixT: deserializeParam(
-          data['gladiatorGoogleetflixT'],
+        vuriaFriendshipSpace: deserializeParam(
+          data['vuriaFriendshipSpace'],
           ParamType.String,
           false,
         ),
@@ -182,36 +181,36 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
   bool operator ==(Object other) {
     const listEquality = ListEquality();
     return other is LondonFogAIetWatchPhoneRMStruct &&
-        pocketWatchPhoneagramID == other.pocketWatchPhoneagramID &&
-        knightCyborgcastleCloudID == other.knightCyborgcastleCloudID &&
+        emotionalConnectionPortal == other.emotionalConnectionPortal &&
+        authenticInteractionLounge == other.authenticInteractionLounge &&
         moatMalwarejoustingJav == other.moatMalwarejoustingJav &&
         listEquality.equals(
-            cathedralCodeplagueythonhx, other.cathedralCodeplagueythonhx) &&
+            emotionalExpressionSpot, other.emotionalExpressionSpot) &&
         listEquality.equals(
-            neoNeolithicquantumQuillHX, other.neoNeolithicquantumQuillHX) &&
-        gladiatorGoogleetflixT == other.gladiatorGoogleetflixT;
+            neoNeolithicquantumQuill, other.neoNeolithicquantumQuill) &&
+        vuriaFriendshipSpace == other.vuriaFriendshipSpace;
   }
 
   @override
   int get hashCode => const ListEquality().hash([
-        pocketWatchPhoneagramID,
-        knightCyborgcastleCloudID,
+        emotionalConnectionPortal,
+        authenticInteractionLounge,
         moatMalwarejoustingJav,
-        cathedralCodeplagueythonhx,
-        neoNeolithicquantumQuillHX,
-        gladiatorGoogleetflixT
+        emotionalExpressionSpot,
+        neoNeolithicquantumQuill,
+        vuriaFriendshipSpace
       ]);
 }
 
 LondonFogAIetWatchPhoneRMStruct createLondonFogAIetWatchPhoneRMStruct({
-  int? pocketWatchPhoneagramID,
-  int? knightCyborgcastleCloudID,
+  int? emotionalConnectionPortal,
+  int? authenticInteractionLounge,
   DateTime? moatMalwarejoustingJav,
-  String? gladiatorGoogleetflixT,
+  String? vuriaFriendshipSpace,
 }) =>
     LondonFogAIetWatchPhoneRMStruct(
-      pocketWatchPhoneagramID: pocketWatchPhoneagramID,
-      knightCyborgcastleCloudID: knightCyborgcastleCloudID,
+      emotionalConnectionPortal: emotionalConnectionPortal,
+      authenticInteractionLounge: authenticInteractionLounge,
       moatMalwarejoustingJav: moatMalwarejoustingJav,
-      gladiatorGoogleetflixT: gladiatorGoogleetflixT,
+      vuriaFriendshipSpace: vuriaFriendshipSpace,
     );

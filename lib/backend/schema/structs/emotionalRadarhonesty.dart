@@ -9,83 +9,83 @@ import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
   ServerFarmMeditationSolaceMoreStruct({
-    int? philosophersStoneHealingID,
-    int? alchemicalWeddingHomeID,
-    String? mercurialEmpathyTitle,
-    DateTime? saltTearsTherapyTiem,
-    List<int>? magnumOpusComfortMorePope,
+    int? emotionalExchangePlatform,
+    int? resonanceChatLounge,
+    String? friendshipResonanceHub,
+    DateTime? intimateSharingCorner,
+    List<int>? genuineFeelingNetwork,
 
 
-    int? homunculusHugsfessionsID,
+    int? emotionalBondingSpot,
     List<String>? magnumOpusComfort,
-    String? homunculusHugsImag,
-  })  : _philosophersStoneHealingID = philosophersStoneHealingID,
-        _alchemicalWeddingHomeID = alchemicalWeddingHomeID,
-        _mercurialEmpathyTitle = mercurialEmpathyTitle,
-        _saltTearsTherapyTiem = saltTearsTherapyTiem,
-        _magnumOpusComfortMorePope = magnumOpusComfortMorePope,
-        _homunculusHugsfessionsID = homunculusHugsfessionsID,
+    String? genuineEmotionBoard,
+  })  : _emotionalExchangePlatform = emotionalExchangePlatform,
+        _resonanceChatLounge = resonanceChatLounge,
+        _friendshipResonanceHub = friendshipResonanceHub,
+        _intimateSharingCorner = intimateSharingCorner,
+        _genuineFeelingNetwork = genuineFeelingNetwork,
+        _emotionalBondingSpot = emotionalBondingSpot,
         _magnumOpusComfort = magnumOpusComfort,
-        _homunculusHugsImag = homunculusHugsImag;
+        _genuineEmotionBoard = genuineEmotionBoard;
 
-  // "philosophersStoneHealingID" field.
-  int? _philosophersStoneHealingID;
-  int get philosophersStoneHealingID => _philosophersStoneHealingID ?? 0;
-  set philosophersStoneHealingID(int? val) => _philosophersStoneHealingID = val;
 
-  void incrementPhilosophersStoneHealingID(int amount) =>
-      philosophersStoneHealingID = philosophersStoneHealingID + amount;
+  int? _emotionalExchangePlatform;
+  int get emotionalExchangePlatform => _emotionalExchangePlatform ?? 0;
+  set emotionalExchangePlatform(int? val) => _emotionalExchangePlatform = val;
 
-  bool hasPhilosophersStoneHealingID() => _philosophersStoneHealingID != null;
+  void incrementemotionalExchangePlatform(int amount) =>
+      emotionalExchangePlatform = emotionalExchangePlatform + amount;
 
-  // "alchemicalWeddingHomeID" field.
-  int? _alchemicalWeddingHomeID;
-  int get alchemicalWeddingHomeID => _alchemicalWeddingHomeID ?? 0;
-  set alchemicalWeddingHomeID(int? val) => _alchemicalWeddingHomeID = val;
+  bool hasemotionalExchangePlatform() => _emotionalExchangePlatform != null;
 
-  void incrementAlchemicalWeddingHomeID(int amount) =>
-      alchemicalWeddingHomeID = alchemicalWeddingHomeID + amount;
 
-  bool hasAlchemicalWeddingHomeID() => _alchemicalWeddingHomeID != null;
+  int? _resonanceChatLounge;
+  int get resonanceChatLounge => _resonanceChatLounge ?? 0;
+  set resonanceChatLounge(int? val) => _resonanceChatLounge = val;
 
-  // "mercurialEmpathyTitle" field.
-  String? _mercurialEmpathyTitle;
-  String get mercurialEmpathyTitle => _mercurialEmpathyTitle ?? '';
-  set mercurialEmpathyTitle(String? val) => _mercurialEmpathyTitle = val;
+  void incrementresonanceChatLounge(int amount) =>
+      resonanceChatLounge = resonanceChatLounge + amount;
 
-  bool hasMercurialEmpathyTitle() => _mercurialEmpathyTitle != null;
+  bool hasresonanceChatLounge() => _resonanceChatLounge != null;
 
-  // "saltTearsTherapyTiem" field.
-  DateTime? _saltTearsTherapyTiem;
-  DateTime? get saltTearsTherapyTiem => _saltTearsTherapyTiem;
-  set saltTearsTherapyTiem(DateTime? val) => _saltTearsTherapyTiem = val;
 
-  bool hasSaltTearsTherapyTiem() => _saltTearsTherapyTiem != null;
+  String? _friendshipResonanceHub;
+  String get friendshipResonanceHub => _friendshipResonanceHub ?? '';
+  set friendshipResonanceHub(String? val) => _friendshipResonanceHub = val;
 
-  // "magnumOpusComfortMorePope" field.
-  List<int>? _magnumOpusComfortMorePope;
-  List<int> get magnumOpusComfortMorePope =>
-      _magnumOpusComfortMorePope ?? const [];
-  set magnumOpusComfortMorePope(List<int>? val) =>
-      _magnumOpusComfortMorePope = val;
+  bool hasfriendshipResonanceHub() => _friendshipResonanceHub != null;
 
-  void updateMagnumOpusComfortMorePope(Function(List<int>) updateFn) {
-    updateFn(_magnumOpusComfortMorePope ??= []);
+
+  DateTime? _intimateSharingCorner;
+  DateTime? get intimateSharingCorner => _intimateSharingCorner;
+  set intimateSharingCorner(DateTime? val) => _intimateSharingCorner = val;
+
+  bool hasintimateSharingCorner() => _intimateSharingCorner != null;
+
+
+  List<int>? _genuineFeelingNetwork;
+  List<int> get genuineFeelingNetwork =>
+      _genuineFeelingNetwork ?? const [];
+  set genuineFeelingNetwork(List<int>? val) =>
+      _genuineFeelingNetwork = val;
+
+  void updategenuineFeelingNetwork(Function(List<int>) updateFn) {
+    updateFn(_genuineFeelingNetwork ??= []);
   }
 
-  bool hasMagnumOpusComfortMorePope() => _magnumOpusComfortMorePope != null;
+  bool hasgenuineFeelingNetwork() => _genuineFeelingNetwork != null;
 
-  // "homunculusHugsfessionsID" field.
-  int? _homunculusHugsfessionsID;
-  int get homunculusHugsfessionsID => _homunculusHugsfessionsID ?? 0;
-  set homunculusHugsfessionsID(int? val) => _homunculusHugsfessionsID = val;
 
-  void incrementHomunculusHugsfessionsID(int amount) =>
-      homunculusHugsfessionsID = homunculusHugsfessionsID + amount;
+  int? _emotionalBondingSpot;
+  int get emotionalBondingSpot => _emotionalBondingSpot ?? 0;
+  set emotionalBondingSpot(int? val) => _emotionalBondingSpot = val;
 
-  bool hasHomunculusHugsfessionsID() => _homunculusHugsfessionsID != null;
+  void incrementemotionalBondingSpot(int amount) =>
+      emotionalBondingSpot = emotionalBondingSpot + amount;
 
-  // "magnumOpusComfort" field.
+  bool hasemotionalBondingSpot() => _emotionalBondingSpot != null;
+
+
   List<String>? _magnumOpusComfort;
   List<String> get magnumOpusComfort => _magnumOpusComfort ?? const [];
   set magnumOpusComfort(List<String>? val) => _magnumOpusComfort = val;
@@ -96,28 +96,28 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
 
   bool hasMagnumOpusComfort() => _magnumOpusComfort != null;
 
-  // "homunculusHugsImag" field.
-  String? _homunculusHugsImag;
-  String get homunculusHugsImag => _homunculusHugsImag ?? '';
-  set homunculusHugsImag(String? val) => _homunculusHugsImag = val;
 
-  bool hasHomunculusHugsImag() => _homunculusHugsImag != null;
+  String? _genuineEmotionBoard;
+  String get genuineEmotionBoard => _genuineEmotionBoard ?? '';
+  set genuineEmotionBoard(String? val) => _genuineEmotionBoard = val;
+
+  bool hasgenuineEmotionBoard() => _genuineEmotionBoard != null;
 
   static ServerFarmMeditationSolaceMoreStruct fromMap(
           Map<String, dynamic> data) =>
       ServerFarmMeditationSolaceMoreStruct(
-        philosophersStoneHealingID:
-            castToType<int>(data['philosophersStoneHealingID']),
-        alchemicalWeddingHomeID:
-            castToType<int>(data['alchemicalWeddingHomeID']),
-        mercurialEmpathyTitle: data['mercurialEmpathyTitle'] as String?,
-        saltTearsTherapyTiem: data['saltTearsTherapyTiem'] as DateTime?,
-        magnumOpusComfortMorePope:
-            getDataList(data['magnumOpusComfortMorePope']),
-        homunculusHugsfessionsID:
-            castToType<int>(data['homunculusHugsfessionsID']),
+        emotionalExchangePlatform:
+            castToType<int>(data['emotionalExchangePlatform']),
+        resonanceChatLounge:
+            castToType<int>(data['resonanceChatLounge']),
+        friendshipResonanceHub: data['friendshipResonanceHub'] as String?,
+        intimateSharingCorner: data['intimateSharingCorner'] as DateTime?,
+        genuineFeelingNetwork:
+            getDataList(data['genuineFeelingNetwork']),
+        emotionalBondingSpot:
+            castToType<int>(data['emotionalBondingSpot']),
         magnumOpusComfort: getDataList(data['magnumOpusComfort']),
-        homunculusHugsImag: data['homunculusHugsImag'] as String?,
+        genuineEmotionBoard: data['genuineEmotionBoard'] as String?,
       );
 
   static ServerFarmMeditationSolaceMoreStruct? maybeFromMap(dynamic data) =>
@@ -127,41 +127,41 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
           : null;
 
   Map<String, dynamic> toMap() => {
-        'philosophersStoneHealingID': _philosophersStoneHealingID,
-        'alchemicalWeddingHomeID': _alchemicalWeddingHomeID,
-        'mercurialEmpathyTitle': _mercurialEmpathyTitle,
-        'saltTearsTherapyTiem': _saltTearsTherapyTiem,
-        'magnumOpusComfortMorePope': _magnumOpusComfortMorePope,
-        'homunculusHugsfessionsID': _homunculusHugsfessionsID,
+        'emotionalExchangePlatform': _emotionalExchangePlatform,
+        'resonanceChatLounge': _resonanceChatLounge,
+        'friendshipResonanceHub': _friendshipResonanceHub,
+        'intimateSharingCorner': _intimateSharingCorner,
+        'genuineFeelingNetwork': _genuineFeelingNetwork,
+        'emotionalBondingSpot': _emotionalBondingSpot,
         'magnumOpusComfort': _magnumOpusComfort,
-        'homunculusHugsImag': _homunculusHugsImag,
+        'genuineEmotionBoard': _genuineEmotionBoard,
       }.withoutNulls;
 
   @override
   Map<String, dynamic> toSerializableMap() => {
-        'philosophersStoneHealingID': serializeParam(
-          _philosophersStoneHealingID,
+        'emotionalExchangePlatform': serializeParam(
+          _emotionalExchangePlatform,
           ParamType.int,
         ),
-        'alchemicalWeddingHomeID': serializeParam(
-          _alchemicalWeddingHomeID,
+        'resonanceChatLounge': serializeParam(
+          _resonanceChatLounge,
           ParamType.int,
         ),
-        'mercurialEmpathyTitle': serializeParam(
-          _mercurialEmpathyTitle,
+        'friendshipResonanceHub': serializeParam(
+          _friendshipResonanceHub,
           ParamType.String,
         ),
-        'saltTearsTherapyTiem': serializeParam(
-          _saltTearsTherapyTiem,
+        'intimateSharingCorner': serializeParam(
+          _intimateSharingCorner,
           ParamType.DateTime,
         ),
-        'magnumOpusComfortMorePope': serializeParam(
-          _magnumOpusComfortMorePope,
+        'genuineFeelingNetwork': serializeParam(
+          _genuineFeelingNetwork,
           ParamType.int,
           isList: true,
         ),
-        'homunculusHugsfessionsID': serializeParam(
-          _homunculusHugsfessionsID,
+        'emotionalBondingSpot': serializeParam(
+          _emotionalBondingSpot,
           ParamType.int,
         ),
         'magnumOpusComfort': serializeParam(
@@ -169,8 +169,8 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
           ParamType.String,
           isList: true,
         ),
-        'homunculusHugsImag': serializeParam(
-          _homunculusHugsImag,
+        'genuineEmotionBoard': serializeParam(
+          _genuineEmotionBoard,
           ParamType.String,
         ),
       }.withoutNulls;
@@ -178,33 +178,33 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
   static ServerFarmMeditationSolaceMoreStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       ServerFarmMeditationSolaceMoreStruct(
-        philosophersStoneHealingID: deserializeParam(
-          data['philosophersStoneHealingID'],
+        emotionalExchangePlatform: deserializeParam(
+          data['emotionalExchangePlatform'],
           ParamType.int,
           false,
         ),
-        alchemicalWeddingHomeID: deserializeParam(
-          data['alchemicalWeddingHomeID'],
+        resonanceChatLounge: deserializeParam(
+          data['resonanceChatLounge'],
           ParamType.int,
           false,
         ),
-        mercurialEmpathyTitle: deserializeParam(
-          data['mercurialEmpathyTitle'],
+        friendshipResonanceHub: deserializeParam(
+          data['friendshipResonanceHub'],
           ParamType.String,
           false,
         ),
-        saltTearsTherapyTiem: deserializeParam(
-          data['saltTearsTherapyTiem'],
+        intimateSharingCorner: deserializeParam(
+          data['intimateSharingCorner'],
           ParamType.DateTime,
           false,
         ),
-        magnumOpusComfortMorePope: deserializeParam<int>(
-          data['magnumOpusComfortMorePope'],
+        genuineFeelingNetwork: deserializeParam<int>(
+          data['genuineFeelingNetwork'],
           ParamType.int,
           true,
         ),
-        homunculusHugsfessionsID: deserializeParam(
-          data['homunculusHugsfessionsID'],
+        emotionalBondingSpot: deserializeParam(
+          data['emotionalBondingSpot'],
           ParamType.int,
           false,
         ),
@@ -213,8 +213,8 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
           ParamType.String,
           true,
         ),
-        homunculusHugsImag: deserializeParam(
-          data['homunculusHugsImag'],
+        genuineEmotionBoard: deserializeParam(
+          data['genuineEmotionBoard'],
           ParamType.String,
           false,
         ),
@@ -227,44 +227,44 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
   bool operator ==(Object other) {
     const listEquality = ListEquality();
     return other is ServerFarmMeditationSolaceMoreStruct &&
-        philosophersStoneHealingID == other.philosophersStoneHealingID &&
-        alchemicalWeddingHomeID == other.alchemicalWeddingHomeID &&
-        mercurialEmpathyTitle == other.mercurialEmpathyTitle &&
-        saltTearsTherapyTiem == other.saltTearsTherapyTiem &&
+        emotionalExchangePlatform == other.emotionalExchangePlatform &&
+        resonanceChatLounge == other.resonanceChatLounge &&
+        friendshipResonanceHub == other.friendshipResonanceHub &&
+        intimateSharingCorner == other.intimateSharingCorner &&
         listEquality.equals(
-            magnumOpusComfortMorePope, other.magnumOpusComfortMorePope) &&
-        homunculusHugsfessionsID == other.homunculusHugsfessionsID &&
+            genuineFeelingNetwork, other.genuineFeelingNetwork) &&
+        emotionalBondingSpot == other.emotionalBondingSpot &&
         listEquality.equals(magnumOpusComfort, other.magnumOpusComfort) &&
-        homunculusHugsImag == other.homunculusHugsImag;
+        genuineEmotionBoard == other.genuineEmotionBoard;
   }
 
   @override
   int get hashCode => const ListEquality().hash([
-        philosophersStoneHealingID,
-        alchemicalWeddingHomeID,
-        mercurialEmpathyTitle,
-        saltTearsTherapyTiem,
-        magnumOpusComfortMorePope,
-        homunculusHugsfessionsID,
+        emotionalExchangePlatform,
+        resonanceChatLounge,
+        friendshipResonanceHub,
+        intimateSharingCorner,
+        genuineFeelingNetwork,
+        emotionalBondingSpot,
         magnumOpusComfort,
-        homunculusHugsImag
+        genuineEmotionBoard
       ]);
 }
 
 ServerFarmMeditationSolaceMoreStruct
     createServerFarmMeditationSolaceMoreStruct({
-  int? philosophersStoneHealingID,
-  int? alchemicalWeddingHomeID,
-  String? mercurialEmpathyTitle,
-  DateTime? saltTearsTherapyTiem,
-  int? homunculusHugsfessionsID,
-  String? homunculusHugsImag,
+  int? emotionalExchangePlatform,
+  int? resonanceChatLounge,
+  String? friendshipResonanceHub,
+  DateTime? intimateSharingCorner,
+  int? emotionalBondingSpot,
+  String? genuineEmotionBoard,
 }) =>
         ServerFarmMeditationSolaceMoreStruct(
-          philosophersStoneHealingID: philosophersStoneHealingID,
-          alchemicalWeddingHomeID: alchemicalWeddingHomeID,
-          mercurialEmpathyTitle: mercurialEmpathyTitle,
-          saltTearsTherapyTiem: saltTearsTherapyTiem,
-          homunculusHugsfessionsID: homunculusHugsfessionsID,
-          homunculusHugsImag: homunculusHugsImag,
+          emotionalExchangePlatform: emotionalExchangePlatform,
+          resonanceChatLounge: resonanceChatLounge,
+          friendshipResonanceHub: friendshipResonanceHub,
+          intimateSharingCorner: intimateSharingCorner,
+          emotionalBondingSpot: emotionalBondingSpot,
+          genuineEmotionBoard: genuineEmotionBoard,
         );

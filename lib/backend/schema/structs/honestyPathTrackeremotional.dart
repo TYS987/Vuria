@@ -9,51 +9,51 @@ import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class SerenityHarmonySpaceWORDStruct extends BaseStruct {
   SerenityHarmonySpaceWORDStruct({
-    int? sentimentProcessingCloudWID,
-    int? moodPatternDetectorUID,
-    String? empathyMatchingProtocolT,
-    DateTime? feelingDataStreamTIME,
+    int? heartfulFriendshipLounge,
+    int? friendshipBondingPortal,
+    String? sentimentInteractionCircle,
+    DateTime? authenticStoryBoard,
     String? emotionalInsightDashboardHX,
-  })  : _sentimentProcessingCloudWID = sentimentProcessingCloudWID,
-        _moodPatternDetectorUID = moodPatternDetectorUID,
-        _empathyMatchingProtocolT = empathyMatchingProtocolT,
-        _feelingDataStreamTIME = feelingDataStreamTIME,
+  })  : _heartfulFriendshipLounge = heartfulFriendshipLounge,
+        _friendshipBondingPortal = friendshipBondingPortal,
+        _sentimentInteractionCircle = sentimentInteractionCircle,
+        _authenticStoryBoard = authenticStoryBoard,
         _emotionalInsightDashboardHX = emotionalInsightDashboardHX;
 
-  // "sentimentProcessingCloudWID" field.
-  int? _sentimentProcessingCloudWID;
-  int get sentimentProcessingCloudWID => _sentimentProcessingCloudWID ?? 0;
-  set sentimentProcessingCloudWID(int? val) =>
-      _sentimentProcessingCloudWID = val;
+  // "heartfulFriendshipLounge" field.
+  int? _heartfulFriendshipLounge;
+  int get heartfulFriendshipLounge => _heartfulFriendshipLounge ?? 0;
+  set heartfulFriendshipLounge(int? val) =>
+      _heartfulFriendshipLounge = val;
 
-  void incrementSentimentProcessingCloudWID(int amount) =>
-      sentimentProcessingCloudWID = sentimentProcessingCloudWID + amount;
+  void incrementheartfulFriendshipLounge(int amount) =>
+      heartfulFriendshipLounge = heartfulFriendshipLounge + amount;
 
-  bool hasSentimentProcessingCloudWID() => _sentimentProcessingCloudWID != null;
+  bool hasheartfulFriendshipLounge() => _heartfulFriendshipLounge != null;
 
-  // "moodPatternDetectorUID" field.
-  int? _moodPatternDetectorUID;
-  int get moodPatternDetectorUID => _moodPatternDetectorUID ?? 0;
-  set moodPatternDetectorUID(int? val) => _moodPatternDetectorUID = val;
+  // "friendshipBondingPortal" field.
+  int? _friendshipBondingPortal;
+  int get friendshipBondingPortal => _friendshipBondingPortal ?? 0;
+  set friendshipBondingPortal(int? val) => _friendshipBondingPortal = val;
 
-  void incrementMoodPatternDetectorUID(int amount) =>
-      moodPatternDetectorUID = moodPatternDetectorUID + amount;
+  void incrementfriendshipBondingPortal(int amount) =>
+      friendshipBondingPortal = friendshipBondingPortal + amount;
 
-  bool hasMoodPatternDetectorUID() => _moodPatternDetectorUID != null;
+  bool hasfriendshipBondingPortal() => _friendshipBondingPortal != null;
 
-  // "empathyMatchingProtocolT" field.
-  String? _empathyMatchingProtocolT;
-  String get empathyMatchingProtocolT => _empathyMatchingProtocolT ?? '';
-  set empathyMatchingProtocolT(String? val) => _empathyMatchingProtocolT = val;
+  // "sentimentInteractionCircle" field.
+  String? _sentimentInteractionCircle;
+  String get sentimentInteractionCircle => _sentimentInteractionCircle ?? '';
+  set sentimentInteractionCircle(String? val) => _sentimentInteractionCircle = val;
 
-  bool hasEmpathyMatchingProtocolT() => _empathyMatchingProtocolT != null;
+  bool hassentimentInteractionCircle() => _sentimentInteractionCircle != null;
 
-  // "feelingDataStreamTIME" field.
-  DateTime? _feelingDataStreamTIME;
-  DateTime? get feelingDataStreamTIME => _feelingDataStreamTIME;
-  set feelingDataStreamTIME(DateTime? val) => _feelingDataStreamTIME = val;
+  // "authenticStoryBoard" field.
+  DateTime? _authenticStoryBoard;
+  DateTime? get authenticStoryBoard => _authenticStoryBoard;
+  set authenticStoryBoard(DateTime? val) => _authenticStoryBoard = val;
 
-  bool hasFeelingDataStreamTIME() => _feelingDataStreamTIME != null;
+  bool hasauthenticStoryBoard() => _authenticStoryBoard != null;
 
   // "emotionalInsightDashboardHX" field.
   String? _emotionalInsightDashboardHX;
@@ -65,11 +65,11 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
 
   static SerenityHarmonySpaceWORDStruct fromMap(Map<String, dynamic> data) =>
       SerenityHarmonySpaceWORDStruct(
-        sentimentProcessingCloudWID:
-            castToType<int>(data['sentimentProcessingCloudWID']),
-        moodPatternDetectorUID: castToType<int>(data['moodPatternDetectorUID']),
-        empathyMatchingProtocolT: data['empathyMatchingProtocolT'] as String?,
-        feelingDataStreamTIME: data['feelingDataStreamTIME'] as DateTime?,
+        heartfulFriendshipLounge:
+            castToType<int>(data['heartfulFriendshipLounge']),
+        friendshipBondingPortal: castToType<int>(data['friendshipBondingPortal']),
+        sentimentInteractionCircle: data['sentimentInteractionCircle'] as String?,
+        authenticStoryBoard: data['authenticStoryBoard'] as DateTime?,
         emotionalInsightDashboardHX:
             data['emotionalInsightDashboardHX'] as String?,
       );
@@ -80,29 +80,29 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
           : null;
 
   Map<String, dynamic> toMap() => {
-        'sentimentProcessingCloudWID': _sentimentProcessingCloudWID,
-        'moodPatternDetectorUID': _moodPatternDetectorUID,
-        'empathyMatchingProtocolT': _empathyMatchingProtocolT,
-        'feelingDataStreamTIME': _feelingDataStreamTIME,
+        'heartfulFriendshipLounge': _heartfulFriendshipLounge,
+        'friendshipBondingPortal': _friendshipBondingPortal,
+        'sentimentInteractionCircle': _sentimentInteractionCircle,
+        'authenticStoryBoard': _authenticStoryBoard,
         'emotionalInsightDashboardHX': _emotionalInsightDashboardHX,
       }.withoutNulls;
 
   @override
   Map<String, dynamic> toSerializableMap() => {
-        'sentimentProcessingCloudWID': serializeParam(
-          _sentimentProcessingCloudWID,
+        'heartfulFriendshipLounge': serializeParam(
+          _heartfulFriendshipLounge,
           ParamType.int,
         ),
-        'moodPatternDetectorUID': serializeParam(
-          _moodPatternDetectorUID,
+        'friendshipBondingPortal': serializeParam(
+          _friendshipBondingPortal,
           ParamType.int,
         ),
-        'empathyMatchingProtocolT': serializeParam(
-          _empathyMatchingProtocolT,
+        'sentimentInteractionCircle': serializeParam(
+          _sentimentInteractionCircle,
           ParamType.String,
         ),
-        'feelingDataStreamTIME': serializeParam(
-          _feelingDataStreamTIME,
+        'authenticStoryBoard': serializeParam(
+          _authenticStoryBoard,
           ParamType.DateTime,
         ),
         'emotionalInsightDashboardHX': serializeParam(
@@ -114,23 +114,23 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
   static SerenityHarmonySpaceWORDStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       SerenityHarmonySpaceWORDStruct(
-        sentimentProcessingCloudWID: deserializeParam(
-          data['sentimentProcessingCloudWID'],
+        heartfulFriendshipLounge: deserializeParam(
+          data['heartfulFriendshipLounge'],
           ParamType.int,
           false,
         ),
-        moodPatternDetectorUID: deserializeParam(
-          data['moodPatternDetectorUID'],
+        friendshipBondingPortal: deserializeParam(
+          data['friendshipBondingPortal'],
           ParamType.int,
           false,
         ),
-        empathyMatchingProtocolT: deserializeParam(
-          data['empathyMatchingProtocolT'],
+        sentimentInteractionCircle: deserializeParam(
+          data['sentimentInteractionCircle'],
           ParamType.String,
           false,
         ),
-        feelingDataStreamTIME: deserializeParam(
-          data['feelingDataStreamTIME'],
+        authenticStoryBoard: deserializeParam(
+          data['authenticStoryBoard'],
           ParamType.DateTime,
           false,
         ),
@@ -147,34 +147,34 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
   @override
   bool operator ==(Object other) {
     return other is SerenityHarmonySpaceWORDStruct &&
-        sentimentProcessingCloudWID == other.sentimentProcessingCloudWID &&
-        moodPatternDetectorUID == other.moodPatternDetectorUID &&
-        empathyMatchingProtocolT == other.empathyMatchingProtocolT &&
-        feelingDataStreamTIME == other.feelingDataStreamTIME &&
+        heartfulFriendshipLounge == other.heartfulFriendshipLounge &&
+        friendshipBondingPortal == other.friendshipBondingPortal &&
+        sentimentInteractionCircle == other.sentimentInteractionCircle &&
+        authenticStoryBoard == other.authenticStoryBoard &&
         emotionalInsightDashboardHX == other.emotionalInsightDashboardHX;
   }
 
   @override
   int get hashCode => const ListEquality().hash([
-        sentimentProcessingCloudWID,
-        moodPatternDetectorUID,
-        empathyMatchingProtocolT,
-        feelingDataStreamTIME,
+        heartfulFriendshipLounge,
+        friendshipBondingPortal,
+        sentimentInteractionCircle,
+        authenticStoryBoard,
         emotionalInsightDashboardHX
       ]);
 }
 
 SerenityHarmonySpaceWORDStruct createSerenityHarmonySpaceWORDStruct({
-  int? sentimentProcessingCloudWID,
-  int? moodPatternDetectorUID,
-  String? empathyMatchingProtocolT,
-  DateTime? feelingDataStreamTIME,
+  int? heartfulFriendshipLounge,
+  int? friendshipBondingPortal,
+  String? sentimentInteractionCircle,
+  DateTime? authenticStoryBoard,
   String? emotionalInsightDashboardHX,
 }) =>
     SerenityHarmonySpaceWORDStruct(
-      sentimentProcessingCloudWID: sentimentProcessingCloudWID,
-      moodPatternDetectorUID: moodPatternDetectorUID,
-      empathyMatchingProtocolT: empathyMatchingProtocolT,
-      feelingDataStreamTIME: feelingDataStreamTIME,
+      heartfulFriendshipLounge: heartfulFriendshipLounge,
+      friendshipBondingPortal: friendshipBondingPortal,
+      sentimentInteractionCircle: sentimentInteractionCircle,
+      authenticStoryBoard: authenticStoryBoard,
       emotionalInsightDashboardHX: emotionalInsightDashboardHX,
     );

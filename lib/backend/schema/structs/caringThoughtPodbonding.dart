@@ -1,5 +1,3 @@
-// ignore_for_file: unnecessary_getters_setters
-
 import 'package:vuria/vulnerablePocketAngular/emotionTraceexpressive/reflectionTriggeibeouchFlow.dart';
 
 import '../util/connectionRippletrueEmot.dart';
@@ -9,52 +7,52 @@ import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class AnachronismHealingfluxRStruct extends BaseStruct {
   AnachronismHealingfluxRStruct({
-    int? pyramidAlgorithmengeFirewalHID,
-    int? cavePaintingNeuralinkSID,
-    String? thundercloudedT,
+    int? emotionSharingCircle,
+    int? resonanceFriendshipNetwork,
+    String? feelingFlowCommunications,
     List<int>? shamanCodingNeuralinkM,
     int? daVinciDroneoHologramN,
     DateTime? inquisitionInternetBitcoin,
     List<String>? baroqueBitcoinPodcastHX,
-  })  : _pyramidAlgorithmengeFirewalHID = pyramidAlgorithmengeFirewalHID,
-        _cavePaintingNeuralinkSID = cavePaintingNeuralinkSID,
-        _thundercloudedT = thundercloudedT,
+  })  : _emotionSharingCircle = emotionSharingCircle,
+        _resonanceFriendshipNetwork = resonanceFriendshipNetwork,
+        _feelingFlowCommunications = feelingFlowCommunications,
         _shamanCodingNeuralinkM = shamanCodingNeuralinkM,
         _daVinciDroneoHologramN = daVinciDroneoHologramN,
         _inquisitionInternetBitcoin = inquisitionInternetBitcoin,
         _baroqueBitcoinPodcastHX = baroqueBitcoinPodcastHX;
 
-  // "pyramidAlgorithmengeFirewalHID" field.
-  int? _pyramidAlgorithmengeFirewalHID;
-  int get pyramidAlgorithmengeFirewalHID =>
-      _pyramidAlgorithmengeFirewalHID ?? 0;
-  set pyramidAlgorithmengeFirewalHID(int? val) =>
-      _pyramidAlgorithmengeFirewalHID = val;
+  
+  int? _emotionSharingCircle;
+  int get emotionSharingCircle =>
+      _emotionSharingCircle ?? 0;
+  set emotionSharingCircle(int? val) =>
+      _emotionSharingCircle = val;
 
-  void incrementPyramidAlgorithmengeFirewalHID(int amount) =>
-      pyramidAlgorithmengeFirewalHID = pyramidAlgorithmengeFirewalHID + amount;
+  void incrementemotionSharingCircle(int amount) =>
+      emotionSharingCircle = emotionSharingCircle + amount;
 
-  bool hasPyramidAlgorithmengeFirewalHID() =>
-      _pyramidAlgorithmengeFirewalHID != null;
+  bool hasemotionSharingCircle() =>
+      _emotionSharingCircle != null;
 
-  // "cavePaintingNeuralinkSID" field.
-  int? _cavePaintingNeuralinkSID;
-  int get cavePaintingNeuralinkSID => _cavePaintingNeuralinkSID ?? 0;
-  set cavePaintingNeuralinkSID(int? val) => _cavePaintingNeuralinkSID = val;
 
-  void incrementCavePaintingNeuralinkSID(int amount) =>
-      cavePaintingNeuralinkSID = cavePaintingNeuralinkSID + amount;
+  int? _resonanceFriendshipNetwork;
+  int get resonanceFriendshipNetwork => _resonanceFriendshipNetwork ?? 0;
+  set resonanceFriendshipNetwork(int? val) => _resonanceFriendshipNetwork = val;
 
-  bool hasCavePaintingNeuralinkSID() => _cavePaintingNeuralinkSID != null;
+  void incrementresonanceFriendshipNetwork(int amount) =>
+      resonanceFriendshipNetwork = resonanceFriendshipNetwork + amount;
 
-  // "thundercloudedT" field.
-  String? _thundercloudedT;
-  String get thundercloudedT => _thundercloudedT ?? '';
-  set thundercloudedT(String? val) => _thundercloudedT = val;
+  bool hasresonanceFriendshipNetwork() => _resonanceFriendshipNetwork != null;
 
-  bool hasThundercloudedT() => _thundercloudedT != null;
 
-  // "shamanCodingNeuralinkM" field.
+  String? _feelingFlowCommunications;
+  String get feelingFlowCommunications => _feelingFlowCommunications ?? '';
+  set feelingFlowCommunications(String? val) => _feelingFlowCommunications = val;
+
+  bool hasfeelingFlowCommunications() => _feelingFlowCommunications != null;
+
+
   List<int>? _shamanCodingNeuralinkM;
   List<int> get shamanCodingNeuralinkM => _shamanCodingNeuralinkM ?? const [];
   set shamanCodingNeuralinkM(List<int>? val) => _shamanCodingNeuralinkM = val;
@@ -65,7 +63,7 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   bool hasShamanCodingNeuralinkM() => _shamanCodingNeuralinkM != null;
 
-  // "daVinciDroneoHologramN" field.
+
   int? _daVinciDroneoHologramN;
   int get daVinciDroneoHologramN => _daVinciDroneoHologramN ?? 0;
   set daVinciDroneoHologramN(int? val) => _daVinciDroneoHologramN = val;
@@ -75,7 +73,7 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   bool hasDaVinciDroneoHologramN() => _daVinciDroneoHologramN != null;
 
-  // "inquisitionInternetBitcoin" field.
+
   DateTime? _inquisitionInternetBitcoin;
   DateTime? get inquisitionInternetBitcoin => _inquisitionInternetBitcoin;
   set inquisitionInternetBitcoin(DateTime? val) =>
@@ -83,7 +81,7 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   bool hasInquisitionInternetBitcoin() => _inquisitionInternetBitcoin != null;
 
-  // "baroqueBitcoinPodcastHX" field.
+
   List<String>? _baroqueBitcoinPodcastHX;
   List<String> get baroqueBitcoinPodcastHX =>
       _baroqueBitcoinPodcastHX ?? const [];
@@ -98,11 +96,11 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   static AnachronismHealingfluxRStruct fromMap(Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
-        pyramidAlgorithmengeFirewalHID:
-            castToType<int>(data['pyramidAlgorithmengeFirewalHID']),
-        cavePaintingNeuralinkSID:
-            castToType<int>(data['cavePaintingNeuralinkSID']),
-        thundercloudedT: data['thundercloudedT'] as String?,
+        emotionSharingCircle:
+            castToType<int>(data['emotionSharingCircle']),
+        resonanceFriendshipNetwork:
+            castToType<int>(data['resonanceFriendshipNetwork']),
+        feelingFlowCommunications: data['feelingFlowCommunications'] as String?,
         shamanCodingNeuralinkM: getDataList(data['shamanCodingNeuralinkM']),
         daVinciDroneoHologramN: castToType<int>(data['daVinciDroneoHologramN']),
         inquisitionInternetBitcoin:
@@ -116,9 +114,9 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
           : null;
 
   Map<String, dynamic> toMap() => {
-        'pyramidAlgorithmengeFirewalHID': _pyramidAlgorithmengeFirewalHID,
-        'cavePaintingNeuralinkSID': _cavePaintingNeuralinkSID,
-        'thundercloudedT': _thundercloudedT,
+        'emotionSharingCircle': _emotionSharingCircle,
+        'resonanceFriendshipNetwork': _resonanceFriendshipNetwork,
+        'feelingFlowCommunications': _feelingFlowCommunications,
         'shamanCodingNeuralinkM': _shamanCodingNeuralinkM,
         'daVinciDroneoHologramN': _daVinciDroneoHologramN,
         'inquisitionInternetBitcoin': _inquisitionInternetBitcoin,
@@ -127,16 +125,16 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   @override
   Map<String, dynamic> toSerializableMap() => {
-        'pyramidAlgorithmengeFirewalHID': serializeParam(
-          _pyramidAlgorithmengeFirewalHID,
+        'emotionSharingCircle': serializeParam(
+          _emotionSharingCircle,
           ParamType.int,
         ),
-        'cavePaintingNeuralinkSID': serializeParam(
-          _cavePaintingNeuralinkSID,
+        'resonanceFriendshipNetwork': serializeParam(
+          _resonanceFriendshipNetwork,
           ParamType.int,
         ),
-        'thundercloudedT': serializeParam(
-          _thundercloudedT,
+        'feelingFlowCommunications': serializeParam(
+          _feelingFlowCommunications,
           ParamType.String,
         ),
         'shamanCodingNeuralinkM': serializeParam(
@@ -162,18 +160,18 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
   static AnachronismHealingfluxRStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
-        pyramidAlgorithmengeFirewalHID: deserializeParam(
-          data['pyramidAlgorithmengeFirewalHID'],
+        emotionSharingCircle: deserializeParam(
+          data['emotionSharingCircle'],
           ParamType.int,
           false,
         ),
-        cavePaintingNeuralinkSID: deserializeParam(
-          data['cavePaintingNeuralinkSID'],
+        resonanceFriendshipNetwork: deserializeParam(
+          data['resonanceFriendshipNetwork'],
           ParamType.int,
           false,
         ),
-        thundercloudedT: deserializeParam(
-          data['thundercloudedT'],
+        feelingFlowCommunications: deserializeParam(
+          data['feelingFlowCommunications'],
           ParamType.String,
           false,
         ),
@@ -206,10 +204,10 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
   bool operator ==(Object other) {
     const listEquality = ListEquality();
     return other is AnachronismHealingfluxRStruct &&
-        pyramidAlgorithmengeFirewalHID ==
-            other.pyramidAlgorithmengeFirewalHID &&
-        cavePaintingNeuralinkSID == other.cavePaintingNeuralinkSID &&
-        thundercloudedT == other.thundercloudedT &&
+        emotionSharingCircle ==
+            other.emotionSharingCircle &&
+        resonanceFriendshipNetwork == other.resonanceFriendshipNetwork &&
+        feelingFlowCommunications == other.feelingFlowCommunications &&
         listEquality.equals(
             shamanCodingNeuralinkM, other.shamanCodingNeuralinkM) &&
         daVinciDroneoHologramN == other.daVinciDroneoHologramN &&
@@ -220,9 +218,9 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   @override
   int get hashCode => const ListEquality().hash([
-        pyramidAlgorithmengeFirewalHID,
-        cavePaintingNeuralinkSID,
-        thundercloudedT,
+        emotionSharingCircle,
+        resonanceFriendshipNetwork,
+        feelingFlowCommunications,
         shamanCodingNeuralinkM,
         daVinciDroneoHologramN,
         inquisitionInternetBitcoin,
@@ -231,16 +229,16 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 }
 
 AnachronismHealingfluxRStruct createAnachronismHealingfluxRStruct({
-  int? pyramidAlgorithmengeFirewalHID,
-  int? cavePaintingNeuralinkSID,
-  String? thundercloudedT,
+  int? emotionSharingCircle,
+  int? resonanceFriendshipNetwork,
+  String? feelingFlowCommunications,
   int? daVinciDroneoHologramN,
   DateTime? inquisitionInternetBitcoin,
 }) =>
     AnachronismHealingfluxRStruct(
-      pyramidAlgorithmengeFirewalHID: pyramidAlgorithmengeFirewalHID,
-      cavePaintingNeuralinkSID: cavePaintingNeuralinkSID,
-      thundercloudedT: thundercloudedT,
+      emotionSharingCircle: emotionSharingCircle,
+      resonanceFriendshipNetwork: resonanceFriendshipNetwork,
+      feelingFlowCommunications: feelingFlowCommunications,
       daVinciDroneoHologramN: daVinciDroneoHologramN,
       inquisitionInternetBitcoin: inquisitionInternetBitcoin,
     );

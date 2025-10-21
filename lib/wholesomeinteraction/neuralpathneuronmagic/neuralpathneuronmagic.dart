@@ -1,3 +1,5 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
@@ -38,7 +40,7 @@ class _NeuralPathNeuronMagicWidgetState
       width: double.infinity,
       height: 165.0,
       decoration: BoxDecoration(
-     color: const Color(0xFFFFFFFF),
+        color: const Color(0xFFFFFFFF),
         borderRadius: BorderRadius.only(
           bottomLeft: Radius.circular(0.0),
           bottomRight: Radius.circular(0.0),
@@ -52,7 +54,6 @@ class _NeuralPathNeuronMagicWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(20.0, 10.0, 20.0, 0.0),
             child: InkWell(
-          
               onTap: () async {
                 await emotionWhisperInterface(
                   message:
@@ -67,7 +68,7 @@ class _NeuralPathNeuronMagicWidgetState
 
                 Navigator.pushNamedAndRemoveUntil(
                   context,
-                  '/empathyExchange',
+                  '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.fromPetalWhisper()}',
                   (route) => false,
                 );
               },
@@ -75,39 +76,23 @@ class _NeuralPathNeuronMagicWidgetState
                 width: double.infinity,
                 height: 49.0,
                 decoration: BoxDecoration(
-                  color: heartMindVentralTheme.of(context).secondaryBackground,
+                  color: Colors.white,
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
-                  style: heartMindVentralTheme.of(context).bodyMedium.override(
-                        font: GoogleFonts.poppins(
-                          fontWeight: FontWeight.bold,
-                          fontStyle: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .fontStyle,
-                        ),
-                        color: Colors.black,
-                        fontSize: 16.0,
-                        letterSpacing: 0.0,
-                        fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
-                      ),
-                ),
+                    '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
+                    style: TextStyle(
+                      color: Colors.black,
+                      fontSize: 16.0,
+                      letterSpacing: 0.0,
+                      fontWeight: FontWeight.bold,
+                    )),
               ),
             ),
           ),
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(20.0, 10.0, 20.0, 0.0),
             child: InkWell(
-              splashColor: Colors.transparent,
-              focusColor: Colors.transparent,
-              hoverColor: Colors.transparent,
-              highlightColor: Colors.transparent,
               onTap: () async {
                 Navigator.pop(context);
               },
@@ -120,25 +105,13 @@ class _NeuralPathNeuronMagicWidgetState
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
-                  style: heartMindVentralTheme.of(context).bodyMedium.override(
-                        font: GoogleFonts.poppins(
-                          fontWeight: FontWeight.bold,
-                          fontStyle: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .fontStyle,
-                        ),
-                        color: Colors.white,
-                        fontSize: 16.0,
-                        letterSpacing: 0.0,
-                        fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
-                      ),
-                ),
+                    '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 16.0,
+                      letterSpacing: 0.0,
+                      fontWeight: FontWeight.bold,
+                    )),
               ),
             ),
           ),

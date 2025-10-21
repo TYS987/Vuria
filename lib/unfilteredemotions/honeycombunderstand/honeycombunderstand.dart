@@ -1,11 +1,9 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/emotionalharmony/emotionalharmony.dart';
 
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class HoneycombUnderstandWidget extends StatefulWidget {
@@ -40,7 +38,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Align(
           alignment: AlignmentDirectional(0.0, 1.0),
           child: Container(
@@ -49,9 +47,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: Image.asset(
+                image: AssetImage(
                   'assets/images/comfortableListening.png',
-                ).image,
+                ),
               ),
             ),
             child: Stack(
@@ -79,7 +77,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: Image.asset(
+                                        image: AssetImage(
                                           genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
@@ -89,7 +87,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                               .toList()
                                               .firstOrNull!
                                               .neuralLaceConfessionsI,
-                                        ).image,
+                                        ),
                                       ),
                                       borderRadius: BorderRadius.circular(50.0),
                                       border: Border.all(
@@ -102,13 +100,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 Align(
                                   alignment: AlignmentDirectional(0.0, 1.0),
                                   child: InkWell(
-                                    splashColor: Colors.transparent,
-                                    focusColor: Colors.transparent,
-                                    hoverColor: Colors.transparent,
-                                    highlightColor: Colors.transparent,
                                     onTap: () async {
-                                      Navigator.of(context)
-                                          .pushNamed('/timeDilationTherapy');
+                                      Navigator.of(context).pushNamed(
+                                          '${'7c6061493daf514f35b35a87a0a83bf9b012f81cb53ee686cf9c654a18d6f71c'.fromPetalWhisper()}');
                                     },
                                     child: Container(
                                       width: 104.0,
@@ -116,9 +110,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
-                                          image: Image.asset(
+                                          image: AssetImage(
                                             'assets/images/migratoryFeelings.png',
-                                          ).image,
+                                          ),
                                         ),
                                         borderRadius:
                                             BorderRadius.circular(24.5),
@@ -144,26 +138,12 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     ?.phoenixTearsTherapyN,
                                 '${VuriaEmotionCipher.unveilEmotion('qIPeI+g29+sAJ8W2eY3E1Q==')}',
                               ),
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Color(0xFF020202),
-                                    fontSize: 20.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                              style: TextStyle(
+                                color: Color(0xFF020202),
+                                fontSize: 20.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
                           Row(
@@ -178,9 +158,10 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 onTap: () async {
                                   Navigator.pushNamed(
                                     context,
-                                    '/synapticNeuronMagic',
+                                    '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.fromPetalWhisper()}',
                                     arguments: {
-                                      'vibeDedicatedSpace': 0,
+                                      '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}':
+                                          0,
                                     },
                                   );
                                 },
@@ -202,49 +183,22 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toString(),
                                         '${VuriaEmotionCipher.unveilEmotion('08yPJ4YasYhiTrq/cITN3A==')}',
                                       ),
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.bold,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
-                                            color: Color(0xFF020202),
-                                            fontSize: 18.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.bold,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
+                                      style: TextStyle(
+                                        color: Color(0xFF020202),
+                                        fontSize: 18.0,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                     Text(
                                       '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.w600,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
-                                            color: Color(0x80020202),
-                                            fontSize: 13.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w600,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
+                                      style: TextStyle(
+                                        color: Color(0x80020202),
+                                        fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                        fontSize: 13.0,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.w600,
+                                      ),
                                     ),
                                   ],
                                 ),
@@ -267,52 +221,24 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .firstOrNull
                                             ?.loveNmbers
                                             .toString(),
-                                        '0',
+                                        '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
                                       ),
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.bold,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
-                                            color: Color(0xFF020202),
-                                            fontSize: 18.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.bold,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
+                                      style: TextStyle(
+                                        color: Color(0xFF020202),
+                                        fontSize: 18.0,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                     Text(
-                                      '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.w600,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
-                                            color: Color(0x80020202),
-                                            fontSize: 13.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w600,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                    ),
+                                        '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
+                                        style: TextStyle(
+                                          color: Color(0x80020202),
+                                          fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                          fontSize: 13.0,
+                                          letterSpacing: 0.0,
+                                          fontWeight: FontWeight.w600,
+                                        )),
                                   ],
                                 ),
                               ),
@@ -324,9 +250,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 onTap: () async {
                                   Navigator.pushNamed(
                                     context,
-                                    '/synapticNeuronMagic',
+                                    '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.fromPetalWhisper()}',
                                     arguments: {
-                                      'vibeDedicatedSpace': 1,
+                                      '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}': 1,
                                     },
                                   );
                                 },
@@ -348,67 +274,39 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toString(),
                                         '${VuriaEmotionCipher.unveilEmotion('09CNQYcbsIljT7u+cYXM3Q==')}',
                                       ),
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.bold,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
-                                            color: Color(0xFF020202),
-                                            fontSize: 18.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.bold,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
+                                      style: TextStyle(
+                                        color: Color(0xFF020202),
+                                        fontSize: 18.0,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.bold,
+                                      ),
                                     ),
                                     Text(
-                                      '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
-                                      style: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .override(
-                                            font: GoogleFonts.poppins(
-                                              fontWeight: FontWeight.w600,
-                                              fontStyle: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .fontStyle,
-                                            ),
-                                            color: Color(0x80020202),
-                                            fontSize: 13.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w600,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                    ),
+                                        '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
+                                        style: TextStyle(
+                                          color: Color(0x80020202),
+                                          fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                          fontSize: 13.0,
+                                          letterSpacing: 0.0,
+                                          fontWeight: FontWeight.w600,
+                                        )),
                                   ],
                                 ),
                               ),
                             ],
                           ),
                           Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(
-                                    0.0, 10.0, 0.0, 0.0),
+                            padding: EdgeInsetsDirectional.fromSTEB(
+                                0.0, 10.0, 0.0, 0.0),
                             child: Container(
                               width: 351.0,
                               height: 67.0,
                               decoration: BoxDecoration(
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: Image.asset(
+                                  image: AssetImage(
                                     'assets/images/cosmicRayComfort.png',
-                                  ).image,
+                                  ),
                                 ),
                               ),
                               child: Padding(
@@ -423,9 +321,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
-                                          image: Image.asset(
+                                          image: AssetImage(
                                             'assets/images/supernovaConfession.png',
-                                          ).image,
+                                          ),
                                         ),
                                       ),
                                     ),
@@ -451,63 +349,33 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                   .toString(),
                                               '${VuriaEmotionCipher.unveilEmotion('0u2yQ4UZsothTbm8c4fO3w==')}',
                                             ),
-                                            style: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  font: GoogleFonts.poppins(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontStyle:
-                                                        heartMindVentralTheme
-                                                            .of(context)
-                                                            .bodyMedium
-                                                            .fontStyle,
-                                                  ),
+                                            style: TextStyle(
+                                                
                                                   color: Colors.white,
                                                   fontSize: 16.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.bold,
-                                                  fontStyle: heartMindVentralTheme
-                                                      .of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
+                                              
                                                 ),
                                           ),
                                           Text(
                                             '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
-                                            style: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  font: GoogleFonts.poppins(
-                                                    fontWeight: FontWeight.w500,
-                                                    fontStyle:
-                                                        heartMindVentralTheme
-                                                            .of(context)
-                                                            .bodyMedium
-                                                            .fontStyle,
-                                                  ),
+                                            style: TextStyle(
+                                                  
                                                   color: Colors.white,
                                                   fontSize: 12.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w500,
-                                                  fontStyle: heartMindVentralTheme
-                                                      .of(context)
-                                                      .bodyMedium
-                                                      .fontStyle,
-                                                ),
+                                            )   
                                           ),
                                         ],
                                       ),
                                     ),
                                     InkWell(
-                                      splashColor: Colors.transparent,
-                                      focusColor: Colors.transparent,
-                                      hoverColor: Colors.transparent,
-                                      highlightColor: Colors.transparent,
+                      
                                       onTap: () async {
                                         Navigator.of(context)
-                                            .pushNamed('/dnaEncryptedFeelings');
+                                            .pushNamed('${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.fromPetalWhisper()}');
                                       },
                                       child: Container(
                                         width: 103.0,
@@ -515,9 +383,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
-                                            image: Image.asset(
+                                            image: AssetImage(
                                               'assets/images/neutronStarTrust.png',
-                                            ).image,
+                                            ),
                                           ),
                                         ),
                                       ),
@@ -538,9 +406,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.contain,
-                                    image: Image.asset(
+                                    image: AssetImage(
                                       'assets/images/echoChamberLove.png',
-                                    ).image,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -558,7 +426,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                             final soulfulDialoguePod = genuineSynapseLocus()
                                 .looperTearscitorSolaceD
                                 .where((e) =>
-                                    e.marianaTrenchTherapID ==
+                                    e.empatheticVoiceCorner ==
                                     genuineSynapseLocus().emotionalSupportT)
                                 .toList();
 
@@ -592,9 +460,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.contain,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     'assets/images/prismLoneliness.png',
-                                                  ).image,
+                                                  ),
                                                 ),
                                               ),
                                               child: Padding(
@@ -615,17 +483,17 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.asset(
+                                                          image: AssetImage(
                                                             genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
                                                                     e.loFiSoulmatesComfortT ==
                                                                     soulfulDialoguePodItem
-                                                                        .marianaTrenchTherapID)
+                                                                        .empatheticVoiceCorner)
                                                                 .toList()
                                                                 .firstOrNull!
                                                                 .neuralLaceConfessionsI,
-                                                          ).image,
+                                                          ),
                                                         ),
                                                         borderRadius:
                                                             BorderRadius
@@ -661,19 +529,16 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                     .where((e) =>
                                                                         e.loFiSoulmatesComfortT ==
                                                                         soulfulDialoguePodItem
-                                                                            .marianaTrenchTherapID)
+                                                                            .empatheticVoiceCorner)
                                                                     .toList()
                                                                     .firstOrNull
                                                                     ?.phoenixTearsTherapyN,
-                                                                'NAME',
+                                                                '${'5c5494e05df10953d459abecdd3b66a1'.fromPetalWhisper()}',
                                                               ),
                                                               style:
-                                                                  heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .override(
+                                                                  TextStyle(
                                                                         fontFamily:
-                                                                            'PingFang',
+                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                                         color: Color(
                                                                             0xE6000000),
                                                                         letterSpacing:
@@ -684,16 +549,13 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                             ),
                                                             Text(
                                                               dateTimeFormat(
-                                                                  "d/M/y",
+                                                                  "${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}",
                                                                   soulfulDialoguePodItem
-                                                                      .compassionateListenerTiem!),
+                                                                      .heartfeltInteractionCorner!),
                                                               style:
-                                                                  heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .override(
+                                                                 TextStyle(
                                                                         fontFamily:
-                                                                            'PingFang',
+                                                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                                         color: Color(
                                                                             0xB3000000),
                                                                         fontSize:
@@ -714,18 +576,18 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                       decoration: BoxDecoration(
                                                         image: DecorationImage(
                                                           fit: BoxFit.cover,
-                                                          image: Image.asset(
+                                                          image: AssetImage(
                                                             genuineSynapseLocus()
                                                                 .piedPiperSoulsebeardWhiImgasBP
                                                                 .where((e) =>
                                                                     e.mutantConfessions ==
                                                                     soulfulDialoguePodItem
-                                                                        .anglerfishLightTrustolaceID)
+                                                                        .genuineSharingCorner)
                                                                 .toList()
                                                                 .firstOrNull!
                                                                 .dustStormSoulsgasMaskBonim
                                                                 .firstOrNull!,
-                                                          ).image,
+                                                          ),
                                                         ),
                                                       ),
                                                     ),
@@ -752,9 +614,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 decoration: BoxDecoration(
                                                   image: DecorationImage(
                                                     fit: BoxFit.cover,
-                                                    image: Image.asset(
+                                                    image: AssetImage(
                                                       'assets/images/chlorophyllComfort.png',
-                                                    ).image,
+                                                    ),
                                                   ),
                                                 ),
                                               ),
@@ -770,11 +632,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   soulfulDialoguePodItem
                                                       .brinePoolSolacenSongTearsI
                                                       .firstOrNull!,
-                                                ).image,
+                                                ),
                                               ),
                                               borderRadius:
                                                   BorderRadius.circular(16.0),
@@ -813,36 +675,16 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                     child: Text(
                                                       valueOrDefault<String>(
                                                         soulfulDialoguePodItem
-                                                            .grandfatherClockTherapyT,
+                                                            .expressiveFriendshipSpace,
                                                         '${VuriaEmotionCipher.unveilEmotion('sY3QKapy3P0dYv+TD+WovOU2QvzlrYYs2+ga0rHedftLCbTibfE8tfa4AIYOIgLl')}',
                                                       ),
                                                       style:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .bodyMedium
-                                                              .override(
-                                                                font:
-                                                                    GoogleFonts
-                                                                        .inter(
-                                                                  fontWeight: heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .fontWeight,
-                                                                  fontStyle: heartMindVentralTheme
-                                                                      .of(context)
-                                                                      .bodyMedium
-                                                                      .fontStyle,
-                                                                ),
+                                                         TextStyle(
+                                                               
                                                                 letterSpacing:
                                                                     0.0,
-                                                                fontWeight: heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .bodyMedium
-                                                                    .fontWeight,
-                                                                fontStyle: heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .bodyMedium
-                                                                    .fontStyle,
+                                                                fontWeight:FontWeight.bold,
+                                                                fontSize: 14,
                                                               ),
                                                       maxLines: 1,
                                                       overflow:
@@ -879,9 +721,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.contain,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/harmonyHaiktronicPulse.png',
-                            ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -892,7 +734,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                         highlightColor: Colors.transparent,
                         onTap: () async {
                           Navigator.of(context)
-                              .pushNamed('/interstellarSolaceTears');
+                              .pushNamed('${'d0831261d414a358de3d17fbeaefcdf3903cf95a8020faabd828a96557775b66'.fromPetalWhisper()}');
                         },
                         child: Container(
                           width: 40.0,
@@ -900,9 +742,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/feelingRockAnthemnicPulse.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -918,9 +760,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         fit: BoxFit.cover,
-                        image: Image.asset(
+                        image: AssetImage(
                           'assets/images/fractalEmotion.png',
-                        ).image,
+                        ),
                       ),
                     ),
                   ),

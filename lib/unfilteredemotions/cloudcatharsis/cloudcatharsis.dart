@@ -1,21 +1,21 @@
 import 'dart:async';
 
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class CloudCatharsisWidget extends StatefulWidget {
   const CloudCatharsisWidget({
     super.key,
-    required this.feelingSyncChannelD,
+    required this.feelingSyncChanneoulConnec,
   });
 
-  final int? feelingSyncChannelD;
+  final int? feelingSyncChanneoulConnec;
 
   @override
   State<CloudCatharsisWidget> createState() => _CloudCatharsisWidgetState();
@@ -92,9 +92,9 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: Image.asset(
+                  image: AssetImage(
                     'assets/images/comfortableListening.png',
-                  ).image,
+                  ),
                 ),
               ),
               child: Column(
@@ -110,16 +110,16 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               genuineSynapseLocus()
                                   .necronomiconHealingComfortU
                                   .where((e) =>
                                       e.loFiSoulmatesComfortT ==
-                                      widget.feelingSyncChannelD)
+                                      widget.feelingSyncChanneoulConnec)
                                   .toList()
                                   .firstOrNull!
                                   .neuralLaceConfessionsI,
-                            ).image,
+                            ),
                           ),
                           borderRadius: BorderRadius.circular(50.0),
                         ),
@@ -133,32 +133,18 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                                 .necronomiconHealingComfortU
                                 .where((e) =>
                                     e.loFiSoulmatesComfortT ==
-                                    widget.feelingSyncChannelD)
+                                    widget.feelingSyncChanneoulConnec)
                                 .toList()
                                 .firstOrNull
                                 ?.phoenixTearsTherapyN,
-                            'ANNE',
+                            '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
                           ),
-                          style: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
-                                color: Colors.white,
-                                fontSize: 24.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
+                          style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 24.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ),
                     ],
@@ -168,10 +154,6 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
                           Navigator.pop(context);
                         },
@@ -181,9 +163,9 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/surrealSafeHarbor.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -199,9 +181,9 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
               decoration: BoxDecoration(
                 image: DecorationImage(
                   fit: BoxFit.cover,
-                  image: Image.asset(
+                  image: AssetImage(
                     'assets/images/lucidComfort.png',
-                  ).image,
+                  ),
                 ),
               ),
             ),
@@ -213,9 +195,9 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: Image.asset(
+                    image: AssetImage(
                       'assets/images/fractalEmotion.png',
-                    ).image,
+                    ),
                   ),
                 ),
               ),
@@ -224,23 +206,12 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
               alignment: AlignmentDirectional(0, 0),
               child: Text(
                 '${VuriaEmotionCipher.unveilEmotion('oYPRION42qpAbLC1eo7H1g==')}',
-                style: heartMindVentralTheme.of(context).bodyMedium.override(
-                      font: GoogleFonts.poppins(
-                        fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
-                      ),
-                      color: Colors.white,
-                      fontSize: 24.0,
-                      letterSpacing: 0.0,
-                      fontWeight: FontWeight.bold,
-                      fontStyle: heartMindVentralTheme
-                          .of(context)
-                          .bodyMedium
-                          .fontStyle,
-                    ),
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 24.0,
+                  letterSpacing: 0.0,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             )
           ],

@@ -1,11 +1,9 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/feelingsInterpretationSender.dart';
 import 'package:vuria/backend/schema/structs/storyBubbleEngineCreator.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class WatercolorEmotionsAiWidget extends StatefulWidget {
@@ -50,16 +48,16 @@ class _WatercolorEmotionsAiWidgetState
           await generatePersonalizedResponse(fixedInput);
       genuineSynapseLocus()
           .addToSamuraiSocialMediapiratePodcast(LondonFogAIetWatchPhoneRMStruct(
-        pocketWatchPhoneagramID: widget.sentimentSynchronizer,
-        knightCyborgcastleCloudID: genuineSynapseLocus()
+        emotionalConnectionPortal: widget.sentimentSynchronizer,
+        authenticInteractionLounge: genuineSynapseLocus()
             .necronomiconHealingComfortU[7]
             .loFiSoulmatesComfortT,
         moatMalwarejoustingJav: DateTime.now(),
-        cathedralCodeplagueythonhx: [
+        emotionalExpressionSpot: [
           '${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'
         ],
-        neoNeolithicquantumQuillHX: [0, 0],
-        gladiatorGoogleetflixT: warmthThroughVoiceCompanion,
+        neoNeolithicquantumQuill: [0, 0],
+        vuriaFriendshipSpace: warmthThroughVoiceCompanion,
       ));
       genuineSynapseLocus().update(() {});
       moodsupramarginal();
@@ -102,7 +100,7 @@ class _WatercolorEmotionsAiWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Align(
           alignment: AlignmentDirectional(0, 1),
           child: Container(
@@ -111,9 +109,9 @@ class _WatercolorEmotionsAiWidgetState
             decoration: BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: Image.asset(
+                image: AssetImage(
                   'assets/images/comfortableListening.png',
-                ).image,
+                ),
               ),
             ),
             child: Column(
@@ -126,10 +124,6 @@ class _WatercolorEmotionsAiWidgetState
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
                           Navigator.pop(context);
                         },
@@ -139,35 +133,21 @@ class _WatercolorEmotionsAiWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
                       ),
                       Text(
                         '${VuriaEmotionCipher.unveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
-                        style: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .override(
-                              font: GoogleFonts.poppins(
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
-                              color: Colors.black,
-                              fontSize: 20,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          letterSpacing: 0.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       Container(
                         width: 32,
@@ -185,7 +165,7 @@ class _WatercolorEmotionsAiWidgetState
                         final wildWestWhatsappnseling = genuineSynapseLocus()
                             .samuraiSocialMediapiratePodcast
                             .where((e) =>
-                                e.pocketWatchPhoneagramID ==
+                                e.emotionalConnectionPortal ==
                                 widget.sentimentSynchronizer)
                             .toList();
 
@@ -208,36 +188,33 @@ class _WatercolorEmotionsAiWidgetState
                             return Builder(
                               builder: (context) {
                                 if (wildWestWhatsappnselingItem
-                                        .knightCyborgcastleCloudID !=
+                                        .authenticInteractionLounge !=
                                     genuineSynapseLocus().emotionalSupportT) {
                                   return Row(
                                     mainAxisSize: MainAxisSize.max,
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
                                     children: [
-                                      InkWell(
-                                        onTap: () {},
-                                        child: Container(
-                                          width: 50,
-                                          height: 50,
-                                          decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: Image.asset(
-                                                genuineSynapseLocus()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        wildWestWhatsappnselingItem
-                                                            .knightCyborgcastleCloudID)
-                                                    .toList()
-                                                    .firstOrNull!
-                                                    .neuralLaceConfessionsI,
-                                              ).image,
+                                      Container(
+                                        width: 50,
+                                        height: 50,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: AssetImage(
+                                              genuineSynapseLocus()
+                                                  .necronomiconHealingComfortU
+                                                  .where((e) =>
+                                                      e.loFiSoulmatesComfortT ==
+                                                      wildWestWhatsappnselingItem
+                                                          .authenticInteractionLounge)
+                                                  .toList()
+                                                  .firstOrNull!
+                                                  .neuralLaceConfessionsI,
                                             ),
-                                            borderRadius:
-                                                BorderRadius.circular(50.0),
                                           ),
+                                          borderRadius:
+                                              BorderRadius.circular(50.0),
                                         ),
                                       ),
                                       Flexible(
@@ -262,25 +239,17 @@ class _WatercolorEmotionsAiWidgetState
                                             child: Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(10, 10, 10, 10),
-                                              child: Text(
-                                                valueOrDefault<String>(
-                                                  wildWestWhatsappnselingItem
-                                                      .gladiatorGoogleetflixT,
-                                                  '',
-                                                ),
-                                                style: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .override(
-                                                      fontFamily: 'AVENIR',
-                                                      color: Color(0xFF323232),
-                                                      fontSize: 16,
-                                                      letterSpacing: 0.0,
-                                                      fontWeight:
-                                                          FontWeight.w500,
-                                                      lineHeight: 1.3,
-                                                    ),
-                                              ),
+                                    child: Text(
+  wildWestWhatsappnselingItem.vuriaFriendshipSpace ,
+  style: TextStyle(
+    fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+    color: Color(0xFF323232),
+    fontSize: 16,
+    letterSpacing: 0.0,
+    fontWeight: FontWeight.w500,
+    height: 1.3,
+  ),
+),
                                             ),
                                           ),
                                         ),
@@ -304,7 +273,6 @@ class _WatercolorEmotionsAiWidgetState
                                               maxWidth: 267,
                                             ),
                                             decoration: BoxDecoration(
-                                              color: Color(0x33FFA500),
                                               borderRadius: BorderRadius.only(
                                                 bottomLeft: Radius.circular(16),
                                                 bottomRight:
@@ -317,23 +285,19 @@ class _WatercolorEmotionsAiWidgetState
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(10, 10, 10, 10),
                                               child: Text(
-                                                valueOrDefault<String>(
+                                             
                                                   wildWestWhatsappnselingItem
-                                                      .gladiatorGoogleetflixT,
-                                                  '',
+                                                      .vuriaFriendshipSpace,
+                                                  
+                                        
+                                                style: TextStyle(
+                                                  fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                  color: Color(0xFF323232),
+                                                  fontSize: 16,
+                                                  letterSpacing: 0.0,
+                                                  fontWeight: FontWeight.w500,
+                                                  height: 1.3,
                                                 ),
-                                                style: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .override(
-                                                      fontFamily: 'AVENIR',
-                                                      color: Color(0xFF323232),
-                                                      fontSize: 16,
-                                                      letterSpacing: 0.0,
-                                                      fontWeight:
-                                                          FontWeight.w500,
-                                                      lineHeight: 1.3,
-                                                    ),
                                               ),
                                             ),
                                           ),
@@ -345,17 +309,17 @@ class _WatercolorEmotionsAiWidgetState
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
-                                            image: Image.asset(
+                                            image: AssetImage(
                                               genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
                                                       e.loFiSoulmatesComfortT ==
                                                       wildWestWhatsappnselingItem
-                                                          .knightCyborgcastleCloudID)
+                                                          .authenticInteractionLounge)
                                                   .toList()
                                                   .firstOrNull!
                                                   .neuralLaceConfessionsI,
-                                            ).image,
+                                            ),
                                           ),
                                           borderRadius:
                                               BorderRadius.circular(50.0),
@@ -396,50 +360,17 @@ class _WatercolorEmotionsAiWidgetState
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
-                                hintText: 'Say something...',
-                                hintStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
+                                labelStyle: TextStyle(
+                                  letterSpacing: 0.0,
+                                ),
+                                hintText: '${'c3e2e9ebcbaef88bd84460a1b6e13bbb328ade54a458451cf6ca66de6e877909'.fromPetalWhisper()}',
+                                hintStyle: TextStyle(
+                                      
                                       color: Color(0x663F3F3F),
                                       fontSize: 14.7,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontStyle,
+                                  
                                     ),
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
@@ -458,7 +389,7 @@ class _WatercolorEmotionsAiWidgetState
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color:
-                                        heartMindVentralTheme.of(context).error,
+                                        Colors.red,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(8),
@@ -466,44 +397,22 @@ class _WatercolorEmotionsAiWidgetState
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color:
-                                        heartMindVentralTheme.of(context).error,
+                                       Colors.red,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(8),
                                 ),
                                 filled: true,
-                                fillColor: heartMindVentralTheme
-                                    .of(context)
-                                    .secondaryBackground,
+                                fillColor: Colors.transparent,
                               ),
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
+                              style: TextStyle(
+                                  
                                     letterSpacing: 0.0,
-                                    fontWeight: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontWeight,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
+                              
                                   ),
                               cursorColor:
-                                  heartMindVentralTheme.of(context).primaryText,
-                              validator:
-                                  sentimentAuditoryCortex.asValidator(context),
+                                  Colors.black,
+             
                             ),
                           ),
                         ),
@@ -511,8 +420,8 @@ class _WatercolorEmotionsAiWidgetState
                       InkWell(
                         onTap: () async {
                           final emotionSignatureBeacon =
-                              emotionalWernickeArea.text.trim();
-                          if (emotionSignatureBeacon.isEmpty) return;
+                              emotionalWernickeArea?.text.trim();
+                          if (emotionSignatureBeacon == null) return;
 
                           final emotionThreadCombiner =
                               genuineSynapseLocus().emotionalSupportT;
@@ -523,10 +432,11 @@ class _WatercolorEmotionsAiWidgetState
                               .updateSteamPunkSiribleDroneRAtIndex(
                             resonanceWhisperMatrix!,
                             (e) => e
-                              ..pyramidAlgorithmengeFirewalHID =
-                                  resonanceWhisperMatrix
-                              ..cavePaintingNeuralinkSID = emotionThreadCombiner
-                              ..thundercloudedT = emotionSignatureBeacon
+                              ..emotionSharingCircle = resonanceWhisperMatrix
+                              ..resonanceFriendshipNetwork =
+                                  emotionThreadCombiner
+                              ..feelingFlowCommunications =
+                                  emotionSignatureBeacon
                               ..daVinciDroneoHologramN += 1
                               ..inquisitionInternetBitcoin = DateTime.now(),
                           );
@@ -534,15 +444,15 @@ class _WatercolorEmotionsAiWidgetState
                           genuineSynapseLocus()
                               .addToSamuraiSocialMediapiratePodcast(
                             LondonFogAIetWatchPhoneRMStruct(
-                              pocketWatchPhoneagramID: resonanceWhisperMatrix,
-                              knightCyborgcastleCloudID: emotionThreadCombiner,
+                              emotionalConnectionPortal: resonanceWhisperMatrix,
+                              authenticInteractionLounge: emotionThreadCombiner,
                               moatMalwarejoustingJav: DateTime.now(),
-                              cathedralCodeplagueythonhx: [
+                              emotionalExpressionSpot: [
                                 VuriaEmotionCipher.unveilEmotion(
                                     'BFUKqj2Qt45kSLy5doLL2g==')
                               ],
-                              neoNeolithicquantumQuillHX: [0, 0],
-                              gladiatorGoogleetflixT: emotionSignatureBeacon,
+                              neoNeolithicquantumQuill: [0, 0],
+                              vuriaFriendshipSpace: emotionSignatureBeacon,
                             ),
                           );
 
@@ -561,9 +471,9 @@ class _WatercolorEmotionsAiWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/whisperedFeelingsselect.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -577,9 +487,9 @@ class _WatercolorEmotionsAiWidgetState
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: Image.asset(
+                      image: AssetImage(
                         'assets/images/jigsawSympathy.png',
-                      ).image,
+                      ),
                     ),
                   ),
                 ),

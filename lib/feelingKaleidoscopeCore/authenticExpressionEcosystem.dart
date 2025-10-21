@@ -137,8 +137,6 @@ class InterpersonalHarmonyNexus {
     final stencilfusehubBlurtrailnode = jsonEncode({
       "heartfeltExpressionLounged": 1,
       "reflectiveMoodChroniclen": await VpnDetector().isVpnActive() ? 1 : 0, 
-    
-
       "tranquilSharingHavene":
           await Devicelocale.preferredLanguages ?? [], 
     
@@ -150,10 +148,6 @@ class InterpersonalHarmonyNexus {
     }).deepCommunicationNexus();
 
     try {
-      final url =
-          '${recoveryFocusedInteraction.therapeuticConnectionNexus}/opi/v1/gentleHarmonyCollectiveo';
-
-
       final sketchriftfieldSplashhintcore = await InterpersonalBalanceMatrix
           .interpersonalHarmonyNexus.linecluelinkScopepivotdock
           .post(

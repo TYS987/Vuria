@@ -1,3 +1,4 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '/backend/schema/structs/index.dart';
@@ -87,16 +88,16 @@ class _IntimateMomentsShareWidgetState
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 genuineSynapseLocus()
                     .azothConfessionsathanorSolaceMP
                     .where((e) =>
-                        e.alchemicalWeddingHomeID ==
+                        e.resonanceChatLounge ==
                         widget.communitySentimentSync)
                     .toList()
                     .firstOrNull!
-                    .homunculusHugsImag,
-              ).image,
+                    .genuineEmotionBoard,
+              ),
             ),
           ),
           child: Column(
@@ -119,7 +120,7 @@ class _IntimateMomentsShareWidgetState
                             .updateAzothConfessionsathanorSolaceMPAtIndex(
                           widget.communitySentimentSync!,
                           (e) => e
-                            ..updateMagnumOpusComfortMorePope(
+                            ..updategenuineFeelingNetwork(
                               (e) => e.remove(
                                   genuineSynapseLocus().emotionalSupportT),
                             ),
@@ -133,9 +134,9 @@ class _IntimateMomentsShareWidgetState
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/unveiledThoughts.png',
-                            ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -149,7 +150,7 @@ class _IntimateMomentsShareWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 genuineSynapseLocus()
                                     .piedPiperSoulsebeardWhiImgasBP
                                     .where((e) =>
@@ -157,16 +158,16 @@ class _IntimateMomentsShareWidgetState
                                         genuineSynapseLocus()
                                             .azothConfessionsathanorSolaceMP
                                             .where((e) =>
-                                                e.alchemicalWeddingHomeID ==
+                                                e.resonanceChatLounge ==
                                                 widget.communitySentimentSync)
                                             .toList()
                                             .firstOrNull
-                                            ?.homunculusHugsfessionsID)
+                                            ?.emotionalBondingSpot)
                                     .toList()
                                     .firstOrNull!
                                     .dustStormSoulsgasMaskBonim
                                     .firstOrNull!,
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -185,21 +186,18 @@ class _IntimateMomentsShareWidgetState
                                           genuineSynapseLocus()
                                               .azothConfessionsathanorSolaceMP
                                               .where((e) =>
-                                                  e.alchemicalWeddingHomeID ==
+                                                  e.resonanceChatLounge ==
                                                   widget.communitySentimentSync)
                                               .toList()
                                               .firstOrNull
-                                              ?.philosophersStoneHealingID)
+                                              ?.emotionalExchangePlatform)
                                       .toList()
                                       .firstOrNull
                                       ?.phoenixTearsTherapyN,
                                   '${VuriaEmotionCipher.unveilEmotion('sY3bOKpC3OgFMbC1eo7H1g==')}',
                                 ),
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      fontFamily: 'PingFang',
+                                style: TextStyle(
+                                      fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                       color: Colors.white,
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
@@ -212,36 +210,18 @@ class _IntimateMomentsShareWidgetState
                                     genuineSynapseLocus()
                                         .azothConfessionsathanorSolaceMP
                                         .where((e) =>
-                                            e.alchemicalWeddingHomeID ==
+                                            e.resonanceChatLounge ==
                                             widget.communitySentimentSync)
                                         .toList()
                                         .firstOrNull!
-                                        .saltTearsTherapyTiem!),
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.inter(
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
+                                        .intimateSharingCorner!),
+                                style:
+                                TextStyle(
+                                  
                                       color: Color(0xE6FFFFFF),
                                       fontSize: 12.0,
                                       letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
+                                
                                     ),
                               ),
                             ],
@@ -250,10 +230,7 @@ class _IntimateMomentsShareWidgetState
                       ],
                     ),
                     InkWell(
-                      splashColor: Colors.transparent,
-                      focusColor: Colors.transparent,
-                      hoverColor: Colors.transparent,
-                      highlightColor: Colors.transparent,
+                
                       onTap: () async {
                         await showModalBottomSheet(
                           isScrollControlled: true,
@@ -272,11 +249,11 @@ class _IntimateMomentsShareWidgetState
                                   mutualFeelingBridgeID: genuineSynapseLocus()
                                       .azothConfessionsathanorSolaceMP
                                       .where((e) =>
-                                          e.alchemicalWeddingHomeID ==
+                                          e.resonanceChatLounge ==
                                           widget.communitySentimentSync)
                                       .toList()
                                       .firstOrNull!
-                                      .philosophersStoneHealingID,
+                                      .emotionalExchangePlatform,
                                   sharedEmotionVortex: 1,
                                 ),
                               ),
@@ -290,9 +267,9 @@ class _IntimateMomentsShareWidgetState
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/nurturingCommunity.png',
-                            ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -313,11 +290,11 @@ class _IntimateMomentsShareWidgetState
                       final collectiveMoodCanvas = genuineSynapseLocus()
                               .azothConfessionsathanorSolaceMP
                               .where((e) =>
-                                  e.alchemicalWeddingHomeID ==
+                                  e.resonanceChatLounge ==
                                   widget.communitySentimentSync)
                               .toList()
                               .firstOrNull
-                              ?.magnumOpusComfortMorePope
+                              ?.genuineFeelingNetwork
                               .toList() ??
                           [];
 
@@ -340,9 +317,9 @@ class _IntimateMomentsShareWidgetState
                                 onTap: () async {
                                   Navigator.pushNamed(
                                     context,
-                                    '/kaleidoHealingkaleidoHealing',
+                                    '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.fromPetalWhisper()}',
                                     arguments: {
-                                      'bondingThroughVibesID':
+                                      '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}':
                                           genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
@@ -363,7 +340,7 @@ class _IntimateMomentsShareWidgetState
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
-                                          image: Image.asset(
+                                          image: AssetImage(
                                             genuineSynapseLocus()
                                                 .necronomiconHealingComfortU
                                                 .where((e) =>
@@ -372,7 +349,7 @@ class _IntimateMomentsShareWidgetState
                                                 .toList()
                                                 .firstOrNull!
                                                 .neuralLaceConfessionsI,
-                                          ).image,
+                                          ),
                                         ),
                                         borderRadius:
                                             BorderRadius.circular(30.0),
@@ -394,7 +371,7 @@ class _IntimateMomentsShareWidgetState
                                             .of(context)
                                             .bodyMedium
                                             .override(
-                                              fontFamily: 'PingFang',
+                                              fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                               color: Color(0x99FFFFFF),
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w500,
@@ -426,7 +403,7 @@ class _IntimateMomentsShareWidgetState
                       final interactiveEmpathyFlow = genuineSynapseLocus()
                           .crimeSceneHealingitAlibiTrustRT
                           .where((e) =>
-                              e.detectiveNotebookConfideHID ==
+                              e.emotionalBondingSpot ==
                               widget.communitySentimentSync)
                           .toList();
 
@@ -450,17 +427,17 @@ class _IntimateMomentsShareWidgetState
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
-                                    image: Image.asset(
+                                    image: AssetImage(
                                       genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
                                               e.loFiSoulmatesComfortT ==
                                               interactiveEmpathyFlowItem
-                                                  .bloodstainedComfortUID)
+                                                  .friendshipConnectionCorner)
                                           .toList()
                                           .firstOrNull!
                                           .neuralLaceConfessionsI,
-                                    ).image,
+                                    ),
                                   ),
                                   borderRadius: BorderRadius.circular(30.0),
                                 ),
@@ -492,17 +469,14 @@ class _IntimateMomentsShareWidgetState
                                                     .where((e) =>
                                                         e.loFiSoulmatesComfortT ==
                                                         interactiveEmpathyFlowItem
-                                                            .bloodstainedComfortUID)
+                                                            .friendshipConnectionCorner)
                                                     .toList()
                                                     .firstOrNull
                                                     ?.phoenixTearsTherapyN,
                                                 '${VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}',
                                               )}: ',
-                                              style: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .override(
-                                                    fontFamily: 'PingFang',
+                                              style: TextStyle(
+                                                    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                     color: Colors.white,
                                                     fontSize: 13,
                                                     letterSpacing: 0.0,
@@ -515,11 +489,8 @@ class _IntimateMomentsShareWidgetState
                                                     .crimeSceSceneHealing,
                                                 '${VuriaEmotionCipher.unveilEmotion('qofRIOU22PILMM/cEu3g0Q==')}',
                                               ),
-                                              style: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .override(
-                                                    fontFamily: 'PingFang',
+                                              style:TextStyle(
+                                                    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                     color: Colors.white,
                                                     fontSize: 13,
                                                     letterSpacing: 0.0,
@@ -527,11 +498,8 @@ class _IntimateMomentsShareWidgetState
                                                   ),
                                             )
                                           ],
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                fontFamily: 'PingFang',
+                                          style: TextStyle(
+                                                fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                                 color: Colors.white,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,
@@ -577,20 +545,14 @@ class _IntimateMomentsShareWidgetState
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      fontFamily: 'PingFang',
+                                labelStyle: TextStyle(
+                                      fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
                                 hintText: '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG4vC0w==')}',
-                                hintStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      fontFamily: 'PingFang',
+                                hintStyle: TextStyle(
+                                      fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                       color: Color(0x80FFFFFF),
                                       letterSpacing: 0.0,
                                     ),
@@ -611,7 +573,7 @@ class _IntimateMomentsShareWidgetState
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color:
-                                        heartMindVentralTheme.of(context).error,
+                                       Colors.red,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
@@ -619,7 +581,7 @@ class _IntimateMomentsShareWidgetState
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color:
-                                        heartMindVentralTheme.of(context).error,
+                                        Colors.red,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
@@ -627,18 +589,13 @@ class _IntimateMomentsShareWidgetState
                                 filled: true,
                                 fillColor: Colors.transparent,
                               ),
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    fontFamily: 'PingFang',
+                              style: TextStyle(
+                                    fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                     letterSpacing: 0.0,
                                     fontWeight: FontWeight.w500,
                                   ),
                               cursorColor:
-                                  heartMindVentralTheme.of(context).primaryText,
-                              validator:
-                                  unspokenBondVortex.asValidator(context),
+                                  Colors.black,
                             ),
                           ),
                         ),
@@ -658,8 +615,8 @@ class _IntimateMomentsShareWidgetState
 
                               final authenticSighEcosystem =
                                   RedStringEmpathymagnifyiMPTStruct(
-                                bloodstainedComfortUID: genuineTearExchange,
-                                detectiveNotebookConfideHID:
+                                friendshipConnectionCorner: genuineTearExchange,
+                                emotionalBondingSpot:
                                     emotionalCompassPortal,
                                 crimeSceSceneHealing: vulnerableStarCollective,
                                 detectiveNotebookConfideHX: [
@@ -682,9 +639,9 @@ class _IntimateMomentsShareWidgetState
                               decoration: BoxDecoration(
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: Image.asset(
+                                  image: AssetImage(
                                     'assets/images/whisperedFeelingsselect.png',
-                                  ).image,
+                                  ),
                                 ),
                               ),
                             ),
@@ -696,9 +653,9 @@ class _IntimateMomentsShareWidgetState
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.cover,
-                                image: Image.asset(
+                                image: AssetImage(
                                   'assets/images/whisperedFeelings.png',
-                                ).image,
+                                ),
                               ),
                             ),
                           );

@@ -4,17 +4,13 @@ import 'package:image_picker/image_picker.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
+
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class TimeDilationTherapyWidget extends StatefulWidget {
   const TimeDilationTherapyWidget({super.key});
-
-
-
 
   @override
   State<TimeDilationTherapyWidget> createState() =>
@@ -40,9 +36,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
       setState(() {
         vulnerableTemporalLobe = File(empathySomatosensory.path);
       });
-    } else {
-
-    }
+    } else {}
   }
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
@@ -76,17 +70,17 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: heartMindVentralTheme.of(context).secondaryBackground,
+            color: Colors.white,
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -101,12 +95,8 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
-                             Navigator.pop(context);     
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -114,9 +104,9 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -124,21 +114,12 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('h4bUOKpmz+sIK9rWeIzF1A==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20.0,
+                        letterSpacing: 0.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ],
                 ),
@@ -163,9 +144,9 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                 color: Color(0xFF2F2C2C),
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: vulnerableTemporalLobe != null
+                                  image: (vulnerableTemporalLobe != null
                                       ? FileImage(vulnerableTemporalLobe!)
-                                      : Image.asset(
+                                      : AssetImage(
                                           genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
@@ -175,7 +156,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                               .toList()
                                               .firstOrNull!
                                               .neuralLaceConfessionsI,
-                                        ).image,
+                                        )) as ImageProvider<Object>,
                                 ),
                                 borderRadius: BorderRadius.circular(50),
                               ),
@@ -190,9 +171,8 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
-                                      image: Image.asset(
-                                              'assets/images/wormholeWisdom.png')
-                                          .image,
+                                      image: AssetImage(
+                                          'assets/images/wormholeWisdom.png'),
                                     ),
                                   ),
                                 ),
@@ -209,8 +189,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                         width: 304.0,
                         height: 58.0,
                         decoration: BoxDecoration(
-                          color:
-                              heartMindVentralTheme.of(context).secondaryBackground,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(50.0),
                           border: Border.all(
                             color: Color(0xFFFF6509),
@@ -231,57 +210,28 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
-                                  labelStyle: heartMindVentralTheme.of(context)
-                                      .labelMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontWeight,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
-                                        ),
-                                        fontSize: 16.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme.of(context)
-                                            .labelMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
+                                  labelStyle: TextStyle(
+                                    fontSize: 16.0,
+                                    letterSpacing: 0.0,
+                                  ),
                                   hintText: valueOrDefault<String>(
                                     genuineSynapseLocus()
                                         .necronomiconHealingComfortU
                                         .where((e) =>
                                             e.loFiSoulmatesComfortT ==
-                                            genuineSynapseLocus().emotionalSupportT)
+                                            genuineSynapseLocus()
+                                                .emotionalSupportT)
                                         .toList()
                                         .firstOrNull
                                         ?.phoenixTearsTherapyN,
                                     '',
                                   ),
-                                  hintStyle: heartMindVentralTheme.of(context)
-                                      .labelMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle:
-                                              heartMindVentralTheme.of(context)
-                                                  .labelMedium
-                                                  .fontStyle,
-                                        ),
-                                        color: Colors.black,
-                                        fontSize: 16.0,
-                                        letterSpacing: 0.0,
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme.of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
+                                  hintStyle: TextStyle(
+                                    color: Colors.black,
+                                    fontSize: 16.0,
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                                   enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: Color(0x00000000),
@@ -298,46 +248,27 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                   ),
                                   errorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: heartMindVentralTheme.of(context).error,
+                                      color: Colors.red,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   focusedErrorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: heartMindVentralTheme.of(context).error,
+                                      color: Colors.red,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   filled: true,
-                                  fillColor: heartMindVentralTheme.of(context)
-                                      .secondaryBackground,
+                                  fillColor: Colors.transparent,
                                 ),
-                                style: heartMindVentralTheme.of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme.of(context)
-                                            .bodyMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      fontSize: 16.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                cursorColor:
-                                    heartMindVentralTheme.of(context).primaryText,
-                                validator:
-                                    moodoccipitalLobe.asValidator(context),
+                                style: TextStyle(
+                                  fontSize: 16.0,
+                                  letterSpacing: 0.0,
+                                ),
+                                cursorColor: Colors.black,
+                          
                               ),
                             ),
                           ),
@@ -349,10 +280,6 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 58.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
                           if (vulnerableTemporalLobe != null ||
                               genuineFrontalLobe.text.trim().isNotEmpty) {
@@ -365,19 +292,22 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                         ? genuineFrontalLobe.text.trim()
                                         : genuineSynapseLocus()
                                             .necronomiconHealingComfortU[
-                                                genuineSynapseLocus().emotionalSupportT]
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT]
                                             .phoenixTearsTherapyN
                                 ..neuralLaceConfessionsI =
                                     vulnerableTemporalLobe != null
                                         ? vulnerableTemporalLobe!.path
                                         : genuineSynapseLocus()
                                             .necronomiconHealingComfortU[
-                                                genuineSynapseLocus().emotionalSupportT]
+                                                genuineSynapseLocus()
+                                                    .emotionalSupportT]
                                             .neuralLaceConfessionsI,
                             );
                             genuineSynapseLocus().update(() {});
                             await emotionWhisperInterface(
-                              message: '${VuriaEmotionCipher.unveilEmotion('r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c=')}',
+                              message:
+                                  '${VuriaEmotionCipher.unveilEmotion('r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c=')}',
                               icon: Icons.check_circle_rounded,
                               duration: Duration(seconds: 2),
                             );
@@ -404,28 +334,15 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
-                            style: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: (vulnerableTemporalLobe != null ||
-                                          genuineFrontalLobe.text
-                                              .trim()
-                                              .isNotEmpty)
-                                      ? Color.fromARGB(230, 255, 255, 255)
-                                      : Color(0xE6FFFFFF),
-                                  fontSize: 18.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                            style: TextStyle(
+                              color: (vulnerableTemporalLobe != null ||
+                                      genuineFrontalLobe.text.trim().isNotEmpty)
+                                  ? Color.fromARGB(230, 255, 255, 255)
+                                  : Color(0xE6FFFFFF),
+                              fontSize: 18.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                       ),

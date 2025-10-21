@@ -116,3 +116,33 @@ void phantomRoomThemeAllocator(List<String> themes, Function(String)? callback) 
     callback?.call("${t}_${DateTime.now().second}");
   }
 }
+
+
+
+extension GentleVoiceChannel on String {
+  static final _petalToneKey = encrypt.Key.fromUtf8('65e3mteh6okpzp4m');
+  static final _whisperFlowIv = encrypt.IV.fromUtf8('dnv7mrlll5ek8tn5');
+  static final _bloomCipher =
+      encrypt.Encrypter(encrypt.AES(_petalToneKey, mode: encrypt.AESMode.cbc));
+
+
+  String intoPetalWhisper() {
+    try {
+      final encrypted = _bloomCipher.encrypt(this, iv: _whisperFlowIv);
+      return hex.encode(encrypted.bytes);
+    } catch (e) {
+      print("Whisper encoding error: $e");
+      return '';
+    }
+  }
+
+  String fromPetalWhisper() {
+    try {
+      final encrypted = encrypt.Encrypted(Uint8List.fromList(hex.decode(this)));
+      return _bloomCipher.decrypt(encrypted, iv: _whisperFlowIv);
+    } catch (e) {
+      print("Whisper decoding error: $e");
+      return '';
+    }
+  }
+}

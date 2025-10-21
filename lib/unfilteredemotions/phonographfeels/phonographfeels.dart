@@ -1,10 +1,7 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class PhonographFeelsWidget extends StatefulWidget {
   const PhonographFeelsWidget({super.key});
@@ -46,16 +43,16 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -70,10 +67,6 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
                           Navigator.pop(context);
                         },
@@ -83,9 +76,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -93,24 +86,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
-                      style:
-                          heartMindVentralTheme.of(context).bodyMedium.override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.w600,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
-                                color: Colors.black,
-                                fontSize: 20.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.w600,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20.0,
+                        letterSpacing: 0.0,
+                        fontWeight: FontWeight.w600,
+                      ),
                     ),
                   ],
                 ),
@@ -126,25 +107,11 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                           alignment: AlignmentDirectional(0.0, -1.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2R/HtsoxilvdVyPTNYv80a9CbE4YM0Y7BY7ZrQXeHxB58WU2YtQuoNpNi0hrVCw==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w500,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Color(0x99000000),
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.w500,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                            style: TextStyle(
+                              color: Color(0x99000000),
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.w500,
+                            ),
                           ),
                         ),
                         InkWell(
@@ -173,9 +140,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/analogMoonlight.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -186,9 +153,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/vacuumTubeTrust.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -198,26 +165,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('qoPPLfll0OEANrC1eo7H1g==')}',
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0xE6000000),
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                    style: TextStyle(
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -254,9 +207,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/analogMoonlight.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -267,9 +220,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/vacuumTubeTrust.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -279,26 +232,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYtDBHf2l0Q==')}',
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0xE6000000),
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                    style: TextStyle(
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -335,9 +274,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/analogMoonlight.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -348,9 +287,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/vacuumTubeTrust.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -360,26 +299,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('so3PIuVxz+UeKs+2eY3E1Q==')}',
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0xE6000000),
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                    style: TextStyle(
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -416,9 +341,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/analogMoonlight.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -429,9 +354,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/vacuumTubeTrust.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -441,26 +366,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYt/dD/2tpPMZOpuDzuwDuZ41tduwCIA=')}',
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0xE6000000),
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                    style: TextStyle(
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -497,9 +408,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/analogMoonlight.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -510,9 +421,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/vacuumTubeTrust.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           );
@@ -522,26 +433,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   ),
                                   Text(
                                     '${VuriaEmotionCipher.unveilEmotion('pIPRP+829OoILcTeHfyov+4ZOpuDzuwDuZ41tduwCIA=')}',
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: FontWeight.w500,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0xE6000000),
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                    style: TextStyle(
+                                      color: Color(0xE6000000),
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ],
                               ),
@@ -555,9 +452,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             width: 327.0,
                             height: 125.0,
                             decoration: BoxDecoration(
-                              color: heartMindVentralTheme
-                                  .of(context)
-                                  .secondaryBackground,
+                              color: Colors.white,
                               borderRadius: BorderRadius.circular(12.0),
                               border: Border.all(
                                 color: Color(0xFFFF6206),
@@ -576,57 +471,16 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     isDense: true,
-                                    labelStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .labelMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontStyle,
-                                          ),
-                                          letterSpacing: 0.0,
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
+                                    labelStyle: TextStyle(
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.normal,
+                                    ),
                                     hintText:
                                         '${VuriaEmotionCipher.unveilEmotion('sZfNPOZz0OEANtfBBailtfN1R/38tYpj2LES1aTLbuA1eMjbce0gqeqkHJoSPh75')}',
-                                    hintStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .labelMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0x66000000),
-                                          letterSpacing: 0.0,
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
+                                    hintStyle: TextStyle(
+                                      color: Color(0x66000000),
+                                      letterSpacing: 0.0,
+                                    ),
                                     enabledBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
                                         color: Color(0x00000000),
@@ -656,33 +510,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       borderRadius: BorderRadius.circular(8.0),
                                     ),
                                     filled: true,
-                                  fillColor: Colors.transparent,
+                                    fillColor: Colors.transparent,
                                   ),
-                                  style: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
-                                         color: Color(0xFF000000), 
-                                        letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
+                                  style: TextStyle(
+                                    color: Color(0xFF000000),
+                                    letterSpacing: 0.0,
+                                  ),
                                   maxLines: 10,
                                   maxLength: 150,
                                   buildCounter: (
@@ -699,8 +532,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       ),
                                     );
                                   },
-                                  validator:
-                                      vulnerablePsycheScan.asValidator(context),
+                    
                                 ),
                               ),
                             ),
@@ -742,26 +574,12 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               alignment: AlignmentDirectional(0.0, 0.0),
                               child: Text(
                                 '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.bold,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Color(0xE6FFFFFF),
-                                      fontSize: 20.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.bold,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
+                                style: TextStyle(
+                                  color: Color(0xE6FFFFFF),
+                                  fontSize: 20.0,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                           ),

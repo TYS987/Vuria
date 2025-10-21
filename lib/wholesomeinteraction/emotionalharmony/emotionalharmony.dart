@@ -1,3 +1,5 @@
+import 'package:vuria/moodPandorfeeling.dart';
+
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 import 'package:flutter/material.dart';
@@ -67,9 +69,9 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/sereneConnectionselect.png',
-                            ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -97,9 +99,9 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/sereneConnection.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -119,9 +121,9 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/trustedCompanionshipselect.png',
-                            ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -149,9 +151,9 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/trustedCompanionship.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -171,9 +173,9 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/comfortingPresenceselect.png',
-                            ).image,
+                            ),
                           ),
                         ),
                       ),
@@ -201,9 +203,9 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/comfortingPresence.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),

@@ -1,13 +1,9 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class FifthDimensionalLoveWidget extends StatefulWidget {
   const FifthDimensionalLoveWidget({super.key});
-
-
 
   @override
   State<FifthDimensionalLoveWidget> createState() =>
@@ -37,17 +33,17 @@ class _FifthDimensionalLoveWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: heartMindVentralTheme.of(context).secondaryBackground,
+            color: Colors.white,
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -62,12 +58,9 @@ class _FifthDimensionalLoveWidgetState
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
+                     
                         onTap: () async {
-                  Navigator.pop(context);
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -75,9 +68,9 @@ class _FifthDimensionalLoveWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -85,21 +78,12 @@ class _FifthDimensionalLoveWidgetState
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('o4DSOf42yPdmSr67dIDJ2A==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                        fontSize: 20.0,
+                        letterSpacing: 0.0,
+                      ),
                     ),
                   ],
                 ),
@@ -119,46 +103,31 @@ class _FifthDimensionalLoveWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/heartfeltConnection.png',
-                              ).image,
+                              ),
                             ),
                             borderRadius: BorderRadius.circular(24.0),
                           ),
                         ),
                         Text(
                           '${VuriaEmotionCipher.unveilEmotion('tJfPJesdto9lSb24d4PK2w==')}',
-                          style:
-                              heartMindVentralTheme.of(context).bodyMedium.override(
-                                    font: GoogleFonts.cevicheOne(
-                                      fontWeight: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Colors.black,
-                                    fontSize: 32.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontWeight,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                          style: TextStyle(
+                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                              color: Colors.black,
+                              fontSize: 32.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold),
                         ),
                         Text(
                           'Version 1.1.0',
-                          style:
-                              heartMindVentralTheme.of(context).bodyMedium.override(
-                                    fontFamily: 'AVENIR',
-                                    color: Color(0xCD000000),
-                                    fontSize: 13.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.w500,
-                                  ),
+                          style: TextStyle(
+                            fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                            color: Color(0xCD000000),
+                            fontSize: 13.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.w500,
+                          ),
                         ),
                       ],
                     ),

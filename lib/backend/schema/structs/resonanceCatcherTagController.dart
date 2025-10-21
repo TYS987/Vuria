@@ -9,54 +9,54 @@ import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class BioluminescentEmpathyDTStruct extends BaseStruct {
   BioluminescentEmpathyDTStruct({
-    int? marianaTrenchTherapID,
-    int? pressureDepthConfessionsWID,
-    int? anglerfishLightTrustolaceID,
+    int? empatheticVoiceCorner,
+    int? friendshipResonanceSpot,
+    int? genuineSharingCorner,
     List<String>? brinePoolSolacenSongTearsI,
-    String? grandfatherClockTherapyT,
+    String? expressiveFriendshipSpace,
     List<int>? timeMachineComfortLo,
     List<String>? butterflyEffectConfideHX,
-    DateTime? compassionateListenerTiem,
-  })  : _marianaTrenchTherapID = marianaTrenchTherapID,
-        _pressureDepthConfessionsWID = pressureDepthConfessionsWID,
-        _anglerfishLightTrustolaceID = anglerfishLightTrustolaceID,
+    DateTime? heartfeltInteractionCorner,
+  })  : _empatheticVoiceCorner = empatheticVoiceCorner,
+        _friendshipResonanceSpot = friendshipResonanceSpot,
+        _genuineSharingCorner = genuineSharingCorner,
         _brinePoolSolacenSongTearsI = brinePoolSolacenSongTearsI,
-        _grandfatherClockTherapyT = grandfatherClockTherapyT,
+        _expressiveFriendshipSpace = expressiveFriendshipSpace,
         _timeMachineComfortLo = timeMachineComfortLo,
         _butterflyEffectConfideHX = butterflyEffectConfideHX,
-        _compassionateListenerTiem = compassionateListenerTiem;
+        _heartfeltInteractionCorner = heartfeltInteractionCorner;
 
-  // "marianaTrenchTherapID" field.
-  int? _marianaTrenchTherapID;
-  int get marianaTrenchTherapID => _marianaTrenchTherapID ?? 0;
-  set marianaTrenchTherapID(int? val) => _marianaTrenchTherapID = val;
+  // "empatheticVoiceCorner" field.
+  int? _empatheticVoiceCorner;
+  int get empatheticVoiceCorner => _empatheticVoiceCorner ?? 0;
+  set empatheticVoiceCorner(int? val) => _empatheticVoiceCorner = val;
 
-  void incrementMarianaTrenchTherapID(int amount) =>
-      marianaTrenchTherapID = marianaTrenchTherapID + amount;
+  void incrementempatheticVoiceCorner(int amount) =>
+      empatheticVoiceCorner = empatheticVoiceCorner + amount;
 
-  bool hasMarianaTrenchTherapID() => _marianaTrenchTherapID != null;
+  bool hasempatheticVoiceCorner() => _empatheticVoiceCorner != null;
 
-  // "pressureDepthConfessionsWID" field.
-  int? _pressureDepthConfessionsWID;
-  int get pressureDepthConfessionsWID => _pressureDepthConfessionsWID ?? 0;
-  set pressureDepthConfessionsWID(int? val) =>
-      _pressureDepthConfessionsWID = val;
+  // "friendshipResonanceSpot" field.
+  int? _friendshipResonanceSpot;
+  int get friendshipResonanceSpot => _friendshipResonanceSpot ?? 0;
+  set friendshipResonanceSpot(int? val) =>
+      _friendshipResonanceSpot = val;
 
-  void incrementPressureDepthConfessionsWID(int amount) =>
-      pressureDepthConfessionsWID = pressureDepthConfessionsWID + amount;
+  void incrementfriendshipResonanceSpot(int amount) =>
+      friendshipResonanceSpot = friendshipResonanceSpot + amount;
 
-  bool hasPressureDepthConfessionsWID() => _pressureDepthConfessionsWID != null;
+  bool hasfriendshipResonanceSpot() => _friendshipResonanceSpot != null;
 
-  // "anglerfishLightTrustolaceID" field.
-  int? _anglerfishLightTrustolaceID;
-  int get anglerfishLightTrustolaceID => _anglerfishLightTrustolaceID ?? 0;
-  set anglerfishLightTrustolaceID(int? val) =>
-      _anglerfishLightTrustolaceID = val;
+  // "genuineSharingCorner" field.
+  int? _genuineSharingCorner;
+  int get genuineSharingCorner => _genuineSharingCorner ?? 0;
+  set genuineSharingCorner(int? val) =>
+      _genuineSharingCorner = val;
 
-  void incrementAnglerfishLightTrustolaceID(int amount) =>
-      anglerfishLightTrustolaceID = anglerfishLightTrustolaceID + amount;
+  void incrementgenuineSharingCorner(int amount) =>
+      genuineSharingCorner = genuineSharingCorner + amount;
 
-  bool hasAnglerfishLightTrustolaceID() => _anglerfishLightTrustolaceID != null;
+  bool hasgenuineSharingCorner() => _genuineSharingCorner != null;
 
   // "brinePoolSolacenSongTearsI" field.
   List<String>? _brinePoolSolacenSongTearsI;
@@ -71,12 +71,12 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasBrinePoolSolacenSongTearsI() => _brinePoolSolacenSongTearsI != null;
 
-  // "grandfatherClockTherapyT" field.
-  String? _grandfatherClockTherapyT;
-  String get grandfatherClockTherapyT => _grandfatherClockTherapyT ?? '';
-  set grandfatherClockTherapyT(String? val) => _grandfatherClockTherapyT = val;
+  // "expressiveFriendshipSpace" field.
+  String? _expressiveFriendshipSpace;
+  String get expressiveFriendshipSpace => _expressiveFriendshipSpace ?? '';
+  set expressiveFriendshipSpace(String? val) => _expressiveFriendshipSpace = val;
 
-  bool hasGrandfatherClockTherapyT() => _grandfatherClockTherapyT != null;
+  bool hasexpressiveFriendshipSpace() => _expressiveFriendshipSpace != null;
 
   // "timeMachineComfortLo" field.
   List<int>? _timeMachineComfortLo;
@@ -102,28 +102,28 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasButterflyEffectConfideHX() => _butterflyEffectConfideHX != null;
 
-  // "compassionateListenerTiem" field.
-  DateTime? _compassionateListenerTiem;
-  DateTime? get compassionateListenerTiem => _compassionateListenerTiem;
-  set compassionateListenerTiem(DateTime? val) =>
-      _compassionateListenerTiem = val;
+  // "heartfeltInteractionCorner" field.
+  DateTime? _heartfeltInteractionCorner;
+  DateTime? get heartfeltInteractionCorner => _heartfeltInteractionCorner;
+  set heartfeltInteractionCorner(DateTime? val) =>
+      _heartfeltInteractionCorner = val;
 
-  bool hasCompassionateListenerTiem() => _compassionateListenerTiem != null;
+  bool hasheartfeltInteractionCorner() => _heartfeltInteractionCorner != null;
 
   static BioluminescentEmpathyDTStruct fromMap(Map<String, dynamic> data) =>
       BioluminescentEmpathyDTStruct(
-        marianaTrenchTherapID: castToType<int>(data['marianaTrenchTherapID']),
-        pressureDepthConfessionsWID:
-            castToType<int>(data['pressureDepthConfessionsWID']),
-        anglerfishLightTrustolaceID:
-            castToType<int>(data['anglerfishLightTrustolaceID']),
+        empatheticVoiceCorner: castToType<int>(data['empatheticVoiceCorner']),
+        friendshipResonanceSpot:
+            castToType<int>(data['friendshipResonanceSpot']),
+        genuineSharingCorner:
+            castToType<int>(data['genuineSharingCorner']),
         brinePoolSolacenSongTearsI:
             getDataList(data['brinePoolSolacenSongTearsI']),
-        grandfatherClockTherapyT: data['grandfatherClockTherapyT'] as String?,
+        expressiveFriendshipSpace: data['expressiveFriendshipSpace'] as String?,
         timeMachineComfortLo: getDataList(data['timeMachineComfortLo']),
         butterflyEffectConfideHX: getDataList(data['butterflyEffectConfideHX']),
-        compassionateListenerTiem:
-            data['compassionateListenerTiem'] as DateTime?,
+        heartfeltInteractionCorner:
+            data['heartfeltInteractionCorner'] as DateTime?,
       );
 
   static BioluminescentEmpathyDTStruct? maybeFromMap(dynamic data) =>
@@ -132,28 +132,28 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           : null;
 
   Map<String, dynamic> toMap() => {
-        'marianaTrenchTherapID': _marianaTrenchTherapID,
-        'pressureDepthConfessionsWID': _pressureDepthConfessionsWID,
-        'anglerfishLightTrustolaceID': _anglerfishLightTrustolaceID,
+        'empatheticVoiceCorner': _empatheticVoiceCorner,
+        'friendshipResonanceSpot': _friendshipResonanceSpot,
+        'genuineSharingCorner': _genuineSharingCorner,
         'brinePoolSolacenSongTearsI': _brinePoolSolacenSongTearsI,
-        'grandfatherClockTherapyT': _grandfatherClockTherapyT,
+        'expressiveFriendshipSpace': _expressiveFriendshipSpace,
         'timeMachineComfortLo': _timeMachineComfortLo,
         'butterflyEffectConfideHX': _butterflyEffectConfideHX,
-        'compassionateListenerTiem': _compassionateListenerTiem,
+        'heartfeltInteractionCorner': _heartfeltInteractionCorner,
       }.withoutNulls;
 
   @override
   Map<String, dynamic> toSerializableMap() => {
-        'marianaTrenchTherapID': serializeParam(
-          _marianaTrenchTherapID,
+        'empatheticVoiceCorner': serializeParam(
+          _empatheticVoiceCorner,
           ParamType.int,
         ),
-        'pressureDepthConfessionsWID': serializeParam(
-          _pressureDepthConfessionsWID,
+        'friendshipResonanceSpot': serializeParam(
+          _friendshipResonanceSpot,
           ParamType.int,
         ),
-        'anglerfishLightTrustolaceID': serializeParam(
-          _anglerfishLightTrustolaceID,
+        'genuineSharingCorner': serializeParam(
+          _genuineSharingCorner,
           ParamType.int,
         ),
         'brinePoolSolacenSongTearsI': serializeParam(
@@ -161,8 +161,8 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           ParamType.String,
           isList: true,
         ),
-        'grandfatherClockTherapyT': serializeParam(
-          _grandfatherClockTherapyT,
+        'expressiveFriendshipSpace': serializeParam(
+          _expressiveFriendshipSpace,
           ParamType.String,
         ),
         'timeMachineComfortLo': serializeParam(
@@ -175,8 +175,8 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           ParamType.String,
           isList: true,
         ),
-        'compassionateListenerTiem': serializeParam(
-          _compassionateListenerTiem,
+        'heartfeltInteractionCorner': serializeParam(
+          _heartfeltInteractionCorner,
           ParamType.DateTime,
         ),
       }.withoutNulls;
@@ -184,18 +184,18 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
   static BioluminescentEmpathyDTStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       BioluminescentEmpathyDTStruct(
-        marianaTrenchTherapID: deserializeParam(
-          data['marianaTrenchTherapID'],
+        empatheticVoiceCorner: deserializeParam(
+          data['empatheticVoiceCorner'],
           ParamType.int,
           false,
         ),
-        pressureDepthConfessionsWID: deserializeParam(
-          data['pressureDepthConfessionsWID'],
+        friendshipResonanceSpot: deserializeParam(
+          data['friendshipResonanceSpot'],
           ParamType.int,
           false,
         ),
-        anglerfishLightTrustolaceID: deserializeParam(
-          data['anglerfishLightTrustolaceID'],
+        genuineSharingCorner: deserializeParam(
+          data['genuineSharingCorner'],
           ParamType.int,
           false,
         ),
@@ -204,8 +204,8 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           ParamType.String,
           true,
         ),
-        grandfatherClockTherapyT: deserializeParam(
-          data['grandfatherClockTherapyT'],
+        expressiveFriendshipSpace: deserializeParam(
+          data['expressiveFriendshipSpace'],
           ParamType.String,
           false,
         ),
@@ -219,8 +219,8 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           ParamType.String,
           true,
         ),
-        compassionateListenerTiem: deserializeParam(
-          data['compassionateListenerTiem'],
+        heartfeltInteractionCorner: deserializeParam(
+          data['heartfeltInteractionCorner'],
           ParamType.DateTime,
           false,
         ),
@@ -233,42 +233,42 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
   bool operator ==(Object other) {
     const listEquality = ListEquality();
     return other is BioluminescentEmpathyDTStruct &&
-        marianaTrenchTherapID == other.marianaTrenchTherapID &&
-        pressureDepthConfessionsWID == other.pressureDepthConfessionsWID &&
-        anglerfishLightTrustolaceID == other.anglerfishLightTrustolaceID &&
+        empatheticVoiceCorner == other.empatheticVoiceCorner &&
+        friendshipResonanceSpot == other.friendshipResonanceSpot &&
+        genuineSharingCorner == other.genuineSharingCorner &&
         listEquality.equals(
             brinePoolSolacenSongTearsI, other.brinePoolSolacenSongTearsI) &&
-        grandfatherClockTherapyT == other.grandfatherClockTherapyT &&
+        expressiveFriendshipSpace == other.expressiveFriendshipSpace &&
         listEquality.equals(timeMachineComfortLo, other.timeMachineComfortLo) &&
         listEquality.equals(
             butterflyEffectConfideHX, other.butterflyEffectConfideHX) &&
-        compassionateListenerTiem == other.compassionateListenerTiem;
+        heartfeltInteractionCorner == other.heartfeltInteractionCorner;
   }
 
   @override
   int get hashCode => const ListEquality().hash([
-        marianaTrenchTherapID,
-        pressureDepthConfessionsWID,
-        anglerfishLightTrustolaceID,
+        empatheticVoiceCorner,
+        friendshipResonanceSpot,
+        genuineSharingCorner,
         brinePoolSolacenSongTearsI,
-        grandfatherClockTherapyT,
+        expressiveFriendshipSpace,
         timeMachineComfortLo,
         butterflyEffectConfideHX,
-        compassionateListenerTiem
+        heartfeltInteractionCorner
       ]);
 }
 
 BioluminescentEmpathyDTStruct createBioluminescentEmpathyDTStruct({
-  int? marianaTrenchTherapID,
-  int? pressureDepthConfessionsWID,
-  int? anglerfishLightTrustolaceID,
-  String? grandfatherClockTherapyT,
-  DateTime? compassionateListenerTiem,
+  int? empatheticVoiceCorner,
+  int? friendshipResonanceSpot,
+  int? genuineSharingCorner,
+  String? expressiveFriendshipSpace,
+  DateTime? heartfeltInteractionCorner,
 }) =>
     BioluminescentEmpathyDTStruct(
-      marianaTrenchTherapID: marianaTrenchTherapID,
-      pressureDepthConfessionsWID: pressureDepthConfessionsWID,
-      anglerfishLightTrustolaceID: anglerfishLightTrustolaceID,
-      grandfatherClockTherapyT: grandfatherClockTherapyT,
-      compassionateListenerTiem: compassionateListenerTiem,
+      empatheticVoiceCorner: empatheticVoiceCorner,
+      friendshipResonanceSpot: friendshipResonanceSpot,
+      genuineSharingCorner: genuineSharingCorner,
+      expressiveFriendshipSpace: expressiveFriendshipSpace,
+      heartfeltInteractionCorner: heartfeltInteractionCorner,
     );

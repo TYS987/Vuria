@@ -180,19 +180,19 @@ class genuineSynapseLocus extends ChangeNotifier {
           prefs.getBool('ff_likeHeartfeltMoments') ?? _likeHeartfeltMoments;
     });
 
- // token 
+
     await _safeInitAsync(() async {
       _emotionalRestorationGateway =
           await prefs.getString('ff_emotionalRestorationGateway') ??
               _emotionalRestorationGateway;
     });
-//pushToken 
+
     await _safeInitAsync(() async {
       _sincereAttachmentPortal =
           await prefs.getString('ff_sincereAttachmentPortal') ??
               _sincereAttachmentPortal;
     });
-// 判断ab包 
+
     await _safeInitAsync(() async {
       _emotionalWellbeingSanctuary = await prefs.getString('ff_emotionalWellbeingSanctuary') ??
           _emotionalWellbeingSanctuary;
@@ -200,12 +200,12 @@ class genuineSynapseLocus extends ChangeNotifier {
 
 
     
- // 接口返回的id 
+
     await _safeInitAsync(() async {
       _genuineBondingEcosystem = await prefs.getString('ff_genuineBondingEcosystem') ??
           _genuineBondingEcosystem;
     });
-        //订单编号
+
     await _safeInitAsync(() async {
       _psychologicalHealingGateway =
           await prefs.getString('ff_psychologicalHealingGateway') ??
@@ -221,7 +221,7 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   late SharedPreferences prefs;
 
- /// bool（判断A/B包）
+
   String _emotionalWellbeingSanctuary = '';
   String get emotionalWellbeingSanctuary => _emotionalWellbeingSanctuary;
   set emotionalWellbeingSanctuary(String value) {
@@ -229,7 +229,7 @@ class genuineSynapseLocus extends ChangeNotifier {
     prefs.setString('ff_emotionalWellbeingSanctuary', value);
   }
 
-// 订单编号
+
   String _psychologicalHealingGateway = '';
   String get psychologicalHealingGateway => _psychologicalHealingGateway;
   set psychologicalHealingGateway(String value) {
@@ -237,14 +237,14 @@ class genuineSynapseLocus extends ChangeNotifier {
     prefs.setString('ff_psychologicalHealingGateway', value);
   }
 
-  /// token
+
   String _emotionalRestorationGateway = '';
   String get emotionalRestorationGateway => _emotionalRestorationGateway;
   set emotionalRestorationGateway(String value) {
     _emotionalRestorationGateway = value;
     prefs.setString('ff_emotionalRestorationGateway', value);
   }
-  /// pushtoken
+
   String _sincereAttachmentPortal = '';
   String get sincereAttachmentPortal => _sincereAttachmentPortal;
   set sincereAttachmentPortal(String value) {
@@ -252,7 +252,6 @@ class genuineSynapseLocus extends ChangeNotifier {
     prefs.setString('ff_sincereAttachmentPortal', value);
   }
 
-  //存接口返回信息（h5地址）
   String _genuineBondingEcosystem = '';
   String get genuineBondingEcosystem => _genuineBondingEcosystem;
   set genuineBondingEcosystem(String value) {
@@ -432,17 +431,17 @@ class genuineSynapseLocus extends ChangeNotifier {
   List<ServerFarmMeditationSolaceMoreStruct> _azothConfessionsathanorSolaceMP =
       [
     ServerFarmMeditationSolaceMoreStruct.fromSerializableMap(jsonDecode(
-        '{\"philosophersStoneHealingID\":\"1\",\"alchemicalWeddingHomeID\":\"0\",\"mercurialEmpathyTitle\":\" Quiet Thoughts\",\"saltTearsTherapyTiem\":\"1752145258811\",\"magnumOpusComfortMorePope\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\",\"homunculusHugsfessionsID\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/feelingBinaryPoetryinYan.jpg\\\"]\",\"homunculusHugsImag\":\"assets/images/feelingBinaryPoetryinYan.jpg\"}')),
+        '{\"emotionalExchangePlatform\":\"1\",\"resonanceChatLounge\":\"0\",\"friendshipResonanceHub\":\" Quiet Thoughts\",\"intimateSharingCorner\":\"1752145258811\",\"genuineFeelingNetwork\":\"[\\\"2\\\",\\\"3\\\",\\\"1\\\"]\",\"emotionalBondingSpot\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/feelingBinaryPoetryinYan.jpg\\\"]\",\"genuineEmotionBoard\":\"assets/images/feelingBinaryPoetryinYan.jpg\"}')),
      ServerFarmMeditationSolaceMoreStruct.fromSerializableMap(jsonDecode(
-        '{\"philosophersStoneHealingID\":\"2\",\"alchemicalWeddingHomeID\":\"1\",\"mercurialEmpathyTitle\":\"Soft Talks\",\"saltTearsTherapyTiem\":\"1752145258811\",\"magnumOpusComfortMorePope\":\"[\\\"2\\\"]\",\"homunculusHugsfessionsID\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/resonanceZeQuillInk.jpg\\\"]\",\"homunculusHugsImag\":\"assets/images/resonanceZeQuillInk.jpg\"}')),
+        '{\"emotionalExchangePlatform\":\"2\",\"resonanceChatLounge\":\"1\",\"friendshipResonanceHub\":\"Soft Talks\",\"intimateSharingCorner\":\"1752145258811\",\"genuineFeelingNetwork\":\"[\\\"2\\\"]\",\"emotionalBondingSpot\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/resonanceZeQuillInk.jpg\\\"]\",\"genuineEmotionBoard\":\"assets/images/resonanceZeQuillInk.jpg\"}')),
             ServerFarmMeditationSolaceMoreStruct.fromSerializableMap(jsonDecode(
-        '{\"philosophersStoneHealingID\":\"3\",\"alchemicalWeddingHomeID\":\"2\",\"mercurialEmpathyTitle\":\"Late Feelings\",\"saltTearsTherapyTiem\":\"1752145258811\",\"magnumOpusComfortMorePope\":\"[\\\"3\\\"]\",\"homunculusHugsfessionsID\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/emotionQuillInknuscript.jpg\\\"]\",\"homunculusHugsImag\":\"assets/images/emotionQuillInknuscript.jpg\"}')),
+        '{\"emotionalExchangePlatform\":\"3\",\"resonanceChatLounge\":\"2\",\"friendshipResonanceHub\":\"Late Feelings\",\"intimateSharingCorner\":\"1752145258811\",\"genuineFeelingNetwork\":\"[\\\"3\\\"]\",\"emotionalBondingSpot\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/emotionQuillInknuscript.jpg\\\"]\",\"genuineEmotionBoard\":\"assets/images/emotionQuillInknuscript.jpg\"}')),
             ServerFarmMeditationSolaceMoreStruct.fromSerializableMap(jsonDecode(
-        '{\"philosophersStoneHealingID\":\"4\",\"alchemicalWeddingHomeID\":\"3\",\"mercurialEmpathyTitle\":\"Open Heart \",\"saltTearsTherapyTiem\":\"1752145258811\",\"magnumOpusComfortMorePope\":\"[\\\"4\\\"]\",\"homunculusHugsfessionsID\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/connectionKarmaFlowManuscript.jpg\\\"]\",\"homunculusHugsImag\":\"assets/images/connectionKarmaFlowManuscript.jpg\"}')),
+        '{\"emotionalExchangePlatform\":\"4\",\"resonanceChatLounge\":\"3\",\"friendshipResonanceHub\":\"Open Heart \",\"intimateSharingCorner\":\"1752145258811\",\"genuineFeelingNetwork\":\"[\\\"4\\\"]\",\"emotionalBondingSpot\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/connectionKarmaFlowManuscript.jpg\\\"]\",\"genuineEmotionBoard\":\"assets/images/connectionKarmaFlowManuscript.jpg\"}')),
             ServerFarmMeditationSolaceMoreStruct.fromSerializableMap(jsonDecode(
-        '{\"philosophersStoneHealingID\":\"5\",\"alchemicalWeddingHomeID\":\"4\",\"mercurialEmpathyTitle\":\"Gentle Space\",\"saltTearsTherapyTiem\":\"1752145258811\",\"magnumOpusComfortMorePope\":\"[\\\"5\\\"]\",\"homunculusHugsfessionsID\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/moodCalligraphyBrushblotTest.jpg\\\"]\",\"homunculusHugsImag\":\"assets/images/moodCalligraphyBrushblotTest.jpg\"}')),
+        '{\"emotionalExchangePlatform\":\"5\",\"resonanceChatLounge\":\"4\",\"friendshipResonanceHub\":\"Gentle Space\",\"intimateSharingCorner\":\"1752145258811\",\"genuineFeelingNetwork\":\"[\\\"5\\\"]\",\"emotionalBondingSpot\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/moodCalligraphyBrushblotTest.jpg\\\"]\",\"genuineEmotionBoard\":\"assets/images/moodCalligraphyBrushblotTest.jpg\"}')),
             ServerFarmMeditationSolaceMoreStruct.fromSerializableMap(jsonDecode(
-        '{\"philosophersStoneHealingID\":\"6\",\"alchemicalWeddingHomeID\":\"5\",\"mercurialEmpathyTitle\":\" Mood Check\",\"saltTearsTherapyTiem\":\"1752145258811\",\"magnumOpusComfortMorePope\":\"[\\\"6\\\"]\",\"homunculusHugsfessionsID\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/connectionEpicSagaarmonica.jpg\\\"]\",\"homunculusHugsImag\":\"assets/images/connectionEpicSagaarmonica.jpg\"}')),
+        '{\"emotionalExchangePlatform\":\"6\",\"resonanceChatLounge\":\"5\",\"friendshipResonanceHub\":\" Mood Check\",\"intimateSharingCorner\":\"1752145258811\",\"genuineFeelingNetwork\":\"[\\\"6\\\"]\",\"emotionalBondingSpot\":\"0\",\"magnumOpusComfort\":\"[\\\"assets/images/connectionEpicSagaarmonica.jpg\\\"]\",\"genuineEmotionBoard\":\"assets/images/connectionEpicSagaarmonica.jpg\"}')),
  
  ];
   List<ServerFarmMeditationSolaceMoreStruct>
@@ -495,23 +494,23 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<RedStringEmpathymagnifyiMPTStruct> _crimeSceneHealingitAlibiTrustRT = [
     RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"1\",\"detectiveNotebookConfideHID\":\"0\",\"crimeSceSceneHealing\":\"I really love this post truly impressive!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"1\",\"emotionalBondingSpot\":\"0\",\"crimeSceSceneHealing\":\"I really love this post truly impressive!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"2\",\"detectiveNotebookConfideHID\":\"1\",\"crimeSceSceneHealing\":\"Every time I see your content, it feels so healing.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"2\",\"emotionalBondingSpot\":\"1\",\"crimeSceSceneHealing\":\"Every time I see your content, it feels so healing.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"3\",\"detectiveNotebookConfideHID\":\"1\",\"crimeSceSceneHealing\":\"This is something special! Keep sharing more!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"3\",\"emotionalBondingSpot\":\"1\",\"crimeSceSceneHealing\":\"This is something special! Keep sharing more!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"4\",\"detectiveNotebookConfideHID\":\"2\",\"crimeSceSceneHealing\":\"This is amazing saving it right away!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"4\",\"emotionalBondingSpot\":\"2\",\"crimeSceSceneHealing\":\"This is amazing saving it right away!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"5\",\"detectiveNotebookConfideHID\":\"3\",\"crimeSceSceneHealing\":\"You’re so good at sharing, every post has a great vibe.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"5\",\"emotionalBondingSpot\":\"3\",\"crimeSceSceneHealing\":\"You’re so good at sharing, every post has a great vibe.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"6\",\"detectiveNotebookConfideHID\":\"4\",\"crimeSceSceneHealing\":\"I was instantly drawn in such a great atmosphere.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"6\",\"emotionalBondingSpot\":\"4\",\"crimeSceSceneHealing\":\"I was instantly drawn in such a great atmosphere.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"1\",\"detectiveNotebookConfideHID\":\"5\",\"crimeSceSceneHealing\":\"This made my day, thank you for sharing!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"1\",\"emotionalBondingSpot\":\"5\",\"crimeSceSceneHealing\":\"This made my day, thank you for sharing!\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"2\",\"detectiveNotebookConfideHID\":\"5\",\"crimeSceSceneHealing\":\"That quote (or photo/moment) really resonates with me.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"2\",\"emotionalBondingSpot\":\"5\",\"crimeSceSceneHealing\":\"That quote (or photo/moment) really resonates with me.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
          RedStringEmpathymagnifyiMPTStruct.fromSerializableMap(jsonDecode(
-        '{\"bloodstainedComfortUID\":\"3\",\"detectiveNotebookConfideHID\":\"5\",\"crimeSceSceneHealing\":\"Feels like a scene from a movie.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
+        '{\"friendshipConnectionCorner\":\"3\",\"emotionalBondingSpot\":\"5\",\"crimeSceSceneHealing\":\"Feels like a scene from a movie.\",\"detectiveNotebookConfideHX\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\"]\"}')),
   ];
   List<RedStringEmpathymagnifyiMPTStruct> get crimeSceneHealingitAlibiTrustRT =>
       _crimeSceneHealingitAlibiTrustRT;
@@ -563,17 +562,17 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<BioluminescentEmpathyDTStruct> _looperTearscitorSolaceD = [
     BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
-        '{\"marianaTrenchTherapID\":\"0\",\"pressureDepthConfessionsWID\":\"0\",\"anglerfishLightTrustolaceID\":\"1\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionSharingChatRooms.jpg\\\",\\\"assets/images/moodResonanceAlgorithmas.jpg\\\",\\\"assets/images/anonymousFeelingJournalhym.jpg\\\"]\",\"grandfatherClockTherapyT\":\"Some days I smile while my heart quietly aches, but I’m learning to hold both without shame.\",\"timeMachineComfortLo\":\"[\\\"2\\\",\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\",\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462501115\"}')),
+        '{\"empatheticVoiceCorner\":\"0\",\"friendshipResonanceSpot\":\"0\",\"genuineSharingCorner\":\"1\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionSharingChatRooms.jpg\\\",\\\"assets/images/moodResonanceAlgorithmas.jpg\\\",\\\"assets/images/anonymousFeelingJournalhym.jpg\\\"]\",\"expressiveFriendshipSpace\":\"Some days I smile while my heart quietly aches, but I’m learning to hold both without shame.\",\"timeMachineComfortLo\":\"[\\\"2\\\",\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\",\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"heartfeltInteractionCorner\":\"1752462501115\"}')),
     BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
-        '{\"marianaTrenchTherapID\":\"1\",\"pressureDepthConfessionsWID\":\"1\",\"anglerfishLightTrustolaceID\":\"0\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/empathyDrivenMatchingsd.jpg\\\",\\\"assets/images/realTimeEmotionSyncs.jpg\\\",\\\"assets/images/sentimentAnalysisEngineen.jpg\\\"]\",\"grandfatherClockTherapyT\":\"I didn’t achieve much today, but I listened to myself more deeply than usual — and that counts.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+        '{\"empatheticVoiceCorner\":\"1\",\"friendshipResonanceSpot\":\"1\",\"genuineSharingCorner\":\"0\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/empathyDrivenMatchingsd.jpg\\\",\\\"assets/images/realTimeEmotionSyncs.jpg\\\",\\\"assets/images/sentimentAnalysisEngineen.jpg\\\"]\",\"expressiveFriendshipSpace\":\"I didn’t achieve much today, but I listened to myself more deeply than usual — and that counts.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"heartfeltInteractionCorner\":\"1752462504701\"}')),
       BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
-        '{\"marianaTrenchTherapID\":\"2\",\"pressureDepthConfessionsWID\":\"2\",\"anglerfishLightTrustolaceID\":\"2\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionalSupportCircleen.jpg\\\",\\\"assets/images/heartfeltStoryArchiveen.jpg\\\",\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"grandfatherClockTherapyT\":\"There’s a kind of peace that comes from simply admitting you’re not okay, and letting that be enough.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+        '{\"empatheticVoiceCorner\":\"2\",\"friendshipResonanceSpot\":\"2\",\"genuineSharingCorner\":\"2\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionalSupportCircleen.jpg\\\",\\\"assets/images/heartfeltStoryArchiveen.jpg\\\",\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"expressiveFriendshipSpace\":\"There’s a kind of peace that comes from simply admitting you’re not okay, and letting that be enough.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"heartfeltInteractionCorner\":\"1752462504701\"}')),
             BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
-        '{\"marianaTrenchTherapID\":\"3\",\"pressureDepthConfessionsWID\":\"3\",\"anglerfishLightTrustolaceID\":\"6\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionalValidationBotens.jpg\\\",\\\"assets/images/dynamicMoodVisualizerse.jpg\\\",\\\"assets/images/sharedExperienceMapperens.jpg\\\"]\",\"grandfatherClockTherapyT\":\"I’m not always strong, not always sure, but I always return to myself — slowly, gently.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+        '{\"empatheticVoiceCorner\":\"3\",\"friendshipResonanceSpot\":\"3\",\"genuineSharingCorner\":\"6\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/emotionalValidationBotens.jpg\\\",\\\"assets/images/dynamicMoodVisualizerse.jpg\\\",\\\"assets/images/sharedExperienceMapperens.jpg\\\"]\",\"expressiveFriendshipSpace\":\"I’m not always strong, not always sure, but I always return to myself — slowly, gently.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"heartfeltInteractionCorner\":\"1752462504701\"}')),
             BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
-        '{\"marianaTrenchTherapID\":\"4\",\"pressureDepthConfessionsWID\":\"4\",\"anglerfishLightTrustolaceID\":\"7\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/compassionateReplyGeneratorsn.jpg\\\",\\\"assets/images/emotionalIntensityTrackersen.jpg\\\",\\\"assets/images/moodWaveCollaborationens.jpg\\\"]\",\"grandfatherClockTherapyT\":\"Learning to honor the quiet moments, where nothing big happens but healing quietly begins.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+        '{\"empatheticVoiceCorner\":\"4\",\"friendshipResonanceSpot\":\"4\",\"genuineSharingCorner\":\"7\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/compassionateReplyGeneratorsn.jpg\\\",\\\"assets/images/emotionalIntensityTrackersen.jpg\\\",\\\"assets/images/moodWaveCollaborationens.jpg\\\"]\",\"expressiveFriendshipSpace\":\"Learning to honor the quiet moments, where nothing big happens but healing quietly begins.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"heartfeltInteractionCorner\":\"1752462504701\"}')),
             BioluminescentEmpathyDTStruct.fromSerializableMap(jsonDecode(
-        '{\"marianaTrenchTherapID\":\"5\",\"pressureDepthConfessionsWID\":\"5\",\"anglerfishLightTrustolaceID\":\"4\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/interactiveMoodDiarysen.jpg\\\",\\\"assets/images/communityHugReactionens.jpg\\\",\\\"assets/images/warmHeartCommentChainens.jpg\\\"]\",\"grandfatherClockTherapyT\":\"Today I realized: even small steps in the right direction are still progress, even if no one sees them.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"compassionateListenerTiem\":\"1752462504701\"}')),
+        '{\"empatheticVoiceCorner\":\"5\",\"friendshipResonanceSpot\":\"5\",\"genuineSharingCorner\":\"4\",\"brinePoolSolacenSongTearsI\":\"[\\\"assets/images/interactiveMoodDiarysen.jpg\\\",\\\"assets/images/communityHugReactionens.jpg\\\",\\\"assets/images/warmHeartCommentChainens.jpg\\\"]\",\"expressiveFriendshipSpace\":\"Today I realized: even small steps in the right direction are still progress, even if no one sees them.\",\"timeMachineComfortLo\":\"[\\\"1\\\"]\",\"butterflyEffectConfideHX\":\"[\\\"assets/images/vulnerabilitySafeZoneen.jpg\\\"]\",\"heartfeltInteractionCorner\":\"1752462504701\"}')),
   
   ];
   List<BioluminescentEmpathyDTStruct> get looperTearscitorSolaceD =>
@@ -621,11 +620,11 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<AnachronismHealingfluxRStruct> _steamPunkSiribleDroneR = [
     AnachronismHealingfluxRStruct.fromSerializableMap(jsonDecode(
-        '{\"pyramidAlgorithmengeFirewalHID\":\"0\",\"cavePaintingNeuralinkSID\":\"1\",\"thundercloudedT\":\" Anything new going on lately?\",\"shamanCodingNeuralinkM\":\"[\\\"0\\\",\\\"1\\\"]\",\"daVinciDroneoHologramN\":\"1\",\"inquisitionInternetBitcoin\":\"1752146213646\",\"baroqueBitcoinPodcastHX\":\"[\\\" Wow, I think I’ve experienced something like that too!\\\"]\"}')),
+        '{\"emotionSharingCircle\":\"0\",\"resonanceFriendshipNetwork\":\"1\",\"feelingFlowCommunications\":\" Anything new going on lately?\",\"shamanCodingNeuralinkM\":\"[\\\"0\\\",\\\"1\\\"]\",\"daVinciDroneoHologramN\":\"1\",\"inquisitionInternetBitcoin\":\"1752146213646\",\"baroqueBitcoinPodcastHX\":\"[\\\" Wow, I think I’ve experienced something like that too!\\\"]\"}')),
             AnachronismHealingfluxRStruct.fromSerializableMap(jsonDecode(
-        '{\"pyramidAlgorithmengeFirewalHID\":\"1\",\"cavePaintingNeuralinkSID\":\"2\",\"thundercloudedT\":\"How is your day going?\",\"shamanCodingNeuralinkM\":\"[\\\"0\\\",\\\"2\\\"]\",\"daVinciDroneoHologramN\":\"1\",\"inquisitionInternetBitcoin\":\"1752146213646\",\"baroqueBitcoinPodcastHX\":\"[\\\"Really? Could you tell me more about it?\\\"]\"}')),
+        '{\"emotionSharingCircle\":\"1\",\"resonanceFriendshipNetwork\":\"2\",\"feelingFlowCommunications\":\"How is your day going?\",\"shamanCodingNeuralinkM\":\"[\\\"0\\\",\\\"2\\\"]\",\"daVinciDroneoHologramN\":\"1\",\"inquisitionInternetBitcoin\":\"1752146213646\",\"baroqueBitcoinPodcastHX\":\"[\\\"Really? Could you tell me more about it?\\\"]\"}')),
             AnachronismHealingfluxRStruct.fromSerializableMap(jsonDecode(
-        '{\"pyramidAlgorithmengeFirewalHID\":\"2\",\"cavePaintingNeuralinkSID\":\"5\",\"thundercloudedT\":\" Got anything you feel like sharing? I’m all ears!\",\"shamanCodingNeuralinkM\":\"[\\\"0\\\",\\\"5\\\"]\",\"daVinciDroneoHologramN\":\"1\",\"inquisitionInternetBitcoin\":\"1752146213646\",\"baroqueBitcoinPodcastHX\":\"[\\\" Now you’ve got me curious, haha.\\\"]\"}')),
+        '{\"emotionSharingCircle\":\"2\",\"resonanceFriendshipNetwork\":\"5\",\"feelingFlowCommunications\":\" Got anything you feel like sharing? I’m all ears!\",\"shamanCodingNeuralinkM\":\"[\\\"0\\\",\\\"5\\\"]\",\"daVinciDroneoHologramN\":\"1\",\"inquisitionInternetBitcoin\":\"1752146213646\",\"baroqueBitcoinPodcastHX\":\"[\\\" Now you’ve got me curious, haha.\\\"]\"}')),
   ];
   List<AnachronismHealingfluxRStruct> get steamPunkSiribleDroneR =>
       _steamPunkSiribleDroneR;
@@ -672,11 +671,11 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<LondonFogAIetWatchPhoneRMStruct> _samuraiSocialMediapiratePodcast = [
     LondonFogAIetWatchPhoneRMStruct.fromSerializableMap(jsonDecode(
-        '{\"pocketWatchPhoneagramID\":\"0\",\"knightCyborgcastleCloudID\":\"1\",\"moatMalwarejoustingJav\":\"1752212462494\",\"cathedralCodeplagueythonhx\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\",\\\"assets/images/EfeelingMeditationGuides.png\\\"]\",\"neoNeolithicquantumQuillHX\":\"[\\\"0\\\"]\",\"gladiatorGoogleetflixT\":\"Anything new going on lately?\"}')),
+        '{\"emotionalConnectionPortal\":\"0\",\"authenticInteractionLounge\":\"1\",\"moatMalwarejoustingJav\":\"1752212462494\",\"emotionalExpressionSpot\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\",\\\"assets/images/EfeelingMeditationGuides.png\\\"]\",\"neoNeolithicquantumQuill\":\"[\\\"0\\\"]\",\"vuriaFriendshipSpace\":\"Anything new going on lately?\"}')),
             LondonFogAIetWatchPhoneRMStruct.fromSerializableMap(jsonDecode(
-        '{\"pocketWatchPhoneagramID\":\"1\",\"knightCyborgcastleCloudID\":\"2\",\"moatMalwarejoustingJav\":\"1752212462494\",\"cathedralCodeplagueythonhx\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\",\\\"assets/images/EfeelingMeditationGuides.png\\\"]\",\"neoNeolithicquantumQuillHX\":\"[\\\"0\\\"]\",\"gladiatorGoogleetflixT\":\"How is your day going?\"}')),
+        '{\"emotionalConnectionPortal\":\"1\",\"authenticInteractionLounge\":\"2\",\"moatMalwarejoustingJav\":\"1752212462494\",\"emotionalExpressionSpot\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\",\\\"assets/images/EfeelingMeditationGuides.png\\\"]\",\"neoNeolithicquantumQuill\":\"[\\\"0\\\"]\",\"vuriaFriendshipSpace\":\"How is your day going?\"}')),
             LondonFogAIetWatchPhoneRMStruct.fromSerializableMap(jsonDecode(
-        '{\"pocketWatchPhoneagramID\":\"2\",\"knightCyborgcastleCloudID\":\"5\",\"moatMalwarejoustingJav\":\"1752212462494\",\"cathedralCodeplagueythonhx\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\",\\\"assets/images/EfeelingMeditationGuides.png\\\"]\",\"neoNeolithicquantumQuillHX\":\"[\\\"0\\\"]\",\"gladiatorGoogleetflixT\":\"Got anything you feel like sharing? I’m all ears!\"}')),
+        '{\"emotionalConnectionPortal\":\"2\",\"authenticInteractionLounge\":\"5\",\"moatMalwarejoustingJav\":\"1752212462494\",\"emotionalExpressionSpot\":\"[\\\"assets/images/EfeelingMeditationGuides.png\\\",\\\"assets/images/EfeelingMeditationGuides.png\\\"]\",\"neoNeolithicquantumQuill\":\"[\\\"0\\\"]\",\"vuriaFriendshipSpace\":\"Got anything you feel like sharing? I’m all ears!\"}')),
   ];
   List<LondonFogAIetWatchPhoneRMStruct> get samuraiSocialMediapiratePodcast =>
       _samuraiSocialMediapiratePodcast;
@@ -727,25 +726,25 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<StonehengeSnapchatLearningMStruct> _airshipAngerManagementCO = [
     StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"0\",\"cavemanClubhousemedievalMatchC\":\"400\",\"discoDiscorsGeocitiesPI\":\"mqrvovazpdbiwutc\",\"futurePastFacebookbe\":\"0.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"0\",\"cavemanClubhousemedievalMatch\":\"400\",\"discoDiscorsGeocitiesPI\":\"mqrvovazpdbiwutc\",\"futurePastFacebookbe\":\"0.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"1\",\"cavemanClubhousemedievalMatchC\":\"800\",\"discoDiscorsGeocitiesPI\":\"dvgfvgahtngmhybc\",\"futurePastFacebookbe\":\"1.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"1\",\"cavemanClubhousemedievalMatch\":\"800\",\"discoDiscorsGeocitiesPI\":\"dvgfvgahtngmhybc\",\"futurePastFacebookbe\":\"1.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"2\",\"cavemanClubhousemedievalMatchC\":\"1900\",\"discoDiscorsGeocitiesPI\":\"tranquilizehopew\",\"futurePastFacebookbe\":\"3.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"2\",\"cavemanClubhousemedievalMatch\":\"1900\",\"discoDiscorsGeocitiesPI\":\"tranquilizehopew\",\"futurePastFacebookbe\":\"3.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"3\",\"cavemanClubhousemedievalMatchC\":\"2450\",\"discoDiscorsGeocitiesPI\":\"rikcjwuzhnqvasab\",\"futurePastFacebookbe\":\"4.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"3\",\"cavemanClubhousemedievalMatch\":\"2450\",\"discoDiscorsGeocitiesPI\":\"rikcjwuzhnqvasab\",\"futurePastFacebookbe\":\"4.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"4\",\"cavemanClubhousemedievalMatchC\":\"3950\",\"discoDiscorsGeocitiesPI\":\"luminescentwaycb\",\"futurePastFacebookbe\":\"6.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"4\",\"cavemanClubhousemedievalMatch\":\"3950\",\"discoDiscorsGeocitiesPI\":\"luminescentwaycb\",\"futurePastFacebookbe\":\"6.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"5\",\"cavemanClubhousemedievalMatchC\":\"4900\",\"discoDiscorsGeocitiesPI\":\"iqzujbrzbarqjeec\",\"futurePastFacebookbe\":\"9.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"5\",\"cavemanClubhousemedievalMatch\":\"4900\",\"discoDiscorsGeocitiesPI\":\"iqzujbrzbarqjeec\",\"futurePastFacebookbe\":\"9.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"6\",\"cavemanClubhousemedievalMatchC\":\"8400\",\"discoDiscorsGeocitiesPI\":\"perceptionspinaa\",\"futurePastFacebookbe\":\"17.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"6\",\"cavemanClubhousemedievalMatch\":\"8400\",\"discoDiscorsGeocitiesPI\":\"perceptionspinaa\",\"futurePastFacebookbe\":\"17.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"7\",\"cavemanClubhousemedievalMatchC\":\"8900\",\"discoDiscorsGeocitiesPI\":\"nqlwyitfwhgggbuv\",\"futurePastFacebookbe\":\"19.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"7\",\"cavemanClubhousemedievalMatch\":\"8900\",\"discoDiscorsGeocitiesPI\":\"nqlwyitfwhgggbuv\",\"futurePastFacebookbe\":\"19.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"8\",\"cavemanClubhousemedievalMatchC\":\"24500\",\"discoDiscorsGeocitiesPI\":\"kdhzgncaeugepagc\",\"futurePastFacebookbe\":\"49.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"8\",\"cavemanClubhousemedievalMatch\":\"24500\",\"discoDiscorsGeocitiesPI\":\"kdhzgncaeugepagc\",\"futurePastFacebookbe\":\"49.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
          StonehengeSnapchatLearningMStruct.fromSerializableMap(jsonDecode(
-        '{\"machuPicchuMacbookthonID\":\"9\",\"cavemanClubhousemedievalMatchC\":\"49000\",\"discoDiscorsGeocitiesPI\":\"rxljwvdknmebldob\",\"futurePastFacebookbe\":\"99.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
+        '{\"expressiveDialogueSpace\":\"9\",\"cavemanClubhousemedievalMatch\":\"49000\",\"discoDiscorsGeocitiesPI\":\"rxljwvdknmebldob\",\"futurePastFacebookbe\":\"99.99\",\"dinosaurTherapyselingHX\":\"支付\"}')),
   ];
 
  
@@ -812,29 +811,29 @@ class genuineSynapseLocus extends ChangeNotifier {
 
   List<SerenityHarmonySpaceWORDStruct> _vibeSynthesisModuleWL = [
     SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"0\",\"moodPatternDetectorUID\":\"1\",\"empathyMatchingProtocolT\":\" Love the vibe, it’s so on point!\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"0\",\"friendshipBondingPortal\":\"1\",\"sentimentInteractionCircle\":\" Love the vibe, it’s so on point!\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
     SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"1\",\"moodPatternDetectorUID\":\"0\",\"empathyMatchingProtocolT\":\"Your posts always bring such good energy.\",\"feelingDataStreamTIME\":\"1752213148788\",\"emotionalInsightDashboardHX\":\"Hello World\"}')),
+        '{\"heartfulFriendshipLounge\":\"1\",\"friendshipBondingPortal\":\"0\",\"sentimentInteractionCircle\":\"Your posts always bring such good energy.\",\"authenticStoryBoard\":\"1752213148788\",\"emotionalInsightDashboardHX\":\"Hello World\"}')),
            SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"2\",\"moodPatternDetectorUID\":\"2\",\"empathyMatchingProtocolT\":\"Your posts always bring such good energy.\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"2\",\"friendshipBondingPortal\":\"2\",\"sentimentInteractionCircle\":\"Your posts always bring such good energy.\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
            SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"3\",\"moodPatternDetectorUID\":\"5\",\"empathyMatchingProtocolT\":\"Your posts always bring such good energy.\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"3\",\"friendshipBondingPortal\":\"5\",\"sentimentInteractionCircle\":\"Your posts always bring such good energy.\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
      SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"4\",\"moodPatternDetectorUID\":\"3\",\"empathyMatchingProtocolT\":\"Totally feel this — so real and relatable!\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"4\",\"friendshipBondingPortal\":\"3\",\"sentimentInteractionCircle\":\"Totally feel this — so real and relatable!\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"5\",\"moodPatternDetectorUID\":\"2\",\"empathyMatchingProtocolT\":\"Feels like I’m right there with you!\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"5\",\"friendshipBondingPortal\":\"2\",\"sentimentInteractionCircle\":\"Feels like I’m right there with you!\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"1\",\"moodPatternDetectorUID\":\"1\",\"empathyMatchingProtocolT\":\"Looks like a scene straight out of a movie.\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"1\",\"friendshipBondingPortal\":\"1\",\"sentimentInteractionCircle\":\"Looks like a scene straight out of a movie.\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"0\",\"moodPatternDetectorUID\":\"3\",\"empathyMatchingProtocolT\":\"That’s how life should be — slow and meaningful.\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"0\",\"friendshipBondingPortal\":\"3\",\"sentimentInteractionCircle\":\"That’s how life should be — slow and meaningful.\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"0\",\"moodPatternDetectorUID\":\"4\",\"empathyMatchingProtocolT\":\"Nailed the vibe — who wouldn’t be jealous!\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"0\",\"friendshipBondingPortal\":\"4\",\"sentimentInteractionCircle\":\"Nailed the vibe — who wouldn’t be jealous!\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"1\",\"moodPatternDetectorUID\":\"5\",\"empathyMatchingProtocolT\":\"Fell in love with this kind of everyday life!\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"1\",\"friendshipBondingPortal\":\"5\",\"sentimentInteractionCircle\":\"Fell in love with this kind of everyday life!\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"5\",\"moodPatternDetectorUID\":\"2\",\"empathyMatchingProtocolT\":\"Sometimes, just saying it out loud takes real courage.\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"5\",\"friendshipBondingPortal\":\"2\",\"sentimentInteractionCircle\":\"Sometimes, just saying it out loud takes real courage.\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
           SerenityHarmonySpaceWORDStruct.fromSerializableMap(jsonDecode(
-        '{\"sentimentProcessingCloudWID\":\"2\",\"moodPatternDetectorUID\":\"4\",\"empathyMatchingProtocolT\":\" I feel you. Wishing you all the best.\",\"feelingDataStreamTIME\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
+        '{\"heartfulFriendshipLounge\":\"2\",\"friendshipBondingPortal\":\"4\",\"sentimentInteractionCircle\":\" I feel you. Wishing you all the best.\",\"authenticStoryBoard\":\"1752213128035\",\"emotionalInsightDashboardHX\":\"Thank you for sharing this — I truly relate.\"}')),
   
   ];
   List<SerenityHarmonySpaceWORDStruct> get vibeSynthesisModuleWL =>

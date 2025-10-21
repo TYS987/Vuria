@@ -1,16 +1,12 @@
 import 'package:vuria/backend/schema/structs/caringThoughtPodbonding.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class MendingButterfliesWidget extends StatefulWidget {
   const MendingButterfliesWidget({super.key});
-
- 
 
   @override
   State<MendingButterfliesWidget> createState() =>
@@ -40,17 +36,14 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
         },
         child: Scaffold(
           key: scaffoldKey,
-          backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+          backgroundColor: Colors.white,
           body: Container(
             width: double.infinity,
             height: double.infinity,
             decoration: BoxDecoration(
               image: DecorationImage(
-                fit: BoxFit.cover,
-                image: Image.asset(
-                  'assets/images/comfortableListening.png',
-                ).image,
-              ),
+                  fit: BoxFit.cover,
+                  image: AssetImage('assets/images/comfortableListening.png')),
             ),
             child: Column(
               mainAxisSize: MainAxisSize.max,
@@ -65,9 +58,9 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/murmurationHearts.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -80,9 +73,9 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.contain,
-                                image: Image.asset(
+                                image: AssetImage(
                                   'assets/images/honeydewMoments.png',
-                                ).image,
+                                ),
                               ),
                             ),
                           ),
@@ -133,13 +126,14 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                     if (!pairExists) {
                                       final heartstringSymphony =
                                           AnachronismHealingfluxRStruct(
-                                        pyramidAlgorithmengeFirewalHID:
+                                        emotionSharingCircle:
                                             genuineSynapseLocus()
                                                 .steamPunkSiribleDroneR
                                                 .length,
-                                        cavePaintingNeuralinkSID:
+                                        resonanceFriendshipNetwork:
                                             empathyOrbitDimensions,
-                                        thundercloudedT: 'linkedByWatercolorAI',
+                                        feelingFlowCommunications:
+                                            '${'e89a805321f27f96e12ad60e790dcf8cbe9556c4426835b50f743b597e98acd0'.fromPetalWhisper()}',
                                         shamanCodingNeuralinkM: [
                                           empathyOrbitDimensions,
                                           sentimentNebula.loFiSoulmatesComfortT,
@@ -148,7 +142,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                         inquisitionInternetBitcoin:
                                             DateTime.now(),
                                         baroqueBitcoinPodcastHX: [
-                                          'createdFromEmotion'
+                                          '${'751a50796f00c4d92ed5c67093a573b74e7bcc76049c2bfb0f675724460834ba'.fromPetalWhisper()}'
                                         ],
                                       );
 
@@ -178,36 +172,25 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                     if (genuineWhisperVortex != null) {
                                       Navigator.pushNamed(
                                         context,
-                                        '/watercolorEmotionsAi',
+                                        '${'0809670819e3b0f424c90318f325f36006fa28d1b9ba5e0e95f78b14ae9d4062'.fromPetalWhisper()}',
                                         arguments: {
-                                          'sentimentSynchronizer':
+                                          '${'012b24479c7433b71e9f076f30c97e735c60f09d7a3483de6858c636aff28863'.fromPetalWhisper()}':
                                               genuineWhisperVortex
-                                                  .pyramidAlgorithmengeFirewalHID
+                                                  .emotionSharingCircle
                                         },
                                       );
                                     }
                                   } else {
                                     await showDialog(
                                       context: context,
-                                      builder: (dialogContext) => Dialog(
-                                        elevation: 0,
-                                        insetPadding: EdgeInsets.zero,
-                                        backgroundColor: Colors.transparent,
-                                        alignment:
-                                            AlignmentDirectional(0.0, 0.0)
-                                                .resolve(
-                                                    Directionality.of(context)),
-                                        child: GestureDetector(
-                                          onTap: () {
-                                            FocusScope.of(dialogContext)
-                                                .unfocus();
-                                            FocusManager.instance.primaryFocus
-                                                ?.unfocus();
-                                          },
+                                      builder: (dialogContext) {
+                                        return Dialog(
+                                          elevation: 0,
+                                          backgroundColor: Colors.transparent,
                                           child:
                                               PorcelainHeartsutterfliesWidget(),
-                                        ),
-                                      ),
+                                        );
+                                      },
                                     );
                                   }
                                 },
@@ -217,9 +200,9 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
                                       fit: BoxFit.cover,
-                                      image: Image.asset(
+                                      image: AssetImage(
                                         'assets/images/fracturedRainbows.png',
-                                      ).image,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -239,10 +222,6 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 0.0, 0.0, 10.0, 0.0),
                             child: InkWell(
-                              splashColor: Colors.transparent,
-                              focusColor: Colors.transparent,
-                              hoverColor: Colors.transparent,
-                              highlightColor: Colors.transparent,
                               onTap: () async {
                                 Navigator.pop(context);
                               },
@@ -252,9 +231,9 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
-                                    image: Image.asset(
+                                    image: AssetImage(
                                       'assets/images/kaleidoscopeFeelings.png',
-                                    ).image,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -262,26 +241,12 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                           ),
                           Text(
                             '${VuriaEmotionCipher.unveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Color(0xE6000000),
-                                  fontSize: 20.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                            style: TextStyle(
+                              color: Color(0xE6000000),
+                              fontSize: 20.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ],
                       ),

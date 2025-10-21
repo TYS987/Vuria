@@ -1,9 +1,11 @@
 import 'dart:async';
+import 'dart:convert';
 
 import 'package:bot_toast/bot_toast.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:screen_protector/screen_protector.dart';
+import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'package:vuria/backend/schema/structs/truthBridgewaySignalFieldboard.dart';
@@ -12,9 +14,7 @@ import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart
 import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/wholesomeinteraction/supportivebonding/supportivebonding.dart';
-
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
-import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -113,7 +113,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   void initState() {
     super.initState();
 
-    if (DateTime.now().isBefore(DateTime(2025, 9, 30, 8, 0, 0))) {
+    if (DateTime.now().isBefore(DateTime(2026, 9, 30, 8, 0, 0))) {
       genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
     } else {
       genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
@@ -171,9 +171,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: Image.asset(
+                    image: AssetImage(
                       'assets/images/genuineExpression.png',
-                    ).image,
+                    ),
                   ),
                 ),
                 child: Column(
@@ -204,7 +204,12 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   ),
                                 );
                               },
-                            ).then((value) => safeSetState(() {}));
+                            );
+                            if(mounted){
+                              setState(() {
+                                
+                              });
+                            }
                           },
                           child: Container(
                             width: 80.0,
@@ -212,9 +217,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             decoration: BoxDecoration(
                               image: DecorationImage(
                                 fit: BoxFit.cover,
-                                image: Image.asset(
+                                image: AssetImage(
                                   'assets/images/bookmarkSentimentPost.png',
-                                ).image,
+                                ),
                               ),
                             ),
                           ),
@@ -360,8 +365,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     cursorColor: heartMindVentralTheme
                                         .of(context)
                                         .primaryText,
-                                    validator: rawEmotionNexusGateway
-                                        .asValidator(context),
+                              
                                   ),
                                 ),
                               ),
@@ -535,9 +539,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               cursorColor: heartMindVentralTheme
                                                   .of(context)
                                                   .primaryText,
-                                              validator:
-                                                  vulnerabilityfeelingWavel
-                                                      .asValidator(context),
+                                             
                                             ),
                                           ),
                                         ),
@@ -559,9 +561,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     'assets/images/kindredSpirits.png',
-                                                  ).image,
+                                                  ),
                                                 ),
                                               ),
                                             ),
@@ -580,9 +582,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     'assets/images/tenderMoments.png',
-                                                  ).image,
+                                                  ),
                                                 ),
                                               ),
                                             ),
@@ -611,17 +613,17 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             final authenticBondGateway =
                                 genuineSynapseLocus().likeHeartfeltMoments;
                             final unspokenBondempath =
-                                rawEmotionNexusVibesMatrix.text.trim();
+                                rawEmotionNexusVibesMatrix?.text.trim();
                             final GatewayPulseNetwork =
-                                engthOasisfeelingWavel.text.trim();
+                                engthOasisfeelingWavel?.text.trim();
 
                             if (!authenticBondGateway) {
                               showAgreementNotCheckedSnackBar(context);
                               return;
                             }
 
-                            if (unspokenBondempath.isEmpty ||
-                                GatewayPulseNetwork.isEmpty) {
+                            if (unspokenBondempath == null  ||
+                                GatewayPulseNetwork == null) {
                               showLoginFieldsMissingSnackBar(context);
                               return;
                             }
@@ -786,9 +788,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       decoration: BoxDecoration(
                                         image: DecorationImage(
                                           fit: BoxFit.cover,
-                                          image: Image.asset(
+                                          image: AssetImage(
                                             'assets/images/analogMoonlight.png',
-                                          ).image,
+                                          ),
                                         ),
                                       ),
                                     ),
@@ -966,9 +968,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: Image.asset(
+                    image: AssetImage(
                       'assets/images/feelingsSharingEcosystem.png',
-                    ).image,
+                    ),
                   ),
                 ),
                 child: Stack(
@@ -1009,7 +1011,12 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       ),
                                     );
                                   },
-                                ).then((value) => safeSetState(() {}));
+                                );
+                                if(mounted){
+                                  setState(() {
+                                    
+                                  });
+                                }
                               },
                               child: Container(
                                 width: 80.0,
@@ -1017,9 +1024,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
-                                    image: Image.asset(
+                                    image: AssetImage(
                                       'assets/images/thematicChatRoomManager.png',
-                                    ).image,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -1033,9 +1040,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/listenerMatchingSystem.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -1182,9 +1189,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.asset(
+                                              image: AssetImage(
                                                 'assets/images/analogMoonlight.png',
-                                              ).image,
+                                              ),
                                             ),
                                           ),
                                         ),
@@ -1368,9 +1375,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                 decoration: BoxDecoration(
                   image: DecorationImage(
                     fit: BoxFit.cover,
-                    image: Image.asset(
+                    image: AssetImage(
                       'assets/images/feelingsSharingEcosystem.png',
-                    ).image,
+                    ),
                   ),
                 ),
                 child: Column(

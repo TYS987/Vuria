@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:image_picker/image_picker.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 
@@ -9,13 +10,10 @@ import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/porcelainheartsutterflies/porcelainheartsutterflies.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class FragrantMemoriesWidget extends StatefulWidget {
   const FragrantMemoriesWidget({super.key});
-
-
 
   @override
   State<FragrantMemoriesWidget> createState() => _FragrantMemoriesWidgetState();
@@ -42,13 +40,15 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
       } else {
         if (!mounted) return;
         await emotionWhisperInterface(
-          message: "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
+          message:
+              "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
           icon: Icons.info_outline,
           duration: Duration(seconds: 2),
         );
       }
     } catch (e) {
-      print(' ${VuriaEmotionCipher.unveilEmotion('o4ydKfhk0vZOLdXQCfqzteQ2XPqstYtpluJf1rHcc+Y0d4SdG8FYzYOIeft/VXfP7gFjRlKHqhS3KYx9zQXKFA==')} $e');
+      print(
+          ' ${VuriaEmotionCipher.unveilEmotion('o4ydKfhk0vZOLdXQCfqzteQ2XPqstYtpluJf1rHcc+Y0d4SdG8FYzYOIeft/VXfP7gFjRlKHqhS3KYx9zQXKFA==')} $e');
     }
   }
 
@@ -87,16 +87,16 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -110,13 +110,9 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                     Padding(
                       padding:
                           EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
-                      child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
+                      child: InkWell(            
                         onTap: () async {
-                    Navigator.pop(context);
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -124,9 +120,9 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -137,26 +133,12 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('oZDYLf5zndYBLdu2eY3E1Q==')}',
-                        style: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .override(
-                              font: GoogleFonts.poppins(
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
-                              color: Color(0xE6000000),
-                              fontSize: 20.0,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          color: Color(0xE6000000),
+                          fontSize: 20.0,
+                          letterSpacing: 0.0,
+                        ),
                       ),
                     ),
                   ],
@@ -215,8 +197,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                           height: 24.0,
                                           decoration: BoxDecoration(
                                             shape: BoxShape.circle,
-                                            color:
-                                                Colors.black.withOpacity(0.6),
+                                    color: Colors.black.withValues(alpha: 0.6),
                                           ),
                                           child: Icon(
                                             Icons.close,
@@ -239,25 +220,13 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('sI3SIapY3OkLRbG0e4/G1w==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w600,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                            style: TextStyle(
+                                 fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                   color: Color(0xE6000000),
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
+                                 
                                 ),
                           ),
                         ),
@@ -269,7 +238,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                           width: double.infinity,
                           height: 56.0,
                           decoration: BoxDecoration(
-                            color: Color(0xFFFFFFFF), 
+                            color: Color(0xFFFFFFFF),
                             borderRadius: BorderRadius.circular(40.0),
                             border: Border.all(
                               color: Color(0xFFFF7A19),
@@ -289,45 +258,21 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
-                                  labelStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .labelMedium
-                                      .override(
-                                        font: GoogleFonts.inter(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
+                                  labelStyle: TextStyle(
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
+                                    
                                       ),
-                                  hintText: '${VuriaEmotionCipher.unveilEmotion('so7YLflzneEANtPBeIzF1A==')}',
-                                  hintStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .labelMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
+                                  hintText:
+                                      '${VuriaEmotionCipher.unveilEmotion('so7YLflzneEANtPBeIzF1A==')}',
+                                  hintStyle:TextStyle(
+                                        fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                         color: Color(0xFF919191),
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
+                                    
                                       ),
                                   enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
@@ -345,18 +290,14 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   ),
                                   errorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: heartMindVentralTheme
-                                          .of(context)
-                                          .error,
+                                      color: Colors.white,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
                                   ),
                                   focusedErrorBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
-                                      color: heartMindVentralTheme
-                                          .of(context)
-                                          .error,
+                                      color: Colors.black,
                                       width: 1.0,
                                     ),
                                     borderRadius: BorderRadius.circular(8.0),
@@ -364,38 +305,23 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                   filled: true,
                                   fillColor: Color(0x09FFFFFF),
                                 ),
-                                style: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                       color: Color(0xFF000000), 
+                                style: TextStyle(
+                                      fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                      color: Color(0xFF000000),
                                       fontSize: 16.0,
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
+                                    
                                     ),
                                 cursorColor: heartMindVentralTheme
                                     .of(context)
                                     .primaryText,
-                                validator:
-                                    authnticPseUniverse.asValidator(context),
+                          
                               ),
-                         
                             ),
                           ),
                         ),
                       ),
-                    
                       Align(
                         alignment: AlignmentDirectional(-1.0, -1.0),
                         child: Padding(
@@ -403,38 +329,27 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               12.0, 16.0, 0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
-                            style: heartMindVentralTheme
-                                .of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.w600,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                            style: TextStyle(
+                                fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                   color: Color(0xE6000000),
                                   fontSize: 18.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.w600,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
+                                 
                                 ),
                           ),
                         ),
                       ),
+                      const SizedBox(height: 5,),
                       Container(
                         width: double.infinity,
                         height: 236.0,
                         decoration: BoxDecoration(
                           image: DecorationImage(
                             fit: BoxFit.cover,
-                            image: Image.asset(
+                            image: AssetImage(
                               'assets/images/quiveringHonesty.png',
-                            ).image,
+                            ),
                           ),
                         ),
                         child: Padding(
@@ -473,11 +388,11 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.asset(
+                                              image: AssetImage(
                                                 heartfeltBondGeneratorItem
                                                     .dustStormSoulsgasMaskBonim
                                                     .firstOrNull!,
-                                              ).image,
+                                              ),
                                             ),
                                           ),
                                         );
@@ -495,11 +410,11 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   heartfeltBondGeneratorItem
                                                       .dustStormSoulsgasMaskBonim
                                                       .lastOrNull!,
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           ),
@@ -530,18 +445,17 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 if (currentLovePoints >= 100) {
                                   final newConfession =
                                       ServerFarmMeditationSolaceMoreStruct(
-                                    philosophersStoneHealingID: currentIndex,
-                                    alchemicalWeddingHomeID:
-                                        genuineSynapseLocus()
-                                            .azothConfessionsathanorSolaceMP
-                                            .length,
-                                    mercurialEmpathyTitle:
+                                    emotionalExchangePlatform: currentIndex,
+                                    resonanceChatLounge: genuineSynapseLocus()
+                                        .azothConfessionsathanorSolaceMP
+                                        .length,
+                                    friendshipResonanceHub:
                                         moodMosaicsoulfulRippl.text.trim(),
-                                    saltTearsTherapyTiem: DateTime.now(),
-                                    magnumOpusComfortMorePope: [currentIndex],
-                                    homunculusHugsfessionsID: serotoninDialogue,
+                                    intimateSharingCorner: DateTime.now(),
+                                    genuineFeelingNetwork: [currentIndex],
+                                    emotionalBondingSpot: serotoninDialogue,
                                     magnumOpusComfort: ['0'],
-                                    homunculusHugsImag: vortexSpectrum?.path,
+                                    genuineEmotionBoard: vortexSpectrum?.path,
                                   );
 
                                   genuineSynapseLocus()
@@ -599,9 +513,9 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
-                                    image: Image.asset(
+                                    image: AssetImage(
                                       'assets/images/resonanceZenKoanOperaAria.png',
-                                    ).image,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -613,9 +527,9 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                               decoration: BoxDecoration(
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: Image.asset(
+                                  image: AssetImage(
                                     'assets/images/moonlitConfidants.png',
-                                  ).image,
+                                  ),
                                 ),
                               ),
                             );

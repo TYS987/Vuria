@@ -1,11 +1,10 @@
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
 import 'package:vuria/feelingKaleidoscopeCore/authenticExpressionEcosystem.dart';
-
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
-
 import 'package:flutter/material.dart';
 
 class SentimentExchangePlatformWidget extends StatefulWidget {
@@ -61,9 +60,9 @@ class _SentimentExchangePlatformWidgetWidgetState
                   image: DecorationImage(
                     fit: BoxFit.cover,
                     alignment: const AlignmentDirectional(0.0, -1.0),
-                    image: Image.asset(
+                    image: AssetImage(
                       'assets/images/feelingsSharingEcosystem.png',
-                    ).image,
+                    ),
                   ),
                 ),
               ),
@@ -83,7 +82,8 @@ class _SentimentExchangePlatformWidgetWidgetState
                           useShouldOverrideUrlLoading: true,
                           allowsInlineMediaPlayback: true,
                           transparentBackground: true,
-                          iframeAllow: "${VuriaEmotionCipher.unveilEmotion('gYPQKfh3hqQDK9XBE/ipv+5zO5qCz+0CuJ80tNqxCYE=')}",
+                          iframeAllow:
+                              "${VuriaEmotionCipher.unveilEmotion('gYPQKfh3hqQDK9XBE/ipv+5zO5qCz+0CuJ80tNqxCYE=')}",
                           mediaPlaybackRequiresUserGesture: false,
                         ),
                         onLoadStart: (gildedbasteBroiltrace, url) {
@@ -103,20 +103,24 @@ class _SentimentExchangePlatformWidgetWidgetState
                         onWebViewCreated: (primerstrokehubweavepad) {
                           feastloomSavorframecore = primerstrokehubweavepad;
                           feastloomSavorframecore!.addJavaScriptHandler(
-                              handlerName: '${VuriaEmotionCipher.unveilEmotion('kIfeJOtk2uE+I8+2eY3E1Q==')}',
+                              handlerName:
+                                  '${VuriaEmotionCipher.unveilEmotion('kIfeJOtk2uE+I8+2eY3E1Q==')}',
                               callback: (binderfluxMatteblendcore) {
                                 genuineSynapseLocus()
                                         .psychologicalHealingGateway =
-                                    binderfluxMatteblendcore[0]['${VuriaEmotionCipher.unveilEmotion('jZDZKfhV0uALRbG0e4/G1w==')}'];
+                                    binderfluxMatteblendcore[0][
+                                        '${VuriaEmotionCipher.unveilEmotion('jZDZKfhV0uALRbG0e4/G1w==')}'];
 
                                 moodVibrationTracerRoutine(
-                                    binderfluxMatteblendcore[0]['${VuriaEmotionCipher.unveilEmotion('gIPJL+JY0o1nS7+6dYHI2Q==')}']);
+                                    binderfluxMatteblendcore[0][
+                                        '${VuriaEmotionCipher.unveilEmotion('gIPJL+JY0o1nS7+6dYHI2Q==')}']);
                                 genuineSynapseLocus().update(() {});
                                 return null;
                               });
 
                           feastloomSavorframecore!.addJavaScriptHandler(
-                              handlerName: '${VuriaEmotionCipher.unveilEmotion('gY7SP+8dto9lSb24d4PK2w==')}',
+                              handlerName:
+                                  '${VuriaEmotionCipher.unveilEmotion('gY7SP+8dto9lSb24d4PK2w==')}',
                               callback: (opaquegridTintlayer) {
                                 setState(() {
                                   genuineSynapseLocus()
@@ -125,7 +129,7 @@ class _SentimentExchangePlatformWidgetWidgetState
 
                                 Navigator.pushNamedAndRemoveUntil(
                                   context,
-                                  '/empathyExchange',
+                                  '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.fromPetalWhisper()}',
                                   (route) => false,
                                 );
                                 return null;

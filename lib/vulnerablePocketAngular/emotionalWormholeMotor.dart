@@ -10,20 +10,16 @@ import 'package:intl/intl.dart';
 import 'package:json_path/json_path.dart';
 import 'package:timeago/timeago.dart' as timeago;
 import 'package:url_launcher/url_launcher.dart';
-
 import '../main.dart';
-
-
 export 'moodSubspaceWernicke.dart';
 export 'place.dart';
 export 'genuineNullBroca.dart';
 export '../moodPandorfeeling.dart';
-export 'feelingExchangePortalemotionItem.dart';
 export 'dart:math' show min, max;
 export 'dart:typed_data' show Uint8List;
 export 'dart:convert' show jsonEncode, jsonDecode;
 export 'package:intl/intl.dart';
-export 'package:page_transition/page_transition.dart';
+
 
 T valueOrDefault<T>(T? value, T defaultValue) =>
     (value is String && value.isEmpty) || value == null ? defaultValue : value;
@@ -442,7 +438,4 @@ extension ListUniqueExt<T> on Iterable<T> {
   }
 }
 
-// String getCurrentRoute(BuildContext context) =>
-//     context.mounted ? MyApp.of(context).getRoute() : '';
-// List<String> getCurrentRouteStack(BuildContext context) =>
-//     context.mounted ? MyApp.of(context).getRouteStack() : [];
+

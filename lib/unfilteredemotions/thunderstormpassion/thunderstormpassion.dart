@@ -1,11 +1,9 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class ThunderstormPassionWidget extends StatefulWidget {
@@ -15,8 +13,6 @@ class ThunderstormPassionWidget extends StatefulWidget {
   });
 
   final int? soulConnectionMatrix;
-
-
 
   @override
   State<ThunderstormPassionWidget> createState() =>
@@ -64,16 +60,16 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Stack(
@@ -99,7 +95,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   child: InkWell(
                                     splashColor: Colors.transparent,
                                     onTap: () async {
-                                     Navigator.pop(context);        
+                                      Navigator.pop(context);
                                     },
                                     child: Center(
                                       child: Container(
@@ -108,9 +104,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                         decoration: BoxDecoration(
                                           image: DecorationImage(
                                             fit: BoxFit.cover,
-                                            image: Image.asset(
+                                            image: AssetImage(
                                               'assets/images/kaleidoscopeFeelings.png',
-                                            ).image,
+                                            ),
                                           ),
                                         ),
                                       ),
@@ -118,27 +114,28 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   ),
                                 ),
                                 InkWell(
-                                  onTap: () async {                         
+                                  onTap: () async {
                                     Navigator.pushNamed(
                                       context,
-                                      '/kaleidoHealingkaleidoHealing',
+                                      '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.fromPetalWhisper()}',
                                       arguments: {
-                                        'bondingThroughVibesID': genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                genuineSynapseLocus()
-                                                    .looperTearscitorSolaceD
-                                                    .where((e) =>
-                                                        e.pressureDepthConfessionsWID ==
-                                                        widget
-                                                            .soulConnectionMatrix)
-                                                    .toList()
-                                                    .firstOrNull
-                                                    ?.marianaTrenchTherapID)
-                                            .toList()
-                                            .firstOrNull!
-                                            .loFiSoulmatesComfortT,
+                                        '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}':
+                                            genuineSynapseLocus()
+                                                .necronomiconHealingComfortU
+                                                .where((e) =>
+                                                    e.loFiSoulmatesComfortT ==
+                                                    genuineSynapseLocus()
+                                                        .looperTearscitorSolaceD
+                                                        .where((e) =>
+                                                            e.friendshipResonanceSpot ==
+                                                            widget
+                                                                .soulConnectionMatrix)
+                                                        .toList()
+                                                        .firstOrNull
+                                                        ?.empatheticVoiceCorner)
+                                                .toList()
+                                                .firstOrNull!
+                                                .loFiSoulmatesComfortT,
                                       },
                                     );
                                   },
@@ -148,7 +145,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                         fit: BoxFit.cover,
-                                        image: Image.asset(
+                                        image: AssetImage(
                                           genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
@@ -156,16 +153,16 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                   genuineSynapseLocus()
                                                       .looperTearscitorSolaceD
                                                       .where((e) =>
-                                                          e.pressureDepthConfessionsWID ==
+                                                          e.friendshipResonanceSpot ==
                                                           widget
                                                               .soulConnectionMatrix)
                                                       .toList()
                                                       .firstOrNull
-                                                      ?.marianaTrenchTherapID)
+                                                      ?.empatheticVoiceCorner)
                                               .toList()
                                               .firstOrNull!
                                               .neuralLaceConfessionsI,
-                                        ).image,
+                                        ),
                                       ),
                                       borderRadius: BorderRadius.circular(40),
                                     ),
@@ -183,37 +180,23 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               genuineSynapseLocus()
                                                   .looperTearscitorSolaceD
                                                   .where((e) =>
-                                                      e.pressureDepthConfessionsWID ==
+                                                      e.friendshipResonanceSpot ==
                                                       widget
                                                           .soulConnectionMatrix)
                                                   .toList()
                                                   .firstOrNull
-                                                  ?.marianaTrenchTherapID)
+                                                  ?.empatheticVoiceCorner)
                                           .toList()
                                           .firstOrNull
                                           ?.phoenixTearsTherapyN,
                                       '',
                                     ),
-                                    style: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: FontWeight.bold,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .bodyMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0xE6000000),
-                                          fontSize: 20,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.bold,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
+                                    style: TextStyle(
+                                      color: Color(0xE6000000),
+                                      fontSize: 20,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -224,17 +207,13 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             genuineSynapseLocus()
                                 .looperTearscitorSolaceD
                                 .where((e) =>
-                                    e.pressureDepthConfessionsWID ==
+                                    e.friendshipResonanceSpot ==
                                     widget.soulConnectionMatrix)
                                 .toList()
                                 .firstOrNull
-                                ?.marianaTrenchTherapID)
+                                ?.empatheticVoiceCorner)
                           Builder(
                             builder: (context) => InkWell(
-                              splashColor: Colors.transparent,
-                              focusColor: Colors.transparent,
-                              hoverColor: Colors.transparent,
-                              highlightColor: Colors.transparent,
                               onTap: () async {
                                 await showModalBottomSheet(
                                   isScrollControlled: true,
@@ -256,18 +235,21 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               genuineSynapseLocus()
                                                   .looperTearscitorSolaceD
                                                   .where((e) =>
-                                                      e.pressureDepthConfessionsWID ==
+                                                      e.friendshipResonanceSpot ==
                                                       widget
                                                           .soulConnectionMatrix)
                                                   .toList()
                                                   .firstOrNull
-                                                  ?.marianaTrenchTherapID,
+                                                  ?.empatheticVoiceCorner,
                                           sharedEmotionVortex: 1,
                                         ),
                                       ),
                                     );
                                   },
-                                ).then((value) => safeSetState(() {}));
+                                );
+                                if (mounted) {
+                                  safeSetState(() {});
+                                }
                               },
                               child: Container(
                                 width: 34,
@@ -275,9 +257,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                 decoration: BoxDecoration(
                                   image: DecorationImage(
                                     fit: BoxFit.cover,
-                                    image: Image.asset(
+                                    image: AssetImage(
                                       'assets/images/horizonLongings.png',
-                                    ).image,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -319,7 +301,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                             final shareEmotionalWave = genuineSynapseLocus()
                                                     .looperTearscitorSolaceD
                                                     .where((e) =>
-                                                        e.pressureDepthConfessionsWID ==
+                                                        e.friendshipResonanceSpot ==
                                                         widget
                                                             .soulConnectionMatrix)
                                                     .toList()
@@ -356,9 +338,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                     decoration: BoxDecoration(
                                                       image: DecorationImage(
                                                         fit: BoxFit.cover,
-                                                        image: Image.asset(
+                                                        image: AssetImage(
                                                           shareEmotionalWaveItem,
-                                                        ).image,
+                                                        ),
                                                       ),
                                                       borderRadius:
                                                           BorderRadius.circular(
@@ -382,7 +364,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                             if (genuineSynapseLocus()
                                                     .looperTearscitorSolaceD
                                                     .where((e) =>
-                                                        e.pressureDepthConfessionsWID ==
+                                                        e.friendshipResonanceSpot ==
                                                         widget
                                                             .soulConnectionMatrix)
                                                     .toList()
@@ -393,11 +375,6 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                             .emotionalSupportT) ??
                                                 false) {
                                               return InkWell(
-                                                splashColor: Colors.transparent,
-                                                focusColor: Colors.transparent,
-                                                hoverColor: Colors.transparent,
-                                                highlightColor:
-                                                    Colors.transparent,
                                                 onTap: () async {
                                                   genuineSynapseLocus()
                                                       .updateLooperTearscitorSolaceDAtIndex(
@@ -426,20 +403,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                   decoration: BoxDecoration(
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
-                                                      image: Image.asset(
+                                                      image: AssetImage(
                                                         'assets/images/emotionEncryptionProtocolesn.png',
-                                                      ).image,
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
                                               );
                                             } else {
                                               return InkWell(
-                                                splashColor: Colors.transparent,
-                                                focusColor: Colors.transparent,
-                                                hoverColor: Colors.transparent,
-                                                highlightColor:
-                                                    Colors.transparent,
                                                 onTap: () async {
                                                   genuineSynapseLocus()
                                                       .updateLooperTearscitorSolaceDAtIndex(
@@ -467,9 +439,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                   decoration: BoxDecoration(
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
-                                                      image: Image.asset(
+                                                      image: AssetImage(
                                                         'assets/images/kintsugiAnguish.png',
-                                                      ).image,
+                                                      ),
                                                     ),
                                                   ),
                                                 ),
@@ -493,33 +465,19 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     genuineSynapseLocus()
                                         .looperTearscitorSolaceD
                                         .where((e) =>
-                                            e.pressureDepthConfessionsWID ==
+                                            e.friendshipResonanceSpot ==
                                             widget.soulConnectionMatrix)
                                         .toList()
                                         .firstOrNull
-                                        ?.grandfatherClockTherapyT,
+                                        ?.expressiveFriendshipSpace,
                                     '',
                                   ),
                                   textAlign: TextAlign.start,
-                                  style: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: FontWeight.w500,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
-                                        color: Color(0xCC000000),
-                                        letterSpacing: 0.0,
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
+                                  style: TextStyle(
+                                    color: Color(0xCC000000),
+                                    letterSpacing: 0.0,
+                                    fontWeight: FontWeight.w500,
+                                  ),
                                 ),
                               ),
                             ),
@@ -534,9 +492,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   decoration: BoxDecoration(
                                     image: DecorationImage(
                                       fit: BoxFit.contain,
-                                      image: Image.asset(
+                                      image: AssetImage(
                                         'assets/images/kindnessAmplifierToolsen.png',
-                                      ).image,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -551,18 +509,16 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                       genuineSynapseLocus()
                                           .vibeSynthesisModuleWL
                                           .where((e) =>
-                                              e.sentimentProcessingCloudWID ==
+                                              e.heartfulFriendshipLounge ==
                                               widget.soulConnectionMatrix)
                                           .toList();
 
-                               
                                   return ListView.builder(
                                     padding: EdgeInsets.zero,
-                                       primary: false,
+                                    primary: false,
                                     shrinkWrap: true,
                                     scrollDirection: Axis.vertical,
                                     itemCount: sorrowSharedSanctuary.length,
-                             
                                     itemBuilder:
                                         (context, sorrowSharedSanctuaryIndex) {
                                       final sorrowSharedSanctuaryItem =
@@ -585,17 +541,17 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                   decoration: BoxDecoration(
                                                     image: DecorationImage(
                                                       fit: BoxFit.cover,
-                                                      image: Image.asset(
+                                                      image: AssetImage(
                                                         genuineSynapseLocus()
                                                             .necronomiconHealingComfortU
                                                             .where((e) =>
                                                                 e.loFiSoulmatesComfortT ==
                                                                 sorrowSharedSanctuaryItem
-                                                                    .moodPatternDetectorUID)
+                                                                    .friendshipBondingPortal)
                                                             .toList()
                                                             .firstOrNull!
                                                             .neuralLaceConfessionsI,
-                                                      ).image,
+                                                      ),
                                                     ),
                                                     borderRadius:
                                                         BorderRadius.circular(
@@ -627,80 +583,32 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   .where((e) =>
                                                                       e.loFiSoulmatesComfortT ==
                                                                       sorrowSharedSanctuaryItem
-                                                                          .moodPatternDetectorUID)
+                                                                          .friendshipBondingPortal)
                                                                   .toList()
                                                                   .firstOrNull
                                                                   ?.phoenixTearsTherapyN,
                                                               '',
                                                             ),
-                                                            style:
-                                                                heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .bodyMedium
-                                                                    .override(
-                                                                      font: GoogleFonts
-                                                                          .inter(
-                                                                        fontWeight: heartMindVentralTheme
-                                                                            .of(context)
-                                                                            .bodyMedium
-                                                                            .fontWeight,
-                                                                        fontStyle: heartMindVentralTheme
-                                                                            .of(context)
-                                                                            .bodyMedium
-                                                                            .fontStyle,
-                                                                      ),
-                                                                        color: const Color(0xFF000000),
-                                                                      letterSpacing:
-                                                                          0.0,
-                                                                      fontWeight: heartMindVentralTheme
-                                                                          .of(context)
-                                                                          .bodyMedium
-                                                                          .fontWeight,
-                                                                      fontStyle: heartMindVentralTheme
-                                                                          .of(context)
-                                                                          .bodyMedium
-                                                                          .fontStyle,
-                                                                    ),
+                                                            style: TextStyle(
+                                                              color: const Color(
+                                                                  0xFF000000),
+                                                              letterSpacing:
+                                                                  0.0,
+                                                            ),
                                                           ),
-                                                        
-                                                        
-                                                         Text(
+                                                          Text(
                                                             dateTimeFormat(
                                                                 "${VuriaEmotionCipher.unveilEmotion('kIfRLf5/y+FmSr67dIDJ2A==')}",
                                                                 sorrowSharedSanctuaryItem
-                                                                    .feelingDataStreamTIME!),
-                                                            style:
-                                                                heartMindVentralTheme
-                                                                    .of(context)
-                                                                    .bodyMedium
-                                                                    .override(
-                                                                      font: GoogleFonts
-                                                                          .inter(
-                                                                        fontWeight: heartMindVentralTheme
-                                                                            .of(context)
-                                                                            .bodyMedium
-                                                                            .fontWeight,
-                                                                        fontStyle: heartMindVentralTheme
-                                                                            .of(context)
-                                                                            .bodyMedium
-                                                                            .fontStyle,
-                                                                      ),
-                                                                        color: Color(0xFF767676),
-                                                                      fontSize:
-                                                                          10,
-                                                                      letterSpacing:
-                                                                          0.0,
-                                                                      fontWeight: heartMindVentralTheme
-                                                                          .of(context)
-                                                                          .bodyMedium
-                                                                          .fontWeight,
-                                                                      fontStyle: heartMindVentralTheme
-                                                                          .of(context)
-                                                                          .bodyMedium
-                                                                          .fontStyle,
-                                                                    ),
+                                                                    .authenticStoryBoard!),
+                                                            style: TextStyle(
+                                                              color: Color(
+                                                                  0xFF767676),
+                                                              fontSize: 10,
+                                                              letterSpacing:
+                                                                  0.0,
+                                                            ),
                                                           )
-                                                     
                                                         ],
                                                       ),
                                                     ),
@@ -712,7 +620,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                       child: Builder(
                                                         builder: (context) {
                                                           if (sorrowSharedSanctuaryItem
-                                                                  .moodPatternDetectorUID ==
+                                                                  .friendshipBondingPortal ==
                                                               genuineSynapseLocus()
                                                                   .emotionalSupportT) {
                                                             return InkWell(
@@ -743,15 +651,6 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                             );
                                                           } else {
                                                             return InkWell(
-                                                              splashColor: Colors
-                                                                  .transparent,
-                                                              focusColor: Colors
-                                                                  .transparent,
-                                                              hoverColor: Colors
-                                                                  .transparent,
-                                                              highlightColor:
-                                                                  Colors
-                                                                      .transparent,
                                                               onTap: () async {
                                                                 await showModalBottomSheet(
                                                                   isScrollControlled:
@@ -782,16 +681,18 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                         child:
                                                                             SteampunkConfidantWidget(
                                                                           mutualFeelingBridgeID:
-                                                                              sorrowSharedSanctuaryItem.moodPatternDetectorUID,
+                                                                              sorrowSharedSanctuaryItem.friendshipBondingPortal,
                                                                           sharedEmotionVortex:
                                                                               1,
                                                                         ),
                                                                       ),
                                                                     );
                                                                   },
-                                                                ).then((value) =>
-                                                                    safeSetState(
-                                                                        () {}));
+                                                                );
+                                                                if (mounted) {
+                                                                  setState(
+                                                                      () {});
+                                                                }
                                                               },
                                                               child: Container(
                                                                 width: 16,
@@ -817,7 +718,6 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                   ],
                                                 ),
                                               ),
-                                           
                                             ],
                                           ),
                                           Align(
@@ -829,49 +729,22 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               child: Text(
                                                 valueOrDefault<String>(
                                                   sorrowSharedSanctuaryItem
-                                                      .empathyMatchingProtocolT,
+                                                      .sentimentInteractionCircle,
                                                   '',
                                                 ),
-                                                style: heartMindVentralTheme
-                                                    .of(context)
-                                                    .bodyMedium
-                                                    .override(
-                                                      font: GoogleFonts.poppins(
-                                                        fontWeight:
-                                                            heartMindVentralTheme
-                                                                .of(context)
-                                                                .bodyMedium
-                                                                .fontWeight,
-                                                        fontStyle:
-                                                            heartMindVentralTheme
-                                                                .of(context)
-                                                                .bodyMedium
-                                                                .fontStyle,
-                                                      ),
-                                                      color: Color(0xFF767676),
-                                                      fontSize: 12,
-                                                      letterSpacing: 0.0,
-                                                      fontWeight:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .bodyMedium
-                                                              .fontWeight,
-                                                      fontStyle:
-                                                          heartMindVentralTheme
-                                                              .of(context)
-                                                              .bodyMedium
-                                                              .fontStyle,
-                                                    ),
+                                                style: TextStyle(
+                                                  color: Color(0xFF767676),
+                                                  fontSize: 12,
+                                                  letterSpacing: 0.0,
+                                                ),
                                               ),
                                             ),
                                           ),
-                                           const SizedBox(height: 10),
+                                          const SizedBox(height: 10),
                                         ],
                                       );
                                     },
                                   );
-                              
-                              
                                 },
                               ),
                             ),
@@ -882,8 +755,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                   ),
                 ],
               ),
-            
-             Align(
+              Align(
                 alignment: AlignmentDirectional(0, 1),
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
@@ -898,7 +770,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                             width: 287,
                             height: 40,
                             decoration: BoxDecoration(
-                         color: const Color(0xE6FFFFFF), 
+                              color: const Color(0xE6FFFFFF),
                               borderRadius: BorderRadius.circular(35),
                             ),
                             child: Padding(
@@ -913,57 +785,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   obscureText: false,
                                   decoration: InputDecoration(
                                     isDense: true,
-                                    labelStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .labelMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontStyle,
-                                          ),
-                                          letterSpacing: 0.0,
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
+                                    labelStyle: TextStyle(
+                                      letterSpacing: 0.0,
+                                    ),
                                     hintText: 'Say something...',
-                                    hintStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .labelMedium
-                                        .override(
-                                          font: GoogleFonts.poppins(
-                                            fontWeight: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontWeight,
-                                            fontStyle: heartMindVentralTheme
-                                                .of(context)
-                                                .labelMedium
-                                                .fontStyle,
-                                          ),
-                                          color: Color(0x663F3F3F),
-                                          fontSize: 14.75,
-                                          letterSpacing: 0.0,
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .labelMedium
-                                              .fontStyle,
-                                        ),
+                                    hintStyle: TextStyle(
+                                      color: Color(0x663F3F3F),
+                                      fontSize: 14.75,
+                                      letterSpacing: 0.0,
+                                    ),
                                     enabledBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
                                         color: Color(0x00000000),
@@ -980,57 +810,27 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                     ),
                                     errorBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
-                                        color: heartMindVentralTheme
-                                            .of(context)
-                                            .error,
+                                        color: Colors.red,
                                         width: 1,
                                       ),
                                       borderRadius: BorderRadius.circular(8),
                                     ),
                                     focusedErrorBorder: OutlineInputBorder(
                                       borderSide: BorderSide(
-                                        color: heartMindVentralTheme
-                                            .of(context)
-                                            .error,
+                                        color: Colors.red,
                                         width: 1,
                                       ),
                                       borderRadius: BorderRadius.circular(8),
                                     ),
                                     filled: true,
-                                  fillColor: Colors.transparent,
+                                    fillColor: Colors.transparent,
                                   ),
-                                  style: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .override(
-                                        font: GoogleFonts.poppins(
-                                          fontWeight: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontWeight,
-                                          fontStyle: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .fontStyle,
-                                        ),
-                                        color: Color(0xFF000000),
-                                        letterSpacing: 0.0,
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .bodyMedium
-                                            .fontStyle,
-                                      ),
-                                  cursorColor: heartMindVentralTheme
-                                      .of(context)
-                                      .primaryText,
-                                  validator:
-                                      authenticBrainStem.asValidator(context),
+                                  style: TextStyle(
+                                    color: Color(0xFF000000),
+                                    letterSpacing: 0.0,
+                                  ),
+                                  cursorColor: Colors.black,
                                 ),
-                             
                               ),
                             ),
                           ),
@@ -1045,14 +845,14 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                 expressionWavelengthTool
                                     .addToVibeSynthesisModuleWL(
                                   SerenityHarmonySpaceWORDStruct(
-                                    sentimentProcessingCloudWID:
+                                    heartfulFriendshipLounge:
                                         widget.soulConnectionMatrix,
-                                    moodPatternDetectorUID:
+                                    friendshipBondingPortal:
                                         expressionWavelengthTool
                                             .emotionalSupportT,
-                                    empathyMatchingProtocolT:
+                                    sentimentInteractionCircle:
                                         moodFeedbackCalibrator,
-                                    feelingDataStreamTIME: DateTime.now(),
+                                    authenticStoryBoard: DateTime.now(),
                                     emotionalInsightDashboardHX:
                                         VuriaEmotionCipher.unveilEmotion(
                                             'B20sqTKVVSvqqhgJeIzF1A=='),
@@ -1070,9 +870,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                               decoration: BoxDecoration(
                                 image: DecorationImage(
                                   fit: BoxFit.cover,
-                                  image: Image.asset(
+                                  image: AssetImage(
                                     'assets/images/whisperedFeelingsselect.png',
-                                  ).image,
+                                  ),
                                 ),
                               ),
                             ),
@@ -1086,9 +886,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                       decoration: BoxDecoration(
                         image: DecorationImage(
                           fit: BoxFit.cover,
-                          image: Image.asset(
+                          image: AssetImage(
                             'assets/images/jigsawSympathy.png',
-                          ).image,
+                          ),
                         ),
                       ),
                     ),

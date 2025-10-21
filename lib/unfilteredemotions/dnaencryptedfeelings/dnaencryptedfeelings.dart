@@ -1,16 +1,13 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class DnaEncryptedFeelingsWidget extends StatefulWidget {
   const DnaEncryptedFeelingsWidget({super.key});
-
 
   @override
   State<DnaEncryptedFeelingsWidget> createState() =>
@@ -44,17 +41,17 @@ class _DnaEncryptedFeelingsWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: heartMindVentralTheme.of(context).secondaryBackground,
+            color: Colors.white,
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -69,12 +66,9 @@ class _DnaEncryptedFeelingsWidgetState
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
+                 
                         onTap: () async {
-                      Navigator.pop(context);
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -82,9 +76,9 @@ class _DnaEncryptedFeelingsWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -92,24 +86,13 @@ class _DnaEncryptedFeelingsWidgetState
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('j5udO+t60eEaRbG0e4/G1w==')}',
-                      style:
-                          heartMindVentralTheme.of(context).bodyMedium.override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
-                                color: Colors.black,
-                                fontSize: 20.0,
-                                letterSpacing: 0.0,
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
+                      style: TextStyle(
+                        fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                        color: Colors.black,
+                        fontSize: 20.0,
+                        letterSpacing: 0.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ],
                 ),
@@ -127,9 +110,9 @@ class _DnaEncryptedFeelingsWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.fitWidth,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/supernovaConfession.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -144,50 +127,26 @@ class _DnaEncryptedFeelingsWidgetState
                                 .firstOrNull
                                 ?.augmentedRealityLoveM
                                 .toString(),
-                            '0',
+                            '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
                           ),
-                          style: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                          style: TextStyle(
+                               fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                 color: Colors.black,
                                 fontSize: 16.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
+                            
                               ),
                         ),
                         Text(
                           '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
-                          style: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .override(
-                                font: GoogleFonts.poppins(
-                                  fontWeight: FontWeight.w500,
-                                  fontStyle: heartMindVentralTheme
-                                      .of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                          style:TextStyle(
+                                fontFamily: '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
                                 color: Colors.black,
                                 fontSize: 12.0,
                                 letterSpacing: 0.0,
                                 fontWeight: FontWeight.w500,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
+                              
                               ),
                         ),
                       ],
@@ -220,13 +179,10 @@ class _DnaEncryptedFeelingsWidgetState
                                 final empathyDrivenForumItem =
                                     empathyDrivenForum[empathyDrivenForumIndex];
                                 return InkWell(
-                                  splashColor: Colors.transparent,
-                                  focusColor: Colors.transparent,
-                                  hoverColor: Colors.transparent,
-                                  highlightColor: Colors.transparent,
+                              
                                   onTap: () async {
                                     sentimentSynchr = empathyDrivenForumItem
-                                        .machuPicchuMacbookthonID;
+                                        .expressiveDialogueSpace;
                                     setState(() {});
 
                                     await moodVibrationTracerRoutine(
@@ -237,12 +193,12 @@ class _DnaEncryptedFeelingsWidgetState
                                     width: 100.0,
                                     height: 136.0,
                                     decoration: BoxDecoration(
-                                 color: Color(0xE6FFFFFF),
+                                      color: Color(0xE6FFFFFF),
                                       borderRadius: BorderRadius.circular(24.0),
                                       border: Border.all(
                                         color: sentimentSynchr ==
                                                 empathyDrivenForumItem
-                                                    .machuPicchuMacbookthonID
+                                                    .expressiveDialogueSpace
                                             ? Color(0xFFFF7A19)
                                             : Colors.white,
                                         width: 2.0,
@@ -261,9 +217,9 @@ class _DnaEncryptedFeelingsWidgetState
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   'assets/images/supernovaConfession.png',
-                                                ).image,
+                                                ),
                                               ),
                                             ),
                                           ),
@@ -271,15 +227,12 @@ class _DnaEncryptedFeelingsWidgetState
                                         Text(
                                           valueOrDefault<String>(
                                             empathyDrivenForumItem
-                                                .cavemanClubhousemedievalMatchC
+                                                .cavemanClubhousemedievalMatch
                                                 .toString(),
                                             '',
                                           ),
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                fontFamily: 'AVENIR',
+                                          style: TextStyle(
+                                                fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                                                 color: Colors.black,
                                                 fontSize: 16.0,
                                                 letterSpacing: 0.0,
@@ -307,11 +260,8 @@ class _DnaEncryptedFeelingsWidgetState
                                                     .toString(),
                                                 '',
                                               )}',
-                                              style: heartMindVentralTheme
-                                                  .of(context)
-                                                  .bodyMedium
-                                                  .override(
-                                                    fontFamily: 'AVENIR',
+                                              style: TextStyle(
+                                                    fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                                                     color: Colors.white,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,

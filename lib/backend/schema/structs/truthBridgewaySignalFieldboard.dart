@@ -34,21 +34,21 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
         _loFiSoulmatesComfortT = loFiSoulmatesComfortT,
         _loveNmbers = loveNmbers;
 
-  // "phoenixTearsTherapyN" field.
+
   String? _phoenixTearsTherapyN;
   String get phoenixTearsTherapyN => _phoenixTearsTherapyN ?? '';
   set phoenixTearsTherapyN(String? val) => _phoenixTearsTherapyN = val;
 
   bool hasPhoenixTearsTherapyN() => _phoenixTearsTherapyN != null;
 
-  // "unicornWhispererHealingE" field.
+
   String? _unicornWhispererHealingE;
   String get unicornWhispererHealingE => _unicornWhispererHealingE ?? '';
   set unicornWhispererHealingE(String? val) => _unicornWhispererHealingE = val;
 
   bool hasUnicornWhispererHealingE() => _unicornWhispererHealingE != null;
 
-  // "dragonScaleComfortfessionsP" field.
+
   String? _dragonScaleComfortfessionsP;
   String get dragonScaleComfortfessionsP => _dragonScaleComfortfessionsP ?? '';
   set dragonScaleComfortfessionsP(String? val) =>
@@ -56,14 +56,13 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasDragonScaleComfortfessionsP() => _dragonScaleComfortfessionsP != null;
 
-  // "neuralLaceConfessionsI" field.
+
   String? _neuralLaceConfessionsI;
   String get neuralLaceConfessionsI => _neuralLaceConfessionsI ?? '';
   set neuralLaceConfessionsI(String? val) => _neuralLaceConfessionsI = val;
 
   bool hasNeuralLaceConfessionsI() => _neuralLaceConfessionsI != null;
 
-  // "augmentedRealityLoveM" field.
   double? _augmentedRealityLoveM;
   double get augmentedRealityLoveM => _augmentedRealityLoveM ?? 0.0;
   set augmentedRealityLoveM(double? val) => _augmentedRealityLoveM = val;
@@ -73,7 +72,7 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasAugmentedRealityLoveM() => _augmentedRealityLoveM != null;
 
-  // "corporateDroneHugsB" field.
+
   List<int>? _corporateDroneHugsB;
   List<int> get corporateDroneHugsB => _corporateDroneHugsB ?? const [];
   set corporateDroneHugsB(List<int>? val) => _corporateDroneHugsB = val;
@@ -84,7 +83,7 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasCorporateDroneHugsB() => _corporateDroneHugsB != null;
 
-  // "corporateDroneHugsF" field.
+
   List<int>? _corporateDroneHugsF;
   List<int> get corporateDroneHugsF => _corporateDroneHugsF ?? const [];
   set corporateDroneHugsF(List<int>? val) => _corporateDroneHugsF = val;
@@ -95,7 +94,7 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasCorporateDroneHugsF() => _corporateDroneHugsF != null;
 
-  // "deusExMachinaTherapS" field.
+
   List<int>? _deusExMachinaTherapS;
   List<int> get deusExMachinaTherapS => _deusExMachinaTherapS ?? const [];
   set deusExMachinaTherapS(List<int>? val) => _deusExMachinaTherapS = val;
@@ -106,14 +105,14 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasDeusExMachinaTherapS() => _deusExMachinaTherapS != null;
 
-  // "cthulhuComfortHeartZ" field.
+
   bool? _cthulhuComfortHeartZ;
   bool get cthulhuComfortHeartZ => _cthulhuComfortHeartZ ?? false;
   set cthulhuComfortHeartZ(bool? val) => _cthulhuComfortHeartZ = val;
 
   bool hasCthulhuComfortHeartZ() => _cthulhuComfortHeartZ != null;
 
-  // "shoggothHugsTherapy" field.
+
   List<int>? _shoggothHugsTherapy;
   List<int> get shoggothHugsTherapy => _shoggothHugsTherapy ?? const [];
   set shoggothHugsTherapy(List<int>? val) => _shoggothHugsTherapy = val;
@@ -124,7 +123,7 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasShoggothHugsTherapy() => _shoggothHugsTherapy != null;
 
-  // "loFiSoulmatesComfortT" field.
+
   int? _loFiSoulmatesComfortT;
   int get loFiSoulmatesComfortT => _loFiSoulmatesComfortT ?? 0;
   set loFiSoulmatesComfortT(int? val) => _loFiSoulmatesComfortT = val;
@@ -134,7 +133,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasLoFiSoulmatesComfortT() => _loFiSoulmatesComfortT != null;
 
-  // "loveNmbers" field.
   int? _loveNmbers;
   int get loveNmbers => _loveNmbers ?? 0;
   set loveNmbers(int? val) => _loveNmbers = val;

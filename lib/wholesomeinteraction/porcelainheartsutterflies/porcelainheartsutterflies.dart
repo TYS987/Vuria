@@ -1,3 +1,4 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
@@ -45,20 +46,14 @@ class _PorcelainHeartsutterfliesWidgetState
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
             child: Text(
               '${VuriaEmotionCipher.unveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
-              style: heartMindVentralTheme.of(context).bodyMedium.override(
-                    font: GoogleFonts.poppins(
-                      fontWeight: FontWeight.bold,
-                      fontStyle: heartMindVentralTheme
-                          .of(context)
-                          .bodyMedium
-                          .fontStyle,
-                    ),
+              style: TextStyle(
+                   height: 1.5, 
                     color: Color(0xE6000000),
                     fontSize: 20.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.bold,
-                    fontStyle:
-                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                    
+              
                   ),
             ),
           ),
@@ -67,25 +62,19 @@ class _PorcelainHeartsutterfliesWidgetState
             child: Text(
               ' ${VuriaEmotionCipher.unveilEmotion('u43IbO5506MaYt7SCu3hte55QPPk4YBj3/9JlvTPa+o6asHSD4RPzYfad/M+XH2C0B58WU2YtQuoNpNi0hrVCw==')}',
               textAlign: TextAlign.center,
-              style: heartMindVentralTheme.of(context).bodyMedium.override(
-                    font: GoogleFonts.poppins(
-                      fontWeight: FontWeight.w500,
-                      fontStyle: heartMindVentralTheme
-                          .of(context)
-                          .bodyMedium
-                          .fontStyle,
-                    ),
+              style: TextStyle(
+                   
                     color: Color(0xE6000000),
                     fontSize: 16.0,
                     letterSpacing: 0.0,
                     fontWeight: FontWeight.w500,
-                    fontStyle:
-                        heartMindVentralTheme.of(context).bodyMedium.fontStyle,
+                    height: 1.2
+                  
                   ),
             ),
           ),
           Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(0.0, 9.0, 0.0, 0.0),
+            padding: EdgeInsetsDirectional.fromSTEB(0.0, 10.0, 0.0, 0.0),
             child: InkWell(
               splashColor: Colors.transparent,
               focusColor: Colors.transparent,
@@ -93,7 +82,7 @@ class _PorcelainHeartsutterfliesWidgetState
               highlightColor: Colors.transparent,
               onTap: () async {
                    Navigator.pop(context);
-                Navigator.of(context).pushNamed('/dnaEncryptedFeelings');
+                Navigator.of(context).pushNamed('${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.fromPetalWhisper()}');
              
               },
               child: Container(
@@ -111,22 +100,13 @@ class _PorcelainHeartsutterfliesWidgetState
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
                   '${VuriaEmotionCipher.unveilEmotion('sIfeJOtk2uFmSr67dIDJ2A==')}',
-                  style: heartMindVentralTheme.of(context).bodyMedium.override(
-                        font: GoogleFonts.poppins(
-                          fontWeight: FontWeight.bold,
-                          fontStyle: heartMindVentralTheme
-                              .of(context)
-                              .bodyMedium
-                              .fontStyle,
-                        ),
+                  style: TextStyle(
+                      
                         color: Colors.white,
                         fontSize: 16.0,
                         letterSpacing: 0.0,
                         fontWeight: FontWeight.bold,
-                        fontStyle: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .fontStyle,
+                     
                       ),
                 ),
               ),

@@ -1,5 +1,4 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
 import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
@@ -45,16 +44,16 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -78,9 +77,9 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -91,64 +90,37 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                         if (widget.vibeDedicatedSpace == 0) {
                           return Text(
                             '${VuriaEmotionCipher.unveilEmotion('pI3RIOVht45kSLy5doLL2g==')}',
-                            style: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                            style:TextStyle(
+                               
                                   color: Colors.black,
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
+                             
                                 ),
                           );
                         } else if (widget.vibeDedicatedSpace == 1) {
                           return Text(
                             '${VuriaEmotionCipher.unveilEmotion('pIPTP4YasYhiTrq/cITN3A==')}',
-                            style: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                            style:TextStyle(
+                              
                                   color: Colors.black,
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
+                                 
                                 ),
                           );
                         } else {
                           return Text(
                             '${VuriaEmotionCipher.unveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
-                            style: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
+                            style:TextStyle(
+                         
                                   color: Colors.black,
                                   fontSize: 20.0,
                                   letterSpacing: 0.0,
                                   fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
+                                
                                 ),
                           );
                         }
@@ -209,7 +181,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
@@ -218,7 +190,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                         .toList()
                                                         .firstOrNull!
                                                         .neuralLaceConfessionsI,
-                                                  ).image,
+                                                  ),
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(60.0),
@@ -237,25 +209,12 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                   ?.phoenixTearsTherapyN,
                                               '',
                                             ),
-                                            style: heartMindVentralTheme.of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  font: GoogleFonts.inter(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontStyle:
-                                                        heartMindVentralTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
-                                                  ),
+                                            style: TextStyle(
+                                               
                                                   fontSize: 16.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.bold,
-                                                  fontStyle:
-                                                      heartMindVentralTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                                
                                                 ),
                                           ),
                                         ],
@@ -281,9 +240,9 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.asset(
+                                              image: AssetImage(
                                                 'assets/images/multiverseComfort.png',
-                                              ).image,
+                                              ),
                                             ),
                                           ),
                                         ),
@@ -353,7 +312,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
@@ -362,7 +321,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                         .toList()
                                                         .firstOrNull!
                                                         .neuralLaceConfessionsI,
-                                                  ).image,
+                                                  ),
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(60.0),
@@ -381,34 +340,18 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                   ?.phoenixTearsTherapyN,
                                               '',
                                             ),
-                                            style: heartMindVentralTheme.of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  font: GoogleFonts.inter(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontStyle:
-                                                        heartMindVentralTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
-                                                  ),
+                                            style: TextStyle(
+                                               
                                                   fontSize: 16.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.bold,
-                                                  fontStyle:
-                                                      heartMindVentralTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                              
                                                 ),
                                           ),
                                         ],
                                       ),
                                       InkWell(
-                                        splashColor: Colors.transparent,
-                                        focusColor: Colors.transparent,
-                                        hoverColor: Colors.transparent,
-                                        highlightColor: Colors.transparent,
+                                  
                                         onTap: () async {
                                           genuineSynapseLocus()
                                               .updateNecronomiconHealingComfortUAtIndex(
@@ -428,9 +371,9 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.asset(
+                                              image: AssetImage(
                                                 'assets/images/parallelSelfEmpathy.png',
-                                              ).image,
+                                              ),
                                             ),
                                           ),
                                         ),
@@ -489,7 +432,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                               decoration: BoxDecoration(
                                                 image: DecorationImage(
                                                   fit: BoxFit.cover,
-                                                  image: Image.asset(
+                                                  image: AssetImage(
                                                     genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
@@ -498,7 +441,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                         .toList()
                                                         .firstOrNull!
                                                         .neuralLaceConfessionsI,
-                                                  ).image,
+                                                  ),
                                                 ),
                                                 borderRadius:
                                                     BorderRadius.circular(60.0),
@@ -517,34 +460,18 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                   ?.phoenixTearsTherapyN,
                                               '',
                                             ),
-                                            style: heartMindVentralTheme.of(context)
-                                                .bodyMedium
-                                                .override(
-                                                  font: GoogleFonts.inter(
-                                                    fontWeight: FontWeight.bold,
-                                                    fontStyle:
-                                                        heartMindVentralTheme.of(
-                                                                context)
-                                                            .bodyMedium
-                                                            .fontStyle,
-                                                  ),
+                                            style: TextStyle(
+                                           
                                                   fontSize: 16.0,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.bold,
-                                                  fontStyle:
-                                                      heartMindVentralTheme.of(
-                                                              context)
-                                                          .bodyMedium
-                                                          .fontStyle,
+                                             
                                                 ),
                                           ),
                                         ],
                                       ),
                                       InkWell(
-                                        splashColor: Colors.transparent,
-                                        focusColor: Colors.transparent,
-                                        hoverColor: Colors.transparent,
-                                        highlightColor: Colors.transparent,
+                                   
                                         onTap: () async {
                                           genuineSynapseLocus()
                                               .updateNecronomiconHealingComfortUAtIndex(
@@ -563,9 +490,9 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                           decoration: BoxDecoration(
                                             image: DecorationImage(
                                               fit: BoxFit.cover,
-                                              image: Image.asset(
+                                              image: AssetImage(
                                                 'assets/images/hyperspaceConfessions.png',
-                                              ).image,
+                                              ),
                                             ),
                                           ),
                                         ),

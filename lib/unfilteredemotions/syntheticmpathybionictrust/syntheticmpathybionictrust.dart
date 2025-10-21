@@ -1,15 +1,11 @@
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
+
 
 class SyntheticmpathybionicTrustWidget extends StatefulWidget {
   const SyntheticmpathybionicTrustWidget({super.key});
-
-
 
   @override
   State<SyntheticmpathybionicTrustWidget> createState() =>
@@ -48,17 +44,17 @@ class _SyntheticmpathybionicTrustWidgetState
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Container(
           width: double.infinity,
           height: double.infinity,
           decoration: BoxDecoration(
-            color: heartMindVentralTheme.of(context).secondaryBackground,
+            color: Colors.white,
             image: DecorationImage(
               fit: BoxFit.cover,
-              image: Image.asset(
+              image: AssetImage(
                 'assets/images/comfortableListening.png',
-              ).image,
+              ),
             ),
           ),
           child: Column(
@@ -73,12 +69,8 @@ class _SyntheticmpathybionicTrustWidgetState
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
                       child: InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
-                         Navigator.pop(context);             
+                          Navigator.pop(context);
                         },
                         child: Container(
                           width: 32.0,
@@ -86,9 +78,9 @@ class _SyntheticmpathybionicTrustWidgetState
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -96,21 +88,12 @@ class _SyntheticmpathybionicTrustWidgetState
                     ),
                     Text(
                       '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
-                      style: heartMindVentralTheme.of(context).bodyMedium.override(
-                            font: GoogleFonts.poppins(
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
-                            color: Colors.black,
-                            fontSize: 20.0,
-                            letterSpacing: 0.0,
-                            fontWeight: FontWeight.bold,
-                            fontStyle: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .fontStyle,
-                          ),
+                      style: TextStyle(
+                        color: Colors.black,
+                        fontSize: 20.0,
+                        letterSpacing: 0.0,
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
                   ],
                 ),
@@ -126,8 +109,7 @@ class _SyntheticmpathybionicTrustWidgetState
                         width: 351.0,
                         height: 196.0,
                         decoration: BoxDecoration(
-                          color:
-                              heartMindVentralTheme.of(context).secondaryBackground,
+                          color: Colors.white,
                           borderRadius: BorderRadius.circular(15.0),
                           border: Border.all(
                             color: Color(0xFFFF6509),
@@ -146,44 +128,18 @@ class _SyntheticmpathybionicTrustWidgetState
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: heartMindVentralTheme.of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme.of(context)
-                                            .labelMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme.of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      fontSize: 16.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme.of(context)
-                                          .labelMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
-                                hintText: '${VuriaEmotionCipher.unveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
-                                hintStyle: heartMindVentralTheme.of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme.of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Color(0x66000000),
-                                      fontSize: 14.0,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme.of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
+                                labelStyle: TextStyle(
+                                  fontSize: 16.0,
+                                  letterSpacing: 0.0,
+                                ),
+                                hintText:
+                                    '${VuriaEmotionCipher.unveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
+                                hintStyle: TextStyle(
+                                  color: Color(0x66000000),
+                                  fontSize: 14.0,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.w500,
+                                ),
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: Color(0x00000000),
@@ -200,44 +156,27 @@ class _SyntheticmpathybionicTrustWidgetState
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: heartMindVentralTheme.of(context).error,
+                                    color: Colors.red,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color: heartMindVentralTheme.of(context).error,
+                                    color: Colors.red,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 filled: true,
-                                    fillColor: Colors.transparent,
+                                fillColor: Colors.transparent,
                               ),
-                              style: heartMindVentralTheme.of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme.of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    fontSize: 14.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontWeight,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                              cursorColor:
-                                  heartMindVentralTheme.of(context).primaryText,
-                              validator: soulhippocampus.asValidator(context),
+                              style: TextStyle(
+                                fontSize: 14.0,
+                                letterSpacing: 0.0,
+                              ),
+                              cursorColor: Colors.red,
+                   
                             ),
                           ),
                         ),
@@ -275,23 +214,12 @@ class _SyntheticmpathybionicTrustWidgetState
                           alignment: AlignmentDirectional(0.0, 0.0),
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
-                            style: heartMindVentralTheme.of(context)
-                                .bodyMedium
-                                .override(
-                                  font: GoogleFonts.poppins(
-                                    fontWeight: FontWeight.bold,
-                                    fontStyle: heartMindVentralTheme.of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                                  color: Colors.white,
-                                  fontSize: 18.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.bold,
-                                  fontStyle: heartMindVentralTheme.of(context)
-                                      .bodyMedium
-                                      .fontStyle,
-                                ),
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 18.0,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.bold,
+                            ),
                           ),
                         ),
                       ),
@@ -299,7 +227,6 @@ class _SyntheticmpathybionicTrustWidgetState
                   ],
                 ),
               ),
-            
             ],
           ),
         ),

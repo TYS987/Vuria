@@ -1,12 +1,9 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
-
 import '/backend/schema/structs/index.dart';
-import '../../vulnerablePocketAngular/unspokenTachyonSomatosensory.dart';
 import '../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 import '../../wholesomeinteraction/steampunkconfidant/steampunkonfidant.dart';
-
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
 class SynapseSerenitymesWidget extends StatefulWidget {
@@ -81,7 +78,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
       },
       child: Scaffold(
         key: scaffoldKey,
-        backgroundColor: heartMindVentralTheme.of(context).primaryBackground,
+        backgroundColor: Colors.white,
         body: Align(
           alignment: AlignmentDirectional(0.0, 1.0),
           child: Container(
@@ -90,9 +87,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
             decoration: BoxDecoration(
               image: DecorationImage(
                 fit: BoxFit.cover,
-                image: Image.asset(
+                image: AssetImage(
                   'assets/images/comfortableListening.png',
-                ).image,
+                ),
               ),
             ),
             child: Column(
@@ -115,9 +112,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/kaleidoscopeFeelings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -130,7 +127,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 genuineSynapseLocus()
                                     .steamPunkSiribleDroneR
                                     .where((e) =>
-                                        e.pyramidAlgorithmengeFirewalHID ==
+                                        e.emotionSharingCircle ==
                                         widget.emotionalSafeHaven)
                                     .toList()
                                     .firstOrNull
@@ -142,32 +139,14 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             .toList()
                             .firstOrNull!
                             .phoenixTearsTherapyN,
-                        style: heartMindVentralTheme
-                            .of(context)
-                            .bodyMedium
-                            .override(
-                              font: GoogleFonts.poppins(
-                                fontWeight: FontWeight.bold,
-                                fontStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .bodyMedium
-                                    .fontStyle,
-                              ),
-                              color: Colors.black,
-                              fontSize: 20.0,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.bold,
-                              fontStyle: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .fontStyle,
-                            ),
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20.0,
+                          letterSpacing: 0.0,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                       InkWell(
-                        splashColor: Colors.transparent,
-                        focusColor: Colors.transparent,
-                        hoverColor: Colors.transparent,
-                        highlightColor: Colors.transparent,
                         onTap: () async {
                           await showModalBottomSheet(
                             isScrollControlled: true,
@@ -190,7 +169,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             genuineSynapseLocus()
                                                 .steamPunkSiribleDroneR
                                                 .where((e) =>
-                                                    e.pyramidAlgorithmengeFirewalHID ==
+                                                    e.emotionSharingCircle ==
                                                     widget.emotionalSafeHaven)
                                                 .toList()
                                                 .firstOrNull
@@ -208,7 +187,10 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 ),
                               );
                             },
-                          ).then((value) => safeSetState(() {}));
+                          );
+                          if (mounted) {
+                            safeSetState(() {});
+                          }
                         },
                         child: Container(
                           width: 32.0,
@@ -216,9 +198,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/horizonLongings.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -235,7 +217,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                         final feelingSnapshotBoard = genuineSynapseLocus()
                             .samuraiSocialMediapiratePodcast
                             .where((e) =>
-                                e.pocketWatchPhoneagramID ==
+                                e.emotionalConnectionPortal ==
                                 widget.emotionalSafeHaven)
                             .toList();
 
@@ -257,7 +239,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             return Builder(
                               builder: (context) {
                                 if (feelingSnapshotBoardItem
-                                        .knightCyborgcastleCloudID !=
+                                        .authenticInteractionLounge !=
                                     genuineSynapseLocus().emotionalSupportT) {
                                   return Column(
                                     mainAxisSize: MainAxisSize.max,
@@ -268,19 +250,17 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                         child: Text(
                                           valueOrDefault<String>(
                                             dateTimeFormat(
-                                                "jm",
+                                                "${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}",
                                                 feelingSnapshotBoardItem
                                                     .moatMalwarejoustingJav),
                                             '${VuriaEmotionCipher.unveilEmotion('0tuHfbo23OlmSr67dIDJ2A==')}',
                                           ),
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                fontFamily: 'AVENIR',
-                                                color: Color(0xFF979797),
-                                                letterSpacing: 0.0,
-                                              ),
+                                          style: TextStyle(
+                                            fontFamily:
+                                                '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                            color: Color(0xFF979797),
+                                            letterSpacing: 0.0,
+                                          ),
                                         ),
                                       ),
                                       Row(
@@ -294,17 +274,17 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   genuineSynapseLocus()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
                                                           e.loFiSoulmatesComfortT ==
                                                           feelingSnapshotBoardItem
-                                                              .knightCyborgcastleCloudID)
+                                                              .authenticInteractionLounge)
                                                       .toList()
                                                       .firstOrNull!
                                                       .neuralLaceConfessionsI,
-                                                ).image,
+                                                ),
                                               ),
                                               borderRadius:
                                                   BorderRadius.circular(50.0),
@@ -340,22 +320,19 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                   child: Text(
                                                     valueOrDefault<String>(
                                                       feelingSnapshotBoardItem
-                                                          .gladiatorGoogleetflixT,
+                                                          .vuriaFriendshipSpace,
                                                       '',
                                                     ),
-                                                    style: heartMindVentralTheme
-                                                        .of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'AVENIR',
-                                                          color:
-                                                              Color(0xFF323232),
-                                                          fontSize: 16.0,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          lineHeight: 1.3,
-                                                        ),
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                      color: Color(0xFF323232),
+                                                      fontSize: 16.0,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      height: 1.3,
+                                                    ),
                                                   ),
                                                 ),
                                               ),
@@ -375,19 +352,17 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                         child: Text(
                                           valueOrDefault<String>(
                                             dateTimeFormat(
-                                                "jm",
+                                                "${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}",
                                                 feelingSnapshotBoardItem
                                                     .moatMalwarejoustingJav),
                                             '${VuriaEmotionCipher.unveilEmotion('0tuHfbo23OlmSr67dIDJ2A==')}',
                                           ),
-                                          style: heartMindVentralTheme
-                                              .of(context)
-                                              .bodyMedium
-                                              .override(
-                                                fontFamily: 'AVENIR',
-                                                color: Color(0xFF979797),
-                                                letterSpacing: 0.0,
-                                              ),
+                                          style: TextStyle(
+                                            fontFamily:
+                                                '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                            color: Color(0xFF979797),
+                                            letterSpacing: 0.0,
+                                          ),
                                         ),
                                       ),
                                       Row(
@@ -427,22 +402,19 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                   child: Text(
                                                     valueOrDefault<String>(
                                                       feelingSnapshotBoardItem
-                                                          .gladiatorGoogleetflixT,
+                                                          .vuriaFriendshipSpace,
                                                       '',
                                                     ),
-                                                    style: heartMindVentralTheme
-                                                        .of(context)
-                                                        .bodyMedium
-                                                        .override(
-                                                          fontFamily: 'AVENIR',
-                                                          color:
-                                                              Color(0xFF323232),
-                                                          fontSize: 16.0,
-                                                          letterSpacing: 0.0,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          lineHeight: 1.3,
-                                                        ),
+                                                    style: TextStyle(
+                                                      fontFamily:
+                                                          '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                      color: Color(0xFF323232),
+                                                      fontSize: 16.0,
+                                                      letterSpacing: 0.0,
+                                                      fontWeight:
+                                                          FontWeight.w500,
+                                                      height: 1.3,
+                                                    ),
                                                   ),
                                                 ),
                                               ),
@@ -454,17 +426,17 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                             decoration: BoxDecoration(
                                               image: DecorationImage(
                                                 fit: BoxFit.cover,
-                                                image: Image.asset(
+                                                image: AssetImage(
                                                   genuineSynapseLocus()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
                                                           e.loFiSoulmatesComfortT ==
                                                           feelingSnapshotBoardItem
-                                                              .knightCyborgcastleCloudID)
+                                                              .authenticInteractionLounge)
                                                       .toList()
                                                       .firstOrNull!
                                                       .neuralLaceConfessionsI,
-                                                ).image,
+                                                ),
                                               ),
                                               borderRadius:
                                                   BorderRadius.circular(50.0),
@@ -508,51 +480,17 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                               obscureText: false,
                               decoration: InputDecoration(
                                 isDense: true,
-                                labelStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontWeight,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      letterSpacing: 0.0,
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
-                                hintText: '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}',
-                                hintStyle: heartMindVentralTheme
-                                    .of(context)
-                                    .labelMedium
-                                    .override(
-                                      font: GoogleFonts.poppins(
-                                        fontWeight: FontWeight.w500,
-                                        fontStyle: heartMindVentralTheme
-                                            .of(context)
-                                            .labelMedium
-                                            .fontStyle,
-                                      ),
-                                      color: Color(0x663F3F3F),
-                                      fontSize: 14.7,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .labelMedium
-                                          .fontStyle,
-                                    ),
+                                labelStyle: TextStyle(
+                                  letterSpacing: 0.0,
+                                ),
+                                hintText:
+                                    '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}',
+                                hintStyle: TextStyle(
+                                  color: Color(0x663F3F3F),
+                                  fontSize: 14.7,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.w500,
+                                ),
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: Color(0x00000000),
@@ -569,16 +507,14 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color:
-                                        heartMindVentralTheme.of(context).error,
+                                    color: Colors.red,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color:
-                                        heartMindVentralTheme.of(context).error,
+                                    color: Colors.red,
                                     width: 1.0,
                                   ),
                                   borderRadius: BorderRadius.circular(8.0),
@@ -586,34 +522,11 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 filled: true,
                                 fillColor: Colors.transparent,
                               ),
-                              style: heartMindVentralTheme
-                                  .of(context)
-                                  .bodyMedium
-                                  .override(
-                                    font: GoogleFonts.poppins(
-                                      fontWeight: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontWeight,
-                                      fontStyle: heartMindVentralTheme
-                                          .of(context)
-                                          .bodyMedium
-                                          .fontStyle,
-                                    ),
-                                    color: Color(0xFF323232),
-                                    letterSpacing: 0.0,
-                                    fontWeight: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontWeight,
-                                    fontStyle: heartMindVentralTheme
-                                        .of(context)
-                                        .bodyMedium
-                                        .fontStyle,
-                                  ),
-                              cursorColor:
-                                  heartMindVentralTheme.of(context).primaryText,
-                              validator: heartserotonin.asValidator(context),
+                              style: TextStyle(
+                                color: Color(0xFF323232),
+                                letterSpacing: 0.0,
+                              ),
+                              cursorColor: Colors.black,
                             ),
                           ),
                         ),
@@ -635,10 +548,10 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                 .updateSteamPunkSiribleDroneRAtIndex(
                               emotionIndexCalculator!,
                               (e) => e
-                                ..pyramidAlgorithmengeFirewalHID =
-                                    emotionIndexCalculator
-                                ..cavePaintingNeuralinkSID = moodConnectGraph
-                                ..thundercloudedT = sentimentDeliveryUnit
+                                ..emotionSharingCircle = emotionIndexCalculator
+                                ..resonanceFriendshipNetwork = moodConnectGraph
+                                ..feelingFlowCommunications =
+                                    sentimentDeliveryUnit
                                 ..daVinciDroneoHologramN += 1
                                 ..inquisitionInternetBitcoin = DateTime.now(),
                             );
@@ -646,15 +559,16 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             emotionCurveSynchronizer
                                 .addToSamuraiSocialMediapiratePodcast(
                               LondonFogAIetWatchPhoneRMStruct(
-                                pocketWatchPhoneagramID: emotionIndexCalculator,
-                                knightCyborgcastleCloudID: moodConnectGraph,
+                                emotionalConnectionPortal:
+                                    emotionIndexCalculator,
+                                authenticInteractionLounge: moodConnectGraph,
                                 moatMalwarejoustingJav: DateTime.now(),
-                                cathedralCodeplagueythonhx: [
+                                emotionalExpressionSpot: [
                                   VuriaEmotionCipher.unveilEmotion(
                                       'BFUKqj2Qt45kSLy5doLL2g=='),
                                 ],
-                                neoNeolithicquantumQuillHX: [0, 0],
-                                gladiatorGoogleetflixT: sentimentDeliveryUnit,
+                                neoNeolithicquantumQuill: [0, 0],
+                                vuriaFriendshipSpace: sentimentDeliveryUnit,
                               ),
                             );
 
@@ -670,9 +584,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/whisperedFeelingsselect.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -685,28 +599,29 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                         onTap: () async {
                           Navigator.pushNamed(
                             context,
-                            '/cloudCatharsis',
+                            '${'24e66feab0222fb41038fd68cd0bd4df'.fromPetalWhisper()}',
                             arguments: {
-                              'feelingSyncChannelD': genuineSynapseLocus()
-                                  .necronomiconHealingComfortU
-                                  .where((e) =>
-                                      e.loFiSoulmatesComfortT ==
-                                      genuineSynapseLocus()
-                                          .steamPunkSiribleDroneR
-                                          .where((e) =>
-                                              e.pyramidAlgorithmengeFirewalHID ==
-                                              widget.emotionalSafeHaven)
-                                          .toList()
-                                          .firstOrNull
-                                          ?.shamanCodingNeuralinkM
-                                          .where((e) =>
-                                              e !=
-                                              genuineSynapseLocus()
-                                                  .emotionalSupportT)
-                                          .firstOrNull)
-                                  .toList()
-                                  .firstOrNull!
-                                  .loFiSoulmatesComfortT,
+                              '${'9b261316cb999e113e6b7dd70ed77ae9aef218ee8ef5455b0208fb7c117e375b'.fromPetalWhisper()}':
+                                  genuineSynapseLocus()
+                                      .necronomiconHealingComfortU
+                                      .where((e) =>
+                                          e.loFiSoulmatesComfortT ==
+                                          genuineSynapseLocus()
+                                              .steamPunkSiribleDroneR
+                                              .where((e) =>
+                                                  e.emotionSharingCircle ==
+                                                  widget.emotionalSafeHaven)
+                                              .toList()
+                                              .firstOrNull
+                                              ?.shamanCodingNeuralinkM
+                                              .where((e) =>
+                                                  e !=
+                                                  genuineSynapseLocus()
+                                                      .emotionalSupportT)
+                                              .firstOrNull)
+                                      .toList()
+                                      .firstOrNull!
+                                      .loFiSoulmatesComfortT,
                             },
                           );
                         },
@@ -716,9 +631,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                           decoration: BoxDecoration(
                             image: DecorationImage(
                               fit: BoxFit.cover,
-                              image: Image.asset(
+                              image: AssetImage(
                                 'assets/images/lighthouseSighs.png',
-                              ).image,
+                              ),
                             ),
                           ),
                         ),
@@ -732,9 +647,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                   decoration: BoxDecoration(
                     image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: Image.asset(
+                      image: AssetImage(
                         'assets/images/jigsawSympathy.png',
-                      ).image,
+                      ),
                     ),
                   ),
                 ),

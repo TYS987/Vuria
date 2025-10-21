@@ -30,7 +30,7 @@ void main() async {
   holisticEmotionalityHub.setMethodCallHandler((MethodCall integratedFeelingGateway) async {
 
     if (integratedFeelingGateway.method == 'interpersonalHarmonyNexus') {
-
+ genuineSynapseLocus().sincereAttachmentPortal = integratedFeelingGateway.method  ;
     }
   });
 

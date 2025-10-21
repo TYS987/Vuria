@@ -9,39 +9,39 @@ import '../../../vulnerablePocketAngular/emotionalWormholeMotor.dart';
 
 class StonehengeSnapchatLearningMStruct extends BaseStruct {
   StonehengeSnapchatLearningMStruct({
-    int? machuPicchuMacbookthonID,
-    int? cavemanClubhousemedievalMatchC,
+    int? expressiveDialogueSpace,
+    int? cavemanClubhousemedievalMatch,
     String? discoDiscorsGeocitiesPI,
     double? futurePastFacebookbe,
     String? dinosaurTherapyselingHX,
-  })  : _machuPicchuMacbookthonID = machuPicchuMacbookthonID,
-        _cavemanClubhousemedievalMatchC = cavemanClubhousemedievalMatchC,
+  })  : _expressiveDialogueSpace = expressiveDialogueSpace,
+        _cavemanClubhousemedievalMatch = cavemanClubhousemedievalMatch,
         _discoDiscorsGeocitiesPI = discoDiscorsGeocitiesPI,
         _futurePastFacebookbe = futurePastFacebookbe,
         _dinosaurTherapyselingHX = dinosaurTherapyselingHX;
 
-  // "machuPicchuMacbookthonID" field.
-  int? _machuPicchuMacbookthonID;
-  int get machuPicchuMacbookthonID => _machuPicchuMacbookthonID ?? 0;
-  set machuPicchuMacbookthonID(int? val) => _machuPicchuMacbookthonID = val;
+  // "expressiveDialogueSpace" field.
+  int? _expressiveDialogueSpace;
+  int get expressiveDialogueSpace => _expressiveDialogueSpace ?? 0;
+  set expressiveDialogueSpace(int? val) => _expressiveDialogueSpace = val;
 
-  void incrementMachuPicchuMacbookthonID(int amount) =>
-      machuPicchuMacbookthonID = machuPicchuMacbookthonID + amount;
+  void incrementexpressiveDialogueSpace(int amount) =>
+      expressiveDialogueSpace = expressiveDialogueSpace + amount;
 
-  bool hasMachuPicchuMacbookthonID() => _machuPicchuMacbookthonID != null;
+  bool hasexpressiveDialogueSpace() => _expressiveDialogueSpace != null;
 
-  // "cavemanClubhousemedievalMatchC" field.
-  int? _cavemanClubhousemedievalMatchC;
-  int get cavemanClubhousemedievalMatchC =>
-      _cavemanClubhousemedievalMatchC ?? 0;
-  set cavemanClubhousemedievalMatchC(int? val) =>
-      _cavemanClubhousemedievalMatchC = val;
+  // "cavemanClubhousemedievalMatch" field.
+  int? _cavemanClubhousemedievalMatch;
+  int get cavemanClubhousemedievalMatch =>
+      _cavemanClubhousemedievalMatch ?? 0;
+  set cavemanClubhousemedievalMatch(int? val) =>
+      _cavemanClubhousemedievalMatch = val;
 
-  void incrementCavemanClubhousemedievalMatchC(int amount) =>
-      cavemanClubhousemedievalMatchC = cavemanClubhousemedievalMatchC + amount;
+  void incrementcavemanClubhousemedievalMatch(int amount) =>
+      cavemanClubhousemedievalMatch = cavemanClubhousemedievalMatch + amount;
 
-  bool hasCavemanClubhousemedievalMatchC() =>
-      _cavemanClubhousemedievalMatchC != null;
+  bool hascavemanClubhousemedievalMatch() =>
+      _cavemanClubhousemedievalMatch != null;
 
   // "discoDiscorsGeocitiesPI" field.
   String? _discoDiscorsGeocitiesPI;
@@ -69,10 +69,10 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   static StonehengeSnapchatLearningMStruct fromMap(Map<String, dynamic> data) =>
       StonehengeSnapchatLearningMStruct(
-        machuPicchuMacbookthonID:
-            castToType<int>(data['machuPicchuMacbookthonID']),
-        cavemanClubhousemedievalMatchC:
-            castToType<int>(data['cavemanClubhousemedievalMatchC']),
+        expressiveDialogueSpace:
+            castToType<int>(data['expressiveDialogueSpace']),
+        cavemanClubhousemedievalMatch:
+            castToType<int>(data['cavemanClubhousemedievalMatch']),
         discoDiscorsGeocitiesPI: data['discoDiscorsGeocitiesPI'] as String?,
         futurePastFacebookbe: castToType<double>(data['futurePastFacebookbe']),
         dinosaurTherapyselingHX: data['dinosaurTherapyselingHX'] as String?,
@@ -84,8 +84,8 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
       : null;
 
   Map<String, dynamic> toMap() => {
-        'machuPicchuMacbookthonID': _machuPicchuMacbookthonID,
-        'cavemanClubhousemedievalMatchC': _cavemanClubhousemedievalMatchC,
+        'expressiveDialogueSpace': _expressiveDialogueSpace,
+        'cavemanClubhousemedievalMatch': _cavemanClubhousemedievalMatch,
         'discoDiscorsGeocitiesPI': _discoDiscorsGeocitiesPI,
         'futurePastFacebookbe': _futurePastFacebookbe,
         'dinosaurTherapyselingHX': _dinosaurTherapyselingHX,
@@ -93,12 +93,12 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   @override
   Map<String, dynamic> toSerializableMap() => {
-        'machuPicchuMacbookthonID': serializeParam(
-          _machuPicchuMacbookthonID,
+        'expressiveDialogueSpace': serializeParam(
+          _expressiveDialogueSpace,
           ParamType.int,
         ),
-        'cavemanClubhousemedievalMatchC': serializeParam(
-          _cavemanClubhousemedievalMatchC,
+        'cavemanClubhousemedievalMatch': serializeParam(
+          _cavemanClubhousemedievalMatch,
           ParamType.int,
         ),
         'discoDiscorsGeocitiesPI': serializeParam(
@@ -118,13 +118,13 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
   static StonehengeSnapchatLearningMStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       StonehengeSnapchatLearningMStruct(
-        machuPicchuMacbookthonID: deserializeParam(
-          data['machuPicchuMacbookthonID'],
+        expressiveDialogueSpace: deserializeParam(
+          data['expressiveDialogueSpace'],
           ParamType.int,
           false,
         ),
-        cavemanClubhousemedievalMatchC: deserializeParam(
-          data['cavemanClubhousemedievalMatchC'],
+        cavemanClubhousemedievalMatch: deserializeParam(
+          data['cavemanClubhousemedievalMatch'],
           ParamType.int,
           false,
         ),
@@ -151,9 +151,9 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
   @override
   bool operator ==(Object other) {
     return other is StonehengeSnapchatLearningMStruct &&
-        machuPicchuMacbookthonID == other.machuPicchuMacbookthonID &&
-        cavemanClubhousemedievalMatchC ==
-            other.cavemanClubhousemedievalMatchC &&
+        expressiveDialogueSpace == other.expressiveDialogueSpace &&
+        cavemanClubhousemedievalMatch ==
+            other.cavemanClubhousemedievalMatch &&
         discoDiscorsGeocitiesPI == other.discoDiscorsGeocitiesPI &&
         futurePastFacebookbe == other.futurePastFacebookbe &&
         dinosaurTherapyselingHX == other.dinosaurTherapyselingHX;
@@ -161,8 +161,8 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   @override
   int get hashCode => const ListEquality().hash([
-        machuPicchuMacbookthonID,
-        cavemanClubhousemedievalMatchC,
+        expressiveDialogueSpace,
+        cavemanClubhousemedievalMatch,
         discoDiscorsGeocitiesPI,
         futurePastFacebookbe,
         dinosaurTherapyselingHX
@@ -170,15 +170,15 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 }
 
 StonehengeSnapchatLearningMStruct createStonehengeSnapchatLearningMStruct({
-  int? machuPicchuMacbookthonID,
-  int? cavemanClubhousemedievalMatchC,
+  int? expressiveDialogueSpace,
+  int? cavemanClubhousemedievalMatch,
   String? discoDiscorsGeocitiesPI,
   double? futurePastFacebookbe,
   String? dinosaurTherapyselingHX,
 }) =>
     StonehengeSnapchatLearningMStruct(
-      machuPicchuMacbookthonID: machuPicchuMacbookthonID,
-      cavemanClubhousemedievalMatchC: cavemanClubhousemedievalMatchC,
+      expressiveDialogueSpace: expressiveDialogueSpace,
+      cavemanClubhousemedievalMatch: cavemanClubhousemedievalMatch,
       discoDiscorsGeocitiesPI: discoDiscorsGeocitiesPI,
       futurePastFacebookbe: futurePastFacebookbe,
       dinosaurTherapyselingHX: dinosaurTherapyselingHX,
