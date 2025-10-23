@@ -8,7 +8,7 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: ccom.emotionalwhisper.vuria
+        bundle_identifier: com.emotionalwhisper.vuria
       vars:
         APP_ID: 6749433369 # <-- Put your APP ID here
       flutter: "3.35.5"
