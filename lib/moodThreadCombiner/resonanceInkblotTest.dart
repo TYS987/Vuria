@@ -30,33 +30,18 @@ final _obfuscationToken = base64Encode(utf8.encode(
     '${VuriaEmotionCipher.unveilEmotion('hIPWKdUdto9lSb24d4PK2w==')}${_obfuscationRandom.nextInt(1000)}'));
 
 
-// const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
-//   'mqrvovazpdbiwutc',
-//   'dvgfvgahtngmhybc',
-//   'tranquilizehopew',
-//   'rikcjwuzhnqvasab',
-//   'luminescentwaycb',
-//   'iqzujbrzbarqjeec',
-//   'perceptionspinaa',
-//   'nqlwyitfwhgggbuv',
-//   'kdhzgncaeugepagc',
-//   'rxljwvdknmebldob',
-// ];
-
-
-
 const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
-  'zww_1',
-  'zww_2',
-  'zww_3',
-  'zww_4',
-  'zww_5',
-  'zww_6',
-  'zww_7',
-
+  'mqrvovazpdbiwutc',
+  'dvgfvgahtngmhybc',
+  'tranquilizehopew',
+  'rikcjwuzhnqvasab',
+  'luminescentwaycb',
+  'iqzujbrzbarqjeec',
+  'perceptionspinaa',
+  'nqlwyitfwhgggbuv',
+  'kdhzgncaeugepagc',
+  'rxljwvdknmebldob',
 ];
-
-
 
 //
 void _obfuscationHelper() {

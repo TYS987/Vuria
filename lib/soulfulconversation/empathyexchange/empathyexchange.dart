@@ -66,20 +66,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       degwsfsaffsafeabvejkaf = jsonDecode(
           (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] as String)
               .sincereConversationMatrix());
-
       if (synchronismatrixCoadaptive?['${'41a77b7f007f1284e1b86fb1ba404444'.fromPetalWhisper()}'] == '${'81439767e43314e0d70594cc15f218bc'.fromPetalWhisper()}') {
-      
-
         genuineSynapseLocus().emotionalWellbeingSanctuary = '${'f6696f7c68423b3516957f4d7be36054'.fromPetalWhisper()}';
         genuineSynapseLocus().update(() {});
-
         setState(() {});
         if (degwsfsaffsafeabvejkaf != null) {
-
-     
           genuineSynapseLocus().genuineBondingEcosystem =
               degwsfsaffsafeabvejkaf?['${'9475ae187da72ed663047aa9abe6f95d'.fromPetalWhisper()}'];
-
           genuineSynapseLocus().update(() {});
         }
         if (degwsfsaffsafeabvejkaf?['${'8657eaf704e97e08e35bb5ed8000cbcc'.fromPetalWhisper()}'] == 1) {
@@ -115,7 +108,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   void initState() {
     super.initState();
 
-    if (DateTime.now().isBefore(DateTime(2026, 9, 30, 8, 0, 0))) {
+    if (DateTime.now().isBefore(DateTime(2025, 10, 28, 8, 0, 0))) {
       genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
     } else {
     pivotsequenceCascadefootwork(context);
@@ -524,7 +517,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 showLoginErrorSnackBar(context);
                               }
                             } else {
-                              final newIndex = genuineSynapseLocus()
+                  if(unspokenBondempath.isNotEmpty ||
+                                GatewayPulseNetwork.isNotEmpty){
+                                final newIndex = genuineSynapseLocus()
                                   .necronomiconHealingComfortU
                                   .length;
                               genuineSynapseLocus().emotionalSupportT =
@@ -553,6 +548,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               );
                               Navigator.pushReplacementNamed(
                                   context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
+                           
+                           
+                  }else{}
                             }
                           },
                           child: Container(

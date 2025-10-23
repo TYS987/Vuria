@@ -106,6 +106,7 @@ class _InterstellarSolaceTearsWidgetState
                           padding: EdgeInsets.zero,
                           shrinkWrap: true,
                           scrollDirection: Axis.vertical,
+                          
                           children: [
                             InkWell(
                               onTap: () async {
@@ -163,61 +164,64 @@ class _InterstellarSolaceTearsWidgetState
                                 ),
                               ),
                             ),
-                            Builder(
-                              builder: (context) => InkWell(
-                                onTap: () async {
-                                  await showDialog(
-                                    context: context,
-                                    builder: (dialogContext) {
-                                      return Dialog(
-                                        elevation: 0,
-                                        backgroundColor: Colors.transparent,
-                                        child: DigitalTwinnftEmotionWidget(),
-                                      );
-                                    },
-                                  );
-                                },
-                                child: Container(
-                                  width: 335.0,
-                                  height: 50.0,
-                                  decoration: BoxDecoration(
-                                    color: Color(0xFFFFFFFF),
-                                    borderRadius: BorderRadius.circular(50.0),
-                                    border: Border.all(
-                                      color: Color(0xFFFF6206),
-                                      width: 2.0,
+                            Padding(
+                              padding: const EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                              child: Builder(
+                                builder: (context) => InkWell(
+                                  onTap: () async {
+                                    await showDialog(
+                                      context: context,
+                                      builder: (dialogContext) {
+                                        return Dialog(
+                                          elevation: 0,
+                                          backgroundColor: Colors.transparent,
+                                          child: DigitalTwinnftEmotionWidget(),
+                                        );
+                                      },
+                                    );
+                                  },
+                                  child: Container(
+                                    width: 335.0,
+                                    height: 50.0,
+                                    decoration: BoxDecoration(
+                                      color: Color(0xFFFFFFFF),
+                                      borderRadius: BorderRadius.circular(50.0),
+                                      border: Border.all(
+                                        color: Color(0xFFFF6206),
+                                        width: 2.0,
+                                      ),
                                     ),
-                                  ),
-                                  child: Padding(
-                                    padding: EdgeInsetsDirectional.fromSTEB(
-                                        24.0, 0.0, 20.0, 0.0),
-                                    child: Row(
-                                      mainAxisSize: MainAxisSize.max,
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceBetween,
-                                      children: [
-                                        Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('pofRKf5zncUNIdnGEvzD0g==')}',
-                                          style: TextStyle(
-                                            color: Colors.black,
-                                            fontSize: 16.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w500,
+                                    child: Padding(
+                                      padding: EdgeInsetsDirectional.fromSTEB(
+                                          24.0, 0.0, 20.0, 0.0),
+                                      child: Row(
+                                        mainAxisSize: MainAxisSize.max,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.spaceBetween,
+                                        children: [
+                                          Text(
+                                            '${VuriaEmotionCipher.unveilEmotion('pofRKf5zncUNIdnGEvzD0g==')}',
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                              fontSize: 16.0,
+                                              letterSpacing: 0.0,
+                                              fontWeight: FontWeight.w500,
+                                            ),
                                           ),
-                                        ),
-                                        Container(
-                                          width: 16.0,
-                                          height: 16.0,
-                                          decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: AssetImage(
-                                                'assets/images/wormholeForgiveness.png',
+                                          Container(
+                                            width: 16.0,
+                                            height: 16.0,
+                                            decoration: BoxDecoration(
+                                              image: DecorationImage(
+                                                fit: BoxFit.cover,
+                                                image: AssetImage(
+                                                  'assets/images/wormholeForgiveness.png',
+                                                ),
                                               ),
                                             ),
                                           ),
-                                        ),
-                                      ],
+                                        ],
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -279,58 +283,61 @@ class _InterstellarSolaceTearsWidgetState
                                 ),
                               ),
                             ),
-                            InkWell(
-                              onTap: () async {
-                                Navigator.pushNamed(
-                                  context,
-                                  '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
-                                  arguments: {
-                                    '${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}':
-                                        1
-                                  },
-                                );
-                              },
-                              child: Container(
-                                width: 335.0,
-                                height: 50.0,
-                                decoration: BoxDecoration(
-                                  color: Color(0xFFFFFFFF),
-                                  borderRadius: BorderRadius.circular(50.0),
-                                  border: Border.all(
-                                    color: Color(0xFFFF6206),
-                                    width: 2.0,
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
+                              child: InkWell(
+                                onTap: () async {
+                                  Navigator.pushNamed(
+                                    context,
+                                    '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
+                                    arguments: {
+                                      '${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}':
+                                          1
+                                    },
+                                  );
+                                },
+                                child: Container(
+                                  width: 335.0,
+                                  height: 50.0,
+                                  decoration: BoxDecoration(
+                                    color: Color(0xFFFFFFFF),
+                                    borderRadius: BorderRadius.circular(50.0),
+                                    border: Border.all(
+                                      color: Color(0xFFFF6206),
+                                      width: 2.0,
+                                    ),
                                   ),
-                                ),
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      24.0, 0.0, 20.0, 0.0),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text(
-                                        '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitZAGJYSc0fMcpoEqqsSvF58=')}',
-                                        style: TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        24.0, 0.0, 20.0, 0.0),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitZAGJYSc0fMcpoEqqsSvF58=')}',
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 16.0,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                          ),
                                         ),
-                                      ),
-                                      Container(
-                                        width: 16.0,
-                                        height: 16.0,
-                                        decoration: BoxDecoration(
-                                          image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                            image: AssetImage(
-                                              'assets/images/wormholeForgiveness.png',
+                                        Container(
+                                          width: 16.0,
+                                          height: 16.0,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              fit: BoxFit.cover,
+                                              image: AssetImage(
+                                                'assets/images/wormholeForgiveness.png',
+                                              ),
                                             ),
                                           ),
                                         ),
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
@@ -385,79 +392,84 @@ class _InterstellarSolaceTearsWidgetState
                                 ),
                               ),
                             ),
-                            Container(
-                              width: 335.0,
-                              height: 50.0,
-                              decoration: BoxDecoration(
-                                color: Color(0xFFFFFFFF),
-                                borderRadius: BorderRadius.circular(50.0),
-                                border: Border.all(
-                                  color: Color(0xFFFF6206),
-                                  width: 2.0,
+                            Padding(
+                              padding: const EdgeInsets.fromLTRB(0, 10, 0, 10),
+                              child: Container(
+                                width: 335.0,
+                                height: 50.0,
+                                decoration: BoxDecoration(
+                                  color: Color(0xFFFFFFFF),
+                                  borderRadius: BorderRadius.circular(50.0),
+                                  border: Border.all(
+                                    color: Color(0xFFFF6206),
+                                    width: 2.0,
+                                  ),
                                 ),
-                              ),
-                              child: InkWell(
-                                onTap: () async {
-                                  await emotionWhisperInterface(
-                                    message:
-                                        '${VuriaEmotionCipher.unveilEmotion('torYbOl33uwLYt/AXOqkue5xFffgpIJ+0/UUmoTTYu4ofISFHIhYhYeIfflzV3yB0D9dW0+atwmqNJFg0BjXCQ==')}',
-                                    icon: Icons.hourglass_top,
-                                    duration: Duration(seconds: 3),
-                                  );
-                                  resonanceMatchingSystem =
-                                      '${VuriaEmotionCipher.unveilEmotion('0sLwQYcbsIljT7u+cYXM3Q==')}';
-                                  setState(() {});
-                                },
-                                child: Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      24.0, 0.0, 20.0, 0.0),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment:
-                                        MainAxisAlignment.spaceBetween,
-                                    children: [
-                                      Text(
-                                        '${VuriaEmotionCipher.unveilEmotion('oY7YLfg2/uUNKtO2eY3E1Q==')}',
-                                        style: TextStyle(
-                                          color: Colors.black,
-                                          fontSize: 16.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.w500,
-                                        ),
-                                      ),
-                                      Row(
-                                        mainAxisSize: MainAxisSize.max,
-                                        children: [
-                                          Padding(
-                                            padding:
-                                                EdgeInsetsDirectional.fromSTEB(
-                                                    0.0, 0.0, 10.0, 0.0),
-                                            child: Text(resonanceMatchingSystem,
-                                                style: TextStyle(
-                                                  color: Color(0x65000000),
-                                                  letterSpacing: 0.0,
-                                                  fontWeight: FontWeight.w500,
-                                                )),
+                                child: InkWell(
+                                  onTap: () async {
+                                    await emotionWhisperInterface(
+                                      message:
+                                          '${VuriaEmotionCipher.unveilEmotion('torYbOl33uwLYt/AXOqkue5xFffgpIJ+0/UUmoTTYu4ofISFHIhYhYeIfflzV3yB0D9dW0+atwmqNJFg0BjXCQ==')}',
+                                      icon: Icons.hourglass_top,
+                                      duration: Duration(seconds: 3),
+                                    );
+                                    resonanceMatchingSystem =
+                                        '${VuriaEmotionCipher.unveilEmotion('0sLwQYcbsIljT7u+cYXM3Q==')}';
+                                    setState(() {});
+                                  },
+                                  child: Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        24.0, 0.0, 20.0, 0.0),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.spaceBetween,
+                                      children: [
+                                        Text(
+                                          '${VuriaEmotionCipher.unveilEmotion('oY7YLfg2/uUNKtO2eY3E1Q==')}',
+                                          style: TextStyle(
+                                            color: Colors.black,
+                                            fontSize: 16.0,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
                                           ),
-                                          Container(
-                                            width: 16.0,
-                                            height: 16.0,
-                                            decoration: BoxDecoration(
-                                              image: DecorationImage(
-                                                fit: BoxFit.cover,
-                                                image: AssetImage(
-                                                  'assets/images/wormholeForgiveness.png',
+                                        ),
+                                        Row(
+                                          mainAxisSize: MainAxisSize.max,
+                                          children: [
+                                            Padding(
+                                              padding:
+                                                  EdgeInsetsDirectional.fromSTEB(
+                                                      0.0, 0.0, 10.0, 0.0),
+                                              child: Text(resonanceMatchingSystem,
+                                                  style: TextStyle(
+                                                    color: Color(0x65000000),
+                                                    letterSpacing: 0.0,
+                                                    fontWeight: FontWeight.w500,
+                                                  )),
+                                            ),
+                                            Container(
+                                              width: 16.0,
+                                              height: 16.0,
+                                              decoration: BoxDecoration(
+                                                image: DecorationImage(
+                                                  fit: BoxFit.cover,
+                                                  image: AssetImage(
+                                                    'assets/images/wormholeForgiveness.png',
+                                                  ),
                                                 ),
                                               ),
                                             ),
-                                          ),
-                                        ],
-                                      ),
-                                    ],
+                                          ],
+                                        ),
+                                      ],
+                                    ),
                                   ),
                                 ),
                               ),
                             ),
+                        
+                        
                           ]
                         ),
                 
