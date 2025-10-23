@@ -120,7 +120,7 @@ class _FifthDimensionalLoveWidgetState
                               fontWeight: FontWeight.bold),
                         ),
                         Text(
-                          'Version 1.1.0',
+                          'Version 1.2.0',
                           style: TextStyle(
                             fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                             color: Color(0xCD000000),
