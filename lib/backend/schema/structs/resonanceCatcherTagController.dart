@@ -23,7 +23,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
         _butterflyEffectConfideHX = butterflyEffectConfideHX,
         _heartfeltInteractionCorner = heartfeltInteractionCorner;
 
-  // "empatheticVoiceCorner" field.
   int? _empatheticVoiceCorner;
   int get empatheticVoiceCorner => _empatheticVoiceCorner ?? 0;
   set empatheticVoiceCorner(int? val) => _empatheticVoiceCorner = val;
@@ -33,7 +32,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasempatheticVoiceCorner() => _empatheticVoiceCorner != null;
 
-  // "friendshipResonanceSpot" field.
   int? _friendshipResonanceSpot;
   int get friendshipResonanceSpot => _friendshipResonanceSpot ?? 0;
   set friendshipResonanceSpot(int? val) =>
@@ -44,7 +42,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasfriendshipResonanceSpot() => _friendshipResonanceSpot != null;
 
-  // "genuineSharingCorner" field.
   int? _genuineSharingCorner;
   int get genuineSharingCorner => _genuineSharingCorner ?? 0;
   set genuineSharingCorner(int? val) =>
@@ -55,7 +52,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasgenuineSharingCorner() => _genuineSharingCorner != null;
 
-  // "brinePoolSolacenSongTearsI" field.
   List<String>? _brinePoolSolacenSongTearsI;
   List<String> get brinePoolSolacenSongTearsI =>
       _brinePoolSolacenSongTearsI ?? const [];
@@ -68,14 +64,12 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasBrinePoolSolacenSongTearsI() => _brinePoolSolacenSongTearsI != null;
 
-  // "expressiveFriendshipSpace" field.
   String? _expressiveFriendshipSpace;
   String get expressiveFriendshipSpace => _expressiveFriendshipSpace ?? '';
   set expressiveFriendshipSpace(String? val) => _expressiveFriendshipSpace = val;
 
   bool hasexpressiveFriendshipSpace() => _expressiveFriendshipSpace != null;
 
-  // "timeMachineComfortLo" field.
   List<int>? _timeMachineComfortLo;
   List<int> get timeMachineComfortLo => _timeMachineComfortLo ?? const [];
   set timeMachineComfortLo(List<int>? val) => _timeMachineComfortLo = val;
@@ -86,7 +80,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasTimeMachineComfortLo() => _timeMachineComfortLo != null;
 
-  // "butterflyEffectConfideHX" field.
   List<String>? _butterflyEffectConfideHX;
   List<String> get butterflyEffectConfideHX =>
       _butterflyEffectConfideHX ?? const [];
@@ -99,7 +92,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasButterflyEffectConfideHX() => _butterflyEffectConfideHX != null;
 
-  // "heartfeltInteractionCorner" field.
   DateTime? _heartfeltInteractionCorner;
   DateTime? get heartfeltInteractionCorner => _heartfeltInteractionCorner;
   set heartfeltInteractionCorner(DateTime? val) =>
@@ -107,7 +99,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   bool hasheartfeltInteractionCorner() => _heartfeltInteractionCorner != null;
 
-  // 类型转换辅助方法
   static int? _castToInt(dynamic value) {
     if (value == null) return null;
     if (value is int) return value;
@@ -143,7 +134,6 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
     return null;
   }
 
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

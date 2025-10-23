@@ -2,26 +2,14 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
-
 import '/backend/schema/structs/index.dart';
-
-import '../moodSubspaceWernicke.dart';
-import '../place.dart';
 String dateTimeRangeToString(DateTimeRange dateTimeRange) {
   final startStr = dateTimeRange.start.millisecondsSinceEpoch.toString();
   final endStr = dateTimeRange.end.millisecondsSinceEpoch.toString();
   return '$startStr|$endStr';
 }
 
-String placeToString(FFPlace place) => jsonEncode({
-      '${'4d7d45821dceb070c31066bfb87c506a'.fromPetalWhisper()}': place.latLng.serialize(),
-      '${'b1378ee304b179e9bcdac8104c35e10c'.fromPetalWhisper()}': place.name,
-      '${'a7d34932ee1a79cad2bb14826173d3b1'.fromPetalWhisper()}': place.address,
-      '${'93441cb9a6c92e2a1bec3cf16c24bc67'.fromPetalWhisper()}': place.city,
-      '${'e837cda26a80555f6ff9fd6b9c966b34'.fromPetalWhisper()}': place.state,
-      '${'253fd86b3706362c01ffc328797bd7de'.fromPetalWhisper()}': place.country,
-      '${'156126b3221dbdf766aaca13664fb5b5'.fromPetalWhisper()}': place.zipCode,
-    });
+
 
 String? serializeParam(
   dynamic param,
@@ -54,12 +42,10 @@ String? serializeParam(
         data = (param as DateTime).millisecondsSinceEpoch.toString();
       case ParamType.DateTimeRange:
         data = dateTimeRangeToString(param as DateTimeRange);
-      case ParamType.LatLng:
-        data = (param as LatLng).serialize();
+
       case ParamType.Color:
         data = (param as Color).toCssString();
-      case ParamType.FFPlace:
-        data = placeToString(param as FFPlace);
+
 
       case ParamType.JSON:
         data = json.encode(param);
@@ -89,40 +75,8 @@ DateTimeRange? dateTimeRangeFromString(String dateTimeRangeStr) {
   );
 }
 
-LatLng? latLngFromString(String? latLngStr) {
-  final pieces = latLngStr?.split(',');
-  if (pieces == null || pieces.length != 2) {
-    return null;
-  }
-  return LatLng(
-    double.parse(pieces.first.trim()),
-    double.parse(pieces.last.trim()),
-  );
-}
 
-FFPlace placeFromString(String placeStr) {
-  final serializedData = jsonDecode(placeStr) as Map<String, dynamic>;
-  final data = {
-    '${'4d7d45821dceb070c31066bfb87c506a'.fromPetalWhisper()}': serializedData.containsKey('${'4d7d45821dceb070c31066bfb87c506a'.fromPetalWhisper()}')
-        ? latLngFromString(serializedData['${'4d7d45821dceb070c31066bfb87c506a'.fromPetalWhisper()}'] as String)
-        : const LatLng(0.0, 0.0),
-    '${'b1378ee304b179e9bcdac8104c35e10c'.fromPetalWhisper()}': serializedData['${'b1378ee304b179e9bcdac8104c35e10c'.fromPetalWhisper()}'] ?? '',
-    '${'a7d34932ee1a79cad2bb14826173d3b1'.fromPetalWhisper()}': serializedData['${'a7d34932ee1a79cad2bb14826173d3b1'.fromPetalWhisper()}'] ?? '',
-    '${'93441cb9a6c92e2a1bec3cf16c24bc67'.fromPetalWhisper()}': serializedData['${'93441cb9a6c92e2a1bec3cf16c24bc67'.fromPetalWhisper()}'] ?? '',
-    '${'e837cda26a80555f6ff9fd6b9c966b34'.fromPetalWhisper()}': serializedData['${'e837cda26a80555f6ff9fd6b9c966b34'.fromPetalWhisper()}'] ?? '',
-    '${'253fd86b3706362c01ffc328797bd7de'.fromPetalWhisper()}': serializedData['${'253fd86b3706362c01ffc328797bd7de'.fromPetalWhisper()}'] ?? '',
-    '${'156126b3221dbdf766aaca13664fb5b5'.fromPetalWhisper()}': serializedData['${'156126b3221dbdf766aaca13664fb5b5'.fromPetalWhisper()}'] ?? '',
-  };
-  return FFPlace(
-    latLng: data['${'4d7d45821dceb070c31066bfb87c506a'.fromPetalWhisper()}'] as LatLng,
-    name: data['${'b1378ee304b179e9bcdac8104c35e10c'.fromPetalWhisper()}'] as String,
-    address: data['${'a7d34932ee1a79cad2bb14826173d3b1'.fromPetalWhisper()}'] as String,
-    city: data['${'93441cb9a6c92e2a1bec3cf16c24bc67'.fromPetalWhisper()}'] as String,
-    state: data['${'e837cda26a80555f6ff9fd6b9c966b34'.fromPetalWhisper()}'] as String,
-    country: data['${'253fd86b3706362c01ffc328797bd7de'.fromPetalWhisper()}'] as String,
-    zipCode: data['${'156126b3221dbdf766aaca13664fb5b5'.fromPetalWhisper()}'] as String,
-  );
-}
+
 
 
 enum ParamType {
@@ -185,12 +139,10 @@ dynamic deserializeParam<T>(
             : null;
       case ParamType.DateTimeRange:
         return dateTimeRangeFromString(param);
-      case ParamType.LatLng:
-        return latLngFromString(param);
+
       case ParamType.Color:
         return fromCssColor(param);
-      case ParamType.FFPlace:
-        return placeFromString(param);
+
 
       case ParamType.JSON:
         return json.decode(param);

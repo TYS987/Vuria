@@ -128,7 +128,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   bool hasLoveNmbers() => _loveNmbers != null;
 
-  // 类型转换辅助方法
   static double? _castToDouble(dynamic value) {
     if (value == null) return null;
     if (value is double) return value;
@@ -174,7 +173,6 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
     return null;
   }
 
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

@@ -239,17 +239,19 @@ class _WatercolorEmotionsAiWidgetState
                                             child: Padding(
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(10, 10, 10, 10),
-                                    child: Text(
-  wildWestWhatsappnselingItem.vuriaFriendshipSpace ,
-  style: TextStyle(
-    fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
-    color: Color(0xFF323232),
-    fontSize: 16,
-    letterSpacing: 0.0,
-    fontWeight: FontWeight.w500,
-    height: 1.3,
-  ),
-),
+                                              child: Text(
+                                                wildWestWhatsappnselingItem
+                                                    .vuriaFriendshipSpace,
+                                                style: TextStyle(
+                                                  fontFamily:
+                                                      '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                  color: Color(0xFF323232),
+                                                  fontSize: 16,
+                                                  letterSpacing: 0.0,
+                                                  fontWeight: FontWeight.w500,
+                                                  height: 1.3,
+                                                ),
+                                              ),
                                             ),
                                           ),
                                         ),
@@ -285,13 +287,11 @@ class _WatercolorEmotionsAiWidgetState
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(10, 10, 10, 10),
                                               child: Text(
-                                             
-                                                  wildWestWhatsappnselingItem
-                                                      .vuriaFriendshipSpace,
-                                                  
-                                        
+                                                wildWestWhatsappnselingItem
+                                                    .vuriaFriendshipSpace,
                                                 style: TextStyle(
-                                                  fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                  fontFamily:
+                                                      '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                                                   color: Color(0xFF323232),
                                                   fontSize: 16,
                                                   letterSpacing: 0.0,
@@ -363,15 +363,14 @@ class _WatercolorEmotionsAiWidgetState
                                 labelStyle: TextStyle(
                                   letterSpacing: 0.0,
                                 ),
-                                hintText: '${'c3e2e9ebcbaef88bd84460a1b6e13bbb328ade54a458451cf6ca66de6e877909'.fromPetalWhisper()}',
+                                hintText:
+                                    '${'c3e2e9ebcbaef88bd84460a1b6e13bbb328ade54a458451cf6ca66de6e877909'.fromPetalWhisper()}',
                                 hintStyle: TextStyle(
-                                      
-                                      color: Color(0x663F3F3F),
-                                      fontSize: 14.7,
-                                      letterSpacing: 0.0,
-                                      fontWeight: FontWeight.w500,
-                                  
-                                    ),
+                                  color: Color(0x663F3F3F),
+                                  fontSize: 14.7,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.w500,
+                                ),
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
                                     color: Color(0x00000000),
@@ -388,16 +387,14 @@ class _WatercolorEmotionsAiWidgetState
                                 ),
                                 errorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color:
-                                        Colors.red,
+                                    color: Colors.red,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(8),
                                 ),
                                 focusedErrorBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
-                                    color:
-                                       Colors.red,
+                                    color: Colors.red,
                                     width: 1,
                                   ),
                                   borderRadius: BorderRadius.circular(8),
@@ -406,13 +403,9 @@ class _WatercolorEmotionsAiWidgetState
                                 fillColor: Colors.transparent,
                               ),
                               style: TextStyle(
-                                  
-                                    letterSpacing: 0.0,
-                              
-                                  ),
-                              cursorColor:
-                                  Colors.black,
-                     
+                                letterSpacing: 0.0,
+                              ),
+                              cursorColor: Colors.black,
                             ),
                           ),
                         ),

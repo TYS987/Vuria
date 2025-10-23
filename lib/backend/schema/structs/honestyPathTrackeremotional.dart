@@ -17,7 +17,6 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
         _authenticStoryBoard = authenticStoryBoard,
         _emotionalInsightDashboardHX = emotionalInsightDashboardHX;
 
-  // "heartfulFriendshipLounge" field.
   int? _heartfulFriendshipLounge;
   int get heartfulFriendshipLounge => _heartfulFriendshipLounge ?? 0;
   set heartfulFriendshipLounge(int? val) =>
@@ -28,7 +27,6 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
 
   bool hasheartfulFriendshipLounge() => _heartfulFriendshipLounge != null;
 
-  // "friendshipBondingPortal" field.
   int? _friendshipBondingPortal;
   int get friendshipBondingPortal => _friendshipBondingPortal ?? 0;
   set friendshipBondingPortal(int? val) => _friendshipBondingPortal = val;
@@ -38,21 +36,18 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
 
   bool hasfriendshipBondingPortal() => _friendshipBondingPortal != null;
 
-  // "sentimentInteractionCircle" field.
   String? _sentimentInteractionCircle;
   String get sentimentInteractionCircle => _sentimentInteractionCircle ?? '';
   set sentimentInteractionCircle(String? val) => _sentimentInteractionCircle = val;
 
   bool hassentimentInteractionCircle() => _sentimentInteractionCircle != null;
 
-  // "authenticStoryBoard" field.
   DateTime? _authenticStoryBoard;
   DateTime? get authenticStoryBoard => _authenticStoryBoard;
   set authenticStoryBoard(DateTime? val) => _authenticStoryBoard = val;
 
   bool hasauthenticStoryBoard() => _authenticStoryBoard != null;
 
-  // "emotionalInsightDashboardHX" field.
   String? _emotionalInsightDashboardHX;
   String get emotionalInsightDashboardHX => _emotionalInsightDashboardHX ?? '';
   set emotionalInsightDashboardHX(String? val) =>
@@ -60,7 +55,7 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
 
   bool hasEmotionalInsightDashboardHX() => _emotionalInsightDashboardHX != null;
 
-  // 类型转换辅助方法
+
   static int? _castToInt(dynamic value) {
     if (value == null) return null;
     if (value is int) return value;
@@ -83,7 +78,6 @@ class SerenityHarmonySpaceWORDStruct extends BaseStruct {
     return null;
   }
 
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

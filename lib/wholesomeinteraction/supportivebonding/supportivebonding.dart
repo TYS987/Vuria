@@ -1,3 +1,4 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:flutter/material.dart';
@@ -51,7 +52,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
               child: Text(
                 '${VuriaEmotionCipher.unveilEmotion('p7fxDYYasYhiTrq/cITN3A==')}',
                 style: TextStyle(
-                      fontFamily: 'AVENIR',
+                      fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                       color: Colors.black,
                       fontSize: 24.0,
                       letterSpacing: 0.0,
@@ -64,7 +65,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
               child: Text(
                 'Welcome to Potie! To make a better place,the following content is not allowed in the app in particular.\n1.Any content about child harm,pornography related detrimental to children.\n2. Fake and harmful messages about recent or current events.\n3. Any violence,bullying content, publicly promotes pornography and other content.\n\nIf we find any content including and not limited to the above violations your content will be deleted and account will be banned.By clicking the above button,you agreeto the Terms of Use and Privacy Policy',
                 style: TextStyle(
-                      fontFamily: 'AVENIR',
+                      fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                       fontSize: 16.0,
                       letterSpacing: 0.0,
                       fontWeight: FontWeight.w500,
@@ -87,8 +88,8 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     onTap: () async {
                       Navigator.pushNamed(
                         context,
-                        '/sentimentAligned',
-                        arguments: {'moodStoryCanvas': 1},
+                        '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
+                        arguments: {'${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}': 1},
                       );
                     },
                     child: Text(
@@ -113,8 +114,8 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     onTap: () async {
                       Navigator.pushNamed(
                         context,
-                        '/sentimentAligned',
-                        arguments: {'moodStoryCanvas': 0},
+                        '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
+                        arguments: {'${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}': 0},
                       );
                     },
                     child: Text(
@@ -159,7 +160,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('oYPTL+Zzt45kSLy5doLL2g==')}',
                         style: TextStyle(
-                              fontFamily: 'AVENIR',
+                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                               color: Color(0xFFFF7A19),
                               fontSize: 16.0,
                               letterSpacing: 0.0,
@@ -184,7 +185,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       child: Text(
                         '${VuriaEmotionCipher.unveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}',
                         style: TextStyle(
-                              fontFamily: 'AVENIR',
+                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
                               color: Colors.white,
                               fontSize: 16.0,
                               letterSpacing: 0.0,

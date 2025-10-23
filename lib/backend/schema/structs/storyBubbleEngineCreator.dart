@@ -73,7 +73,6 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
 
   bool hasvuriaFriendshipSpace() => _vuriaFriendshipSpace != null;
 
-  // 类型转换辅助方法
   static int? _castToInt(dynamic value) {
     if (value == null) return null;
     if (value is int) return value;
@@ -108,8 +107,6 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
     }
     return null;
   }
-
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

@@ -16,7 +16,7 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
         _futurePastFacebookbe = futurePastFacebookbe,
         _dinosaurTherapyselingHX = dinosaurTherapyselingHX;
 
-  // "expressiveDialogueSpace" field.
+
   int? _expressiveDialogueSpace;
   int get expressiveDialogueSpace => _expressiveDialogueSpace ?? 0;
   set expressiveDialogueSpace(int? val) => _expressiveDialogueSpace = val;
@@ -25,8 +25,6 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
       expressiveDialogueSpace = expressiveDialogueSpace + amount;
 
   bool hasexpressiveDialogueSpace() => _expressiveDialogueSpace != null;
-
-  // "cavemanClubhousemedievalMatch" field.
   int? _cavemanClubhousemedievalMatch;
   int get cavemanClubhousemedievalMatch =>
       _cavemanClubhousemedievalMatch ?? 0;
@@ -39,14 +37,12 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
   bool hascavemanClubhousemedievalMatch() =>
       _cavemanClubhousemedievalMatch != null;
 
-  // "discoDiscorsGeocitiesPI" field.
   String? _discoDiscorsGeocitiesPI;
   String get discoDiscorsGeocitiesPI => _discoDiscorsGeocitiesPI ?? '';
   set discoDiscorsGeocitiesPI(String? val) => _discoDiscorsGeocitiesPI = val;
 
   bool hasDiscoDiscorsGeocitiesPI() => _discoDiscorsGeocitiesPI != null;
 
-  // "futurePastFacebookbe" field.
   double? _futurePastFacebookbe;
   double get futurePastFacebookbe => _futurePastFacebookbe ?? 0.0;
   set futurePastFacebookbe(double? val) => _futurePastFacebookbe = val;
@@ -56,14 +52,12 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   bool hasFuturePastFacebookbe() => _futurePastFacebookbe != null;
 
-  // "dinosaurTherapyselingHX" field.
   String? _dinosaurTherapyselingHX;
   String get dinosaurTherapyselingHX => _dinosaurTherapyselingHX ?? '';
   set dinosaurTherapyselingHX(String? val) => _dinosaurTherapyselingHX = val;
 
   bool hasDinosaurTherapyselingHX() => _dinosaurTherapyselingHX != null;
 
-  // 类型转换辅助方法
   static int? _castToInt(dynamic value) {
     if (value == null) return null;
     if (value is int) return value;
@@ -85,8 +79,6 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
     if (value is String) return value;
     return value.toString();
   }
-
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

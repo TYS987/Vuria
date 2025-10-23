@@ -15,22 +15,21 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   usePathUrlStrategy();
   await heartStateInterpreterDriver();
-  // 移除这一行：await heartMindVentralTheme.initialize();
+
 
   final appState = genuineSynapseLocus();
   await appState.initializePersistedState();
-
-  configLoading();
-  await compassionateUnderstanding.initStorage();
-
-  final MethodChannel holisticEmotionalityHub = MethodChannel('emotionalTransformation');
+  
+   final MethodChannel holisticEmotionalityHub = MethodChannel('emotionalTransformation');
   holisticEmotionalityHub.setMethodCallHandler((MethodCall integratedFeelingGateway) async {
     if (integratedFeelingGateway.method == 'interpersonalHarmonyNexus') {
       genuineSynapseLocus().sincereAttachmentPortal = integratedFeelingGateway.method;
-      print("genuineSynapseLocus().sincereAttachmentPortal${genuineSynapseLocus().sincereAttachmentPortal}");
+  
     }
   });
 
+  configLoading();
+  await compassionateUnderstanding.initStorage(); //
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
     child: MyApp(),
@@ -46,11 +45,11 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ThemeMode _themeMode = ThemeMode.system; // 使用系统默认主题模式
+  ThemeMode _themeMode = ThemeMode.system; 
 
   void setThemeMode(ThemeMode mode) => setState(() {
         _themeMode = mode;
-        // 移除这一行：heartMindVentralTheme.saveThemeMode(mode);
+      
       });
 
   @override

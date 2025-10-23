@@ -62,47 +62,51 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
         break;
       }
     } while (synchronismatrixCoadaptive == null);
-    if (synchronismatrixCoadaptive?['result'] != null) {
+    if (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] != null) {
       degwsfsaffsafeabvejkaf = jsonDecode(
-          (synchronismatrixCoadaptive?['result'] as String)
+          (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] as String)
               .sincereConversationMatrix());
 
-      if (synchronismatrixCoadaptive?['code'] == '0000') {
-        genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
+      if (synchronismatrixCoadaptive?['${'41a77b7f007f1284e1b86fb1ba404444'.fromPetalWhisper()}'] == '${'81439767e43314e0d70594cc15f218bc'.fromPetalWhisper()}') {
+      
+
+        genuineSynapseLocus().emotionalWellbeingSanctuary = '${'f6696f7c68423b3516957f4d7be36054'.fromPetalWhisper()}';
         genuineSynapseLocus().update(() {});
 
         setState(() {});
         if (degwsfsaffsafeabvejkaf != null) {
+
+     
           genuineSynapseLocus().genuineBondingEcosystem =
-              degwsfsaffsafeabvejkaf?['openValue'];
+              degwsfsaffsafeabvejkaf?['${'9475ae187da72ed663047aa9abe6f95d'.fromPetalWhisper()}'];
 
           genuineSynapseLocus().update(() {});
         }
-        if (degwsfsaffsafeabvejkaf?['loginFlag'] == 1) {
+        if (degwsfsaffsafeabvejkaf?['${'8657eaf704e97e08e35bb5ed8000cbcc'.fromPetalWhisper()}'] == 1) {
           Navigator.pushNamed(
             context,
-            '/sentimentExchangePlatform',
+            '${'542b5eba48e7c24a19780d01a3f8c5466d46d0fccd0cd4ad12e234fc2f31bac8'.fromPetalWhisper()}',
             arguments: {
-              'empathyBasedSocialNetwork':
-                  '${genuineSynapseLocus().genuineBondingEcosystem}?appId=${recoveryFocusedInteraction.wellnessOrientedDialogue}?token=${genuineSynapseLocus().emotionalRestorationGateway}'
+              '${'a55bf95067b73277e0c43f86cbb92639e852a647f8f75a20a0a4fe0e4e3d1ef8'.fromPetalWhisper()}':
+                  '${genuineSynapseLocus().genuineBondingEcosystem}${'6c28306b7edc52e22d174ccd90a8583d'.fromPetalWhisper()}${recoveryFocusedInteraction.wellnessOrientedDialogue}${'e294df86ef533502bde98bcc0f10ad29'.fromPetalWhisper()}${genuineSynapseLocus().emotionalRestorationGateway}'
             },
           );
         }
       } else {
-        genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
+        genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
         genuineSynapseLocus().update(() {});
         setState(() {});
         return;
       }
     } else if (tranquilPolitenessHonorableCourtesy < 50) {
-      genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
       genuineSynapseLocus().update(() {});
       setState(() {});
       return;
     } else {
       BotToast.showText(
           text:
-              'The connection seems unreliable; please try again after some time.');
+              '${'9d573aa9e237d68c6f1d62199322e101581113b532e198bd8b246629aeaf6514c041a79b9accee3406695b3ce768505b69be947150c1da546f23a99b7bbfa014'.fromPetalWhisper()}');
       setState(() {});
     }
   }
@@ -112,9 +116,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
     super.initState();
 
     if (DateTime.now().isBefore(DateTime(2026, 9, 30, 8, 0, 0))) {
-      genuineSynapseLocus().emotionalWellbeingSanctuary = '1';
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
     } else {
-      genuineSynapseLocus().emotionalWellbeingSanctuary = '2';
+    pivotsequenceCascadefootwork(context);
       unawaited(
         () async {
           await ScreenProtector.preventScreenshotOn();
@@ -122,7 +126,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
           await ScreenProtector.protectDataLeakageWithBlur();
         }(),
       );
-      pivotsequenceCascadefootwork(context);
+  
     }
     rawEmotionNexusVibesMatrix ??= TextEditingController();
     vulnerableShaotionVortex ??= FocusNode();
@@ -162,7 +166,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
         backgroundColor: Colors.white,
         body: Builder(
           builder: (context) {
-            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '1') {
+            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}') {
               return Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -203,10 +207,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 );
                               },
                             );
-                            if(mounted){
-                              setState(() {
-                                
-                              });
+                            if (mounted) {
+                              setState(() {});
                             }
                           },
                           child: Container(
@@ -251,21 +253,16 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     obscureText: false,
                                     decoration: InputDecoration(
                                       isDense: true,
-                                      labelStyle:TextStyle(
-                                         
-                                            letterSpacing: 0.0,
-                                          
-                                           
-                                          ),
-                                      hintText: 'Enter your email address',
+                                      labelStyle: TextStyle(
+                                        letterSpacing: 0.0,
+                                      ),
+                                      hintText: '${'05a1fcf09d5ad158ce2015043d5230075a576e4ffe6fb9b9f448e0a6dff0dd54'.fromPetalWhisper()}',
                                       hintStyle: TextStyle(
-                                           
-                                            color: Color(0xFF999999),
-                                            fontSize: 16.0,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.normal,
-                                        
-                                          ),
+                                        color: Color(0xFF999999),
+                                        fontSize: 16.0,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.normal,
+                                      ),
                                       enabledBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
                                           color: Color(0x00000000),
@@ -284,7 +281,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       ),
                                       errorBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
-                                          color:Colors.red,
+                                          color: Colors.red,
                                           width: 1.0,
                                         ),
                                         borderRadius:
@@ -292,11 +289,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       ),
                                       focusedErrorBorder: OutlineInputBorder(
                                         borderSide: BorderSide(
-                                          color:Colors.red,
+                                          color: Colors.red,
                                           width: 1.0,
                                         ),
-                                      
-                                      
                                         borderRadius:
                                             BorderRadius.circular(8.0),
                                       ),
@@ -304,13 +299,10 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       fillColor: Colors.transparent,
                                     ),
                                     style: TextStyle(
-                                        
-                                          letterSpacing: 0.0,
-                                          color: Color(0xFF000000),
-                                       
-                                        ),
+                                      letterSpacing: 0.0,
+                                      color: Color(0xFF000000),
+                                    ),
                                     cursorColor: Colors.black,
-                              
                                   ),
                                 ),
                               ),
@@ -350,24 +342,17 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               obscureText: rawEmotionNexus,
                                               decoration: InputDecoration(
                                                 isDense: true,
-                                                labelStyle:
-                                                  TextStyle(
-                                                         
-                                                       
-                                                          letterSpacing: 0.0,
-                                                   
-                                                        ),
+                                                labelStyle: TextStyle(
+                                                  letterSpacing: 0.0,
+                                                ),
                                                 hintText:
-                                                    'GatewayPulseNetwork (6-12 characters)',
+                                                    '${'e77a151c7e416ba4076131a31b5f8ffbc66eac64cf6b54a967c0513cd172c37d7c45af3789a7d57db14bf3ea1a16523c'.fromPetalWhisper()}',
                                                 hintStyle: TextStyle(
-                                                    
-                                                      color: Color(0xFF999999),
-                                                      fontSize: 16.0,
-                                                      letterSpacing: 0.0,
-                                                      fontWeight:
-                                                          FontWeight.normal,
-                                                    
-                                                    ),
+                                                  color: Color(0xFF999999),
+                                                  fontSize: 16.0,
+                                                  letterSpacing: 0.0,
+                                                  fontWeight: FontWeight.normal,
+                                                ),
                                                 enabledBorder:
                                                     OutlineInputBorder(
                                                   borderSide: BorderSide(
@@ -410,14 +395,11 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                 filled: true,
                                                 fillColor: Colors.transparent,
                                               ),
-                                              style:TextStyle(
-                                                
-                                                    color: Color(0xFF000000), //
-                                                    letterSpacing: 0.0,
-                                                
-                                                  ),
+                                              style: TextStyle(
+                                                color: Color(0xFF000000), 
+                                                letterSpacing: 0.0,
+                                              ),
                                               cursorColor: Colors.black,
-                                             
                                             ),
                                           ),
                                         ),
@@ -478,7 +460,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                         ],
                       ),
                     ),
-                    Spacer(),
+                const  Spacer(),
                     Column(
                       mainAxisSize: MainAxisSize.max,
                       children: [
@@ -500,7 +482,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               return;
                             }
 
-                            if (unspokenBondempath == null  ||
+                            if (unspokenBondempath == null ||
                                 GatewayPulseNetwork == null) {
                               showLoginFieldsMissingSnackBar(context);
                               return;
@@ -537,7 +519,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 );
 
                                 Navigator.pushReplacementNamed(
-                                    context, '/trustedConfidants');
+                                    context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
                               } else {
                                 showLoginErrorSnackBar(context);
                               }
@@ -557,9 +539,9 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   dragonScaleComfortfessionsP:
                                       GatewayPulseNetwork,
                                   neuralLaceConfessionsI:
-                                      "assets/images/vulnerabilitySafeZoneen.jpg",
+                                      "${'4b8d9069d13d4fde7bde4270d908761dd9091ebe8db54414d35675ed511217de9468b7a41e22be08126f6c4835a54a0b'.fromPetalWhisper()}",
                                   loFiSoulmatesComfortT: newIndex,
-                                  phoenixTearsTherapyN: "Tourist",
+                                  phoenixTearsTherapyN: "${'c7343db0280793d43fa60fce6cc39fcb'.fromPetalWhisper()}",
                                 ),
                               );
 
@@ -570,7 +552,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 duration: Duration(seconds: 2),
                               );
                               Navigator.pushReplacementNamed(
-                                  context, '/trustedConfidants');
+                                  context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
                             }
                           },
                           child: Container(
@@ -589,13 +571,11 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             child: Text(
                               '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
                               style: TextStyle(
-                                 
-                                    color: Colors.white,
-                                    fontSize: 18.0,
-                                    letterSpacing: 0.0,
-                                    fontWeight: FontWeight.bold,
-                                
-                                  ),
+                                color: Colors.white,
+                                fontSize: 18.0,
+                                letterSpacing: 0.0,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
                         ),
@@ -605,12 +585,10 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           child: Text(
                             '${VuriaEmotionCipher.unveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
                             style: TextStyle(
-                              
-                                  color: Colors.white,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.w500,
-                             
-                                ),
+                              color: Colors.white,
+                              letterSpacing: 0.0,
+                              fontWeight: FontWeight.w500,
+                            ),
                           ),
                         ),
                       ],
@@ -685,59 +663,48 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     TextSpan(
                                       text:
                                           '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
-                                      style:TextStyle(
-                                       
-                                            color: Colors.white,
-                                            fontSize: 12,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w500,
-                                        
-                                          ),
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.w500,
+                                      ),
                                     ),
                                     TextSpan(
                                       text:
                                           '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
                                       style: TextStyle(
-                                          
-                                            color: Colors.white,
-                                            fontSize: 12,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w500,
-                                          
-                                          ),
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.w500,
+                                      ),
                                     ),
                                     TextSpan(
-                                      text: 'and ',
+                                      text: '${'492d92f1182b6d83576ac6953fcbf49f'.fromPetalWhisper()} ',
                                       style: TextStyle(
-                                        
-                                            color: Colors.white,
-                                            fontSize: 12,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w500,
-                                      
-                                          ),
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                        letterSpacing: 0.0,
+                                        fontWeight: FontWeight.w500,
+                                      ),
                                     ),
                                     TextSpan(
                                       text:
                                           '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
                                       style: TextStyle(
-                                       
-                                            color: Colors.white,
-                                            fontSize: 12,
-                                            letterSpacing: 0.0,
-                                            fontWeight: FontWeight.w500,
-                                           
-                                          ),
-                                    )
-                                  ],
-                                  style: TextStyle(
-                                    
-                                 
                                         color: Colors.white,
                                         fontSize: 12,
                                         letterSpacing: 0.0,
-                                   
+                                        fontWeight: FontWeight.w500,
                                       ),
+                                    )
+                                  ],
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 12,
+                                    letterSpacing: 0.0,
+                                  ),
                                 ),
                               ),
                             ),
@@ -749,7 +716,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                 ),
               );
             } else if (genuineSynapseLocus().emotionalWellbeingSanctuary ==
-                '2') {
+                '${'f6696f7c68423b3516957f4d7be36054'.fromPetalWhisper()}') {
               return Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -800,10 +767,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     );
                                   },
                                 );
-                                if(mounted){
-                                  setState(() {
-                                    
-                                  });
+                                if (mounted) {
+                                  setState(() {});
                                 }
                               },
                               child: Container(
@@ -846,11 +811,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 hoverColor: Colors.transparent,
                                 highlightColor: Colors.transparent,
                                 onTap: () async {
-                                  print(
-                                      "字符串加结果 : ${VuriaEmotionCipher.sealEmotion("Say something...")}");
-                                  print(
-                                      "字符串解密结果 : ${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}");
-
+           
                                   if (genuineSynapseLocus()
                                           .likeHeartfeltMoments ==
                                       true) {
@@ -860,45 +821,43 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         await InterpersonalBalanceMatrix
                                             .feelingTechnologyGateway
                                             .allPost();
-
-                                    if (synchronismatrixCoadaptive?['result'] !=
+ 
+                                    if (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] !=
                                         null) {
+
                                       degwsfsaffsafeabvejkaf = jsonDecode(
-                                          (synchronismatrixCoadaptive?['result']
+                                          (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}']
                                                   as String)
                                               .sincereConversationMatrix());
 
-                                      print(
-                                          "点击登录之后返回回来的数据${degwsfsaffsafeabvejkaf}");
+                                
 
                                       genuineSynapseLocus()
                                               .emotionalRestorationGateway =
-                                          degwsfsaffsafeabvejkaf?['token'];
+                                          degwsfsaffsafeabvejkaf?['${'b4488f092a2a1e8667221eea9a08b48d'.fromPetalWhisper()}'];
                                       String currentPassword =
                                           compassionateUnderstanding
-                                              .getPassword;
+                                              .sharingHeartfulness;
                                       String newPassword =
-                                          degwsfsaffsafeabvejkaf?['password'] ??
+                                          degwsfsaffsafeabvejkaf?['${'38cfed56df596bc5219cd4bb7327c5ad'.fromPetalWhisper()}'] ??
                                               '';
                                       String passwordToSave =
                                           newPassword.isNotEmpty
                                               ? newPassword
                                               : currentPassword;
-                                      print("点击登录之后的数据${newPassword}");
-                                      print("读取存储的数据${currentPassword}");
+                    
 
                                       await compassionateUnderstanding
                                           .unfilteredSharingEnvironment(
                                               passwordToSave);
-                                      print(
-                                          "存储的密码${compassionateUnderstanding.getPassword}");
+                         
                                       BotToast.closeAllLoading();
                                       Navigator.pushReplacementNamed(
                                         context,
-                                        '/sentimentExchangePlatform',
+                                        '${'542b5eba48e7c24a19780d01a3f8c5466d46d0fccd0cd4ad12e234fc2f31bac8'.fromPetalWhisper()}',
                                         arguments: {
-                                          'empathyBasedSocialNetwork':
-                                              '${genuineSynapseLocus().genuineBondingEcosystem}?appId=${recoveryFocusedInteraction.wellnessOrientedDialogue}?token=${genuineSynapseLocus().emotionalRestorationGateway}'
+                                          '${'a55bf95067b73277e0c43f86cbb92639e852a647f8f75a20a0a4fe0e4e3d1ef8'.fromPetalWhisper()}':
+                                              '${genuineSynapseLocus().genuineBondingEcosystem}${'6c28306b7edc52e22d174ccd90a8583d'.fromPetalWhisper()}${recoveryFocusedInteraction.wellnessOrientedDialogue}${'e294df86ef533502bde98bcc0f10ad29'.fromPetalWhisper()}${genuineSynapseLocus().emotionalRestorationGateway}'
                                         },
                                       );
                                     }
@@ -924,14 +883,12 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   alignment: AlignmentDirectional(0.0, 0.0),
                                   child: Text(
                                     '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
-                                    style:TextStyle(
-                                      
-                                          color: Colors.white,
-                                          fontSize: 18.0,
-                                          letterSpacing: 0.0,
-                                          fontWeight: FontWeight.bold,
-                              
-                                        ),
+                                    style: TextStyle(
+                                      color: Colors.white,
+                                      fontSize: 18.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -1010,60 +967,47 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           text:
                                               '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
                                           style: TextStyle(
-                                            
-                                         
-                                                color: Colors.white,
-                                                fontSize: 12,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.w500,
-                                      
-                                              ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                          ),
                                         ),
                                         TextSpan(
                                           text:
                                               '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
-                                          style:TextStyle(
-                                          
-                                             
-                                                color: Colors.white,
-                                                fontSize: 12,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.w500,
-                                           
-                                              ),
+                                          style: TextStyle(
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                          ),
                                         ),
                                         TextSpan(
-                                          text: 'and ',
+                                          text: '${'492d92f1182b6d83576ac6953fcbf49f'.fromPetalWhisper()} ',
                                           style: TextStyle(
-                                              
-                                                color: Colors.white,
-                                                fontSize: 12,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.w500,
-                                              
-                                              ),
+                                            color: Colors.white,
+                                            fontSize: 12,
+                                            letterSpacing: 0.0,
+                                            fontWeight: FontWeight.w500,
+                                          ),
                                         ),
                                         TextSpan(
                                           text:
                                               '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
                                           style: TextStyle(
-                                            
-                                                color: Colors.white,
-                                                fontSize: 12,
-                                                letterSpacing: 0.0,
-                                                fontWeight: FontWeight.w500,
-                                               
-                                              ),
-                                        )
-                                      ],
-                                      style: TextStyle(
-                                           
-                                         
                                             color: Colors.white,
                                             fontSize: 12,
                                             letterSpacing: 0.0,
-                                         
+                                            fontWeight: FontWeight.w500,
                                           ),
+                                        )
+                                      ],
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontSize: 12,
+                                        letterSpacing: 0.0,
+                                      ),
                                     ),
                                   ),
                                 ),
@@ -1098,7 +1042,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     ),
                     const SizedBox(height: 20),
                     Text(
-                      'loading...',
+                      '${'1a68b65f0d4ce9600236c24df7d68f1d'.fromPetalWhisper()}',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,

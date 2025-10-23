@@ -22,7 +22,7 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
 
   bool hasMutantConfessions() => _mutantConfessions != null;
 
-  // "dustStormSoulsgasMaskBonim" field.
+
   List<String>? _dustStormSoulsgasMaskBonim;
   List<String> get dustStormSoulsgasMaskBonim =>
       _dustStormSoulsgasMaskBonim ?? const [];
@@ -35,7 +35,6 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
 
   bool hasDustStormSoulsgasMaskBonim() => _dustStormSoulsgasMaskBonim != null;
 
-  // "sunburnedSolacewendigoComforhx" field.
   String? _sunburnedSolacewendigoComforhx;
   String get sunburnedSolacewendigoComforhx =>
       _sunburnedSolacewendigoComforhx ?? '';
@@ -45,7 +44,6 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
   bool hasSunburnedSolacewendigoComforhx() =>
       _sunburnedSolacewendigoComforhx != null;
 
-  // 类型转换辅助方法
   static int? _castToInt(dynamic value) {
     if (value == null) return null;
     if (value is int) return value;
@@ -73,7 +71,6 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
     return null;
   }
 
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

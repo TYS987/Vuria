@@ -83,7 +83,7 @@ Future<void> emotionWhisperInterface({
     indicator: Container(
       padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
-        color: Colors.black.withOpacity(0.7),
+       color: Colors.black.withValues(alpha: 0.7),
         borderRadius: BorderRadius.circular(50),
       ),
       child: Icon(

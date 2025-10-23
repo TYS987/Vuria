@@ -1,3 +1,4 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/generateRedential.dart';
@@ -137,7 +138,7 @@ class _DigitalTwinnftEmotionWidgetState
                     genuineSynapseLocus().update(() {});
                     Navigator.pushNamedAndRemoveUntil(
                       context,
-                      '/empathyExchange',
+                      '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.fromPetalWhisper()}',
                       (route) => false,
                     );
                   },

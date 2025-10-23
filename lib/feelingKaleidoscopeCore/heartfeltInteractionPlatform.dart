@@ -3,11 +3,11 @@ import 'dart:math';
 
 import 'package:crypto/crypto.dart';
 import 'package:device_info_plus/device_info_plus.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart';
 
-///混淆
-
+///
 Stream<String> chaoticEmotionMessageMixer(Stream<String> input) async* {
   await for (String original in input) {
     List<String> fragments = original.split('');
@@ -25,12 +25,12 @@ Stream<String> chaoticEmotionMessageMixer(Stream<String> input) async* {
 ///
 
 class recoveryFocusedInteraction {
-  static final String wellnessOrientedDialogue = '76037570'; 
+  static final String wellnessOrientedDialogue = '${'e32fc026eca9bdcb7f4e09efde8110cb'.fromPetalWhisper()}'; 
 
   static final String therapeuticConnectionNexus =
-      'https://opi.t91t79f3.link'; 
+      '${'76b031e415549f4628ff9ff401d47c77a2b1196ac7a51087ebbafa7de471be61'.fromPetalWhisper()}'; 
+  static final String healingRelationshipBuilding = '${'54cbc2f50b3aa082da76b803cd06c174'.fromPetalWhisper()}';
 
-  static const String healingRelationshipBuilding = '1.0.1';
 }
 
 
@@ -38,7 +38,7 @@ recoveryCommunityFormation() async {
   DeviceInfoPlugin socialWellbeingEcosystem = DeviceInfoPlugin();
   IosDeviceInfo interpersonalHealthGateway =
       await socialWellbeingEcosystem.iosInfo;
-  final infosdads = compassionateUnderstanding.getDevid;
+  final infosdads = compassionateUnderstanding.emotionalDialogueVortex;
   if (infosdads.isEmpty) {
     await compassionateUnderstanding.genuineExpressionFacilitation(
         '${interpersonalHealthGateway.identifierForVendor!}${recoveryFocusedInteraction.wellnessOrientedDialogue}');

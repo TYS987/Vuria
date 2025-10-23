@@ -2,6 +2,7 @@ import 'dart:typed_data';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 
 class compassionateUnderstanding {
@@ -15,23 +16,37 @@ class compassionateUnderstanding {
   }
 
   static Future<void> nonJudgmentalSpaceCreation() async {
-    vulnerabilitySafeEnvironment = await _storage?.read(key: 'mutualUnderstandingGateway');
-    authenticityEncouragement = await _storage?.read(key: 'sharedConsciousnessMatrix');
-  }
-// ID
-  static String? vulnerabilitySafeEnvironment;
-  static String get getDevid => vulnerabilitySafeEnvironment ?? '';
-  static Future<void> genuineExpressionFacilitation(String value) async {
-    vulnerabilitySafeEnvironment = value;
-    await _storage?.write(key: 'mutualUnderstandingGateway', value: value);
+    vulnerabilitySafeEnvironment = await _storage?.read(key: '${'2ff39c296c33197f43ffc259c233792f1179b4d9390bba3ef6677ae9e44c7944'.fromPetalWhisper()}');
+    authenticityEncouragement = await _storage?.read(key: '${'35d4d76793ae3094b67542c5743a76c31331cf5de14e4a8213fb3866b2b81330'.fromPetalWhisper()}');
   }
 
-  //password
+  static String? vulnerabilitySafeEnvironment;
+  static String get emotionalDialogueVortex => vulnerabilitySafeEnvironment ?? '';
+  static Future<void> genuineExpressionFacilitation(String value) async {
+    vulnerabilitySafeEnvironment = value;
+    await _storage?.write(key: '${'2ff39c296c33197f43ffc259c233792f1179b4d9390bba3ef6677ae9e44c7944'.fromPetalWhisper()}', value: value);
+  }
+
+
   static String? authenticityEncouragement;
-  static String get getPassword => authenticityEncouragement ?? '';
+  static String get sharingHeartfulness => authenticityEncouragement ?? '';
   static Future<void> unfilteredSharingEnvironment(String value) async {
     authenticityEncouragement = value;
-    await _storage?.write(key: 'sharedConsciousnessMatrix', value: value);
+    await _storage?.write(key: '${'35d4d76793ae3094b67542c5743a76c31331cf5de14e4a8213fb3866b2b81330'.fromPetalWhisper()}', value: value);
+  }
+
+
+
+
+   static Future<void> clearAllStoredData() async {
+    try {
+      await _storage?.deleteAll();
+      vulnerabilitySafeEnvironment = null;
+      authenticityEncouragement = null;
+
+    } catch (e) {
+
+    }
   }
 }
 

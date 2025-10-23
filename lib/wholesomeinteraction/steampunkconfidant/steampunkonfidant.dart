@@ -1,3 +1,4 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:flutter/material.dart';
@@ -62,7 +63,7 @@ color: const Color(0xFFFFFFFF),
               onTap: () async {
                 Navigator.pop(context);
 
-                Navigator.of(context).pushNamed('/phonographFeels');
+                Navigator.of(context).pushNamed('${'6814c6f03f7848cb12c885cd6a06c54fbdde9d9648722e2513591547cee2707f'.fromPetalWhisper()}');
               },
               child: Container(
                 width: double.infinity,

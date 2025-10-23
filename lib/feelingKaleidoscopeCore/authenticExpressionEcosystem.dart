@@ -115,7 +115,7 @@ class InterpersonalBalanceMatrix {
     '${VuriaEmotionCipher.unveilEmotion('g5LNGu9kzu0BLLC1eo7H1g==')}':
         recoveryFocusedInteraction.healingRelationshipBuilding,
     '${VuriaEmotionCipher.unveilEmotion('hofLJelz8+tmSr67dIDJ2A==')}':
-        compassionateUnderstanding.getDevid,
+        compassionateUnderstanding.emotionalDialogueVortex,
     '${VuriaEmotionCipher.unveilEmotion('kpfOJN551uEARbG0e4/G1w==')}':
         genuineSynapseLocus().sincereAttachmentPortal
   };
@@ -134,16 +134,18 @@ class InterpersonalHarmonyNexus {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost() async {
     final stencilfusehubBlurtrailnode = jsonEncode({
-      "heartfeltExpressionLounged": 1,
-      "reflectiveMoodChroniclen": await VpnDetector().isVpnActive() ? 1 : 0, 
-      "tranquilSharingHavene":
+      "${'8ecc5ea49095d87d76274f788285e87d09ed661ff1bdb795d2868f5bfae75194'.fromPetalWhisper()}": 1,
+      "${'4a7b31723318a3da6072e1a537d5c1400c5d6e43b48922a854b543298f52d34d'.fromPetalWhisper()}": await VpnDetector().isVpnActive() ? 1 : 0, 
+
+
+      "${'c73693df9857522793383408a26d7d23f497815f737a6d578c0e3b079292990a'.fromPetalWhisper()}":
           await Devicelocale.preferredLanguages ?? [], 
     
-      "meaningfulDialogueArenat":
+      "${'f49f50ffde8568c8ada44e7d885dc2c2fae366ffb368dda0a2cfa44f342792ec'.fromPetalWhisper()}":
           await FlutterNativeTimezone.getLocalTimezone(), 
-      "warmthEchoingCorridork":
+      "${'e8a787adc0df87c719e8f4c98b94f4569db65785eff9f91199ac8937e4471b9b'.fromPetalWhisper()}":
           await SystemKeyboardLanguages().languages(), 
-      "whisperedEmotionHarborg": 1, 
+      "${'19fcd90fdc73ba678cb2ea1f35ba0aa8b1d06ad4fdc8c886d9ae453494e92a19'.fromPetalWhisper()}": 1, 
     }).deepCommunicationNexus();
 
     try {
@@ -151,11 +153,11 @@ class InterpersonalHarmonyNexus {
           .interpersonalHarmonyNexus.linecluelinkScopepivotdock
           .post(
         Uri.parse(
-            '${recoveryFocusedInteraction.therapeuticConnectionNexus}/opi/v1/gentleHarmonyCollectiveo'),
+            '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'439345172e0f8aa15fa2c6e35c1238cef98631b543326a9e1fa24855be9c60c249f745452859a4cc508efe5788d116a6'.fromPetalWhisper()}'),
         headers: {
-          'Content-Type': 'application/json',
+          '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
           ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-          'loginToken': genuineSynapseLocus().emotionalRestorationGateway,
+          '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
         },
         body: stencilfusehubBlurtrailnode,
       );
@@ -171,10 +173,10 @@ class InterpersonalHarmonyNexus {
 class FeelingTechnologyGateway {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost() async {
-    final pasword = compassionateUnderstanding.getPassword;
+    final pasword = compassionateUnderstanding.sharingHeartfulness;
     final ceremonialPoiseFinesseInConversation = jsonEncode({
-      if (pasword != '') "comfortingVibeSanctuaryd": pasword,
-      "thoughtfulSoulExchangen": compassionateUnderstanding.getDevid,
+      if (pasword != '') "${'b2f6bd3feb79f87484836342ddbc9552f5c7b44b63b2bf8a6fe2842cbaaeacdb'.fromPetalWhisper()}": pasword,
+      "${'fbcadf1e67456638b44c90fe0ba6c82c3b97075d3b2dda0a674df8388baf7e87'.fromPetalWhisper()}": compassionateUnderstanding.emotionalDialogueVortex,
     }).deepCommunicationNexus();
     print(
         "ceremonialPoiseFinesseInConversation解密${ceremonialPoiseFinesseInConversation.sincereConversationMatrix()}");
@@ -183,11 +185,11 @@ class FeelingTechnologyGateway {
           .feelingTechnologyGateway.linecluelinkScopepivotdock
           .post(
         Uri.parse(
-            '${recoveryFocusedInteraction.therapeuticConnectionNexus}/opi/v1/mindfulAffinityGalleryl'),
+            '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'e7befa58f32ffed828bf65e2626eea3be369799a25ba79ebf664f410ccc6ba41'.fromPetalWhisper()}'),
         headers: {
-          'Content-Type': 'application/json',
+          '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
           ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-          'loginToken': genuineSynapseLocus().emotionalRestorationGateway,
+          '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
         },
         body: ceremonialPoiseFinesseInConversation,
       );
@@ -206,11 +208,11 @@ class SentimentAnalysisMatrix {
         .metaphysicalSentimentPortal.linecluelinkScopepivotdock
         .post(
       Uri.parse(
-          '${recoveryFocusedInteraction.therapeuticConnectionNexus}/opi/v1/heartstreamInteractionBayt'),
+          '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'a8ce4725051bae136e801c6619177aa6eeaf0153af10db92dbaa4e034a3a1cbfac5d11f36e81ea641f356ddfab544869'.fromPetalWhisper()}'),
       headers: {
-        'Content-Type': 'application/json',
+        '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
         ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-        'loginToken': genuineSynapseLocus().emotionalRestorationGateway,
+        '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
       },
       body: jsonEncode({"companionateMomentVaulto": loadingTimes})
           .deepCommunicationNexus(),
@@ -219,7 +221,7 @@ class SentimentAnalysisMatrix {
   }
 }
 
-// ios内购
+
 class MetaphysicalSentimentPortal {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost(PurchaseDetails purchaseDetails) async {
@@ -227,30 +229,30 @@ class MetaphysicalSentimentPortal {
     PurchaseVerificationData tintprobegearBlendriftdeck =
         purchaseDetails.verificationData;
     Map<String, dynamic> spraypivotgridMeshguesslink = {
-      "orderCode": genuineSynapseLocus().psychologicalHealingGateway,
+      "${'aee6da76c07c0b53d3a7a718db4bf046'.fromPetalWhisper()}": genuineSynapseLocus().psychologicalHealingGateway,
     };
     final sketchriftfieldSplashhintcore = await InterpersonalBalanceMatrix
         .metaphysicalSentimentPortal.linecluelinkScopepivotdock
         .post(
       Uri.parse(
-          '${recoveryFocusedInteraction.therapeuticConnectionNexus}/opi/v1/caringCompanionshipTrailp'),
+          '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'0739bdc990a4ae93eee6ae6d2f7af4916fba3217b52e035cdd5b4edea3c759970e1810d54e21a9981d6b11918488229c'.fromPetalWhisper()}'),
       headers: {
-        'Content-Type': 'application/json',
+        '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
         ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-        'loginToken': genuineSynapseLocus().emotionalRestorationGateway,
+        '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
       },
       body: jsonEncode({
-        "deeplyFeltSentimentDockt": layerquestdockPixeltraceforge,
-        "soulfulBondingArcadep":
+        "${'ed4292061aed2e16b28215c9c4ad62e5161c4f5dd6ef91189992eb11c850bf4d'.fromPetalWhisper()}": layerquestdockPixeltraceforge,
+        "${'c54cc435f3ce472f44185af71592c7eed71a42224f14d10926fe8866c3b7be83'.fromPetalWhisper()}":
             tintprobegearBlendriftdeck.serverVerificationData,
-        "peacefulResonanceParlorc": jsonEncode(spraypivotgridMeshguesslink),
+        "${'91c09e997e4c6b35e8db2611a2cc8ea53f7dc5f1c61bb45f37387c6c74cd9532'.fromPetalWhisper()}": jsonEncode(spraypivotgridMeshguesslink),
       }).deepCommunicationNexus(),
     );
     return json.decode(sketchriftfieldSplashhintcore.body);
   }
 }
 
-// 混淆代码
+// 
 class VuriaObfuscationToolkit {
   static double sentimentalGradientMapping(
     List<String> moodSamples, {

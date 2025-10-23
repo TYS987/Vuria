@@ -14,7 +14,7 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
         _crimeSceSceneHealing = crimeSceSceneHealing,
         _detectiveNotebookConfideHX = detectiveNotebookConfideHX;
 
-  // "friendshipConnectionCorner" field.
+
   int? _friendshipConnectionCorner;
   int get friendshipConnectionCorner => _friendshipConnectionCorner ?? 0;
   set friendshipConnectionCorner(int? val) => _friendshipConnectionCorner = val;
@@ -25,7 +25,7 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
 
   bool hasfriendshipConnectionCorner() => _friendshipConnectionCorner != null;
 
-  // "emotionalBondingSpot" field.
+
   int? _emotionalBondingSpot;
   int get emotionalBondingSpot => _emotionalBondingSpot ?? 0;
   set emotionalBondingSpot(int? val) => _emotionalBondingSpot = val;
@@ -36,14 +36,13 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
 
   bool hasemotionalBondingSpot() => _emotionalBondingSpot != null;
 
-  // "crimeSceSceneHealing" field.
+
   String? _crimeSceSceneHealing;
   String get crimeSceSceneHealing => _crimeSceSceneHealing ?? '';
   set crimeSceSceneHealing(String? val) => _crimeSceSceneHealing = val;
 
   bool hasCrimeSceSceneHealing() => _crimeSceSceneHealing != null;
 
-  // "detectiveNotebookConfideHX" field.
   List<String>? _detectiveNotebookConfideHX;
   List<String> get detectiveNotebookConfideHX =>
       _detectiveNotebookConfideHX ?? const [];
@@ -56,7 +55,6 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
 
   bool hasDetectiveNotebookConfideHX() => _detectiveNotebookConfideHX != null;
 
-  // 类型转换辅助方法
   static int? _castToInt(dynamic value) {
     if (value == null) return null;
     if (value is int) return value;
@@ -84,7 +82,6 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
     return null;
   }
 
-  // 移除 null 值的辅助方法
   Map<String, dynamic> _removeNulls(Map<String, dynamic> map) {
     map.removeWhere((key, value) => value == null);
     return map;

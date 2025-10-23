@@ -1,7 +1,7 @@
+import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-
 
 class EmotionalHarmonyWidget extends StatefulWidget {
   const EmotionalHarmonyWidget({super.key});
@@ -11,24 +11,18 @@ class EmotionalHarmonyWidget extends StatefulWidget {
 }
 
 class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
-
-
   @override
   void setState(VoidCallback callback) {
     super.setState(callback);
-
   }
 
   @override
   void initState() {
     super.initState();
-
   }
 
   @override
   void dispose() {
-
-
     super.dispose();
   }
 
@@ -85,10 +79,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 0;
                           genuineSynapseLocus().update(() {});
 
-                  
-
-        Navigator.of(context).pushNamed(
-                                '/trustedConfidants');
+                          Navigator.of(context).pushNamed('${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
                         },
                         child: Container(
                           width: 74.0,
@@ -137,10 +128,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 1;
                           genuineSynapseLocus().update(() {});
 
-                      
-
-                             Navigator.of(context).pushNamed(
-                                '/pendulumTrust');
+                          Navigator.of(context).pushNamed('${'60868605b68de1bd4868a8ee27c11dd0'.fromPetalWhisper()}');
                         },
                         child: Container(
                           width: 74.0,
@@ -189,10 +177,8 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 2;
                           genuineSynapseLocus().update(() {});
 
-                
-
-                              Navigator.of(context).pushNamed(
-                                '/honeycombUnderstand');
+                          Navigator.of(context)
+                              .pushNamed('/honeycombUnderstand');
                         },
                         child: Container(
                           width: 74.0,

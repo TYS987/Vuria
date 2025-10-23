@@ -377,8 +377,7 @@ class _IntimateMomentsShareWidgetState
                               ),
                             );
                           })
-                              // .divide(SizedBox(width: 16.0))
-                              // .addToStart(SizedBox(width: 20.0)),
+                
                         ),
                       );
                     },
