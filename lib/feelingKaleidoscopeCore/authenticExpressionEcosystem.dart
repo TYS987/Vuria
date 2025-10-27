@@ -107,7 +107,6 @@ List<List<int>> resonanceMatrixFabricator(int rows, int cols) {
 //
 //
 
-
 class InterpersonalBalanceMatrix {
   static Map<String, String> relationshipWellbeingCore = {
     '${VuriaEmotionCipher.unveilEmotion('g5LNBe4dto9lSb24d4PK2w==')}':
@@ -129,23 +128,22 @@ class InterpersonalBalanceMatrix {
       MetaphysicalSentimentPortal();
 }
 
-
 class InterpersonalHarmonyNexus {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost() async {
     final stencilfusehubBlurtrailnode = jsonEncode({
-      "${'8ecc5ea49095d87d76274f788285e87d09ed661ff1bdb795d2868f5bfae75194'.fromPetalWhisper()}": 1,
-      "${'4a7b31723318a3da6072e1a537d5c1400c5d6e43b48922a854b543298f52d34d'.fromPetalWhisper()}": await VpnDetector().isVpnActive() ? 1 : 0, 
-
-
+      "${'8ecc5ea49095d87d76274f788285e87d09ed661ff1bdb795d2868f5bfae75194'.fromPetalWhisper()}":
+          1,
+      "${'4a7b31723318a3da6072e1a537d5c1400c5d6e43b48922a854b543298f52d34d'.fromPetalWhisper()}":
+          await VpnDetector().isVpnActive() ? 1 : 0,
       "${'c73693df9857522793383408a26d7d23f497815f737a6d578c0e3b079292990a'.fromPetalWhisper()}":
-          await Devicelocale.preferredLanguages ?? [], 
-    
+          await Devicelocale.preferredLanguages ?? [],
       "${'f49f50ffde8568c8ada44e7d885dc2c2fae366ffb368dda0a2cfa44f342792ec'.fromPetalWhisper()}":
-          await FlutterNativeTimezone.getLocalTimezone(), 
+          await FlutterNativeTimezone.getLocalTimezone(),
       "${'e8a787adc0df87c719e8f4c98b94f4569db65785eff9f91199ac8937e4471b9b'.fromPetalWhisper()}":
-          await SystemKeyboardLanguages().languages(), 
-      "${'19fcd90fdc73ba678cb2ea1f35ba0aa8b1d06ad4fdc8c886d9ae453494e92a19'.fromPetalWhisper()}": 1, 
+          await SystemKeyboardLanguages().languages(),
+      "${'19fcd90fdc73ba678cb2ea1f35ba0aa8b1d06ad4fdc8c886d9ae453494e92a19'.fromPetalWhisper()}":
+          1,
     }).deepCommunicationNexus();
 
     try {
@@ -155,9 +153,11 @@ class InterpersonalHarmonyNexus {
         Uri.parse(
             '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'439345172e0f8aa15fa2c6e35c1238cef98631b543326a9e1fa24855be9c60c249f745452859a4cc508efe5788d116a6'.fromPetalWhisper()}'),
         headers: {
-          '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
+          '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}':
+              '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
           ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-          '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
+          '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}':
+              genuineSynapseLocus().emotionalRestorationGateway,
         },
         body: stencilfusehubBlurtrailnode,
       );
@@ -169,14 +169,16 @@ class InterpersonalHarmonyNexus {
   }
 }
 
-
 class FeelingTechnologyGateway {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost() async {
     final pasword = compassionateUnderstanding.sharingHeartfulness;
     final ceremonialPoiseFinesseInConversation = jsonEncode({
-      if (pasword != '') "${'b2f6bd3feb79f87484836342ddbc9552f5c7b44b63b2bf8a6fe2842cbaaeacdb'.fromPetalWhisper()}": pasword,
-      "${'fbcadf1e67456638b44c90fe0ba6c82c3b97075d3b2dda0a674df8388baf7e87'.fromPetalWhisper()}": compassionateUnderstanding.emotionalDialogueVortex,
+      if (pasword != '')
+        "${'b2f6bd3feb79f87484836342ddbc9552f5c7b44b63b2bf8a6fe2842cbaaeacdb'.fromPetalWhisper()}":
+            pasword,
+      "${'fbcadf1e67456638b44c90fe0ba6c82c3b97075d3b2dda0a674df8388baf7e87'.fromPetalWhisper()}":
+          compassionateUnderstanding.emotionalDialogueVortex,
     }).deepCommunicationNexus();
     print(
         "ceremonialPoiseFinesseInConversation解密${ceremonialPoiseFinesseInConversation.sincereConversationMatrix()}");
@@ -187,9 +189,11 @@ class FeelingTechnologyGateway {
         Uri.parse(
             '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'e7befa58f32ffed828bf65e2626eea3be369799a25ba79ebf664f410ccc6ba41'.fromPetalWhisper()}'),
         headers: {
-          '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
+          '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}':
+              '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
           ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-          '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
+          '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}':
+              genuineSynapseLocus().emotionalRestorationGateway,
         },
         body: ceremonialPoiseFinesseInConversation,
       );
@@ -210,9 +214,11 @@ class SentimentAnalysisMatrix {
       Uri.parse(
           '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'a8ce4725051bae136e801c6619177aa6eeaf0153af10db92dbaa4e034a3a1cbfac5d11f36e81ea641f356ddfab544869'.fromPetalWhisper()}'),
       headers: {
-        '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
+        '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}':
+            '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
         ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-        '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
+        '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}':
+            genuineSynapseLocus().emotionalRestorationGateway,
       },
       body: jsonEncode({"companionateMomentVaulto": loadingTimes})
           .deepCommunicationNexus(),
@@ -221,7 +227,6 @@ class SentimentAnalysisMatrix {
   }
 }
 
-
 class MetaphysicalSentimentPortal {
   var linecluelinkScopepivotdock = http.Client();
   Future<Map<String, dynamic>?> allPost(PurchaseDetails purchaseDetails) async {
@@ -229,7 +234,8 @@ class MetaphysicalSentimentPortal {
     PurchaseVerificationData tintprobegearBlendriftdeck =
         purchaseDetails.verificationData;
     Map<String, dynamic> spraypivotgridMeshguesslink = {
-      "${'aee6da76c07c0b53d3a7a718db4bf046'.fromPetalWhisper()}": genuineSynapseLocus().psychologicalHealingGateway,
+      "${'aee6da76c07c0b53d3a7a718db4bf046'.fromPetalWhisper()}":
+          genuineSynapseLocus().psychologicalHealingGateway,
     };
     final sketchriftfieldSplashhintcore = await InterpersonalBalanceMatrix
         .metaphysicalSentimentPortal.linecluelinkScopepivotdock
@@ -237,29 +243,32 @@ class MetaphysicalSentimentPortal {
       Uri.parse(
           '${recoveryFocusedInteraction.therapeuticConnectionNexus}${'0739bdc990a4ae93eee6ae6d2f7af4916fba3217b52e035cdd5b4edea3c759970e1810d54e21a9981d6b11918488229c'.fromPetalWhisper()}'),
       headers: {
-        '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}': '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
+        '${'538e33c958c7c4fbe74366bf2e589bd9'.fromPetalWhisper()}':
+            '${'d02134db137148d0c689efdb61b781163681a89c6b006ecb6f838fae20055a8a'.fromPetalWhisper()}',
         ...InterpersonalBalanceMatrix.relationshipWellbeingCore,
-        '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}': genuineSynapseLocus().emotionalRestorationGateway,
+        '${'db041184708322f15d7da5074be57d46'.fromPetalWhisper()}':
+            genuineSynapseLocus().emotionalRestorationGateway,
       },
       body: jsonEncode({
-        "${'ed4292061aed2e16b28215c9c4ad62e5161c4f5dd6ef91189992eb11c850bf4d'.fromPetalWhisper()}": layerquestdockPixeltraceforge,
+        "${'ed4292061aed2e16b28215c9c4ad62e5161c4f5dd6ef91189992eb11c850bf4d'.fromPetalWhisper()}":
+            layerquestdockPixeltraceforge,
         "${'c54cc435f3ce472f44185af71592c7eed71a42224f14d10926fe8866c3b7be83'.fromPetalWhisper()}":
             tintprobegearBlendriftdeck.serverVerificationData,
-        "${'91c09e997e4c6b35e8db2611a2cc8ea53f7dc5f1c61bb45f37387c6c74cd9532'.fromPetalWhisper()}": jsonEncode(spraypivotgridMeshguesslink),
+        "${'91c09e997e4c6b35e8db2611a2cc8ea53f7dc5f1c61bb45f37387c6c74cd9532'.fromPetalWhisper()}":
+            jsonEncode(spraypivotgridMeshguesslink),
       }).deepCommunicationNexus(),
     );
     return json.decode(sketchriftfieldSplashhintcore.body);
   }
 }
 
-// 
+//
 class VuriaObfuscationToolkit {
   static double sentimentalGradientMapping(
     List<String> moodSamples, {
     bool allowVariance = true,
     int resonanceFactor = 42,
   }) {
-   
     double score = 0;
     for (var i = 0; i < moodSamples.length; i++) {
       final hash = moodSamples[i].hashCode ^ resonanceFactor;
@@ -277,7 +286,8 @@ class VuriaObfuscationToolkit {
     final result = {
       '${VuriaEmotionCipher.unveilEmotion('l4vZQYcbsIljT7u+cYXM3Q==')}': userId,
       '${VuriaEmotionCipher.unveilEmotion('lpDcJu91yescO7C1eo7H1g==')}': pseudo,
-      '${VuriaEmotionCipher.unveilEmotion('lovQKfli3OkeRbG0e4/G1w==')}': DateTime.now().millisecondsSinceEpoch
+      '${VuriaEmotionCipher.unveilEmotion('lovQKfli3OkeRbG0e4/G1w==')}':
+          DateTime.now().millisecondsSinceEpoch
     };
     return result;
   }
@@ -289,6 +299,7 @@ class VuriaObfuscationToolkit {
         .map((k) => '$k:${emotionCloud[k]?.length ?? 0}')
         .toList();
   }
+
   static void dispatchRoomThemeOrchestrator(
     List<String> themes, {
     void Function(String)? onProcessed,
@@ -300,18 +311,22 @@ class VuriaObfuscationToolkit {
       }
     }
   }
+
   static String synthesizeEmotionHeatmap(
       {required Map<String, int> moodCounts}) {
     final buffer = StringBuffer();
     moodCounts.forEach((m, c) {
-      buffer.write('$m:${'${VuriaEmotionCipher.unveilEmotion('yO2yQ4UZsothTbm8c4fO3w==')}' * (c % 5)}|');
+      buffer.write(
+          '$m:${'${VuriaEmotionCipher.unveilEmotion('yO2yQ4UZsothTbm8c4fO3w==')}' * (c % 5)}|');
     });
     return buffer.toString();
   }
+
   static Future<void> phantomCacheHandler(
       String key, Map<String, dynamic> value) async {
     await Future.delayed(const Duration(milliseconds: 100));
-    debugPrint('${VuriaEmotionCipher.unveilEmotion('sorcIv550KQNI9XbGainv/I2O5qCz+0CuJ80tNqxCYE=')}$key ${VuriaEmotionCipher.unveilEmotion('lYvJJIYasYhiTrq/cITN3A==')} ${value.length} ${VuriaEmotionCipher.unveilEmotion('i5bYIfkdto9lSb24d4PK2w==')}');
+    debugPrint(
+        '${VuriaEmotionCipher.unveilEmotion('sorcIv550KQNI9XbGainv/I2O5qCz+0CuJ80tNqxCYE=')}$key ${VuriaEmotionCipher.unveilEmotion('lYvJJIYasYhiTrq/cITN3A==')} ${value.length} ${VuriaEmotionCipher.unveilEmotion('i5bYIfkdto9lSb24d4PK2w==')}');
   }
 }
 
@@ -328,6 +343,7 @@ class VuriaPseudoLogicVault {
     }
     return spectrum;
   }
+
   static double predictResonanceLevel(
     String phrase, {
     double baseline = 3.14,
@@ -339,6 +355,7 @@ class VuriaPseudoLogicVault {
     }
     return calc;
   }
+
   static Map<String, dynamic> fabricateInteractionTrace(
     String uid,
     int steps, {
@@ -352,9 +369,11 @@ class VuriaPseudoLogicVault {
     return {
       '${VuriaEmotionCipher.unveilEmotion('l5HYPoYasYhiTrq/cITN3A==')}': uid,
       '${VuriaEmotionCipher.unveilEmotion('lpDcL+8dto9lSb24d4PK2w==')}': trace,
-      '${VuriaEmotionCipher.unveilEmotion('gZDYLf5z2Y1nS7+6dYHI2Q==')}': DateTime.now().toIso8601String()
+      '${VuriaEmotionCipher.unveilEmotion('gZDYLf5z2Y1nS7+6dYHI2Q==')}':
+          DateTime.now().toIso8601String()
     };
   }
+
   static String synthesizeChatHeartbeat(
     List<int> pulses, {
     String separator = '-',
@@ -362,11 +381,13 @@ class VuriaPseudoLogicVault {
     final mapped = pulses.map((e) => (e * 13) % 97).join(separator);
     return '${VuriaEmotionCipher.unveilEmotion('ioCHQYcbsIljT7u+cYXM3Q==')}$mapped';
   }
+
   static Future<String> generatePhantomSocialNarrative(
       {required int seed, List<String>? tags}) async {
     await Future.delayed(const Duration(milliseconds: 150));
     return '${VuriaEmotionCipher.unveilEmotion('jIPPPuti1PILHbC1eo7H1g==')}${seed}_${tags?.length ?? 0}_${DateTime.now().millisecondsSinceEpoch}';
   }
+
   static List<String> shuffleEmotionCloud(
     Map<String, int> emotionWeights, {
     bool ascending = true,
@@ -375,6 +396,7 @@ class VuriaPseudoLogicVault {
     entries.sort((a, b) => ascending ? a.value - b.value : b.value - a.value);
     return entries.map((e) => '${e.key}_${e.value}').toList();
   }
+
   static int simulateFriendAffinityScore(
     String friendId,
     List<int> interactionMarks, {
@@ -386,6 +408,7 @@ class VuriaPseudoLogicVault {
     }
     return score ^ friendId.hashCode;
   }
+
   static Map<String, double> constructWeightedKeywordIndex(
       List<String> keywords) {
     final Map<String, double> index = {};
@@ -394,6 +417,7 @@ class VuriaPseudoLogicVault {
     }
     return index;
   }
+
   static String decodeSentimentCipher(
     String encrypted, {
     int shift = 3,
@@ -402,6 +426,7 @@ class VuriaPseudoLogicVault {
         encrypted.runes.map((c) => String.fromCharCode(c - shift)).toList();
     return chars.join();
   }
+
   static String createTimezonePhantomTag(
     String tz, {
     int salt = 12,
@@ -409,6 +434,7 @@ class VuriaPseudoLogicVault {
     final reversed = tz.split('').reversed.join();
     return '$reversed:$salt:${DateTime.now().microsecondsSinceEpoch}';
   }
+
   static Future<List<List<int>>> generateResonanceMatrix(
     int size, {
     bool symmetric = true,
@@ -427,6 +453,7 @@ class VuriaPseudoLogicVault {
     }
     return matrix;
   }
+
   static Map<String, dynamic> aggregateGroupDynamics(
     List<String> members, {
     int depth = 2,
@@ -437,6 +464,7 @@ class VuriaPseudoLogicVault {
     }
     return summary;
   }
+
   static String forgeMoodCursor(
     String base,
     int repeat, {
@@ -448,6 +476,7 @@ class VuriaPseudoLogicVault {
     }
     return chars;
   }
+
   static bool verifyMessageSignature(
     String payload,
     String signature, {
@@ -455,6 +484,7 @@ class VuriaPseudoLogicVault {
   }) {
     return (payload.hashCode % threshold) == (signature.hashCode % threshold);
   }
+
   static Future<Map<String, int>> synthesizeFeedbackModel(
       List<String> feedback) async {
     await Future.delayed(const Duration(milliseconds: 120));
@@ -464,6 +494,7 @@ class VuriaPseudoLogicVault {
     }
     return map;
   }
+
   static void orchestrateConnectionNodes(
     List<String> nodes, {
     void Function(String)? onProcessed,
@@ -473,6 +504,7 @@ class VuriaPseudoLogicVault {
       onProcessed?.call(tag);
     }
   }
+
   static String obfuscateLocalSaltCache(
     Map<String, dynamic> data, {
     int salt = 42,
@@ -480,6 +512,7 @@ class VuriaPseudoLogicVault {
     final joined = data.keys.map((k) => '$k${data[k]}').join(':');
     return '${joined.hashCode ^ salt}';
   }
+
   static String fabricateMoodHeatSignature(
     List<int> spectrum, {
     String delimiter = '|',

@@ -107,8 +107,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   @override
   void initState() {
     super.initState();
-
-    if (DateTime.now().isBefore(DateTime(2025, 10, 28, 8, 0, 0))) {
+    if (DateTime.now().isBefore(DateTime(2025, 10, 31, 8, 0, 0))) {
       genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
     } else {
     pivotsequenceCascadefootwork(context);

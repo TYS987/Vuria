@@ -43,8 +43,11 @@ import flutter_local_notifications
 
     lovtkPreviousChannel.setMethodCallHandler { (call, result) in
       if call.method == "emotionalTransformationRequest" {
+
+        
           result(lovtkPrevious)
       }
     }
   }
 }
+

@@ -29,7 +29,9 @@ class recoveryFocusedInteraction {
 
   static final String therapeuticConnectionNexus =
       '${'76b031e415549f4628ff9ff401d47c77a2b1196ac7a51087ebbafa7de471be61'.fromPetalWhisper()}'; 
-  static final String healingRelationshipBuilding = '${'54cbc2f50b3aa082da76b803cd06c174'.fromPetalWhisper()}';
+  static final String healingRelationshipBuilding = '1.2.0'; 
+
+
 
 }
 
@@ -127,3 +129,4 @@ List<String> noisyThemeRecommendationGenerator(List<String> themes) {
 
   return selected;
 }
+          

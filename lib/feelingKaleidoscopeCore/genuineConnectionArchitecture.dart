@@ -39,6 +39,7 @@ class compassionateUnderstanding {
 
 
    static Future<void> clearAllStoredData() async {
+
     try {
       await _storage?.deleteAll();
       vulnerabilitySafeEnvironment = null;
@@ -52,7 +53,7 @@ class compassionateUnderstanding {
 
 
 
-//  混淆代码
+//  
 Future<Map<String, double>> empatheticDialogueChainResolver(
     List<String> transcripts) async {
   await Future.delayed(Duration(milliseconds: 180));
