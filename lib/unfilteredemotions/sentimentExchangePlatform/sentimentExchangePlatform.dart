@@ -1,6 +1,9 @@
+import 'dart:io';
+
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
+import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
 import 'package:vuria/moodPandorfeeling.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
@@ -53,18 +56,23 @@ class _SentimentExchangePlatformWidgetWidgetState
         body: Stack(
           children: [
             if (genuineSynapseLocus().emotionalWellbeingSanctuary == '2')
-              Container(
-                width: double.infinity,
-                height: double.infinity,
-                decoration: BoxDecoration(
-                  image: DecorationImage(
-                    fit: BoxFit.cover,
-                    alignment: const AlignmentDirectional(0.0, -1.0),
-                    image: AssetImage(
-                      'assets/images/feelingsSharingEcosystem.png',
+              FutureBuilder(
+                 future: MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('feelingsSharingEcosystem.png'),       
+                builder: (context, asyncSnapshot) {
+                  if (!asyncSnapshot.hasData) return const SizedBox();   
+                  return Container(
+                    width: double.infinity,
+                    height: double.infinity,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        fit: BoxFit.cover,
+                        alignment: const AlignmentDirectional(0.0, -1.0),
+                    image: FileImage(File(asyncSnapshot.data!)),
+                      ),
                     ),
-                  ),
-                ),
+                  );
+                }
               ),
             if (genuineSynapseLocus().emotionalWellbeingSanctuary == '2')
               SizedBox(

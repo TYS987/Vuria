@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
 import 'package:flutter/material.dart';
@@ -44,190 +47,200 @@ class _SyntheticmpathybionicTrustWidgetState
       child: Scaffold(
         key: scaffoldKey,
         backgroundColor: Colors.white,
-        body: Container(
-          width: double.infinity,
-          height: double.infinity,
-          decoration: BoxDecoration(
-            color: Colors.white,
-            image: DecorationImage(
-              fit: BoxFit.cover,
-              image: AssetImage(
-                'assets/images/comfortableListening.png',
+        body: FutureBuilder(
+            future: MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('comfortableListening.png'),  
+          builder: (context, asyncSnapshot) {
+            if (!asyncSnapshot.hasData) return const SizedBox();   
+            return Container(
+              width: double.infinity,
+              height: double.infinity,
+              decoration: BoxDecoration(
+                color: Colors.white,
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                image: FileImage(File(asyncSnapshot.data!)),
+                ),
               ),
-            ),
-          ),
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(12.0, 54.0, 0.0, 0.0),
-                child: Row(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
-                      child: InkWell(
-                        onTap: () async {
-                          Navigator.pop(context);
-                        },
-                        child: Container(
-                          width: 32.0,
-                          height: 32.0,
-                          decoration: BoxDecoration(
-                            image: DecorationImage(
-                              fit: BoxFit.cover,
-                              image: AssetImage(
-                                'assets/images/kaleidoscopeFeelings.png',
-                              ),
+              child: Column(
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(12.0, 54.0, 0.0, 0.0),
+                    child: Row(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Padding(
+                          padding:
+                              EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 10.0, 0.0),
+                          child: InkWell(
+                            onTap: () async {
+                              Navigator.pop(context);
+                            },
+                            child: FutureBuilder(
+                               future: MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('kaleidoscopeFeelings.png'),   
+                              builder: (context, asyncSnapshot) {
+                                if (!asyncSnapshot.hasData) return const SizedBox();      
+                                return Container(
+                                  width: 32.0,
+                                  height: 32.0,
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      fit: BoxFit.cover,
+                                    image: FileImage(File(asyncSnapshot.data!)),
+                                    ),
+                                  ),
+                                );
+                              }
                             ),
                           ),
                         ),
-                      ),
-                    ),
-                    Text(
-                      '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
-                      style: TextStyle(
-                        color: Colors.black,
-                        fontSize: 20.0,
-                        letterSpacing: 0.0,
-                        fontWeight: FontWeight.bold,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Expanded(
-                child: Column(
-                  mainAxisSize: MainAxisSize.max,
-                  children: [
-                    Padding(
-                      padding:
-                          EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
-                      child: Container(
-                        width: 351.0,
-                        height: 196.0,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(15.0),
-                          border: Border.all(
-                            color: Color(0xFFFF6509),
-                            width: 2.0,
+                        Text(
+                          '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
+                          style: TextStyle(
+                            color: Colors.black,
+                            fontSize: 20.0,
+                            letterSpacing: 0.0,
+                            fontWeight: FontWeight.bold,
                           ),
                         ),
-                        child: Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(
-                              10.0, 0.0, 24.0, 0.0),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: [
+                        Padding(
+                          padding:
+                              EdgeInsetsDirectional.fromSTEB(0.0, 24.0, 0.0, 0.0),
                           child: Container(
-                            width: double.infinity,
-                            child: TextFormField(
-                              controller: genuineHypothalamus,
-                              focusNode: emotionalPrefrontal,
-                              autofocus: false,
-                              obscureText: false,
-                              decoration: InputDecoration(
-                                isDense: true,
-                                labelStyle: TextStyle(
-                                  fontSize: 16.0,
-                                  letterSpacing: 0.0,
-                                ),
-                                hintText:
-                                    '${VuriaEmotionCipher.unveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
-                                hintStyle: TextStyle(
-                                  color: Color(0x66000000),
-                                  fontSize: 14.0,
-                                  letterSpacing: 0.0,
-                                  fontWeight: FontWeight.w500,
-                                ),
-                                enabledBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color: Color(0x00000000),
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                focusedBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color: Color(0x00000000),
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                errorBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color: Colors.red,
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                focusedErrorBorder: OutlineInputBorder(
-                                  borderSide: BorderSide(
-                                    color: Colors.red,
-                                    width: 1.0,
-                                  ),
-                                  borderRadius: BorderRadius.circular(8.0),
-                                ),
-                                filled: true,
-                                fillColor: Colors.transparent,
-                              ),
-                              style: TextStyle(
-                                fontSize: 14.0,
-                                letterSpacing: 0.0,
-                              ),
-                              cursorColor: Colors.red,
-                   
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
-                    Spacer(),
-                    InkWell(
-                      onTap: () async {
-                    if (genuineHypothalamus?.text.trim().isNotEmpty ?? false) {
-                          await emotionWhisperInterface(
-                            message:
-                                '${VuriaEmotionCipher.unveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',
-                            icon: Icons.check_circle_outline,
-                          );
-                          genuineHypothalamus?.clear();
-                          Navigator.of(context).pop();
-                        } else {
-                          await emotionWhisperInterface(
-                            message:
-                                '${VuriaEmotionCipher.unveilEmotion('so7YLflzneIHLtqTFebhpOhzFfLppIdu1/JRmrfQafs+d9DSG4he1pKIcfh6Emadm39TJTf1123TPptq2hLdAw==')}',
-                            icon: Icons.warning_amber_outlined,
-                          );
-                        }
-                      },
-                      child: Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 90.0),
-                        child: Container(
-                          width: 304.0,
-                          height: 58.0,
-                          decoration: BoxDecoration(
-                            color: Color(0xFFFF690C),
-                            borderRadius: BorderRadius.circular(50.0),
-                          ),
-                          alignment: AlignmentDirectional(0.0, 0.0),
-                          child: Text(
-                            '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
-                            style: TextStyle(
+                            width: 351.0,
+                            height: 196.0,
+                            decoration: BoxDecoration(
                               color: Colors.white,
-                              fontSize: 18.0,
-                              letterSpacing: 0.0,
-                              fontWeight: FontWeight.bold,
+                              borderRadius: BorderRadius.circular(15.0),
+                              border: Border.all(
+                                color: Color(0xFFFF6509),
+                                width: 2.0,
+                              ),
+                            ),
+                            child: Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  10.0, 0.0, 24.0, 0.0),
+                              child: Container(
+                                width: double.infinity,
+                                child: TextFormField(
+                                  controller: genuineHypothalamus,
+                                  focusNode: emotionalPrefrontal,
+                                  autofocus: false,
+                                  obscureText: false,
+                                  decoration: InputDecoration(
+                                    isDense: true,
+                                    labelStyle: TextStyle(
+                                      fontSize: 16.0,
+                                      letterSpacing: 0.0,
+                                    ),
+                                    hintText:
+                                        '${VuriaEmotionCipher.unveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
+                                    hintStyle: TextStyle(
+                                      color: Color(0x66000000),
+                                      fontSize: 14.0,
+                                      letterSpacing: 0.0,
+                                      fontWeight: FontWeight.w500,
+                                    ),
+                                    enabledBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(
+                                        color: Color(0x00000000),
+                                        width: 1.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0),
+                                    ),
+                                    focusedBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(
+                                        color: Color(0x00000000),
+                                        width: 1.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0),
+                                    ),
+                                    errorBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(
+                                        color: Colors.red,
+                                        width: 1.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0),
+                                    ),
+                                    focusedErrorBorder: OutlineInputBorder(
+                                      borderSide: BorderSide(
+                                        color: Colors.red,
+                                        width: 1.0,
+                                      ),
+                                      borderRadius: BorderRadius.circular(8.0),
+                                    ),
+                                    filled: true,
+                                    fillColor: Colors.transparent,
+                                  ),
+                                  style: TextStyle(
+                                    fontSize: 14.0,
+                                    letterSpacing: 0.0,
+                                  ),
+                                  cursorColor: Colors.red,
+                       
+                                ),
+                              ),
                             ),
                           ),
                         ),
-                      ),
+                        Spacer(),
+                        InkWell(
+                          onTap: () async {
+                        if (genuineHypothalamus?.text.trim().isNotEmpty ?? false) {
+                              await emotionWhisperInterface(
+                                message:
+                                    '${VuriaEmotionCipher.unveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',
+                                icon: Icons.check_circle_outline,
+                              );
+                              genuineHypothalamus?.clear();
+                              Navigator.of(context).pop();
+                            } else {
+                              await emotionWhisperInterface(
+                                message:
+                                    '${VuriaEmotionCipher.unveilEmotion('so7YLflzneIHLtqTFebhpOhzFfLppIdu1/JRmrfQafs+d9DSG4he1pKIcfh6Emadm39TJTf1123TPptq2hLdAw==')}',
+                                icon: Icons.warning_amber_outlined,
+                              );
+                            }
+                          },
+                          child: Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 90.0),
+                            child: Container(
+                              width: 304.0,
+                              height: 58.0,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFFF690C),
+                                borderRadius: BorderRadius.circular(50.0),
+                              ),
+                              alignment: AlignmentDirectional(0.0, 0.0),
+                              child: Text(
+                                '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 18.0,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
-            ],
-          ),
+            );
+          }
         ),
       ),
     );

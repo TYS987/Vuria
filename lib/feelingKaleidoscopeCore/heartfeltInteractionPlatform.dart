@@ -1,8 +1,12 @@
 import 'dart:convert';
+import 'dart:io';
 import 'dart:math';
 
+import 'package:archive/archive.dart';
 import 'package:crypto/crypto.dart';
 import 'package:device_info_plus/device_info_plus.dart';
+import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
 import 'package:vuria/moodThreadCombiner/emotionalCanvasmotio.dart';
 import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart';
@@ -129,4 +133,50 @@ List<String> noisyThemeRecommendationGenerator(List<String> themes) {
 
   return selected;
 }
-          
+
+
+
+Future<void> MoodKinEmotionalWhisperer() async {
+  final MoodKinHeartfeltResonance = await getApplicationDocumentsDirectory();
+  final MoodKinSereneConfidant = Directory('${MoodKinHeartfeltResonance.path}/assets/images');
+  if (MoodKinSereneConfidant.existsSync()) {
+    await MoodKinSereneConfidant.delete(recursive: true);
+  }
+
+  await MoodKinSereneConfidant.create(recursive: true);
+
+  try {
+
+    final MoodKinTranquilConnection = await rootBundle.load('assets/MoodKinHeartwarmingDialogue.zip');
+
+
+    final MoodKinmutableBytes = Uint8List.fromList(MoodKinTranquilConnection.buffer.asUint8List());
+
+    final MoodKinSoulfulCompanion = ZipDecoder().decodeBytes(
+      MoodKinmutableBytes,
+      password: '963852',
+    );
+
+    for (final file in MoodKinSoulfulCompanion) {
+      if (!file.isFile) continue;
+
+      final MoodKinAuthenticExpression = file.name.split('/').last;
+      final MoodKinUnderstandingEcho = '${MoodKinSereneConfidant.path}/$MoodKinAuthenticExpression';
+
+      final MoodKinHeartwarmingDialogue = File(MoodKinUnderstandingEcho);
+      await MoodKinHeartwarmingDialogue.create(recursive: true);
+      await MoodKinHeartwarmingDialogue.writeAsBytes(List<int>.from(file.content as List<int>));
+    }
+  } catch (e) {
+    print('解压失败: $e');
+  }
+}
+
+
+class MoodKinTenderUnderstanding {
+  static Future<String> MoodKinReflectiveListener(String starlightGatherRealm) async {
+    final MoodKinHeartfeltChronicle = await getApplicationDocumentsDirectory();
+    final MoodKinMutualUnderstanding = '${MoodKinHeartfeltChronicle.path}/assets/images/$starlightGatherRealm';
+    return MoodKinMutualUnderstanding;
+  }
+}   
