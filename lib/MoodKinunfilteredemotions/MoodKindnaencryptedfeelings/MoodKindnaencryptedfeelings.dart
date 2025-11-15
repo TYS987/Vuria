@@ -95,10 +95,10 @@ class _DnaEncryptedFeelingsWidgetState
                           ),
                         ),
                         Text(
-                          '${VuriaEmotionCipher.unveilEmotion('j5udO+t60eEaRbG0e4/G1w==')}',
+                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('j5udO+t60eEaRbG0e4/G1w==')}',
                           style: TextStyle(
                             fontFamily:
-                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                             color: Colors.black,
                             fontSize: 20.0,
                             letterSpacing: 0.0,
@@ -142,10 +142,10 @@ class _DnaEncryptedFeelingsWidgetState
                                       .firstOrNull
                                       ?.flowingMoodNarrativeSpace
                                       .toString() ??
-                                  '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
+                                  '${'bd9b2b58c2368c8162d2cb1bd3888093'.MoodKinfromPetalWhisper()}',
                               style: TextStyle(
                                 fontFamily:
-                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                    '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                 color: Colors.black,
                                 fontSize: 16.0,
                                 letterSpacing: 0.0,
@@ -153,10 +153,10 @@ class _DnaEncryptedFeelingsWidgetState
                               ),
                             ),
                             Text(
-                              '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
+                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
                               style: TextStyle(
                                 fontFamily:
-                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                    '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                 color: Colors.black,
                                 fontSize: 12.0,
                                 letterSpacing: 0.0,
@@ -249,7 +249,7 @@ class _DnaEncryptedFeelingsWidgetState
                                                   .toString(),
                                               style: TextStyle(
                                                 fontFamily:
-                                                    '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                    '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                 color: Colors.black,
                                                 fontSize: 16.0,
                                                 letterSpacing: 0.0,
@@ -274,7 +274,7 @@ class _DnaEncryptedFeelingsWidgetState
                                                   '\$${empathyDrivenForumItem.futurePastFacebookbe.toString()}',
                                                   style: TextStyle(
                                                     fontFamily:
-                                                        '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                        '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                     color: Colors.white,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.bold,

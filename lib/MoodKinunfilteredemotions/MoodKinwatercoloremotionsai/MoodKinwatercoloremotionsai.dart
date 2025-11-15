@@ -48,7 +48,7 @@ class _WatercolorEmotionsAiWidgetState
   Future<void> voiceDrivenStoryteVoicePostss(String fixedInput) async {
     try {
       String warmthThroughVoiceCompanion =
-          await generatePersonalizedResponse(fixedInput);
+          await MoodKingeneratePersonalizedResponse(fixedInput);
       genuineSynapseLocus()
           .addToSamuraiSocialMediapiratePodcast(LondonFogAIetWatchPhoneRMStruct(
         emotionalConnectionPortal: widget.sentimentSynchronizer,
@@ -57,7 +57,7 @@ class _WatercolorEmotionsAiWidgetState
             .listeningCompanionNetwork,
         moatMalwarejoustingJav: DateTime.now(),
         emotionalExpressionSpot: [
-          '${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'
+          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'
         ],
         neoNeolithicquantumQuill: [0, 0],
         vuriaFriendshipSpace: warmthThroughVoiceCompanion,
@@ -66,7 +66,7 @@ class _WatercolorEmotionsAiWidgetState
       moodsupramarginal();
     } catch (error) {
       print(
-          '${VuriaEmotionCipher.unveilEmotion('p5DPI/g22+EaId7aEu/hkck2R/H/sYxixfQAv9G6Aoo=')} $error');
+          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('p5DPI/g22+EaId7aEu/hkck2R/H/sYxixfQAv9G6Aoo=')} $error');
     }
   }
 
@@ -152,7 +152,7 @@ class _WatercolorEmotionsAiWidgetState
                             ),
                           ),
                           Text(
-                            '${VuriaEmotionCipher.unveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
+                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20,
@@ -286,7 +286,7 @@ class _WatercolorEmotionsAiWidgetState
                                                         .vuriaFriendshipSpace,
                                                     style: TextStyle(
                                                       fontFamily:
-                                                          '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                          '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                       color: Color(0xFF323232),
                                                       fontSize: 16,
                                                       letterSpacing: 0.0,
@@ -333,7 +333,7 @@ class _WatercolorEmotionsAiWidgetState
                                                         .vuriaFriendshipSpace,
                                                     style: TextStyle(
                                                       fontFamily:
-                                                          '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                          '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                       color: Color(0xFF323232),
                                                       fontSize: 16,
                                                       letterSpacing: 0.0,
@@ -437,7 +437,7 @@ class _WatercolorEmotionsAiWidgetState
                                       letterSpacing: 0.0,
                                     ),
                                     hintText:
-                                        '${'c3e2e9ebcbaef88bd84460a1b6e13bbb328ade54a458451cf6ca66de6e877909'.fromPetalWhisper()}',
+                                        '${'c3e2e9ebcbaef88bd84460a1b6e13bbb328ade54a458451cf6ca66de6e877909'.MoodKinfromPetalWhisper()}',
                                     hintStyle: TextStyle(
                                       color: Color(0x663F3F3F),
                                       fontSize: 14.7,
@@ -514,7 +514,7 @@ class _WatercolorEmotionsAiWidgetState
                                   authenticInteractionLounge: emotionThreadCombiner,
                                   moatMalwarejoustingJav: DateTime.now(),
                                   emotionalExpressionSpot: [
-                                    VuriaEmotionCipher.unveilEmotion(
+                                    MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                         'BFUKqj2Qt45kSLy5doLL2g==')
                                   ],
                                   neoNeolithicquantumQuill: [0, 0],

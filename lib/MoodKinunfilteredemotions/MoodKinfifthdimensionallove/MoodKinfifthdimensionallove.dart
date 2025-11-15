@@ -88,7 +88,7 @@ class _FifthDimensionalLoveWidgetState
                           ),
                         ),
                         Text(
-                          '${VuriaEmotionCipher.unveilEmotion('o4DSOf42yPdmSr67dIDJ2A==')}',
+                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('o4DSOf42yPdmSr67dIDJ2A==')}',
                           style: TextStyle(
                             fontWeight: FontWeight.bold,
                             color: Colors.black,
@@ -127,9 +127,9 @@ class _FifthDimensionalLoveWidgetState
                               }
                             ),
                             Text(
-                              '${VuriaEmotionCipher.unveilEmotion('tJfPJesdto9lSb24d4PK2w==')}',
+                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tJfPJesdto9lSb24d4PK2w==')}',
                               style: TextStyle(
-                                  fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                  fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                   color: Colors.black,
                                   fontSize: 32.0,
                                   letterSpacing: 0.0,
@@ -138,7 +138,7 @@ class _FifthDimensionalLoveWidgetState
                             Text(
                               'Version 1.3.0',
                               style: TextStyle(
-                                fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                 color: Color(0xCD000000),
                                 fontSize: 13.0,
                                 letterSpacing: 0.0,

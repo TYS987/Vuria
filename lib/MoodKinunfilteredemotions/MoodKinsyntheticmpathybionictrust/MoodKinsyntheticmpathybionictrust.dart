@@ -97,7 +97,7 @@ class _SyntheticmpathybionicTrustWidgetState
                           ),
                         ),
                         Text(
-                          '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
+                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
                           style: TextStyle(
                             color: Colors.black,
                             fontSize: 20.0,
@@ -143,7 +143,7 @@ class _SyntheticmpathybionicTrustWidgetState
                                       letterSpacing: 0.0,
                                     ),
                                     hintText:
-                                        '${VuriaEmotionCipher.unveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ro3SJ+N42qQILcTEHfql8PR5Fe3jtJEs0PRf3rbeZOR1N4r/cOwhqOulHZsTPx/4')}',
                                     hintStyle: TextStyle(
                                       color: Color(0x66000000),
                                       fontSize: 14.0,
@@ -196,17 +196,17 @@ class _SyntheticmpathybionicTrustWidgetState
                         InkWell(
                           onTap: () async {
                         if (genuineHypothalamus?.text.trim().isNotEmpty ?? false) {
-                              await emotionWhisperInterface(
+                              await MoodKinemotionWhisperInterface(
                                 message:
-                                    '${VuriaEmotionCipher.unveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',
+                                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('u43IPqpw2OEKINfQF6ipsfM2V/Hpr8N/w/JZ36fMYfo3N4SmFYBCzsbRf+M+VH2H3mgcIzC3yXHXSfMfqTTYBg==')}',
                                 icon: Icons.check_circle_outline,
                               );
                               genuineHypothalamus?.clear();
                               Navigator.of(context).pop();
                             } else {
-                              await emotionWhisperInterface(
+                              await MoodKinemotionWhisperInterface(
                                 message:
-                                    '${VuriaEmotionCipher.unveilEmotion('so7YLflzneIHLtqTFebhpOhzFfLppIdu1/JRmrfQafs+d9DSG4he1pKIcfh6Emadm39TJTf1123TPptq2hLdAw==')}',
+                                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('so7YLflzneIHLtqTFebhpOhzFfLppIdu1/JRmrfQafs+d9DSG4he1pKIcfh6Emadm39TJTf1123TPptq2hLdAw==')}',
                                 icon: Icons.warning_amber_outlined,
                               );
                             }
@@ -223,7 +223,7 @@ class _SyntheticmpathybionicTrustWidgetState
                               ),
                               alignment: AlignmentDirectional(0.0, 0.0),
                               child: Text(
-                                '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
+                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 18.0,

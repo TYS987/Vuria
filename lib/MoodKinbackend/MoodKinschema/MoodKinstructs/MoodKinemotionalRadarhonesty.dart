@@ -134,14 +134,14 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
 
   static ServerFarmMeditationSolaceMoreStruct fromMap(Map<String, dynamic> data) =>
       ServerFarmMeditationSolaceMoreStruct(
-        emotionalExchangePlatform: _castToInt(data['${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.fromPetalWhisper()}']),
-        resonanceChatLounge: _castToInt(data['${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.fromPetalWhisper()}']),
-        friendshipResonanceHub: _castToString(data['${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.fromPetalWhisper()}']),
-        intimateSharingCorner: _castToDateTime(data['${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.fromPetalWhisper()}']),
-        genuineFeelingNetwork: _castToList<int>(data['${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.fromPetalWhisper()}']),
-        emotionalBondingSpot: _castToInt(data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}']),
-        magnumOpusComfort: _castToList<String>(data['${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.fromPetalWhisper()}']),
-        genuineEmotionBoard: _castToString(data['${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.fromPetalWhisper()}']),
+        emotionalExchangePlatform: _castToInt(data['${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.MoodKinfromPetalWhisper()}']),
+        resonanceChatLounge: _castToInt(data['${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.MoodKinfromPetalWhisper()}']),
+        friendshipResonanceHub: _castToString(data['${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.MoodKinfromPetalWhisper()}']),
+        intimateSharingCorner: _castToDateTime(data['${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.MoodKinfromPetalWhisper()}']),
+        genuineFeelingNetwork: _castToList<int>(data['${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.MoodKinfromPetalWhisper()}']),
+        emotionalBondingSpot: _castToInt(data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}']),
+        magnumOpusComfort: _castToList<String>(data['${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.MoodKinfromPetalWhisper()}']),
+        genuineEmotionBoard: _castToString(data['${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.MoodKinfromPetalWhisper()}']),
       );
 
   static ServerFarmMeditationSolaceMoreStruct? maybeFromMap(dynamic data) =>
@@ -151,51 +151,51 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      '${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.fromPetalWhisper()}': _emotionalExchangePlatform,
-      '${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.fromPetalWhisper()}': _resonanceChatLounge,
-      '${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.fromPetalWhisper()}': _friendshipResonanceHub,
-      '${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.fromPetalWhisper()}': _intimateSharingCorner,
-      '${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.fromPetalWhisper()}': _genuineFeelingNetwork,
-      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}': _emotionalBondingSpot,
-      '${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.fromPetalWhisper()}': _magnumOpusComfort,
-      '${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.fromPetalWhisper()}': _genuineEmotionBoard,
+      '${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.MoodKinfromPetalWhisper()}': _emotionalExchangePlatform,
+      '${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.MoodKinfromPetalWhisper()}': _resonanceChatLounge,
+      '${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.MoodKinfromPetalWhisper()}': _friendshipResonanceHub,
+      '${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.MoodKinfromPetalWhisper()}': _intimateSharingCorner,
+      '${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.MoodKinfromPetalWhisper()}': _genuineFeelingNetwork,
+      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}': _emotionalBondingSpot,
+      '${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.MoodKinfromPetalWhisper()}': _magnumOpusComfort,
+      '${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.MoodKinfromPetalWhisper()}': _genuineEmotionBoard,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      '${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.fromPetalWhisper()}': serializeParam(
+      '${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.MoodKinfromPetalWhisper()}': serializeParam(
         _emotionalExchangePlatform,
         ParamType.int,
       ),
-      '${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.fromPetalWhisper()}': serializeParam(
+      '${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.MoodKinfromPetalWhisper()}': serializeParam(
         _resonanceChatLounge,
         ParamType.int,
       ),
-      '${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.fromPetalWhisper()}': serializeParam(
+      '${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.MoodKinfromPetalWhisper()}': serializeParam(
         _friendshipResonanceHub,
         ParamType.String,
       ),
-      '${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.fromPetalWhisper()}': serializeParam(
+      '${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.MoodKinfromPetalWhisper()}': serializeParam(
         _intimateSharingCorner,
         ParamType.DateTime,
       ),
-      '${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.fromPetalWhisper()}': serializeParam(
+      '${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.MoodKinfromPetalWhisper()}': serializeParam(
         _genuineFeelingNetwork,
         ParamType.int,
         isList: true,
       ),
-      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}': serializeParam(
+      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}': serializeParam(
         _emotionalBondingSpot,
         ParamType.int,
       ),
-      '${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.fromPetalWhisper()}': serializeParam(
+      '${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.MoodKinfromPetalWhisper()}': serializeParam(
         _magnumOpusComfort,
         ParamType.String,
         isList: true,
       ),
-      '${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.fromPetalWhisper()}': serializeParam(
+      '${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.MoodKinfromPetalWhisper()}': serializeParam(
         _genuineEmotionBoard,
         ParamType.String,
       ),
@@ -206,49 +206,49 @@ class ServerFarmMeditationSolaceMoreStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       ServerFarmMeditationSolaceMoreStruct(
         emotionalExchangePlatform: deserializeParam(
-          data['${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.fromPetalWhisper()}'],
+          data['${'e70f7a69803b2ec200ccb145f15912698696f63d209ab644aaf0d7d077121a8b'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         resonanceChatLounge: deserializeParam(
-          data['${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.fromPetalWhisper()}'],
+          data['${'6185294c7cefde8e245ad333d13f78e40fd0416873d023311a56f1217795e25e'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         friendshipResonanceHub: deserializeParam(
-          data['${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.fromPetalWhisper()}'],
+          data['${'665363f25716d783eb5dd14f667e1ed9616e1df2fba9e63fa0dfef2f1cd828ac'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
         intimateSharingCorner: deserializeParam(
-          data['${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.fromPetalWhisper()}'],
+          data['${'424e854ca8e64ede7073bfbed21c51d1b317ed5adda801557b427fb0c49c3a41'.MoodKinfromPetalWhisper()}'],
           ParamType.DateTime,
           false,
         ),
         genuineFeelingNetwork: deserializeParam<int>(
-          data['${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.fromPetalWhisper()}'],
+          data['${'6606b0d47f8b5b640f3961df7c47587c9d21239cad30cb2273145239a8319cc6'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
         emotionalBondingSpot: deserializeParam(
-          data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}'],
+          data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         magnumOpusComfort: deserializeParam<String>(
-          data['${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.fromPetalWhisper()}'],
+          data['${'1c2a1abc6c7cf9a942fef69712f06a5f1f972ce01f9fcd59cbda7f12b7661948'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
         genuineEmotionBoard: deserializeParam(
-          data['${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.fromPetalWhisper()}'],
+          data['${'d1f4d40bd06de4d2500fa62f8b4e9c2c2af4216d02032f9dccfbf4d739de49df'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
       );
 
   @override
-  String toString() => '${'24c1f5befaa67d25b8746a7d9a90527790ea69c31922473de3397eed3349af55d9c74bfd6311a31a7c5c78ac25a952b5'.fromPetalWhisper()}(${toMap()})';
+  String toString() => '${'24c1f5befaa67d25b8746a7d9a90527790ea69c31922473de3397eed3349af55d9c74bfd6311a31a7c5c78ac25a952b5'.MoodKinfromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

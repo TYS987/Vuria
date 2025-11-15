@@ -31,9 +31,9 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
       );
 
       if (tenderBlackhole == null || tenderBlackhole.isEmpty) {
-        await emotionWhisperInterface(
+        await MoodKinemotionWhisperInterface(
           message:
-              "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
+              "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
           icon: Icons.photo_library_outlined,
           duration: Duration(seconds: 2),
         );
@@ -44,9 +44,9 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
           tenderBlackhole.map((xfile) => File(xfile.path)).toList();
       setState(() {});
     } catch (e) {
-      await emotionWhisperInterface(
+      await MoodKinemotionWhisperInterface(
         message:
-            '${VuriaEmotionCipher.unveilEmotion('q4/cK+82zuECJ9XHFeev8OZ3XPjppdkFv5gzs922DoY=')} ${e.toString()}',
+            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('q4/cK+82zuECJ9XHFeev8OZ3XPjppdkFv5gzs922DoY=')} ${e.toString()}',
         icon: Icons.error_outline,
         duration: Duration(seconds: 3),
       );
@@ -144,7 +144,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 0.0, 0.0, 0.0),
                             child: Text(
-                              '${VuriaEmotionCipher.unveilEmotion('spffIONl1aQbMtLSCO2y0Q==')}',
+                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('spffIONl1aQbMtLSCO2y0Q==')}',
                               style: TextStyle(
                                 color: Color(0xE6000000),
                                 fontSize: 20.0,
@@ -296,7 +296,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 16.0, 0.0, 0.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
                                   style: TextStyle(
                                     color: Color(0xE6000000),
                                     fontSize: 18.0,
@@ -491,7 +491,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 16.0, 0.0, 0.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('gY3TOO94yY1nS7+6dYHI2Q==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gY3TOO94yY1nS7+6dYHI2Q==')}',
                                   style: TextStyle(
                                     color: Color(0xE6000000),
                                     fontSize: 18.0,
@@ -528,7 +528,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                       decoration: InputDecoration(
                                         isDense: true,
                                         hintText:
-                                            '${'b7834ff58995678d895e51ba7f9120b1917379eda63a55528a3289ab5299f88e'.fromPetalWhisper()}',
+                                            '${'b7834ff58995678d895e51ba7f9120b1917379eda63a55528a3289ab5299f88e'.MoodKinfromPetalWhisper()}',
                                         hintStyle: TextStyle(
                                           color: Color(0xFF919191),
                                           fontSize: 16.0,
@@ -609,7 +609,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                       expressiveFriendshipSpace:
                                           authenticNadir?.text.trim(),
                                       butterflyEffectConfideHX: [
-                                        '${VuriaEmotionCipher.unveilEmotion('0tKNQYcbsIljT7u+cYXM3Q==')}'
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('0tKNQYcbsIljT7u+cYXM3Q==')}'
                                       ],
                                       heartfeltInteractionCorner:
                                           DateTime.now(),
@@ -619,17 +619,17 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                     vulnerableEclipse = [];
                                     setState(() {});
 
-                                    await emotionWhisperInterface(
+                                    await MoodKinemotionWhisperInterface(
                                       message:
-                                          '${VuriaEmotionCipher.unveilEmotion('spffIONl1eEKYsXGH+uko/NwQPjguM0s4vlb1L+ffuAuOcKdD8FfzYfaefh5ExD3')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('spffIONl1eEKYsXGH+uko/NwQPjguM0s4vlb1L+ffuAuOcKdD8FfzYfaefh5ExD3')}',
                                       icon: Icons.check_circle_outline,
                                       duration: Duration(seconds: 2),
                                     );
                                     Navigator.pop(context);
                                   } else {
-                                    await emotionWhisperInterface(
+                                    await MoodKinemotionWhisperInterface(
                                       message:
-                                          '${VuriaEmotionCipher.unveilEmotion('so7YLflznecBL8bfGfyk8OF6WbT4qYYsxPRLz73NYut7f82XEYVfhYTNdvlsVzKlkWIHPyzwsA6tM5Zn1x/QDg==')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('so7YLflznecBL8bfGfyk8OF6WbT4qYYsxPRLz73NYut7f82XEYVfhYTNdvlsVzKlkWIHPyzwsA6tM5Zn1x/QDg==')}',
                                       icon: Icons.warning_amber_rounded,
                                       duration: Duration(seconds: 2),
                                     );
@@ -651,7 +651,7 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                   ),
                                   alignment: AlignmentDirectional(0.0, 0.0),
                                   child: Text(
-                                    '${VuriaEmotionCipher.unveilEmotion('sIfRKetl2I1nS7+6dYHI2Q==')}',
+                                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sIfRKetl2I1nS7+6dYHI2Q==')}',
                                     style: TextStyle(
                                       fontWeight: FontWeight.bold,
                                       color: (vulnerableEclipse.isNotEmpty &&

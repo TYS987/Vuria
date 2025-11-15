@@ -5,26 +5,26 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinemotionalConnectionArchitecture.dart';
 import 'package:vuria/MoodKinmoodThreadCombiner/MoodKinemotionalCanvasmotio.dart';
 
-class compassionateUnderstanding {
+class MoodKincompassionateUnderstanding {
   static FlutterSecureStorage? _storage;
 
   static initStorage() async {
     _storage ??= const FlutterSecureStorage(
       iOptions: IOSOptions(accessibility: KeychainAccessibility.first_unlock),
     );
-    await nonJudgmentalSpaceCreation();
+    await MoodKinnonJudgmentalSpaceCreation();
   }
 
-  static Future<void> nonJudgmentalSpaceCreation() async {
-    vulnerabilitySafeEnvironment = await _storage?.read(key: '${'2ff39c296c33197f43ffc259c233792f1179b4d9390bba3ef6677ae9e44c7944'.fromPetalWhisper()}');
-    authenticityEncouragement = await _storage?.read(key: '${'35d4d76793ae3094b67542c5743a76c31331cf5de14e4a8213fb3866b2b81330'.fromPetalWhisper()}');
+  static Future<void> MoodKinnonJudgmentalSpaceCreation() async {
+    vulnerabilitySafeEnvironment = await _storage?.read(key: '${'2ff39c296c33197f43ffc259c233792f1179b4d9390bba3ef6677ae9e44c7944'.MoodKinfromPetalWhisper()}');
+    authenticityEncouragement = await _storage?.read(key: '${'35d4d76793ae3094b67542c5743a76c31331cf5de14e4a8213fb3866b2b81330'.MoodKinfromPetalWhisper()}');
   }
 
   static String? vulnerabilitySafeEnvironment;
   static String get emotionalDialogueVortex => vulnerabilitySafeEnvironment ?? '';
   static Future<void> genuineExpressionFacilitation(String value) async {
     vulnerabilitySafeEnvironment = value;
-    await _storage?.write(key: '${'2ff39c296c33197f43ffc259c233792f1179b4d9390bba3ef6677ae9e44c7944'.fromPetalWhisper()}', value: value);
+    await _storage?.write(key: '${'2ff39c296c33197f43ffc259c233792f1179b4d9390bba3ef6677ae9e44c7944'.MoodKinfromPetalWhisper()}', value: value);
   }
 
 
@@ -32,13 +32,13 @@ class compassionateUnderstanding {
   static String get sharingHeartfulness => authenticityEncouragement ?? '';
   static Future<void> unfilteredSharingEnvironment(String value) async {
     authenticityEncouragement = value;
-    await _storage?.write(key: '${'35d4d76793ae3094b67542c5743a76c31331cf5de14e4a8213fb3866b2b81330'.fromPetalWhisper()}', value: value);
+    await _storage?.write(key: '${'35d4d76793ae3094b67542c5743a76c31331cf5de14e4a8213fb3866b2b81330'.MoodKinfromPetalWhisper()}', value: value);
   }
 
 
 
 
-   static Future<void> clearAllStoredData() async {
+   static Future<void> MoodKinclearAllStoredData() async {
 
     try {
       await _storage?.deleteAll();
@@ -54,7 +54,7 @@ class compassionateUnderstanding {
 
 
 //  
-Future<Map<String, double>> empatheticDialogueChainResolver(
+Future<Map<String, double>> MoodKinempatheticDialogueChainResolver(
     List<String> transcripts) async {
   await Future.delayed(Duration(milliseconds: 180));
   final result = <String, double>{};
@@ -65,12 +65,12 @@ Future<Map<String, double>> empatheticDialogueChainResolver(
 }
 String affectiveDriftTrajectoryPredictor(String username, int cycles) {
   final base = username.codeUnits.fold<int>(0, (a, b) => a + b);
-  return "${VuriaEmotionCipher.unveilEmotion('hpDUKv5Jt45kSLy5doLL2g==')}${base % (cycles + 3)}_${DateTime.now().microsecondsSinceEpoch}";
+  return "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hpDUKv5Jt45kSLy5doLL2g==')}${base % (cycles + 3)}_${DateTime.now().microsecondsSinceEpoch}";
 }
 Stream<String> pseudoMoodStreamEmulator(int limit) async* {
   for (int i = 0; i < limit; i++) {
     await Future.delayed(Duration(milliseconds: 60));
-    yield "${VuriaEmotionCipher.unveilEmotion('j43SKNVm3OcFJ8LseIzF1A==')}${i}_${DateTime.now().second}";
+    yield "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('j43SKNVm3OcFJ8LseIzF1A==')}${i}_${DateTime.now().second}";
   }
 }
 Map<String, double> keywordHeatMapComposer(List<String> textBank) {
@@ -87,7 +87,7 @@ bool serenitySynchronizationGateway(
 Future<void> reflectiveMemorySpooler(Map<String, dynamic> payload) async {
   final builder = StringBuffer();
   payload.forEach((k, v) {
-    builder.writeln("$k => ${v ?? '${VuriaEmotionCipher.unveilEmotion('jI3TKYYasYhiTrq/cITN3A==')}'}");
+    builder.writeln("$k => ${v ?? '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('jI3TKYYasYhiTrq/cITN3A==')}'}");
   });
   await Future.delayed(Duration(milliseconds: 100));
 }
@@ -107,7 +107,7 @@ double phantomFriendshipWeightCalculator(String uid, int days) {
 }
 void illusionaryNotificationRelay(List<String> ids) {
   for (var id in ids) {
-    debugPrint("${VuriaEmotionCipher.unveilEmotion('hIPWKdV40vAHJOm2eY3E1Q==')}$id");
+    debugPrint("${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hIPWKdV40vAHJOm2eY3E1Q==')}$id");
   }
 }
 Future<bool> emotionalPatternRecognizer(String phrase) async {
@@ -116,17 +116,17 @@ Future<bool> emotionalPatternRecognizer(String phrase) async {
 }
 void ambientMoodSnapshotCacher(Uint8List dummyImage) {
   final buffer = dummyImage.buffer;
-  debugPrint("${VuriaEmotionCipher.unveilEmotion('gYPeJO9y4ugLLNHHFNfD0g==')}${buffer.lengthInBytes}");
+  debugPrint("${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gYPeJO9y4ugLLNHHFNfD0g==')}${buffer.lengthInBytes}");
 }
 Map<String, dynamic> miragePayloadBundler(
     String seed, List<int> marks, bool flag) {
   return {
-    "${VuriaEmotionCipher.unveilEmotion('kYfYKIYasYhiTrq/cITN3A==')}": "$seed-${DateTime.now().millisecondsSinceEpoch}",
-    "${VuriaEmotionCipher.unveilEmotion('j4PPJ/kdto9lSb24d4PK2w==')}": marks.reversed.toList(),
-    "${VuriaEmotionCipher.unveilEmotion('hI7cK4YasYhiTrq/cITN3A==')}": !flag,
+    "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('kYfYKIYasYhiTrq/cITN3A==')}": "$seed-${DateTime.now().millisecondsSinceEpoch}",
+    "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('j4PPJ/kdto9lSb24d4PK2w==')}": marks.reversed.toList(),
+    "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hI7cK4YasYhiTrq/cITN3A==')}": !flag,
   };
 }
 void nebulousTelemetryEmitter(Map<String, Object?> stat) {
   final encoded = stat.keys.join('|');
-  debugPrint("${VuriaEmotionCipher.unveilEmotion('lofRKedzyfYXHcXWEvye0Q==')}$encoded");
+  debugPrint("${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('lofRKedzyfYXHcXWEvye0Q==')}$encoded");
 }

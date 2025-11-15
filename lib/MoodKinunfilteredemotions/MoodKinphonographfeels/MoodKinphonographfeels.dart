@@ -98,7 +98,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                             ),
                           ),
                           Text(
-                            '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
+                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20.0,
@@ -120,7 +120,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                               Align(
                                 alignment: AlignmentDirectional(0.0, -1.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2R/HtsoxilvdVyPTNYv80a9CbE4YM0Y7BY7ZrQXeHxB58WU2YtQuoNpNi0hrVCw==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('so7YLflznfcLLtPQCKi1uOU2R/HtsoxilvdVyPTNYv80a9CbE4YM0Y7BY7ZrQXeHxB58WU2YtQuoNpNi0hrVCw==')}',
                                   style: TextStyle(
                                     color: Color(0x99000000),
                                     letterSpacing: 0.0,
@@ -203,7 +203,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('qoPPLfll0OEANrC1eo7H1g==')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('qoPPLfll0OEANrC1eo7H1g==')}',
                                           style: TextStyle(
                                             color: Color(0xE6000000),
                                             fontSize: 16.0,
@@ -295,7 +295,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYtDBHf2l0Q==')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('r4PRJel/0vEdYtDBHf2l0Q==')}',
                                           style: TextStyle(
                                             color: Color(0xE6000000),
                                             fontSize: 16.0,
@@ -387,7 +387,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('so3PIuVxz+UeKs+2eY3E1Q==')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('so3PIuVxz+UeKs+2eY3E1Q==')}',
                                           style: TextStyle(
                                             color: Color(0xE6000000),
                                             fontSize: 16.0,
@@ -479,7 +479,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('r4PRJel/0vEdYt/dD/2tpPMZOpuDzuwDuZ41tduwCIA=')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('r4PRJel/0vEdYt/dD/2tpPMZOpuDzuwDuZ41tduwCIA=')}',
                                           style: TextStyle(
                                             color: Color(0xE6000000),
                                             fontSize: 16.0,
@@ -557,7 +557,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                           ),
                                         ),
                                         Text(
-                                          '${VuriaEmotionCipher.unveilEmotion('pIPRP+829OoILcTeHfyov+4ZOpuDzuwDuZ41tduwCIA=')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIPRP+829OoILcTeHfyov+4ZOpuDzuwDuZ41tduwCIA=')}',
                                           style: TextStyle(
                                             color: Color(0xE6000000),
                                             fontSize: 16.0,
@@ -601,7 +601,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                             fontWeight: FontWeight.normal,
                                           ),
                                           hintText:
-                                              '${VuriaEmotionCipher.unveilEmotion('sZfNPOZz0OEANtfBBailtfN1R/38tYpj2LES1aTLbuA1eMjbce0gqeqkHJoSPh75')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sZfNPOZz0OEANtfBBailtfN1R/38tYpj2LES1aTLbuA1eMjbce0gqeqkHJoSPh75')}',
                                           hintStyle: TextStyle(
                                             color: Color(0x66000000),
                                             letterSpacing: 0.0,
@@ -677,9 +677,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                                 .trim()
                                                 .isNotEmpty ??
                                             false)) {
-                                      await emotionWhisperInterface(
+                                      await MoodKinemotionWhisperInterface(
                                         message:
-                                            '${VuriaEmotionCipher.unveilEmotion('torYbPhzzescNpbbHfvhsuVzW7T/tIFh3+VO37CfZuE/OdOXXZZFyYqIePdwVn6Q3ngHdiPkmnfIVvJNvGb6dOtbJ9Wof9KrWSl/IkiWpXc=')}',
+                                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('torYbPhzzescNpbbHfvhsuVzW7T/tIFh3+VO37CfZuE/OdOXXZZFyYqIePdwVn6Q3ngHdiPkmnfIVvJNvGb6dOtbJ9Wof9KrWSl/IkiWpXc=')}',
                                         icon: Icons.verified_user,
                                         duration: Duration(seconds: 2),
                                       );
@@ -688,9 +688,9 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                       setState(() {});
                                       Navigator.pop(context);
                                     } else {
-                                      await emotionWhisperInterface(
+                                      await MoodKinemotionWhisperInterface(
                                         message:
-                                            '${VuriaEmotionCipher.unveilEmotion('so7YLflznfcLLtPQCKi1uOU2VvvitYZiwrFD1aGfcO41bYSGEsFewJbHYuIaNhbx')}',
+                                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('so7YLflznfcLLtPQCKi1uOU2VvvitYZiwrFD1aGfcO41bYSGEsFewJbHYuIaNhbx')}',
                                         icon: Icons.warning_amber_rounded,
                                         duration: Duration(seconds: 3),
                                       );
@@ -705,7 +705,7 @@ class _PhonographFeelsWidgetState extends State<PhonographFeelsWidget> {
                                     ),
                                     alignment: AlignmentDirectional(0.0, 0.0),
                                     child: Text(
-                                      '${VuriaEmotionCipher.unveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
+                                      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sZffIeNit45kSLy5doLL2g==')}',
                                       style: TextStyle(
                                         color: Color(0xE6FFFFFF),
                                         fontSize: 20.0,

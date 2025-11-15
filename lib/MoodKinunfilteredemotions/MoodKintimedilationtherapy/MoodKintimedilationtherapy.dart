@@ -123,7 +123,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                             ),
                           ),
                           Text(
-                            '${VuriaEmotionCipher.unveilEmotion('h4bUOKpmz+sIK9rWeIzF1A==')}',
+                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('h4bUOKpmz+sIK9rWeIzF1A==')}',
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20.0,
@@ -355,16 +355,16 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                                   .empatheticConversationLounge,
                                   );
                                   genuineSynapseLocus().update(() {});
-                                  await emotionWhisperInterface(
-                                    message: VuriaEmotionCipher.unveilEmotion(
+                                  await MoodKinemotionWhisperInterface(
+                                    message: MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                         'r43ZJex/3uUaK9ndXPu0s+NzRufqtI8tvpkysty3D4c='),
                                     icon: Icons.check_circle_rounded,
                                     duration: Duration(seconds: 2),
                                   );
                                   Navigator.pop(context);
                                 } else {
-                                  await emotionWhisperInterface(
-                                    message: VuriaEmotionCipher.unveilEmotion(
+                                  await MoodKinemotionWhisperInterface(
+                                    message: MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                         'so7YLflzneUaYtrWHfu18O15Uf3quMN12eRImrXJZvs6a4SD8FCzIXDfvdzVxD3'),
                                     icon: Icons.warning_amber_rounded,
                                     duration: Duration(seconds: 3),
@@ -386,7 +386,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                 ),
                                 alignment: AlignmentDirectional(0.0, 0.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
                                   style: TextStyle(
                                     color: (vulnerableTemporalLobe != null ||
                                             (genuineFrontalLobe?.text

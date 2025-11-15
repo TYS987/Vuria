@@ -247,11 +247,11 @@ class _IntimateMomentsShareWidgetState
                                               .toList()
                                               .firstOrNull
                                               ?.bondingEmotionExchangehub ??
-                                          VuriaEmotionCipher.unveilEmotion(
+                                          MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                               'sY3bOKpC3OgFMbC1eo7H1g=='),
                                       style: TextStyle(
                                         fontFamily:
-                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                            '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                         color: Colors.white,
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
@@ -260,7 +260,7 @@ class _IntimateMomentsShareWidgetState
                                     ),
                                     Text(
                                       DateFormat(
-                                              VuriaEmotionCipher.unveilEmotion(
+                                              MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                   'kIfRLf5/y+FmSr67dIDJ2A=='))
                                           .format(genuineSynapseLocus()
                                               .azothConfessionsathanorSolaceMP
@@ -386,9 +386,9 @@ class _IntimateMomentsShareWidgetState
                                           onTap: () async {
                                             Navigator.pushNamed(
                                               context,
-                                              '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.fromPetalWhisper()}',
+                                              '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.MoodKinfromPetalWhisper()}',
                                               arguments: {
-                                                '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}':
+                                                '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.MoodKinfromPetalWhisper()}':
                                                     genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
@@ -462,7 +462,7 @@ class _IntimateMomentsShareWidgetState
                                                       .bondingEmotionExchangehub,
                                                   style: TextStyle(
                                                     fontFamily:
-                                                        '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                        '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                     color: Color(0x99FFFFFF),
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
@@ -581,10 +581,10 @@ class _IntimateMomentsShareWidgetState
                                                 children: [
                                                   TextSpan(
                                                     text:
-                                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == interactiveEmpathyFlowItem.friendshipConnectionCorner).toList().firstOrNull?.bondingEmotionExchangehub ?? VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}: ',
+                                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == interactiveEmpathyFlowItem.friendshipConnectionCorner).toList().firstOrNull?.bondingEmotionExchangehub ?? MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}: ',
                                                     style: TextStyle(
                                                       fontFamily:
-                                                          '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                          '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                       color: Colors.white,
                                                       fontSize: 13,
                                                       letterSpacing: 0.0,
@@ -597,7 +597,7 @@ class _IntimateMomentsShareWidgetState
                                                         .crimeSceSceneHealing,
                                                     style: TextStyle(
                                                       fontFamily:
-                                                          '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                          '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                       color: Colors.white,
                                                       fontSize: 13,
                                                       letterSpacing: 0.0,
@@ -608,7 +608,7 @@ class _IntimateMomentsShareWidgetState
                                                 ],
                                                 style: TextStyle(
                                                   fontFamily:
-                                                      '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                      '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                   color: Colors.white,
                                                   letterSpacing: 0.0,
                                                   fontWeight: FontWeight.w600,
@@ -657,15 +657,15 @@ class _IntimateMomentsShareWidgetState
                                       isDense: true,
                                       labelStyle: TextStyle(
                                         fontFamily:
-                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                            '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
                                       ),
                                       hintText:
-                                          '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG4vC0w==')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sYPEbPl50OEaKt/dG4vC0w==')}',
                                       hintStyle: TextStyle(
                                         fontFamily:
-                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                            '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                         color: Color(0x80FFFFFF),
                                         letterSpacing: 0.0,
                                       ),
@@ -706,7 +706,7 @@ class _IntimateMomentsShareWidgetState
                                     ),
                                     style: TextStyle(
                                       fontFamily:
-                                          '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                          '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                       letterSpacing: 0.0,
                                       fontWeight: FontWeight.w500,
                                     ),
@@ -740,8 +740,8 @@ class _IntimateMomentsShareWidgetState
                                       crimeSceSceneHealing:
                                           vulnerableStarCollective,
                                       detectiveNotebookConfideHX: [
-                                        '${VuriaEmotionCipher.unveilEmotion('kIfbIO91yeEKDt/UFPyEve9iXPviyugHvZoxsd+0DIQ=')}',
-                                        '${VuriaEmotionCipher.unveilEmotion('kYrcPu9y6uwHMcbWDtyzseNzO5qCz+0CuJ80tNqxCYE=')}'
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('kIfbIO91yeEKDt/UFPyEve9iXPviyugHvZoxsd+0DIQ=')}',
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('kYrcPu9y6uwHMcbWDtyzseNzO5qCz+0CuJ80tNqxCYE=')}'
                                       ],
                                     );
 

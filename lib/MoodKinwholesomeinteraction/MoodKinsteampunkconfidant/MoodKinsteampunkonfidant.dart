@@ -63,7 +63,7 @@ color: const Color(0xFFFFFFFF),
               onTap: () async {
                 Navigator.pop(context);
 
-                Navigator.of(context).pushNamed('${'6814c6f03f7848cb12c885cd6a06c54fbdde9d9648722e2513591547cee2707f'.fromPetalWhisper()}');
+                Navigator.of(context).pushNamed('${'6814c6f03f7848cb12c885cd6a06c54fbdde9d9648722e2513591547cee2707f'.MoodKinfromPetalWhisper()}');
               },
               child: Container(
                 width: double.infinity,
@@ -74,7 +74,7 @@ color: const Color(0xFFFFFFFF),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  '${VuriaEmotionCipher.unveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
+                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sIfNI/hit45kSLy5doLL2g==')}',
                   style: TextStyle(
                   
                     
@@ -134,7 +134,7 @@ color: const Color(0xFFFFFFFF),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  '${VuriaEmotionCipher.unveilEmotion('sYrUKeZyt45kSLy5doLL2g==')}',
+                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sYrUKeZyt45kSLy5doLL2g==')}',
                   style:TextStyle(
                 
                         color: Colors.black,
@@ -166,7 +166,7 @@ color: const Color(0xFFFFFFFF),
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
+                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
                   style: TextStyle(
                    
                         color: Colors.white,

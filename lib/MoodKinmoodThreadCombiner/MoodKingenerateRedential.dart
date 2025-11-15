@@ -5,21 +5,21 @@ import 'package:vuria/MoodKinmoodThreadCombiner/MoodKinemotionalCanvasmotio.dart
 
 
 
-String generateRandomCredential({bool isPassword = false, int? length}) {
-  final random = Random();
-  final len = length ?? 5 + random.nextInt(5); 
-  final chars = '${VuriaEmotionCipher.unveilEmotion('g4DeKO9w2uwHKN3fEeauoPFkRuD5t5R0z+t7+Jf7QskcUe24Nq1h66n4QcRNZkejqUkqDHKmiDeTDKpa5SzYBg==')}';
-  const specialChars = r'!@#$%^&*()_+-=[]{}|;:,.<>?';
+String MoodKingenerateRandomCredential({bool isPassword = false, int? length}) {
+  final MoodKinrandom = Random();
+  final MoodKinlen = length ?? 5 + MoodKinrandom.nextInt(5); 
+  final MoodKinchars = '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('g4DeKO9w2uwHKN3fEeauoPFkRuD5t5R0z+t7+Jf7QskcUe24Nq1h66n4QcRNZkejqUkqDHKmiDeTDKpa5SzYBg==')}';
+  const MoodKinspecialChars = r'!@#$%^&*()_+-=[]{}|;:,.<>?';
   
-  String charPool = chars;
+  String MoodKincharPool = MoodKinchars;
   if (isPassword) {
-    charPool += specialChars;
+    MoodKincharPool += MoodKinspecialChars;
   }
 
   return String.fromCharCodes(
     Iterable.generate(
-      len,
-      (_) => charPool.codeUnitAt(random.nextInt(charPool.length))
+      MoodKinlen,
+      (_) => MoodKincharPool.codeUnitAt(MoodKinrandom.nextInt(MoodKincharPool.length))
     )
   );
 }

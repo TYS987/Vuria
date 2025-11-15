@@ -15,31 +15,31 @@ import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKingenuineConnectionArc
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-    final appState = genuineSynapseLocus();
-  await appState.initializePersistedState();
-  await heartStateInterpreterDriver();
+    final MoodKinappState = genuineSynapseLocus();
+  await MoodKinappState.initializePersistedState();
+  await MoodKinheartStateInterpreterDriver();
   await MoodKinEmotionalWhisperer();
 
 
 
 
 
-  final MethodChannel holisticEmotionalityHub = MethodChannel(
-      '${'2b5868eab551236920bac76ce3a1f717b145913f3217980fae501ed343044123'.fromPetalWhisper()}');
-  holisticEmotionalityHub
-      .setMethodCallHandler((MethodCall integratedFeelingGateway) async {
-    if (integratedFeelingGateway.method ==
-        '${'5e4e75bd5129ea0611d89254e2d80071f200373722fac553ad65db94cb4adc56'.fromPetalWhisper()}') {
+  final MethodChannel MoodKinholisticEmotionalityHub = MethodChannel(
+      '${'2b5868eab551236920bac76ce3a1f717b145913f3217980fae501ed343044123'.MoodKinfromPetalWhisper()}');
+  MoodKinholisticEmotionalityHub
+      .setMethodCallHandler((MethodCall MoodKinintegratedFeelingGateway) async {
+    if (MoodKinintegratedFeelingGateway.method ==
+        '${'5e4e75bd5129ea0611d89254e2d80071f200373722fac553ad65db94cb4adc56'.MoodKinfromPetalWhisper()}') {
       genuineSynapseLocus().sincereAttachmentPortal =
-          integratedFeelingGateway.arguments;
+          MoodKinintegratedFeelingGateway.arguments;
     }
       usePathUrlStrategy();
   });
-  configLoading();
-  await compassionateUnderstanding.initStorage();
+  MoodKinconfigLoading();
+  await MoodKincompassionateUnderstanding.initStorage();
 
   runApp(ChangeNotifierProvider(
-    create: (context) => appState,
+    create: (context) => MoodKinappState,
     child: MyApp(),
   ));
 }

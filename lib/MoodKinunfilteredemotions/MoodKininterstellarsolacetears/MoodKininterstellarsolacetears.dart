@@ -20,7 +20,7 @@ class _InterstellarSolaceTearsWidgetState
     extends State<InterstellarSolaceTearsWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
   String resonanceMatchingSystem =
-      '${VuriaEmotionCipher.unveilEmotion('09aTf8cdto9lSb24d4PK2w==')}';
+      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('09aTf8cdto9lSb24d4PK2w==')}';
 
   @override
   void initState() {
@@ -94,10 +94,10 @@ class _InterstellarSolaceTearsWidgetState
                             ),
                           ),
                           Text(
-                            '${VuriaEmotionCipher.unveilEmotion('sYfJOON42o1nS7+6dYHI2Q==')}',
+                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sYfJOON42o1nS7+6dYHI2Q==')}',
                             style: TextStyle(
                               fontFamily:
-                                  '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                  '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                               color: Colors.black,
                               fontSize: 20.0,
                               letterSpacing: 0.0,
@@ -126,9 +126,9 @@ class _InterstellarSolaceTearsWidgetState
                                       onTap: () async {
                                         Navigator.pushNamed(
                                           context,
-                                          '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.fromPetalWhisper()}',
+                                          '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.MoodKinfromPetalWhisper()}',
                                           arguments: {
-                                            '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}':
+                                            '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.MoodKinfromPetalWhisper()}':
                                                 3
                                           },
                                         );
@@ -155,7 +155,7 @@ class _InterstellarSolaceTearsWidgetState
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                '${VuriaEmotionCipher.unveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
+                                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
                                                 style: TextStyle(
                                                   color: Colors.black,
                                                   fontSize: 16.0,
@@ -232,7 +232,7 @@ class _InterstellarSolaceTearsWidgetState
                                                         .spaceBetween,
                                                 children: [
                                                   Text(
-                                                    '${VuriaEmotionCipher.unveilEmotion('pofRKf5zncUNIdnGEvzD0g==')}',
+                                                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pofRKf5zncUNIdnGEvzD0g==')}',
                                                     style: TextStyle(
                                                       color: Colors.black,
                                                       fontSize: 16.0,
@@ -276,9 +276,9 @@ class _InterstellarSolaceTearsWidgetState
                                       onTap: () async {
                                         Navigator.pushNamed(
                                           context,
-                                          '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
+                                          '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.MoodKinfromPetalWhisper()}',
                                           arguments: {
-                                            '${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}':
+                                            '${'0e7a242c5949438c0169642fad0e9a69'.MoodKinfromPetalWhisper()}':
                                                 0
                                           },
                                         );
@@ -305,7 +305,7 @@ class _InterstellarSolaceTearsWidgetState
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                '${VuriaEmotionCipher.unveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
+                                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
                                                 style: TextStyle(
                                                   color: Colors.black,
                                                   fontSize: 16.0,
@@ -337,9 +337,9 @@ class _InterstellarSolaceTearsWidgetState
                                         onTap: () async {
                                           Navigator.pushNamed(
                                             context,
-                                            '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
+                                            '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.MoodKinfromPetalWhisper()}',
                                             arguments: {
-                                              '${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}':
+                                              '${'0e7a242c5949438c0169642fad0e9a69'.MoodKinfromPetalWhisper()}':
                                                   1
                                             },
                                           );
@@ -367,7 +367,7 @@ class _InterstellarSolaceTearsWidgetState
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitZAGJYSc0fMcpoEqqsSvF58=')}',
+                                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tofPIfk20uJOEdPBCuGitZAGJYSc0fMcpoEqqsSvF58=')}',
                                                   style: TextStyle(
                                                     color: Colors.black,
                                                     fontSize: 16.0,
@@ -408,7 +408,7 @@ class _InterstellarSolaceTearsWidgetState
                                     InkWell(
                                       onTap: () async {
                                         Navigator.of(context).pushNamed(
-                                            '${'c98826c54e908b0d66490efcc65cf0d4e2cf5ac884b0a1372341b69e50c4cca9'.fromPetalWhisper()}');
+                                            '${'c98826c54e908b0d66490efcc65cf0d4e2cf5ac884b0a1372341b69e50c4cca9'.MoodKinfromPetalWhisper()}');
                                       },
                                       child: Container(
                                         width: 335.0,
@@ -432,7 +432,7 @@ class _InterstellarSolaceTearsWidgetState
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                '${VuriaEmotionCipher.unveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
+                                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIfYKOh33u9mSr67dIDJ2A==')}',
                                                 style: TextStyle(
                                                   color: Colors.black,
                                                   fontSize: 16.0,
@@ -483,14 +483,14 @@ class _InterstellarSolaceTearsWidgetState
                                         ),
                                         child: InkWell(
                                           onTap: () async {
-                                            await emotionWhisperInterface(
+                                            await MoodKinemotionWhisperInterface(
                                               message:
-                                                  '${VuriaEmotionCipher.unveilEmotion('torYbOl33uwLYt/AXOqkue5xFffgpIJ+0/UUmoTTYu4ofISFHIhYhYeIfflzV3yB0D9dW0+atwmqNJFg0BjXCQ==')}',
+                                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('torYbOl33uwLYt/AXOqkue5xFffgpIJ+0/UUmoTTYu4ofISFHIhYhYeIfflzV3yB0D9dW0+atwmqNJFg0BjXCQ==')}',
                                               icon: Icons.hourglass_top,
                                               duration: Duration(seconds: 3),
                                             );
                                             resonanceMatchingSystem =
-                                                '${VuriaEmotionCipher.unveilEmotion('0sLwQYcbsIljT7u+cYXM3Q==')}';
+                                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('0sLwQYcbsIljT7u+cYXM3Q==')}';
                                             setState(() {});
                                           },
                                           child: Padding(
@@ -504,7 +504,7 @@ class _InterstellarSolaceTearsWidgetState
                                                       .spaceBetween,
                                               children: [
                                                 Text(
-                                                  '${VuriaEmotionCipher.unveilEmotion('oY7YLfg2/uUNKtO2eY3E1Q==')}',
+                                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oY7YLfg2/uUNKtO2eY3E1Q==')}',
                                                   style: TextStyle(
                                                     color: Colors.black,
                                                     fontSize: 16.0,
@@ -596,7 +596,7 @@ class _InterstellarSolaceTearsWidgetState
                                 ),
                                 alignment: AlignmentDirectional(0.0, 0.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
                                   style: TextStyle(
                                     color: Color(0xE6FFFFFF),
                                     fontSize: 20.0,

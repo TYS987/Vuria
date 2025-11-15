@@ -43,9 +43,9 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
   }
 
   Future<void> chambersoulfulExpressions() async {
-    await emotionWhisperInterface(
+    await MoodKinemotionWhisperInterface(
       message:
-          '${VuriaEmotionCipher.unveilEmotion('rI2dbOt4zvMLMNPXXIvC0w==')}',
+          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('rI2dbOt4zvMLMNPXXIvC0w==')}',
       icon: Icons.phone_missed_outlined,
     );
 
@@ -161,7 +161,7 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                                         .toList()
                                         .firstOrNull
                                         ?.bondingEmotionExchangehub ??
-                                    '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
+                                    '${'8d73195cc1c79eefdd09496876397ae6'.MoodKinfromPetalWhisper()}',
                                 style: TextStyle(
                                   color: Colors.white,
                                   fontSize: 24.0,
@@ -244,7 +244,7 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
             Align(
               alignment: AlignmentDirectional(0, 0),
               child: Text(
-                '${VuriaEmotionCipher.unveilEmotion('oYPRION42qpAbLC1eo7H1g==')}',
+                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oYPRION42qpAbLC1eo7H1g==')}',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24.0,

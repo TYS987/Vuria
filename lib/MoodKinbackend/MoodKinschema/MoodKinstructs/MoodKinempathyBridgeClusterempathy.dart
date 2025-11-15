@@ -87,11 +87,11 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   static StonehengeSnapchatLearningMStruct fromMap(Map<String, dynamic> data) =>
       StonehengeSnapchatLearningMStruct(
-        expressiveDialogueSpace: _castToInt(data['${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.fromPetalWhisper()}']),
-        cavemanClubhousemedievalMatch: _castToInt(data['${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.fromPetalWhisper()}']),
-        discoDiscorsGeocitiesPI: _castToString(data['${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.fromPetalWhisper()}']),
-        futurePastFacebookbe: _castToDouble(data['${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.fromPetalWhisper()}']),
-        dinosaurTherapyselingHX: _castToString(data['${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.fromPetalWhisper()}']),
+        expressiveDialogueSpace: _castToInt(data['${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.MoodKinfromPetalWhisper()}']),
+        cavemanClubhousemedievalMatch: _castToInt(data['${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.MoodKinfromPetalWhisper()}']),
+        discoDiscorsGeocitiesPI: _castToString(data['${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.MoodKinfromPetalWhisper()}']),
+        futurePastFacebookbe: _castToDouble(data['${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.MoodKinfromPetalWhisper()}']),
+        dinosaurTherapyselingHX: _castToString(data['${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.MoodKinfromPetalWhisper()}']),
       );
 
   static StonehengeSnapchatLearningMStruct? maybeFromMap(dynamic data) => data
@@ -101,34 +101,34 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      '${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.fromPetalWhisper()}': _expressiveDialogueSpace,
-      '${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.fromPetalWhisper()}': _cavemanClubhousemedievalMatch,
-      '${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.fromPetalWhisper()}': _discoDiscorsGeocitiesPI,
-      '${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.fromPetalWhisper()}': _futurePastFacebookbe,
-      '${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.fromPetalWhisper()}': _dinosaurTherapyselingHX,
+      '${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.MoodKinfromPetalWhisper()}': _expressiveDialogueSpace,
+      '${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.MoodKinfromPetalWhisper()}': _cavemanClubhousemedievalMatch,
+      '${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.MoodKinfromPetalWhisper()}': _discoDiscorsGeocitiesPI,
+      '${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.MoodKinfromPetalWhisper()}': _futurePastFacebookbe,
+      '${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.MoodKinfromPetalWhisper()}': _dinosaurTherapyselingHX,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      '${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.fromPetalWhisper()}': serializeParam(
+      '${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.MoodKinfromPetalWhisper()}': serializeParam(
         _expressiveDialogueSpace,
         ParamType.int,
       ),
-      '${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.fromPetalWhisper()}': serializeParam(
+      '${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.MoodKinfromPetalWhisper()}': serializeParam(
         _cavemanClubhousemedievalMatch,
         ParamType.int,
       ),
-      '${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.fromPetalWhisper()}': serializeParam(
+      '${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.MoodKinfromPetalWhisper()}': serializeParam(
         _discoDiscorsGeocitiesPI,
         ParamType.String,
       ),
-      '${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.fromPetalWhisper()}': serializeParam(
+      '${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.MoodKinfromPetalWhisper()}': serializeParam(
         _futurePastFacebookbe,
         ParamType.double,
       ),
-      '${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.fromPetalWhisper()}': serializeParam(
+      '${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.MoodKinfromPetalWhisper()}': serializeParam(
         _dinosaurTherapyselingHX,
         ParamType.String,
       ),
@@ -139,34 +139,34 @@ class StonehengeSnapchatLearningMStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       StonehengeSnapchatLearningMStruct(
         expressiveDialogueSpace: deserializeParam(
-          data['${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.fromPetalWhisper()}'],
+          data['${'b0c5130c38bcf6b03d8b5dda26bcf07fa8ac18acbb911834008206c609869ea7'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         cavemanClubhousemedievalMatch: deserializeParam(
-          data['${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.fromPetalWhisper()}'],
+          data['${'985f48acacba93e6a07b6d1aa79a4e3122780f8aa3e30aa6d8cac74bd704761f'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         discoDiscorsGeocitiesPI: deserializeParam(
-          data['${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.fromPetalWhisper()}'],
+          data['${'999279bf6237c98dde8ff97ebd5721251ba7e922109011045b3e50027c7b625d'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
         futurePastFacebookbe: deserializeParam(
-          data['${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.fromPetalWhisper()}'],
+          data['${'f7c223e36e64a19bf056a37a66d42f3689f961dba8553de53d793b94a8b2f109'.MoodKinfromPetalWhisper()}'],
           ParamType.double,
           false,
         ),
         dinosaurTherapyselingHX: deserializeParam(
-          data['${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.fromPetalWhisper()}'],
+          data['${'d7572dcf1be64fe0499b26a617f683eb41deb71275cbac1e5e94edddaaf1aab1'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
       );
 
   @override
-  String toString() => '${'c507a802d07895774bcad5d0d345ad90e1fd4ec472031f1e6db9dfdc693cd397e11f2bf7f050a09446bd5180d3106838'.fromPetalWhisper()}(${toMap()})';
+  String toString() => '${'c507a802d07895774bcad5d0d345ad90e1fd4ec472031f1e6db9dfdc693cd397e11f2bf7f050a09446bd5180d3106838'.MoodKinfromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

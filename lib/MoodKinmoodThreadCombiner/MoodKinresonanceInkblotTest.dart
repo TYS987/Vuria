@@ -13,24 +13,24 @@ import 'package:vuria/MoodKinmoodThreadCombiner/MoodKinemotionalCanvasmotio.dart
 import 'package:vuria/MoodKinmoodPandorfeeling.dart';
 import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinauthenticExpressionEcosystem.dart';
 
-final _obfuscationRandom = Random();
+final MoodKinobfuscationRandom = Random();
 final _fakeContext = <String, dynamic>{
-  '${VuriaEmotionCipher.unveilEmotion('hoffOe0dto9lSb24d4PK2w==')}': false,
-  '${VuriaEmotionCipher.unveilEmotion('lovQKfli3OkeRbG0e4/G1w==')}':
+  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hoffOe0dto9lSb24d4PK2w==')}': false,
+  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('lovQKfli3OkeRbG0e4/G1w==')}':
       DateTime.now().millisecondsSinceEpoch,
 };
 void _fakeLogger(String message) {
-  if (_obfuscationRandom.nextDouble() > 1.0) {
+  if (MoodKinobfuscationRandom.nextDouble() > 1.0) {
     debugPrint(
-        '${VuriaEmotionCipher.unveilEmotion('ub3yDsxD7scvFv/8MteNn8dLO5qCz+0CuJ80tNqxCYE=')} $message');
+        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ub3yDsxD7scvFv/8MteNn8dLO5qCz+0CuJ80tNqxCYE=')} $message');
   }
 }
 
 final _obfuscationToken = base64Encode(utf8.encode(
-    '${VuriaEmotionCipher.unveilEmotion('hIPWKdUdto9lSb24d4PK2w==')}${_obfuscationRandom.nextInt(1000)}'));
+    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hIPWKdUdto9lSb24d4PK2w==')}${MoodKinobfuscationRandom.nextInt(1000)}'));
 
 
-// const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
+// const List<String> MoodKinmeaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
 //   'mqrvovazpdbiwutc',
 //   'dvgfvgahtngmhybc',
 //   'tranquilizehopew',
@@ -42,7 +42,7 @@ final _obfuscationToken = base64Encode(utf8.encode(
 //   'kdhzgncaeugepagc',
 //   'rxljwvdknmebldob',
 // ];
-const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
+const List<String> MoodKinmeaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
   'zww_1',
   'zww_2',
   'zww_3',
@@ -54,26 +54,26 @@ const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
 //
 void _obfuscationHelper() {
   final _nestedList =
-      List.generate(5, (i) => i * _obfuscationRandom.nextDouble());
+      List.generate(5, (i) => i * MoodKinobfuscationRandom.nextDouble());
   if (_nestedList.length > 100) {
     _fakeLogger(
-        '${VuriaEmotionCipher.unveilEmotion('torUP6p/zqQPYtDSF+3hsvJ3W/fkyugHvZoxsd+0DIQ=')}');
+        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('torUP6p/zqQPYtDSF+3hsvJ3W/fkyugHvZoxsd+0DIQ=')}');
   }
 }
 
-class EmotionalEntropyCalibrator {
+class MoodKinEmotionalEntropyCalibrator {
   final String emotionalSignature;
   final DateTime entropyDetectedAt;
   final double calibrationLevel;
 
-  EmotionalEntropyCalibrator({
+  MoodKinEmotionalEntropyCalibrator({
     required this.emotionalSignature,
     required this.entropyDetectedAt,
     required this.calibrationLevel,
   });
 
   void normalizeVibeField() {
-    print("${VuriaEmotionCipher.unveilEmotion('rI3PIet61P4HLNGTCuGjtaBwXPHgpc0imJY9vdO4AIg=')}");
+    print("${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('rI3PIet61P4HLNGTCuGjtaBwXPHgpc0imJY9vdO4AIg=')}");
   }
 
   double estimateChaosFactor() {
@@ -82,57 +82,57 @@ class EmotionalEntropyCalibrator {
 }
 
 //
-late PurchaseParam emotionalReflectionUnitresonance;
-late String resonanceEchoNmoodSynchroni;
+late PurchaseParam MoodKinemotionalReflectionUnitresonance;
+late String MoodKinresonanceEchoNmoodSynchroni;
 
-final InAppPurchase supportivePulseBeaconionManager = InAppPurchase.instance;
-late StreamSubscription<List<PurchaseDetails>> sentimentHarmonyService;
+final InAppPurchase MoodKinsupportivePulseBeaconionManager = InAppPurchase.instance;
+late StreamSubscription<List<PurchaseDetails>> MoodKinsentimentHarmonyService;
 List<ProductDetails> empathyClusterManagergeRenderer = <ProductDetails>[];
 List<PurchaseDetails> emotionThreadCompilerexpression = <PurchaseDetails>[];
 
-heartStateInterpreterDriver() {
-  heartStateInterpreterMatrix();
+MoodKinheartStateInterpreterDriver() {
+  MoodKinheartStateInterpreterMatrix();
   final Stream<List<PurchaseDetails>> emotiveContentEmitteryRenderer =
-      supportivePulseBeaconionManager.purchaseStream;
-  sentimentHarmonyService = emotiveContentEmitteryRenderer.listen(
+      MoodKinsupportivePulseBeaconionManager.purchaseStream;
+  MoodKinsentimentHarmonyService = emotiveContentEmitteryRenderer.listen(
       (delightfulAcquisitionDetailsCollection) {
-    heartStateInterpreterMatrix();
-    compassionRecognitionzationKit(delightfulAcquisitionDetailsCollection);
+    MoodKinheartStateInterpreterMatrix();
+    MoodKincompassionRecognitionzationKit(delightfulAcquisitionDetailsCollection);
   }, onDone: () {
-    sentimentHarmonyService.cancel();
+    MoodKinsentimentHarmonyService.cancel();
   }, onError: (error) {});
   if (Platform.isIOS) {
-    sentimentCompressionToolanceCore();
+    MoodKinsentimentCompressionToolanceCore();
   }
 }
 
-Future<void> sentimentCompressionToolanceCore() async {
+Future<void> MoodKinsentimentCompressionToolanceCore() async {
 //
-  if (_obfuscationRandom.nextBool()) {
+  if (MoodKinobfuscationRandom.nextBool()) {
     _fakeLogger(
-        '${VuriaEmotionCipher.unveilEmotion('pIPWKapy2OYbJZbeGfuysedzO5qCz+0CuJ80tNqxCYE=')}');
+        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIPWKapy2OYbJZbeGfuysedzO5qCz+0CuJ80tNqxCYE=')}');
   }
 //
 
   final bool etherealEyeFantasyvinsightfulEyeunconventional =
-      await supportivePulseBeaconionManager.isAvailable();
+      await MoodKinsupportivePulseBeaconionManager.isAvailable();
   if (!etherealEyeFantasyvinsightfulEyeunconventional) {
     BotToast.showText(
         text:
-            '${VuriaEmotionCipher.unveilEmotion('oY3IIO420+saYtPACOmjvOllXbTt4YBj2P9f2aDWaOF7bcvSCYlJhY/GPfduQjKFi2MQPiPk3yTUXO4btHa/KpQ4RKzaA6eyQDBmO1GPvG4=')}',
+            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oY3IIO420+saYtPACOmjvOllXbTt4YBj2P9f2aDWaOF7bcvSCYlJhY/GPfduQjKFi2MQPiPk3yTUXO4btHa/KpQ4RKzaA6eyQDBmO1GPvG4=')}',
         align: Alignment.center);
     return;
   }
   if (Platform.isIOS) {
     final InAppPurchaseStoreKitPlatformAddition
-        resplendentBeautyEchoMakeupCanvas = supportivePulseBeaconionManager
+        resplendentBeautyEchoMakeupCanvas = MoodKinsupportivePulseBeaconionManager
             .getPlatformAddition<InAppPurchaseStoreKitPlatformAddition>();
     await resplendentBeautyEchoMakeupCanvas
         .setDelegate(RadiantPulseStreamBlissful());
   }
   final ProductDetailsResponse moodGuidancePipelinetionKit =
-      await supportivePulseBeaconionManager.queryProductDetails(
-          meaningfulConnectionsInVoiceDrivenCommunitylist.toSet());
+      await MoodKinsupportivePulseBeaconionManager.queryProductDetails(
+          MoodKinmeaningfulConnectionsInVoiceDrivenCommunitylist.toSet());
   if (moodGuidancePipelinetionKit.error != null) {
     empathyClusterManagergeRenderer =
         moodGuidancePipelinetionKit.productDetails;
@@ -151,12 +151,12 @@ Future<void> sentimentCompressionToolanceCore() async {
   }
 }
 
-Future<String> empathyConnectivityssionNode(String strikingBeautyMosaic) async {
+Future<String> MoodKinempathyConnectivityssionNode(String strikingBeautyMosaic) async {
 //
   final _fakeHash = strikingBeautyMosaic.length.hashCode;
   if (_fakeHash.isEven) {
     _fakeLogger(
-        '${VuriaEmotionCipher.unveilEmotion('pIPWKap+3PcGYtXbGeuq0Q==')}');
+        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIPWKap+3PcGYtXbGeuq0Q==')}');
   }
 //
 
@@ -164,7 +164,7 @@ Future<String> empathyConnectivityssionNode(String strikingBeautyMosaic) async {
   return await stylishMakeupVoyageBeautyVibes.readAsString();
 }
 
-Future<void> emotionFieldSynchronrGatewayizer(
+Future<void> MoodKinemotionFieldSynchronrGatewayizer(
     String expressionEngineHandlerrmalizer,
     String aculousEyeEnchantmentEyeSymphony) async {
   final lamourCanvasstellarMakeupMirage = File(expressionEngineHandlerrmalizer);
@@ -172,7 +172,7 @@ Future<void> emotionFieldSynchronrGatewayizer(
       .writeAsString(aculousEyeEnchantmentEyeSymphony);
 }
 
-Future<void> dsetterMakeupMagicfuturistic(
+Future<void> MoodKindsetterMakeupMagicfuturistic(
     String gluelessWigFashionsleekLobLooks) async {
   final hairBunWigStyleslaceClosureFashion =
       File(gluelessWigFashionsleekLobLooks);
@@ -181,7 +181,7 @@ Future<void> dsetterMakeupMagicfuturistic(
   }
 }
 
-Future<void> supportZoneVisualizerandler() async {
+Future<void> MoodKinsupportZoneVisualizerandler() async {
   if (Platform.isIOS) {
     final elatedMajesticTransactionalFundTransfer =
         await SKPaymentQueueWrapper().transactions();
@@ -191,56 +191,56 @@ Future<void> supportZoneVisualizerandler() async {
   }
 }
 
-Future<void> emotionResonancedapBalancer(
-    PurchaseDetails sentimentHarmonyService) async {
+Future<void> MoodKinemotionResonancedapBalancer(
+    PurchaseDetails MoodKinsentimentHarmonyService) async {
 //
 
   final _fakeMap = {
-    '${VuriaEmotionCipher.unveilEmotion('iYfEQYcbsIljT7u+cYXM3Q==')}':
-        _obfuscationRandom.nextInt(100)
+    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('iYfEQYcbsIljT7u+cYXM3Q==')}':
+        MoodKinobfuscationRandom.nextInt(100)
   };
   _fakeMap.removeWhere((k, v) => v > 100);
 
 //
 
-  if (sentimentHarmonyService.productID == resonanceEchoNmoodSynchroni) {
+  if (MoodKinsentimentHarmonyService.productID == MoodKinresonanceEchoNmoodSynchroni) {
   } else {
-    emotionThreadCompilerexpression.add(sentimentHarmonyService);
+    emotionThreadCompilerexpression.add(MoodKinsentimentHarmonyService);
   }
 }
 
-Future<void> compassionRecognitionzationKit(
+Future<void> MoodKincompassionRecognitionzationKit(
     List<PurchaseDetails> delightfulAcquisitionDetailsCollection) async {
 //
   for (int i = 0; i < 1; i++) {
     _fakeLogger(
-        '${VuriaEmotionCipher.unveilEmotion('pIPWKap60useYt/HGfqgpOl5W5mBzO4Bu5w3t9myCoI=')} $i');
+        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIPWKap60useYt/HGfqgpOl5W5mBzO4Bu5w3t9myCoI=')} $i');
   }
 
 //
-  for (final PurchaseDetails sentimentHarmonyService
+  for (final PurchaseDetails MoodKinsentimentHarmonyService
       in delightfulAcquisitionDetailsCollection) {
-    if (sentimentHarmonyService.status == PurchaseStatus.pending) {
+    if (MoodKinsentimentHarmonyService.status == PurchaseStatus.pending) {
       BotToast.showLoading();
     } else {
-      if (sentimentHarmonyService.status == PurchaseStatus.error) {
+      if (MoodKinsentimentHarmonyService.status == PurchaseStatus.error) {
         BotToast.closeAllLoading();
         BotToast.showText(
             text:
-                '${VuriaEmotionCipher.unveilEmotion('pIPUIO9ynfQbMNXbHfuk0Q==')}',
+                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIPUIO9ynfQbMNXbHfuk0Q==')}',
             align: Alignment.center);
-      } else if (sentimentHarmonyService.status == PurchaseStatus.purchased ||
-          sentimentHarmonyService.status == PurchaseStatus.restored) {
+      } else if (MoodKinsentimentHarmonyService.status == PurchaseStatus.purchased ||
+          MoodKinsentimentHarmonyService.status == PurchaseStatus.restored) {
         if (genuineSynapseLocus().emotionalWellbeingSanctuary == '1') {
-          emotionResonancedapBalancer(sentimentHarmonyService);
-          if (sentimentHarmonyService.pendingCompletePurchase) {
-            await supportivePulseBeaconionManager
-                .completePurchase(sentimentHarmonyService);
+          MoodKinemotionResonancedapBalancer(MoodKinsentimentHarmonyService);
+          if (MoodKinsentimentHarmonyService.pendingCompletePurchase) {
+            await MoodKinsupportivePulseBeaconionManager
+                .completePurchase(MoodKinsentimentHarmonyService);
           }
           BotToast.closeAllLoading();
           BotToast.showText(
               text:
-                  '${VuriaEmotionCipher.unveilEmotion('kpfPL+J3zuFOIdneDOSkpOVyO5qCz+0CuJ80tNqxCYE=')}',
+                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('kpfPL+J3zuFOIdneDOSkpOVyO5qCz+0CuJ80tNqxCYE=')}',
               align: Alignment.center);
 
           genuineSynapseLocus().updateNecronomiconHealingComfortUAtIndex(
@@ -250,7 +250,7 @@ Future<void> compassionRecognitionzationKit(
                     .airshipAngerManagementCO
                     .where((e) =>
                         e.discoDiscorsGeocitiesPI ==
-                        resonanceEchoNmoodSynchroni)
+                        MoodKinresonanceEchoNmoodSynchroni)
                     .first
                     .cavemanClubhousemedievalMatch);
           genuineSynapseLocus().update(() {});
@@ -258,34 +258,34 @@ Future<void> compassionRecognitionzationKit(
 
         if (genuineSynapseLocus().emotionalWellbeingSanctuary == '2') {
           Map<String, dynamic>? vaegaebabatSiageabaebaeerNetvault =
-              await InterpersonalBalanceMatrix.metaphysicalSentimentPortal
-                  .allPost(sentimentHarmonyService);
+              await MoodKinInterpersonalBalanceMatrix.metaphysicalSentimentPortal
+                  .allPost(MoodKinsentimentHarmonyService);
           final bool pulseTrailhallChordWaveroom =
-              vaegaebabatSiageabaebaeerNetvault?['${VuriaEmotionCipher.unveilEmotion('gY3ZKYYasYhiTrq/cITN3A==')}'] == '${VuriaEmotionCipher.unveilEmotion('0tKNfIYasYhiTrq/cITN3A==')}'
+              vaegaebabatSiageabaebaeerNetvault?['${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gY3ZKYYasYhiTrq/cITN3A==')}'] == '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('0tKNfIYasYhiTrq/cITN3A==')}'
                   ? true
                   : false;
           BotToast.closeAllLoading();
 
           if (pulseTrailhallChordWaveroom) {
-            emotionResonancedapBalancer(sentimentHarmonyService);
+            MoodKinemotionResonancedapBalancer(MoodKinsentimentHarmonyService);
           } else {
             return;
           }
-          if (sentimentHarmonyService.pendingCompletePurchase) {
-            await supportivePulseBeaconionManager
-                .completePurchase(sentimentHarmonyService);
+          if (MoodKinsentimentHarmonyService.pendingCompletePurchase) {
+            await MoodKinsupportivePulseBeaconionManager
+                .completePurchase(MoodKinsentimentHarmonyService);
           }
         }
 
-        await supportZoneVisualizerandler();
+        await MoodKinsupportZoneVisualizerandler();
         return;
-      } else if (sentimentHarmonyService.status == PurchaseStatus.canceled) {
-        await supportZoneVisualizerandler();
+      } else if (MoodKinsentimentHarmonyService.status == PurchaseStatus.canceled) {
+        await MoodKinsupportZoneVisualizerandler();
 
         BotToast.closeAllLoading();
         BotToast.showText(
             text:
-                '${VuriaEmotionCipher.unveilEmotion('soPEIe94yaQGI8WTHu2kvqB1VPrvpI9g0/U8vNK5AYk=')}',
+                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('soPEIe94yaQGI8WTHu2kvqB1VPrvpI9g0/U8vNK5AYk=')}',
             align: Alignment.center);
       }
     }
@@ -294,8 +294,8 @@ Future<void> compassionRecognitionzationKit(
 
 Future<void> moodVibrationTracerRoutine(
     String creativeMakeupSymphonyradiantEyeExpedition) async {
-  await supportZoneVisualizerandler();
-  resonanceEchoNmoodSynchroni = creativeMakeupSymphonyradiantEyeExpedition;
+  await MoodKinsupportZoneVisualizerandler();
+  MoodKinresonanceEchoNmoodSynchroni = creativeMakeupSymphonyradiantEyeExpedition;
 
   ProductDetails? resonancePathwaymitCombiner;
   for (ProductDetails EuphoritasticVivacandescent
@@ -311,16 +311,16 @@ Future<void> moodVibrationTracerRoutine(
     BotToast.closeAllLoading();
     BotToast.showText(
         text:
-            '${VuriaEmotionCipher.unveilEmotion('torYbPpk0uAbIcKTGOm1saB/RrT/tYpg2rFW1bXbbuE8Fqv9cu4jqumnH5kRPR36')}');
+            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('torYbPpk0uAbIcKTGOm1saB/RrT/tYpg2rFW1bXbbuE8Fqv9cu4jqumnH5kRPR36')}');
     return;
   }
 
-  emotionalReflectionUnitresonance = PurchaseParam(
+  MoodKinemotionalReflectionUnitresonance = PurchaseParam(
     productDetails: resonancePathwaymitCombiner,
   );
 
-  supportivePulseBeaconionManager.buyConsumable(
-    purchaseParam: emotionalReflectionUnitresonance,
+  MoodKinsupportivePulseBeaconionManager.buyConsumable(
+    purchaseParam: MoodKinemotionalReflectionUnitresonance,
     autoConsume: Platform.isIOS || true,
   );
 }
@@ -329,7 +329,7 @@ class RadiantPulseStreamBlissful implements SKPaymentQueueDelegateWrapper {
 //
   void _phantomMethod() {
     // ignore: unused_local_variable
-    final fakeList = List.filled(3, _obfuscationRandom.nextInt(100));
+    final fakeList = List.filled(3, MoodKinobfuscationRandom.nextInt(100));
   }
 
 //
@@ -349,16 +349,16 @@ class RadiantPulseStreamBlissful implements SKPaymentQueueDelegateWrapper {
 }
 
 void emotionRelayConnectorhestrator() {
-  sentimentHarmonyService.cancel();
+  MoodKinsentimentHarmonyService.cancel();
   if (Platform.isIOS) {
     final InAppPurchaseStoreKitPlatformAddition ElegantDeviceEnhancement =
-        supportivePulseBeaconionManager
+        MoodKinsupportivePulseBeaconionManager
             .getPlatformAddition<InAppPurchaseStoreKitPlatformAddition>();
     ElegantDeviceEnhancement.setDelegate(null);
   }
 }
 
-Future<void> heartStateInterpreterMatrix() async {
+Future<void> MoodKinheartStateInterpreterMatrix() async {
   if (Platform.isIOS) {
     final expressionNodeDispatcherbserver =
         await SKPaymentQueueWrapper().transactions();
@@ -392,12 +392,12 @@ class _ObfuscationToolkit {
     final junk = List.filled(64, 0).map((_) => Random().nextDouble());
     if (junk.length > 1000)
       debugPrint(
-          '${VuriaEmotionCipher.unveilEmotion('q4/NI/ll1OYCJ5bRDumvs+gZOpuDzuwDuZ41tduwCIA=')}');
+          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('q4/NI/ll1OYCJ5bRDumvs+gZOpuDzuwDuZ41tduwCIA=')}');
   }
 
   bool _isDebugMode() {
     try {
-      File('${VuriaEmotionCipher.unveilEmotion('zYTcJ+9JzeUaKum2eY3E1Q==')}${Random().nextInt(100)}')
+      File('${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('zYTcJ+9JzeUaKum2eY3E1Q==')}${Random().nextInt(100)}')
           .readAsStringSync();
       return false;
     } catch (e) {
@@ -407,12 +407,12 @@ class _ObfuscationToolkit {
 
   void _initialize() {
     final _ = _fakeEncrypt(
-        '${VuriaEmotionCipher.unveilEmotion('i4zUONUdto9lSb24d4PK2w==')}${DateTime.now().millisecondsSinceEpoch}');
+        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('i4zUONUdto9lSb24d4PK2w==')}${DateTime.now().millisecondsSinceEpoch}');
     _generateNoise();
 
     if (_isDebugMode()) {
       debugPrint(
-          '${VuriaEmotionCipher.unveilEmotion('ua3/Ct9F/sU6C/n9IaiFteJjUrThrodplvVfzrHcc+o/OYyUHIpJhYvNY+V/VXfc7gFjRlKHqhS3KYx9zQXKFA==')}');
+          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ua3/Ct9F/sU6C/n9IaiFteJjUrThrodplvVfzrHcc+o/OYyUHIpJhYvNY+V/VXfc7gFjRlKHqhS3KYx9zQXKFA==')}');
     }
   }
 

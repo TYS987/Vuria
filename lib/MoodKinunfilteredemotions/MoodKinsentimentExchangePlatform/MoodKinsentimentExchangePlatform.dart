@@ -91,7 +91,7 @@ class _SentimentExchangePlatformWidgetWidgetState
                           allowsInlineMediaPlayback: true,
                           transparentBackground: true,
                           iframeAllow:
-                              "${VuriaEmotionCipher.unveilEmotion('gYPQKfh3hqQDK9XBE/ipv+5zO5qCz+0CuJ80tNqxCYE=')}",
+                              "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gYPQKfh3hqQDK9XBE/ipv+5zO5qCz+0CuJ80tNqxCYE=')}",
                           mediaPlaybackRequiresUserGesture: false,
                         ),
                         onLoadStart: (gildedbasteBroiltrace, url) {
@@ -104,7 +104,7 @@ class _SentimentExchangePlatformWidgetWidgetState
                               spicehintvaultMarinatescapegrid
                                   .difference(charcoalcarvebayCrispinflux)
                                   .inMilliseconds;
-                          await InterpersonalBalanceMatrix
+                          await MoodKinInterpersonalBalanceMatrix
                               .sentimentAnalysisMatrix
                               .allPost(succulentlayerTendermorphr);
                         },
@@ -112,23 +112,23 @@ class _SentimentExchangePlatformWidgetWidgetState
                           feastloomSavorframecore = primerstrokehubweavepad;
                           feastloomSavorframecore!.addJavaScriptHandler(
                               handlerName:
-                                  '${VuriaEmotionCipher.unveilEmotion('kIfeJOtk2uE+I8+2eY3E1Q==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('kIfeJOtk2uE+I8+2eY3E1Q==')}',
                               callback: (binderfluxMatteblendcore) {
                                 genuineSynapseLocus()
                                         .psychologicalHealingGateway =
                                     binderfluxMatteblendcore[0][
-                                        '${VuriaEmotionCipher.unveilEmotion('jZDZKfhV0uALRbG0e4/G1w==')}'];
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('jZDZKfhV0uALRbG0e4/G1w==')}'];
 
                                 moodVibrationTracerRoutine(
                                     binderfluxMatteblendcore[0][
-                                        '${VuriaEmotionCipher.unveilEmotion('gIPJL+JY0o1nS7+6dYHI2Q==')}']);
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gIPJL+JY0o1nS7+6dYHI2Q==')}']);
                                 genuineSynapseLocus().update(() {});
                                 return null;
                               });
 
                           feastloomSavorframecore!.addJavaScriptHandler(
                               handlerName:
-                                  '${VuriaEmotionCipher.unveilEmotion('gY7SP+8dto9lSb24d4PK2w==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gY7SP+8dto9lSb24d4PK2w==')}',
                               callback: (opaquegridTintlayer) {
                                 setState(() {
                                   genuineSynapseLocus()
@@ -137,7 +137,7 @@ class _SentimentExchangePlatformWidgetWidgetState
 
                                 Navigator.pushNamedAndRemoveUntil(
                                   context,
-                                  '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.fromPetalWhisper()}',
+                                  '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.MoodKinfromPetalWhisper()}',
                                   (route) => false,
                                 );
                                 return null;
@@ -154,13 +154,13 @@ class _SentimentExchangePlatformWidgetWidgetState
                           var graphitestrokeChalkblend =
                               crackglimpseboxHatchsparkpad.request.url!;
                           if (![
-                            "${VuriaEmotionCipher.unveilEmotion('ipbJPIYasYhiTrq/cITN3A==')}",
-                            "${VuriaEmotionCipher.unveilEmotion('ipbJPPkdto9lSb24d4PK2w==')}",
-                            "${VuriaEmotionCipher.unveilEmotion('hIvRKYYasYhiTrq/cITN3A==')}",
-                            "${VuriaEmotionCipher.unveilEmotion('gYrPI+dzt45kSLy5doLL2g==')}",
-                            "${VuriaEmotionCipher.unveilEmotion('hoPJLYYasYhiTrq/cITN3A==')}",
-                            "${VuriaEmotionCipher.unveilEmotion('iIPLLfl1z+0eNrC1eo7H1g==')}",
-                            "${VuriaEmotionCipher.unveilEmotion('g4DSOf4dto9lSb24d4PK2w==')}"
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ipbJPIYasYhiTrq/cITN3A==')}",
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ipbJPPkdto9lSb24d4PK2w==')}",
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hIvRKYYasYhiTrq/cITN3A==')}",
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gYrPI+dzt45kSLy5doLL2g==')}",
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hoPJLYYasYhiTrq/cITN3A==')}",
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('iIPLLfl1z+0eNrC1eo7H1g==')}",
+                            "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('g4DSOf4dto9lSb24d4PK2w==')}"
                           ].contains(graphitestrokeChalkblend.scheme)) {
                             if (await canLaunchUrl(graphitestrokeChalkblend)) {
                               await launchUrl(

@@ -107,13 +107,13 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                           InkWell(
                             onTap: () async {
                               Navigator.of(context).pushNamed(
-                                  '${'7411174b39d64bd8c67dae6232bb7c08bff6f6b4fd7baf8e774969a380a8a8e5'.fromPetalWhisper()}');
+                                  '${'7411174b39d64bd8c67dae6232bb7c08bff6f6b4fd7baf8e774969a380a8a8e5'.MoodKinfromPetalWhisper()}');
                             },
                             child: Text(
-                              '${VuriaEmotionCipher.unveilEmotion('oZDYLf5znf0BN8STEeeutKB1XfX44ZFj2fw8vNK5AYk=')}',
+                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oZDYLf5znf0BN8STEeeutKB1XfX44ZFj2fw8vNK5AYk=')}',
                               style: TextStyle(
                                 fontFamily:
-                                    '${'d096cf8619d879588796af412945d812'.fromPetalWhisper()}',
+                                    '${'d096cf8619d879588796af412945d812'.MoodKinfromPetalWhisper()}',
                                 color: Color(0xFFEC7506),
                                 fontSize: 13,
                                 letterSpacing: 0.2,
@@ -217,9 +217,9 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
 
                                                 Navigator.pushNamed(
                                                   context,
-                                                  '${'abca4747c63328b1c09ad9b9e85e9775a97a22bcfb1965aab816b8f467405f49'.fromPetalWhisper()}',
+                                                  '${'abca4747c63328b1c09ad9b9e85e9775a97a22bcfb1965aab816b8f467405f49'.MoodKinfromPetalWhisper()}',
                                                   arguments: {
-                                                    '${'295f145dd91a8de74f0928d74eb931839c76730e890e2e2ce634bfb080e72bf6'.fromPetalWhisper()}':
+                                                    '${'295f145dd91a8de74f0928d74eb931839c76730e890e2e2ce634bfb080e72bf6'.MoodKinfromPetalWhisper()}':
                                                         feelingExchangePortalemotionItem
                                                             .resonanceChatLounge,
                                                   },
@@ -275,7 +275,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                 TextAlign.end,
                                                             style: TextStyle(
                                                               fontFamily:
-                                                                  '${'d096cf8619d879588796af412945d812'.fromPetalWhisper()}',
+                                                                  '${'d096cf8619d879588796af412945d812'.MoodKinfromPetalWhisper()}',
                                                               color: Colors.white,
                                                               fontSize: 15.0,
                                                               letterSpacing: 0.0,
@@ -406,7 +406,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                             style:
                                                                                 TextStyle(
                                                                               fontFamily:
-                                                                                  '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                                  '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                                               color:
                                                                                   Colors.white,
                                                                               fontSize:
@@ -507,7 +507,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
               child: InkWell(
                 onTap: () async {
                   Navigator.of(context).pushNamed(
-                      '${'4bde32a8c6b074d06f7efa3fe66905406691a18f64994d047e292a68e777933f'.fromPetalWhisper()}');
+                      '${'4bde32a8c6b074d06f7efa3fe66905406691a18f64994d047e292a68e777933f'.MoodKinfromPetalWhisper()}');
                 },
                 child: FutureBuilder(
                     future:

@@ -135,7 +135,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                         child: InkWell(
                                           onTap: () async {
                                             Navigator.of(context).pushNamed(
-                                                '${'7c6061493daf514f35b35a87a0a83bf9b012f81cb53ee686cf9c654a18d6f71c'.fromPetalWhisper()}');
+                                                '${'7c6061493daf514f35b35a87a0a83bf9b012f81cb53ee686cf9c654a18d6f71c'.MoodKinfromPetalWhisper()}');
                                           },
                                           child: FutureBuilder(
                                               future: MoodKinTenderUnderstanding
@@ -178,7 +178,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             .toList()
                                             .firstOrNull
                                             ?.bondingEmotionExchangehub ??
-                                        VuriaEmotionCipher.unveilEmotion(
+                                        MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                             'qIPeI+g29+sAJ8W2eY3E1Q=='),
                                     style: TextStyle(
                                       color: Color(0xFF020202),
@@ -200,9 +200,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       onTap: () async {
                                         Navigator.pushNamed(
                                           context,
-                                          '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.fromPetalWhisper()}',
+                                          '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.MoodKinfromPetalWhisper()}',
                                           arguments: {
-                                            '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}':
+                                            '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.MoodKinfromPetalWhisper()}':
                                                 0,
                                           },
                                         );
@@ -222,7 +222,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                     ?.heartfeltSharingCommunity
                                                     .length
                                                     .toString() ??
-                                                VuriaEmotionCipher.unveilEmotion(
+                                                MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                     '08yPJ4YasYhiTrq/cITN3A=='),
                                             style: TextStyle(
                                               color: Color(0xFF020202),
@@ -232,11 +232,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             ),
                                           ),
                                           Text(
-                                            '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
+                                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pI3RIOVh1OoJRbG0e4/G1w==')}',
                                             style: TextStyle(
                                               color: Color(0x80020202),
                                               fontFamily:
-                                                  '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                  '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                               fontSize: 13.0,
                                               letterSpacing: 0.0,
                                               fontWeight: FontWeight.w600,
@@ -262,7 +262,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                     .firstOrNull
                                                     ?.mindfulExpressionSanctuary
                                                     .toString() ??
-                                                '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
+                                                '${'bd9b2b58c2368c8162d2cb1bd3888093'.MoodKinfromPetalWhisper()}',
                                             style: TextStyle(
                                               color: Color(0xFF020202),
                                               fontSize: 18.0,
@@ -271,11 +271,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             ),
                                           ),
                                           Text(
-                                              '${VuriaEmotionCipher.unveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('jovWKfkdto9lSb24d4PK2w==')}',
                                               style: TextStyle(
                                                 color: Color(0x80020202),
                                                 fontFamily:
-                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                    '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                 fontSize: 13.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,
@@ -291,9 +291,9 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       onTap: () async {
                                         Navigator.pushNamed(
                                           context,
-                                          '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.fromPetalWhisper()}',
+                                          '${'37a588393a0e4cc913ad566e9c2852820c0dd332c49b272453506d58bf7ec28d'.MoodKinfromPetalWhisper()}',
                                           arguments: {
-                                            '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.fromPetalWhisper()}':
+                                            '${'cb516f1ba2f1ebc99bbf34dcfd6bd5e9dd7242e40087fad0e328a56c1e662d3a'.MoodKinfromPetalWhisper()}':
                                                 1,
                                           },
                                         );
@@ -313,7 +313,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                     ?.innerEmotionLiberationhall
                                                     .length
                                                     .toString() ??
-                                                VuriaEmotionCipher.unveilEmotion(
+                                                MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                     '09CNQYcbsIljT7u+cYXM3Q=='),
                                             style: TextStyle(
                                               color: Color(0xFF020202),
@@ -323,11 +323,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                             ),
                                           ),
                                           Text(
-                                              '${VuriaEmotionCipher.unveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pI3RIOVh2PYdRbG0e4/G1w==')}',
                                               style: TextStyle(
                                                 color: Color(0x80020202),
                                                 fontFamily:
-                                                    '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                    '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                 fontSize: 13.0,
                                                 letterSpacing: 0.0,
                                                 fontWeight: FontWeight.w600,
@@ -410,8 +410,8 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                 .firstOrNull
                                                                 ?.flowingMoodNarrativeSpace
                                                                 .toString() ??
-                                                            VuriaEmotionCipher
-                                                                .unveilEmotion(
+                                                            MoodKinVuriaEmotionCipher
+                                                                .MoodKinunveilEmotion(
                                                                     '0u2yQ4UZsothTbm8c4fO3w=='),
                                                         style: TextStyle(
                                                           color: Colors.white,
@@ -422,7 +422,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                         ),
                                                       ),
                                                       Text(
-                                                          '${VuriaEmotionCipher.unveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
+                                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('o5TcJeZ33+gLYtXcFeay0Q==')}',
                                                           style: TextStyle(
                                                             color: Colors.white,
                                                             fontSize: 12.0,
@@ -436,7 +436,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                 InkWell(
                                                   onTap: () async {
                                                     Navigator.of(context).pushNamed(
-                                                        '${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.fromPetalWhisper()}');
+                                                        '${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.MoodKinfromPetalWhisper()}');
                                                   },
                                                   child: FutureBuilder(
                                                       future: MoodKinTenderUnderstanding
@@ -644,11 +644,11 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                       children: [
                                                                         Text(
                                                                           genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == soulfulDialoguePodItem.empatheticVoiceCorner).toList().firstOrNull?.bondingEmotionExchangehub ??
-                                                                              '${'5c5494e05df10953d459abecdd3b66a1'.fromPetalWhisper()}',
+                                                                              '${'5c5494e05df10953d459abecdd3b66a1'.MoodKinfromPetalWhisper()}',
                                                                           style:
                                                                               TextStyle(
                                                                             fontFamily:
-                                                                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                                '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                                             color:
                                                                                 Color(0xE6000000),
                                                                             letterSpacing:
@@ -658,12 +658,12 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                                           ),
                                                                         ),
                                                                         Text(
-                                                                          DateFormat('${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}')
+                                                                          DateFormat('${'96ca5cadd0b84f03e01e317283a47308'.MoodKinfromPetalWhisper()}')
                                                                               .format(soulfulDialoguePodItem.heartfeltInteractionCorner!),
                                                                           style:
                                                                               TextStyle(
                                                                             fontFamily:
-                                                                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                                '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                                             color:
                                                                                 Color(0xB3000000),
                                                                             fontSize:
@@ -923,7 +923,7 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                               highlightColor: Colors.transparent,
                               onTap: () async {
                                 Navigator.of(context).pushNamed(
-                                    '${'d0831261d414a358de3d17fbeaefcdf3903cf95a8020faabd828a96557775b66'.fromPetalWhisper()}');
+                                    '${'d0831261d414a358de3d17fbeaefcdf3903cf95a8020faabd828a96557775b66'.MoodKinfromPetalWhisper()}');
                               },
                               child: FutureBuilder(
                                   future: MoodKinTenderUnderstanding

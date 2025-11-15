@@ -88,8 +88,8 @@ class _SentimentAlignedWidgetState extends State<SentimentAlignedWidget> {
                         ),
                         Text(
                           widget.moodStoryCanvas == 0
-                              ? "${VuriaEmotionCipher.unveilEmotion('tJfPJes27fYHNNfQBaiRv+x/Vu2Aze8Aup02ttizC4M=')}"
-                              : '${VuriaEmotionCipher.unveilEmotion('tJfPJes26PcLMJbyG/qkte1zW+CAze8Aup02ttizC4M=')}',
+                              ? "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tJfPJes27fYHNNfQBaiRv+x/Vu2Aze8Aup02ttizC4M=')}"
+                              : '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tJfPJes26PcLMJbyG/qkte1zW+CAze8Aup02ttizC4M=')}',
                           style:
                               TextStyle(
                              

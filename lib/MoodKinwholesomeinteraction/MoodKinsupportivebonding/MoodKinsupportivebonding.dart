@@ -50,9 +50,9 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
               child: Text(
-                '${VuriaEmotionCipher.unveilEmotion('p7fxDYYasYhiTrq/cITN3A==')}',
+                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('p7fxDYYasYhiTrq/cITN3A==')}',
                 style: TextStyle(
-                      fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                      fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                       color: Colors.black,
                       fontSize: 24.0,
                       letterSpacing: 0.0,
@@ -65,7 +65,7 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
               child: Text(
                 'Welcome to Potie! To make a better place,the following content is not allowed in the app in particular.\n1.Any content about child harm,pornography related detrimental to children.\n2. Fake and harmful messages about recent or current events.\n3. Any violence,bullying content, publicly promotes pornography and other content.\n\nIf we find any content including and not limited to the above violations your content will be deleted and account will be banned.By clicking the above button,you agreeto the Terms of Use and Privacy Policy',
                 style: TextStyle(
-                      fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                      fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                       fontSize: 16.0,
                       letterSpacing: 0.0,
                       fontWeight: FontWeight.w500,
@@ -88,12 +88,12 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     onTap: () async {
                       Navigator.pushNamed(
                         context,
-                        '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
-                        arguments: {'${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}': 1},
+                        '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.MoodKinfromPetalWhisper()}',
+                        arguments: {'${'0e7a242c5949438c0169642fad0e9a69'.MoodKinfromPetalWhisper()}': 1},
                       );
                     },
                     child: Text(
-                      '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOF8XWeIzF1A==')}',
+                      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tofPIfk20uJOF8XWeIzF1A==')}',
                       style:
                           TextStyle(
                              
@@ -114,12 +114,12 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                     onTap: () async {
                       Navigator.pushNamed(
                         context,
-                        '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.fromPetalWhisper()}',
-                        arguments: {'${'0e7a242c5949438c0169642fad0e9a69'.fromPetalWhisper()}': 0},
+                        '${'b5657efd9615e6ffd837e08610bcb569ae593fe49c027079b7ba459680cbe185'.MoodKinfromPetalWhisper()}',
+                        arguments: {'${'0e7a242c5949438c0169642fad0e9a69'.MoodKinfromPetalWhisper()}': 0},
                       );
                     },
                     child: Text(
-                      '${VuriaEmotionCipher.unveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
+                      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('spDUOut1xKQ+LdraH/HD0g==')}',
                       style:
                           TextStyle(
                             
@@ -158,9 +158,9 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       ),
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        '${VuriaEmotionCipher.unveilEmotion('oYPTL+Zzt45kSLy5doLL2g==')}',
+                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oYPTL+Zzt45kSLy5doLL2g==')}',
                         style: TextStyle(
-                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                               color: Color(0xFFFF7A19),
                               fontSize: 16.0,
                               letterSpacing: 0.0,
@@ -183,9 +183,9 @@ class _SupportiveBondingWidgetState extends State<SupportiveBondingWidget> {
                       ),
                       alignment: AlignmentDirectional(0.0, 0.0),
                       child: Text(
-                        '${VuriaEmotionCipher.unveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}',
+                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('q8LcK/hz2I1nS7+6dYHI2Q==')}',
                         style: TextStyle(
-                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                              fontFamily: '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                               color: Colors.white,
                               fontSize: 16.0,
                               letterSpacing: 0.0,

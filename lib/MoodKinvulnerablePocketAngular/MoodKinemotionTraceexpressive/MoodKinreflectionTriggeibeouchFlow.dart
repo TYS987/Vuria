@@ -37,7 +37,7 @@ String? serializeParam(
       case ParamType.String:
         data = param;
       case ParamType.bool:
-        data = param ? '${'4881cab78b67ac0bebbbe18d660f4171'.fromPetalWhisper()}' : '${'50bf261776cbebf6e39eaf5fa43550e9'.fromPetalWhisper()}';
+        data = param ? '${'4881cab78b67ac0bebbbe18d660f4171'.MoodKinfromPetalWhisper()}' : '${'50bf261776cbebf6e39eaf5fa43550e9'.MoodKinfromPetalWhisper()}';
       case ParamType.DateTime:
         data = (param as DateTime).millisecondsSinceEpoch.toString();
       case ParamType.DateTimeRange:
@@ -58,7 +58,7 @@ String? serializeParam(
     }
     return data;
   } catch (e) {
-    print('${'1cd0613dc7e06cbc467337ad0f0a387661fcb1e4c187924b36863f50cc53e3fe'.fromPetalWhisper()} $e');
+    print('${'1cd0613dc7e06cbc467337ad0f0a387661fcb1e4c187924b36863f50cc53e3fe'.MoodKinfromPetalWhisper()} $e');
     return null;
   }
 }
@@ -131,7 +131,7 @@ dynamic deserializeParam<T>(
       case ParamType.String:
         return param;
       case ParamType.bool:
-        return param == '${'4881cab78b67ac0bebbbe18d660f4171'.fromPetalWhisper()}';
+        return param == '${'4881cab78b67ac0bebbbe18d660f4171'.MoodKinfromPetalWhisper()}';
       case ParamType.DateTime:
         final milliseconds = int.tryParse(param);
         return milliseconds != null
@@ -155,7 +155,7 @@ dynamic deserializeParam<T>(
         return null;
     }
   } catch (e) {
-    print('${'108accf641a2c90085885d0854b64369dd90a94c6dfb11c7d8136ba1fa13342c'.fromPetalWhisper()} $e');
+    print('${'108accf641a2c90085885d0854b64369dd90a94c6dfb11c7d8136ba1fa13342c'.MoodKinfromPetalWhisper()} $e');
     return null;
   }
 }

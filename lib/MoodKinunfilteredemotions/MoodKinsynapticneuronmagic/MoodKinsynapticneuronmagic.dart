@@ -96,7 +96,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                           builder: (context) {
                             if (widget.vibeDedicatedSpace == 0) {
                               return Text(
-                                '${VuriaEmotionCipher.unveilEmotion('pI3RIOVht45kSLy5doLL2g==')}',
+                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pI3RIOVht45kSLy5doLL2g==')}',
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 20.0,
@@ -106,7 +106,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                               );
                             } else if (widget.vibeDedicatedSpace == 1) {
                               return Text(
-                                '${VuriaEmotionCipher.unveilEmotion('pIPTP4YasYhiTrq/cITN3A==')}',
+                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('pIPTP4YasYhiTrq/cITN3A==')}',
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 20.0,
@@ -116,7 +116,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                               );
                             } else {
                               return Text(
-                                '${VuriaEmotionCipher.unveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
+                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oI7cL+F61PcaRbG0e4/G1w==')}',
                                 style: TextStyle(
                                   color: Colors.black,
                                   fontSize: 20.0,

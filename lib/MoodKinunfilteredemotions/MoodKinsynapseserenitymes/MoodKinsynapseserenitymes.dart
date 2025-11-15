@@ -268,14 +268,14 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                           .moatMalwarejoustingJav !=
                                                       null
                                                   ? DateFormat(
-                                                          '${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}')
+                                                          '${'2d80068871bef8917b88fde32f463c58'.MoodKinfromPetalWhisper()}')
                                                       .format(feelingSnapshotBoardItem
                                                           .moatMalwarejoustingJav!)
-                                                  : VuriaEmotionCipher.unveilEmotion(
+                                                  : MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                       '0tuHfbo23OlmSr67dIDJ2A=='),
                                               style: TextStyle(
                                                 fontFamily:
-                                                    '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                    '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                 color: Color(0xFF979797),
                                                 letterSpacing: 0.0,
                                               ),
@@ -371,7 +371,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                             .vuriaFriendshipSpace,
                                                         style: TextStyle(
                                                           fontFamily:
-                                                              '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                              '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                           color: Color(0xFF323232),
                                                           fontSize: 16.0,
                                                           letterSpacing: 0.0,
@@ -401,14 +401,14 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                             .moatMalwarejoustingJav !=
                                                         null
                                                     ? DateFormat(
-                                                            '${'2d80068871bef8917b88fde32f463c58'.fromPetalWhisper()}')
+                                                            '${'2d80068871bef8917b88fde32f463c58'.MoodKinfromPetalWhisper()}')
                                                         .format(feelingSnapshotBoardItem
                                                             .moatMalwarejoustingJav!)
-                                                    : VuriaEmotionCipher.unveilEmotion(
+                                                    : MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                         '0tuHfbo23OlmSr67dIDJ2A=='),
                                                 style: TextStyle(
                                                   fontFamily:
-                                                      '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                      '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                   color: Color(0xFF979797),
                                                   letterSpacing: 0.0,
                                                 ),
@@ -452,7 +452,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                             .vuriaFriendshipSpace,
                                                         style: TextStyle(
                                                           fontFamily:
-                                                              '${'17d47dc4cfa896e88cea2d214ab529cc'.fromPetalWhisper()}',
+                                                              '${'17d47dc4cfa896e88cea2d214ab529cc'.MoodKinfromPetalWhisper()}',
                                                           color: Color(0xFF323232),
                                                           fontSize: 16.0,
                                                           letterSpacing: 0.0,
@@ -560,7 +560,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                       letterSpacing: 0.0,
                                     ),
                                     hintText:
-                                        '${VuriaEmotionCipher.unveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}',
+                                        '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sYPEbPl50OEaKt/dG6bv/pAGJYSc0fMcpoEqqsSvF58=')}',
                                     hintStyle: TextStyle(
                                       color: Color(0x663F3F3F),
                                       fontSize: 14.7,
@@ -640,7 +640,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                     authenticInteractionLounge: moodConnectGraph,
                                     moatMalwarejoustingJav: DateTime.now(),
                                     emotionalExpressionSpot: [
-                                      VuriaEmotionCipher.unveilEmotion(
+                                      MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                           'BFUKqj2Qt45kSLy5doLL2g=='),
                                     ],
                                     neoNeolithicquantumQuill: [0, 0],
@@ -680,9 +680,9 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             onTap: () async {
                               Navigator.pushNamed(
                                 context,
-                                '${'24e66feab0222fb41038fd68cd0bd4df'.fromPetalWhisper()}',
+                                '${'24e66feab0222fb41038fd68cd0bd4df'.MoodKinfromPetalWhisper()}',
                                 arguments: {
-                                  '${'9b261316cb999e113e6b7dd70ed77ae9aef218ee8ef5455b0208fb7c117e375b'.fromPetalWhisper()}':
+                                  '${'9b261316cb999e113e6b7dd70ed77ae9aef218ee8ef5455b0208fb7c117e375b'.MoodKinfromPetalWhisper()}':
                                       genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>

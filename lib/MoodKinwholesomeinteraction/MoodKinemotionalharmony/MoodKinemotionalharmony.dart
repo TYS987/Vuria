@@ -79,7 +79,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 0;
                           genuineSynapseLocus().update(() {});
 
-                          Navigator.of(context).pushNamed('${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
+                          Navigator.of(context).pushNamed('${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.MoodKinfromPetalWhisper()}');
                         },
                         child: Container(
                           width: 74.0,
@@ -128,7 +128,7 @@ class _EmotionalHarmonyWidgetState extends State<EmotionalHarmonyWidget> {
                           genuineSynapseLocus().kindheartedDialogues = 1;
                           genuineSynapseLocus().update(() {});
 
-                          Navigator.of(context).pushNamed('${'60868605b68de1bd4868a8ee27c11dd0'.fromPetalWhisper()}');
+                          Navigator.of(context).pushNamed('${'60868605b68de1bd4868a8ee27c11dd0'.MoodKinfromPetalWhisper()}');
                         },
                         child: Container(
                           width: 74.0,

@@ -125,13 +125,13 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   static AnachronismHealingfluxRStruct fromMap(Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
-        emotionSharingCircle: _castToInt(data['${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}']),
-        resonanceFriendshipNetwork: _castToInt(data['${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}']),
-        feelingFlowCommunications: _castToString(data['${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}']),
-        shamanCodingNeuralinkM: _castToList<int>(data['${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}']),
-        daVinciDroneoHologramN: _castToInt(data['${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}']),
-        inquisitionInternetBitcoin: _castToDateTime(data['${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}']),
-        baroqueBitcoinPodcastHX: _castToList<String>(data['${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}']),
+        emotionSharingCircle: _castToInt(data['${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.MoodKinfromPetalWhisper()}']),
+        resonanceFriendshipNetwork: _castToInt(data['${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.MoodKinfromPetalWhisper()}']),
+        feelingFlowCommunications: _castToString(data['${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.MoodKinfromPetalWhisper()}']),
+        shamanCodingNeuralinkM: _castToList<int>(data['${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.MoodKinfromPetalWhisper()}']),
+        daVinciDroneoHologramN: _castToInt(data['${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.MoodKinfromPetalWhisper()}']),
+        inquisitionInternetBitcoin: _castToDateTime(data['${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.MoodKinfromPetalWhisper()}']),
+        baroqueBitcoinPodcastHX: _castToList<String>(data['${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.MoodKinfromPetalWhisper()}']),
       );
 
   static AnachronismHealingfluxRStruct? maybeFromMap(dynamic data) =>
@@ -141,45 +141,45 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      '${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}': _emotionSharingCircle,
-      '${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}': _resonanceFriendshipNetwork,
-      '${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}': _feelingFlowCommunications,
-      '${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}': _shamanCodingNeuralinkM,
-      '${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}': _daVinciDroneoHologramN,
-      '${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}': _inquisitionInternetBitcoin,
-      '${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}': _baroqueBitcoinPodcastHX,
+      '${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.MoodKinfromPetalWhisper()}': _emotionSharingCircle,
+      '${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.MoodKinfromPetalWhisper()}': _resonanceFriendshipNetwork,
+      '${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.MoodKinfromPetalWhisper()}': _feelingFlowCommunications,
+      '${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.MoodKinfromPetalWhisper()}': _shamanCodingNeuralinkM,
+      '${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.MoodKinfromPetalWhisper()}': _daVinciDroneoHologramN,
+      '${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.MoodKinfromPetalWhisper()}': _inquisitionInternetBitcoin,
+      '${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.MoodKinfromPetalWhisper()}': _baroqueBitcoinPodcastHX,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      '${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}': serializeParam(
+      '${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.MoodKinfromPetalWhisper()}': serializeParam(
         _emotionSharingCircle,
         ParamType.int,
       ),
-      '${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}': serializeParam(
+      '${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.MoodKinfromPetalWhisper()}': serializeParam(
         _resonanceFriendshipNetwork,
         ParamType.int,
       ),
-      '${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}': serializeParam(
+      '${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.MoodKinfromPetalWhisper()}': serializeParam(
         _feelingFlowCommunications,
         ParamType.String,
       ),
-      '${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}': serializeParam(
+      '${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.MoodKinfromPetalWhisper()}': serializeParam(
         _shamanCodingNeuralinkM,
         ParamType.int,
         isList: true,
       ),
-      '${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}': serializeParam(
+      '${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.MoodKinfromPetalWhisper()}': serializeParam(
         _daVinciDroneoHologramN,
         ParamType.int,
       ),
-      '${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}': serializeParam(
+      '${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.MoodKinfromPetalWhisper()}': serializeParam(
         _inquisitionInternetBitcoin,
         ParamType.DateTime,
       ),
-      '${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}': serializeParam(
+      '${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.MoodKinfromPetalWhisper()}': serializeParam(
         _baroqueBitcoinPodcastHX,
         ParamType.String,
         isList: true,
@@ -191,44 +191,44 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
         emotionSharingCircle: deserializeParam(
-          data['${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}'],
+          data['${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         resonanceFriendshipNetwork: deserializeParam(
-          data['${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}'],
+          data['${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         feelingFlowCommunications: deserializeParam(
-          data['${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}'],
+          data['${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
         shamanCodingNeuralinkM: deserializeParam<int>(
-          data['${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}'],
+          data['${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
         daVinciDroneoHologramN: deserializeParam(
-          data['${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}'],
+          data['${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         inquisitionInternetBitcoin: deserializeParam(
-          data['${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}'],
+          data['${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.MoodKinfromPetalWhisper()}'],
           ParamType.DateTime,
           false,
         ),
         baroqueBitcoinPodcastHX: deserializeParam<String>(
-          data['${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}'],
+          data['${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
       );
 
   @override
-  String toString() => '${'7db19b629ec20adfa4f0f652709233d7e9fbcde92d41856b881e8bfa57989a75'.fromPetalWhisper()}(${toMap()})';
+  String toString() => '${'7db19b629ec20adfa4f0f652709233d7e9fbcde92d41856b881e8bfa57989a75'.MoodKinfromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

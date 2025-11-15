@@ -26,12 +26,12 @@ class EmpathyExchangeWidget extends StatefulWidget {
 }
 
 class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
-  int? sharedVulnerability = 0;
-  bool rawEmotionNexus = false;
+  int? moodKinsharedVulnerability = 0;
+  bool moodKinrawEmotionNexus = false;
 
-  FocusNode? vulnerableShaotionVortex;
-  TextEditingController? rawEmotionNexusVibesMatrix;
-  String? Function(BuildContext, String?)? rawEmotionNexusGateway;
+  FocusNode? moodKinvulnerableShaotionVortex;
+  TextEditingController? moodKinrawEmotionNexusVibesMatrix;
+  String? Function(BuildContext, String?)? moodKinrawEmotionNexusGateway;
 
   FocusNode? soulBondingUstryRealm;
   TextEditingController? engthOasisfeelingWavel;
@@ -48,12 +48,12 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   bool chatroomAIConnection = false;
 
   Future pivotsequenceCascadefootwork(BuildContext context) async {
-    await recoveryCommunityFormation();
+    await MoodKinrecoveryCommunityFormation();
     do {
       if (tranquilPolitenessHonorableCourtesy < 50) {
         tranquilPolitenessHonorableCourtesy++;
         await Future.delayed(const Duration(milliseconds: 1000));
-        synchronismatrixCoadaptive = await InterpersonalBalanceMatrix
+        synchronismatrixCoadaptive = await MoodKinInterpersonalBalanceMatrix
             .interpersonalHarmonyNexus
             .allPost();
 
@@ -63,44 +63,44 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
         break;
       }
     } while (synchronismatrixCoadaptive == null);
-    if (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] != null) {
+    if (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.MoodKinfromPetalWhisper()}'] != null) {
       degwsfsaffsafeabvejkaf = jsonDecode(
-          (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] as String)
-              .sincereConversationMatrix());
-      if (synchronismatrixCoadaptive?['${'41a77b7f007f1284e1b86fb1ba404444'.fromPetalWhisper()}'] == '${'81439767e43314e0d70594cc15f218bc'.fromPetalWhisper()}') {
-        genuineSynapseLocus().emotionalWellbeingSanctuary = '${'f6696f7c68423b3516957f4d7be36054'.fromPetalWhisper()}';
+          (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.MoodKinfromPetalWhisper()}'] as String)
+              .MoodKinsincereConversationMatrix());
+      if (synchronismatrixCoadaptive?['${'41a77b7f007f1284e1b86fb1ba404444'.MoodKinfromPetalWhisper()}'] == '${'81439767e43314e0d70594cc15f218bc'.MoodKinfromPetalWhisper()}') {
+        genuineSynapseLocus().emotionalWellbeingSanctuary = '${'f6696f7c68423b3516957f4d7be36054'.MoodKinfromPetalWhisper()}';
         genuineSynapseLocus().update(() {});
         setState(() {});
         if (degwsfsaffsafeabvejkaf != null) {
           genuineSynapseLocus().genuineBondingEcosystem =
-              degwsfsaffsafeabvejkaf?['${'9475ae187da72ed663047aa9abe6f95d'.fromPetalWhisper()}'];
+              degwsfsaffsafeabvejkaf?['${'9475ae187da72ed663047aa9abe6f95d'.MoodKinfromPetalWhisper()}'];
           genuineSynapseLocus().update(() {});
         }
-        if (degwsfsaffsafeabvejkaf?['${'8657eaf704e97e08e35bb5ed8000cbcc'.fromPetalWhisper()}'] == 1) {
+        if (degwsfsaffsafeabvejkaf?['${'8657eaf704e97e08e35bb5ed8000cbcc'.MoodKinfromPetalWhisper()}'] == 1) {
           Navigator.pushNamed(
             context,
-            '${'542b5eba48e7c24a19780d01a3f8c5466d46d0fccd0cd4ad12e234fc2f31bac8'.fromPetalWhisper()}',
+            '${'542b5eba48e7c24a19780d01a3f8c5466d46d0fccd0cd4ad12e234fc2f31bac8'.MoodKinfromPetalWhisper()}',
             arguments: {
-              '${'a55bf95067b73277e0c43f86cbb92639e852a647f8f75a20a0a4fe0e4e3d1ef8'.fromPetalWhisper()}':
-                  '${genuineSynapseLocus().genuineBondingEcosystem}${'6c28306b7edc52e22d174ccd90a8583d'.fromPetalWhisper()}${recoveryFocusedInteraction.wellnessOrientedDialogue}${'e294df86ef533502bde98bcc0f10ad29'.fromPetalWhisper()}${genuineSynapseLocus().emotionalRestorationGateway}'
+              '${'a55bf95067b73277e0c43f86cbb92639e852a647f8f75a20a0a4fe0e4e3d1ef8'.MoodKinfromPetalWhisper()}':
+                  '${genuineSynapseLocus().genuineBondingEcosystem}${'6c28306b7edc52e22d174ccd90a8583d'.MoodKinfromPetalWhisper()}${recoveryFocusedInteraction.wellnessOrientedDialogue}${'e294df86ef533502bde98bcc0f10ad29'.MoodKinfromPetalWhisper()}${genuineSynapseLocus().emotionalRestorationGateway}'
             },
           );
         }
       } else {
-        genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
+        genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.MoodKinfromPetalWhisper()}';
         genuineSynapseLocus().update(() {});
         setState(() {});
         return;
       }
     } else if (tranquilPolitenessHonorableCourtesy < 50) {
-      genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.MoodKinfromPetalWhisper()}';
       genuineSynapseLocus().update(() {});
       setState(() {});
       return;
     } else {
       BotToast.showText(
           text:
-              '${'9d573aa9e237d68c6f1d62199322e101581113b532e198bd8b246629aeaf6514c041a79b9accee3406695b3ce768505b69be947150c1da546f23a99b7bbfa014'.fromPetalWhisper()}');
+              '${'9d573aa9e237d68c6f1d62199322e101581113b532e198bd8b246629aeaf6514c041a79b9accee3406695b3ce768505b69be947150c1da546f23a99b7bbfa014'.MoodKinfromPetalWhisper()}');
       setState(() {});
     }
   }
@@ -108,8 +108,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
   @override
   void initState() {
     super.initState();
-    if (DateTime.now().isBefore(DateTime(2026, 10, 31, 8, 0, 0))) {
-      genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}';
+    if (DateTime.now().isBefore(DateTime(2025, 11, 19, 8, 0, 0))) {
+      genuineSynapseLocus().emotionalWellbeingSanctuary = '${'9ad7293773a568baa95e24a57041047b'.MoodKinfromPetalWhisper()}';
     } else {
     pivotsequenceCascadefootwork(context);
       unawaited(
@@ -121,24 +121,24 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
       );
   
     }
-    rawEmotionNexusVibesMatrix ??= TextEditingController();
-    vulnerableShaotionVortex ??= FocusNode();
+    moodKinrawEmotionNexusVibesMatrix ??= TextEditingController();
+    moodKinvulnerableShaotionVortex ??= FocusNode();
 
     engthOasisfeelingWavel ??= TextEditingController();
     soulBondingUstryRealm ??= FocusNode();
-    rawEmotionNexus = false;
+    moodKinrawEmotionNexus = false;
     engthOasisfeelingWavel!.addListener(() {
       setState(() {});
     });
-    rawEmotionNexusVibesMatrix!.addListener(() {
+    moodKinrawEmotionNexusVibesMatrix!.addListener(() {
       setState(() {});
     });
   }
 
   @override
   void dispose() {
-    vulnerableShaotionVortex?.dispose();
-    rawEmotionNexusVibesMatrix?.dispose();
+    moodKinvulnerableShaotionVortex?.dispose();
+    moodKinrawEmotionNexusVibesMatrix?.dispose();
 
     soulBondingUstryRealm?.dispose();
     engthOasisfeelingWavel?.dispose();
@@ -159,7 +159,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
         backgroundColor: Colors.white,
         body: Builder(
           builder: (context) {
-            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '${'9ad7293773a568baa95e24a57041047b'.fromPetalWhisper()}') {
+            if (genuineSynapseLocus().emotionalWellbeingSanctuary == '${'9ad7293773a568baa95e24a57041047b'.MoodKinfromPetalWhisper()}') {
               return Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -247,8 +247,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 child: Container(
                                   width: double.infinity,
                                   child: TextFormField(
-                                    controller: rawEmotionNexusVibesMatrix,
-                                    focusNode: vulnerableShaotionVortex,
+                                    controller: moodKinrawEmotionNexusVibesMatrix,
+                                    focusNode: moodKinvulnerableShaotionVortex,
                                     autofocus: false,
                                     obscureText: false,
                                     decoration: InputDecoration(
@@ -256,7 +256,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       labelStyle: TextStyle(
                                         letterSpacing: 0.0,
                                       ),
-                                      hintText: '${'05a1fcf09d5ad158ce2015043d5230075a576e4ffe6fb9b9f448e0a6dff0dd54'.fromPetalWhisper()}',
+                                      hintText: '${'05a1fcf09d5ad158ce2015043d5230075a576e4ffe6fb9b9f448e0a6dff0dd54'.MoodKinfromPetalWhisper()}',
                                       hintStyle: TextStyle(
                                         color: Color(0xFF999999),
                                         fontSize: 16.0,
@@ -339,14 +339,14 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                                   engthOasisfeelingWavel,
                                               focusNode: soulBondingUstryRealm,
                                               autofocus: false,
-                                              obscureText: rawEmotionNexus,
+                                              obscureText: moodKinrawEmotionNexus,
                                               decoration: InputDecoration(
                                                 isDense: true,
                                                 labelStyle: TextStyle(
                                                   letterSpacing: 0.0,
                                                 ),
                                                 hintText:
-                                                    '${'e77a151c7e416ba4076131a31b5f8ffbc66eac64cf6b54a967c0513cd172c37d7c45af3789a7d57db14bf3ea1a16523c'.fromPetalWhisper()}',
+                                                    '${'e77a151c7e416ba4076131a31b5f8ffbc66eac64cf6b54a967c0513cd172c37d7c45af3789a7d57db14bf3ea1a16523c'.MoodKinfromPetalWhisper()}',
                                                 hintStyle: TextStyle(
                                                   color: Color(0xFF999999),
                                                   fontSize: 16.0,
@@ -407,12 +407,12 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     ),
                                     Builder(
                                       builder: (context) {
-                                        if (rawEmotionNexus) {
+                                        if (moodKinrawEmotionNexus) {
                                           return InkWell(
                                             onTap: () async {
                                               setState(() {
-                                                rawEmotionNexus =
-                                                    !rawEmotionNexus;
+                                                moodKinrawEmotionNexus =
+                                                    !moodKinrawEmotionNexus;
                                               });
                                             },
                                             child: FutureBuilder(
@@ -439,8 +439,8 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           return InkWell(
                                             onTap: () async {
                                               setState(() {
-                                                rawEmotionNexus =
-                                                    !rawEmotionNexus;
+                                                moodKinrawEmotionNexus =
+                                                    !moodKinrawEmotionNexus;
                                               });
                                             },
                                             child: FutureBuilder(
@@ -487,18 +487,18 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             final authenticBondGateway =
                                 genuineSynapseLocus().likeHeartfeltMoments;
                             final unspokenBondempath =
-                                rawEmotionNexusVibesMatrix?.text.trim();
+                                moodKinrawEmotionNexusVibesMatrix?.text.trim();
                             final GatewayPulseNetwork =
                                 engthOasisfeelingWavel?.text.trim();
 
                             if (!authenticBondGateway) {
-                              showAgreementNotCheckedSnackBar(context);
+                              MoodKinshowAgreementNotCheckedSnackBar(context);
                               return;
                             }
 
                             if (unspokenBondempath == null ||
                                 GatewayPulseNetwork == null) {
-                              showLoginFieldsMissingSnackBar(context);
+                              MoodKinshowLoginFieldsMissingSnackBar(context);
                               return;
                             }
 
@@ -525,17 +525,17 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 genuineSynapseLocus()
                                     .undergroundBunkerBondingRUT = 1;
 
-                                await emotionWhisperInterface(
+                                await MoodKinemotionWhisperInterface(
                                   message:
-                                      '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
+                                      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ro3aJeQ2zvENIdPAD+60vK42YvHgooxh07FY27fUJo4=')}',
                                   icon: Icons.verified_user,
                                   duration: Duration(seconds: 2),
                                 );
 
                                 Navigator.pushReplacementNamed(
-                                    context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
+                                    context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.MoodKinfromPetalWhisper()}');
                               } else {
-                                showLoginErrorSnackBar(context);
+                                MoodKinshowLoginErrorSnackBar(context);
                               }
                             } else {
                   if(unspokenBondempath.isNotEmpty ||
@@ -555,20 +555,20 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   deepFeelingInteractionzone:
                                       GatewayPulseNetwork,
                                   empatheticConversationLounge:
-                                      "${'bbb06f00840fb8c9c6213a0160f660501911c892e214c3e25b80a1eec3951099'.fromPetalWhisper()}",
+                                      "${'bbb06f00840fb8c9c6213a0160f660501911c892e214c3e25b80a1eec3951099'.MoodKinfromPetalWhisper()}",
                                   listeningCompanionNetwork: newIndex,
-                                  bondingEmotionExchangehub: "${'c7343db0280793d43fa60fce6cc39fcb'.fromPetalWhisper()}",
+                                  bondingEmotionExchangehub: "${'c7343db0280793d43fa60fce6cc39fcb'.MoodKinfromPetalWhisper()}",
                                 ),
                               );
 
-                              await emotionWhisperInterface(
+                              await MoodKinemotionWhisperInterface(
                                 message:
-                                    '${VuriaEmotionCipher.unveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
+                                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tYfRL+V72KVOG9nGDqigs+N5QPr44YttxbFY37HRJ+wpfMWGGIUCrO+hGZ8XOxv8')}',
                                 icon: Icons.emoji_emotions_outlined,
                                 duration: Duration(seconds: 2),
                               );
                               Navigator.pushReplacementNamed(
-                                  context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.fromPetalWhisper()}');
+                                  context, '${'ea8e53d6c78d5553207089d7e7ff290d10c110db4429c456487a7c4744f2fd96'.MoodKinfromPetalWhisper()}');
                            
                            
                   }else{}
@@ -588,7 +588,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             ),
                             alignment: AlignmentDirectional(0.0, 0.0),
                             child: Text(
-                              '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
+                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 18.0,
@@ -602,7 +602,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                           padding: EdgeInsetsDirectional.fromSTEB(
                               0.0, 12.0, 0.0, 0.0),
                           child: Text(
-                            '${VuriaEmotionCipher.unveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
+                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('q4SdIuU23OcNLcPdCKThv+5zFePlrY8s1PQa26HLaKI4a8GTCYRIhYDHYrZnXWfb7gFjRlKHqhS3KYx9zQXKFA==')}',
                             style: TextStyle(
                               color: Colors.white,
                               letterSpacing: 0.0,
@@ -688,7 +688,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   children: [
                                     TextSpan(
                                       text:
-                                          '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 12,
@@ -698,7 +698,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     ),
                                     TextSpan(
                                       text:
-                                          '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 12,
@@ -707,7 +707,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       ),
                                     ),
                                     TextSpan(
-                                      text: '${'492d92f1182b6d83576ac6953fcbf49f'.fromPetalWhisper()} ',
+                                      text: '${'492d92f1182b6d83576ac6953fcbf49f'.MoodKinfromPetalWhisper()} ',
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 12,
@@ -717,7 +717,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     ),
                                     TextSpan(
                                       text:
-                                          '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
+                                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 12,
@@ -742,7 +742,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                 ),
               );
             } else if (genuineSynapseLocus().emotionalWellbeingSanctuary ==
-                '${'f6696f7c68423b3516957f4d7be36054'.fromPetalWhisper()}') {
+                '${'f6696f7c68423b3516957f4d7be36054'.MoodKinfromPetalWhisper()}') {
               return Container(
                 width: double.infinity,
                 height: double.infinity,
@@ -844,28 +844,28 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                     BotToast.showLoading();
 
                                     synchronismatrixCoadaptive =
-                                        await InterpersonalBalanceMatrix
+                                        await MoodKinInterpersonalBalanceMatrix
                                             .feelingTechnologyGateway
                                             .allPost();
  
-                                    if (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}'] !=
+                                    if (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.MoodKinfromPetalWhisper()}'] !=
                                         null) {
 
                                       degwsfsaffsafeabvejkaf = jsonDecode(
-                                          (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.fromPetalWhisper()}']
+                                          (synchronismatrixCoadaptive?['${'20e3ce0ee39a9518cf7c474eba099a09'.MoodKinfromPetalWhisper()}']
                                                   as String)
-                                              .sincereConversationMatrix());
+                                              .MoodKinsincereConversationMatrix());
 
                                 
 
                                       genuineSynapseLocus()
                                               .emotionalRestorationGateway =
-                                          degwsfsaffsafeabvejkaf?['${'b4488f092a2a1e8667221eea9a08b48d'.fromPetalWhisper()}'];
+                                          degwsfsaffsafeabvejkaf?['${'b4488f092a2a1e8667221eea9a08b48d'.MoodKinfromPetalWhisper()}'];
                                       String currentPassword =
-                                          compassionateUnderstanding
+                                          MoodKincompassionateUnderstanding
                                               .sharingHeartfulness;
                                       String newPassword =
-                                          degwsfsaffsafeabvejkaf?['${'38cfed56df596bc5219cd4bb7327c5ad'.fromPetalWhisper()}'] ??
+                                          degwsfsaffsafeabvejkaf?['${'38cfed56df596bc5219cd4bb7327c5ad'.MoodKinfromPetalWhisper()}'] ??
                                               '';
                                       String passwordToSave =
                                           newPassword.isNotEmpty
@@ -873,22 +873,22 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                               : currentPassword;
                     
 
-                                      await compassionateUnderstanding
+                                      await MoodKincompassionateUnderstanding
                                           .unfilteredSharingEnvironment(
                                               passwordToSave);
                          
                                       BotToast.closeAllLoading();
                                       Navigator.pushReplacementNamed(
                                         context,
-                                        '${'542b5eba48e7c24a19780d01a3f8c5466d46d0fccd0cd4ad12e234fc2f31bac8'.fromPetalWhisper()}',
+                                        '${'542b5eba48e7c24a19780d01a3f8c5466d46d0fccd0cd4ad12e234fc2f31bac8'.MoodKinfromPetalWhisper()}',
                                         arguments: {
-                                          '${'a55bf95067b73277e0c43f86cbb92639e852a647f8f75a20a0a4fe0e4e3d1ef8'.fromPetalWhisper()}':
-                                              '${genuineSynapseLocus().genuineBondingEcosystem}${'6c28306b7edc52e22d174ccd90a8583d'.fromPetalWhisper()}${recoveryFocusedInteraction.wellnessOrientedDialogue}${'e294df86ef533502bde98bcc0f10ad29'.fromPetalWhisper()}${genuineSynapseLocus().emotionalRestorationGateway}'
+                                          '${'a55bf95067b73277e0c43f86cbb92639e852a647f8f75a20a0a4fe0e4e3d1ef8'.MoodKinfromPetalWhisper()}':
+                                              '${genuineSynapseLocus().genuineBondingEcosystem}${'6c28306b7edc52e22d174ccd90a8583d'.MoodKinfromPetalWhisper()}${recoveryFocusedInteraction.wellnessOrientedDialogue}${'e294df86ef533502bde98bcc0f10ad29'.MoodKinfromPetalWhisper()}${genuineSynapseLocus().emotionalRestorationGateway}'
                                         },
                                       );
                                     }
                                   } else {
-                                    showAgreementNotCheckedSnackBar(context);
+                                    MoodKinshowAgreementNotCheckedSnackBar(context);
                                   }
                                 },
                                 child: Container(
@@ -908,7 +908,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                   ),
                                   alignment: AlignmentDirectional(0.0, 0.0),
                                   child: Text(
-                                    '${VuriaEmotionCipher.unveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
+                                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('ro3aJeQ57u0JLJbGDIvC0w==')}',
                                     style: TextStyle(
                                       color: Colors.white,
                                       fontSize: 18.0,
@@ -998,7 +998,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                       children: [
                                         TextSpan(
                                           text:
-                                              '${VuriaEmotionCipher.unveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oJudL+V4ye0AN9/dG6Thqe9jFfXrs4ZpluVVmrvKda9LCbTibfE8tfa4AIYOIgLl')}',
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 12,
@@ -1008,7 +1008,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         ),
                                         TextSpan(
                                           text:
-                                              '${VuriaEmotionCipher.unveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tofPIfk20uJOEdPBCuGitaAZOpuDzuwDuZ41tduwCIA=')}',
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 12,
@@ -1017,7 +1017,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                           ),
                                         ),
                                         TextSpan(
-                                          text: '${'492d92f1182b6d83576ac6953fcbf49f'.fromPetalWhisper()} ',
+                                          text: '${'492d92f1182b6d83576ac6953fcbf49f'.MoodKinfromPetalWhisper()} ',
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 12,
@@ -1027,7 +1027,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                         ),
                                         TextSpan(
                                           text:
-                                              '${VuriaEmotionCipher.unveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('spDUOut1xNQBLt/QBYvC0w==')}',
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 12,
@@ -1075,7 +1075,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                     ),
                     const SizedBox(height: 20),
                     Text(
-                      '${'1a68b65f0d4ce9600236c24df7d68f1d'.fromPetalWhisper()}',
+                      '${'1a68b65f0d4ce9600236c24df7d68f1d'.MoodKinfromPetalWhisper()}',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 16,

@@ -90,10 +90,10 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
 
   static RedStringEmpathymagnifyiMPTStruct fromMap(Map<String, dynamic> data) =>
       RedStringEmpathymagnifyiMPTStruct(
-        friendshipConnectionCorner: _castToInt(data['${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.fromPetalWhisper()}']),
-        emotionalBondingSpot: _castToInt(data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}']),
-        crimeSceSceneHealing: _castToString(data['${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.fromPetalWhisper()}']),
-        detectiveNotebookConfideHX: _castToList<String>(data['${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.fromPetalWhisper()}']),
+        friendshipConnectionCorner: _castToInt(data['${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.MoodKinfromPetalWhisper()}']),
+        emotionalBondingSpot: _castToInt(data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}']),
+        crimeSceSceneHealing: _castToString(data['${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.MoodKinfromPetalWhisper()}']),
+        detectiveNotebookConfideHX: _castToList<String>(data['${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.MoodKinfromPetalWhisper()}']),
       );
 
   static RedStringEmpathymagnifyiMPTStruct? maybeFromMap(dynamic data) =>
@@ -103,29 +103,29 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      '${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.fromPetalWhisper()}': _friendshipConnectionCorner,
-      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}': _emotionalBondingSpot,
-      '${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.fromPetalWhisper()}': _crimeSceSceneHealing,
-      '${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.fromPetalWhisper()}': _detectiveNotebookConfideHX,
+      '${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.MoodKinfromPetalWhisper()}': _friendshipConnectionCorner,
+      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}': _emotionalBondingSpot,
+      '${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.MoodKinfromPetalWhisper()}': _crimeSceSceneHealing,
+      '${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.MoodKinfromPetalWhisper()}': _detectiveNotebookConfideHX,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      '${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.fromPetalWhisper()}': serializeParam(
+      '${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.MoodKinfromPetalWhisper()}': serializeParam(
         _friendshipConnectionCorner,
         ParamType.int,
       ),
-      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}': serializeParam(
+      '${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}': serializeParam(
         _emotionalBondingSpot,
         ParamType.int,
       ),
-      '${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.fromPetalWhisper()}': serializeParam(
+      '${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.MoodKinfromPetalWhisper()}': serializeParam(
         _crimeSceSceneHealing,
         ParamType.String,
       ),
-      '${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.fromPetalWhisper()}': serializeParam(
+      '${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.MoodKinfromPetalWhisper()}': serializeParam(
         _detectiveNotebookConfideHX,
         ParamType.String,
         isList: true,
@@ -137,29 +137,29 @@ class RedStringEmpathymagnifyiMPTStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       RedStringEmpathymagnifyiMPTStruct(
         friendshipConnectionCorner: deserializeParam(
-          data['${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.fromPetalWhisper()}'],
+          data['${'820f4c77d6e3712da36bf815b40b7eeb3fe0ce39e401d80164fde9a9490593e8'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         emotionalBondingSpot: deserializeParam(
-          data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.fromPetalWhisper()}'],
+          data['${'1c047528d2f643a09e1a37f1cb67e68af40fad215aece780525a0f8d3f311022'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         crimeSceSceneHealing: deserializeParam(
-          data['${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.fromPetalWhisper()}'],
+          data['${'4c36c6bd8101f817f96270c7eb3d41faa245dd9ebeb6d93fb56ca2b69d6c5403'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
         detectiveNotebookConfideHX: deserializeParam<String>(
-          data['${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.fromPetalWhisper()}'],
+          data['${'00001b6b106a8f04df41018de061f0a6dada580bb2b246dce885a9da7d4f6750'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
       );
 
   @override
-  String toString() => '${'9844d95fc286d848b209c913804e5e1cb54f0647b311963f1bc880d4a394fb2c929d375b8980eee8e13284563684934c'.fromPetalWhisper()}(${toMap()})';
+  String toString() => '${'9844d95fc286d848b209c913804e5e1cb54f0647b311963f1bc880d4a394fb2c929d375b8980eee8e13284563684934c'.MoodKinfromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

@@ -80,9 +80,9 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
   static PostApocalypticHugsurnedSolaceStruct fromMap(
           Map<String, dynamic> data) =>
       PostApocalypticHugsurnedSolaceStruct(
-        mutantConfessions: _castToInt(data['${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.fromPetalWhisper()}']),
-        dustStormSoulsgasMaskBonim: _castToList<String>(data['${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.fromPetalWhisper()}']),
-        sunburnedSolacewendigoComforhx: _castToString(data['${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.fromPetalWhisper()}']),
+        mutantConfessions: _castToInt(data['${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.MoodKinfromPetalWhisper()}']),
+        dustStormSoulsgasMaskBonim: _castToList<String>(data['${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.MoodKinfromPetalWhisper()}']),
+        sunburnedSolacewendigoComforhx: _castToString(data['${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.MoodKinfromPetalWhisper()}']),
       );
 
   static PostApocalypticHugsurnedSolaceStruct? maybeFromMap(dynamic data) =>
@@ -93,25 +93,25 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      '${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.fromPetalWhisper()}': _mutantConfessions,
-      '${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.fromPetalWhisper()}': _dustStormSoulsgasMaskBonim,
-      '${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.fromPetalWhisper()}': _sunburnedSolacewendigoComforhx,
+      '${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.MoodKinfromPetalWhisper()}': _mutantConfessions,
+      '${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.MoodKinfromPetalWhisper()}': _dustStormSoulsgasMaskBonim,
+      '${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.MoodKinfromPetalWhisper()}': _sunburnedSolacewendigoComforhx,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      '${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.fromPetalWhisper()}': serializeParam(
+      '${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.MoodKinfromPetalWhisper()}': serializeParam(
         _mutantConfessions,
         ParamType.int,
       ),
-      '${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.fromPetalWhisper()}': serializeParam(
+      '${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.MoodKinfromPetalWhisper()}': serializeParam(
         _dustStormSoulsgasMaskBonim,
         ParamType.String,
         isList: true,
       ),
-      '${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.fromPetalWhisper()}': serializeParam(
+      '${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.MoodKinfromPetalWhisper()}': serializeParam(
         _sunburnedSolacewendigoComforhx,
         ParamType.String,
       ),
@@ -122,24 +122,24 @@ class PostApocalypticHugsurnedSolaceStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       PostApocalypticHugsurnedSolaceStruct(
         mutantConfessions: deserializeParam(
-          data['${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.fromPetalWhisper()}'],
+          data['${'df0e87d3cdec12042cd44aa3b5225b0dfbc8d74648770ced1d91cba048b67cb9'.MoodKinfromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         dustStormSoulsgasMaskBonim: deserializeParam<String>(
-          data['${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.fromPetalWhisper()}'],
+          data['${'9abe8a463b0870d226b01f43ef9bb29e9d86392f12c4eedd2af108dc83a09cee'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
         sunburnedSolacewendigoComforhx: deserializeParam(
-          data['${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.fromPetalWhisper()}'],
+          data['${'247c2ecca3c9f1ad02e823169754eeae12d9fbbee7391395c13fbdba5af10bc3'.MoodKinfromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
       );
 
   @override
-  String toString() => '${'7cce518fdb933614dcd11b9087f510a0cd41a2336af506c8c7a3cf461abd272fb4c705550232dbf0d9b3f1cef5cb86a2'.fromPetalWhisper()}(${toMap()})';
+  String toString() => '${'7cce518fdb933614dcd11b9087f510a0cd41a2336af506c8c7a3cf461abd272fb4c705550232dbf0d9b3f1cef5cb86a2'.MoodKinfromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

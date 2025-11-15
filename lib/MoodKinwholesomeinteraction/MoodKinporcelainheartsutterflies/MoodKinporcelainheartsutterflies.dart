@@ -43,7 +43,7 @@ class _PorcelainHeartsutterfliesWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
             child: Text(
-              '${VuriaEmotionCipher.unveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
+              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
               style: TextStyle(
                    height: 1.5, 
                     color: Color(0xE6000000),
@@ -58,7 +58,7 @@ class _PorcelainHeartsutterfliesWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 25.0, 0.0),
             child: Text(
-              ' ${VuriaEmotionCipher.unveilEmotion('u43IbO5506MaYt7SCu3hte55QPPk4YBj3/9JlvTPa+o6asHSD4RPzYfad/M+XH2C0B58WU2YtQuoNpNi0hrVCw==')}',
+              ' ${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('u43IbO5506MaYt7SCu3hte55QPPk4YBj3/9JlvTPa+o6asHSD4RPzYfad/M+XH2C0B58WU2YtQuoNpNi0hrVCw==')}',
               textAlign: TextAlign.center,
               style: TextStyle(
                    
@@ -80,7 +80,7 @@ class _PorcelainHeartsutterfliesWidgetState
               highlightColor: Colors.transparent,
               onTap: () async {
                    Navigator.pop(context);
-                Navigator.of(context).pushNamed('${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.fromPetalWhisper()}');
+                Navigator.of(context).pushNamed('${'7f9a7a0b9a1cbd7c7971f94ba37fbb95a218516f2861da9809c0ed1aaf12b58b'.MoodKinfromPetalWhisper()}');
              
               },
               child: Container(
@@ -97,7 +97,7 @@ class _PorcelainHeartsutterfliesWidgetState
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                  '${VuriaEmotionCipher.unveilEmotion('sIfeJOtk2uFmSr67dIDJ2A==')}',
+                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sIfeJOtk2uFmSr67dIDJ2A==')}',
                   style: TextStyle(
                       
                         color: Colors.white,

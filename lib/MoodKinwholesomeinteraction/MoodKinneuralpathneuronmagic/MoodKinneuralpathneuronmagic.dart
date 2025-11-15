@@ -50,9 +50,9 @@ class _NeuralPathNeuronMagicWidgetState
             padding: EdgeInsetsDirectional.fromSTEB(20.0, 10.0, 20.0, 0.0),
             child: InkWell(
               onTap: () async {
-                await emotionWhisperInterface(
+                await MoodKinemotionWhisperInterface(
                   message:
-                      "${VuriaEmotionCipher.unveilEmotion('q8XQbOZ52uMHLNGTE/21/qBGWfHtsoYswfBTzvTeJ+I0dMGcCc8Ci+6gGJ4WOhr9')}",
+                      "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('q8XQbOZ52uMHLNGTE/21/qBGWfHtsoYswfBTzvTeJ+I0dMGcCc8Ci+6gGJ4WOhr9')}",
                   icon: Icons.logout,
                   duration: Duration(seconds: 2),
                 );
@@ -63,7 +63,7 @@ class _NeuralPathNeuronMagicWidgetState
 
                 Navigator.pushNamedAndRemoveUntil(
                   context,
-                  '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.fromPetalWhisper()}',
+                  '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.MoodKinfromPetalWhisper()}',
                   (route) => false,
                 );
               },
@@ -75,7 +75,7 @@ class _NeuralPathNeuronMagicWidgetState
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                    '${VuriaEmotionCipher.unveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
+                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sYvaIqp5yPBmSr67dIDJ2A==')}',
                     style: TextStyle(
                       color: Colors.black,
                       fontSize: 16.0,
@@ -100,7 +100,7 @@ class _NeuralPathNeuronMagicWidgetState
                 ),
                 alignment: AlignmentDirectional(0.0, 0.0),
                 child: Text(
-                    '${VuriaEmotionCipher.unveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
+                    '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('gYPTL+96t45kSLy5doLL2g==')}',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 16.0,

@@ -91,7 +91,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                           padding:
                               EdgeInsetsDirectional.fromSTEB(10.0, 0.0, 0.0, 0.0),
                           child: Text(
-                            '${VuriaEmotionCipher.unveilEmotion('r4fOP+tx2I1nS7+6dYHI2Q==')}',
+                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('r4fOP+tx2I1nS7+6dYHI2Q==')}',
                             style: TextStyle(
                               color: Color(0xE6000000),
                               fontSize: 20.0,
@@ -164,9 +164,9 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
             
                                   Navigator.pushNamed(
                                     context,
-                                    '${'23c8f9fdf2b023027772ddf038f5afda793ce270a44ab4f99e93ca7bb0b46200'.fromPetalWhisper()}',
+                                    '${'23c8f9fdf2b023027772ddf038f5afda793ce270a44ab4f99e93ca7bb0b46200'.MoodKinfromPetalWhisper()}',
                                     arguments: {
-                                      '${'bedc7110a19cf830ca5aeebc875bb9e53bd2822c460172c1742dd31915d904de'.fromPetalWhisper()}':
+                                      '${'bedc7110a19cf830ca5aeebc875bb9e53bd2822c460172c1742dd31915d904de'.MoodKinfromPetalWhisper()}':
                                           sentimentTapestryBoardItem
                                               .emotionSharingCircle,
                                     },

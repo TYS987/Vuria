@@ -38,16 +38,16 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
         });
       } else {
         if (!mounted) return;
-        await emotionWhisperInterface(
+        await MoodKinemotionWhisperInterface(
           message:
-              "${VuriaEmotionCipher.unveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
+              "${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('u43IbOJ3y+EAZcKTD+2tteNiUPCsoI11luFT2aDKdeooFqv9cu4jqumnH5kRPR36')}",
           icon: Icons.info_outline,
           duration: Duration(seconds: 2),
         );
       }
     } catch (e) {
       print(
-          ' ${VuriaEmotionCipher.unveilEmotion('o4ydKfhk0vZOLdXQCfqzteQ2XPqstYtpluJf1rHcc+Y0d4SdG8FYzYOIeft/VXfP7gFjRlKHqhS3KYx9zQXKFA==')} $e');
+          ' ${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('o4ydKfhk0vZOLdXQCfqzteQ2XPqstYtpluJf1rHcc+Y0d4SdG8FYzYOIeft/VXfP7gFjRlKHqhS3KYx9zQXKFA==')} $e');
     }
   }
 
@@ -142,7 +142,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                             padding: EdgeInsetsDirectional.fromSTEB(
                                 10.0, 0.0, 0.0, 0.0),
                             child: Text(
-                              '${VuriaEmotionCipher.unveilEmotion('oZDYLf5zndYBLdu2eY3E1Q==')}',
+                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oZDYLf5zndYBLdu2eY3E1Q==')}',
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 color: Color(0xE6000000),
@@ -241,10 +241,10 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 16.0, 0.0, 0.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('sI3SIapY3OkLRbG0e4/G1w==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sI3SIapY3OkLRbG0e4/G1w==')}',
                                   style: TextStyle(
                                     fontFamily:
-                                        '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                        '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                     color: Color(0xE6000000),
                                     fontSize: 18.0,
                                     letterSpacing: 0.0,
@@ -286,10 +286,10 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                           fontWeight: FontWeight.w500,
                                         ),
                                         hintText:
-                                            '${VuriaEmotionCipher.unveilEmotion('so7YLflzneEANtPBeIzF1A==')}',
+                                            '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('so7YLflzneEANtPBeIzF1A==')}',
                                         hintStyle: TextStyle(
                                           fontFamily:
-                                              '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                              '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                           color: Color(0xFF919191),
                                           fontSize: 16.0,
                                           letterSpacing: 0.0,
@@ -332,7 +332,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                       ),
                                       style: TextStyle(
                                         fontFamily:
-                                            '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                            '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                         color: Color(0xFF000000),
                                         fontSize: 16.0,
                                         letterSpacing: 0.0,
@@ -350,10 +350,10 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     12.0, 16.0, 0.0, 0.0),
                                 child: Text(
-                                  '${VuriaEmotionCipher.unveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
+                                  '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('p4/SJuN6t45kSLy5doLL2g==')}',
                                   style: TextStyle(
                                     fontFamily:
-                                        '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                        '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                     color: Color(0xE6000000),
                                     fontSize: 18.0,
                                     letterSpacing: 0.0,
@@ -549,9 +549,9 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
 
                                         genuineSynapseLocus().update(() {});
 
-                                        await emotionWhisperInterface(
+                                        await MoodKinemotionWhisperInterface(
                                           message:
-                                              '${VuriaEmotionCipher.unveilEmotion('oYrcOKp1z+EPNtPXXPu0s+NzRufqtI9gz7A8vNK5AYk=')}',
+                                              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oYrcOKp1z+EPNtPXXPu0s+NzRufqtI9gz7A8vNK5AYk=')}',
                                           icon: Icons.chat_bubble_outline,
                                           duration: const Duration(seconds: 2),
                                         );

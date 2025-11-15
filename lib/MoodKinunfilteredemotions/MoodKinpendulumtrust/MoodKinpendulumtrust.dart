@@ -97,7 +97,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                       child: InkWell(
                                         onTap: () async {
                                           Navigator.of(context).pushNamed(
-                                              '${'e1dc5011756527bd3cd8fbb6a5d06382deafce64fbbc398eb2fd98cd63e5c5fc'.fromPetalWhisper()}');
+                                              '${'e1dc5011756527bd3cd8fbb6a5d06382deafce64fbbc398eb2fd98cd63e5c5fc'.MoodKinfromPetalWhisper()}');
                                         },
                                         child: FutureBuilder(
                                             future: MoodKinTenderUnderstanding
@@ -123,7 +123,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                     InkWell(
                                       onTap: () async {
                                         Navigator.of(context).pushNamed(
-                                            '${'dd3d72be965d0b39af73fc0fc0c42e147405765ce07c2ef627ef2ea3d60a71ea'.fromPetalWhisper()}');
+                                            '${'dd3d72be965d0b39af73fc0fc0c42e147405765ce07c2ef627ef2ea3d60a71ea'.MoodKinfromPetalWhisper()}');
                                       },
                                       child: FutureBuilder(
                                           future: MoodKinTenderUnderstanding
@@ -244,9 +244,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                     Navigator
                                                                         .pushNamed(
                                                                       context,
-                                                                      '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.fromPetalWhisper()}',
+                                                                      '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.MoodKinfromPetalWhisper()}',
                                                                       arguments: {
-                                                                        '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}': genuineSynapseLocus()
+                                                                        '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.MoodKinfromPetalWhisper()}': genuineSynapseLocus()
                                                                             .necronomiconHealingComfortU
                                                                             .where((e) =>
                                                                                 e.listeningCompanionNetwork ==
@@ -308,11 +308,11 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                       children: [
                                                                         Text(
                                                                           genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull?.bondingEmotionExchangehub ??
-                                                                              VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q=='),
+                                                                              MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oYPRJfli3I1nS7+6dYHI2Q=='),
                                                                           style:
                                                                               TextStyle(
                                                                             fontFamily:
-                                                                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                                '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                                             color:
                                                                                 Color(0xE6000000),
                                                                             letterSpacing:
@@ -323,12 +323,12 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                         ),
                                                                         Text(
                                                                           emotionalAlignmentToolItem.heartfeltInteractionCorner != null
-                                                                              ? DateFormat('${'b9f86b9b04e4cf5b076e69284fd17102'.fromPetalWhisper()}').format(emotionalAlignmentToolItem.heartfeltInteractionCorner!)
-                                                                              : VuriaEmotionCipher.unveilEmotion('0NKPeKQnj6pecLC1eo7H1g=='),
+                                                                              ? DateFormat('${'b9f86b9b04e4cf5b076e69284fd17102'.MoodKinfromPetalWhisper()}').format(emotionalAlignmentToolItem.heartfeltInteractionCorner!)
+                                                                              : MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('0NKPeKQnj6pecLC1eo7H1g=='),
                                                                           style:
                                                                               TextStyle(
                                                                             fontFamily:
-                                                                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                                '${'0c4769f195603385ed1400179bc9da73'.MoodKinfromPetalWhisper()}',
                                                                             color:
                                                                                 Color(0xB3000000),
                                                                             fontSize:
@@ -497,9 +497,9 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                   onTap: () async {
                                                     Navigator.pushNamed(
                                                       context,
-                                                      '${'b71e5a4bc28a410497bbedc15c1fbdf22c0a7a8f82f16647f7a41e07cb8a25a0'.fromPetalWhisper()}',
+                                                      '${'b71e5a4bc28a410497bbedc15c1fbdf22c0a7a8f82f16647f7a41e07cb8a25a0'.MoodKinfromPetalWhisper()}',
                                                       arguments: {
-                                                        '${'2b3cd660daf164f9d7336075af994721835d89fd90949b1d35dda7c65229eff6'.fromPetalWhisper()}':
+                                                        '${'2b3cd660daf164f9d7336075af994721835d89fd90949b1d35dda7c65229eff6'.MoodKinfromPetalWhisper()}':
                                                             emotionalAlignmentToolItem
                                                                 .friendshipResonanceSpot
                                                       },

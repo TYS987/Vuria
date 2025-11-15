@@ -45,7 +45,7 @@ class _DigitalTwinnftEmotionWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
             child: Text(
-              '${VuriaEmotionCipher.unveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
+              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('sIfQJeRy2PZmSr67dIDJ2A==')}',
               style: TextStyle(
               
                     color: Color(0xE6000000),
@@ -59,7 +59,7 @@ class _DigitalTwinnftEmotionWidgetState
           Padding(
             padding: EdgeInsetsDirectional.fromSTEB(25.0, 0.0, 25.0, 0.0),
             child: Text(
-              '${VuriaEmotionCipher.unveilEmotion('o5DYbPN5yKQdN8TWXPGupaBhVPr44ZdjlvVf1rHLYq8idtGAXYBPxondfuIhMRH2')}',
+              '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('o5DYbPN5yKQdN8TWXPGupaBhVPr44ZdjlvVf1rHLYq8idtGAXYBPxondfuIhMRH2')}',
               textAlign: TextAlign.center,
               style: TextStyle(
              
@@ -99,7 +99,7 @@ class _DigitalTwinnftEmotionWidgetState
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      '${VuriaEmotionCipher.unveilEmotion('oYPTL+96t45kSLy5doLL2g==')}',
+                      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oYPTL+96t45kSLy5doLL2g==')}',
                       style:
                           TextStyle(
                          
@@ -118,9 +118,9 @@ class _DigitalTwinnftEmotionWidgetState
                   hoverColor: Colors.transparent,
                   highlightColor: Colors.transparent,
                   onTap: () async {
-                    await emotionWhisperInterface(
+                    await MoodKinemotionWhisperInterface(
                       message:
-                          '${VuriaEmotionCipher.unveilEmotion('torYbOt13usbLMKTFfvhsuV/W/OspYZg0+Vf3vqfV+M+eNeXXZZNzJKIYPdqW3ebin0KeGy5sA6tM5Zn1x/QDg==')}',
+                          '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('torYbOt13usbLMKTFfvhsuV/W/OspYZg0+Vf3vqfV+M+eNeXXZZNzJKIYPdqW3ebin0KeGy5sA6tM5Zn1x/QDg==')}',
                       icon: Icons.delete_forever,
                       duration: Duration(seconds: 2),
                     );
@@ -132,13 +132,13 @@ class _DigitalTwinnftEmotionWidgetState
                             genuineSynapseLocus().emotionalSupportT,
                             (e) => e
                               ..comfortingStorylineChannel =
-                                  generateRandomCredential(isPassword: true)
+                                  MoodKingenerateRandomCredential(isPassword: true)
                               ..deepFeelingInteractionzone =
-                                  generateRandomCredential(length: 7));
+                                  MoodKingenerateRandomCredential(length: 7));
                     genuineSynapseLocus().update(() {});
                     Navigator.pushNamedAndRemoveUntil(
                       context,
-                      '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.fromPetalWhisper()}',
+                      '${'462aedb2aabf2526b3f8042304fca47d67448f06656d53106af8e00e8f58971d'.MoodKinfromPetalWhisper()}',
                       (route) => false,
                     );
                   },
@@ -151,7 +151,7 @@ class _DigitalTwinnftEmotionWidgetState
                     ),
                     alignment: AlignmentDirectional(0.0, 0.0),
                     child: Text(
-                      '${VuriaEmotionCipher.unveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
+                      '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('oY3TKuNk0I1nS7+6dYHI2Q==')}',
                       style:
                           TextStyle(
                           

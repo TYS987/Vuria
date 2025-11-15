@@ -151,7 +151,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                             resonanceFriendshipNetwork:
                                                 empathyOrbitDimensions,
                                             feelingFlowCommunications:
-                                                '${'e89a805321f27f96e12ad60e790dcf8cbe9556c4426835b50f743b597e98acd0'.fromPetalWhisper()}',
+                                                '${'e89a805321f27f96e12ad60e790dcf8cbe9556c4426835b50f743b597e98acd0'.MoodKinfromPetalWhisper()}',
                                             shamanCodingNeuralinkM: [
                                               empathyOrbitDimensions,
                                               sentimentNebula.listeningCompanionNetwork,
@@ -160,7 +160,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                             inquisitionInternetBitcoin:
                                                 DateTime.now(),
                                             baroqueBitcoinPodcastHX: [
-                                              '${'751a50796f00c4d92ed5c67093a573b74e7bcc76049c2bfb0f675724460834ba'.fromPetalWhisper()}'
+                                              '${'751a50796f00c4d92ed5c67093a573b74e7bcc76049c2bfb0f675724460834ba'.MoodKinfromPetalWhisper()}'
                                             ],
                                           );
               
@@ -190,9 +190,9 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                         if (genuineWhisperVortex != null) {
                                           Navigator.pushNamed(
                                             context,
-                                            '${'0809670819e3b0f424c90318f325f36006fa28d1b9ba5e0e95f78b14ae9d4062'.fromPetalWhisper()}',
+                                            '${'0809670819e3b0f424c90318f325f36006fa28d1b9ba5e0e95f78b14ae9d4062'.MoodKinfromPetalWhisper()}',
                                             arguments: {
-                                              '${'012b24479c7433b71e9f076f30c97e735c60f09d7a3483de6858c636aff28863'.fromPetalWhisper()}':
+                                              '${'012b24479c7433b71e9f076f30c97e735c60f09d7a3483de6858c636aff28863'.MoodKinfromPetalWhisper()}':
                                                   genuineWhisperVortex
                                                       .emotionSharingCircle
                                             },
@@ -268,7 +268,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                 ),
                               ),
                               Text(
-                                '${VuriaEmotionCipher.unveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
+                                '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('tIvQJYYasYhiTrq/cITN3A==')}',
                                 style: TextStyle(
                                   color: Color(0xE6000000),
                                   fontSize: 20.0,

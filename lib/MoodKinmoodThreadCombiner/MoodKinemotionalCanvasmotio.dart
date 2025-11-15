@@ -1,25 +1,25 @@
 import 'package:encrypt/encrypt.dart';
 
 
-class VuriaEmotionCipher {
+class MoodKinVuriaEmotionCipher {
 
-  static final _soulBondKey = Key.fromUtf8('vur2025heartconnectvur2025feelli');
-
-
-  static final _emotionFlowVector = IV.fromUtf8('vurInitialVector');
+  static final MoodKinsoulBondKey = Key.fromUtf8('vur2025heartconnectvur2025feelli');
 
 
-  static final _feelingEncrypter = Encrypter(AES(_soulBondKey));
+  static final MoodKinemotionFlowVector = IV.fromUtf8('vurInitialVector');
 
 
-  static String sealEmotion(String rawFeeling) {
-    final encrypted = _feelingEncrypter.encrypt(rawFeeling, iv: _emotionFlowVector);
+  static final MoodKinfeelingEncrypter = Encrypter(AES(MoodKinsoulBondKey));
+
+
+  static String MoodKinsealEmotion(String rawFeeling) {
+    final encrypted = MoodKinfeelingEncrypter.encrypt(rawFeeling, iv: MoodKinemotionFlowVector);
     return encrypted.base64;
   }
 
 
-  static String unveilEmotion(String encryptedFeeling) {
-    final decrypted = _feelingEncrypter.decrypt64(encryptedFeeling, iv: _emotionFlowVector);
+  static String MoodKinunveilEmotion(String encryptedFeeling) {
+    final decrypted = MoodKinfeelingEncrypter.decrypt64(encryptedFeeling, iv: MoodKinemotionFlowVector);
     return decrypted;
   }
 }

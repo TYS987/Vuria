@@ -135,9 +135,9 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                         onTap: () async {
                                           Navigator.pushNamed(
                                             context,
-                                            '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.fromPetalWhisper()}',
+                                            '${'014641a073e07a2615a7d36c057deef0cf5d5ad80e564f69eb3a47de34e15afb'.MoodKinfromPetalWhisper()}',
                                             arguments: {
-                                              '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}': genuineSynapseLocus()
+                                              '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.MoodKinfromPetalWhisper()}': genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
                                                       e.listeningCompanionNetwork ==
@@ -732,7 +732,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                     ),
                                                                   ),
                                                                   Text(
-                                                                    DateFormat(VuriaEmotionCipher.unveilEmotion(
+                                                                    DateFormat(MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                                             'kIfRLf5/y+FmSr67dIDJ2A=='))
                                                                         .format(
                                                                             sorrowSharedSanctuaryItem.authenticStoryBoard!),
@@ -1001,7 +1001,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               moodFeedbackCalibrator,
                                           authenticStoryBoard: DateTime.now(),
                                           emotionalInsightDashboardHX:
-                                              VuriaEmotionCipher.unveilEmotion(
+                                              MoodKinVuriaEmotionCipher.MoodKinunveilEmotion(
                                                   'B20sqTKVVSvqqhgJeIzF1A=='),
                                         ),
                                       );
