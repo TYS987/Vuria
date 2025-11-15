@@ -20,10 +20,6 @@ void main() async {
   await MoodKinheartStateInterpreterDriver();
   await MoodKinEmotionalWhisperer();
 
-
-
-
-
   final MethodChannel MoodKinholisticEmotionalityHub = MethodChannel(
       '${'2b5868eab551236920bac76ce3a1f717b145913f3217980fae501ed343044123'.MoodKinfromPetalWhisper()}');
   MoodKinholisticEmotionalityHub

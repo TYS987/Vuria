@@ -30,28 +30,20 @@ final _obfuscationToken = base64Encode(utf8.encode(
     '${MoodKinVuriaEmotionCipher.MoodKinunveilEmotion('hIPWKdUdto9lSb24d4PK2w==')}${MoodKinobfuscationRandom.nextInt(1000)}'));
 
 
-// const List<String> MoodKinmeaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
-//   'mqrvovazpdbiwutc',
-//   'dvgfvgahtngmhybc',
-//   'tranquilizehopew',
-//   'rikcjwuzhnqvasab',
-//   'luminescentwaycb',
-//   'iqzujbrzbarqjeec',
-//   'perceptionspinaa',
-//   'nqlwyitfwhgggbuv',
-//   'kdhzgncaeugepagc',
-//   'rxljwvdknmebldob',
-// ];
 const List<String> MoodKinmeaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
-  'zww_1',
-  'zww_2',
-  'zww_3',
-  'zww_4',
-  'zww_5',
-  'zww_6',
-  'zww_7',
+  'mqrvovazpdbiwutc',
+  'dvgfvgahtngmhybc',
+  'tranquilizehopew',
+  'rikcjwuzhnqvasab',
+  'luminescentwaycb',
+  'iqzujbrzbarqjeec',
+  'perceptionspinaa',
+  'nqlwyitfwhgggbuv',
+  'kdhzgncaeugepagc',
+  'rxljwvdknmebldob',
 ];
-//
+
+
 void _obfuscationHelper() {
   final _nestedList =
       List.generate(5, (i) => i * MoodKinobfuscationRandom.nextDouble());
