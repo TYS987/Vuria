@@ -133,7 +133,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                             genuineSynapseLocus()
                                 .necronomiconHealingComfortU
                                 .where((e) =>
-                                    e.loFiSoulmatesComfortT ==
+                                    e.listeningCompanionNetwork ==
                                     genuineSynapseLocus()
                                         .steamPunkSiribleDroneR
                                         .where((e) =>
@@ -148,7 +148,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                         .firstOrNull)
                                 .toList()
                                 .firstOrNull!
-                                .phoenixTearsTherapyN,
+                                .bondingEmotionExchangehub,
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 20.0,
@@ -175,7 +175,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                         mutualFeelingBridgeID: genuineSynapseLocus()
                                             .necronomiconHealingComfortU
                                             .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
+                                                e.listeningCompanionNetwork ==
                                                 genuineSynapseLocus()
                                                     .steamPunkSiribleDroneR
                                                     .where((e) =>
@@ -191,7 +191,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                     .firstOrNull)
                                             .toList()
                                             .firstOrNull!
-                                            .loFiSoulmatesComfortT,
+                                            .listeningCompanionNetwork,
                                         sharedEmotionVortex: 1,
                                       ),
                                     ),
@@ -291,12 +291,12 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                       .MoodKinReflectiveListener('${   genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   feelingSnapshotBoardItem
                                                                       .authenticInteractionLounge)
                                                               .toList()
                                                               .firstOrNull!
-                                                              .neuralLaceConfessionsI}'),      
+                                                              .empatheticConversationLounge}'),      
                                                 builder: (context, asyncSnapshot) {
                                                   if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                                   return Container(
@@ -308,12 +308,12 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                         image:genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   feelingSnapshotBoardItem
                                                                       .authenticInteractionLounge)
                                                               .toList()
                                                               .firstOrNull!
-                                                              .neuralLaceConfessionsI
+                                                              .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -321,12 +321,12 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                                           genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   feelingSnapshotBoardItem
                                                                       .authenticInteractionLounge)
                                                               .toList()
                                                               .firstOrNull!
-                                                              .neuralLaceConfessionsI
+                                                              .empatheticConversationLounge
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -470,12 +470,12 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                       .MoodKinReflectiveListener('${genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   feelingSnapshotBoardItem
                                                                       .authenticInteractionLounge)
                                                               .toList()
                                                               .firstOrNull!
-                                                              .neuralLaceConfessionsI}'),     
+                                                              .empatheticConversationLounge}'),     
                                                 builder: (context, asyncSnapshot) {
                                                   if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                                   return Container(
@@ -487,12 +487,12 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                         image:genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   feelingSnapshotBoardItem
                                                                       .authenticInteractionLounge)
                                                               .toList()
                                                               .firstOrNull!
-                                                              .neuralLaceConfessionsI
+                                                              .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -500,12 +500,12 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                                           genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   feelingSnapshotBoardItem
                                                                       .authenticInteractionLounge)
                                                               .toList()
                                                               .firstOrNull!
-                                                              .neuralLaceConfessionsI,
+                                                              .empatheticConversationLounge,
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -686,7 +686,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                       genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
-                                              e.loFiSoulmatesComfortT ==
+                                              e.listeningCompanionNetwork ==
                                               genuineSynapseLocus()
                                                   .steamPunkSiribleDroneR
                                                   .where((e) =>
@@ -702,7 +702,7 @@ class _SynapseSerenitymesWidgetState extends State<SynapseSerenitymesWidget> {
                                                   .firstOrNull)
                                           .toList()
                                           .firstOrNull!
-                                          .loFiSoulmatesComfortT,
+                                          .listeningCompanionNetwork,
                                 },
                               );
                             },

@@ -234,7 +234,7 @@ class _IntimateMomentsShareWidgetState
                                       genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
-                                                  e.loFiSoulmatesComfortT ==
+                                                  e.listeningCompanionNetwork ==
                                                   genuineSynapseLocus()
                                                       .azothConfessionsathanorSolaceMP
                                                       .where((e) =>
@@ -246,7 +246,7 @@ class _IntimateMomentsShareWidgetState
                                                       ?.emotionalExchangePlatform)
                                               .toList()
                                               .firstOrNull
-                                              ?.phoenixTearsTherapyN ??
+                                              ?.bondingEmotionExchangehub ??
                                           VuriaEmotionCipher.unveilEmotion(
                                               'sY3bOKpC3OgFMbC1eo7H1g=='),
                                       style: TextStyle(
@@ -392,11 +392,11 @@ class _IntimateMomentsShareWidgetState
                                                     genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
-                                                            e.loFiSoulmatesComfortT ==
+                                                            e.listeningCompanionNetwork ==
                                                             collectiveMoodCanvasItem)
                                                         .toList()
                                                         .firstOrNull
-                                                        ?.loFiSoulmatesComfortT,
+                                                        ?.listeningCompanionNetwork,
                                               },
                                             );
                                           },
@@ -406,7 +406,7 @@ class _IntimateMomentsShareWidgetState
                                               FutureBuilder(
                                                   future: MoodKinTenderUnderstanding
                                                       .MoodKinReflectiveListener(
-                                                          '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == collectiveMoodCanvasItem).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                          '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == collectiveMoodCanvasItem).toList().firstOrNull!.empatheticConversationLounge}'),
                                                   builder:
                                                       (context, asyncSnapshot) {
                                                     if (!asyncSnapshot.hasData)
@@ -420,22 +420,22 @@ class _IntimateMomentsShareWidgetState
                                                           image: genuineSynapseLocus()
                                                                   .necronomiconHealingComfortU
                                                                   .where((e) =>
-                                                                      e.loFiSoulmatesComfortT ==
+                                                                      e.listeningCompanionNetwork ==
                                                                       collectiveMoodCanvasItem)
                                                                   .toList()
                                                                   .firstOrNull!
-                                                                  .neuralLaceConfessionsI
+                                                                  .empatheticConversationLounge
                                                                   .contains('/')
                                                               ? FileImage(
                                                                   File(
                                                                     genuineSynapseLocus()
                                                                         .necronomiconHealingComfortU
                                                                         .where((e) =>
-                                                                            e.loFiSoulmatesComfortT ==
+                                                                            e.listeningCompanionNetwork ==
                                                                             collectiveMoodCanvasItem)
                                                                         .toList()
                                                                         .firstOrNull!
-                                                                        .neuralLaceConfessionsI,
+                                                                        .empatheticConversationLounge,
                                                                   ),
                                                                 )
                                                               : FileImage(File(
@@ -455,11 +455,11 @@ class _IntimateMomentsShareWidgetState
                                                   genuineSynapseLocus()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
-                                                          e.loFiSoulmatesComfortT ==
+                                                          e.listeningCompanionNetwork ==
                                                           collectiveMoodCanvasItem)
                                                       .toList()
                                                       .firstOrNull!
-                                                      .phoenixTearsTherapyN,
+                                                      .bondingEmotionExchangehub,
                                                   style: TextStyle(
                                                     fontFamily:
                                                         '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
@@ -518,7 +518,7 @@ class _IntimateMomentsShareWidgetState
                                     FutureBuilder(
                                         future: MoodKinTenderUnderstanding
                                             .MoodKinReflectiveListener(
-                                                '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == interactiveEmpathyFlowItem.friendshipConnectionCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == interactiveEmpathyFlowItem.friendshipConnectionCorner).toList().firstOrNull!.empatheticConversationLounge}'),
                                         builder: (context, asyncSnapshot) {
                                           if (!asyncSnapshot.hasData)
                                             return const SizedBox();
@@ -531,23 +531,23 @@ class _IntimateMomentsShareWidgetState
                                                 image: genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
-                                                            e.loFiSoulmatesComfortT ==
+                                                            e.listeningCompanionNetwork ==
                                                             interactiveEmpathyFlowItem
                                                                 .friendshipConnectionCorner)
                                                         .toList()
                                                         .firstOrNull!
-                                                        .neuralLaceConfessionsI
+                                                        .empatheticConversationLounge
                                                         .contains('/')
                                                     ? FileImage(
                                                         File(genuineSynapseLocus()
                                                             .necronomiconHealingComfortU
                                                             .where((e) =>
-                                                                e.loFiSoulmatesComfortT ==
+                                                                e.listeningCompanionNetwork ==
                                                                 interactiveEmpathyFlowItem
                                                                     .friendshipConnectionCorner)
                                                             .toList()
                                                             .firstOrNull!
-                                                            .neuralLaceConfessionsI),
+                                                            .empatheticConversationLounge),
                                                       )
                                                     : FileImage(File(
                                                         asyncSnapshot.data!)),
@@ -581,7 +581,7 @@ class _IntimateMomentsShareWidgetState
                                                 children: [
                                                   TextSpan(
                                                     text:
-                                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == interactiveEmpathyFlowItem.friendshipConnectionCorner).toList().firstOrNull?.phoenixTearsTherapyN ?? VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}: ',
+                                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == interactiveEmpathyFlowItem.friendshipConnectionCorner).toList().firstOrNull?.bondingEmotionExchangehub ?? VuriaEmotionCipher.unveilEmotion('r4vRI4YasYhiTrq/cITN3A==')}: ',
                                                     style: TextStyle(
                                                       fontFamily:
                                                           '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',

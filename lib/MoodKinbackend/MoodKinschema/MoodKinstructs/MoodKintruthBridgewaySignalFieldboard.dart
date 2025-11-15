@@ -1,132 +1,133 @@
 // ignore_for_file: unnecessary_getters_setters
 
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinemotionalConnectionArchitecture.dart';
 import 'package:vuria/MoodKinvulnerablePocketAngular/MoodKinemotionTraceexpressive/MoodKinreflectionTriggeibeouchFlow.dart';
 import '../MoodKinutil/MoodKinconnectionRippletrueEmot.dart';
 import 'MoodKinindex.dart';
 
 class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
   PhoenixTearsTherapustEmpathyStruct({
-    String? phoenixTearsTherapyN,
-    String? unicornWhispererHealingE,
-    String? dragonScaleComfortfessionsP,
-    String? neuralLaceConfessionsI,
-    double? augmentedRealityLoveM,
-    List<int>? corporateDroneHugsB,
-    List<int>? corporateDroneHugsF,
-    List<int>? deusExMachinaTherapS,
-    bool? cthulhuComfortHeartZ,
-    List<int>? shoggothHugsTherapy,
-    int? loFiSoulmatesComfortT,
-    int? loveNmbers,
-  })  : _phoenixTearsTherapyN = phoenixTearsTherapyN,
-        _unicornWhispererHealingE = unicornWhispererHealingE,
-        _dragonScaleComfortfessionsP = dragonScaleComfortfessionsP,
-        _neuralLaceConfessionsI = neuralLaceConfessionsI,
-        _augmentedRealityLoveM = augmentedRealityLoveM,
-        _corporateDroneHugsB = corporateDroneHugsB,
-        _corporateDroneHugsF = corporateDroneHugsF,
-        _deusExMachinaTherapS = deusExMachinaTherapS,
-        _cthulhuComfortHeartZ = cthulhuComfortHeartZ,
-        _shoggothHugsTherapy = shoggothHugsTherapy,
-        _loFiSoulmatesComfortT = loFiSoulmatesComfortT,
-        _loveNmbers = loveNmbers;
+    String? bondingEmotionExchangehub,
+    String? comfortingStorylineChannel,
+    String? deepFeelingInteractionzone,
+    String? empatheticConversationLounge,
+    double? flowingMoodNarrativeSpace,
+    List<int>? gentleDialogueHealingroo,
+    List<int>? heartfeltSharingCommunity,
+    List<int>? innerEmotionLiberationhall,
+    bool? journeyThroughFeelingsArc,
+    List<int>? kindnessDrivenSupportCircle,
+    int? listeningCompanionNetwork,
+    int? mindfulExpressionSanctuary,
+  })  : _bondingEmotionExchangehub = bondingEmotionExchangehub,
+        _comfortingStorylineChannel = comfortingStorylineChannel,
+        _deepFeelingInteractionzone = deepFeelingInteractionzone,
+        _empatheticConversationLounge = empatheticConversationLounge,
+        _flowingMoodNarrativeSpace = flowingMoodNarrativeSpace,
+        _gentleDialogueHealingroo = gentleDialogueHealingroo,
+        _heartfeltSharingCommunity = heartfeltSharingCommunity,
+        _innerEmotionLiberationhall = innerEmotionLiberationhall,
+        _journeyThroughFeelingsArc = journeyThroughFeelingsArc,
+        _kindnessDrivenSupportCircle = kindnessDrivenSupportCircle,
+        _listeningCompanionNetwork = listeningCompanionNetwork,
+        _mindfulExpressionSanctuary = mindfulExpressionSanctuary;
 
-  String? _phoenixTearsTherapyN;
-  String get phoenixTearsTherapyN => _phoenixTearsTherapyN ?? '';
-  set phoenixTearsTherapyN(String? val) => _phoenixTearsTherapyN = val;
+  String? _bondingEmotionExchangehub;
+  String get bondingEmotionExchangehub => _bondingEmotionExchangehub ?? '';
+  set bondingEmotionExchangehub(String? val) => _bondingEmotionExchangehub = val;
 
-  bool hasPhoenixTearsTherapyN() => _phoenixTearsTherapyN != null;
+  bool hasbondingEmotionExchangehub() => _bondingEmotionExchangehub != null;
 
-  String? _unicornWhispererHealingE;
-  String get unicornWhispererHealingE => _unicornWhispererHealingE ?? '';
-  set unicornWhispererHealingE(String? val) => _unicornWhispererHealingE = val;
+  String? _comfortingStorylineChannel;
+  String get comfortingStorylineChannel => _comfortingStorylineChannel ?? '';
+  set comfortingStorylineChannel(String? val) => _comfortingStorylineChannel = val;
 
-  bool hasUnicornWhispererHealingE() => _unicornWhispererHealingE != null;
+  bool hascomfortingStorylineChannel() => _comfortingStorylineChannel != null;
 
-  String? _dragonScaleComfortfessionsP;
-  String get dragonScaleComfortfessionsP => _dragonScaleComfortfessionsP ?? '';
-  set dragonScaleComfortfessionsP(String? val) =>
-      _dragonScaleComfortfessionsP = val;
+  String? _deepFeelingInteractionzone;
+  String get deepFeelingInteractionzone => _deepFeelingInteractionzone ?? '';
+  set deepFeelingInteractionzone(String? val) =>
+      _deepFeelingInteractionzone = val;
 
-  bool hasDragonScaleComfortfessionsP() => _dragonScaleComfortfessionsP != null;
+  bool hasdeepFeelingInteractionzone() => _deepFeelingInteractionzone != null;
 
-  String? _neuralLaceConfessionsI;
-  String get neuralLaceConfessionsI => _neuralLaceConfessionsI ?? '';
-  set neuralLaceConfessionsI(String? val) => _neuralLaceConfessionsI = val;
+  String? _empatheticConversationLounge;
+  String get empatheticConversationLounge => _empatheticConversationLounge ?? '';
+  set empatheticConversationLounge(String? val) => _empatheticConversationLounge = val;
 
-  bool hasNeuralLaceConfessionsI() => _neuralLaceConfessionsI != null;
+  bool hasempatheticConversationLounge() => _empatheticConversationLounge != null;
 
-  double? _augmentedRealityLoveM;
-  double get augmentedRealityLoveM => _augmentedRealityLoveM ?? 0.0;
-  set augmentedRealityLoveM(double? val) => _augmentedRealityLoveM = val;
+  double? _flowingMoodNarrativeSpace;
+  double get flowingMoodNarrativeSpace => _flowingMoodNarrativeSpace ?? 0.0;
+  set flowingMoodNarrativeSpace(double? val) => _flowingMoodNarrativeSpace = val;
 
-  void incrementAugmentedRealityLoveM(double amount) =>
-      augmentedRealityLoveM = augmentedRealityLoveM + amount;
+  void incrementflowingMoodNarrativeSpace(double amount) =>
+      flowingMoodNarrativeSpace = flowingMoodNarrativeSpace + amount;
 
-  bool hasAugmentedRealityLoveM() => _augmentedRealityLoveM != null;
+  bool hasflowingMoodNarrativeSpace() => _flowingMoodNarrativeSpace != null;
 
-  List<int>? _corporateDroneHugsB;
-  List<int> get corporateDroneHugsB => _corporateDroneHugsB ?? const [];
-  set corporateDroneHugsB(List<int>? val) => _corporateDroneHugsB = val;
+  List<int>? _gentleDialogueHealingroo;
+  List<int> get gentleDialogueHealingroo => _gentleDialogueHealingroo ?? const [];
+  set gentleDialogueHealingroo(List<int>? val) => _gentleDialogueHealingroo = val;
 
-  void updateCorporateDroneHugsB(Function(List<int>) updateFn) {
-    updateFn(_corporateDroneHugsB ??= []);
+  void updategentleDialogueHealingroo(Function(List<int>) updateFn) {
+    updateFn(_gentleDialogueHealingroo ??= []);
   }
 
-  bool hasCorporateDroneHugsB() => _corporateDroneHugsB != null;
+  bool hasgentleDialogueHealingroo() => _gentleDialogueHealingroo != null;
 
-  List<int>? _corporateDroneHugsF;
-  List<int> get corporateDroneHugsF => _corporateDroneHugsF ?? const [];
-  set corporateDroneHugsF(List<int>? val) => _corporateDroneHugsF = val;
+  List<int>? _heartfeltSharingCommunity;
+  List<int> get heartfeltSharingCommunity => _heartfeltSharingCommunity ?? const [];
+  set heartfeltSharingCommunity(List<int>? val) => _heartfeltSharingCommunity = val;
 
-  void updateCorporateDroneHugsF(Function(List<int>) updateFn) {
-    updateFn(_corporateDroneHugsF ??= []);
+  void updateheartfeltSharingCommunity(Function(List<int>) updateFn) {
+    updateFn(_heartfeltSharingCommunity ??= []);
   }
 
-  bool hasCorporateDroneHugsF() => _corporateDroneHugsF != null;
+  bool hasheartfeltSharingCommunity() => _heartfeltSharingCommunity != null;
 
-  List<int>? _deusExMachinaTherapS;
-  List<int> get deusExMachinaTherapS => _deusExMachinaTherapS ?? const [];
-  set deusExMachinaTherapS(List<int>? val) => _deusExMachinaTherapS = val;
+  List<int>? _innerEmotionLiberationhall;
+  List<int> get innerEmotionLiberationhall => _innerEmotionLiberationhall ?? const [];
+  set innerEmotionLiberationhall(List<int>? val) => _innerEmotionLiberationhall = val;
 
-  void updateDeusExMachinaTherapS(Function(List<int>) updateFn) {
-    updateFn(_deusExMachinaTherapS ??= []);
+  void updateinnerEmotionLiberationhall(Function(List<int>) updateFn) {
+    updateFn(_innerEmotionLiberationhall ??= []);
   }
 
-  bool hasDeusExMachinaTherapS() => _deusExMachinaTherapS != null;
+  bool hasinnerEmotionLiberationhall() => _innerEmotionLiberationhall != null;
 
-  bool? _cthulhuComfortHeartZ;
-  bool get cthulhuComfortHeartZ => _cthulhuComfortHeartZ ?? false;
-  set cthulhuComfortHeartZ(bool? val) => _cthulhuComfortHeartZ = val;
+  bool? _journeyThroughFeelingsArc;
+  bool get journeyThroughFeelingsArc => _journeyThroughFeelingsArc ?? false;
+  set journeyThroughFeelingsArc(bool? val) => _journeyThroughFeelingsArc = val;
 
-  bool hasCthulhuComfortHeartZ() => _cthulhuComfortHeartZ != null;
+  bool hasjourneyThroughFeelingsArc() => _journeyThroughFeelingsArc != null;
 
-  List<int>? _shoggothHugsTherapy;
-  List<int> get shoggothHugsTherapy => _shoggothHugsTherapy ?? const [];
-  set shoggothHugsTherapy(List<int>? val) => _shoggothHugsTherapy = val;
+  List<int>? _kindnessDrivenSupportCircle;
+  List<int> get kindnessDrivenSupportCircle => _kindnessDrivenSupportCircle ?? const [];
+  set kindnessDrivenSupportCircle(List<int>? val) => _kindnessDrivenSupportCircle = val;
 
-  void updateShoggothHugsTherapy(Function(List<int>) updateFn) {
-    updateFn(_shoggothHugsTherapy ??= []);
+  void updatekindnessDrivenSupportCircle(Function(List<int>) updateFn) {
+    updateFn(_kindnessDrivenSupportCircle ??= []);
   }
 
-  bool hasShoggothHugsTherapy() => _shoggothHugsTherapy != null;
+  bool haskindnessDrivenSupportCircle() => _kindnessDrivenSupportCircle != null;
 
-  int? _loFiSoulmatesComfortT;
-  int get loFiSoulmatesComfortT => _loFiSoulmatesComfortT ?? 0;
-  set loFiSoulmatesComfortT(int? val) => _loFiSoulmatesComfortT = val;
+  int? _listeningCompanionNetwork;
+  int get listeningCompanionNetwork => _listeningCompanionNetwork ?? 0;
+  set listeningCompanionNetwork(int? val) => _listeningCompanionNetwork = val;
 
-  void incrementLoFiSoulmatesComfortT(int amount) =>
-      loFiSoulmatesComfortT = loFiSoulmatesComfortT + amount;
+  void incrementlisteningCompanionNetwork(int amount) =>
+      listeningCompanionNetwork = listeningCompanionNetwork + amount;
 
-  bool hasLoFiSoulmatesComfortT() => _loFiSoulmatesComfortT != null;
+  bool haslisteningCompanionNetwork() => _listeningCompanionNetwork != null;
 
-  int? _loveNmbers;
-  int get loveNmbers => _loveNmbers ?? 0;
-  set loveNmbers(int? val) => _loveNmbers = val;
+  int? _mindfulExpressionSanctuary;
+  int get mindfulExpressionSanctuary => _mindfulExpressionSanctuary ?? 0;
+  set mindfulExpressionSanctuary(int? val) => _mindfulExpressionSanctuary = val;
 
-  void incrementLoveNmbers(int amount) => loveNmbers = loveNmbers + amount;
+  void incrementLoveNmbers(int amount) => mindfulExpressionSanctuary = mindfulExpressionSanctuary + amount;
 
-  bool hasLoveNmbers() => _loveNmbers != null;
+  bool hasLoveNmbers() => _mindfulExpressionSanctuary != null;
 
   static double? _castToDouble(dynamic value) {
     if (value == null) return null;
@@ -181,18 +182,18 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
   static PhoenixTearsTherapustEmpathyStruct fromMap(
           Map<String, dynamic> data) =>
       PhoenixTearsTherapustEmpathyStruct(
-        phoenixTearsTherapyN: _castToString(data['phoenixTearsTherapyN']),
-        unicornWhispererHealingE: _castToString(data['unicornWhispererHealingE']),
-        dragonScaleComfortfessionsP: _castToString(data['dragonScaleComfortfessionsP']),
-        neuralLaceConfessionsI: _castToString(data['neuralLaceConfessionsI']),
-        augmentedRealityLoveM: _castToDouble(data['augmentedRealityLoveM']),
-        corporateDroneHugsB: _castToList<int>(data['corporateDroneHugsB']),
-        corporateDroneHugsF: _castToList<int>(data['corporateDroneHugsF']),
-        deusExMachinaTherapS: _castToList<int>(data['deusExMachinaTherapS']),
-        cthulhuComfortHeartZ: _castToBool(data['cthulhuComfortHeartZ']),
-        shoggothHugsTherapy: _castToList<int>(data['shoggothHugsTherapy']),
-        loFiSoulmatesComfortT: _castToInt(data['loFiSoulmatesComfortT']),
-        loveNmbers: _castToInt(data['loveNmbers']),
+        bondingEmotionExchangehub: _castToString(data['${'bb78aaa53b6c37f978c41972164e87405b97e062d693b0f9614db5a860d98c47'.fromPetalWhisper()}']),
+        comfortingStorylineChannel: _castToString(data['${'de408bfab29bf01c7a159008bf91e08781ed1a8e51401c004ba9d59bcb2f96eb'.fromPetalWhisper()}']),
+        deepFeelingInteractionzone: _castToString(data['${'a8795ab63a540a6dcdb37ace5c3eee8fe24b7c37c2cf646b969cb9ca8901e2ab'.fromPetalWhisper()}']),
+        empatheticConversationLounge: _castToString(data['${'6cbc332f2cc8f1d4d5f6f351581b976b6ee752e199f24ee3d5bae10dec98a17e'.fromPetalWhisper()}']),
+        flowingMoodNarrativeSpace: _castToDouble(data['${'6bca164009eeb635b9a1408ba6f6b5468534d344551202c222a4df6f1c068fb7'.fromPetalWhisper()}']),
+        gentleDialogueHealingroo: _castToList<int>(data['${'b01054f2184abcb1245c86e00792ad986592d6f316c21e364d6999e09c410605'.fromPetalWhisper()}']),
+        heartfeltSharingCommunity: _castToList<int>(data['heartfeltSharingCommunity']),
+        innerEmotionLiberationhall: _castToList<int>(data['${'e2a850d88ec15702bc640e80b3b93d57c9fc91a9c017f00c81a0861b7d15314a'.fromPetalWhisper()}']),
+        journeyThroughFeelingsArc: _castToBool(data['${'8b7b9ec23bf26b896d2d5f99fd7612d37cce878c7c8cb8d93340145b4dd9e10b'.fromPetalWhisper()}']),
+        kindnessDrivenSupportCircle: _castToList<int>(data['${'a0d50ada0cb73f482d51368d48876912380cee1dec94995cc3d9c3b5b56e1285'.fromPetalWhisper()}']),
+        listeningCompanionNetwork: _castToInt(data['${'3897059aeb1c08099ff716debe7ef02c94f058ef4568bc270793c7afb31316a7'.fromPetalWhisper()}']),
+        mindfulExpressionSanctuary: _castToInt(data['${'8030b0c9e46377aa9680b0ee38d699fa6371816cc009d1f8dfc73881becad884'.fromPetalWhisper()}']),
       );
 
   static PhoenixTearsTherapustEmpathyStruct? maybeFromMap(dynamic data) => data
@@ -202,74 +203,74 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      'phoenixTearsTherapyN': _phoenixTearsTherapyN,
-      'unicornWhispererHealingE': _unicornWhispererHealingE,
-      'dragonScaleComfortfessionsP': _dragonScaleComfortfessionsP,
-      'neuralLaceConfessionsI': _neuralLaceConfessionsI,
-      'augmentedRealityLoveM': _augmentedRealityLoveM,
-      'corporateDroneHugsB': _corporateDroneHugsB,
-      'corporateDroneHugsF': _corporateDroneHugsF,
-      'deusExMachinaTherapS': _deusExMachinaTherapS,
-      'cthulhuComfortHeartZ': _cthulhuComfortHeartZ,
-      'shoggothHugsTherapy': _shoggothHugsTherapy,
-      'loFiSoulmatesComfortT': _loFiSoulmatesComfortT,
-      'loveNmbers': _loveNmbers,
+      '${'bb78aaa53b6c37f978c41972164e87405b97e062d693b0f9614db5a860d98c47'.fromPetalWhisper()}': _bondingEmotionExchangehub,
+      '${'de408bfab29bf01c7a159008bf91e08781ed1a8e51401c004ba9d59bcb2f96eb'.fromPetalWhisper()}': _comfortingStorylineChannel,
+      '${'a8795ab63a540a6dcdb37ace5c3eee8fe24b7c37c2cf646b969cb9ca8901e2ab'.fromPetalWhisper()}': _deepFeelingInteractionzone,
+      '${'6cbc332f2cc8f1d4d5f6f351581b976b6ee752e199f24ee3d5bae10dec98a17e'.fromPetalWhisper()}': _empatheticConversationLounge,
+      '${'6bca164009eeb635b9a1408ba6f6b5468534d344551202c222a4df6f1c068fb7'.fromPetalWhisper()}': _flowingMoodNarrativeSpace,
+      '${'b01054f2184abcb1245c86e00792ad986592d6f316c21e364d6999e09c410605'.fromPetalWhisper()}': _gentleDialogueHealingroo,
+      '${'1e11ef8df1850b730af5abd26de4c6b73eef3b0d204ca9d377204d05b0952b85'.fromPetalWhisper()}': _heartfeltSharingCommunity,
+      '${'e2a850d88ec15702bc640e80b3b93d57c9fc91a9c017f00c81a0861b7d15314a'.fromPetalWhisper()}': _innerEmotionLiberationhall,
+      '${'8b7b9ec23bf26b896d2d5f99fd7612d37cce878c7c8cb8d93340145b4dd9e10b'.fromPetalWhisper()}': _journeyThroughFeelingsArc,
+      '${'a0d50ada0cb73f482d51368d48876912380cee1dec94995cc3d9c3b5b56e1285'.fromPetalWhisper()}': _kindnessDrivenSupportCircle,
+      '${'3897059aeb1c08099ff716debe7ef02c94f058ef4568bc270793c7afb31316a7'.fromPetalWhisper()}': _listeningCompanionNetwork,
+      '${'8030b0c9e46377aa9680b0ee38d699fa6371816cc009d1f8dfc73881becad884'.fromPetalWhisper()}': _mindfulExpressionSanctuary,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      'phoenixTearsTherapyN': serializeParam(
-        _phoenixTearsTherapyN,
+      '${'bb78aaa53b6c37f978c41972164e87405b97e062d693b0f9614db5a860d98c47'.fromPetalWhisper()}': serializeParam(
+        _bondingEmotionExchangehub,
         ParamType.String,
       ),
-      'unicornWhispererHealingE': serializeParam(
-        _unicornWhispererHealingE,
+      '${'de408bfab29bf01c7a159008bf91e08781ed1a8e51401c004ba9d59bcb2f96eb'.fromPetalWhisper()}': serializeParam(
+        _comfortingStorylineChannel,
         ParamType.String,
       ),
-      'dragonScaleComfortfessionsP': serializeParam(
-        _dragonScaleComfortfessionsP,
+      '${'a8795ab63a540a6dcdb37ace5c3eee8fe24b7c37c2cf646b969cb9ca8901e2ab'.fromPetalWhisper()}': serializeParam(
+        _deepFeelingInteractionzone,
         ParamType.String,
       ),
-      'neuralLaceConfessionsI': serializeParam(
-        _neuralLaceConfessionsI,
+      '${'6cbc332f2cc8f1d4d5f6f351581b976b6ee752e199f24ee3d5bae10dec98a17e'.fromPetalWhisper()}': serializeParam(
+        _empatheticConversationLounge,
         ParamType.String,
       ),
-      'augmentedRealityLoveM': serializeParam(
-        _augmentedRealityLoveM,
+      '${'6bca164009eeb635b9a1408ba6f6b5468534d344551202c222a4df6f1c068fb7'.fromPetalWhisper()}': serializeParam(
+        _flowingMoodNarrativeSpace,
         ParamType.double,
       ),
-      'corporateDroneHugsB': serializeParam(
-        _corporateDroneHugsB,
+      '${'b01054f2184abcb1245c86e00792ad986592d6f316c21e364d6999e09c410605'.fromPetalWhisper()}': serializeParam(
+        _gentleDialogueHealingroo,
         ParamType.int,
         isList: true,
       ),
-      'corporateDroneHugsF': serializeParam(
-        _corporateDroneHugsF,
+      '${'1e11ef8df1850b730af5abd26de4c6b73eef3b0d204ca9d377204d05b0952b85'.fromPetalWhisper()}': serializeParam(
+        _heartfeltSharingCommunity,
         ParamType.int,
         isList: true,
       ),
-      'deusExMachinaTherapS': serializeParam(
-        _deusExMachinaTherapS,
+      '${'e2a850d88ec15702bc640e80b3b93d57c9fc91a9c017f00c81a0861b7d15314a'.fromPetalWhisper()}': serializeParam(
+        _innerEmotionLiberationhall,
         ParamType.int,
         isList: true,
       ),
-      'cthulhuComfortHeartZ': serializeParam(
-        _cthulhuComfortHeartZ,
+      '${'8b7b9ec23bf26b896d2d5f99fd7612d37cce878c7c8cb8d93340145b4dd9e10b'.fromPetalWhisper()}': serializeParam(
+        _journeyThroughFeelingsArc,
         ParamType.bool,
       ),
-      'shoggothHugsTherapy': serializeParam(
-        _shoggothHugsTherapy,
+      '${'a0d50ada0cb73f482d51368d48876912380cee1dec94995cc3d9c3b5b56e1285'.fromPetalWhisper()}': serializeParam(
+        _kindnessDrivenSupportCircle,
         ParamType.int,
         isList: true,
       ),
-      'loFiSoulmatesComfortT': serializeParam(
-        _loFiSoulmatesComfortT,
+      '${'3897059aeb1c08099ff716debe7ef02c94f058ef4568bc270793c7afb31316a7'.fromPetalWhisper()}': serializeParam(
+        _listeningCompanionNetwork,
         ParamType.int,
       ),
-      'loveNmbers': serializeParam(
-        _loveNmbers,
+      '${'8030b0c9e46377aa9680b0ee38d699fa6371816cc009d1f8dfc73881becad884'.fromPetalWhisper()}': serializeParam(
+        _mindfulExpressionSanctuary,
         ParamType.int,
       ),
     });
@@ -278,123 +279,123 @@ class PhoenixTearsTherapustEmpathyStruct extends BaseStruct {
   static PhoenixTearsTherapustEmpathyStruct fromSerializableMap(
           Map<String, dynamic> data) =>
       PhoenixTearsTherapustEmpathyStruct(
-        phoenixTearsTherapyN: deserializeParam(
-          data['phoenixTearsTherapyN'],
+        bondingEmotionExchangehub: deserializeParam(
+          data['${'bb78aaa53b6c37f978c41972164e87405b97e062d693b0f9614db5a860d98c47'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
-        unicornWhispererHealingE: deserializeParam(
-          data['unicornWhispererHealingE'],
+        comfortingStorylineChannel: deserializeParam(
+          data['${'de408bfab29bf01c7a159008bf91e08781ed1a8e51401c004ba9d59bcb2f96eb'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
-        dragonScaleComfortfessionsP: deserializeParam(
-          data['dragonScaleComfortfessionsP'],
+        deepFeelingInteractionzone: deserializeParam(
+          data['${'a8795ab63a540a6dcdb37ace5c3eee8fe24b7c37c2cf646b969cb9ca8901e2ab'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
-        neuralLaceConfessionsI: deserializeParam(
-          data['neuralLaceConfessionsI'],
+        empatheticConversationLounge: deserializeParam(
+          data['${'6cbc332f2cc8f1d4d5f6f351581b976b6ee752e199f24ee3d5bae10dec98a17e'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
-        augmentedRealityLoveM: deserializeParam(
-          data['augmentedRealityLoveM'],
+        flowingMoodNarrativeSpace: deserializeParam(
+          data['${'6bca164009eeb635b9a1408ba6f6b5468534d344551202c222a4df6f1c068fb7'.fromPetalWhisper()}'],
           ParamType.double,
           false,
         ),
-        corporateDroneHugsB: deserializeParam<int>(
-          data['corporateDroneHugsB'],
+        gentleDialogueHealingroo: deserializeParam<int>(
+          data['${'b01054f2184abcb1245c86e00792ad986592d6f316c21e364d6999e09c410605'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
-        corporateDroneHugsF: deserializeParam<int>(
-          data['corporateDroneHugsF'],
+        heartfeltSharingCommunity: deserializeParam<int>(
+          data['${'1e11ef8df1850b730af5abd26de4c6b73eef3b0d204ca9d377204d05b0952b85'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
-        deusExMachinaTherapS: deserializeParam<int>(
-          data['deusExMachinaTherapS'],
+        innerEmotionLiberationhall: deserializeParam<int>(
+          data['${'e2a850d88ec15702bc640e80b3b93d57c9fc91a9c017f00c81a0861b7d15314a'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
-        cthulhuComfortHeartZ: deserializeParam(
-          data['cthulhuComfortHeartZ'],
+        journeyThroughFeelingsArc: deserializeParam(
+          data['${'8b7b9ec23bf26b896d2d5f99fd7612d37cce878c7c8cb8d93340145b4dd9e10b'.fromPetalWhisper()}'],
           ParamType.bool,
           false,
         ),
-        shoggothHugsTherapy: deserializeParam<int>(
-          data['shoggothHugsTherapy'],
+        kindnessDrivenSupportCircle: deserializeParam<int>(
+          data['${'a0d50ada0cb73f482d51368d48876912380cee1dec94995cc3d9c3b5b56e1285'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
-        loFiSoulmatesComfortT: deserializeParam(
-          data['loFiSoulmatesComfortT'],
+        listeningCompanionNetwork: deserializeParam(
+          data['${'3897059aeb1c08099ff716debe7ef02c94f058ef4568bc270793c7afb31316a7'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
-        loveNmbers: deserializeParam(
-          data['loveNmbers'],
+        mindfulExpressionSanctuary: deserializeParam(
+          data['${'8030b0c9e46377aa9680b0ee38d699fa6371816cc009d1f8dfc73881becad884'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
       );
 
   @override
-  String toString() => 'PhoenixTearsTherapustEmpathyStruct(${toMap()})';
+  String toString() => '${'39849deebc7756f051945f043a4aa50bf8871da1017827e78e2e5fdb4c3dba8f61fe545023680dfa8d4408d1f849689e'.fromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {
     const listEquality = ListEquality();
     return other is PhoenixTearsTherapustEmpathyStruct &&
-        phoenixTearsTherapyN == other.phoenixTearsTherapyN &&
-        unicornWhispererHealingE == other.unicornWhispererHealingE &&
-        dragonScaleComfortfessionsP == other.dragonScaleComfortfessionsP &&
-        neuralLaceConfessionsI == other.neuralLaceConfessionsI &&
-        augmentedRealityLoveM == other.augmentedRealityLoveM &&
-        listEquality.equals(corporateDroneHugsB, other.corporateDroneHugsB) &&
-        listEquality.equals(corporateDroneHugsF, other.corporateDroneHugsF) &&
-        listEquality.equals(deusExMachinaTherapS, other.deusExMachinaTherapS) &&
-        cthulhuComfortHeartZ == other.cthulhuComfortHeartZ &&
-        listEquality.equals(shoggothHugsTherapy, other.shoggothHugsTherapy) &&
-        loFiSoulmatesComfortT == other.loFiSoulmatesComfortT &&
-        loveNmbers == other.loveNmbers;
+        bondingEmotionExchangehub == other.bondingEmotionExchangehub &&
+        comfortingStorylineChannel == other.comfortingStorylineChannel &&
+        deepFeelingInteractionzone == other.deepFeelingInteractionzone &&
+        empatheticConversationLounge == other.empatheticConversationLounge &&
+        flowingMoodNarrativeSpace == other.flowingMoodNarrativeSpace &&
+        listEquality.equals(gentleDialogueHealingroo, other.gentleDialogueHealingroo) &&
+        listEquality.equals(heartfeltSharingCommunity, other.heartfeltSharingCommunity) &&
+        listEquality.equals(innerEmotionLiberationhall, other.innerEmotionLiberationhall) &&
+        journeyThroughFeelingsArc == other.journeyThroughFeelingsArc &&
+        listEquality.equals(kindnessDrivenSupportCircle, other.kindnessDrivenSupportCircle) &&
+        listeningCompanionNetwork == other.listeningCompanionNetwork &&
+        mindfulExpressionSanctuary == other.mindfulExpressionSanctuary;
   }
 
   @override
   int get hashCode => const ListEquality().hash([
-        phoenixTearsTherapyN,
-        unicornWhispererHealingE,
-        dragonScaleComfortfessionsP,
-        neuralLaceConfessionsI,
-        augmentedRealityLoveM,
-        corporateDroneHugsB,
-        corporateDroneHugsF,
-        deusExMachinaTherapS,
-        cthulhuComfortHeartZ,
-        shoggothHugsTherapy,
-        loFiSoulmatesComfortT,
-        loveNmbers
+        bondingEmotionExchangehub,
+        comfortingStorylineChannel,
+        deepFeelingInteractionzone,
+        empatheticConversationLounge,
+        flowingMoodNarrativeSpace,
+        gentleDialogueHealingroo,
+        heartfeltSharingCommunity,
+        innerEmotionLiberationhall,
+        journeyThroughFeelingsArc,
+        kindnessDrivenSupportCircle,
+        listeningCompanionNetwork,
+        mindfulExpressionSanctuary
       ]);
 }
 
 PhoenixTearsTherapustEmpathyStruct createPhoenixTearsTherapustEmpathyStruct({
-  String? phoenixTearsTherapyN,
-  String? unicornWhispererHealingE,
-  String? dragonScaleComfortfessionsP,
-  String? neuralLaceConfessionsI,
-  double? augmentedRealityLoveM,
-  bool? cthulhuComfortHeartZ,
-  int? loFiSoulmatesComfortT,
-  int? loveNmbers,
+  String? bondingEmotionExchangehub,
+  String? comfortingStorylineChannel,
+  String? deepFeelingInteractionzone,
+  String? empatheticConversationLounge,
+  double? flowingMoodNarrativeSpace,
+  bool? journeyThroughFeelingsArc,
+  int? listeningCompanionNetwork,
+  int? mindfulExpressionSanctuary,
 }) =>
     PhoenixTearsTherapustEmpathyStruct(
-      phoenixTearsTherapyN: phoenixTearsTherapyN,
-      unicornWhispererHealingE: unicornWhispererHealingE,
-      dragonScaleComfortfessionsP: dragonScaleComfortfessionsP,
-      neuralLaceConfessionsI: neuralLaceConfessionsI,
-      augmentedRealityLoveM: augmentedRealityLoveM,
-      cthulhuComfortHeartZ: cthulhuComfortHeartZ,
-      loFiSoulmatesComfortT: loFiSoulmatesComfortT,
-      loveNmbers: loveNmbers,
+      bondingEmotionExchangehub: bondingEmotionExchangehub,
+      comfortingStorylineChannel: comfortingStorylineChannel,
+      deepFeelingInteractionzone: deepFeelingInteractionzone,
+      empatheticConversationLounge: empatheticConversationLounge,
+      flowingMoodNarrativeSpace: flowingMoodNarrativeSpace,
+      journeyThroughFeelingsArc: journeyThroughFeelingsArc,
+      listeningCompanionNetwork: listeningCompanionNetwork,
+      mindfulExpressionSanctuary: mindfulExpressionSanctuary,
     );

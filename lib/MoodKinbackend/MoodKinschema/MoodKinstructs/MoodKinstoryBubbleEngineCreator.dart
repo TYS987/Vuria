@@ -1,5 +1,6 @@
 // ignore_for_file: unnecessary_getters_setters
 
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinemotionalConnectionArchitecture.dart';
 import 'package:vuria/MoodKinvulnerablePocketAngular/MoodKinemotionTraceexpressive/MoodKinreflectionTriggeibeouchFlow.dart';
 import '../MoodKinutil/MoodKinconnectionRippletrueEmot.dart';
 import 'MoodKinindex.dart';
@@ -114,12 +115,12 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
 
   static LondonFogAIetWatchPhoneRMStruct fromMap(Map<String, dynamic> data) =>
       LondonFogAIetWatchPhoneRMStruct(
-        emotionalConnectionPortal: _castToInt(data['emotionalConnectionPortal']),
-        authenticInteractionLounge: _castToInt(data['authenticInteractionLounge']),
-        moatMalwarejoustingJav: _castToDateTime(data['moatMalwarejoustingJav']),
-        emotionalExpressionSpot: _castToList<String>(data['emotionalExpressionSpot']),
-        neoNeolithicquantumQuill: _castToList<int>(data['neoNeolithicquantumQuill']),
-        vuriaFriendshipSpace: _castToString(data['vuriaFriendshipSpace']),
+        emotionalConnectionPortal: _castToInt(data['${'5a67a58de2a7b1f99750afea6ed60fd92dc79899b91426f56d2f5512ceb09f80'.fromPetalWhisper()}']),
+        authenticInteractionLounge: _castToInt(data['${'63c2faa2f004eaa4aa566ee10827df8b7c4f4928f36009ec45340b4cb5e2ddf9'.fromPetalWhisper()}']),
+        moatMalwarejoustingJav: _castToDateTime(data['${'69980457d3a9f40ac4dc21b0d4ea68b9cb8395ba4f516c40f5497831c442a6bf'.fromPetalWhisper()}']),
+        emotionalExpressionSpot: _castToList<String>(data['${'8343152d0385f0c9854f84e5a887e3502ee112efeed7f3518e43e41eda898e3a'.fromPetalWhisper()}']),
+        neoNeolithicquantumQuill: _castToList<int>(data['${'322cff6a3a17b469372adf4142960ef8c67bac0bbd04fe0605114c3f53670f89'.fromPetalWhisper()}']),
+        vuriaFriendshipSpace: _castToString(data['${'3f3b402fa86542a17b4d114e74e9a3e8f92574ce000324ec082a2738bca6de2d'.fromPetalWhisper()}']),
       );
 
   static LondonFogAIetWatchPhoneRMStruct? maybeFromMap(dynamic data) => data
@@ -129,41 +130,41 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      'emotionalConnectionPortal': _emotionalConnectionPortal,
-      'authenticInteractionLounge': _authenticInteractionLounge,
-      'moatMalwarejoustingJav': _moatMalwarejoustingJav,
-      'emotionalExpressionSpot': _emotionalExpressionSpot,
-      'neoNeolithicquantumQuill': _neoNeolithicquantumQuill,
-      'vuriaFriendshipSpace': _vuriaFriendshipSpace,
+      '${'5a67a58de2a7b1f99750afea6ed60fd92dc79899b91426f56d2f5512ceb09f80'.fromPetalWhisper()}': _emotionalConnectionPortal,
+      '${'63c2faa2f004eaa4aa566ee10827df8b7c4f4928f36009ec45340b4cb5e2ddf9'.fromPetalWhisper()}': _authenticInteractionLounge,
+      '${'69980457d3a9f40ac4dc21b0d4ea68b9cb8395ba4f516c40f5497831c442a6bf'.fromPetalWhisper()}': _moatMalwarejoustingJav,
+      '${'8343152d0385f0c9854f84e5a887e3502ee112efeed7f3518e43e41eda898e3a'.fromPetalWhisper()}': _emotionalExpressionSpot,
+      '${'322cff6a3a17b469372adf4142960ef8c67bac0bbd04fe0605114c3f53670f89'.fromPetalWhisper()}': _neoNeolithicquantumQuill,
+      '${'3f3b402fa86542a17b4d114e74e9a3e8f92574ce000324ec082a2738bca6de2d'.fromPetalWhisper()}': _vuriaFriendshipSpace,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      'emotionalConnectionPortal': serializeParam(
+      '${'5a67a58de2a7b1f99750afea6ed60fd92dc79899b91426f56d2f5512ceb09f80'.fromPetalWhisper()}': serializeParam(
         _emotionalConnectionPortal,
         ParamType.int,
       ),
-      'authenticInteractionLounge': serializeParam(
+      '${'63c2faa2f004eaa4aa566ee10827df8b7c4f4928f36009ec45340b4cb5e2ddf9'.fromPetalWhisper()}': serializeParam(
         _authenticInteractionLounge,
         ParamType.int,
       ),
-      'moatMalwarejoustingJav': serializeParam(
+      '${'69980457d3a9f40ac4dc21b0d4ea68b9cb8395ba4f516c40f5497831c442a6bf'.fromPetalWhisper()}': serializeParam(
         _moatMalwarejoustingJav,
         ParamType.DateTime,
       ),
-      'emotionalExpressionSpot': serializeParam(
+      '${'8343152d0385f0c9854f84e5a887e3502ee112efeed7f3518e43e41eda898e3a'.fromPetalWhisper()}': serializeParam(
         _emotionalExpressionSpot,
         ParamType.String,
         isList: true,
       ),
-      'neoNeolithicquantumQuill': serializeParam(
+      '${'322cff6a3a17b469372adf4142960ef8c67bac0bbd04fe0605114c3f53670f89'.fromPetalWhisper()}': serializeParam(
         _neoNeolithicquantumQuill,
         ParamType.int,
         isList: true,
       ),
-      'vuriaFriendshipSpace': serializeParam(
+      '${'3f3b402fa86542a17b4d114e74e9a3e8f92574ce000324ec082a2738bca6de2d'.fromPetalWhisper()}': serializeParam(
         _vuriaFriendshipSpace,
         ParamType.String,
       ),
@@ -174,39 +175,39 @@ class LondonFogAIetWatchPhoneRMStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       LondonFogAIetWatchPhoneRMStruct(
         emotionalConnectionPortal: deserializeParam(
-          data['emotionalConnectionPortal'],
+          data['${'5a67a58de2a7b1f99750afea6ed60fd92dc79899b91426f56d2f5512ceb09f80'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         authenticInteractionLounge: deserializeParam(
-          data['authenticInteractionLounge'],
+          data['${'63c2faa2f004eaa4aa566ee10827df8b7c4f4928f36009ec45340b4cb5e2ddf9'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         moatMalwarejoustingJav: deserializeParam(
-          data['moatMalwarejoustingJav'],
+          data['${'69980457d3a9f40ac4dc21b0d4ea68b9cb8395ba4f516c40f5497831c442a6bf'.fromPetalWhisper()}'],
           ParamType.DateTime,
           false,
         ),
         emotionalExpressionSpot: deserializeParam<String>(
-          data['emotionalExpressionSpot'],
+          data['${'8343152d0385f0c9854f84e5a887e3502ee112efeed7f3518e43e41eda898e3a'.fromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
         neoNeolithicquantumQuill: deserializeParam<int>(
-          data['neoNeolithicquantumQuill'],
+          data['${'322cff6a3a17b469372adf4142960ef8c67bac0bbd04fe0605114c3f53670f89'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
         vuriaFriendshipSpace: deserializeParam(
-          data['vuriaFriendshipSpace'],
+          data['${'3f3b402fa86542a17b4d114e74e9a3e8f92574ce000324ec082a2738bca6de2d'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
       );
 
   @override
-  String toString() => 'LondonFogAIetWatchPhoneRMStruct(${toMap()})';
+  String toString() => '${'cf6533ad0f416cacc64625828e95083603a087b7bf22b8fa9151513ba4b349d7'.fromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

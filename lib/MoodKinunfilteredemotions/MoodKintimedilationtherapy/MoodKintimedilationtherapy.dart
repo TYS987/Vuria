@@ -150,7 +150,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                   FutureBuilder(
                                       future: MoodKinTenderUnderstanding
                                           .MoodKinReflectiveListener(
-                                              '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == genuineSynapseLocus().emotionalSupportT).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                              '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == genuineSynapseLocus().emotionalSupportT).toList().firstOrNull!.empatheticConversationLounge}'),
                                       builder: (context, asyncSnapshot) {
                                         if (!asyncSnapshot.hasData)
                                           return const SizedBox();
@@ -168,24 +168,24 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                                   : genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               genuineSynapseLocus()
                                                                   .emotionalSupportT)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI
+                                                          .empatheticConversationLounge
                                                           .contains('/')
                                                       ? FileImage(
                                                           File(
                                                             genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     genuineSynapseLocus()
                                                                         .emotionalSupportT)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI,
+                                                                .empatheticConversationLounge,
                                                           ),
                                                         )
                                                       : FileImage(File(
@@ -260,12 +260,12 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                         hintText: genuineSynapseLocus()
                                                 .necronomiconHealingComfortU
                                                 .where((e) =>
-                                                    e.loFiSoulmatesComfortT ==
+                                                    e.listeningCompanionNetwork ==
                                                     genuineSynapseLocus()
                                                         .emotionalSupportT)
                                                 .toList()
                                                 .firstOrNull
-                                                ?.phoenixTearsTherapyN ??
+                                                ?.bondingEmotionExchangehub ??
                                             '',
                                         hintStyle: TextStyle(
                                           color: Colors.black,
@@ -334,7 +334,7 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                       .updateNecronomiconHealingComfortUAtIndex(
                                     genuineSynapseLocus().emotionalSupportT,
                                     (e) => e
-                                      ..phoenixTearsTherapyN =
+                                      ..bondingEmotionExchangehub =
                                           (genuineFrontalLobe?.text
                                                       .trim()
                                                       .isNotEmpty ??
@@ -344,15 +344,15 @@ class _TimeDilationTherapyWidgetState extends State<TimeDilationTherapyWidget> {
                                                   .necronomiconHealingComfortU[
                                                       genuineSynapseLocus()
                                                           .emotionalSupportT]
-                                                  .phoenixTearsTherapyN
-                                      ..neuralLaceConfessionsI =
+                                                  .bondingEmotionExchangehub
+                                      ..empatheticConversationLounge =
                                           vulnerableTemporalLobe != null
                                               ? vulnerableTemporalLobe!.path
                                               : genuineSynapseLocus()
                                                   .necronomiconHealingComfortU[
                                                       genuineSynapseLocus()
                                                           .emotionalSupportT]
-                                                  .neuralLaceConfessionsI,
+                                                  .empatheticConversationLounge,
                                   );
                                   genuineSynapseLocus().update(() {});
                                   await emotionWhisperInterface(

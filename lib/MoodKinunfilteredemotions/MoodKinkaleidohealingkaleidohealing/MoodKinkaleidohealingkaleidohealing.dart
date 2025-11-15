@@ -80,7 +80,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                 FutureBuilder(
                                     future: MoodKinTenderUnderstanding
                                         .MoodKinReflectiveListener(
-                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == widget.empatheticStoryPortal).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == widget.empatheticStoryPortal).toList().firstOrNull!.empatheticConversationLounge}'),
                                     builder: (context, asyncSnapshot) {
                                       if (!asyncSnapshot.hasData)
                                         return const SizedBox();
@@ -93,24 +93,24 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             image: genuineSynapseLocus()
                                                     .necronomiconHealingComfortU
                                                     .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
+                                                        e.listeningCompanionNetwork ==
                                                         widget
                                                             .empatheticStoryPortal)
                                                     .toList()
                                                     .firstOrNull!
-                                                    .neuralLaceConfessionsI
+                                                    .empatheticConversationLounge
                                                     .contains('/')
                                                 ? FileImage(
                                                     File(
                                                       genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               widget
                                                                   .empatheticStoryPortal)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI,
+                                                          .empatheticConversationLounge,
                                                     ),
                                                   )
                                                 : FileImage(
@@ -132,11 +132,11 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                     genuineSynapseLocus()
                                             .necronomiconHealingComfortU
                                             .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
+                                                e.listeningCompanionNetwork ==
                                                 widget.empatheticStoryPortal)
                                             .toList()
                                             .firstOrNull
-                                            ?.phoenixTearsTherapyN ??
+                                            ?.bondingEmotionExchangehub ??
                                         VuriaEmotionCipher.unveilEmotion(
                                             'qIPeI+gdto9lSb24d4PK2w=='),
                                     style: TextStyle(
@@ -158,12 +158,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
+                                                      e.listeningCompanionNetwork ==
                                                       widget
                                                           .empatheticStoryPortal)
                                                   .toList()
                                                   .firstOrNull
-                                                  ?.corporateDroneHugsF
+                                                  ?.heartfeltSharingCommunity
                                                   .length
                                                   .toString() ??
                                               VuriaEmotionCipher.unveilEmotion(
@@ -196,12 +196,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                             genuineSynapseLocus()
                                                     .necronomiconHealingComfortU
                                                     .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
+                                                        e.listeningCompanionNetwork ==
                                                         widget
                                                             .empatheticStoryPortal)
                                                     .toList()
                                                     .firstOrNull
-                                                    ?.loveNmbers
+                                                    ?.mindfulExpressionSanctuary
                                                     .toString() ??
                                                 VuriaEmotionCipher.unveilEmotion(
                                                     '09OMfYYasYhiTrq/cITN3A=='),
@@ -231,12 +231,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                           genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
+                                                      e.listeningCompanionNetwork ==
                                                       widget
                                                           .empatheticStoryPortal)
                                                   .toList()
                                                   .firstOrNull
-                                                  ?.deusExMachinaTherapS
+                                                  ?.innerEmotionLiberationhall
                                                   .length
                                                   .toString() ??
                                               VuriaEmotionCipher.unveilEmotion(
@@ -377,7 +377,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                 FutureBuilder(
                                                                     future: MoodKinTenderUnderstanding
                                                                         .MoodKinReflectiveListener(
-                                                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge}'),
                                                                     builder:
                                                                         (context,
                                                                             asyncSnapshot) {
@@ -395,10 +395,10 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                               DecorationImage(
                                                                             fit:
                                                                                 BoxFit.cover,
-                                                                            image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI.contains('/')
+                                                                            image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge.contains('/')
                                                                                 ? FileImage(
                                                                                     File(
-                                                                                      genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                      genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge,
                                                                                     ),
                                                                                   )
                                                                                 : FileImage(File(asyncSnapshot.data!)),
@@ -434,7 +434,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull?.phoenixTearsTherapyN ??
+                                                                          genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull?.bondingEmotionExchangehub ??
                                                                               VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q=='),
                                                                           style:
                                                                               TextStyle(
@@ -509,12 +509,12 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                       if (genuineSynapseLocus()
                                                               .necronomiconHealingComfortU
                                                               .where((e) =>
-                                                                  e.loFiSoulmatesComfortT ==
+                                                                  e.listeningCompanionNetwork ==
                                                                   genuineSynapseLocus()
                                                                       .emotionalSupportT)
                                                               .toList()
                                                               .firstOrNull
-                                                              ?.corporateDroneHugsF
+                                                              ?.heartfeltSharingCommunity
                                                               .contains(widget
                                                                   .empatheticStoryPortal) ??
                                                           false) {
@@ -525,7 +525,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                               genuineSynapseLocus()
                                                                   .emotionalSupportT,
                                                               (e) => e
-                                                                ..updateCorporateDroneHugsF(
+                                                                ..updateheartfeltSharingCommunity(
                                                                   (e) => e.remove(
                                                                       widget
                                                                           .empatheticStoryPortal),
@@ -568,7 +568,7 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                               genuineSynapseLocus()
                                                                   .emotionalSupportT,
                                                               (e) => e
-                                                                ..updateCorporateDroneHugsF(
+                                                                ..updateheartfeltSharingCommunity(
                                                                   (e) => e.add(
                                                                       widget
                                                                           .empatheticStoryPortal!),

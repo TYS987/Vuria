@@ -136,11 +136,11 @@ class _DnaEncryptedFeelingsWidgetState
                               genuineSynapseLocus()
                                       .necronomiconHealingComfortU
                                       .where((e) =>
-                                          e.loFiSoulmatesComfortT ==
+                                          e.listeningCompanionNetwork ==
                                           genuineSynapseLocus().emotionalSupportT)
                                       .toList()
                                       .firstOrNull
-                                      ?.augmentedRealityLoveM
+                                      ?.flowingMoodNarrativeSpace
                                       .toString() ??
                                   '${'bd9b2b58c2368c8162d2cb1bd3888093'.fromPetalWhisper()}',
                               style: TextStyle(

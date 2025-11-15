@@ -168,7 +168,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                     .necronomiconHealingComfortU[
                                                         genuineSynapseLocus()
                                                             .emotionalSupportT]
-                                                    .corporateDroneHugsB
+                                                    .gentleDialogueHealingroo
                                                     .contains(e
                                                         .emotionalExchangePlatform))
                                                 .toList();
@@ -335,7 +335,7 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                                           start: (empatheticConnsoulfulConversatIndex) * 15.0,
                                                                                         ),
                                                                                         child: FutureBuilder(
-                                                                                            future: MoodKinTenderUnderstanding.MoodKinReflectiveListener('${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                                                            future: MoodKinTenderUnderstanding.MoodKinReflectiveListener('${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == empatheticConnsoulfulConversatItem).toList().firstOrNull!.empatheticConversationLounge}'),
                                                                                             builder: (context, asyncSnapshot) {
                                                                                               if (!asyncSnapshot.hasData) return const SizedBox();
                                                                                               return Container(
@@ -344,10 +344,10 @@ class _TrustedConfidantsWidgetState extends State<TrustedConfidantsWidget> {
                                                                                                 decoration: BoxDecoration(
                                                                                                   image: DecorationImage(
                                                                                                     fit: BoxFit.cover,
-                                                                                                    image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI.contains('/')
+                                                                                                    image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == empatheticConnsoulfulConversatItem).toList().firstOrNull!.empatheticConversationLounge.contains('/')
                                                                                                         ? FileImage(
                                                                                                             File(
-                                                                                                              genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == empatheticConnsoulfulConversatItem).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                                              genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == empatheticConnsoulfulConversatItem).toList().firstOrNull!.empatheticConversationLounge,
                                                                                                             ),
                                                                                                           )
                                                                                                         : FileImage(File(asyncSnapshot.data!)),

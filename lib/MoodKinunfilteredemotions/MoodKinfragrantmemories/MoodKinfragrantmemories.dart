@@ -512,7 +512,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                               .necronomiconHealingComfortU[
                                           currentIndex];
                                       final currentLovePoints =
-                                          currentUser.augmentedRealityLoveM;
+                                          currentUser.flowingMoodNarrativeSpace;
 
                                       if (currentLovePoints >= 100) {
                                         final newConfession =
@@ -543,7 +543,7 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                             .updateNecronomiconHealingComfortUAtIndex(
                                           currentIndex,
                                           (e) => e
-                                            ..augmentedRealityLoveM =
+                                            ..flowingMoodNarrativeSpace =
                                                 currentLovePoints - 100,
                                         );
 

@@ -101,7 +101,7 @@ color: const Color(0xFFFFFFFF),
                       .updateNecronomiconHealingComfortUAtIndex(
                     genuineSynapseLocus().emotionalSupportT,
                     (e) => e
-                      ..updateCorporateDroneHugsB(
+                      ..updategentleDialogueHealingroo(
                         (e) => e.add(widget.mutualFeelingBridgeID!),
                       ),
                   );
@@ -115,7 +115,7 @@ color: const Color(0xFFFFFFFF),
                       .updateNecronomiconHealingComfortUAtIndex(
                     genuineSynapseLocus().emotionalSupportT,
                     (e) => e
-                      ..updateCorporateDroneHugsB(
+                      ..updategentleDialogueHealingroo(
                         (e) => e.add(widget.mutualFeelingBridgeID!),
                       ),
                   );

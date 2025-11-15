@@ -140,7 +140,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                               '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}': genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
+                                                      e.listeningCompanionNetwork ==
                                                       genuineSynapseLocus()
                                                           .looperTearscitorSolaceD
                                                           .where((e) =>
@@ -152,14 +152,14 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                           ?.empatheticVoiceCorner)
                                                   .toList()
                                                   .firstOrNull!
-                                                  .loFiSoulmatesComfortT,
+                                                  .listeningCompanionNetwork,
                                             },
                                           );
                                         },
                                         child: FutureBuilder(
                                             future: MoodKinTenderUnderstanding
                                                 .MoodKinReflectiveListener(
-                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == genuineSynapseLocus().looperTearscitorSolaceD.where((e) => e.friendshipResonanceSpot == widget.soulConnectionMatrix).toList().firstOrNull?.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == genuineSynapseLocus().looperTearscitorSolaceD.where((e) => e.friendshipResonanceSpot == widget.soulConnectionMatrix).toList().firstOrNull?.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge}'),
                                             builder: (context, asyncSnapshot) {
                                               if (!asyncSnapshot.hasData)
                                                 return const SizedBox();
@@ -172,7 +172,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                     image: genuineSynapseLocus()
                                                             .necronomiconHealingComfortU
                                                             .where((e) =>
-                                                                e.loFiSoulmatesComfortT ==
+                                                                e.listeningCompanionNetwork ==
                                                                 genuineSynapseLocus()
                                                                     .looperTearscitorSolaceD
                                                                     .where((e) =>
@@ -184,14 +184,14 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                     ?.empatheticVoiceCorner)
                                                             .toList()
                                                             .firstOrNull!
-                                                            .neuralLaceConfessionsI
+                                                            .empatheticConversationLounge
                                                             .contains('/')
                                                         ? FileImage(
                                                             File(
                                                               genuineSynapseLocus()
                                                                   .necronomiconHealingComfortU
                                                                   .where((e) =>
-                                                                      e.loFiSoulmatesComfortT ==
+                                                                      e.listeningCompanionNetwork ==
                                                                       genuineSynapseLocus()
                                                                           .looperTearscitorSolaceD
                                                                           .where((e) =>
@@ -202,7 +202,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                           ?.empatheticVoiceCorner)
                                                                   .toList()
                                                                   .firstOrNull!
-                                                                  .neuralLaceConfessionsI,
+                                                                  .empatheticConversationLounge,
                                                             ),
                                                           )
                                                         : FileImage(File(
@@ -222,7 +222,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                           genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
+                                                      e.listeningCompanionNetwork ==
                                                       genuineSynapseLocus()
                                                           .looperTearscitorSolaceD
                                                           .where((e) =>
@@ -234,7 +234,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                           ?.empatheticVoiceCorner)
                                                   .toList()
                                                   .firstOrNull
-                                                  ?.phoenixTearsTherapyN ??
+                                                  ?.bondingEmotionExchangehub ??
                                               '',
                                           style: TextStyle(
                                             color: Color(0xE6000000),
@@ -472,7 +472,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   genuineSynapseLocus()
                                                                       .emotionalSupportT,
                                                                   (e) => e
-                                                                    ..loveNmbers -=
+                                                                    ..mindfulExpressionSanctuary -=
                                                                         1);
                                                           genuineSynapseLocus()
                                                               .update(() {});
@@ -522,7 +522,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                   genuineSynapseLocus()
                                                                       .emotionalSupportT,
                                                                   (e) => e
-                                                                    ..loveNmbers +=
+                                                                    ..mindfulExpressionSanctuary +=
                                                                         1);
                                                           genuineSynapseLocus()
                                                               .update(() {});
@@ -657,7 +657,7 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                         child: FutureBuilder(
                                                             future: MoodKinTenderUnderstanding
                                                                 .MoodKinReflectiveListener(
-                                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == sorrowSharedSanctuaryItem.friendshipBondingPortal).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == sorrowSharedSanctuaryItem.friendshipBondingPortal).toList().firstOrNull!.empatheticConversationLounge}'),
                                                             builder: (context,
                                                                 asyncSnapshot) {
                                                               if (!asyncSnapshot
@@ -675,15 +675,15 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                     image: genuineSynapseLocus()
                                                                             .necronomiconHealingComfortU
                                                                             .where((e) =>
-                                                                                e.loFiSoulmatesComfortT ==
+                                                                                e.listeningCompanionNetwork ==
                                                                                 sorrowSharedSanctuaryItem.friendshipBondingPortal)
                                                                             .toList()
                                                                             .firstOrNull!
-                                                                            .neuralLaceConfessionsI
+                                                                            .empatheticConversationLounge
                                                                             .contains('/')
                                                                         ? FileImage(
                                                                             File(
-                                                                              genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == sorrowSharedSanctuaryItem.friendshipBondingPortal).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                              genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == sorrowSharedSanctuaryItem.friendshipBondingPortal).toList().firstOrNull!.empatheticConversationLounge,
                                                                             ),
                                                                           )
                                                                         : FileImage(File(asyncSnapshot.data!)),
@@ -717,11 +717,11 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                     genuineSynapseLocus()
                                                                             .necronomiconHealingComfortU
                                                                             .where((e) =>
-                                                                                e.loFiSoulmatesComfortT ==
+                                                                                e.listeningCompanionNetwork ==
                                                                                 sorrowSharedSanctuaryItem.friendshipBondingPortal)
                                                                             .toList()
                                                                             .firstOrNull
-                                                                            ?.phoenixTearsTherapyN ??
+                                                                            ?.bondingEmotionExchangehub ??
                                                                         '',
                                                                     style:
                                                                         TextStyle(

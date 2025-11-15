@@ -246,7 +246,7 @@ Future<void> compassionRecognitionzationKit(
           genuineSynapseLocus().updateNecronomiconHealingComfortUAtIndex(
               genuineSynapseLocus().emotionalSupportT,
               (user) => user
-                ..augmentedRealityLoveM += genuineSynapseLocus()
+                ..flowingMoodNarrativeSpace += genuineSynapseLocus()
                     .airshipAngerManagementCO
                     .where((e) =>
                         e.discoDiscorsGeocitiesPI ==

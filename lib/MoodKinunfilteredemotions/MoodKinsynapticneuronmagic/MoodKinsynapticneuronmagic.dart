@@ -144,12 +144,12 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                   final soulfulExpressionLog = genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
-                                              e.loFiSoulmatesComfortT ==
+                                              e.listeningCompanionNetwork ==
                                               genuineSynapseLocus()
                                                   .emotionalSupportT)
                                           .toList()
                                           .firstOrNull
-                                          ?.corporateDroneHugsF
+                                          ?.heartfeltSharingCommunity
                                           .toList() ??
                                       [];
             
@@ -182,11 +182,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                       .MoodKinReflectiveListener('${ genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     soulfulExpressionLogItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI}'),     
+                                                                .empatheticConversationLounge}'),     
                                                   builder: (context, asyncSnapshot) {
                                                     if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                                     return Container(
@@ -198,11 +198,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                           image: genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     soulfulExpressionLogItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI
+                                                                .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -210,11 +210,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                                          genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     soulfulExpressionLogItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI
+                                                                .empatheticConversationLounge
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -232,11 +232,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
-                                                            e.loFiSoulmatesComfortT ==
+                                                            e.listeningCompanionNetwork ==
                                                             soulfulExpressionLogItem)
                                                         .toList()
                                                         .firstOrNull
-                                                        ?.phoenixTearsTherapyN ??
+                                                        ?.bondingEmotionExchangehub ??
                                                     '',
                                                 style: TextStyle(
                                                   fontSize: 16.0,
@@ -253,7 +253,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 genuineSynapseLocus()
                                                     .emotionalSupportT,
                                                 (e) => e
-                                                  ..updateCorporateDroneHugsF(
+                                                  ..updateheartfeltSharingCommunity(
                                                     (e) => e.remove(
                                                         soulfulExpressionLogItem),
                                                   ),
@@ -296,21 +296,21 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                   final emotionalMosaicFeed = genuineSynapseLocus()
                                           .necronomiconHealingComfortU
                                           .where((e) =>
-                                              e.loFiSoulmatesComfortT ==
+                                              e.listeningCompanionNetwork ==
                                               genuineSynapseLocus()
                                                   .emotionalSupportT)
                                           .toList()
                                           .firstOrNull
-                                          ?.deusExMachinaTherapS
+                                          ?.innerEmotionLiberationhall
                                           .where((ee) => !(genuineSynapseLocus()
                                                   .necronomiconHealingComfortU
                                                   .where((e) =>
-                                                      e.loFiSoulmatesComfortT ==
+                                                      e.listeningCompanionNetwork ==
                                                       genuineSynapseLocus()
                                                           .emotionalSupportT)
                                                   .toList()
                                                   .firstOrNull
-                                                  ?.corporateDroneHugsB
+                                                  ?.gentleDialogueHealingroo
                                                   .contains(ee) ??
                                               false))
                                           .toList() ??
@@ -345,11 +345,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                       .MoodKinReflectiveListener('${  genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     emotionalMosaicFeedItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI}'),   
+                                                                .empatheticConversationLounge}'),   
                                                   builder: (context, asyncSnapshot) {
                                                     if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                                     return Container(
@@ -361,11 +361,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                           image: genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     emotionalMosaicFeedItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI
+                                                                .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -373,11 +373,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                                            genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     emotionalMosaicFeedItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI,
+                                                                .empatheticConversationLounge,
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -395,11 +395,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
-                                                            e.loFiSoulmatesComfortT ==
+                                                            e.listeningCompanionNetwork ==
                                                             emotionalMosaicFeedItem)
                                                         .toList()
                                                         .firstOrNull
-                                                        ?.phoenixTearsTherapyN ??
+                                                        ?.bondingEmotionExchangehub ??
                                                     '',
                                                 style: TextStyle(
                                                   fontSize: 16.0,
@@ -416,7 +416,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 genuineSynapseLocus()
                                                     .emotionalSupportT,
                                                 (e) => e
-                                                  ..updateCorporateDroneHugsB(
+                                                  ..updategentleDialogueHealingroo(
                                                     (e) => e.add(
                                                         emotionalMosaicFeedItem),
                                                   ),
@@ -458,12 +458,12 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                       genuineSynapseLocus()
                                               .necronomiconHealingComfortU
                                               .where((e) =>
-                                                  e.loFiSoulmatesComfortT ==
+                                                  e.listeningCompanionNetwork ==
                                                   genuineSynapseLocus()
                                                       .emotionalSupportT)
                                               .toList()
                                               .firstOrNull
-                                              ?.corporateDroneHugsB
+                                              ?.gentleDialogueHealingroo
                                               .toList() ??
                                           [];
             
@@ -496,11 +496,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                       .MoodKinReflectiveListener('${ genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     heartfeltChroniclepaceItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI}'),       
+                                                                .empatheticConversationLounge}'),       
                                                   builder: (context, asyncSnapshot) {
                                                     if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                                     return Container(
@@ -512,11 +512,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                           image: genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     heartfeltChroniclepaceItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI
+                                                                .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -524,11 +524,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                                          genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     heartfeltChroniclepaceItem)
                                                                 .toList()
                                                                 .firstOrNull!
-                                                                .neuralLaceConfessionsI,
+                                                                .empatheticConversationLounge,
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -546,11 +546,11 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 genuineSynapseLocus()
                                                         .necronomiconHealingComfortU
                                                         .where((e) =>
-                                                            e.loFiSoulmatesComfortT ==
+                                                            e.listeningCompanionNetwork ==
                                                             heartfeltChroniclepaceItem)
                                                         .toList()
                                                         .firstOrNull
-                                                        ?.phoenixTearsTherapyN ??
+                                                        ?.bondingEmotionExchangehub ??
                                                     '',
                                                 style: TextStyle(
                                                   fontSize: 16.0,
@@ -567,7 +567,7 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 genuineSynapseLocus()
                                                     .emotionalSupportT,
                                                 (e) => e
-                                                  ..updateCorporateDroneHugsB(
+                                                  ..updategentleDialogueHealingroo(
                                                     (e) => e.remove(
                                                         heartfeltChroniclepaceItem),
                                                   ),

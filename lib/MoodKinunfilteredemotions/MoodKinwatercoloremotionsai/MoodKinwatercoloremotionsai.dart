@@ -54,7 +54,7 @@ class _WatercolorEmotionsAiWidgetState
         emotionalConnectionPortal: widget.sentimentSynchronizer,
         authenticInteractionLounge: genuineSynapseLocus()
             .necronomiconHealingComfortU[7]
-            .loFiSoulmatesComfortT,
+            .listeningCompanionNetwork,
         moatMalwarejoustingJav: DateTime.now(),
         emotionalExpressionSpot: [
           '${VuriaEmotionCipher.unveilEmotion('BFUKqj2Qt45kSLy5doLL2g==')}'
@@ -211,12 +211,12 @@ class _WatercolorEmotionsAiWidgetState
                       .MoodKinReflectiveListener('${genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               wildWestWhatsappnselingItem
                                                                   .authenticInteractionLounge)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI}'),   
+                                                          .empatheticConversationLounge}'),   
                                             builder: (context, asyncSnapshot) {
                                               if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                               return Container(
@@ -228,12 +228,12 @@ class _WatercolorEmotionsAiWidgetState
                                                     image:genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               wildWestWhatsappnselingItem
                                                                   .authenticInteractionLounge)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI
+                                                          .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -241,12 +241,12 @@ class _WatercolorEmotionsAiWidgetState
                                                                           genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               wildWestWhatsappnselingItem
                                                                   .authenticInteractionLounge)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI,
+                                                          .empatheticConversationLounge,
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -350,12 +350,12 @@ class _WatercolorEmotionsAiWidgetState
                       .MoodKinReflectiveListener('${ genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               wildWestWhatsappnselingItem
                                                                   .authenticInteractionLounge)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI}'),     
+                                                          .empatheticConversationLounge}'),     
                                             builder: (context, asyncSnapshot) {
                                               if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                               return Container(
@@ -367,12 +367,12 @@ class _WatercolorEmotionsAiWidgetState
                                                     image:genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               wildWestWhatsappnselingItem
                                                                   .authenticInteractionLounge)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI
+                                                          .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -380,12 +380,12 @@ class _WatercolorEmotionsAiWidgetState
                                                                          genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               wildWestWhatsappnselingItem
                                                                   .authenticInteractionLounge)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI
+                                                          .empatheticConversationLounge
                                                                         ),
                                                                       )
                                                                     : FileImage(File(

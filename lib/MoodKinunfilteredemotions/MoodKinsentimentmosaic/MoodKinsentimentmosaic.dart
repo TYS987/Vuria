@@ -118,7 +118,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                       .necronomiconHealingComfortU
                                       .elementAt(
                                           genuineSynapseLocus().emotionalSupportT)
-                                      .corporateDroneHugsB
+                                      .gentleDialogueHealingroo
                                       .contains(
                                         e.shamanCodingNeuralinkM
                                             .where((id) =>
@@ -131,7 +131,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                   !e.shamanCodingNeuralinkM.contains(
                                       genuineSynapseLocus()
                                           .necronomiconHealingComfortU[7]
-                                          .loFiSoulmatesComfortT))
+                                          .listeningCompanionNetwork))
                               .toList();
             
                           return ListView.builder(
@@ -186,7 +186,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                       .MoodKinReflectiveListener('${ genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               sentimentTapestryBoardItem
                                                                   .shamanCodingNeuralinkM
                                                                   .where((e) =>
@@ -197,7 +197,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                                   .firstOrNull)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI}'),   
+                                                          .empatheticConversationLounge}'),   
                                             builder: (context, asyncSnapshot) {
                                               if (!asyncSnapshot .hasData)  return const SizedBox(); 
                                               return Container(
@@ -209,7 +209,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     image:genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               sentimentTapestryBoardItem
                                                                   .shamanCodingNeuralinkM
                                                                   .where((e) =>
@@ -220,7 +220,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                                   .firstOrNull)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI
+                                                          .empatheticConversationLounge
                                                                         .contains(
                                                                             '/')
                                                                     ? FileImage(
@@ -228,7 +228,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                                           genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               sentimentTapestryBoardItem
                                                                   .shamanCodingNeuralinkM
                                                                   .where((e) =>
@@ -239,7 +239,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                                   .firstOrNull)
                                                           .toList()
                                                           .firstOrNull!
-                                                          .neuralLaceConfessionsI,
+                                                          .empatheticConversationLounge,
                                                                         ),
                                                                       )
                                                                     : FileImage(File(
@@ -286,7 +286,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                   genuineSynapseLocus()
                                                           .necronomiconHealingComfortU
                                                           .where((e) =>
-                                                              e.loFiSoulmatesComfortT ==
+                                                              e.listeningCompanionNetwork ==
                                                               sentimentTapestryBoardItem
                                                                   .shamanCodingNeuralinkM
                                                                   .where((e) =>
@@ -297,7 +297,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                                   .firstOrNull)
                                                           .toList()
                                                           .firstOrNull
-                                                          ?.phoenixTearsTherapyN ??
+                                                          ?.bondingEmotionExchangehub ??
                                                       '',
                                                   style: TextStyle(
                                                     color: Colors.black,
@@ -314,7 +314,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                     genuineSynapseLocus()
                                                             .necronomiconHealingComfortU
                                                             .where((e) =>
-                                                                e.loFiSoulmatesComfortT ==
+                                                                e.listeningCompanionNetwork ==
                                                                 sentimentTapestryBoardItem
                                                                     .shamanCodingNeuralinkM
                                                                     .where((e) =>
@@ -325,7 +325,7 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                                                     .firstOrNull)
                                                             .toList()
                                                             .firstOrNull
-                                                            ?.phoenixTearsTherapyN ??
+                                                            ?.bondingEmotionExchangehub ??
                                                         '',
                                                     style: TextStyle(
                                                       color: Colors.black,

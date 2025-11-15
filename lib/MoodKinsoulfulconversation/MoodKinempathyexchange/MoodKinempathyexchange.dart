@@ -505,13 +505,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                             final gateempathyInfinity = genuineSynapseLocus()
                                 .necronomiconHealingComfortU
                                 .where((e) =>
-                                    e.unicornWhispererHealingE ==
+                                    e.comfortingStorylineChannel ==
                                     unspokenBondempath)
                                 .toList();
 
                             final emotionalCoempathy = gateempathyInfinity
                                 .where((e) =>
-                                    e.dragonScaleComfortfessionsP ==
+                                    e.deepFeelingInteractionzone ==
                                     GatewayPulseNetwork)
                                 .toList();
 
@@ -520,7 +520,7 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                                 final matchedUser = emotionalCoempathy.first;
 
                                 genuineSynapseLocus().emotionalSupportT =
-                                    matchedUser.loFiSoulmatesComfortT;
+                                    matchedUser.listeningCompanionNetwork;
                                 genuineSynapseLocus().kindheartedDialogues = 0;
                                 genuineSynapseLocus()
                                     .undergroundBunkerBondingRUT = 1;
@@ -551,13 +551,13 @@ class _EmpathyExchangeWidgetState extends State<EmpathyExchangeWidget> {
                               genuineSynapseLocus()
                                   .addToNecronomiconHealingComfortU(
                                 PhoenixTearsTherapustEmpathyStruct(
-                                  unicornWhispererHealingE: unspokenBondempath,
-                                  dragonScaleComfortfessionsP:
+                                  comfortingStorylineChannel: unspokenBondempath,
+                                  deepFeelingInteractionzone:
                                       GatewayPulseNetwork,
-                                  neuralLaceConfessionsI:
+                                  empatheticConversationLounge:
                                       "${'bbb06f00840fb8c9c6213a0160f660501911c892e214c3e25b80a1eec3951099'.fromPetalWhisper()}",
-                                  loFiSoulmatesComfortT: newIndex,
-                                  phoenixTearsTherapyN: "${'c7343db0280793d43fa60fce6cc39fcb'.fromPetalWhisper()}",
+                                  listeningCompanionNetwork: newIndex,
+                                  bondingEmotionExchangehub: "${'c7343db0280793d43fa60fce6cc39fcb'.fromPetalWhisper()}",
                                 ),
                               );
 

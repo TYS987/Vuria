@@ -1,3 +1,4 @@
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinemotionalConnectionArchitecture.dart';
 import 'package:vuria/MoodKinvulnerablePocketAngular/MoodKinemotionTraceexpressive/MoodKinreflectionTriggeibeouchFlow.dart';
 import '../MoodKinutil/MoodKinconnectionRippletrueEmot.dart';
 import 'MoodKinindex.dart';
@@ -124,13 +125,13 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   static AnachronismHealingfluxRStruct fromMap(Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
-        emotionSharingCircle: _castToInt(data['emotionSharingCircle']),
-        resonanceFriendshipNetwork: _castToInt(data['resonanceFriendshipNetwork']),
-        feelingFlowCommunications: _castToString(data['feelingFlowCommunications']),
-        shamanCodingNeuralinkM: _castToList<int>(data['shamanCodingNeuralinkM']),
-        daVinciDroneoHologramN: _castToInt(data['daVinciDroneoHologramN']),
-        inquisitionInternetBitcoin: _castToDateTime(data['inquisitionInternetBitcoin']),
-        baroqueBitcoinPodcastHX: _castToList<String>(data['baroqueBitcoinPodcastHX']),
+        emotionSharingCircle: _castToInt(data['${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}']),
+        resonanceFriendshipNetwork: _castToInt(data['${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}']),
+        feelingFlowCommunications: _castToString(data['${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}']),
+        shamanCodingNeuralinkM: _castToList<int>(data['${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}']),
+        daVinciDroneoHologramN: _castToInt(data['${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}']),
+        inquisitionInternetBitcoin: _castToDateTime(data['${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}']),
+        baroqueBitcoinPodcastHX: _castToList<String>(data['${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}']),
       );
 
   static AnachronismHealingfluxRStruct? maybeFromMap(dynamic data) =>
@@ -140,45 +141,45 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      'emotionSharingCircle': _emotionSharingCircle,
-      'resonanceFriendshipNetwork': _resonanceFriendshipNetwork,
-      'feelingFlowCommunications': _feelingFlowCommunications,
-      'shamanCodingNeuralinkM': _shamanCodingNeuralinkM,
-      'daVinciDroneoHologramN': _daVinciDroneoHologramN,
-      'inquisitionInternetBitcoin': _inquisitionInternetBitcoin,
-      'baroqueBitcoinPodcastHX': _baroqueBitcoinPodcastHX,
+      '${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}': _emotionSharingCircle,
+      '${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}': _resonanceFriendshipNetwork,
+      '${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}': _feelingFlowCommunications,
+      '${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}': _shamanCodingNeuralinkM,
+      '${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}': _daVinciDroneoHologramN,
+      '${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}': _inquisitionInternetBitcoin,
+      '${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}': _baroqueBitcoinPodcastHX,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      'emotionSharingCircle': serializeParam(
+      '${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}': serializeParam(
         _emotionSharingCircle,
         ParamType.int,
       ),
-      'resonanceFriendshipNetwork': serializeParam(
+      '${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}': serializeParam(
         _resonanceFriendshipNetwork,
         ParamType.int,
       ),
-      'feelingFlowCommunications': serializeParam(
+      '${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}': serializeParam(
         _feelingFlowCommunications,
         ParamType.String,
       ),
-      'shamanCodingNeuralinkM': serializeParam(
+      '${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}': serializeParam(
         _shamanCodingNeuralinkM,
         ParamType.int,
         isList: true,
       ),
-      'daVinciDroneoHologramN': serializeParam(
+      '${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}': serializeParam(
         _daVinciDroneoHologramN,
         ParamType.int,
       ),
-      'inquisitionInternetBitcoin': serializeParam(
+      '${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}': serializeParam(
         _inquisitionInternetBitcoin,
         ParamType.DateTime,
       ),
-      'baroqueBitcoinPodcastHX': serializeParam(
+      '${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}': serializeParam(
         _baroqueBitcoinPodcastHX,
         ParamType.String,
         isList: true,
@@ -190,44 +191,44 @@ class AnachronismHealingfluxRStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       AnachronismHealingfluxRStruct(
         emotionSharingCircle: deserializeParam(
-          data['emotionSharingCircle'],
+          data['${'975399abc8bb60a0edfa5342a351b69792227348cc2836e1aad9cee8482ef097'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         resonanceFriendshipNetwork: deserializeParam(
-          data['resonanceFriendshipNetwork'],
+          data['${'88965cdf7146510abc400fa237e9a5d066e195fb772a1e9ff3c22a058b664a51'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         feelingFlowCommunications: deserializeParam(
-          data['feelingFlowCommunications'],
+          data['${'af0a54b0982e0fd6102655edb78a0ca19a607d158f8f946828eab79f4c6b341f'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
         shamanCodingNeuralinkM: deserializeParam<int>(
-          data['shamanCodingNeuralinkM'],
+          data['${'e8b0005e0f909bb9da610c34ec47902fd7dfcdabed173981009718b91230f1ab'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
         daVinciDroneoHologramN: deserializeParam(
-          data['daVinciDroneoHologramN'],
+          data['${'8471f95406ffa1adc0edf3c9b872afe672224f68acca8bba9ccb3888c274d0ce'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         inquisitionInternetBitcoin: deserializeParam(
-          data['inquisitionInternetBitcoin'],
+          data['${'eba2145b45945cc71fab41474a959f582e00a04da2edc00ec088e0ec317abe5e'.fromPetalWhisper()}'],
           ParamType.DateTime,
           false,
         ),
         baroqueBitcoinPodcastHX: deserializeParam<String>(
-          data['baroqueBitcoinPodcastHX'],
+          data['${'a76c790cad370a36f84260b0e0f8f6d8e9377fc3e40ba89f2922ea546e0e2988'.fromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
       );
 
   @override
-  String toString() => 'AnachronismHealingfluxRStruct(${toMap()})';
+  String toString() => '${'7db19b629ec20adfa4f0f652709233d7e9fbcde92d41856b881e8bfa57989a75'.fromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

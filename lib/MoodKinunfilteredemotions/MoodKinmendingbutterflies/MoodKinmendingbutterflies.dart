@@ -120,7 +120,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                           unguardedCosmos[empathyOrbitDimensions];
                                       final heartstringSymphony =
                                           emotionalGravityWell
-                                              .augmentedRealityLoveM;
+                                              .flowingMoodNarrativeSpace;
               
                                       if (heartstringSymphony >= 200) {
                                         final updatedPoints =
@@ -129,7 +129,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                             .updateNecronomiconHealingComfortUAtIndex(
                                           empathyOrbitDimensions,
                                           (e) => e
-                                            ..augmentedRealityLoveM = updatedPoints,
+                                            ..flowingMoodNarrativeSpace = updatedPoints,
                                         );
               
                                         final pairExists = genuineSynapseLocus()
@@ -139,7 +139,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                                     empathyOrbitDimensions) &&
                                                 e.shamanCodingNeuralinkM.contains(
                                                     sentimentNebula
-                                                        .loFiSoulmatesComfortT));
+                                                        .listeningCompanionNetwork));
               
                                         if (!pairExists) {
                                           final heartstringSymphony =
@@ -154,7 +154,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                                 '${'e89a805321f27f96e12ad60e790dcf8cbe9556c4426835b50f743b597e98acd0'.fromPetalWhisper()}',
                                             shamanCodingNeuralinkM: [
                                               empathyOrbitDimensions,
-                                              sentimentNebula.loFiSoulmatesComfortT,
+                                              sentimentNebula.listeningCompanionNetwork,
                                             ],
                                             daVinciDroneoHologramN: 0,
                                             inquisitionInternetBitcoin:
@@ -179,7 +179,7 @@ class _MendingButterfliesWidgetState extends State<MendingButterfliesWidget> {
                                                         empathyOrbitDimensions) &&
                                                     e.shamanCodingNeuralinkM
                                                         .contains(sentimentNebula
-                                                            .loFiSoulmatesComfortT))
+                                                            .listeningCompanionNetwork))
                                                 .toList();
               
                                         final genuineWhisperVortex =

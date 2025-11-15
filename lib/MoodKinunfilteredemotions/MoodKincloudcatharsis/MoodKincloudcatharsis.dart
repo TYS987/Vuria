@@ -109,7 +109,7 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                             FutureBuilder(
                                 future: MoodKinTenderUnderstanding
                                     .MoodKinReflectiveListener(
-                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == widget.feelingSyncChanneoulConnec).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == widget.feelingSyncChanneoulConnec).toList().firstOrNull!.empatheticConversationLounge}'),
                                 builder: (context, asyncSnapshot) {
                                   if (!asyncSnapshot.hasData)
                                     return const SizedBox();
@@ -122,24 +122,24 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                                         image: genuineSynapseLocus()
                                                 .necronomiconHealingComfortU
                                                 .where((e) =>
-                                                    e.loFiSoulmatesComfortT ==
+                                                    e.listeningCompanionNetwork ==
                                                     widget
                                                         .feelingSyncChanneoulConnec)
                                                 .toList()
                                                 .firstOrNull!
-                                                .neuralLaceConfessionsI
+                                                .empatheticConversationLounge
                                                 .contains('/')
                                             ? FileImage(
                                                 File(
                                                   genuineSynapseLocus()
                                                       .necronomiconHealingComfortU
                                                       .where((e) =>
-                                                          e.loFiSoulmatesComfortT ==
+                                                          e.listeningCompanionNetwork ==
                                                           widget
                                                               .feelingSyncChanneoulConnec)
                                                       .toList()
                                                       .firstOrNull!
-                                                      .neuralLaceConfessionsI,
+                                                      .empatheticConversationLounge,
                                                 ),
                                               )
                                             : FileImage(
@@ -156,11 +156,11 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
                                 genuineSynapseLocus()
                                         .necronomiconHealingComfortU
                                         .where((e) =>
-                                            e.loFiSoulmatesComfortT ==
+                                            e.listeningCompanionNetwork ==
                                             widget.feelingSyncChanneoulConnec)
                                         .toList()
                                         .firstOrNull
-                                        ?.phoenixTearsTherapyN ??
+                                        ?.bondingEmotionExchangehub ??
                                     '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
                                 style: TextStyle(
                                   color: Colors.white,

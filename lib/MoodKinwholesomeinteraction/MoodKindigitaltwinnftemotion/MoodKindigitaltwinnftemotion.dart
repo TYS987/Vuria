@@ -131,9 +131,9 @@ class _DigitalTwinnftEmotionWidgetState
                         .updateNecronomiconHealingComfortUAtIndex(
                             genuineSynapseLocus().emotionalSupportT,
                             (e) => e
-                              ..unicornWhispererHealingE =
+                              ..comfortingStorylineChannel =
                                   generateRandomCredential(isPassword: true)
-                              ..dragonScaleComfortfessionsP =
+                              ..deepFeelingInteractionzone =
                                   generateRandomCredential(length: 7));
                     genuineSynapseLocus().update(() {});
                     Navigator.pushNamedAndRemoveUntil(

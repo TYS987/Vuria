@@ -1,5 +1,6 @@
 // ignore_for_file: unnecessary_getters_setters
 
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinemotionalConnectionArchitecture.dart';
 import 'package:vuria/MoodKinvulnerablePocketAngular/MoodKinemotionTraceexpressive/MoodKinreflectionTriggeibeouchFlow.dart';
 import '../MoodKinutil/MoodKinconnectionRippletrueEmot.dart';
 import 'MoodKinindex.dart';
@@ -141,14 +142,14 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   static BioluminescentEmpathyDTStruct fromMap(Map<String, dynamic> data) =>
       BioluminescentEmpathyDTStruct(
-        empatheticVoiceCorner: _castToInt(data['empatheticVoiceCorner']),
-        friendshipResonanceSpot: _castToInt(data['friendshipResonanceSpot']),
-        genuineSharingCorner: _castToInt(data['genuineSharingCorner']),
-        brinePoolSolacenSongTearsI: _castToList<String>(data['brinePoolSolacenSongTearsI']),
-        expressiveFriendshipSpace: _castToString(data['expressiveFriendshipSpace']),
-        timeMachineComfortLo: _castToList<int>(data['timeMachineComfortLo']),
-        butterflyEffectConfideHX: _castToList<String>(data['butterflyEffectConfideHX']),
-        heartfeltInteractionCorner: _castToDateTime(data['heartfeltInteractionCorner']),
+        empatheticVoiceCorner: _castToInt(data['${'c724b013866efe04308bb9a5f2f02b4a4e0f9eeedd033fd89be43c05f83d0e19'.fromPetalWhisper()}']),
+        friendshipResonanceSpot: _castToInt(data['${'665363f25716d783eb5dd14f667e1ed97b5c3b622d299bd3c993f01743989b9f'.fromPetalWhisper()}']),
+        genuineSharingCorner: _castToInt(data['${'9f75ae47d8243a247421a00c9ff204aced73a28114b621e153fcf879540dfe15'.fromPetalWhisper()}']),
+        brinePoolSolacenSongTearsI: _castToList<String>(data['${'25ff812f79ab3c9d37a589ee73c05108af19729704a3f7ba5b773d5c0b0205cb'.fromPetalWhisper()}']),
+        expressiveFriendshipSpace: _castToString(data['${'6abfa4f3901e0815bcf758ea4652a0fa402bcd829b456d6d412c13c2c2a5252f'.fromPetalWhisper()}']),
+        timeMachineComfortLo: _castToList<int>(data['${'af32284f57a407496e0835ce2c065b6dc08f6403b7a8e7a24c4bcf7989b93197'.fromPetalWhisper()}']),
+        butterflyEffectConfideHX: _castToList<String>(data['${'fada996e0a3c98d6a8f5f39e82aa6e6c8fedc751ab36bf0b74769a809e2423cc'.fromPetalWhisper()}']),
+        heartfeltInteractionCorner: _castToDateTime(data['${'a080527fc6f617b11ceb5965948617d496d3201d95ec6b6574cce86a400042fa'.fromPetalWhisper()}']),
       );
 
   static BioluminescentEmpathyDTStruct? maybeFromMap(dynamic data) =>
@@ -158,52 +159,52 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
 
   Map<String, dynamic> toMap() {
     return _removeNulls({
-      'empatheticVoiceCorner': _empatheticVoiceCorner,
-      'friendshipResonanceSpot': _friendshipResonanceSpot,
-      'genuineSharingCorner': _genuineSharingCorner,
-      'brinePoolSolacenSongTearsI': _brinePoolSolacenSongTearsI,
-      'expressiveFriendshipSpace': _expressiveFriendshipSpace,
-      'timeMachineComfortLo': _timeMachineComfortLo,
-      'butterflyEffectConfideHX': _butterflyEffectConfideHX,
-      'heartfeltInteractionCorner': _heartfeltInteractionCorner,
+      '${'c724b013866efe04308bb9a5f2f02b4a4e0f9eeedd033fd89be43c05f83d0e19'.fromPetalWhisper()}': _empatheticVoiceCorner,
+      '${'665363f25716d783eb5dd14f667e1ed97b5c3b622d299bd3c993f01743989b9f'.fromPetalWhisper()}': _friendshipResonanceSpot,
+      '${'9f75ae47d8243a247421a00c9ff204aced73a28114b621e153fcf879540dfe15'.fromPetalWhisper()}': _genuineSharingCorner,
+      '${'25ff812f79ab3c9d37a589ee73c05108af19729704a3f7ba5b773d5c0b0205cb'.fromPetalWhisper()}': _brinePoolSolacenSongTearsI,
+      '${'6abfa4f3901e0815bcf758ea4652a0fa402bcd829b456d6d412c13c2c2a5252f'.fromPetalWhisper()}': _expressiveFriendshipSpace,
+      '${'af32284f57a407496e0835ce2c065b6dc08f6403b7a8e7a24c4bcf7989b93197'.fromPetalWhisper()}': _timeMachineComfortLo,
+      '${'fada996e0a3c98d6a8f5f39e82aa6e6c8fedc751ab36bf0b74769a809e2423cc'.fromPetalWhisper()}': _butterflyEffectConfideHX,
+      '${'a080527fc6f617b11ceb5965948617d496d3201d95ec6b6574cce86a400042fa'.fromPetalWhisper()}': _heartfeltInteractionCorner,
     });
   }
 
   @override
   Map<String, dynamic> toSerializableMap() {
     return _removeNulls({
-      'empatheticVoiceCorner': serializeParam(
+      '${'c724b013866efe04308bb9a5f2f02b4a4e0f9eeedd033fd89be43c05f83d0e19'.fromPetalWhisper()}': serializeParam(
         _empatheticVoiceCorner,
         ParamType.int,
       ),
-      'friendshipResonanceSpot': serializeParam(
+      '${'665363f25716d783eb5dd14f667e1ed97b5c3b622d299bd3c993f01743989b9f'.fromPetalWhisper()}': serializeParam(
         _friendshipResonanceSpot,
         ParamType.int,
       ),
-      'genuineSharingCorner': serializeParam(
+      '${'9f75ae47d8243a247421a00c9ff204aced73a28114b621e153fcf879540dfe15'.fromPetalWhisper()}': serializeParam(
         _genuineSharingCorner,
         ParamType.int,
       ),
-      'brinePoolSolacenSongTearsI': serializeParam(
+      '${'25ff812f79ab3c9d37a589ee73c05108af19729704a3f7ba5b773d5c0b0205cb'.fromPetalWhisper()}': serializeParam(
         _brinePoolSolacenSongTearsI,
         ParamType.String,
         isList: true,
       ),
-      'expressiveFriendshipSpace': serializeParam(
+      '${'6abfa4f3901e0815bcf758ea4652a0fa402bcd829b456d6d412c13c2c2a5252f'.fromPetalWhisper()}': serializeParam(
         _expressiveFriendshipSpace,
         ParamType.String,
       ),
-      'timeMachineComfortLo': serializeParam(
+      '${'af32284f57a407496e0835ce2c065b6dc08f6403b7a8e7a24c4bcf7989b93197'.fromPetalWhisper()}': serializeParam(
         _timeMachineComfortLo,
         ParamType.int,
         isList: true,
       ),
-      'butterflyEffectConfideHX': serializeParam(
+      '${'fada996e0a3c98d6a8f5f39e82aa6e6c8fedc751ab36bf0b74769a809e2423cc'.fromPetalWhisper()}': serializeParam(
         _butterflyEffectConfideHX,
         ParamType.String,
         isList: true,
       ),
-      'heartfeltInteractionCorner': serializeParam(
+      '${'a080527fc6f617b11ceb5965948617d496d3201d95ec6b6574cce86a400042fa'.fromPetalWhisper()}': serializeParam(
         _heartfeltInteractionCorner,
         ParamType.DateTime,
       ),
@@ -214,49 +215,49 @@ class BioluminescentEmpathyDTStruct extends BaseStruct {
           Map<String, dynamic> data) =>
       BioluminescentEmpathyDTStruct(
         empatheticVoiceCorner: deserializeParam(
-          data['empatheticVoiceCorner'],
+          data['${'c724b013866efe04308bb9a5f2f02b4a4e0f9eeedd033fd89be43c05f83d0e19'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         friendshipResonanceSpot: deserializeParam(
-          data['friendshipResonanceSpot'],
+          data['${'665363f25716d783eb5dd14f667e1ed97b5c3b622d299bd3c993f01743989b9f'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         genuineSharingCorner: deserializeParam(
-          data['genuineSharingCorner'],
+          data['${'9f75ae47d8243a247421a00c9ff204aced73a28114b621e153fcf879540dfe15'.fromPetalWhisper()}'],
           ParamType.int,
           false,
         ),
         brinePoolSolacenSongTearsI: deserializeParam<String>(
-          data['brinePoolSolacenSongTearsI'],
+          data['${'25ff812f79ab3c9d37a589ee73c05108af19729704a3f7ba5b773d5c0b0205cb'.fromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
         expressiveFriendshipSpace: deserializeParam(
-          data['expressiveFriendshipSpace'],
+          data['${'6abfa4f3901e0815bcf758ea4652a0fa402bcd829b456d6d412c13c2c2a5252f'.fromPetalWhisper()}'],
           ParamType.String,
           false,
         ),
         timeMachineComfortLo: deserializeParam<int>(
-          data['timeMachineComfortLo'],
+          data['${'af32284f57a407496e0835ce2c065b6dc08f6403b7a8e7a24c4bcf7989b93197'.fromPetalWhisper()}'],
           ParamType.int,
           true,
         ),
         butterflyEffectConfideHX: deserializeParam<String>(
-          data['butterflyEffectConfideHX'],
+          data['${'fada996e0a3c98d6a8f5f39e82aa6e6c8fedc751ab36bf0b74769a809e2423cc'.fromPetalWhisper()}'],
           ParamType.String,
           true,
         ),
         heartfeltInteractionCorner: deserializeParam(
-          data['heartfeltInteractionCorner'],
+          data['${'a080527fc6f617b11ceb5965948617d496d3201d95ec6b6574cce86a400042fa'.fromPetalWhisper()}'],
           ParamType.DateTime,
           false,
         ),
       );
 
   @override
-  String toString() => 'BioluminescentEmpathyDTStruct(${toMap()})';
+  String toString() => '${'9088533886e974620898c487b25736b436540bb4c9b6f626622f24db97618b70'.fromPetalWhisper()}(${toMap()})';
 
   @override
   bool operator ==(Object other) {

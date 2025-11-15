@@ -163,7 +163,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                               .necronomiconHealingComfortU[
                                                   genuineSynapseLocus()
                                                       .emotionalSupportT]
-                                              .corporateDroneHugsB
+                                              .gentleDialogueHealingroo
                                               .contains(
                                                   e.empatheticVoiceCorner))
                                           .toList();
@@ -249,18 +249,18 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                         '${'7950da15ac1d74275297d2084b53f7a938d6c5e2c4e574661525195b65411177'.fromPetalWhisper()}': genuineSynapseLocus()
                                                                             .necronomiconHealingComfortU
                                                                             .where((e) =>
-                                                                                e.loFiSoulmatesComfortT ==
+                                                                                e.listeningCompanionNetwork ==
                                                                                 emotionalAlignmentToolItem.empatheticVoiceCorner)
                                                                             .toList()
                                                                             .firstOrNull!
-                                                                            .loFiSoulmatesComfortT
+                                                                            .listeningCompanionNetwork
                                                                       },
                                                                     );
                                                                   },
                                                                   child:
                                                                       FutureBuilder(
                                                                           future: MoodKinTenderUnderstanding.MoodKinReflectiveListener(
-                                                                              '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                                              '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge}'),
                                                                           builder:
                                                                               (context, asyncSnapshot) {
                                                                             if (!asyncSnapshot.hasData)
@@ -271,10 +271,10 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                               decoration: BoxDecoration(
                                                                                 image: DecorationImage(
                                                                                   fit: BoxFit.cover,
-                                                                                  image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI.contains('/')
+                                                                                  image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge.contains('/')
                                                                                       ? FileImage(
                                                                                           File(
-                                                                                            genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                            genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull!.empatheticConversationLounge,
                                                                                           ),
                                                                                         )
                                                                                       : FileImage(File(asyncSnapshot.data!)),
@@ -307,7 +307,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull?.phoenixTearsTherapyN ??
+                                                                          genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.listeningCompanionNetwork == emotionalAlignmentToolItem.empatheticVoiceCorner).toList().firstOrNull?.bondingEmotionExchangehub ??
                                                                               VuriaEmotionCipher.unveilEmotion('oYPRJfli3I1nS7+6dYHI2Q=='),
                                                                           style:
                                                                               TextStyle(
@@ -384,12 +384,12 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                         if (genuineSynapseLocus()
                                                                 .necronomiconHealingComfortU
                                                                 .where((e) =>
-                                                                    e.loFiSoulmatesComfortT ==
+                                                                    e.listeningCompanionNetwork ==
                                                                     genuineSynapseLocus()
                                                                         .emotionalSupportT)
                                                                 .toList()
                                                                 .firstOrNull
-                                                                ?.corporateDroneHugsF
+                                                                ?.heartfeltSharingCommunity
                                                                 .contains(
                                                                     emotionalAlignmentToolItem
                                                                         .empatheticVoiceCorner) ??
@@ -401,7 +401,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                 genuineSynapseLocus()
                                                                     .emotionalSupportT,
                                                                 (e) => e
-                                                                  ..updateCorporateDroneHugsF(
+                                                                  ..updateheartfeltSharingCommunity(
                                                                     (e) => e.remove(
                                                                         emotionalAlignmentToolItem
                                                                             .empatheticVoiceCorner),
@@ -448,7 +448,7 @@ class _PendulumTrustWidgetState extends State<PendulumTrustWidget> {
                                                                 genuineSynapseLocus()
                                                                     .emotionalSupportT,
                                                                 (e) => e
-                                                                  ..updateCorporateDroneHugsF(
+                                                                  ..updateheartfeltSharingCommunity(
                                                                     (e) => e.add(
                                                                         emotionalAlignmentToolItem
                                                                             .empatheticVoiceCorner),
