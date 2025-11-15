@@ -5,13 +5,13 @@ import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_web_plugins/url_strategy.dart';
-import 'package:vuria/feelingKaleidoscopeCore/emotionalConnectionArchitecture.dart';
-import 'package:vuria/feelingKaleidoscopeCore/heartfeltInteractionPlatform.dart';
-import 'package:vuria/moodPandorfeeling.dart';
-import 'package:vuria/moodThreadCombiner/resonanceInkblotTest.dart';
-import 'package:vuria/moodThreadCombiner/anonymousEmotionConduit.dart';
-import 'package:vuria/deepCompanionemotional/connectionReactollector.dart';
-import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart';
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinemotionalConnectionArchitecture.dart';
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKinheartfeltInteractionPlatform.dart';
+import 'package:vuria/MoodKinmoodPandorfeeling.dart';
+import 'package:vuria/MoodKinmoodThreadCombiner/MoodKinresonanceInkblotTest.dart';
+import 'package:vuria/MoodKinmoodThreadCombiner/MoodKinanonymousEmotionConduit.dart';
+import 'package:vuria/MoodKindeepCompanionemotional/MoodKinconnectionReactollector.dart';
+import 'package:vuria/MoodKinfeelingKaleidoscopeCore/MoodKingenuineConnectionArchitecture.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
