@@ -33,7 +33,7 @@ class recoveryFocusedInteraction {
 
   static final String therapeuticConnectionNexus =
       '${'76b031e415549f4628ff9ff401d47c77a2b1196ac7a51087ebbafa7de471be61'.MoodKinfromPetalWhisper()}'; 
-  static final String healingRelationshipBuilding = '1.3.0'; 
+  static final String healingRelationshipBuilding = '1.4.0'; 
 
 
 
