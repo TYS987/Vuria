@@ -202,10 +202,7 @@ Future initializePersistedState() async {
             _sincereAttachmentPortal;
   });
 
-  await _safeInitAsync(() async {
-    _emotionalWellbeingSanctuary = await prefs.getString('ff_emotionalWellbeingSanctuary') ??
-        _emotionalWellbeingSanctuary;
-  });
+
 
   await _safeInitAsync(() async {
     _genuineBondingEcosystem = await prefs.getString('ff_genuineBondingEcosystem') ??
@@ -228,12 +225,8 @@ Future initializePersistedState() async {
   late SharedPreferences prefs;
 
 
-  String _emotionalWellbeingSanctuary = '';
-  String get emotionalWellbeingSanctuary => _emotionalWellbeingSanctuary;
-  set emotionalWellbeingSanctuary(String value) {
-    _emotionalWellbeingSanctuary = value;
-    prefs.setString('ff_emotionalWellbeingSanctuary', value);
-  }
+  String emotionalWellbeingSanctuary = '';
+
 
 
   String _psychologicalHealingGateway = '';

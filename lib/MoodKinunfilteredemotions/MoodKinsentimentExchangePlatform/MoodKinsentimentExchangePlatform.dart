@@ -133,6 +133,7 @@ class _SentimentExchangePlatformWidgetWidgetState
                                 setState(() {
                                   genuineSynapseLocus()
                                       .emotionalRestorationGateway = '';
+                                      genuineSynapseLocus().emotionalWellbeingSanctuary = '';
                                 });
 
                                 Navigator.pushNamedAndRemoveUntil(
