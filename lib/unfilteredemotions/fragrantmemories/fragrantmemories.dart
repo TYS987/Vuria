@@ -410,19 +410,38 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                                 if (serotoninDialogue ==
                                                     heartfeltBondGeneratorItem
                                                         .mutantConfessions) {
-                                                  return Container(
-                                                    width: 40.0,
-                                                    height: 40.0,
-                                                    decoration: BoxDecoration(
-                                                      image: DecorationImage(
-                                                        fit: BoxFit.cover,
-                                                        image: AssetImage(
-                                                          heartfeltBondGeneratorItem
-                                                              .dustStormSoulsgasMaskBonim
-                                                              .firstOrNull!,
+                                                  return FutureBuilder(
+                                                    future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${heartfeltBondGeneratorItem
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .firstOrNull!}'),         
+                                                    builder: (context, asyncSnapshot) {
+                                                      if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                      return Container(
+                                                        width: 40.0,
+                                                        height: 40.0,
+                                                        decoration: BoxDecoration(
+                                                          image: DecorationImage(
+                                                            fit: BoxFit.cover,
+                                                            image:heartfeltBondGeneratorItem
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .firstOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          heartfeltBondGeneratorItem
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .firstOrNull!,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                          ),
                                                         ),
-                                                      ),
-                                                    ),
+                                                      );
+                                                    }
                                                   );
                                                 } else {
                                                   return InkWell(
@@ -432,19 +451,38 @@ class _FragrantMemoriesWidgetState extends State<FragrantMemoriesWidget> {
                                                               .mutantConfessions;
                                                       setState(() {});
                                                     },
-                                                    child: Container(
-                                                      width: 40.0,
-                                                      height: 40.0,
-                                                      decoration: BoxDecoration(
-                                                        image: DecorationImage(
-                                                          fit: BoxFit.cover,
-                                                          image: AssetImage(
-                                                            heartfeltBondGeneratorItem
-                                                                .dustStormSoulsgasMaskBonim
-                                                                .lastOrNull!,
+                                                    child: FutureBuilder(
+                                                                 future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${heartfeltBondGeneratorItem
+                                                                    .dustStormSoulsgasMaskBonim
+                                                                    .lastOrNull!}'),
+                                                      builder: (context, asyncSnapshot) {
+                                                        if (!asyncSnapshot .hasData)  return const SizedBox();          
+                                                        return Container(
+                                                          width: 40.0,
+                                                          height: 40.0,
+                                                          decoration: BoxDecoration(
+                                                            image: DecorationImage(
+                                                              fit: BoxFit.cover,
+                                                              image:heartfeltBondGeneratorItem
+                                                                    .dustStormSoulsgasMaskBonim
+                                                                    .lastOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          heartfeltBondGeneratorItem
+                                                                    .dustStormSoulsgasMaskBonim
+                                                                    .lastOrNull!,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                            ),
                                                           ),
-                                                        ),
-                                                      ),
+                                                        );
+                                                      }
                                                     ),
                                                   );
                                                 }

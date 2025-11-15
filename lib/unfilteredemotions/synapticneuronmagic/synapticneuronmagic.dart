@@ -177,26 +177,55 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 padding:
                                                     EdgeInsetsDirectional.fromSTEB(
                                                         0.0, 0.0, 10.0, 0.0),
-                                                child: Container(
-                                                  width: 56.0,
-                                                  height: 56.0,
-                                                  decoration: BoxDecoration(
-                                                    image: DecorationImage(
-                                                      fit: BoxFit.cover,
-                                                      image: AssetImage(
-                                                        genuineSynapseLocus()
-                                                            .necronomiconHealingComfortU
-                                                            .where((e) =>
-                                                                e.loFiSoulmatesComfortT ==
-                                                                soulfulExpressionLogItem)
-                                                            .toList()
-                                                            .firstOrNull!
-                                                            .neuralLaceConfessionsI,
+                                                child: FutureBuilder(
+                                                                      future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    soulfulExpressionLogItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI}'),     
+                                                  builder: (context, asyncSnapshot) {
+                                                    if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                    return Container(
+                                                      width: 56.0,
+                                                      height: 56.0,
+                                                      decoration: BoxDecoration(
+                                                        image: DecorationImage(
+                                                          fit: BoxFit.cover,
+                                                          image: genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    soulfulExpressionLogItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                         genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    soulfulExpressionLogItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                        ),
+                                                        borderRadius:
+                                                            BorderRadius.circular(60.0),
                                                       ),
-                                                    ),
-                                                    borderRadius:
-                                                        BorderRadius.circular(60.0),
-                                                  ),
+                                                    );
+                                                  }
                                                 ),
                                               ),
                                               Text(
@@ -231,17 +260,24 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                               );
                                               genuineSynapseLocus().update(() {});
                                             },
-                                            child: Container(
-                                              width: 82.0,
-                                              height: 35.0,
-                                              decoration: BoxDecoration(
-                                                image: DecorationImage(
-                                                  fit: BoxFit.cover,
-                                                  image: AssetImage(
-                                                    'assets/images/multiverseComfort.png',
+                                            child: FutureBuilder(
+                                                                   future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('multiverseComfort.png'),  
+                                              builder: (context, asyncSnapshot) {
+                                                if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                return Container(
+                                                  width: 82.0,
+                                                  height: 35.0,
+                                                  decoration: BoxDecoration(
+                                                    image: DecorationImage(
+                                                      fit: BoxFit.cover,
+                                                      image:FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                    ),
                                                   ),
-                                                ),
-                                              ),
+                                                );
+                                              }
                                             ),
                                           ),
                                         ],
@@ -304,26 +340,55 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 padding:
                                                     EdgeInsetsDirectional.fromSTEB(
                                                         0.0, 0.0, 10.0, 0.0),
-                                                child: Container(
-                                                  width: 56.0,
-                                                  height: 56.0,
-                                                  decoration: BoxDecoration(
-                                                    image: DecorationImage(
-                                                      fit: BoxFit.cover,
-                                                      image: AssetImage(
-                                                        genuineSynapseLocus()
-                                                            .necronomiconHealingComfortU
-                                                            .where((e) =>
-                                                                e.loFiSoulmatesComfortT ==
-                                                                emotionalMosaicFeedItem)
-                                                            .toList()
-                                                            .firstOrNull!
-                                                            .neuralLaceConfessionsI,
+                                                child: FutureBuilder(
+                                                                      future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${  genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    emotionalMosaicFeedItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI}'),   
+                                                  builder: (context, asyncSnapshot) {
+                                                    if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                    return Container(
+                                                      width: 56.0,
+                                                      height: 56.0,
+                                                      decoration: BoxDecoration(
+                                                        image: DecorationImage(
+                                                          fit: BoxFit.cover,
+                                                          image: genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    emotionalMosaicFeedItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                           genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    emotionalMosaicFeedItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                        ),
+                                                        borderRadius:
+                                                            BorderRadius.circular(60.0),
                                                       ),
-                                                    ),
-                                                    borderRadius:
-                                                        BorderRadius.circular(60.0),
-                                                  ),
+                                                    );
+                                                  }
                                                 ),
                                               ),
                                               Text(
@@ -426,26 +491,55 @@ class _SynapticNeuronMagicWidgetState extends State<SynapticNeuronMagicWidget> {
                                                 padding:
                                                     EdgeInsetsDirectional.fromSTEB(
                                                         0.0, 0.0, 10.0, 0.0),
-                                                child: Container(
-                                                  width: 56.0,
-                                                  height: 56.0,
-                                                  decoration: BoxDecoration(
-                                                    image: DecorationImage(
-                                                      fit: BoxFit.cover,
-                                                      image: AssetImage(
-                                                        genuineSynapseLocus()
-                                                            .necronomiconHealingComfortU
-                                                            .where((e) =>
-                                                                e.loFiSoulmatesComfortT ==
-                                                                heartfeltChroniclepaceItem)
-                                                            .toList()
-                                                            .firstOrNull!
-                                                            .neuralLaceConfessionsI,
+                                                child: FutureBuilder(
+                                                            future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    heartfeltChroniclepaceItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI}'),       
+                                                  builder: (context, asyncSnapshot) {
+                                                    if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                    return Container(
+                                                      width: 56.0,
+                                                      height: 56.0,
+                                                      decoration: BoxDecoration(
+                                                        image: DecorationImage(
+                                                          fit: BoxFit.cover,
+                                                          image: genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    heartfeltChroniclepaceItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                         genuineSynapseLocus()
+                                                                .necronomiconHealingComfortU
+                                                                .where((e) =>
+                                                                    e.loFiSoulmatesComfortT ==
+                                                                    heartfeltChroniclepaceItem)
+                                                                .toList()
+                                                                .firstOrNull!
+                                                                .neuralLaceConfessionsI,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                        ),
+                                                        borderRadius:
+                                                            BorderRadius.circular(60.0),
                                                       ),
-                                                    ),
-                                                    borderRadius:
-                                                        BorderRadius.circular(60.0),
-                                                  ),
+                                                    );
+                                                  }
                                                 ),
                                               ),
                                               Text(

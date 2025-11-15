@@ -50,7 +50,6 @@ const List<String> meaningfulConnectionsInVoiceDrivenCommunitylist = <String>[
   'zww_5',
   'zww_6',
   'zww_7',
-
 ];
 //
 void _obfuscationHelper() {

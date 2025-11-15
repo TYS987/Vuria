@@ -181,33 +181,76 @@ class _SentimentMosaicWidgetState extends State<SentimentMosaicWidget> {
                                       height: 39.0,
                                       child: Stack(
                                         children: [
-                                          Container(
-                                            width: 39.0,
-                                            height: 39.0,
-                                            decoration: BoxDecoration(
-                                              image: DecorationImage(
-                                                fit: BoxFit.cover,
-                                                image: AssetImage(
-                                                  genuineSynapseLocus()
-                                                      .necronomiconHealingComfortU
-                                                      .where((e) =>
-                                                          e.loFiSoulmatesComfortT ==
-                                                          sentimentTapestryBoardItem
-                                                              .shamanCodingNeuralinkM
-                                                              .where((e) =>
-                                                                  e !=
-                                                                  genuineSynapseLocus()
-                                                                      .emotionalSupportT)
-                                                              .toList()
-                                                              .firstOrNull)
-                                                      .toList()
-                                                      .firstOrNull!
-                                                      .neuralLaceConfessionsI,
+                                          FutureBuilder(
+                                                              future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              sentimentTapestryBoardItem
+                                                                  .shamanCodingNeuralinkM
+                                                                  .where((e) =>
+                                                                      e !=
+                                                                      genuineSynapseLocus()
+                                                                          .emotionalSupportT)
+                                                                  .toList()
+                                                                  .firstOrNull)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI}'),   
+                                            builder: (context, asyncSnapshot) {
+                                              if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                              return Container(
+                                                width: 39.0,
+                                                height: 39.0,
+                                                decoration: BoxDecoration(
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image:genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              sentimentTapestryBoardItem
+                                                                  .shamanCodingNeuralinkM
+                                                                  .where((e) =>
+                                                                      e !=
+                                                                      genuineSynapseLocus()
+                                                                          .emotionalSupportT)
+                                                                  .toList()
+                                                                  .firstOrNull)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              sentimentTapestryBoardItem
+                                                                  .shamanCodingNeuralinkM
+                                                                  .where((e) =>
+                                                                      e !=
+                                                                      genuineSynapseLocus()
+                                                                          .emotionalSupportT)
+                                                                  .toList()
+                                                                  .firstOrNull)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(30.0),
                                                 ),
-                                              ),
-                                              borderRadius:
-                                                  BorderRadius.circular(30.0),
-                                            ),
+                                              );
+                                            }
                                           ),
                                           Align(
                                             alignment:

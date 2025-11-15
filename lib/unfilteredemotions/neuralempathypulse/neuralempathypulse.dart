@@ -388,27 +388,46 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                                     2.0,
                                                                     2.0,
                                                                     2.0),
-                                                        child: Container(
-                                                          width:
-                                                              double.infinity,
-                                                          height:
-                                                              double.infinity,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                              fit: BoxFit.cover,
-                                                              image: AssetImage(
-                                                                empathyWavelengthMatchItem
-                                                                    .dustStormSoulsgasMaskBonim
-                                                                    .firstOrNull!,
+                                                        child: FutureBuilder(
+                                                                 future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${empathyWavelengthMatchItem
+                                                                        .dustStormSoulsgasMaskBonim
+                                                                        .firstOrNull!}'),   
+                                                          builder: (context, asyncSnapshot) {
+                                                            if (!asyncSnapshot .hasData)  return const SizedBox();  
+                                                            return Container(
+                                                              width:
+                                                                  double.infinity,
+                                                              height:
+                                                                  double.infinity,
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                image:
+                                                                    DecorationImage(
+                                                                  fit: BoxFit.cover,
+                                                                  image:empathyWavelengthMatchItem
+                                                                        .dustStormSoulsgasMaskBonim
+                                                                        .firstOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          empathyWavelengthMatchItem
+                                                                        .dustStormSoulsgasMaskBonim
+                                                                        .firstOrNull!,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                                ),
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            40.0),
                                                               ),
-                                                            ),
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        40.0),
-                                                          ),
+                                                            );
+                                                          }
                                                         ),
                                                       ),
                                                     ),
@@ -422,19 +441,38 @@ class _NeuralEmpathyPulseWidgetState extends State<NeuralEmpathyPulseWidget> {
                                                             .mutantConfessions;
                                                     setState(() {});
                                                   },
-                                                  child: Container(
-                                                    width: 40.0,
-                                                    height: 40.0,
-                                                    decoration: BoxDecoration(
-                                                      image: DecorationImage(
-                                                        fit: BoxFit.cover,
-                                                        image: AssetImage(
-                                                          empathyWavelengthMatchItem
-                                                              .dustStormSoulsgasMaskBonim
-                                                              .lastOrNull!,
+                                                  child: FutureBuilder(
+                                                                      future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ empathyWavelengthMatchItem
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .lastOrNull!}'), 
+                                                    builder: (context, asyncSnapshot) {
+                                                      if (!asyncSnapshot .hasData)  return const SizedBox();     
+                                                      return Container(
+                                                        width: 40.0,
+                                                        height: 40.0,
+                                                        decoration: BoxDecoration(
+                                                          image: DecorationImage(
+                                                            fit: BoxFit.cover,
+                                                            image: empathyWavelengthMatchItem
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .lastOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          empathyWavelengthMatchItem
+                                                                  .dustStormSoulsgasMaskBonim
+                                                                  .lastOrNull!,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                          ),
                                                         ),
-                                                      ),
-                                                    ),
+                                                      );
+                                                    }
                                                   ),
                                                 );
                                               }

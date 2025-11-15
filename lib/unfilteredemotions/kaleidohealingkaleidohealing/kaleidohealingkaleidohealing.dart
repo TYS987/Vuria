@@ -77,30 +77,54 @@ class _KaleidoHealingkaleidoHealingWidgetState
                             child: Column(
                               mainAxisSize: MainAxisSize.max,
                               children: [
-                                Container(
-                                  width: 74.0,
-                                  height: 74.0,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      fit: BoxFit.cover,
-                                      image: AssetImage(
-                                        genuineSynapseLocus()
-                                            .necronomiconHealingComfortU
-                                            .where((e) =>
-                                                e.loFiSoulmatesComfortT ==
-                                                widget.empatheticStoryPortal)
-                                            .toList()
-                                            .firstOrNull!
-                                            .neuralLaceConfessionsI,
-                                      ),
-                                    ),
-                                    borderRadius: BorderRadius.circular(50.0),
-                                    border: Border.all(
-                                      color: Color(0xE6000000),
-                                      width: 2.0,
-                                    ),
-                                  ),
-                                ),
+                                FutureBuilder(
+                                    future: MoodKinTenderUnderstanding
+                                        .MoodKinReflectiveListener(
+                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == widget.empatheticStoryPortal).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                    builder: (context, asyncSnapshot) {
+                                      if (!asyncSnapshot.hasData)
+                                        return const SizedBox();
+                                      return Container(
+                                        width: 74.0,
+                                        height: 74.0,
+                                        decoration: BoxDecoration(
+                                          image: DecorationImage(
+                                            fit: BoxFit.cover,
+                                            image: genuineSynapseLocus()
+                                                    .necronomiconHealingComfortU
+                                                    .where((e) =>
+                                                        e.loFiSoulmatesComfortT ==
+                                                        widget
+                                                            .empatheticStoryPortal)
+                                                    .toList()
+                                                    .firstOrNull!
+                                                    .neuralLaceConfessionsI
+                                                    .contains('/')
+                                                ? FileImage(
+                                                    File(
+                                                      genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              widget
+                                                                  .empatheticStoryPortal)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI,
+                                                    ),
+                                                  )
+                                                : FileImage(
+                                                    File(asyncSnapshot.data!)),
+                                          ),
+                                          borderRadius:
+                                              BorderRadius.circular(50.0),
+                                          border: Border.all(
+                                            color: Color(0xE6000000),
+                                            width: 2.0,
+                                          ),
+                                        ),
+                                      );
+                                    }),
                                 Padding(
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0.0, 12.0, 0.0, 0.0),
@@ -350,40 +374,47 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                   CrossAxisAlignment
                                                                       .start,
                                                               children: [
-                                                                Container(
-                                                                  width: 36.0,
-                                                                  height: 36.0,
-                                                                  decoration:
-                                                                      BoxDecoration(
-                                                                    image:
-                                                                        DecorationImage(
-                                                                      fit: BoxFit
-                                                                          .cover,
-                                                                      image:
-                                                                          AssetImage(
-                                                                        genuineSynapseLocus()
-                                                                            .necronomiconHealingComfortU
-                                                                            .where((e) =>
-                                                                                e.loFiSoulmatesComfortT ==
-                                                                                feelingConvergencePointItem.empatheticVoiceCorner)
-                                                                            .toList()
-                                                                            .firstOrNull!
-                                                                            .neuralLaceConfessionsI,
-                                                                      ),
-                                                                    ),
-                                                                    borderRadius:
-                                                                        BorderRadius.circular(
-                                                                            30.0),
-                                                                    border:
-                                                                        Border
-                                                                            .all(
-                                                                      color: Color(
-                                                                          0xFFFF7A19),
-                                                                      width:
-                                                                          1.0,
-                                                                    ),
-                                                                  ),
-                                                                ),
+                                                                FutureBuilder(
+                                                                    future: MoodKinTenderUnderstanding
+                                                                        .MoodKinReflectiveListener(
+                                                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                                    builder:
+                                                                        (context,
+                                                                            asyncSnapshot) {
+                                                                      if (!asyncSnapshot
+                                                                          .hasData)
+                                                                        return const SizedBox();
+                                                                      return Container(
+                                                                        width:
+                                                                            36.0,
+                                                                        height:
+                                                                            36.0,
+                                                                        decoration:
+                                                                            BoxDecoration(
+                                                                          image:
+                                                                              DecorationImage(
+                                                                            fit:
+                                                                                BoxFit.cover,
+                                                                            image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI.contains('/')
+                                                                                ? FileImage(
+                                                                                    File(
+                                                                                      genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == feelingConvergencePointItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                    ),
+                                                                                  )
+                                                                                : FileImage(File(asyncSnapshot.data!)),
+                                                                          ),
+                                                                          borderRadius:
+                                                                              BorderRadius.circular(30.0),
+                                                                          border:
+                                                                              Border.all(
+                                                                            color:
+                                                                                Color(0xFFFF7A19),
+                                                                            width:
+                                                                                1.0,
+                                                                          ),
+                                                                        ),
+                                                                      );
+                                                                    }),
                                                                 Expanded(
                                                                   child:
                                                                       Padding(
@@ -439,30 +470,35 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                                                     ),
                                                                   ),
                                                                 ),
-                                                                Container(
-                                                                  width: 40.0,
-                                                                  height: 40.0,
-                                                                  decoration:
-                                                                      BoxDecoration(
-                                                                    image:
-                                                                        DecorationImage(
-                                                                      fit: BoxFit
-                                                                          .cover,
-                                                                      image:
-                                                                          AssetImage(
-                                                                        genuineSynapseLocus()
-                                                                            .piedPiperSoulsebeardWhiImgasBP
-                                                                            .where((e) =>
-                                                                                e.mutantConfessions ==
-                                                                                feelingConvergencePointItem.genuineSharingCorner)
-                                                                            .toList()
-                                                                            .firstOrNull!
-                                                                            .dustStormSoulsgasMaskBonim
-                                                                            .firstOrNull!,
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                ),
+                                                                FutureBuilder(
+                                                                    future: MoodKinTenderUnderstanding
+                                                                        .MoodKinReflectiveListener(
+                                                                            '${genuineSynapseLocus().piedPiperSoulsebeardWhiImgasBP.where((e) => e.mutantConfessions == feelingConvergencePointItem.genuineSharingCorner).toList().firstOrNull!.dustStormSoulsgasMaskBonim.firstOrNull!}'),
+                                                                    builder:
+                                                                        (context,
+                                                                            asyncSnapshot) {
+                                                                      if (!asyncSnapshot
+                                                                          .hasData)
+                                                                        return const SizedBox();
+                                                                      return Container(
+                                                                        width:
+                                                                            40.0,
+                                                                        height:
+                                                                            40.0,
+                                                                        decoration:
+                                                                            BoxDecoration(
+                                                                          image: DecorationImage(
+                                                                              fit: BoxFit.cover,
+                                                                              image: genuineSynapseLocus().piedPiperSoulsebeardWhiImgasBP.where((e) => e.mutantConfessions == feelingConvergencePointItem.genuineSharingCorner).toList().firstOrNull!.dustStormSoulsgasMaskBonim.firstOrNull!.contains('/')
+                                                                                  ? FileImage(
+                                                                                      File(
+                                                                                        genuineSynapseLocus().piedPiperSoulsebeardWhiImgasBP.where((e) => e.mutantConfessions == feelingConvergencePointItem.genuineSharingCorner).toList().firstOrNull!.dustStormSoulsgasMaskBonim.firstOrNull!,
+                                                                                      ),
+                                                                                    )
+                                                                                  : FileImage(File(asyncSnapshot.data!))),
+                                                                        ),
+                                                                      );
+                                                                    }),
                                                               ],
                                                             ),
                                                           ),
@@ -575,26 +611,45 @@ class _KaleidoHealingkaleidoHealingWidgetState
                                               Align(
                                                 alignment: AlignmentDirectional(
                                                     0.0, 1.0),
-                                                child: Container(
-                                                  width: double.infinity,
-                                                  height: 253.0,
-                                                  decoration: BoxDecoration(
-                                                    image: DecorationImage(
-                                                      fit: BoxFit.cover,
-                                                      image: AssetImage(
-                                                        feelingConvergencePointItem
-                                                            .brinePoolSolacenSongTearsI
-                                                            .firstOrNull!,
+                                                child: FutureBuilder(
+                                                   future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${  feelingConvergencePointItem
+                                                                .brinePoolSolacenSongTearsI
+                                                                .firstOrNull!}'),      
+                                                  builder: (context, asyncSnapshot) {
+                                                    if (!asyncSnapshot .hasData)  return const SizedBox();     
+                                                    return Container(
+                                                      width: double.infinity,
+                                                      height: 253.0,
+                                                      decoration: BoxDecoration(
+                                                        image: DecorationImage(
+                                                          fit: BoxFit.cover,
+                                                          image:  feelingConvergencePointItem
+                                                                .brinePoolSolacenSongTearsI
+                                                                .firstOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          feelingConvergencePointItem
+                                                                .brinePoolSolacenSongTearsI
+                                                                .firstOrNull!,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                        ),
+                                                        borderRadius:
+                                                            BorderRadius.circular(
+                                                                16.0),
+                                                        border: Border.all(
+                                                          color: Color(0xFFFF7A19),
+                                                          width: 2.0,
+                                                        ),
                                                       ),
-                                                    ),
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            16.0),
-                                                    border: Border.all(
-                                                      color: Color(0xFFFF7A19),
-                                                      width: 2.0,
-                                                    ),
-                                                  ),
+                                                    );
+                                                  }
                                                 ),
                                               ),
                                               Align(

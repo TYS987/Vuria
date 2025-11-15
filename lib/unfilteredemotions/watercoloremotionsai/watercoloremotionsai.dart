@@ -206,27 +206,58 @@ class _WatercolorEmotionsAiWidgetState
                                         crossAxisAlignment:
                                             CrossAxisAlignment.start,
                                         children: [
-                                          Container(
-                                            width: 50,
-                                            height: 50,
-                                            decoration: BoxDecoration(
-                                              image: DecorationImage(
-                                                fit: BoxFit.cover,
-                                                image: AssetImage(
-                                                  genuineSynapseLocus()
-                                                      .necronomiconHealingComfortU
-                                                      .where((e) =>
-                                                          e.loFiSoulmatesComfortT ==
-                                                          wildWestWhatsappnselingItem
-                                                              .authenticInteractionLounge)
-                                                      .toList()
-                                                      .firstOrNull!
-                                                      .neuralLaceConfessionsI,
+                                          FutureBuilder(
+                                                       future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              wildWestWhatsappnselingItem
+                                                                  .authenticInteractionLounge)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI}'),   
+                                            builder: (context, asyncSnapshot) {
+                                              if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                              return Container(
+                                                width: 50,
+                                                height: 50,
+                                                decoration: BoxDecoration(
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image:genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              wildWestWhatsappnselingItem
+                                                                  .authenticInteractionLounge)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              wildWestWhatsappnselingItem
+                                                                  .authenticInteractionLounge)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(50.0),
                                                 ),
-                                              ),
-                                              borderRadius:
-                                                  BorderRadius.circular(50.0),
-                                            ),
+                                              );
+                                            }
                                           ),
                                           Flexible(
                                             child: Padding(
@@ -314,27 +345,58 @@ class _WatercolorEmotionsAiWidgetState
                                               ),
                                             ),
                                           ),
-                                          Container(
-                                            width: 50,
-                                            height: 50,
-                                            decoration: BoxDecoration(
-                                              image: DecorationImage(
-                                                fit: BoxFit.cover,
-                                                image: AssetImage(
-                                                  genuineSynapseLocus()
-                                                      .necronomiconHealingComfortU
-                                                      .where((e) =>
-                                                          e.loFiSoulmatesComfortT ==
-                                                          wildWestWhatsappnselingItem
-                                                              .authenticInteractionLounge)
-                                                      .toList()
-                                                      .firstOrNull!
-                                                      .neuralLaceConfessionsI,
+                                          FutureBuilder(
+                                                 future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              wildWestWhatsappnselingItem
+                                                                  .authenticInteractionLounge)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI}'),     
+                                            builder: (context, asyncSnapshot) {
+                                              if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                              return Container(
+                                                width: 50,
+                                                height: 50,
+                                                decoration: BoxDecoration(
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image:genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              wildWestWhatsappnselingItem
+                                                                  .authenticInteractionLounge)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                         genuineSynapseLocus()
+                                                          .necronomiconHealingComfortU
+                                                          .where((e) =>
+                                                              e.loFiSoulmatesComfortT ==
+                                                              wildWestWhatsappnselingItem
+                                                                  .authenticInteractionLounge)
+                                                          .toList()
+                                                          .firstOrNull!
+                                                          .neuralLaceConfessionsI
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(50.0),
                                                 ),
-                                              ),
-                                              borderRadius:
-                                                  BorderRadius.circular(50.0),
-                                            ),
+                                              );
+                                            }
                                           ),
                                         ],
                                       );

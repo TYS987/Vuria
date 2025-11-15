@@ -78,32 +78,56 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                       Align(
                                         alignment:
                                             AlignmentDirectional(0.0, -1.0),
-                                        child: Container(
-                                          width: 74.0,
-                                          height: 74.0,
-                                          decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: AssetImage(
-                                                genuineSynapseLocus()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        genuineSynapseLocus()
-                                                            .emotionalSupportT)
-                                                    .toList()
-                                                    .firstOrNull!
-                                                    .neuralLaceConfessionsI,
-                                              ),
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(50.0),
-                                            border: Border.all(
-                                              color: Color(0xE6000000),
-                                              width: 2.0,
-                                            ),
-                                          ),
-                                        ),
+                                        child: FutureBuilder(
+                                            future: MoodKinTenderUnderstanding
+                                                .MoodKinReflectiveListener(
+                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == genuineSynapseLocus().emotionalSupportT).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                            builder: (context, asyncSnapshot) {
+                                              if (!asyncSnapshot.hasData)
+                                                return const SizedBox();
+                                              return Container(
+                                                width: 74.0,
+                                                height: 74.0,
+                                                decoration: BoxDecoration(
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image: genuineSynapseLocus()
+                                                            .necronomiconHealingComfortU
+                                                            .where((e) =>
+                                                                e.loFiSoulmatesComfortT ==
+                                                                genuineSynapseLocus()
+                                                                    .emotionalSupportT)
+                                                            .toList()
+                                                            .firstOrNull!
+                                                            .neuralLaceConfessionsI
+                                                            .contains('/')
+                                                        ? FileImage(
+                                                            File(
+                                                              genuineSynapseLocus()
+                                                                  .necronomiconHealingComfortU
+                                                                  .where((e) =>
+                                                                      e.loFiSoulmatesComfortT ==
+                                                                      genuineSynapseLocus()
+                                                                          .emotionalSupportT)
+                                                                  .toList()
+                                                                  .firstOrNull!
+                                                                  .neuralLaceConfessionsI,
+                                                            ),
+                                                          )
+                                                        : FileImage(File(
+                                                            asyncSnapshot
+                                                                .data!)),
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(
+                                                          50.0),
+                                                  border: Border.all(
+                                                    color: Color(0xE6000000),
+                                                    width: 2.0,
+                                                  ),
+                                                ),
+                                              );
+                                            }),
                                       ),
                                       Align(
                                         alignment:
@@ -518,166 +542,202 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                     CrossAxisAlignment.start,
                                                 children: [
                                                   FutureBuilder(
-                                                  future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('prismLoneliness.png'),     
-                                                    builder: (context, asyncSnapshot) {
-                                                      if (!asyncSnapshot.hasData) return const SizedBox();     
-                                                      return Container(
-                                                        width: 193.0,
-                                                        height: 95.0,
-                                                        decoration: BoxDecoration(
-                                                          image: DecorationImage(
-                                                            fit: BoxFit.contain,
-                                                          image: FileImage(File(asyncSnapshot.data!)),
+                                                      future: MoodKinTenderUnderstanding
+                                                          .MoodKinReflectiveListener(
+                                                              'prismLoneliness.png'),
+                                                      builder: (context,
+                                                          asyncSnapshot) {
+                                                        if (!asyncSnapshot
+                                                            .hasData)
+                                                          return const SizedBox();
+                                                        return Container(
+                                                          width: 193.0,
+                                                          height: 95.0,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            image:
+                                                                DecorationImage(
+                                                              fit: BoxFit
+                                                                  .contain,
+                                                              image: FileImage(File(
+                                                                  asyncSnapshot
+                                                                      .data!)),
+                                                            ),
                                                           ),
-                                                        ),
-                                                        child: Padding(
-                                                          padding:
-                                                              EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      17.0,
-                                                                      8.0,
-                                                                      17.0,
-                                                                      0.0),
-                                                          child: Row(
-                                                            mainAxisSize:
-                                                                MainAxisSize.max,
-                                                            mainAxisAlignment:
-                                                                MainAxisAlignment
-                                                                    .start,
-                                                            crossAxisAlignment:
-                                                                CrossAxisAlignment
-                                                                    .start,
-                                                            children: [
-                                                              Container(
-                                                                width: 36.0,
-                                                                height: 36.0,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  image:
-                                                                      DecorationImage(
-                                                                    fit: BoxFit
-                                                                        .cover,
-                                                                    image:
-                                                                        AssetImage(
-                                                                      genuineSynapseLocus()
-                                                                          .necronomiconHealingComfortU
-                                                                          .where((e) =>
-                                                                              e.loFiSoulmatesComfortT ==
-                                                                              soulfulDialoguePodItem
-                                                                                  .empatheticVoiceCorner)
-                                                                          .toList()
-                                                                          .firstOrNull!
-                                                                          .neuralLaceConfessionsI,
+                                                          child: Padding(
+                                                            padding:
+                                                                EdgeInsetsDirectional
+                                                                    .fromSTEB(
+                                                                        17.0,
+                                                                        8.0,
+                                                                        17.0,
+                                                                        0.0),
+                                                            child: Row(
+                                                              mainAxisSize:
+                                                                  MainAxisSize
+                                                                      .max,
+                                                              mainAxisAlignment:
+                                                                  MainAxisAlignment
+                                                                      .start,
+                                                              crossAxisAlignment:
+                                                                  CrossAxisAlignment
+                                                                      .start,
+                                                              children: [
+                                                                FutureBuilder(
+                                                                    future: MoodKinTenderUnderstanding
+                                                                        .MoodKinReflectiveListener(
+                                                                            '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == soulfulDialoguePodItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                                    builder:
+                                                                        (context,
+                                                                            asyncSnapshot) {
+                                                                      if (!asyncSnapshot
+                                                                          .hasData)
+                                                                        return const SizedBox();
+                                                                      return Container(
+                                                                        width:
+                                                                            36.0,
+                                                                        height:
+                                                                            36.0,
+                                                                        decoration:
+                                                                            BoxDecoration(
+                                                                          image:
+                                                                              DecorationImage(
+                                                                            fit:
+                                                                                BoxFit.cover,
+                                                                            image: genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == soulfulDialoguePodItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI.contains('/')
+                                                                                ? FileImage(
+                                                                                    File(
+                                                                                      genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == soulfulDialoguePodItem.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                                    ),
+                                                                                  )
+                                                                                : FileImage(File(asyncSnapshot.data!)),
+                                                                          ),
+                                                                          borderRadius:
+                                                                              BorderRadius.circular(30.0),
+                                                                          border:
+                                                                              Border.all(
+                                                                            color:
+                                                                                Color(0xFFFF7A19),
+                                                                            width:
+                                                                                1.0,
+                                                                          ),
+                                                                        ),
+                                                                      );
+                                                                    }),
+                                                                Expanded(
+                                                                  child:
+                                                                      Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            10.0,
+                                                                            5.0,
+                                                                            0.0,
+                                                                            0.0),
+                                                                    child:
+                                                                        Column(
+                                                                      mainAxisSize:
+                                                                          MainAxisSize
+                                                                              .max,
+                                                                      crossAxisAlignment:
+                                                                          CrossAxisAlignment
+                                                                              .start,
+                                                                      children: [
+                                                                        Text(
+                                                                          genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == soulfulDialoguePodItem.empatheticVoiceCorner).toList().firstOrNull?.phoenixTearsTherapyN ??
+                                                                              '${'5c5494e05df10953d459abecdd3b66a1'.fromPetalWhisper()}',
+                                                                          style:
+                                                                              TextStyle(
+                                                                            fontFamily:
+                                                                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                            color:
+                                                                                Color(0xE6000000),
+                                                                            letterSpacing:
+                                                                                0.0,
+                                                                            fontWeight:
+                                                                                FontWeight.bold,
+                                                                          ),
+                                                                        ),
+                                                                        Text(
+                                                                          DateFormat('${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}')
+                                                                              .format(soulfulDialoguePodItem.heartfeltInteractionCorner!),
+                                                                          style:
+                                                                              TextStyle(
+                                                                            fontFamily:
+                                                                                '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
+                                                                            color:
+                                                                                Color(0xB3000000),
+                                                                            fontSize:
+                                                                                10.0,
+                                                                            letterSpacing:
+                                                                                0.0,
+                                                                            fontWeight:
+                                                                                FontWeight.w500,
+                                                                          ),
+                                                                        ),
+                                                                      ],
                                                                     ),
                                                                   ),
-                                                                  borderRadius:
-                                                                      BorderRadius
-                                                                          .circular(
-                                                                              30.0),
-                                                                  border:
-                                                                      Border.all(
-                                                                    color: Color(
-                                                                        0xFFFF7A19),
-                                                                    width: 1.0,
-                                                                  ),
                                                                 ),
-                                                              ),
-                                                              Expanded(
-                                                                child: Padding(
-                                                                  padding:
-                                                                      EdgeInsetsDirectional
-                                                                          .fromSTEB(
-                                                                              10.0,
-                                                                              5.0,
-                                                                              0.0,
-                                                                              0.0),
-                                                                  child: Column(
-                                                                    mainAxisSize:
-                                                                        MainAxisSize
-                                                                            .max,
-                                                                    crossAxisAlignment:
-                                                                        CrossAxisAlignment
-                                                                            .start,
-                                                                    children: [
-                                                                      Text(
-                                                                        genuineSynapseLocus()
-                                                                                .necronomiconHealingComfortU
+                                                                FutureBuilder(
+                                                                      future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${genuineSynapseLocus()
+                                                                                .piedPiperSoulsebeardWhiImgasBP
                                                                                 .where((e) =>
-                                                                                    e.loFiSoulmatesComfortT ==
-                                                                                    soulfulDialoguePodItem.empatheticVoiceCorner)
+                                                                                    e.mutantConfessions ==
+                                                                                    soulfulDialoguePodItem.genuineSharingCorner)
                                                                                 .toList()
-                                                                                .firstOrNull
-                                                                                ?.phoenixTearsTherapyN ??
-                                                                            '${'5c5494e05df10953d459abecdd3b66a1'.fromPetalWhisper()}',
-                                                                        style:
-                                                                            TextStyle(
-                                                                          fontFamily:
-                                                                              '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                          color: Color(
-                                                                              0xE6000000),
-                                                                          letterSpacing:
-                                                                              0.0,
-                                                                          fontWeight:
-                                                                              FontWeight
-                                                                                  .bold,
+                                                                                .firstOrNull!
+                                                                                .dustStormSoulsgasMaskBonim
+                                                                                .firstOrNull}'),    
+                                                                  builder: (context, asyncSnapshot) {
+                                                                    if (!asyncSnapshot .hasData)  return const SizedBox();       
+                                                                    return Container(
+                                                                      width: 40.0,
+                                                                      height: 40.0,
+                                                                      decoration:
+                                                                          BoxDecoration(
+                                                                        image:
+                                                                            DecorationImage(
+                                                                          fit: BoxFit
+                                                                              .cover,
+                                                                          image:
+                                                                             genuineSynapseLocus()
+                                                                                .piedPiperSoulsebeardWhiImgasBP
+                                                                                .where((e) =>
+                                                                                    e.mutantConfessions ==
+                                                                                    soulfulDialoguePodItem.genuineSharingCorner)
+                                                                                .toList()
+                                                                                .firstOrNull!
+                                                                                .dustStormSoulsgasMaskBonim
+                                                                                .firstOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          genuineSynapseLocus()
+                                                                                .piedPiperSoulsebeardWhiImgasBP
+                                                                                .where((e) =>
+                                                                                    e.mutantConfessions ==
+                                                                                    soulfulDialoguePodItem.genuineSharingCorner)
+                                                                                .toList()
+                                                                                .firstOrNull!
+                                                                                .dustStormSoulsgasMaskBonim
+                                                                                .firstOrNull!,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
                                                                         ),
                                                                       ),
-                                                                      Text(
-                                                                        DateFormat(
-                                                                                '${'96ca5cadd0b84f03e01e317283a47308'.fromPetalWhisper()}')
-                                                                            .format(
-                                                                                soulfulDialoguePodItem.heartfeltInteractionCorner!),
-                                                                        style:
-                                                                            TextStyle(
-                                                                          fontFamily:
-                                                                              '${'0c4769f195603385ed1400179bc9da73'.fromPetalWhisper()}',
-                                                                          color: Color(
-                                                                              0xB3000000),
-                                                                          fontSize:
-                                                                              10.0,
-                                                                          letterSpacing:
-                                                                              0.0,
-                                                                          fontWeight:
-                                                                              FontWeight
-                                                                                  .w500,
-                                                                        ),
-                                                                      ),
-                                                                    ],
-                                                                  ),
+                                                                    );
+                                                                  }
                                                                 ),
-                                                              ),
-                                                              Container(
-                                                                width: 40.0,
-                                                                height: 40.0,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  image:
-                                                                      DecorationImage(
-                                                                    fit: BoxFit
-                                                                        .cover,
-                                                                    image:
-                                                                        AssetImage(
-                                                                      genuineSynapseLocus()
-                                                                          .piedPiperSoulsebeardWhiImgasBP
-                                                                          .where((e) =>
-                                                                              e.mutantConfessions ==
-                                                                              soulfulDialoguePodItem
-                                                                                  .genuineSharingCorner)
-                                                                          .toList()
-                                                                          .firstOrNull!
-                                                                          .dustStormSoulsgasMaskBonim
-                                                                          .firstOrNull!,
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ],
+                                                              ],
+                                                            ),
                                                           ),
-                                                        ),
-                                                      );
-                                                    }
-                                                  ),
+                                                        );
+                                                      }),
                                                   InkWell(
                                                     splashColor:
                                                         Colors.transparent,
@@ -695,48 +755,75 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                                           .update(() {});
                                                     },
                                                     child: FutureBuilder(
-                                                     future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('chlorophyllComfort.png'),     
-                                                      builder: (context, asyncSnapshot) {
-                                                        if (!asyncSnapshot.hasData) return const SizedBox();   
-                                                        return Container(
-                                                          width: 48.0,
-                                                          height: 48.0,
-                                                          decoration: BoxDecoration(
-                                                            image: DecorationImage(
-                                                              fit: BoxFit.cover,
-                                                              image: FileImage(File(asyncSnapshot.data!)),
+                                                        future: MoodKinTenderUnderstanding
+                                                            .MoodKinReflectiveListener(
+                                                                'chlorophyllComfort.png'),
+                                                        builder: (context,
+                                                            asyncSnapshot) {
+                                                          if (!asyncSnapshot
+                                                              .hasData)
+                                                            return const SizedBox();
+                                                          return Container(
+                                                            width: 48.0,
+                                                            height: 48.0,
+                                                            decoration:
+                                                                BoxDecoration(
+                                                              image:
+                                                                  DecorationImage(
+                                                                fit: BoxFit
+                                                                    .cover,
+                                                                image: FileImage(File(
+                                                                    asyncSnapshot
+                                                                        .data!)),
+                                                              ),
                                                             ),
-                                                          ),
-                                                        );
-                                                      }
-                                                    ),
+                                                          );
+                                                        }),
                                                   ),
                                                 ],
                                               ),
                                               Align(
                                                 alignment: AlignmentDirectional(
                                                     0.0, 1.0),
-                                                child: Container(
-                                                  width: double.infinity,
-                                                  height: 253.0,
-                                                  decoration: BoxDecoration(
-                                                    image: DecorationImage(
-                                                      fit: BoxFit.cover,
-                                                      image: AssetImage(
-                                                        soulfulDialoguePodItem
-                                                            .brinePoolSolacenSongTearsI
-                                                            .firstOrNull!,
+                                                child: FutureBuilder(
+                                                    future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ soulfulDialoguePodItem
+                                                                .brinePoolSolacenSongTearsI
+                                                                .firstOrNull!}'),       
+                                                  builder: (context, asyncSnapshot) {
+                                                    if (!asyncSnapshot .hasData)  return const SizedBox();     
+                                                    return Container(
+                                                      width: double.infinity,
+                                                      height: 253.0,
+                                                      decoration: BoxDecoration(
+                                                        image: DecorationImage(
+                                                          fit: BoxFit.cover,
+                                                          image:soulfulDialoguePodItem
+                                                                .brinePoolSolacenSongTearsI
+                                                                .firstOrNull!
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          soulfulDialoguePodItem
+                                                                .brinePoolSolacenSongTearsI
+                                                                .firstOrNull!
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                        ),
+                                                        borderRadius:
+                                                            BorderRadius.circular(
+                                                                16.0),
+                                                        border: Border.all(
+                                                          color: Color(0xFFFF7A19),
+                                                          width: 2.0,
+                                                        ),
                                                       ),
-                                                    ),
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            16.0),
-                                                    border: Border.all(
-                                                      color: Color(0xFFFF7A19),
-                                                      width: 2.0,
-                                                    ),
-                                                  ),
+                                                    );
+                                                  }
                                                 ),
                                               ),
                                               Align(
@@ -811,22 +898,24 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             FutureBuilder(
-                              future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('harmonyHaiktronicPulse.png'),    
-                              builder: (context, asyncSnapshot) {
-                                if (!asyncSnapshot.hasData) return const SizedBox();  
-                                return Container(
-                                  width: 48,
-                                  height: 30,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      fit: BoxFit.contain,
-                              image: FileImage(File(asyncSnapshot.data!)),
+                                future: MoodKinTenderUnderstanding
+                                    .MoodKinReflectiveListener(
+                                        'harmonyHaiktronicPulse.png'),
+                                builder: (context, asyncSnapshot) {
+                                  if (!asyncSnapshot.hasData)
+                                    return const SizedBox();
+                                  return Container(
+                                    width: 48,
+                                    height: 30,
+                                    decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        fit: BoxFit.contain,
+                                        image: FileImage(
+                                            File(asyncSnapshot.data!)),
+                                      ),
                                     ),
-                                  ),
-                                );
-                              }
-                            ),
+                                  );
+                                }),
                             InkWell(
                               splashColor: Colors.transparent,
                               focusColor: Colors.transparent,
@@ -837,22 +926,24 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                                     '${'d0831261d414a358de3d17fbeaefcdf3903cf95a8020faabd828a96557775b66'.fromPetalWhisper()}');
                               },
                               child: FutureBuilder(
-                                future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('feelingRockAnthemnicPulse.png'),    
-                                builder: (context, asyncSnapshot) {
-                                  if (!asyncSnapshot.hasData) return const SizedBox();     
-                                  return Container(
-                                    width: 40.0,
-                                    height: 40.0,
-                                    decoration: BoxDecoration(
-                                      image: DecorationImage(
-                                        fit: BoxFit.cover,
-                                      image: FileImage(File(asyncSnapshot.data!)),
+                                  future: MoodKinTenderUnderstanding
+                                      .MoodKinReflectiveListener(
+                                          'feelingRockAnthemnicPulse.png'),
+                                  builder: (context, asyncSnapshot) {
+                                    if (!asyncSnapshot.hasData)
+                                      return const SizedBox();
+                                    return Container(
+                                      width: 40.0,
+                                      height: 40.0,
+                                      decoration: BoxDecoration(
+                                        image: DecorationImage(
+                                          fit: BoxFit.cover,
+                                          image: FileImage(
+                                              File(asyncSnapshot.data!)),
+                                        ),
                                       ),
-                                    ),
-                                  );
-                                }
-                              ),
+                                    );
+                                  }),
                             ),
                           ],
                         ),
@@ -860,22 +951,23 @@ class _HoneycombUnderstandWidgetState extends State<HoneycombUnderstandWidget> {
                       Align(
                         alignment: AlignmentDirectional(0.0, 1.0),
                         child: FutureBuilder(
-                           future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('fractalEmotion.png'),   
-                          builder: (context, asyncSnapshot) {
-                            if (!asyncSnapshot.hasData) return const SizedBox();   
-                            return Container(
-                              width: double.infinity,
-                              height: 34.0,
-                              decoration: BoxDecoration(
-                                image: DecorationImage(
-                                  fit: BoxFit.cover,
-                               image: FileImage(File(asyncSnapshot.data!)),
+                            future: MoodKinTenderUnderstanding
+                                .MoodKinReflectiveListener(
+                                    'fractalEmotion.png'),
+                            builder: (context, asyncSnapshot) {
+                              if (!asyncSnapshot.hasData)
+                                return const SizedBox();
+                              return Container(
+                                width: double.infinity,
+                                height: 34.0,
+                                decoration: BoxDecoration(
+                                  image: DecorationImage(
+                                    fit: BoxFit.cover,
+                                    image: FileImage(File(asyncSnapshot.data!)),
+                                  ),
                                 ),
-                              ),
-                            );
-                          }
-                        ),
+                              );
+                            }),
                       ),
                       Align(
                         alignment: AlignmentDirectional(0.0, 1.0),

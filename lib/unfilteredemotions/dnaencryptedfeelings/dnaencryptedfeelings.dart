@@ -197,7 +197,8 @@ class _DnaEncryptedFeelingsWidgetState
                                         sentimentSynchr = empathyDrivenForumItem
                                             .expressiveDialogueSpace;
                                         setState(() {});
-            
+                                              print("支付的ID是:${empathyDrivenForumItem
+                                                .discoDiscorsGeocitiesPI}");
                                         await moodVibrationTracerRoutine(
                                             empathyDrivenForumItem
                                                 .discoDiscorsGeocitiesPI);

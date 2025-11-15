@@ -156,35 +156,64 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                             },
                                           );
                                         },
-                                        child: Container(
-                                          width: 40,
-                                          height: 40,
-                                          decoration: BoxDecoration(
-                                            image: DecorationImage(
-                                              fit: BoxFit.cover,
-                                              image: AssetImage(
-                                                genuineSynapseLocus()
-                                                    .necronomiconHealingComfortU
-                                                    .where((e) =>
-                                                        e.loFiSoulmatesComfortT ==
-                                                        genuineSynapseLocus()
-                                                            .looperTearscitorSolaceD
+                                        child: FutureBuilder(
+                                            future: MoodKinTenderUnderstanding
+                                                .MoodKinReflectiveListener(
+                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == genuineSynapseLocus().looperTearscitorSolaceD.where((e) => e.friendshipResonanceSpot == widget.soulConnectionMatrix).toList().firstOrNull?.empatheticVoiceCorner).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                            builder: (context, asyncSnapshot) {
+                                              if (!asyncSnapshot.hasData)
+                                                return const SizedBox();
+                                              return Container(
+                                                width: 40,
+                                                height: 40,
+                                                decoration: BoxDecoration(
+                                                  image: DecorationImage(
+                                                    fit: BoxFit.cover,
+                                                    image: genuineSynapseLocus()
+                                                            .necronomiconHealingComfortU
                                                             .where((e) =>
-                                                                e.friendshipResonanceSpot ==
-                                                                widget
-                                                                    .soulConnectionMatrix)
+                                                                e.loFiSoulmatesComfortT ==
+                                                                genuineSynapseLocus()
+                                                                    .looperTearscitorSolaceD
+                                                                    .where((e) =>
+                                                                        e.friendshipResonanceSpot ==
+                                                                        widget
+                                                                            .soulConnectionMatrix)
+                                                                    .toList()
+                                                                    .firstOrNull
+                                                                    ?.empatheticVoiceCorner)
                                                             .toList()
-                                                            .firstOrNull
-                                                            ?.empatheticVoiceCorner)
-                                                    .toList()
-                                                    .firstOrNull!
-                                                    .neuralLaceConfessionsI,
-                                              ),
-                                            ),
-                                            borderRadius:
-                                                BorderRadius.circular(40),
-                                          ),
-                                        ),
+                                                            .firstOrNull!
+                                                            .neuralLaceConfessionsI
+                                                            .contains('/')
+                                                        ? FileImage(
+                                                            File(
+                                                              genuineSynapseLocus()
+                                                                  .necronomiconHealingComfortU
+                                                                  .where((e) =>
+                                                                      e.loFiSoulmatesComfortT ==
+                                                                      genuineSynapseLocus()
+                                                                          .looperTearscitorSolaceD
+                                                                          .where((e) =>
+                                                                              e.friendshipResonanceSpot ==
+                                                                              widget.soulConnectionMatrix)
+                                                                          .toList()
+                                                                          .firstOrNull
+                                                                          ?.empatheticVoiceCorner)
+                                                                  .toList()
+                                                                  .firstOrNull!
+                                                                  .neuralLaceConfessionsI,
+                                                            ),
+                                                          )
+                                                        : FileImage(File(
+                                                            asyncSnapshot
+                                                                .data!)),
+                                                  ),
+                                                  borderRadius:
+                                                      BorderRadius.circular(40),
+                                                ),
+                                              );
+                                            }),
                                       ),
                                       Padding(
                                         padding: EdgeInsetsDirectional.fromSTEB(
@@ -359,27 +388,42 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                           final shareEmotionalWaveItem =
                                                               shareEmotionalWave[
                                                                   shareEmotionalWaveIndex];
-                                                          return Container(
-                                                            width:
-                                                                double.infinity,
-                                                            height:
-                                                                double.infinity,
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              image:
-                                                                  DecorationImage(
-                                                                fit: BoxFit
-                                                                    .cover,
-                                                                image:
-                                                                    AssetImage(
-                                                                  shareEmotionalWaveItem,
+                                                          return FutureBuilder(
+                                                                      future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('${ shareEmotionalWaveItem}'),       
+                                                            builder: (context, asyncSnapshot) {
+                                                              if (!asyncSnapshot .hasData)  return const SizedBox();  
+                                                              return Container(
+                                                                width:
+                                                                    double.infinity,
+                                                                height:
+                                                                    double.infinity,
+                                                                decoration:
+                                                                    BoxDecoration(
+                                                                  image:
+                                                                      DecorationImage(
+                                                                    fit: BoxFit
+                                                                        .cover,
+                                                                    image:
+                                                                     shareEmotionalWaveItem
+                                                                        .contains(
+                                                                            '/')
+                                                                    ? FileImage(
+                                                                        File(
+                                                                          shareEmotionalWaveItem,
+                                                                        ),
+                                                                      )
+                                                                    : FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!))
+                                                                  ),
+                                                                  borderRadius:
+                                                                      BorderRadius
+                                                                          .circular(
+                                                                              16),
                                                                 ),
-                                                              ),
-                                                              borderRadius:
-                                                                  BorderRadius
-                                                                      .circular(
-                                                                          16),
-                                                            ),
+                                                              );
+                                                            }
                                                           );
                                                         },
                                                       ),
@@ -610,32 +654,47 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                             EdgeInsetsDirectional
                                                                 .fromSTEB(
                                                                     0, 0, 8, 0),
-                                                        child: Container(
-                                                          width: 28,
-                                                          height: 28,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            image:
-                                                                DecorationImage(
-                                                              fit: BoxFit.cover,
-                                                              image: AssetImage(
-                                                                genuineSynapseLocus()
-                                                                    .necronomiconHealingComfortU
-                                                                    .where((e) =>
-                                                                        e.loFiSoulmatesComfortT ==
-                                                                        sorrowSharedSanctuaryItem
-                                                                            .friendshipBondingPortal)
-                                                                    .toList()
-                                                                    .firstOrNull!
-                                                                    .neuralLaceConfessionsI,
-                                                              ),
-                                                            ),
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        16),
-                                                          ),
-                                                        ),
+                                                        child: FutureBuilder(
+                                                            future: MoodKinTenderUnderstanding
+                                                                .MoodKinReflectiveListener(
+                                                                    '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == sorrowSharedSanctuaryItem.friendshipBondingPortal).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                                            builder: (context,
+                                                                asyncSnapshot) {
+                                                              if (!asyncSnapshot
+                                                                  .hasData)
+                                                                return const SizedBox();
+                                                              return Container(
+                                                                width: 28,
+                                                                height: 28,
+                                                                decoration:
+                                                                    BoxDecoration(
+                                                                  image:
+                                                                      DecorationImage(
+                                                                    fit: BoxFit
+                                                                        .cover,
+                                                                    image: genuineSynapseLocus()
+                                                                            .necronomiconHealingComfortU
+                                                                            .where((e) =>
+                                                                                e.loFiSoulmatesComfortT ==
+                                                                                sorrowSharedSanctuaryItem.friendshipBondingPortal)
+                                                                            .toList()
+                                                                            .firstOrNull!
+                                                                            .neuralLaceConfessionsI
+                                                                            .contains('/')
+                                                                        ? FileImage(
+                                                                            File(
+                                                                              genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == sorrowSharedSanctuaryItem.friendshipBondingPortal).toList().firstOrNull!.neuralLaceConfessionsI,
+                                                                            ),
+                                                                          )
+                                                                        : FileImage(File(asyncSnapshot.data!)),
+                                                                  ),
+                                                                  borderRadius:
+                                                                      BorderRadius
+                                                                          .circular(
+                                                                              16),
+                                                                ),
+                                                              );
+                                                            }),
                                                       ),
                                                       Expanded(
                                                         child: Row(
@@ -713,25 +772,23 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                         genuineSynapseLocus()
                                                                             .update(() {});
                                                                       },
-                                                                      child:
-                                                                          Container(
-                                                                        width:
-                                                                            13,
-                                                                        height:
-                                                                            14,
-                                                                        decoration:
-                                                                            BoxDecoration(
-                                                                          image:
-                                                                              DecorationImage(
-                                                                            fit:
-                                                                                BoxFit.cover,
-                                                                            image:
-                                                                                Image.asset(
-                                                                              'assets/images/compassComfort.png',
-                                                                            ).image,
-                                                                          ),
-                                                                        ),
-                                                                      ),
+                                                                      child: FutureBuilder(
+                                                                          future: MoodKinTenderUnderstanding.MoodKinReflectiveListener('compassComfort.png'),
+                                                                          builder: (context, asyncSnapshot) {
+                                                                            if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                                            return Container(
+                                                                              width: 13,
+                                                                              height: 14,
+                                                                              decoration: BoxDecoration(
+                                                                                image: DecorationImage(
+                                                                                  fit: BoxFit.cover,
+                                                                                  image:FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                                                ),
+                                                                              ),
+                                                                            );
+                                                                          }),
                                                                     );
                                                                   } else {
                                                                     return InkWell(
@@ -769,24 +826,31 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                                                         }
                                                                       },
                                                                       child:
-                                                                          Container(
-                                                                        width:
-                                                                            16,
-                                                                        height:
-                                                                            16,
-                                                                        decoration:
-                                                                            BoxDecoration(
-                                                                          image:
-                                                                              DecorationImage(
-                                                                            fit:
-                                                                                BoxFit.cover,
-                                                                            image:
-                                                                                Image.asset(
-                                                                              'assets/images/sentimentPatternRecognizersen.png',
-                                                                            ).image,
+                                                                          FutureBuilder(
+                                                                                future:  MoodKinTenderUnderstanding
+                      .MoodKinReflectiveListener('sentimentPatternRecognizersen.png'),    
+                                                                            builder: (context, asyncSnapshot) {
+                                                                              if (!asyncSnapshot .hasData)  return const SizedBox(); 
+                                                                              return Container(
+                                                                                                                                                      width:
+                                                                                16,
+                                                                                                                                                      height:
+                                                                                16,
+                                                                                                                                                      decoration:
+                                                                                BoxDecoration(
+                                                                              image:
+                                                                                  DecorationImage(
+                                                                                fit:
+                                                                                    BoxFit.cover,
+                                                                                image:
+                                                                                  FileImage(File(
+                                                                        asyncSnapshot
+                                                                            .data!)),
+                                                                              ),
+                                                                                                                                                      ),
+                                                                                                                                                    );
+                                                                            }
                                                                           ),
-                                                                        ),
-                                                                      ),
                                                                     );
                                                                   }
                                                                 },
@@ -949,42 +1013,46 @@ class _ThunderstormPassionWidgetState extends State<ThunderstormPassionWidget> {
                                   },
                                   child: FutureBuilder(
                                       future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('whisperedFeelingsselect.png'),      
-                                    builder: (context, asyncSnapshot) {
-                                      if (!asyncSnapshot.hasData) return const SizedBox();       
-                                      return Container(
-                                        width: 36,
-                                        height: 36,
-                                        decoration: BoxDecoration(
-                                          image: DecorationImage(
-                                            fit: BoxFit.cover,
-                                         image: FileImage(File(asyncSnapshot.data!)),
+                                          .MoodKinReflectiveListener(
+                                              'whisperedFeelingsselect.png'),
+                                      builder: (context, asyncSnapshot) {
+                                        if (!asyncSnapshot.hasData)
+                                          return const SizedBox();
+                                        return Container(
+                                          width: 36,
+                                          height: 36,
+                                          decoration: BoxDecoration(
+                                            image: DecorationImage(
+                                              fit: BoxFit.cover,
+                                              image: FileImage(
+                                                  File(asyncSnapshot.data!)),
+                                            ),
                                           ),
-                                        ),
-                                      );
-                                    }
-                                  ),
+                                        );
+                                      }),
                                 ),
                               ],
                             ),
                           ),
                           FutureBuilder(
                               future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('jigsawSympathy.png'),    
-                            builder: (context, asyncSnapshot) {
-                              if (!asyncSnapshot.hasData) return const SizedBox();   
-                              return Container(
-                                width: double.infinity,
-                                height: 34,
-                                decoration: BoxDecoration(
-                                  image: DecorationImage(
-                                    fit: BoxFit.cover,
-                                  image: FileImage(File(asyncSnapshot.data!)),
+                                  .MoodKinReflectiveListener(
+                                      'jigsawSympathy.png'),
+                              builder: (context, asyncSnapshot) {
+                                if (!asyncSnapshot.hasData)
+                                  return const SizedBox();
+                                return Container(
+                                  width: double.infinity,
+                                  height: 34,
+                                  decoration: BoxDecoration(
+                                    image: DecorationImage(
+                                      fit: BoxFit.cover,
+                                      image:
+                                          FileImage(File(asyncSnapshot.data!)),
+                                    ),
                                   ),
-                                ),
-                              );
-                            }
-                          ),
+                                );
+                              }),
                         ],
                       ),
                     ),

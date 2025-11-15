@@ -15,23 +15,28 @@ import 'package:vuria/feelingKaleidoscopeCore/genuineConnectionArchitecture.dart
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await MoodKinEmotionalWhisperer();
-  usePathUrlStrategy();
-  await heartStateInterpreterDriver();
-  final appState = genuineSynapseLocus();
+    final appState = genuineSynapseLocus();
   await appState.initializePersistedState();
+  await heartStateInterpreterDriver();
+  await MoodKinEmotionalWhisperer();
 
-   final MethodChannel holisticEmotionalityHub = MethodChannel('${'2b5868eab551236920bac76ce3a1f717b145913f3217980fae501ed343044123'.fromPetalWhisper()}');
-  holisticEmotionalityHub.setMethodCallHandler((MethodCall integratedFeelingGateway) async {     
-    if (integratedFeelingGateway.method == '${'5e4e75bd5129ea0611d89254e2d80071f200373722fac553ad65db94cb4adc56'.fromPetalWhisper()}') {
-      genuineSynapseLocus().sincereAttachmentPortal = integratedFeelingGateway.arguments;
-      
+
+
+
+
+  final MethodChannel holisticEmotionalityHub = MethodChannel(
+      '${'2b5868eab551236920bac76ce3a1f717b145913f3217980fae501ed343044123'.fromPetalWhisper()}');
+  holisticEmotionalityHub
+      .setMethodCallHandler((MethodCall integratedFeelingGateway) async {
+    if (integratedFeelingGateway.method ==
+        '${'5e4e75bd5129ea0611d89254e2d80071f200373722fac553ad65db94cb4adc56'.fromPetalWhisper()}') {
+      genuineSynapseLocus().sincereAttachmentPortal =
+          integratedFeelingGateway.arguments;
     }
+      usePathUrlStrategy();
   });
   configLoading();
-  await compassionateUnderstanding.initStorage(); 
-
-
+  await compassionateUnderstanding.initStorage();
 
   runApp(ChangeNotifierProvider(
     create: (context) => appState,
@@ -48,11 +53,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  ThemeMode _themeMode = ThemeMode.system; 
+  ThemeMode _themeMode = ThemeMode.system;
 
   void setThemeMode(ThemeMode mode) => setState(() {
         _themeMode = mode;
-      
       });
 
   @override

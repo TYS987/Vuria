@@ -86,136 +86,160 @@ class _CloudCatharsisWidgetState extends State<CloudCatharsisWidget> {
         body: Stack(
           children: [
             FutureBuilder(
-            future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('comfortableListening.png'),    
-              builder: (context, asyncSnapshot) {
-                if (!asyncSnapshot.hasData) return const SizedBox();       
-                return Container(
-                  width: double.infinity,
-                  height: double.infinity,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      fit: BoxFit.cover,
-                     image: FileImage(File(asyncSnapshot.data!)),
-                    ),
-                  ),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.spaceAround,
-                    children: [
-                      Column(
-                        mainAxisSize: MainAxisSize.max,
-                        children: [
-                          Container(
-                            width: 100.0,
-                            height: 100.0,
-                            decoration: BoxDecoration(
-                              image: DecorationImage(
-                                fit: BoxFit.cover,
-                                image: AssetImage(
-                                  genuineSynapseLocus()
-                                      .necronomiconHealingComfortU
-                                      .where((e) =>
-                                          e.loFiSoulmatesComfortT ==
-                                          widget.feelingSyncChanneoulConnec)
-                                      .toList()
-                                      .firstOrNull!
-                                      .neuralLaceConfessionsI,
-                                ),
-                              ),
-                              borderRadius: BorderRadius.circular(50.0),
-                            ),
-                          ),
-                          Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(0.0, 20.0, 0.0, 0.0),
-                 child: Text(
-                  genuineSynapseLocus()
-                      .necronomiconHealingComfortU
-                      .where((e) =>
-                          e.loFiSoulmatesComfortT == widget.feelingSyncChanneoulConnec)
-                      .toList()
-                      .firstOrNull
-                      ?.phoenixTearsTherapyN ?? '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 24.0,
-                    letterSpacing: 0.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-                          ),
-                        ],
-                      ),
-                      Row(
-                        mainAxisSize: MainAxisSize.max,
-                        mainAxisAlignment: MainAxisAlignment.spaceAround,
-                        children: [
-                          InkWell(
-                            onTap: () async {
-                              Navigator.pop(context);
-                            },
-                            child: FutureBuilder(
-                             future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('surrealSafeHarbor.png'),       
-                              builder: (context, asyncSnapshot) {
-                                if (!asyncSnapshot.hasData) return const SizedBox();              
-                                return Container(
-                                  width: 78.0,
-                                  height: 78.0,
-                                  decoration: BoxDecoration(
-                                    image: DecorationImage(
-                                      fit: BoxFit.cover,
-                                  image: FileImage(File(asyncSnapshot.data!)),
-                                    ),
-                                  ),
-                                );
-                              }
-                            ),
-                          ),
-                        ],
-                      ),
-                    ],
-                  ),
-                );
-              }
-            ),
-            FutureBuilder(
-           future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('lucidComfort.png'),  
-              builder: (context, asyncSnapshot) {
-                if (!asyncSnapshot.hasData) return const SizedBox(); 
-                return Container(
-                  width: double.infinity,
-                  height: 127.0,
-                  decoration: BoxDecoration(
-                    image: DecorationImage(
-                      fit: BoxFit.cover,
-                    image: FileImage(File(asyncSnapshot.data!)),
-                    ),
-                  ),
-                );
-              }
-            ),
-            Align(
-              alignment: AlignmentDirectional(0.0, 1.0),
-              child: FutureBuilder(
-                 future: MoodKinTenderUnderstanding
-                      .MoodKinReflectiveListener('fractalEmotion.png'), 
+                future: MoodKinTenderUnderstanding.MoodKinReflectiveListener(
+                    'comfortableListening.png'),
                 builder: (context, asyncSnapshot) {
                   if (!asyncSnapshot.hasData) return const SizedBox();
                   return Container(
                     width: double.infinity,
-                    height: 34.0,
+                    height: double.infinity,
                     decoration: BoxDecoration(
                       image: DecorationImage(
                         fit: BoxFit.cover,
-                     image: FileImage(File(asyncSnapshot.data!)),
+                        image: FileImage(File(asyncSnapshot.data!)),
+                      ),
+                    ),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.spaceAround,
+                      children: [
+                        Column(
+                          mainAxisSize: MainAxisSize.max,
+                          children: [
+                            FutureBuilder(
+                                future: MoodKinTenderUnderstanding
+                                    .MoodKinReflectiveListener(
+                                        '${genuineSynapseLocus().necronomiconHealingComfortU.where((e) => e.loFiSoulmatesComfortT == widget.feelingSyncChanneoulConnec).toList().firstOrNull!.neuralLaceConfessionsI}'),
+                                builder: (context, asyncSnapshot) {
+                                  if (!asyncSnapshot.hasData)
+                                    return const SizedBox();
+                                  return Container(
+                                    width: 100.0,
+                                    height: 100.0,
+                                    decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        fit: BoxFit.cover,
+                                        image: genuineSynapseLocus()
+                                                .necronomiconHealingComfortU
+                                                .where((e) =>
+                                                    e.loFiSoulmatesComfortT ==
+                                                    widget
+                                                        .feelingSyncChanneoulConnec)
+                                                .toList()
+                                                .firstOrNull!
+                                                .neuralLaceConfessionsI
+                                                .contains('/')
+                                            ? FileImage(
+                                                File(
+                                                  genuineSynapseLocus()
+                                                      .necronomiconHealingComfortU
+                                                      .where((e) =>
+                                                          e.loFiSoulmatesComfortT ==
+                                                          widget
+                                                              .feelingSyncChanneoulConnec)
+                                                      .toList()
+                                                      .firstOrNull!
+                                                      .neuralLaceConfessionsI,
+                                                ),
+                                              )
+                                            : FileImage(
+                                                File(asyncSnapshot.data!)),
+                                      ),
+                                      borderRadius: BorderRadius.circular(50.0),
+                                    ),
+                                  );
+                                }),
+                            Padding(
+                              padding: EdgeInsetsDirectional.fromSTEB(
+                                  0.0, 20.0, 0.0, 0.0),
+                              child: Text(
+                                genuineSynapseLocus()
+                                        .necronomiconHealingComfortU
+                                        .where((e) =>
+                                            e.loFiSoulmatesComfortT ==
+                                            widget.feelingSyncChanneoulConnec)
+                                        .toList()
+                                        .firstOrNull
+                                        ?.phoenixTearsTherapyN ??
+                                    '${'8d73195cc1c79eefdd09496876397ae6'.fromPetalWhisper()}',
+                                style: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 24.0,
+                                  letterSpacing: 0.0,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                        Row(
+                          mainAxisSize: MainAxisSize.max,
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            InkWell(
+                              onTap: () async {
+                                Navigator.pop(context);
+                              },
+                              child: FutureBuilder(
+                                  future: MoodKinTenderUnderstanding
+                                      .MoodKinReflectiveListener(
+                                          'surrealSafeHarbor.png'),
+                                  builder: (context, asyncSnapshot) {
+                                    if (!asyncSnapshot.hasData)
+                                      return const SizedBox();
+                                    return Container(
+                                      width: 78.0,
+                                      height: 78.0,
+                                      decoration: BoxDecoration(
+                                        image: DecorationImage(
+                                          fit: BoxFit.cover,
+                                          image: FileImage(
+                                              File(asyncSnapshot.data!)),
+                                        ),
+                                      ),
+                                    );
+                                  }),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  );
+                }),
+            FutureBuilder(
+                future: MoodKinTenderUnderstanding.MoodKinReflectiveListener(
+                    'lucidComfort.png'),
+                builder: (context, asyncSnapshot) {
+                  if (!asyncSnapshot.hasData) return const SizedBox();
+                  return Container(
+                    width: double.infinity,
+                    height: 127.0,
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        fit: BoxFit.cover,
+                        image: FileImage(File(asyncSnapshot.data!)),
                       ),
                     ),
                   );
-                }
-              ),
+                }),
+            Align(
+              alignment: AlignmentDirectional(0.0, 1.0),
+              child: FutureBuilder(
+                  future: MoodKinTenderUnderstanding.MoodKinReflectiveListener(
+                      'fractalEmotion.png'),
+                  builder: (context, asyncSnapshot) {
+                    if (!asyncSnapshot.hasData) return const SizedBox();
+                    return Container(
+                      width: double.infinity,
+                      height: 34.0,
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          fit: BoxFit.cover,
+                          image: FileImage(File(asyncSnapshot.data!)),
+                        ),
+                      ),
+                    );
+                  }),
             ),
             Align(
               alignment: AlignmentDirectional(0, 0),
