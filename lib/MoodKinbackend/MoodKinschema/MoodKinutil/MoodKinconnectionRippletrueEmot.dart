@@ -1,11 +1,8 @@
 import 'dart:convert';
-
-import 'package:flutter/material.dart';
-import 'package:from_css_color/from_css_color.dart';
 import 'package:vuria/MoodKinvulnerablePocketAngular/MoodKinemotionTraceexpressive/MoodKinreflectionTriggeibeouchFlow.dart';
 export 'package:collection/collection.dart' show ListEquality;
 export 'package:flutter/material.dart' show Color, Colors;
-export 'package:from_css_color/from_css_color.dart';
+
 
 typedef StructBuilder<T> = T Function(Map<String, dynamic> data);
 
@@ -59,9 +56,4 @@ List<T>? getStructList<T>(
             .map((e) => structBuilder(e as Map<String, dynamic>))
             .toList();
 
-Color? getSchemaColor(dynamic value) => value is String
-    ? fromCssColor(value)
-    : value is Color
-        ? value
-        : null;
 

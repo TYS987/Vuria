@@ -43,8 +43,7 @@ String? serializeParam(
       case ParamType.DateTimeRange:
         data = dateTimeRangeToString(param as DateTimeRange);
 
-      case ParamType.Color:
-        data = (param as Color).toCssString();
+
 
 
       case ParamType.JSON:
@@ -140,8 +139,6 @@ dynamic deserializeParam<T>(
       case ParamType.DateTimeRange:
         return dateTimeRangeFromString(param);
 
-      case ParamType.Color:
-        return fromCssColor(param);
 
 
       case ParamType.JSON:
